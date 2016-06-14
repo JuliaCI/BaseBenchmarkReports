@@ -395,76 +395,76 @@ WARNING: blas_set_num_threads is deprecated, use BLAS.set_num_threads instead.
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 8
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 8
 INFO: Recompiling stale cache file /home/nanosoldier/.julia/lib/v0.5/Compat.ji for module Compat.
 INFO: Recompiling stale cache file /home/nanosoldier/.julia/lib/v0.5/JLD.ji for module JLD.
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.WORD_SIZE is deprecated.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.WORD_SIZE is deprecated.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.WORD_SIZE is deprecated.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.ASCIIString is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.WORD_SIZE is deprecated.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.WORD_SIZE is deprecated.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.UTF8String is deprecated, use String instead.
   likely near /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/problem/IMDBGraphs.jl:6
 WARNING: Base.UTF8String is deprecated, use String instead.
   likely near /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/problem/IMDBGraphs.jl:12
 WARNING: Base.WORD_SIZE is deprecated.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.WORD_SIZE is deprecated.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.WORD_SIZE is deprecated.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.WORD_SIZE is deprecated.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.WORD_SIZE is deprecated.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 WARNING: Base.WORD_SIZE is deprecated.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 in #jldopen#5 at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl
 WARNING: Base.WORD_SIZE is deprecated.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 in #jldopen#5 at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl
 WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
@@ -480,12 +480,12 @@ WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_st
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 16
 WARNING: Base.ASCIIString is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 in hdf5_to_julia_eltype at /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:16
 in hdf5_to_julia_eltype at /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl
 WARNING: bytestring(v::Vector{UInt8}) is deprecated, use String(copy(v)) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
@@ -503,7 +503,7 @@ WARNING: bytestring(v::Vector{UInt8}) is deprecated, use String(copy(v)) instead
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 16
 WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
@@ -519,7 +519,7 @@ WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_st
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 16
 WARNING: bytestring(v::Vector{UInt8}) is deprecated, use String(copy(v)) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::Array{UInt8,1}) at ./deprecated.jl:50
@@ -547,7 +547,7 @@ WARNING: bytestring(v::Vector{UInt8}) is deprecated, use String(copy(v)) instead
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 16
 WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
@@ -588,7 +588,7 @@ WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_st
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 16
 WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
@@ -629,7 +629,7 @@ WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_st
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 16
 WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
@@ -670,7 +670,7 @@ WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_st
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 16
 WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
@@ -711,7 +711,7 @@ WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_st
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 16
 WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
@@ -752,7 +752,7 @@ WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_st
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 16
 WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
@@ -793,7 +793,7 @@ WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_st
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 16
 WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
@@ -834,7 +834,7 @@ WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_st
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 16
 WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
@@ -875,7 +875,7 @@ WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_st
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 16
 WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
@@ -917,7 +917,7 @@ WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_st
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 16
 WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
@@ -958,7 +958,7 @@ WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_st
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 16
 WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
@@ -999,7 +999,7 @@ WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_st
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 16
 WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
@@ -1040,7 +1040,7 @@ WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_st
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 16
 WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
@@ -1081,7 +1081,7 @@ WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_st
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 16
 WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
@@ -1122,7 +1122,7 @@ WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_st
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 16
 WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
@@ -1163,75 +1163,7 @@ WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_st
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 16
-WARNING: could not attach metadata for @simd loop.
-WARNING: could not attach metadata for @simd loop.
-WARNING: could not attach metadata for @simd loop.
-WARNING: could not attach metadata for @simd loop.
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
-WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:22
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 16
 WARNING: x::Integer == y::Char is deprecated, use x == UInt32(y) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in ==(::UInt8, ::Char) at ./deprecated.jl:50
@@ -1252,13 +1184,13 @@ WARNING: x::Integer == y::Char is deprecated, use x == UInt32(y) instead.
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 22
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:28
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:28
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:28
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:28
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:28
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:28
 WARNING: bytestring(s::AbstractString...) is deprecated, use string(s...) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::String) at ./deprecated.jl:50
@@ -1277,7 +1209,7 @@ WARNING: bytestring(s::AbstractString...) is deprecated, use string(s...) instea
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 28
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 28
 WARNING: bytestring(s::AbstractString...) is deprecated, use string(s...) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::String) at ./deprecated.jl:50
@@ -1296,7 +1228,7 @@ WARNING: bytestring(s::AbstractString...) is deprecated, use string(s...) instea
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 28
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 28
 WARNING: bytestring(s::AbstractString...) is deprecated, use string(s...) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::String) at ./deprecated.jl:50
@@ -1315,7 +1247,7 @@ WARNING: bytestring(s::AbstractString...) is deprecated, use string(s...) instea
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 28
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 28
 WARNING: bytestring(s::AbstractString...) is deprecated, use string(s...) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::String) at ./deprecated.jl:50
@@ -1334,7 +1266,7 @@ WARNING: bytestring(s::AbstractString...) is deprecated, use string(s...) instea
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 28
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 28
 WARNING: bytestring(s::AbstractString...) is deprecated, use string(s...) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::String) at ./deprecated.jl:50
@@ -1348,15 +1280,15 @@ WARNING: bytestring(s::AbstractString...) is deprecated, use string(s...) instea
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 28
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 28
 WARNING: Base.ByteString is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:28
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:28
 WARNING: Base.ByteString is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:28
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:28
 WARNING: Base.ByteString is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:28
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:28
 WARNING: Base.ByteString is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl:28
+  likely near /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl:28
 WARNING: bytestring(s::AbstractString...) is deprecated, use string(s...) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::String) at ./deprecated.jl:50
@@ -1384,7 +1316,7 @@ WARNING: bytestring(s::AbstractString...) is deprecated, use string(s...) instea
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 28
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 28
 WARNING: bytestring(s::AbstractString...) is deprecated, use string(s...) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in bytestring(::String) at ./deprecated.jl:50
@@ -1428,4 +1360,4 @@ WARNING: bytestring(s::AbstractString...) is deprecated, use string(s...) instea
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:266
  in _start() at ./client.jl:322
-while loading /home/nanosoldier/workdir/tmpzvxOjR/benchscript.jl, in expression starting on line 28
+while loading /home/nanosoldier/workdir/tmpOJrWO0/benchscript.jl, in expression starting on line 28
