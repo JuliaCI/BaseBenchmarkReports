@@ -4,9 +4,9 @@
 
 *Commit(s):* [JuliaLang/julia@404da70efb63e018a82cc29ab090341dd55ba921](https://github.com/JuliaLang/julia/commit/404da70efb63e018a82cc29ab090341dd55ba921) vs [JuliaLang/julia@9a2c1445862f69a70d074e9df2bf7469c64b0959](https://github.com/JuliaLang/julia/commit/9a2c1445862f69a70d074e9df2bf7469c64b0959)
 
-*Triggered By:* [link](https://github.com/JuliaLang/julia/commit/404da70efb63e018a82cc29ab090341dd55ba921#commitcomment-17864474)
+*Triggered By:* [link](https://github.com/JuliaLang/julia/commit/404da70efb63e018a82cc29ab090341dd55ba921#commitcomment-17867166)
 
-*Tag Predicate:* `ALL`
+*Tag Predicate:* `"shootout"`
 
 ## Results
 
@@ -29,50 +29,12 @@ benchmark results remained invariant between builds).
 
 | ID | time ratio | memory ratio |
 |----|------------|--------------|
-| `["shootout","revcomp"]` | 1.33 (15%) :x: | 1.00 (1%)  |
 
 ## Benchmark Group List
 
 Here's a list of all the benchmark groups executed by this job:
 
-- `["array","bool"]`
-- `["array","cat"]`
-- `["array","comprehension"]`
-- `["array","growth"]`
-- `["array","index"]`
-- `["array","reverse"]`
-- `["array","setindex!"]`
-- `["array","subarray"]`
-- `["io","read"]`
-- `["io"]`
-- `["linalg","arithmetic"]`
-- `["linalg","blas"]`
-- `["linalg","factorization"]`
-- `["micro"]`
-- `["parallel","remotecall"]`
-- `["problem","fem"]`
-- `["problem","go"]`
-- `["problem","grigoriadis khachiyan"]`
-- `["problem","imdb"]`
-- `["problem","json"]`
-- `["problem","laplacian"]`
-- `["problem","monte carlo"]`
-- `["problem"]`
-- `["problem","seismic"]`
-- `["scalar","arithmetic"]`
-- `["scalar","fastmath"]`
-- `["scalar","iteration"]`
-- `["scalar","predicate"]`
 - `["shootout"]`
-- `["simd"]`
-- `["sort","insertionsort"]`
-- `["sort","issorted"]`
-- `["sort","mergesort"]`
-- `["sort","quicksort"]`
-- `["sparse","index"]`
-- `["sparse","transpose"]`
-- `["string"]`
-- `["tuple","index"]`
 
 ## Version Info
 
@@ -87,15 +49,15 @@ Platform Info:
   WORD_SIZE: 64
            Ubuntu 14.04.4 LTS
   uname: Linux 3.13.0-85-generic #129-Ubuntu SMP Thu Mar 17 20:50:15 UTC 2016 x86_64 x86_64
-Memory: 31.383651733398438 GB (27393.48046875 MB free)
-Uptime: 1.573485e6 sec
-Load Avg:  1.12353515625  1.04443359375  0.97607421875
+Memory: 31.383651733398438 GB (27688.53125 MB free)
+Uptime: 1.581878e6 sec
+Load Avg:  0.99609375  0.92919921875  0.88427734375
 Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz: 
        speed         user         nice          sys         idle          irq
-#1  3501 MHz    1334953 s          0 s     390265 s  155221618 s          4 s
-#2  3501 MHz    4337222 s          0 s     258899 s  152657407 s          0 s
-#3  3501 MHz    1941154 s          0 s     264884 s  155055463 s          1 s
-#4  3501 MHz    1663762 s          0 s     244070 s  155359840 s          0 s
+#1  3501 MHz     757687 s          0 s     284614 s  156787529 s          4 s
+#2  3501 MHz    2106830 s          0 s     229376 s  155718999 s          1 s
+#3  3501 MHz     988563 s          0 s     187116 s  156920141 s          1 s
+#4  3501 MHz     606910 s          0 s     163096 s  157350839 s          1 s
 
   BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell)
   LAPACK: libopenblas64_
@@ -115,15 +77,15 @@ Platform Info:
   WORD_SIZE: 64
            Ubuntu 14.04.4 LTS
   uname: Linux 3.13.0-85-generic #129-Ubuntu SMP Thu Mar 17 20:50:15 UTC 2016 x86_64 x86_64
-Memory: 31.383651733398438 GB (27241.85546875 MB free)
-Uptime: 1.578072e6 sec
-Load Avg:  0.9228515625  0.998046875  0.9638671875
+Memory: 31.383651733398438 GB (27680.11328125 MB free)
+Uptime: 1.585063e6 sec
+Load Avg:  0.9970703125  0.9287109375  0.90673828125
 Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz: 
        speed         user         nice          sys         idle          irq
-#1  3501 MHz    1393146 s          0 s     397618 s  155613417 s          4 s
-#2  3501 MHz    4519268 s          0 s     264739 s  152927679 s          1 s
-#3  3501 MHz    2066490 s          0 s     274081 s  155378915 s          1 s
-#4  3501 MHz    1728068 s          0 s     250972 s  155746638 s          0 s
+#1  3501 MHz     791823 s          0 s     290242 s  157065380 s          4 s
+#2  3501 MHz    2156133 s          0 s     235619 s  155981468 s          1 s
+#3  3501 MHz    1124985 s          0 s     196575 s  157092106 s          1 s
+#4  3501 MHz     677182 s          0 s     169905 s  157591785 s          1 s
 
   BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell)
   LAPACK: libopenblas64_
