@@ -4,7 +4,7 @@
 
 *Commit(s):* [JuliaLang/julia@37a70a58f693a87e6d232702c11eb4920d9ab4fb](https://github.com/JuliaLang/julia/commit/37a70a58f693a87e6d232702c11eb4920d9ab4fb) vs [JuliaLang/julia@2ac304dfba75fad148d4070ef4f8a2e400c305bb](https://github.com/JuliaLang/julia/commit/2ac304dfba75fad148d4070ef4f8a2e400c305bb)
 
-*Triggered By:* [link](https://github.com/JuliaLang/julia/pull/16980#issuecomment-226986755)
+*Triggered By:* [link](https://github.com/JuliaLang/julia/pull/16980#issuecomment-226995502)
 
 *Tag Predicate:* `ALL`
 
@@ -29,22 +29,12 @@ benchmark results remained invariant between builds).
 
 | ID | time ratio | memory ratio |
 |----|------------|--------------|
-| `["io","read"]` | 1.18 (15%) :x: | 1.00 (1%)  |
 | `["linalg","arithmetic",("/","UpperTriangular","UpperTriangular",256)]` | 0.69 (30%) :white_check_mark: | 1.00 (1%)  |
-| `["linalg","blas","axpy!"]` | 1.21 (15%) :x: | 1.00 (1%)  |
-| `["linalg","blas","dot"]` | 1.56 (15%) :x: | 1.00 (1%)  |
-| `["linalg","blas","dotc"]` | 1.46 (15%) :x: | 1.00 (1%)  |
-| `["linalg","blas","dotu"]` | 1.45 (15%) :x: | 1.00 (1%)  |
-| `["linalg","blas","sbmv!"]` | 1.18 (15%) :x: | 1.00 (1%)  |
-| `["linalg","blas","symv!"]` | 1.28 (15%) :x: | 1.00 (1%)  |
-| `["linalg","blas","symv"]` | 1.24 (15%) :x: | 1.00 (1%)  |
-| `["linalg","blas","trsv!"]` | 1.25 (20%) :x: | 1.00 (1%)  |
+| `["linalg","blas","dotc"]` | 0.69 (15%) :white_check_mark: | 1.00 (1%)  |
+| `["linalg","blas","dotu"]` | 0.68 (15%) :white_check_mark: | 1.00 (1%)  |
 | `["scalar","arithmetic",("div","Float64","Complex{UInt64}")]` | 1.89 (50%) :x: | 1.00 (1%)  |
-| `["sort","quicksort",("sort forwards","ones")]` | 1.25 (15%) :x: | 1.00 (1%)  |
-| `["sort","quicksort",("sort reverse","ones")]` | 0.83 (15%) :white_check_mark: | 1.00 (1%)  |
-| `["sort","quicksort",("sort! forwards","ones")]` | 1.19 (15%) :x: | 1.00 (1%)  |
-| `["sort","quicksort",("sort! reverse","ones")]` | 0.84 (15%) :white_check_mark: | 1.00 (1%)  |
-| `["sparse","index",("spmat","col","array",1000)]` | 1.17 (15%) :x: | 1.00 (1%)  |
+| `["sort","quicksort",("sort reverse","ones")]` | 0.84 (15%) :white_check_mark: | 1.00 (1%)  |
+| `["sort","quicksort",("sort! reverse","ones")]` | 0.82 (15%) :white_check_mark: | 1.00 (1%)  |
 
 ## Benchmark Group List
 
@@ -102,15 +92,15 @@ Platform Info:
   WORD_SIZE: 64
            Ubuntu 14.04.4 LTS
   uname: Linux 3.13.0-85-generic #129-Ubuntu SMP Thu Mar 17 20:50:15 UTC 2016 x86_64 x86_64
-Memory: 31.383651733398438 GB (27111.8671875 MB free)
-Uptime: 1.975727e6 sec
-Load Avg:  1.0029296875  1.00537109375  0.95458984375
+Memory: 31.383651733398438 GB (27055.07421875 MB free)
+Uptime: 1.989524e6 sec
+Load Avg:  1.0029296875  0.98876953125  0.95458984375
 Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz: 
        speed         user         nice          sys         idle          irq
-#1  3501 MHz    2067390 s          0 s     468797 s  194582203 s          6 s
-#2  3501 MHz    5970024 s          0 s     401152 s  191029484 s          1 s
-#3  3501 MHz    2360398 s          0 s     341901 s  194745464 s          2 s
-#4  3501 MHz    1582724 s          0 s     302333 s  195595473 s          1 s
+#1  3501 MHz    2162976 s          0 s     483265 s  195847777 s          6 s
+#2  3501 MHz    6344155 s          0 s     414636 s  192020087 s          1 s
+#3  3501 MHz    2454959 s          0 s     354542 s  196016105 s          2 s
+#4  3501 MHz    1757921 s          0 s     317586 s  196783421 s          1 s
 
   BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell)
   LAPACK: libopenblas64_
@@ -130,15 +120,15 @@ Platform Info:
   WORD_SIZE: 64
            Ubuntu 14.04.4 LTS
   uname: Linux 3.13.0-85-generic #129-Ubuntu SMP Thu Mar 17 20:50:15 UTC 2016 x86_64 x86_64
-Memory: 31.383651733398438 GB (26978.421875 MB free)
-Uptime: 1.979011e6 sec
-Load Avg:  1.0029296875  1.001953125  1.04541015625
+Memory: 31.383651733398438 GB (26964.453125 MB free)
+Uptime: 1.99276e6 sec
+Load Avg:  1.0029296875  1.0146484375  1.0595703125
 Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz: 
        speed         user         nice          sys         idle          irq
-#1  3501 MHz    2115791 s          0 s     475033 s  194854729 s          6 s
-#2  3501 MHz    6150749 s          0 s     407378 s  191170300 s          1 s
-#3  3501 MHz    2408597 s          0 s     347994 s  195018806 s          2 s
-#4  3501 MHz    1679090 s          0 s     310136 s  195819093 s          1 s
+#1  3501 MHz    2253307 s          0 s     491493 s  196071514 s          6 s
+#2  3501 MHz    6530624 s          0 s     421206 s  192149915 s          1 s
+#3  3501 MHz    2494208 s          0 s     360348 s  196293720 s          2 s
+#4  3501 MHz    1809364 s          0 s     323295 s  197049222 s          1 s
 
   BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell)
   LAPACK: libopenblas64_

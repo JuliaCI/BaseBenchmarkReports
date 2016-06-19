@@ -1,8 +1,8 @@
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmptexDGK/usr/lib'
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpzgHNuk/usr/lib'
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   319  100   319    0     0    205      0  0:00:01  0:00:01 --:--:--   205100   319  100   319    0     0    205      0  0:00:01  0:00:01 --:--:--   205
-  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100 1072k  100 1072k    0     0   448k      0  0:00:02  0:00:02 --:--:-- 1821k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100   319  100   319    0     0    173      0  0:00:01  0:00:01 --:--:--   173100   319  100   319    0     0    173      0  0:00:01  0:00:01 --:--:--   173
+ 48 1072k   48  525k    0     0   201k      0  0:00:05  0:00:02  0:00:03  201k100 1072k  100 1072k    0     0   400k      0  0:00:02  0:00:02 --:--:-- 8418k
 ptrace/_UPT_get_dyn_info_list_addr.c: In function 'get_list_addr':
 ptrace/_UPT_get_dyn_info_list_addr.c:78:3: warning: #warning Implement get_list_addr(), please. [-Wcpp]
  # warning Implement get_list_addr(), please.
@@ -11,11 +11,11 @@ coredump/_UPT_get_dyn_info_list_addr.c: In function 'get_list_addr':
 coredump/_UPT_get_dyn_info_list_addr.c:81:3: warning: #warning Implement get_list_addr(), please. [-Wcpp]
  # warning Implement get_list_addr(), please.
    ^
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmptexDGK/usr/lib'
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpzgHNuk/usr/lib'
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0   1291      0 --:--:-- --:--:-- --:--:--  1293
-100  140k  100  140k    0     0   240k      0 --:--:-- --:--:-- --:--:--  240k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0   1272      0 --:--:-- --:--:-- --:--:--  1273
+100  140k  100  140k    0     0   290k      0 --:--:-- --:--:-- --:--:--  290k100  140k  100  140k    0     0   290k      0 --:--:-- --:--:-- --:--:--     0
 Note: checking out '3ee2a6e6a9fc68cbf2ab00f830b9059215e40b06'.
 
 You are in 'detached HEAD' state. You can look around, make experimental
@@ -103,48 +103,48 @@ src/s_cpowl.c:69:23: warning: incompatible implicit declaration of built-in func
                        ^
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   323  100   323    0     0    515      0 --:--:-- --:--:-- --:--:--   515100   323  100   323    0     0    515      0 --:--:-- --:--:-- --:--:--   515
-100  284k  100  284k    0     0   334k      0 --:--:-- --:--:-- --:--:--  334k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   323  100   323    0     0    532      0 --:--:-- --:--:-- --:--:--   531100   323  100   323    0     0    531      0 --:--:-- --:--:-- --:--:--   531
+100  284k  100  284k    0     0   284k      0  0:00:01  0:00:01 --:--:--  284k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0   1419      0 --:--:-- --:--:-- --:--:--  1421
-  4 12.9M    4  574k    0     0   945k      0  0:00:14 --:--:--  0:00:14  945k100 12.9M  100 12.9M    0     0  12.4M      0  0:00:01  0:00:01 --:--:-- 28.7M
-/home/nanosoldier/workdir/tmptexDGK/deps/llvm-3.3/lib/Support/ThreadLocal.cpp: In member function ‘void llvm::sys::ThreadLocalImpl::setInstance(const void*)’:
-/home/nanosoldier/workdir/tmptexDGK/deps/llvm-3.3/lib/Support/ThreadLocal.cpp:29:15: warning: typedef ‘SIZE_TOO_BIG’ locally defined but not used [-Wunused-local-typedefs]
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0    940      0 --:--:-- --:--:-- --:--:--   937100   317  100   317    0     0    940      0 --:--:-- --:--:-- --:--:--   937
+100 12.9M  100 12.9M    0     0  12.0M      0  0:00:01  0:00:01 --:--:-- 12.0M
+/home/nanosoldier/workdir/tmpzgHNuk/deps/llvm-3.3/lib/Support/ThreadLocal.cpp: In member function ‘void llvm::sys::ThreadLocalImpl::setInstance(const void*)’:
+/home/nanosoldier/workdir/tmpzgHNuk/deps/llvm-3.3/lib/Support/ThreadLocal.cpp:29:15: warning: typedef ‘SIZE_TOO_BIG’ locally defined but not used [-Wunused-local-typedefs]
    typedef int SIZE_TOO_BIG[sizeof(d) <= sizeof(data) ? 1 : -1];
                ^
-/home/nanosoldier/workdir/tmptexDGK/deps/llvm-3.3/lib/CodeGen/MachineBlockPlacement.cpp: In member function ‘void {anonymous}::MachineBlockPlacement::buildCFGChains(llvm::MachineFunction&)’:
-/home/nanosoldier/workdir/tmptexDGK/deps/llvm-3.3/lib/CodeGen/MachineBlockPlacement.cpp:942:48: warning: typedef ‘FunctionBlockSetType’ locally defined but not used [-Wunused-local-typedefs]
+/home/nanosoldier/workdir/tmpzgHNuk/deps/llvm-3.3/lib/CodeGen/MachineBlockPlacement.cpp: In member function ‘void {anonymous}::MachineBlockPlacement::buildCFGChains(llvm::MachineFunction&)’:
+/home/nanosoldier/workdir/tmpzgHNuk/deps/llvm-3.3/lib/CodeGen/MachineBlockPlacement.cpp:942:48: warning: typedef ‘FunctionBlockSetType’ locally defined but not used [-Wunused-local-typedefs]
    typedef SmallPtrSet<MachineBasicBlock *, 16> FunctionBlockSetType;
                                                 ^
-/home/nanosoldier/workdir/tmptexDGK/deps/llvm-3.3/lib/Target/X86/AsmParser/X86AsmParser.cpp: In function ‘void RewriteIntelBracExpression(llvm::SmallVectorImpl<llvm::AsmRewrite>*, llvm::StringRef, int64_t, int64_t, llvm::SMLoc&, llvm::SMLoc&, llvm::SMLoc&)’:
-/home/nanosoldier/workdir/tmptexDGK/deps/llvm-3.3/lib/Target/X86/AsmParser/X86AsmParser.cpp:1182:12: warning: variable ‘Found’ set but not used [-Wunused-but-set-variable]
+/home/nanosoldier/workdir/tmpzgHNuk/deps/llvm-3.3/lib/Target/X86/AsmParser/X86AsmParser.cpp: In function ‘void RewriteIntelBracExpression(llvm::SmallVectorImpl<llvm::AsmRewrite>*, llvm::StringRef, int64_t, int64_t, llvm::SMLoc&, llvm::SMLoc&, llvm::SMLoc&)’:
+/home/nanosoldier/workdir/tmpzgHNuk/deps/llvm-3.3/lib/Target/X86/AsmParser/X86AsmParser.cpp:1182:12: warning: variable ‘Found’ set but not used [-Wunused-but-set-variable]
        bool Found = false;
             ^
-/home/nanosoldier/workdir/tmptexDGK/deps/llvm-3.3/lib/ExecutionEngine/MCJIT/SectionMemoryManager.cpp: In function ‘const char* llvm::processFDE(const char*)’:
-/home/nanosoldier/workdir/tmptexDGK/deps/llvm-3.3/lib/ExecutionEngine/MCJIT/SectionMemoryManager.cpp:162:34: warning: cast from type ‘const char*’ to type ‘uint32_t* {aka unsigned int*}’ casts away qualifiers [-Wcast-qual]
+/home/nanosoldier/workdir/tmpzgHNuk/deps/llvm-3.3/lib/ExecutionEngine/MCJIT/SectionMemoryManager.cpp: In function ‘const char* llvm::processFDE(const char*)’:
+/home/nanosoldier/workdir/tmpzgHNuk/deps/llvm-3.3/lib/ExecutionEngine/MCJIT/SectionMemoryManager.cpp:162:34: warning: cast from type ‘const char*’ to type ‘uint32_t* {aka unsigned int*}’ casts away qualifiers [-Wcast-qual]
    uint32_t Length = *((uint32_t*)P);
                                   ^
-/home/nanosoldier/workdir/tmptexDGK/deps/llvm-3.3/lib/ExecutionEngine/MCJIT/SectionMemoryManager.cpp:164:34: warning: cast from type ‘const char*’ to type ‘uint32_t* {aka unsigned int*}’ casts away qualifiers [-Wcast-qual]
+/home/nanosoldier/workdir/tmpzgHNuk/deps/llvm-3.3/lib/ExecutionEngine/MCJIT/SectionMemoryManager.cpp:164:34: warning: cast from type ‘const char*’ to type ‘uint32_t* {aka unsigned int*}’ casts away qualifiers [-Wcast-qual]
    uint32_t Offset = *((uint32_t*)P);
                                   ^
-/home/nanosoldier/workdir/tmptexDGK/deps/llvm-3.3/lib/ExecutionEngine/MCJIT/SectionMemoryManager.cpp:166:29: warning: cast from type ‘const char*’ to type ‘void*’ casts away qualifiers [-Wcast-qual]
+/home/nanosoldier/workdir/tmpzgHNuk/deps/llvm-3.3/lib/ExecutionEngine/MCJIT/SectionMemoryManager.cpp:166:29: warning: cast from type ‘const char*’ to type ‘void*’ casts away qualifiers [-Wcast-qual]
      __register_frame((void*)Entry);
                              ^
-/home/nanosoldier/workdir/tmptexDGK/deps/llvm-3.3/unittests/IR/ValueMapTest.cpp: In function ‘void {anonymous}::CompileAssertHasType(VarType)’:
-/home/nanosoldier/workdir/tmptexDGK/deps/llvm-3.3/unittests/IR/ValueMapTest.cpp:120:16: warning: typedef ‘assert’ locally defined but not used [-Wunused-local-typedefs]
+/home/nanosoldier/workdir/tmpzgHNuk/deps/llvm-3.3/unittests/IR/ValueMapTest.cpp: In function ‘void {anonymous}::CompileAssertHasType(VarType)’:
+/home/nanosoldier/workdir/tmpzgHNuk/deps/llvm-3.3/unittests/IR/ValueMapTest.cpp:120:16: warning: typedef ‘assert’ locally defined but not used [-Wunused-local-typedefs]
    typedef char assert[is_same<ExpectedType, VarType>::value ? 1 : -1];
                 ^
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0    322      0 --:--:-- --:--:-- --:--:--   322100   317  100   317    0     0    322      0 --:--:-- --:--:-- --:--:--   322
- 47 1326k   47  627k    0     0   349k      0  0:00:03  0:00:01  0:00:02  349k100 1326k  100 1326k    0     0   712k      0  0:00:01  0:00:01 --:--:-- 10.1M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0    321      0 --:--:-- --:--:-- --:--:--   321100   317  100   317    0     0    321      0 --:--:-- --:--:-- --:--:--   321
+100 1326k  100 1326k    0     0   897k      0  0:00:01  0:00:01 --:--:--  897k
 libtool: warning: relinking 'libpcre2-posix.la'
-libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmptexDGK/usr/lib'
-libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmptexDGK/usr/lib'
-libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmptexDGK/usr/lib'
-libtool: warning: 'libpcre2-posix.la' has not been installed in '/home/nanosoldier/workdir/tmptexDGK/usr/lib'
-libtool: warning: '/home/nanosoldier/workdir/tmptexDGK/deps/pcre2-10.20/libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmptexDGK/usr/lib'
+libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpzgHNuk/usr/lib'
+libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpzgHNuk/usr/lib'
+libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpzgHNuk/usr/lib'
+libtool: warning: 'libpcre2-posix.la' has not been installed in '/home/nanosoldier/workdir/tmpzgHNuk/usr/lib'
+libtool: warning: '/home/nanosoldier/workdir/tmpzgHNuk/deps/pcre2-10.20/libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpzgHNuk/usr/lib'
 Note: checking out '12ab1804b6ebcd38b26960d65d254314d8bc33d6'.
 
 You are in 'detached HEAD' state. You can look around, make experimental
@@ -17203,28 +17203,28 @@ c_zblat3.f:1444.44:
 Warning: Unused dummy argument 'bs' at (1)
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   313  100   313    0     0    475      0 --:--:-- --:--:-- --:--:--   474
-  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100 3848k  100 3848k    0     0  2587k      0  0:00:01  0:00:01 --:--:-- 10.0M
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmptexDGK/usr/lib'
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   313  100   313    0     0    476      0 --:--:-- --:--:-- --:--:--   475
+ 61 3848k   61 2362k    0     0  1567k      0  0:00:02  0:00:01  0:00:01 1567k100 3848k  100 3848k    0     0  2465k      0  0:00:01  0:00:01 --:--:-- 27.3M
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpzgHNuk/usr/lib'
 libtool: install: warning: relinking `libfftw3f_threads.la'
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmptexDGK/usr/lib'
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpzgHNuk/usr/lib'
 This is not dpkg install-info anymore, but GNU install-info
 See the man page for ginstall-info for command line arguments
-libtool: install: warning: `../threads/libfftw3f_threads.la' has not been installed in `/home/nanosoldier/workdir/tmptexDGK/usr/lib'
-libtool: install: warning: `/home/nanosoldier/workdir/tmptexDGK/deps/fftw-3.3.4-single/libfftw3f.la' has not been installed in `/home/nanosoldier/workdir/tmptexDGK/usr/lib'
-libtool: install: warning: `../libfftw3f.la' has not been installed in `/home/nanosoldier/workdir/tmptexDGK/usr/lib'
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmptexDGK/usr/lib'
+libtool: install: warning: `../threads/libfftw3f_threads.la' has not been installed in `/home/nanosoldier/workdir/tmpzgHNuk/usr/lib'
+libtool: install: warning: `/home/nanosoldier/workdir/tmpzgHNuk/deps/fftw-3.3.4-single/libfftw3f.la' has not been installed in `/home/nanosoldier/workdir/tmpzgHNuk/usr/lib'
+libtool: install: warning: `../libfftw3f.la' has not been installed in `/home/nanosoldier/workdir/tmpzgHNuk/usr/lib'
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpzgHNuk/usr/lib'
 libtool: install: warning: relinking `libfftw3_threads.la'
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmptexDGK/usr/lib'
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpzgHNuk/usr/lib'
 This is not dpkg install-info anymore, but GNU install-info
 See the man page for ginstall-info for command line arguments
-libtool: install: warning: `../threads/libfftw3_threads.la' has not been installed in `/home/nanosoldier/workdir/tmptexDGK/usr/lib'
-libtool: install: warning: `/home/nanosoldier/workdir/tmptexDGK/deps/fftw-3.3.4-double/libfftw3.la' has not been installed in `/home/nanosoldier/workdir/tmptexDGK/usr/lib'
-libtool: install: warning: `../libfftw3.la' has not been installed in `/home/nanosoldier/workdir/tmptexDGK/usr/lib'
+libtool: install: warning: `../threads/libfftw3_threads.la' has not been installed in `/home/nanosoldier/workdir/tmpzgHNuk/usr/lib'
+libtool: install: warning: `/home/nanosoldier/workdir/tmpzgHNuk/deps/fftw-3.3.4-double/libfftw3.la' has not been installed in `/home/nanosoldier/workdir/tmpzgHNuk/usr/lib'
+libtool: install: warning: `../libfftw3.la' has not been installed in `/home/nanosoldier/workdir/tmpzgHNuk/usr/lib'
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   313  100   313    0     0    413      0 --:--:-- --:--:-- --:--:--   413
-  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100 2282k  100 2282k    0     0  1308k      0  0:00:01  0:00:01 --:--:-- 4785k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   313  100   313    0     0    298      0  0:00:01  0:00:01 --:--:--   298
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100 2282k  100 2282k    0     0  1128k      0  0:00:02  0:00:02 --:--:-- 4919k
 repl-vsnprintf.c:396:0: warning: ISO C forbids an empty translation unit [-Wpedantic]
  #endif /* ! HAVE_VSNPRINTF */
  ^
@@ -17250,18 +17250,18 @@ CMake Warning:
     CMAKE_CXX_COMPILER_ARG1
 
 
-/home/nanosoldier/workdir/tmptexDGK/deps/libgit2/src/openssl_stream.c: In function ‘openssl_certificate’:
-/home/nanosoldier/workdir/tmptexDGK/deps/libgit2/src/openssl_stream.c:367:2: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+/home/nanosoldier/workdir/tmpzgHNuk/deps/libgit2/src/openssl_stream.c: In function ‘openssl_certificate’:
+/home/nanosoldier/workdir/tmpzgHNuk/deps/libgit2/src/openssl_stream.c:367:2: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
   *out = (git_cert *)&st->cert_info;
   ^
-/home/nanosoldier/workdir/tmptexDGK/deps/libgit2/src/openssl_stream.c: In function ‘openssl_certificate’:
-/home/nanosoldier/workdir/tmptexDGK/deps/libgit2/src/openssl_stream.c:367:2: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+/home/nanosoldier/workdir/tmpzgHNuk/deps/libgit2/src/openssl_stream.c: In function ‘openssl_certificate’:
+/home/nanosoldier/workdir/tmpzgHNuk/deps/libgit2/src/openssl_stream.c:367:2: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
   *out = (git_cert *)&st->cert_info;
   ^
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   311  100   311    0     0    450      0 --:--:-- --:--:-- --:--:--   450
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  165k  100  165k    0     0   109k      0  0:00:01  0:00:01 --:--:--  239k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   311  100   311    0     0    474      0 --:--:-- --:--:-- --:--:--   474
+100  165k  100  165k    0     0   117k      0  0:00:01  0:00:01 --:--:--  117k
 randmtzig.c: In function ‘gv_randi’:
 randmtzig.c:92:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
      return *((uint64_t *) &r) & 0x000fffffffffffff;
@@ -17272,20 +17272,20 @@ randmtzig.c:104:5: warning: dereferencing type-punned pointer will break strict-
      ^
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   315  100   315    0     0    983      0 --:--:-- --:--:-- --:--:--   981
-100 1196k  100 1196k    0     0  1509k      0 --:--:-- --:--:-- --:--:-- 1509k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   315  100   315    0     0    974      0 --:--:-- --:--:-- --:--:--   972
+100 1196k  100 1196k    0     0  1435k      0 --:--:-- --:--:-- --:--:-- 1435k
 This is not dpkg install-info anymore, but GNU install-info
 See the man page for ginstall-info for command line arguments
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmptexDGK/usr/lib'
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpzgHNuk/usr/lib'
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   323  100   323    0     0    888      0 --:--:-- --:--:-- --:--:--   889
-100 1390k  100 1390k    0     0  1816k      0 --:--:-- --:--:-- --:--:-- 1816k
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmptexDGK/usr/lib'
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   323  100   323    0     0   2280      0 --:--:-- --:--:-- --:--:--  2290
+ 26 1390k   26  372k    0     0   565k      0  0:00:02 --:--:--  0:00:02  565k100 1390k  100 1390k    0     0  1788k      0 --:--:-- --:--:-- --:--:-- 8629k
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpzgHNuk/usr/lib'
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   327  100   327    0     0   1562      0 --:--:-- --:--:-- --:--:--  1564
-  0 24.4M    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 24.4M  100 24.4M    0     0  18.0M      0  0:00:01  0:00:01 --:--:-- 36.6M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   327  100   327    0     0   2016      0 --:--:-- --:--:-- --:--:--  2018
+  0 24.4M    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 24.4M  100 24.4M    0     0  18.0M      0  0:00:01  0:00:01 --:--:-- 34.4M
 ar: creating libcerbla.a
 ar: creating libsuitesparseconfig.a
 /bin/sh: 1: cd: can't cd to metis-4.0

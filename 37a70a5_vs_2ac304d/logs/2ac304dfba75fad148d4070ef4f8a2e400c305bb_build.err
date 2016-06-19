@@ -1,8 +1,8 @@
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmptuxe9e/usr/lib'
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpibtdY2/usr/lib'
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   319  100   319    0     0    988      0 --:--:-- --:--:-- --:--:--   990
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 1072k  100 1072k    0     0   890k      0  0:00:01  0:00:01 --:--:-- 1256k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   319  100   319    0     0    267      0  0:00:01  0:00:01 --:--:--   267100   319  100   319    0     0    267      0  0:00:01  0:00:01 --:--:--   267
+100 1072k  100 1072k    0     0   590k      0  0:00:01  0:00:01 --:--:--  590k
 ptrace/_UPT_get_dyn_info_list_addr.c: In function 'get_list_addr':
 ptrace/_UPT_get_dyn_info_list_addr.c:78:3: warning: #warning Implement get_list_addr(), please. [-Wcpp]
  # warning Implement get_list_addr(), please.
@@ -11,11 +11,11 @@ coredump/_UPT_get_dyn_info_list_addr.c: In function 'get_list_addr':
 coredump/_UPT_get_dyn_info_list_addr.c:81:3: warning: #warning Implement get_list_addr(), please. [-Wcpp]
  # warning Implement get_list_addr(), please.
    ^
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmptuxe9e/usr/lib'
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpibtdY2/usr/lib'
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0   1214      0 --:--:-- --:--:-- --:--:--  1214
-100  140k  100  140k    0     0   203k      0 --:--:-- --:--:-- --:--:--  203k100  140k  100  140k    0     0   203k      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0   1308      0 --:--:-- --:--:-- --:--:--  1309
+100  140k  100  140k    0     0   280k      0 --:--:-- --:--:-- --:--:--  280k
 Note: checking out '3ee2a6e6a9fc68cbf2ab00f830b9059215e40b06'.
 
 You are in 'detached HEAD' state. You can look around, make experimental
@@ -103,48 +103,48 @@ src/s_cpowl.c:69:23: warning: incompatible implicit declaration of built-in func
                        ^
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   323  100   323    0     0    383      0 --:--:-- --:--:-- --:--:--   383
-  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100  284k  100  284k    0     0   215k      0  0:00:01  0:00:01 --:--:-- 1331k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   323  100   323    0     0    483      0 --:--:-- --:--:-- --:--:--   483100   323  100   323    0     0    483      0 --:--:-- --:--:-- --:--:--   483
+100  284k  100  284k    0     0   251k      0  0:00:01  0:00:01 --:--:--  251k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0   1328      0 --:--:-- --:--:-- --:--:--  1331
-  6 12.9M    6  849k    0     0  1394k      0  0:00:09 --:--:--  0:00:09 1394k100 12.9M  100 12.9M    0     0  13.5M      0 --:--:-- --:--:-- --:--:-- 35.2M
-/home/nanosoldier/workdir/tmptuxe9e/deps/llvm-3.3/lib/Support/ThreadLocal.cpp: In member function ‘void llvm::sys::ThreadLocalImpl::setInstance(const void*)’:
-/home/nanosoldier/workdir/tmptuxe9e/deps/llvm-3.3/lib/Support/ThreadLocal.cpp:29:15: warning: typedef ‘SIZE_TOO_BIG’ locally defined but not used [-Wunused-local-typedefs]
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0    896      0 --:--:-- --:--:-- --:--:--   895100   317  100   317    0     0    896      0 --:--:-- --:--:-- --:--:--   895
+ 10 12.9M   10 1334k    0     0   999k      0  0:00:13  0:00:01  0:00:12  999k100 12.9M  100 12.9M    0     0  6328k      0  0:00:02  0:00:02 --:--:-- 15.2M
+/home/nanosoldier/workdir/tmpibtdY2/deps/llvm-3.3/lib/Support/ThreadLocal.cpp: In member function ‘void llvm::sys::ThreadLocalImpl::setInstance(const void*)’:
+/home/nanosoldier/workdir/tmpibtdY2/deps/llvm-3.3/lib/Support/ThreadLocal.cpp:29:15: warning: typedef ‘SIZE_TOO_BIG’ locally defined but not used [-Wunused-local-typedefs]
    typedef int SIZE_TOO_BIG[sizeof(d) <= sizeof(data) ? 1 : -1];
                ^
-/home/nanosoldier/workdir/tmptuxe9e/deps/llvm-3.3/lib/CodeGen/MachineBlockPlacement.cpp: In member function ‘void {anonymous}::MachineBlockPlacement::buildCFGChains(llvm::MachineFunction&)’:
-/home/nanosoldier/workdir/tmptuxe9e/deps/llvm-3.3/lib/CodeGen/MachineBlockPlacement.cpp:942:48: warning: typedef ‘FunctionBlockSetType’ locally defined but not used [-Wunused-local-typedefs]
+/home/nanosoldier/workdir/tmpibtdY2/deps/llvm-3.3/lib/CodeGen/MachineBlockPlacement.cpp: In member function ‘void {anonymous}::MachineBlockPlacement::buildCFGChains(llvm::MachineFunction&)’:
+/home/nanosoldier/workdir/tmpibtdY2/deps/llvm-3.3/lib/CodeGen/MachineBlockPlacement.cpp:942:48: warning: typedef ‘FunctionBlockSetType’ locally defined but not used [-Wunused-local-typedefs]
    typedef SmallPtrSet<MachineBasicBlock *, 16> FunctionBlockSetType;
                                                 ^
-/home/nanosoldier/workdir/tmptuxe9e/deps/llvm-3.3/lib/Target/X86/AsmParser/X86AsmParser.cpp: In function ‘void RewriteIntelBracExpression(llvm::SmallVectorImpl<llvm::AsmRewrite>*, llvm::StringRef, int64_t, int64_t, llvm::SMLoc&, llvm::SMLoc&, llvm::SMLoc&)’:
-/home/nanosoldier/workdir/tmptuxe9e/deps/llvm-3.3/lib/Target/X86/AsmParser/X86AsmParser.cpp:1182:12: warning: variable ‘Found’ set but not used [-Wunused-but-set-variable]
+/home/nanosoldier/workdir/tmpibtdY2/deps/llvm-3.3/lib/Target/X86/AsmParser/X86AsmParser.cpp: In function ‘void RewriteIntelBracExpression(llvm::SmallVectorImpl<llvm::AsmRewrite>*, llvm::StringRef, int64_t, int64_t, llvm::SMLoc&, llvm::SMLoc&, llvm::SMLoc&)’:
+/home/nanosoldier/workdir/tmpibtdY2/deps/llvm-3.3/lib/Target/X86/AsmParser/X86AsmParser.cpp:1182:12: warning: variable ‘Found’ set but not used [-Wunused-but-set-variable]
        bool Found = false;
             ^
-/home/nanosoldier/workdir/tmptuxe9e/deps/llvm-3.3/lib/ExecutionEngine/MCJIT/SectionMemoryManager.cpp: In function ‘const char* llvm::processFDE(const char*)’:
-/home/nanosoldier/workdir/tmptuxe9e/deps/llvm-3.3/lib/ExecutionEngine/MCJIT/SectionMemoryManager.cpp:162:34: warning: cast from type ‘const char*’ to type ‘uint32_t* {aka unsigned int*}’ casts away qualifiers [-Wcast-qual]
+/home/nanosoldier/workdir/tmpibtdY2/deps/llvm-3.3/lib/ExecutionEngine/MCJIT/SectionMemoryManager.cpp: In function ‘const char* llvm::processFDE(const char*)’:
+/home/nanosoldier/workdir/tmpibtdY2/deps/llvm-3.3/lib/ExecutionEngine/MCJIT/SectionMemoryManager.cpp:162:34: warning: cast from type ‘const char*’ to type ‘uint32_t* {aka unsigned int*}’ casts away qualifiers [-Wcast-qual]
    uint32_t Length = *((uint32_t*)P);
                                   ^
-/home/nanosoldier/workdir/tmptuxe9e/deps/llvm-3.3/lib/ExecutionEngine/MCJIT/SectionMemoryManager.cpp:164:34: warning: cast from type ‘const char*’ to type ‘uint32_t* {aka unsigned int*}’ casts away qualifiers [-Wcast-qual]
+/home/nanosoldier/workdir/tmpibtdY2/deps/llvm-3.3/lib/ExecutionEngine/MCJIT/SectionMemoryManager.cpp:164:34: warning: cast from type ‘const char*’ to type ‘uint32_t* {aka unsigned int*}’ casts away qualifiers [-Wcast-qual]
    uint32_t Offset = *((uint32_t*)P);
                                   ^
-/home/nanosoldier/workdir/tmptuxe9e/deps/llvm-3.3/lib/ExecutionEngine/MCJIT/SectionMemoryManager.cpp:166:29: warning: cast from type ‘const char*’ to type ‘void*’ casts away qualifiers [-Wcast-qual]
+/home/nanosoldier/workdir/tmpibtdY2/deps/llvm-3.3/lib/ExecutionEngine/MCJIT/SectionMemoryManager.cpp:166:29: warning: cast from type ‘const char*’ to type ‘void*’ casts away qualifiers [-Wcast-qual]
      __register_frame((void*)Entry);
                              ^
-/home/nanosoldier/workdir/tmptuxe9e/deps/llvm-3.3/unittests/IR/ValueMapTest.cpp: In function ‘void {anonymous}::CompileAssertHasType(VarType)’:
-/home/nanosoldier/workdir/tmptuxe9e/deps/llvm-3.3/unittests/IR/ValueMapTest.cpp:120:16: warning: typedef ‘assert’ locally defined but not used [-Wunused-local-typedefs]
+/home/nanosoldier/workdir/tmpibtdY2/deps/llvm-3.3/unittests/IR/ValueMapTest.cpp: In function ‘void {anonymous}::CompileAssertHasType(VarType)’:
+/home/nanosoldier/workdir/tmpibtdY2/deps/llvm-3.3/unittests/IR/ValueMapTest.cpp:120:16: warning: typedef ‘assert’ locally defined but not used [-Wunused-local-typedefs]
    typedef char assert[is_same<ExpectedType, VarType>::value ? 1 : -1];
                 ^
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0    300      0  0:00:01  0:00:01 --:--:--   301
-  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100 1326k  100 1326k    0     0   672k      0  0:00:01  0:00:01 --:--:-- 1997k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0    428      0 --:--:-- --:--:-- --:--:--   427100   317  100   317    0     0    428      0 --:--:-- --:--:-- --:--:--   427
+ 26 1326k   26  355k    0     0   230k      0  0:00:05  0:00:01  0:00:04  230k100 1326k  100 1326k    0     0   792k      0  0:00:01  0:00:01 --:--:-- 7526k
 libtool: warning: relinking 'libpcre2-posix.la'
-libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmptuxe9e/usr/lib'
-libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmptuxe9e/usr/lib'
-libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmptuxe9e/usr/lib'
-libtool: warning: 'libpcre2-posix.la' has not been installed in '/home/nanosoldier/workdir/tmptuxe9e/usr/lib'
-libtool: warning: '/home/nanosoldier/workdir/tmptuxe9e/deps/pcre2-10.20/libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmptuxe9e/usr/lib'
+libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpibtdY2/usr/lib'
+libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpibtdY2/usr/lib'
+libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpibtdY2/usr/lib'
+libtool: warning: 'libpcre2-posix.la' has not been installed in '/home/nanosoldier/workdir/tmpibtdY2/usr/lib'
+libtool: warning: '/home/nanosoldier/workdir/tmpibtdY2/deps/pcre2-10.20/libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpibtdY2/usr/lib'
 Note: checking out '53e849f4fcae4363a64576de00e982722c7304f9'.
 
 You are in 'detached HEAD' state. You can look around, make experimental
@@ -201,12 +201,12 @@ zhemv.c: In function ‘cblas_chemv’:
 zhemv.c:120:7: warning: variable ‘trans’ set but not used [-Wunused-but-set-variable]
    int trans, uplo;
        ^
-zher2.c: In function ‘cblas_cher2’:
-zher2.c:124:7: warning: variable ‘trans’ set but not used [-Wunused-but-set-variable]
-   int trans, uplo;
-       ^
 zher.c: In function ‘cblas_cher’:
 zher.c:119:7: warning: variable ‘trans’ set but not used [-Wunused-but-set-variable]
+   int trans, uplo;
+       ^
+zher2.c: In function ‘cblas_cher2’:
+zher2.c:124:7: warning: variable ‘trans’ set but not used [-Wunused-but-set-variable]
    int trans, uplo;
        ^
 symm.c: In function ‘csymm_’:
@@ -271,7 +271,7 @@ tbmv_U.c: In function ‘stbmv_NUN’:
 tbmv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-tbmv_L.c: In function ‘stbmv_NLU’:
+tbmv_L.c: In function ‘stbmv_TUU’:
 tbmv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
@@ -279,35 +279,23 @@ tbmv_L.c: In function ‘stbmv_NLN’:
 tbmv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-tbmv_L.c: In function ‘stbmv_TUU’:
-tbmv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
-   FLOAT *gemvbuffer = (FLOAT *)buffer;
-          ^
 tbmv_L.c: In function ‘stbmv_TUN’:
 tbmv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
+tbsv_U.c: In function ‘stbsv_NUN’:
 tbmv_U.c: In function ‘stbmv_TLN’:
-tbmv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
+tbsv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-tbsv_U.c: In function ‘stbsv_NUU’:
-tbsv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
+tbmv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
 tbmv_U.c: In function ‘stbmv_TLU’:
 tbmv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-tbsv_U.c: In function ‘stbsv_NUN’:
-tbsv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
-   FLOAT *gemvbuffer = (FLOAT *)buffer;
-          ^
 tbsv_L.c: In function ‘stbsv_NLU’:
-tbsv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
-   FLOAT *gemvbuffer = (FLOAT *)buffer;
-          ^
-tbsv_L.c: In function ‘stbsv_TUN’:
 tbsv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
@@ -316,6 +304,10 @@ tbsv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-bu
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
 tbsv_L.c: In function ‘stbsv_NLN’:
+tbsv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
+   FLOAT *gemvbuffer = (FLOAT *)buffer;
+          ^
+tbsv_L.c: In function ‘stbsv_TUN’:
 tbsv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
@@ -387,12 +379,12 @@ tbmv_U.c: In function ‘dtbmv_NUU’:
 tbmv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-tbmv_U.c: In function ‘dtbmv_NUN’:
-tbmv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
-   FLOAT *gemvbuffer = (FLOAT *)buffer;
-          ^
 tbmv_L.c: In function ‘dtbmv_NLU’:
 tbmv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
+   FLOAT *gemvbuffer = (FLOAT *)buffer;
+          ^
+tbmv_U.c: In function ‘dtbmv_NUN’:
+tbmv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
 tbmv_L.c: In function ‘dtbmv_NLN’:
@@ -435,12 +427,12 @@ tbsv_L.c: In function ‘dtbsv_TUU’:
 tbsv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-tbsv_L.c: In function ‘dtbsv_TUN’:
-tbsv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
-   FLOAT *gemvbuffer = (FLOAT *)buffer;
-          ^
 tbsv_U.c: In function ‘dtbsv_TLU’:
 tbsv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
+   FLOAT *gemvbuffer = (FLOAT *)buffer;
+          ^
+tbsv_L.c: In function ‘dtbsv_TUN’:
+tbsv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
 tbsv_U.c: In function ‘dtbsv_TLN’:
@@ -455,11 +447,11 @@ tpsv_U.c: In function ‘dtpsv_NUN’:
 tpsv_U.c:46:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-tpsv_L.c: In function ‘dtpsv_NLN’:
+tpsv_L.c: In function ‘dtpsv_NLU’:
 tpsv_L.c:46:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-tpsv_L.c: In function ‘dtpsv_NLU’:
+tpsv_L.c: In function ‘dtpsv_NLN’:
 tpsv_L.c:46:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
@@ -467,12 +459,12 @@ tpsv_L.c: In function ‘dtpsv_TUU’:
 tpsv_L.c:46:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-tpsv_U.c: In function ‘dtpsv_TLU’:
-tpsv_U.c:46:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
-   FLOAT *gemvbuffer = (FLOAT *)buffer;
-          ^
 tpsv_L.c: In function ‘dtpsv_TUN’:
 tpsv_L.c:46:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
+   FLOAT *gemvbuffer = (FLOAT *)buffer;
+          ^
+tpsv_U.c: In function ‘dtpsv_TLU’:
+tpsv_U.c:46:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
 tpsv_U.c: In function ‘dtpsv_TLN’:
@@ -496,10 +488,10 @@ spr2_thread.c:46:12: warning: variable ‘lda’ set but not used [-Wunused-but-
    BLASLONG lda, incx, incy;
             ^
 spmv_thread.c: In function ‘spmv_kernel’:
+spmv_thread.c: In function ‘spmv_kernel’:
 spmv_thread.c:58:18: warning: variable ‘incy’ set but not used [-Wunused-but-set-variable]
    BLASLONG incx, incy;
                   ^
-spmv_thread.c: In function ‘spmv_kernel’:
 spmv_thread.c:58:18: warning: variable ‘incy’ set but not used [-Wunused-but-set-variable]
    BLASLONG incx, incy;
                   ^
@@ -539,12 +531,12 @@ ztbmv_U.c: In function ‘ctbmv_RUU’:
 ztbmv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztbmv_U.c: In function ‘ctbmv_RUN’:
-ztbmv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
-   FLOAT *gemvbuffer = (FLOAT *)buffer;
-          ^
 ztbmv_L.c: In function ‘ctbmv_RLU’:
 ztbmv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
+   FLOAT *gemvbuffer = (FLOAT *)buffer;
+          ^
+ztbmv_U.c: In function ‘ctbmv_RUN’:
+ztbmv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
 ztbmv_L.c: In function ‘ctbmv_RLN’:
@@ -563,12 +555,12 @@ ztbmv_U.c: In function ‘ctbmv_CLU’:
 ztbmv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztbsv_U.c: In function ‘ctbsv_NUU’:
-ztbsv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
-   FLOAT *gemvbuffer = (FLOAT *)buffer;
-          ^
 ztbmv_U.c: In function ‘ctbmv_CLN’:
 ztbmv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
+   FLOAT *gemvbuffer = (FLOAT *)buffer;
+          ^
+ztbsv_U.c: In function ‘ctbsv_NUU’:
+ztbsv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
 ztbsv_U.c: In function ‘ctbsv_NUN’:
@@ -587,12 +579,12 @@ ztbsv_L.c: In function ‘ctbsv_TUU’:
 ztbsv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztbsv_L.c: In function ‘ctbsv_TUN’:
-ztbsv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
-   FLOAT *gemvbuffer = (FLOAT *)buffer;
-          ^
 ztbsv_U.c: In function ‘ctbsv_TLU’:
 ztbsv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
+   FLOAT *gemvbuffer = (FLOAT *)buffer;
+          ^
+ztbsv_L.c: In function ‘ctbsv_TUN’:
+ztbsv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
 ztbsv_U.c: In function ‘ctbsv_TLN’:
@@ -619,12 +611,12 @@ ztbsv_L.c: In function ‘ctbsv_CUU’:
 ztbsv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztbsv_U.c: In function ‘ctbsv_CLU’:
-ztbsv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
-   FLOAT *gemvbuffer = (FLOAT *)buffer;
-          ^
 ztbsv_L.c: In function ‘ctbsv_CUN’:
 ztbsv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
+   FLOAT *gemvbuffer = (FLOAT *)buffer;
+          ^
+ztbsv_U.c: In function ‘ctbsv_CLU’:
+ztbsv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
 ztpmv_U.c: In function ‘ctpmv_NUU’:
@@ -635,12 +627,12 @@ ztbsv_U.c: In function ‘ctbsv_CLN’:
 ztbsv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztpmv_L.c: In function ‘ctpmv_NLU’:
-ztpmv_L.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
-   FLOAT *gemvbuffer = (FLOAT *)buffer;
-          ^
 ztpmv_U.c: In function ‘ctpmv_NUN’:
 ztpmv_U.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
+   FLOAT *gemvbuffer = (FLOAT *)buffer;
+          ^
+ztpmv_L.c: In function ‘ctpmv_NLU’:
+ztpmv_L.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
 ztpmv_L.c: In function ‘ctpmv_NLN’:
@@ -691,12 +683,12 @@ ztpmv_U.c: In function ‘ctpmv_CLU’:
 ztpmv_U.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztpsv_U.c: In function ‘ctpsv_NUU’:
-ztpsv_U.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
-   FLOAT *gemvbuffer = (FLOAT *)buffer;
-          ^
 ztpmv_U.c: In function ‘ctpmv_CLN’:
 ztpmv_U.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
+   FLOAT *gemvbuffer = (FLOAT *)buffer;
+          ^
+ztpsv_U.c: In function ‘ctpsv_NUU’:
+ztpsv_U.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
 ztpsv_U.c: In function ‘ctpsv_NUN’:
@@ -723,11 +715,11 @@ ztpsv_U.c: In function ‘ctpsv_TLU’:
 ztpsv_U.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztpsv_U.c: In function ‘ctpsv_RUU’:
+ztpsv_U.c: In function ‘ctpsv_TLN’:
 ztpsv_U.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztpsv_U.c: In function ‘ctpsv_TLN’:
+ztpsv_U.c: In function ‘ctpsv_RUU’:
 ztpsv_U.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
@@ -851,12 +843,12 @@ ztbmv_U.c: In function ‘ztbmv_NUU’:
 ztbmv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztbmv_U.c: In function ‘ztbmv_NUN’:
-ztbmv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
-   FLOAT *gemvbuffer = (FLOAT *)buffer;
-          ^
 ztbmv_L.c: In function ‘ztbmv_NLU’:
 ztbmv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
+   FLOAT *gemvbuffer = (FLOAT *)buffer;
+          ^
+ztbmv_U.c: In function ‘ztbmv_NUN’:
+ztbmv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
 ztbmv_L.c: In function ‘ztbmv_NLN’:
@@ -891,20 +883,20 @@ ztbmv_L.c: In function ‘ztbmv_RLU’:
 ztbmv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztbmv_L.c: In function ‘ztbmv_RLN’:
-ztbmv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
-   FLOAT *gemvbuffer = (FLOAT *)buffer;
-          ^
 ztbmv_L.c: In function ‘ztbmv_CUU’:
 ztbmv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztbmv_L.c: In function ‘ztbmv_CUN’:
+ztbmv_L.c: In function ‘ztbmv_RLN’:
 ztbmv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
 ztbmv_U.c: In function ‘ztbmv_CLU’:
 ztbmv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
+   FLOAT *gemvbuffer = (FLOAT *)buffer;
+          ^
+ztbmv_L.c: In function ‘ztbmv_CUN’:
+ztbmv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
 ztbmv_U.c: In function ‘ztbmv_CLN’:
@@ -915,19 +907,19 @@ ztbsv_U.c: In function ‘ztbsv_NUU’:
 ztbsv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztbsv_L.c: In function ‘ztbsv_NLU’:
-ztbsv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
-   FLOAT *gemvbuffer = (FLOAT *)buffer;
-          ^
 ztbsv_U.c: In function ‘ztbsv_NUN’:
 ztbsv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztbsv_L.c: In function ‘ztbsv_TUU’:
+ztbsv_L.c: In function ‘ztbsv_NLN’:
 ztbsv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztbsv_L.c: In function ‘ztbsv_NLN’:
+ztbsv_L.c: In function ‘ztbsv_NLU’:
+ztbsv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
+   FLOAT *gemvbuffer = (FLOAT *)buffer;
+          ^
+ztbsv_L.c: In function ‘ztbsv_TUU’:
 ztbsv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
@@ -951,28 +943,28 @@ ztbsv_L.c: In function ‘ztbsv_RLU’:
 ztbsv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztbsv_U.c: In function ‘ztbsv_RUN’:
-ztbsv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
-   FLOAT *gemvbuffer = (FLOAT *)buffer;
-          ^
 ztbsv_L.c: In function ‘ztbsv_RLN’:
 ztbsv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
+   FLOAT *gemvbuffer = (FLOAT *)buffer;
+          ^
+ztbsv_U.c: In function ‘ztbsv_RUN’:
+ztbsv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
 ztbsv_L.c: In function ‘ztbsv_CUU’:
 ztbsv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztbsv_L.c: In function ‘ztbsv_CUN’:
-ztbsv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
+ztbsv_U.c: In function ‘ztbsv_CLN’:
+ztbsv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
 ztbsv_U.c: In function ‘ztbsv_CLU’:
 ztbsv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztbsv_U.c: In function ‘ztbsv_CLN’:
-ztbsv_U.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
+ztbsv_L.c: In function ‘ztbsv_CUN’:
+ztbsv_L.c:48:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
 ztpmv_U.c: In function ‘ztpmv_NUU’:
@@ -980,10 +972,10 @@ ztpmv_U.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-b
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
 ztpmv_L.c: In function ‘ztpmv_NLU’:
-ztpmv_U.c: In function ‘ztpmv_NUN’:
 ztpmv_L.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
+ztpmv_U.c: In function ‘ztpmv_NUN’:
 ztpmv_U.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
@@ -1035,12 +1027,12 @@ ztpmv_U.c: In function ‘ztpmv_CLU’:
 ztpmv_U.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztpsv_U.c: In function ‘ztpsv_NUU’:
-ztpsv_U.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
-   FLOAT *gemvbuffer = (FLOAT *)buffer;
-          ^
 ztpmv_U.c: In function ‘ztpmv_CLN’:
 ztpmv_U.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
+   FLOAT *gemvbuffer = (FLOAT *)buffer;
+          ^
+ztpsv_U.c: In function ‘ztpsv_NUU’:
+ztpsv_U.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
 ztpsv_U.c: In function ‘ztpsv_NUN’:
@@ -1048,6 +1040,10 @@ ztpsv_U.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-b
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
 ztpsv_L.c: In function ‘ztpsv_NLU’:
+ztpsv_L.c:54:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
+   FLOAT *gemvbuffer = (FLOAT *)buffer;
+          ^
+ztpsv_L.c: In function ‘ztpsv_NLN’:
 ztpsv_L.c:54:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
@@ -1059,15 +1055,14 @@ ztpsv_L.c: In function ‘ztpsv_TUN’:
 ztpsv_L.c:54:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztpsv_U.c: In function ‘ztpsv_TLU’:
 ztpsv_U.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztpsv_L.c: In function ‘ztpsv_NLN’:
-ztpsv_L.c:54:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
+ztpsv_U.c: In function ‘ztpsv_TLN’:
+ztpsv_U.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztpsv_U.c: In function ‘ztpsv_TLN’:
+ztpsv_U.c: In function ‘ztpsv_RUU’:
 ztpsv_U.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
@@ -1079,15 +1074,11 @@ ztpsv_U.c: In function ‘ztpsv_RUN’:
 ztpsv_U.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztpsv_U.c: In function ‘ztpsv_RUU’:
-ztpsv_U.c:52:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
-   FLOAT *gemvbuffer = (FLOAT *)buffer;
-          ^
-ztpsv_L.c: In function ‘ztpsv_RLN’:
+ztpsv_L.c: In function ‘ztpsv_CUU’:
 ztpsv_L.c:54:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
-ztpsv_L.c: In function ‘ztpsv_CUU’:
+ztpsv_L.c: In function ‘ztpsv_RLN’:
 ztpsv_L.c:54:10: warning: variable ‘gemvbuffer’ set but not used [-Wunused-but-set-variable]
    FLOAT *gemvbuffer = (FLOAT *)buffer;
           ^
@@ -2210,10 +2201,6 @@ xerbla.c:53:4: warning: format ‘%d’ expects argument of type ‘int’, but 
 memory.c:917:13: warning: ‘gotoblas_memory_init’ declared ‘static’ but never defined [-Wunused-function]
  static void gotoblas_memory_init(void);
              ^
-getrf_single.c: In function ‘sgetrf_single’:
-getrf_single.c:54:24: warning: variable ‘offsetB’ set but not used [-Wunused-but-set-variable]
-   FLOAT *a, *offsetA, *offsetB;
-                        ^
 getrf_single.c: In function ‘dgetrf_single’:
 getrf_single.c:54:24: warning: variable ‘offsetB’ set but not used [-Wunused-but-set-variable]
    FLOAT *a, *offsetA, *offsetB;
@@ -2230,39 +2217,39 @@ trtri_U_parallel.c: In function ‘strtri_UU_parallel’:
 trtri_U_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
-trtri_L_parallel.c: In function ‘strtri_LU_parallel’:
-trtri_L_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
-   BLASLONG lda, range_N[2];
-                 ^
 trtri_U_parallel.c: In function ‘strtri_UN_parallel’:
 trtri_U_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
+   BLASLONG lda, range_N[2];
+                 ^
+trtri_L_parallel.c: In function ‘strtri_LU_parallel’:
+trtri_L_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
 trtri_L_parallel.c: In function ‘strtri_LN_parallel’:
 trtri_L_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
-trtri_U_parallel.c: In function ‘dtrtri_UU_parallel’:
-trtri_U_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
+trtri_L_parallel.c: In function ‘dtrtri_LU_parallel’:
+trtri_L_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
 trtri_U_parallel.c: In function ‘dtrtri_UN_parallel’:
 trtri_U_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
-trtri_L_parallel.c: In function ‘dtrtri_LU_parallel’:
-trtri_L_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
+trtri_U_parallel.c: In function ‘dtrtri_UU_parallel’:
+trtri_U_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
 trtri_L_parallel.c: In function ‘dtrtri_LN_parallel’:
 trtri_L_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
-trtri_U_parallel.c: In function ‘ctrtri_UN_parallel’:
+trtri_U_parallel.c: In function ‘ctrtri_UU_parallel’:
 trtri_U_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
-trtri_U_parallel.c: In function ‘ctrtri_UU_parallel’:
+trtri_U_parallel.c: In function ‘ctrtri_UN_parallel’:
 trtri_U_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
@@ -2274,11 +2261,11 @@ trtri_L_parallel.c: In function ‘ctrtri_LN_parallel’:
 trtri_L_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
-trtri_U_parallel.c: In function ‘ztrtri_UU_parallel’:
+trtri_U_parallel.c: In function ‘ztrtri_UN_parallel’:
 trtri_U_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
-trtri_U_parallel.c: In function ‘ztrtri_UN_parallel’:
+trtri_U_parallel.c: In function ‘ztrtri_UU_parallel’:
 trtri_U_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
@@ -3128,13 +3115,6 @@ generic/zgemm3m_tcopy_2.c:68:21: warning: variable ‘a4’ set but not used [-W
 generic/zgemm3m_tcopy_2.c:68:13: warning: variable ‘a2’ set but not used [-Wunused-but-set-variable]
    FLOAT a1, a2, a3, a4, a5, a6, a7, a8;
              ^
-generic/zgemm3m_ncopy_2.c: In function ‘zgemm3m_incopyi_NEHALEM’:
-generic/zgemm3m_ncopy_2.c:68:17: warning: variable ‘a3’ set but not used [-Wunused-but-set-variable]
-   FLOAT a1, a2, a3, a4;
-                 ^
-generic/zgemm3m_ncopy_2.c:68:9: warning: variable ‘a1’ set but not used [-Wunused-but-set-variable]
-   FLOAT a1, a2, a3, a4;
-         ^
 generic/zgemm3m_tcopy_2.c: In function ‘zgemm3m_itcopyi_NEHALEM’:
 generic/zgemm3m_tcopy_2.c:68:33: warning: variable ‘a7’ set but not used [-Wunused-but-set-variable]
    FLOAT a1, a2, a3, a4, a5, a6, a7, a8;
@@ -3147,6 +3127,13 @@ generic/zgemm3m_tcopy_2.c:68:17: warning: variable ‘a3’ set but not used [-W
                  ^
 generic/zgemm3m_tcopy_2.c:68:9: warning: variable ‘a1’ set but not used [-Wunused-but-set-variable]
    FLOAT a1, a2, a3, a4, a5, a6, a7, a8;
+         ^
+generic/zgemm3m_ncopy_2.c: In function ‘zgemm3m_incopyi_NEHALEM’:
+generic/zgemm3m_ncopy_2.c:68:17: warning: variable ‘a3’ set but not used [-Wunused-but-set-variable]
+   FLOAT a1, a2, a3, a4;
+                 ^
+generic/zgemm3m_ncopy_2.c:68:9: warning: variable ‘a1’ set but not used [-Wunused-but-set-variable]
+   FLOAT a1, a2, a3, a4;
          ^
 ../kernel/x86_64/../generic/zimatcopy_rn.c: In function ‘zimatcopy_k_rn_NEHALEM’:
 ../kernel/x86_64/../generic/zimatcopy_rn.c:37:15: warning: unused variable ‘bptr’ [-Wunused-variable]
@@ -3632,13 +3619,13 @@ generic/zgemm3m_tcopy_8.c:69:9: warning: variable ‘a1’ set but not used [-Wu
 ../kernel/x86_64/../generic/zimatcopy_rn.c:37:15: warning: unused variable ‘bptr’ [-Wunused-variable]
   FLOAT *aptr,*bptr;
                ^
-../kernel/x86_64/../generic/zimatcopy_cnc.c: In function ‘cimatcopy_k_cnc_BARCELONA’:
-../kernel/x86_64/../generic/zimatcopy_cnc.c:38:15: warning: unused variable ‘bptr’ [-Wunused-variable]
-  FLOAT *aptr,*bptr; 
-               ^
 ../kernel/x86_64/../generic/zimatcopy_rnc.c: In function ‘cimatcopy_k_rnc_BARCELONA’:
 ../kernel/x86_64/../generic/zimatcopy_rnc.c:37:15: warning: unused variable ‘bptr’ [-Wunused-variable]
   FLOAT *aptr,*bptr;
+               ^
+../kernel/x86_64/../generic/zimatcopy_cnc.c: In function ‘cimatcopy_k_cnc_BARCELONA’:
+../kernel/x86_64/../generic/zimatcopy_cnc.c:38:15: warning: unused variable ‘bptr’ [-Wunused-variable]
+  FLOAT *aptr,*bptr; 
                ^
 generic/zgemm3m_ncopy_4.c: In function ‘zgemm3m_incopyr_BARCELONA’:
 generic/zgemm3m_ncopy_4.c:68:37: warning: variable ‘a8’ set but not used [-Wunused-but-set-variable]
@@ -4000,13 +3987,13 @@ generic/zgemm3m_tcopy_8.c:69:9: warning: variable ‘a1’ set but not used [-Wu
 ../kernel/x86_64/../generic/zimatcopy_rn.c:37:15: warning: unused variable ‘bptr’ [-Wunused-variable]
   FLOAT *aptr,*bptr;
                ^
-../kernel/x86_64/../generic/zimatcopy_cnc.c: In function ‘cimatcopy_k_cnc_ATOM’:
-../kernel/x86_64/../generic/zimatcopy_cnc.c:38:15: warning: unused variable ‘bptr’ [-Wunused-variable]
-  FLOAT *aptr,*bptr; 
-               ^
 ../kernel/x86_64/../generic/zimatcopy_rnc.c: In function ‘cimatcopy_k_rnc_ATOM’:
 ../kernel/x86_64/../generic/zimatcopy_rnc.c:37:15: warning: unused variable ‘bptr’ [-Wunused-variable]
   FLOAT *aptr,*bptr;
+               ^
+../kernel/x86_64/../generic/zimatcopy_cnc.c: In function ‘cimatcopy_k_cnc_ATOM’:
+../kernel/x86_64/../generic/zimatcopy_cnc.c:38:15: warning: unused variable ‘bptr’ [-Wunused-variable]
+  FLOAT *aptr,*bptr; 
                ^
 generic/zgemm3m_ncopy_4.c: In function ‘zgemm3m_incopyr_ATOM’:
 generic/zgemm3m_ncopy_4.c:68:37: warning: variable ‘a8’ set but not used [-Wunused-but-set-variable]
@@ -4064,13 +4051,13 @@ generic/zgemm3m_tcopy_4.c:68:9: warning: variable ‘a1’ set but not used [-Wu
 ../kernel/x86_64/../generic/zimatcopy_rn.c:37:15: warning: unused variable ‘bptr’ [-Wunused-variable]
   FLOAT *aptr,*bptr;
                ^
-../kernel/x86_64/../generic/zimatcopy_rnc.c: In function ‘zimatcopy_k_rnc_ATOM’:
-../kernel/x86_64/../generic/zimatcopy_rnc.c:37:15: warning: unused variable ‘bptr’ [-Wunused-variable]
-  FLOAT *aptr,*bptr;
-               ^
 ../kernel/x86_64/../generic/zimatcopy_cnc.c: In function ‘zimatcopy_k_cnc_ATOM’:
 ../kernel/x86_64/../generic/zimatcopy_cnc.c:38:15: warning: unused variable ‘bptr’ [-Wunused-variable]
   FLOAT *aptr,*bptr; 
+               ^
+../kernel/x86_64/../generic/zimatcopy_rnc.c: In function ‘zimatcopy_k_rnc_ATOM’:
+../kernel/x86_64/../generic/zimatcopy_rnc.c:37:15: warning: unused variable ‘bptr’ [-Wunused-variable]
+  FLOAT *aptr,*bptr;
                ^
 setparam_ATOM.c:562:1: warning: initialization from incompatible pointer type [enabled by default]
  };
@@ -4390,10 +4377,6 @@ setparam_SANDYBRIDGE.c: In function ‘init_parameter’:
 setparam_SANDYBRIDGE.c:685:7: warning: unused variable ‘l2’ [-Wunused-variable]
    int l2 = get_l2_size();
        ^
-../kernel/x86_64/sgemv_n_4.c: In function ‘sgemv_n_BULLDOZER’:
-../kernel/x86_64/sgemv_n_4.c:295:11: warning: unused variable ‘j’ [-Wunused-variable]
-  BLASLONG j;
-           ^
 ../kernel/x86_64/ssymv_U.c: In function ‘ssymv_U_BULLDOZER’:
 ../kernel/x86_64/ssymv_U.c:167:20: warning: unused variable ‘at3’ [-Wunused-variable]
   FLOAT at0,at1,at2,at3;
@@ -4407,6 +4390,10 @@ setparam_SANDYBRIDGE.c:685:7: warning: unused variable ‘l2’ [-Wunused-variab
 ../kernel/x86_64/ssymv_U.c:167:8: warning: unused variable ‘at0’ [-Wunused-variable]
   FLOAT at0,at1,at2,at3;
         ^
+../kernel/x86_64/sgemv_n_4.c: In function ‘sgemv_n_BULLDOZER’:
+../kernel/x86_64/sgemv_n_4.c:295:11: warning: unused variable ‘j’ [-Wunused-variable]
+  BLASLONG j;
+           ^
 ../kernel/x86_64/dscal.c: In function ‘dscal_kernel_inc_8’:
 ../kernel/x86_64/dscal.c:96:9: warning: ‘x1’ is used uninitialized in this function [-Wuninitialized]
          __asm__  __volatile__
@@ -4720,13 +4707,13 @@ generic/zgemm3m_tcopy_8.c:69:9: warning: variable ‘a1’ set but not used [-Wu
 ../kernel/x86_64/../generic/zimatcopy_rn.c:37:15: warning: unused variable ‘bptr’ [-Wunused-variable]
   FLOAT *aptr,*bptr;
                ^
-../kernel/x86_64/../generic/zimatcopy_rnc.c: In function ‘cimatcopy_k_rnc_PILEDRIVER’:
-../kernel/x86_64/../generic/zimatcopy_rnc.c:37:15: warning: unused variable ‘bptr’ [-Wunused-variable]
-  FLOAT *aptr,*bptr;
-               ^
 ../kernel/x86_64/../generic/zimatcopy_cnc.c: In function ‘cimatcopy_k_cnc_PILEDRIVER’:
 ../kernel/x86_64/../generic/zimatcopy_cnc.c:38:15: warning: unused variable ‘bptr’ [-Wunused-variable]
   FLOAT *aptr,*bptr; 
+               ^
+../kernel/x86_64/../generic/zimatcopy_rnc.c: In function ‘cimatcopy_k_rnc_PILEDRIVER’:
+../kernel/x86_64/../generic/zimatcopy_rnc.c:37:15: warning: unused variable ‘bptr’ [-Wunused-variable]
+  FLOAT *aptr,*bptr;
                ^
 generic/zgemm3m_ncopy_4.c: In function ‘zgemm3m_incopyr_PILEDRIVER’:
 generic/zgemm3m_ncopy_4.c:68:37: warning: variable ‘a8’ set but not used [-Wunused-but-set-variable]
@@ -4950,19 +4937,6 @@ generic/zgemm3m_tcopy_8.c:69:9: warning: variable ‘a1’ set but not used [-Wu
 ../kernel/x86_64/../generic/zimatcopy_rnc.c:37:15: warning: unused variable ‘bptr’ [-Wunused-variable]
   FLOAT *aptr,*bptr;
                ^
-generic/zgemm3m_tcopy_4.c: In function ‘zgemm3m_itcopyr_STEAMROLLER’:
-generic/zgemm3m_tcopy_4.c:68:37: warning: variable ‘a8’ set but not used [-Wunused-but-set-variable]
-   FLOAT a1, a2, a3, a4, a5, a6, a7, a8;
-                                     ^
-generic/zgemm3m_tcopy_4.c:68:29: warning: variable ‘a6’ set but not used [-Wunused-but-set-variable]
-   FLOAT a1, a2, a3, a4, a5, a6, a7, a8;
-                             ^
-generic/zgemm3m_tcopy_4.c:68:21: warning: variable ‘a4’ set but not used [-Wunused-but-set-variable]
-   FLOAT a1, a2, a3, a4, a5, a6, a7, a8;
-                     ^
-generic/zgemm3m_tcopy_4.c:68:13: warning: variable ‘a2’ set but not used [-Wunused-but-set-variable]
-   FLOAT a1, a2, a3, a4, a5, a6, a7, a8;
-             ^
 generic/zgemm3m_ncopy_4.c: In function ‘zgemm3m_incopyr_STEAMROLLER’:
 generic/zgemm3m_ncopy_4.c:68:37: warning: variable ‘a8’ set but not used [-Wunused-but-set-variable]
    FLOAT a1, a2, a3, a4, a5, a6, a7, a8;
@@ -4974,6 +4948,19 @@ generic/zgemm3m_ncopy_4.c:68:21: warning: variable ‘a4’ set but not used [-W
    FLOAT a1, a2, a3, a4, a5, a6, a7, a8;
                      ^
 generic/zgemm3m_ncopy_4.c:68:13: warning: variable ‘a2’ set but not used [-Wunused-but-set-variable]
+   FLOAT a1, a2, a3, a4, a5, a6, a7, a8;
+             ^
+generic/zgemm3m_tcopy_4.c: In function ‘zgemm3m_itcopyr_STEAMROLLER’:
+generic/zgemm3m_tcopy_4.c:68:37: warning: variable ‘a8’ set but not used [-Wunused-but-set-variable]
+   FLOAT a1, a2, a3, a4, a5, a6, a7, a8;
+                                     ^
+generic/zgemm3m_tcopy_4.c:68:29: warning: variable ‘a6’ set but not used [-Wunused-but-set-variable]
+   FLOAT a1, a2, a3, a4, a5, a6, a7, a8;
+                             ^
+generic/zgemm3m_tcopy_4.c:68:21: warning: variable ‘a4’ set but not used [-Wunused-but-set-variable]
+   FLOAT a1, a2, a3, a4, a5, a6, a7, a8;
+                     ^
+generic/zgemm3m_tcopy_4.c:68:13: warning: variable ‘a2’ set but not used [-Wunused-but-set-variable]
    FLOAT a1, a2, a3, a4, a5, a6, a7, a8;
              ^
 generic/zgemm3m_ncopy_4.c: In function ‘zgemm3m_incopyi_STEAMROLLER’:
@@ -5224,13 +5211,13 @@ generic/zgemm3m_tcopy_4.c:68:9: warning: variable ‘a1’ set but not used [-Wu
 ../kernel/x86_64/../generic/zimatcopy_rn.c:37:15: warning: unused variable ‘bptr’ [-Wunused-variable]
   FLOAT *aptr,*bptr;
                ^
-../kernel/x86_64/../generic/zimatcopy_cnc.c: In function ‘zimatcopy_k_cnc_EXCAVATOR’:
-../kernel/x86_64/../generic/zimatcopy_cnc.c:38:15: warning: unused variable ‘bptr’ [-Wunused-variable]
-  FLOAT *aptr,*bptr; 
-               ^
 ../kernel/x86_64/../generic/zimatcopy_rnc.c: In function ‘zimatcopy_k_rnc_EXCAVATOR’:
 ../kernel/x86_64/../generic/zimatcopy_rnc.c:37:15: warning: unused variable ‘bptr’ [-Wunused-variable]
   FLOAT *aptr,*bptr;
+               ^
+../kernel/x86_64/../generic/zimatcopy_cnc.c: In function ‘zimatcopy_k_cnc_EXCAVATOR’:
+../kernel/x86_64/../generic/zimatcopy_cnc.c:38:15: warning: unused variable ‘bptr’ [-Wunused-variable]
+  FLOAT *aptr,*bptr; 
                ^
 setparam_EXCAVATOR.c:562:1: warning: initialization from incompatible pointer type [enabled by default]
  };
@@ -5474,6 +5461,13 @@ generic/zgemm3m_tcopy_4.c:68:9: warning: variable ‘a1’ set but not used [-Wu
 ../kernel/x86_64/zgemv_n_4.c:220:11: warning: unused variable ‘j’ [-Wunused-variable]
   BLASLONG j;
            ^
+generic/zgemm3m_ncopy_2.c: In function ‘zgemm3m_incopyr_HASWELL’:
+generic/zgemm3m_ncopy_2.c:68:21: warning: variable ‘a4’ set but not used [-Wunused-but-set-variable]
+   FLOAT a1, a2, a3, a4;
+                     ^
+generic/zgemm3m_ncopy_2.c:68:13: warning: variable ‘a2’ set but not used [-Wunused-but-set-variable]
+   FLOAT a1, a2, a3, a4;
+             ^
 generic/zgemm3m_tcopy_2.c: In function ‘zgemm3m_itcopyr_HASWELL’:
 generic/zgemm3m_tcopy_2.c:68:37: warning: variable ‘a8’ set but not used [-Wunused-but-set-variable]
    FLOAT a1, a2, a3, a4, a5, a6, a7, a8;
@@ -5486,13 +5480,6 @@ generic/zgemm3m_tcopy_2.c:68:21: warning: variable ‘a4’ set but not used [-W
                      ^
 generic/zgemm3m_tcopy_2.c:68:13: warning: variable ‘a2’ set but not used [-Wunused-but-set-variable]
    FLOAT a1, a2, a3, a4, a5, a6, a7, a8;
-             ^
-generic/zgemm3m_ncopy_2.c: In function ‘zgemm3m_incopyr_HASWELL’:
-generic/zgemm3m_ncopy_2.c:68:21: warning: variable ‘a4’ set but not used [-Wunused-but-set-variable]
-   FLOAT a1, a2, a3, a4;
-                     ^
-generic/zgemm3m_ncopy_2.c:68:13: warning: variable ‘a2’ set but not used [-Wunused-but-set-variable]
-   FLOAT a1, a2, a3, a4;
              ^
 generic/zgemm3m_ncopy_2.c: In function ‘zgemm3m_incopyi_HASWELL’:
 generic/zgemm3m_ncopy_2.c:68:17: warning: variable ‘a3’ set but not used [-Wunused-but-set-variable]
@@ -5571,21 +5558,6 @@ sgebrd.f:289.17:
             WS = ( M+N )*NB                                             
                  1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
-sgees.f:308.21:
-
-            HSWORK = WORK( 1 )                                          
-                     1
-Warning: Possible change of value in conversion from REAL(4) to INTEGER(8) at (1)
-sgees.f:318.21:
-
-         WORK( 1 ) = MAXWRK                                             
-                     1
-Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
-sgees.f:530.18:
-
-      WORK( 1 ) = MAXWRK                                                
-                  1
-Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
 sgeesx.f:388.21:
 
             HSWORK = WORK( 1 )                                          
@@ -5622,6 +5594,21 @@ sgeev.f:304.21:
                      1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
 sgeev.f:511.18:
+
+      WORK( 1 ) = MAXWRK                                                
+                  1
+Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
+sgees.f:308.21:
+
+            HSWORK = WORK( 1 )                                          
+                     1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(8) at (1)
+sgees.f:318.21:
+
+         WORK( 1 ) = MAXWRK                                             
+                     1
+Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
+sgees.f:530.18:
 
       WORK( 1 ) = MAXWRK                                                
                   1
@@ -5895,26 +5882,6 @@ sgetc2.f:186:0: warning: ‘jpv’ may be used uninitialized in this function [-
 sgetc2.f:134:0: warning: ‘ipv’ may be used uninitialized in this function [-Wmaybe-uninitialized]
        INTEGER            I, IP, IPV, J, JP, JPV
  ^
-sgesvx.f: In function ‘sgesvx’:
-sgesvx.f:441:0: warning: ‘smlnum’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-                ROWCND = MAX( RCMIN, SMLNUM ) / MIN( RCMAX, BIGNUM )
- ^
-sgesvx.f:456:0: warning: ‘bignum’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-                COLCND = MAX( RCMIN, SMLNUM ) / MIN( RCMAX, BIGNUM )
- ^
-sgesdd.f: In function ‘sgesdd’:
-sgesdd.f:558:0: warning: ‘mnthr’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-          IF( M.GE.MNTHR ) THEN
- ^
-sgesdd.f:606:0: warning: ‘bdspac’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-                IF( LWORK.GE.LDA*N+N*N+3*N+BDSPAC ) THEN
- ^
-sgesdd.f:242:0: warning: ‘il’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-       INTEGER            BDSPAC, BLK, CHUNK, I, IE, IERR, IL,
- ^
-sgesdd.f:243:0: warning: ‘ir’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-      $                   IR, ISCL, ITAU, ITAUP, ITAUQ, IU, IVT, LDWKVT,
- ^
 sgesvd.f:317.25:
 
             LWORK_SGEQRF=DUM(1)                                         
@@ -6015,6 +5982,13 @@ sgesvd.f:3488.18:
       WORK( 1 ) = MAXWRK                                                
                   1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
+sgesvx.f: In function ‘sgesvx’:
+sgesvx.f:441:0: warning: ‘smlnum’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                ROWCND = MAX( RCMIN, SMLNUM ) / MIN( RCMAX, BIGNUM )
+ ^
+sgesvx.f:456:0: warning: ‘bignum’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                COLCND = MAX( RCMIN, SMLNUM ) / MIN( RCMAX, BIGNUM )
+ ^
 sgetri.f:158.18:
 
       WORK( 1 ) = LWKOPT                                                
@@ -6025,6 +5999,19 @@ sgetri.f:256.18:
       WORK( 1 ) = IWS                                                   
                   1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
+sgesdd.f: In function ‘sgesdd’:
+sgesdd.f:558:0: warning: ‘mnthr’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+          IF( M.GE.MNTHR ) THEN
+ ^
+sgesdd.f:606:0: warning: ‘bdspac’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                IF( LWORK.GE.LDA*N+N*N+3*N+BDSPAC ) THEN
+ ^
+sgesdd.f:242:0: warning: ‘il’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       INTEGER            BDSPAC, BLK, CHUNK, I, IE, IERR, IL,
+ ^
+sgesdd.f:243:0: warning: ‘ir’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      $                   IR, ISCL, ITAU, ITAUP, ITAUQ, IU, IVT, LDWKVT,
+ ^
 sggbak.f:258.19:
 
                K = RSCALE( I )                                          
@@ -6065,16 +6052,6 @@ sggbal.f:536.14:
          JC = RSCALE( I ) + SIGN( HALF, RSCALE( I ) )                   
               1
 Warning: Possible change of value in conversion from REAL(4) to INTEGER(8) at (1)
-sgges.f:412.21:
-
-         WORK( 1 ) = MAXWRK                                             
-                     1
-Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
-sgges.f:674.18:
-
-      WORK( 1 ) = MAXWRK                                                
-                  1
-Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
 sgesvd.f: In function ‘sgesvd’:
 sgesvd.f:240:0: warning: ‘wrkbl’ may be used uninitialized in this function [-Wmaybe-uninitialized]
       $                   NRVT, WRKBL
@@ -6088,6 +6065,16 @@ sgesvd.f:237:0: warning: ‘bdspac’ may be used uninitialized in this function
 sgesvd.f:3462:0: warning: ‘ie’ may be used uninitialized in this function [-Wmaybe-uninitialized]
           IF( IE.LT.2 ) THEN
  ^
+sgges.f:412.21:
+
+         WORK( 1 ) = MAXWRK                                             
+                     1
+Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
+sgges.f:674.18:
+
+      WORK( 1 ) = MAXWRK                                                
+                  1
+Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
 sggesx.f:516.21:
 
          WORK( 1 ) = LWRK                                               
@@ -6137,21 +6124,6 @@ sgghrd.f: In function ‘sgghrd’:
 sgghrd.f:340:0: warning: ‘ilq’ may be used uninitialized in this function [-Wmaybe-uninitialized]
              IF( ILQ )
  ^
-sgglse.f:252.21:
-
-         WORK( 1 ) = LWKOPT                                             
-                     1
-Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
-sgglse.f:282.13:
-
-      LOPT = WORK( P+MN+1 )                                             
-             1
-Warning: Possible change of value in conversion from REAL(4) to INTEGER(8) at (1)
-sgglse.f:348.18:
-
-      WORK( 1 ) = P + MN + MAX( LOPT, INT( WORK( P+MN+1 ) ) )           
-                  1
-Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
 sggqrf.f:257.18:
 
       WORK( 1 ) = LWKOPT                                                
@@ -6165,6 +6137,21 @@ Warning: Possible change of value in conversion from REAL(4) to INTEGER(8) at (1
 sggqrf.f:293.18:
 
       WORK( 1 ) = MAX( LOPT, INT( WORK( 1 ) ) )                         
+                  1
+Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
+sgglse.f:252.21:
+
+         WORK( 1 ) = LWKOPT                                             
+                     1
+Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
+sgglse.f:282.13:
+
+      LOPT = WORK( P+MN+1 )                                             
+             1
+Warning: Possible change of value in conversion from REAL(4) to INTEGER(8) at (1)
+sgglse.f:348.18:
+
+      WORK( 1 ) = P + MN + MAX( LOPT, INT( WORK( P+MN+1 ) ) )           
                   1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
 sggrqf.f:256.18:
@@ -6211,24 +6198,24 @@ slahrd.f: In function ‘slahrd’:
 slahrd.f:282:0: warning: ‘ei’ may be used uninitialized in this function [-Wmaybe-uninitialized]
        A( K+NB, NB ) = EI
  ^
-slahr2.f: In function ‘slahr2’:
-slahr2.f:305:0: warning: ‘ei’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-       A( K+NB, NB ) = EI
- ^
 slahqr.f: In function ‘slahqr’:
 slahqr.f:530:0: warning: ‘i2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
                 DO 100 J = K, I2
+ ^
+slahr2.f: In function ‘slahr2’:
+slahr2.f:305:0: warning: ‘ei’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       A( K+NB, NB ) = EI
  ^
 slals0.f: In function ‘slals0’:
 slals0.f:410:0: warning: ‘difrj’ may be used uninitialized in this function [-Wmaybe-uninitialized]
       $                           DIFRJ ) / ( POLES( I, 2 )+DJ )
  ^
-slange.f: In function ‘slange’:
-slange.f:138:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-       REAL               SCALE, SUM, VALUE, TEMP
- ^
 slangb.f: In function ‘slangb’:
 slangb.f:149:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       REAL               SCALE, SUM, VALUE, TEMP
+ ^
+slange.f: In function ‘slange’:
+slange.f:138:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
        REAL               SCALE, SUM, VALUE, TEMP
  ^
 slangt.f: In function ‘slangt’:
@@ -6243,14 +6230,6 @@ slansb.f: In function ‘slansb’:
 slansb.f:153:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
        REAL               ABSA, SCALE, SUM, VALUE
  ^
-slansp.f: In function ‘slansp’:
-slansp.f:138:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-       REAL               ABSA, SCALE, SUM, VALUE
- ^
-slansy.f: In function ‘slansy’:
-slansy.f:146:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-       REAL               ABSA, SCALE, SUM, VALUE
- ^
 slantb.f:318.21:
 
                SUM = N                                                  
@@ -6261,16 +6240,14 @@ slantb.f:337.21:
                SUM = N                                                  
                      1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
-slantr.f:318.21:
-
-               SUM = MIN( M, N )                                        
-                     1
-Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
-slantr.f:332.21:
-
-               SUM = MIN( M, N )                                        
-                     1
-Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
+slansp.f: In function ‘slansp’:
+slansp.f:138:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       REAL               ABSA, SCALE, SUM, VALUE
+ ^
+slansy.f: In function ‘slansy’:
+slansy.f:146:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       REAL               ABSA, SCALE, SUM, VALUE
+ ^
 slantp.f:313.21:
 
                SUM = N                                                  
@@ -6285,12 +6262,22 @@ slantb.f: In function ‘slantb’:
 slantb.f:165:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
        REAL               SCALE, SUM, VALUE
  ^
-slantr.f: In function ‘slantr’:
-slantr.f:166:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-       REAL               SCALE, SUM, VALUE
- ^
+slantr.f:318.21:
+
+               SUM = MIN( M, N )                                        
+                     1
+Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
+slantr.f:332.21:
+
+               SUM = MIN( M, N )                                        
+                     1
+Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
 slantp.f: In function ‘slantp’:
 slantp.f:149:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       REAL               SCALE, SUM, VALUE
+ ^
+slantr.f: In function ‘slantr’:
+slantr.f:166:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
        REAL               SCALE, SUM, VALUE
  ^
 slarfgp.f:163.37:
@@ -6391,6 +6378,16 @@ sorglq.f:284.18:
       WORK( 1 ) = IWS                                                   
                   1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
+sorgql.f:187.21:
+
+         WORK( 1 ) = LWKOPT                                             
+                     1
+Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
+sorgql.f:291.18:
+
+      WORK( 1 ) = IWS                                                   
+                  1
+Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
 sorgqr.f:171.18:
 
       WORK( 1 ) = LWKOPT                                                
@@ -6401,11 +6398,7 @@ sorgqr.f:194.21:
          WORK( 1 ) = 1                                                  
                      1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
-sorgql.f:187.21:
-
-         WORK( 1 ) = LWKOPT                                             
-                    WarWarning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
-sorgql.f:291.18:
+sorgqr.f:285.18:
 
       WORK( 1 ) = IWS                                                   
                   1
@@ -6498,10 +6491,6 @@ sormql.f:346.18:
       WORK( 1 ) = LWKOPT                                                
                   1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
-sormql.f: In function ‘sormql’:
-sormql.f:282:0: warning: ‘nb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-          IWS = NW*NB
- ^
 sormqr.f:256.21:
 
          WORK( 1 ) = LWKOPT                                             
@@ -6517,22 +6506,16 @@ sormqr.f:344.18:
       WORK( 1 ) = LWKOPT                                                
                   1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
+sormql.f: In function ‘sormql’:
+sormql.f:282:0: warning: ‘nb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+          IWS = NW*NB
+ ^
 sormrq.f:259.21:
 
          WORK( 1 ) = LWKOPT                                             
                      1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
 sormrq.f:352.18:
-
-      WORK( 1 ) = LWKOPT                                                
-                  1
-Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
-sormrz.f:280.21:
-
-         WORK( 1 ) = LWKOPT                                             
-                     1
-Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
-sormrz.f:382.18:
 
       WORK( 1 ) = LWKOPT                                                
                   1
@@ -6548,6 +6531,16 @@ sormtr.f:275.21:
                      1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
 sormtr.f:307.18:
+
+      WORK( 1 ) = LWKOPT                                                
+                  1
+Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
+sormrz.f:280.21:
+
+         WORK( 1 ) = LWKOPT                                             
+                     1
+Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
+sormrz.f:382.18:
 
       WORK( 1 ) = LWKOPT                                                
                   1
@@ -6850,6 +6843,11 @@ ssytrf.f:358.18:
       WORK( 1 ) = LWKOPT                                                
                   1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
+ssytri2.f:190.17:
+
+         WORK(1)=MINSIZE                                                
+                 1
+Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
 ssytri2x.f:237.30:
 
              WORK(K,INVD+1) = 0                                         
@@ -6859,11 +6857,6 @@ ssytri2x.f:414.30:
 
              WORK(K,INVD+1) = 0                                         
                               1
-Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
-ssytri2.f:190.17:
-
-         WORK(1)=MINSIZE                                                
-                 1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
 ssytf2_rook.f: In function ‘ssytf2_rook’:
 ssytf2_rook.f:630:0: warning: ‘jmax’ may be used uninitialized in this function [-Wmaybe-uninitialized]
@@ -6897,6 +6890,11 @@ ssysv_rook.f:287.18:
       WORK( 1 ) = LWKOPT                                                
                   1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
+stgex2.f:291.21:
+
+         WORK( 1 ) = MAX( N*M, M*M*2 )                                  
+                     1
+Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
 stgexc.f:281.19:
 
          WORK(1) = LWMIN                                                
@@ -6906,11 +6904,6 @@ stgexc.f:539.18:
 
       WORK( 1 ) = LWMIN                                                 
                   1
-Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
-stgex2.f:291.21:
-
-         WORK( 1 ) = MAX( N*M, M*M*2 )                                  
-                     1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
 stgsen.f:575.18:
 
@@ -7351,6 +7344,13 @@ dgesvd.f:622.32:
                  LWORK_DORGBR_P=DUM(1)                                  
                                 1
 Warning: Possible change of value in conversion from REAL(8) to INTEGER(8) at (1)
+dgesvx.f: In function ‘dgesvx’:
+dgesvx.f:441:0: warning: ‘smlnum’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                ROWCND = MAX( RCMIN, SMLNUM ) / MIN( RCMAX, BIGNUM )
+ ^
+dgesvx.f:456:0: warning: ‘bignum’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                COLCND = MAX( RCMIN, SMLNUM ) / MIN( RCMAX, BIGNUM )
+ ^
 dgesdd.f: In function ‘dgesdd’:
 dgesdd.f:558:0: warning: ‘mnthr’ may be used uninitialized in this function [-Wmaybe-uninitialized]
           IF( M.GE.MNTHR ) THEN
@@ -7363,13 +7363,6 @@ dgesdd.f:242:0: warning: ‘il’ may be used uninitialized in this function [-W
  ^
 dgesdd.f:243:0: warning: ‘ir’ may be used uninitialized in this function [-Wmaybe-uninitialized]
       $                   IR, ISCL, ITAU, ITAUP, ITAUQ, IU, IVT, LDWKVT,
- ^
-dgesvx.f: In function ‘dgesvx’:
-dgesvx.f:441:0: warning: ‘smlnum’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-                ROWCND = MAX( RCMIN, SMLNUM ) / MIN( RCMAX, BIGNUM )
- ^
-dgesvx.f:456:0: warning: ‘bignum’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-                COLCND = MAX( RCMIN, SMLNUM ) / MIN( RCMAX, BIGNUM )
  ^
 dggbak.f:258.19:
 
@@ -7464,12 +7457,12 @@ dlals0.f: In function ‘dlals0’:
 dlals0.f:410:0: warning: ‘difrj’ may be used uninitialized in this function [-Wmaybe-uninitialized]
       $                           DIFRJ ) / ( POLES( I, 2 )+DJ )
  ^
-dlangb.f: In function ‘dlangb’:
-dlangb.f:149:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-       DOUBLE PRECISION   SCALE, SUM, VALUE, TEMP
- ^
 dlange.f: In function ‘dlange’:
 dlange.f:138:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       DOUBLE PRECISION   SCALE, SUM, VALUE, TEMP
+ ^
+dlangb.f: In function ‘dlangb’:
+dlangb.f:149:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
        DOUBLE PRECISION   SCALE, SUM, VALUE, TEMP
  ^
 dlangt.f: In function ‘dlangt’:
@@ -7865,21 +7858,6 @@ cgeevx.f:648.18:
       WORK( 1 ) = MAXWRK                                                
                   1
 Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
-cgegs.f:304.18:
-
-      WORK( 1 ) = LWKOPT                                                
-                  1
-Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
-cgegs.f:331.21:
-
-         WORK( 1 ) = LOPT                                               
-                     1
-Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
-cgegs.f:525.18:
-
-      WORK( 1 ) = LWKOPT                                                
-                  1
-Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
 cgegv.f:374.18:
 
       WORK( 1 ) = LWKOPT                                                
@@ -7896,6 +7874,21 @@ cgegv.f:693.20:
                     1
 Warning: Possible change of value in conversion from COMPLEX(4) to REAL(4) at (1)
 cgegv.f:700.18:
+
+      WORK( 1 ) = LWKOPT                                                
+                  1
+Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
+cgegs.f:304.18:
+
+      WORK( 1 ) = LWKOPT                                                
+                  1
+Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
+cgegs.f:331.21:
+
+         WORK( 1 ) = LOPT                                               
+                     1
+Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
+cgegs.f:525.18:
 
       WORK( 1 ) = LWKOPT                                                
                   1
@@ -8380,16 +8373,6 @@ cggqrf.f:293.18:
       WORK( 1 ) = MAX( LOPT, INT( WORK( 1 ) ) )                         
                   1
 Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
-cggsvd.f:420.16:
-
-      TOLA = MAX( M, N )*MAX( ANORM, UNFL )*ULP                         
-                1
-Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
-cggsvd.f:421.16:
-
-      TOLB = MAX( P, N )*MAX( BNORM, UNFL )*ULP                         
-                1
-Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
 cggrqf.f:256.18:
 
       WORK( 1 ) = LWKOPT                                                
@@ -8405,6 +8388,16 @@ cggrqf.f:293.18:
       WORK( 1 ) = MAX( LOPT, INT( WORK( 1 ) ) )                         
                   1
 Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
+cggsvd.f:420.16:
+
+      TOLA = MAX( M, N )*MAX( ANORM, UNFL )*ULP                         
+                1
+Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
+cggsvd.f:421.16:
+
+      TOLB = MAX( P, N )*MAX( BNORM, UNFL )*ULP                         
+                1
+Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
 chbev.f:226.21:
 
             W( 1 ) = AB( 1, 1 )                                         
@@ -8834,16 +8827,6 @@ chpev.f:210.22:
          RWORK( 1 ) = 1                                                 
                       1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
-chpevx.f:331.21:
-
-            W( 1 ) = AP( 1 )                                            
-                     1
-Warning: Possible change of value in conversion from COMPLEX(4) to REAL(4) at (1)
-chpevx.f:335.24:
-
-               W( 1 ) = AP( 1 )                                         
-                        1
-Warning: Possible change of value in conversion from COMPLEX(4) to REAL(4) at (1)
 chpevd.f:280.21:
 
          WORK( 1 ) = LWMIN                                              
@@ -8869,6 +8852,16 @@ chpevd.f:372.19:
       RWORK( 1 ) = LRWMIN                                               
                    1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
+chpevx.f:331.21:
+
+            W( 1 ) = AP( 1 )                                            
+                     1
+Warning: Possible change of value in conversion from COMPLEX(4) to REAL(4) at (1)
+chpevx.f:335.24:
+
+               W( 1 ) = AP( 1 )                                         
+                        1
+Warning: Possible change of value in conversion from COMPLEX(4) to REAL(4) at (1)
 chgeqz.f: In function ‘chgeqz’:
 chgeqz.f:854:0: warning: ‘ilz’ may be used uninitialized in this function [-Wmaybe-uninitialized]
              IF( ILZ )
@@ -8876,14 +8869,14 @@ chgeqz.f:854:0: warning: ‘ilz’ may be used uninitialized in this function [-
 chgeqz.f:796:0: warning: ‘ilq’ may be used uninitialized in this function [-Wmaybe-uninitialized]
              IF( ILQ ) THEN
  ^
+chgeqz.f:702:0: warning: ‘ilschr’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+          IF( .NOT.ILSCHR ) THEN
+ ^
 chpgst.f:188.21:
 
                BJJ = BP( JJ )                                           
                      1
 Warning: Possible change of value in conversion from COMPLEX(4) to REAL(4) at (1)
-chgeqz.f:702:0: warning: ‘ilschr’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-          IF( .NOT.ILSCHR ) THEN
- ^
 chpgst.f:209.21:
 
                AKK = AP( KK )                                           
@@ -9097,24 +9090,28 @@ clanhb.f: In function ‘clanhb’:
 clanhb.f:157:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
        REAL               ABSA, SCALE, SUM, VALUE
  ^
-clanhp.f: In function ‘clanhp’:
-clanhp.f:142:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-       REAL               ABSA, SCALE, SUM, VALUE
- ^
 clanhe.f: In function ‘clanhe’:
 clanhe.f:149:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
        REAL               ABSA, SCALE, SUM, VALUE
  ^
-clanhs.f: In function ‘clanhs’:
-clanhs.f:134:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-       REAL               SCALE, SUM, VALUE
+clanhp.f: In function ‘clanhp’:
+clanhp.f:142:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       REAL               ABSA, SCALE, SUM, VALUE
  ^
 clanht.f: In function ‘clanht’:
 clanht.f:126:0: warning: ‘anorm’ may be used uninitialized in this function [-Wmaybe-uninitialized]
        REAL               ANORM, SCALE, SUM
  ^
+clanhs.f: In function ‘clanhs’:
+clanhs.f:134:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       REAL               SCALE, SUM, VALUE
+ ^
 clansb.f: In function ‘clansb’:
 clansb.f:155:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       REAL               ABSA, SCALE, SUM, VALUE
+ ^
+clansy.f: In function ‘clansy’:
+clansy.f:148:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
        REAL               ABSA, SCALE, SUM, VALUE
  ^
 clansp.f: In function ‘clansp’:
@@ -9131,10 +9128,6 @@ clantb.f:339.21:
                SUM = N                                                  
                      1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
-clansy.f: In function ‘clansy’:
-clansy.f:148:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-       REAL               ABSA, SCALE, SUM, VALUE
- ^
 clantp.f:315.21:
 
                SUM = N                                                  
@@ -9457,6 +9450,21 @@ ctzrzf.f: In function ‘ctzrzf’:
 ctzrzf.f:251:0: warning: ‘nb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
              IWS = LDWORK*NB
  ^
+cunghr.f:184.21:
+
+         WORK( 1 ) = LWKOPT                                             
+                     1
+Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
+cunghr.f:197.21:
+
+         WORK( 1 ) = 1                                                  
+                     1
+Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
+cunghr.f:236.18:
+
+      WORK( 1 ) = LWKOPT                                                
+                  1
+Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
 cungbr.f:220.21:
 
          WORK( 1 ) = 1                                                  
@@ -9478,21 +9486,6 @@ cungbr.f:255.21:
                      1
 Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
 cungbr.f:334.18:
-
-      WORK( 1 ) = LWKOPT                                                
-                  1
-Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
-cunghr.f:184.21:
-
-         WORK( 1 ) = LWKOPT                                             
-                     1
-Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
-cunghr.f:197.21:
-
-         WORK( 1 ) = 1                                                  
-                     1
-Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
-cunghr.f:236.18:
 
       WORK( 1 ) = LWKOPT                                                
                   1
@@ -9551,6 +9544,10 @@ cungrq.f:292.18:
       WORK( 1 ) = IWS                                                   
                   1
 Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
+cungrq.f: In function ‘cungrq’:
+cungrq.f:220:0: warning: ‘nb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             IWS = LDWORK*NB
+ ^
 cungtr.f:185.21:
 
          WORK( 1 ) = LWKOPT                                             
@@ -9566,10 +9563,6 @@ cungtr.f:251.18:
       WORK( 1 ) = LWKOPT                                                
                   1
 Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
-cungrq.f: In function ‘cungrq’:
-cungrq.f:220:0: warning: ‘nb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-             IWS = LDWORK*NB
- ^
 cunmbr.f:299.21:
 
          WORK( 1 ) = LWKOPT                                             
@@ -9610,6 +9603,16 @@ cunmlq.f:351.18:
       WORK( 1 ) = LWKOPT                                                
                   1
 Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
+cunmql.f:258.21:
+
+         WORK( 1 ) = LWKOPT                                             
+                     1
+Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
+cunmql.f:345.18:
+
+      WORK( 1 ) = LWKOPT                                                
+                  1
+Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
 cunmqr.f:256.21:
 
          WORK( 1 ) = LWKOPT                                             
@@ -9625,36 +9628,26 @@ cunmqr.f:344.18:
       WORK( 1 ) = LWKOPT                                                
                   1
 Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
-cunmql.f:258.21:
-
-         WORK( 1 ) = LWKOPT                                             
-                     1
-Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
-cunmql.f:345.18:
-
-      WORK( 1 ) = LWKOPT                                                
-                  1
-Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
 cunmql.f: In function ‘cunmql’:
 cunmql.f:281:0: warning: ‘nb’ may be used uninitialized in this function [-Wmaybe-uninitialized]
           IWS = NW*NB
  ^
-cunmrz.f:280.21:
-
-         WORK( 1 ) = LWKOPT                                             
-                     1
-Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
-cunmrz.f:387.18:
-
-      WORK( 1 ) = LWKOPT                                                
-                  1
-Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
 cunmrq.f:259.21:
 
          WORK( 1 ) = LWKOPT                                             
                      1
 Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
 cunmrq.f:352.18:
+
+      WORK( 1 ) = LWKOPT                                                
+                  1
+Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
+cunmrz.f:280.21:
+
+         WORK( 1 ) = LWKOPT                                             
+                     1
+Warning: Possible change of value in conversion from INTEGER(8) to COMPLEX(4) at (1)
+cunmrz.f:387.18:
 
       WORK( 1 ) = LWKOPT                                                
                   1
@@ -9946,8 +9939,7 @@ zgelss.f:290.28:
                             1
 Warning: Possible change of value in conversion from COMPLEX(8) to INTEGER(8) at (1)
 zgelss.f:294.28:
-
-               LWORK_ZUNMBR=DUM(1)                                      
+z               LWORK_ZUNMBR=DUM(1)                                      
                             1
 Warning: Possible change of value in conversion from COMPLEX(8) to INTEGER(8) at (1)
 zgelss.f:298.28:
@@ -9995,10 +9987,6 @@ zgelss.f:359.31:
                   LWORK_ZUNGBR=DUM(1)                                   
                                1
 Warning: Possible change of value in conversion from COMPLEX(8) to INTEGER(8) at (1)
-zgelsd.f: In function ‘zgelsd’:
-zgelsd.f:465:0: warning: ‘mnthr’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-          IF( M.GE.MNTHR ) THEN
- ^
 zgelss.f: In function ‘zgelss’:
 zgelss.f:447:0: warning: ‘mnthr’ may be used uninitialized in this function [-Wmaybe-uninitialized]
           IF( M.GE.MNTHR ) THEN
@@ -10012,6 +10000,13 @@ zgetc2.f:186:0: warning: ‘jpv’ may be used uninitialized in this function [-
  ^
 zgetc2.f:134:0: warning: ‘ipv’ may be used uninitialized in this function [-Wmaybe-uninitialized]
        INTEGER            I, IP, IPV, J, JP, JPV
+ ^
+zgesvx.f: In function ‘zgesvx’:
+zgesvx.f:443:0: warning: ‘smlnum’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                ROWCND = MAX( RCMIN, SMLNUM ) / MIN( RCMAX, BIGNUM )
+ ^
+zgesvx.f:458:0: warning: ‘bignum’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                COLCND = MAX( RCMIN, SMLNUM ) / MIN( RCMAX, BIGNUM )
  ^
 zgesvd.f:325.25:
 
@@ -10103,13 +10098,6 @@ zgesvd.f:610.32:
                  LWORK_ZUNGBR_P=CDUM(1)                                 
                                 1
 Warning: Possible change of value in conversion from COMPLEX(8) to INTEGER(8) at (1)
-zgesvx.f: In function ‘zgesvx’:
-zgesvx.f:443:0: warning: ‘smlnum’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-                ROWCND = MAX( RCMIN, SMLNUM ) / MIN( RCMAX, BIGNUM )
- ^
-zgesvx.f:458:0: warning: ‘bignum’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-                COLCND = MAX( RCMIN, SMLNUM ) / MIN( RCMAX, BIGNUM )
- ^
 zggbak.f:259.19:
 
                K = RSCALE( I )                                          
@@ -10156,14 +10144,14 @@ zgghrd.f: In function ‘zgghrd’:
 zgghrd.f:339:0: warning: ‘ilq’ may be used uninitialized in this function [-Wmaybe-uninitialized]
              IF( ILQ )
  ^
-zggqrf.f:282.13:
-
-      LOPT = WORK( 1 )                                                  
-             1
-Warning: Possible change of value in conversion from COMPLEX(8) to INTEGER(8) at (1)
 zgglse.f:282.13:
 
       LOPT = WORK( P+MN+1 )                                             
+             1
+Warning: Possible change of value in conversion from COMPLEX(8) to INTEGER(8) at (1)
+zggqrf.f:282.13:
+
+      LOPT = WORK( 1 )                                                  
              1
 Warning: Possible change of value in conversion from COMPLEX(8) to INTEGER(8) at (1)
 zggrqf.f:281.13:
@@ -10265,6 +10253,10 @@ zhegs2.f:275.21:
                BKK = B( K, K )                                          
                      1
 Warning: Possible change of value in conversion from COMPLEX(8) to REAL(8) at (1)
+zhbgst.f: In function ‘zhbgst’:
+zhbgst.f:602:0: warning: ‘j2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             DO 240 J = N - 1, J2 + KA, -1
+ ^
 zhegvd.f:366.13:
 
       LOPT = MAX( DBLE( LOPT ), DBLE( WORK( 1 ) ) )                     
@@ -10280,10 +10272,6 @@ zhegvd.f:368.14:
       LIOPT = MAX( DBLE( LIOPT ), DBLE( IWORK( 1 ) ) )                  
               1
 Warning: Possible change of value in conversion from REAL(8) to INTEGER(8) at (1)
-zhbgst.f: In function ‘zhbgst’:
-zhbgst.f:602:0: warning: ‘j2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-             DO 240 J = N - 1, J2 + KA, -1
- ^
 zhetd2.f:251.21:
 
             E( I ) = ALPHA                                              
@@ -10365,16 +10353,6 @@ zhpevx.f:335.24:
                W( 1 ) = AP( 1 )                                         
                         1
 Warning: Possible change of value in conversion from COMPLEX(8) to REAL(8) at (1)
-zhgeqz.f: In function ‘zhgeqz’:
-zhgeqz.f:855:0: warning: ‘ilz’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-             IF( ILZ )
- ^
-zhgeqz.f:797:0: warning: ‘ilq’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-             IF( ILQ ) THEN
- ^
-zhgeqz.f:703:0: warning: ‘ilschr’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-          IF( .NOT.ILSCHR ) THEN
- ^
 zhpgst.f:188.21:
 
                BJJ = BP( JJ )                                           
@@ -10410,6 +10388,16 @@ zhpgst.f:265.21:
                BJJ = BP( JJ )                                           
                      1
 Warning: Possible change of value in conversion from COMPLEX(8) to REAL(8) at (1)
+zhgeqz.f: In function ‘zhgeqz’:
+zhgeqz.f:855:0: warning: ‘ilz’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             IF( ILZ )
+ ^
+zhgeqz.f:797:0: warning: ‘ilq’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             IF( ILQ ) THEN
+ ^
+zhgeqz.f:703:0: warning: ‘ilschr’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+          IF( .NOT.ILSCHR ) THEN
+ ^
 zhpgvd.f:341.14:
 
       LWMIN = MAX( DBLE( LWMIN ), DBLE( WORK( 1 ) ) )                   
@@ -10581,13 +10569,13 @@ zlanhp.f: In function ‘zlanhp’:
 zlanhp.f:142:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
        DOUBLE PRECISION   ABSA, SCALE, SUM, VALUE
  ^
-zlanht.f: In function ‘zlanht’:
-zlanht.f:126:0: warning: ‘anorm’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-       DOUBLE PRECISION   ANORM, SCALE, SUM
- ^
 zlanhs.f: In function ‘zlanhs’:
 zlanhs.f:134:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
        DOUBLE PRECISION   SCALE, SUM, VALUE
+ ^
+zlanht.f: In function ‘zlanht’:
+zlanht.f:126:0: warning: ‘anorm’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+       DOUBLE PRECISION   ANORM, SCALE, SUM
  ^
 zlansb.f: In function ‘zlansb’:
 zlansb.f:155:0: warning: ‘value’ may be used uninitialized in this function [-Wmaybe-uninitialized]
@@ -10824,6 +10812,11 @@ zunbdb.f:317.56:
       INTEGER            I, LWORKMIN, LWORKOPT, PI1, QI1                
                                                         1
 Warning: Unused variable 'qi1' declared at (1)
+zuncsd2by1.f:261.62:
+
+     $                       LDV1T, WORK, LWORK, RWORK, LRWORK, IWORK,  
+                                                              1
+Warning: Unused dummy argument 'lrwork' at (1)
 zuncsd.f: In function ‘zuncsd’:
 zuncsd.f:540:0: warning: ‘itauq2’ may be used uninitialized in this function [-Wmaybe-uninitialized]
       $             WORK(IORBDB), LORBDBWORK, CHILDINFO )
@@ -10850,11 +10843,6 @@ zuncsd.f:619:0: warning: ‘ib12e’ may be used uninitialized in this function 
 zuncsd.f:619:0: warning: ‘ib12d’ may be used uninitialized in this function [-Wmaybe-uninitialized]
 zuncsd.f:619:0: warning: ‘ib11e’ may be used uninitialized in this function [-Wmaybe-uninitialized]
 zuncsd.f:619:0: warning: ‘ib11d’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-zuncsd2by1.f:261.62:
-
-     $                       LDV1T, WORK, LWORK, RWORK, LRWORK, IWORK,  
-                                                              1
-Warning: Unused dummy argument 'lrwork' at (1)
 zuncsd2by1.f: In function ‘zuncsd2by1’:
 zuncsd2by1.f:689:0: warning: ‘itauq1’ may be used uninitialized in this function [-Wmaybe-uninitialized]
       $                 LORBDB-M, CHILDINFO )
@@ -11158,18 +11146,11 @@ slatmr.f: In function ‘slatmr’:
 slatmr.f:501:0: warning: ‘npvts’ may be used uninitialized in this function [-Wmaybe-uninitialized]
       $                   MNSUB, MXSUB, NPVTS
  ^
-slatms.f: In function ‘slatms’:
-slatms.f:1097:0: warning: ‘irow’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-                DO 410 JR = IROW + 1, LDA
- ^
-slatms.f:351:0: warning: ‘icol’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-       INTEGER            I, IC, ICOL, IDIST, IENDCH, IINFO, IL, ILDA,
- ^
 slatmt.f: In function ‘slatmt’:
 slatmt.f:1108:0: warning: ‘irow’ may be used uninitialized in this function [-Wmaybe-uninitialized]
                 DO 500 JR = IROW + 1, LDA
  ^
-slatmt.f:361:0: warning: ‘icol’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+slatms.f:351:0: warning: ‘icol’ may be used uninitialized in this function [-Wmaybe-uninitialized]
        INTEGER            I, IC, ICOL, IDIST, IENDCH, IINFO, IL, ILDA,
  ^
 slarot.f: In function ‘slarot’:
@@ -11510,6 +11491,10 @@ dlatm2.f:306:0: warning: ‘jsub’ may be used uninitialized in this function [
           TEMP = TEMP*DL( ISUB ) / DL( JSUB )
  ^
 dlatm2.f:306:0: warning: ‘isub’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+zlatmr.f: In function ‘zlatmr’:
+zlatmr.f:525:0: warning: ‘npvts’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      $                   MNSUB, MXSUB, NPVTS
+ ^
 zlatms.f: In function ‘zlatms’:
 zlatms.f:1225:0: warning: ‘irow’ may be used uninitialized in this function [-Wmaybe-uninitialized]
                 DO 480 JR = IROW + 1, LDA
@@ -11519,10 +11504,6 @@ zlatms.f:1224:0: warning: ‘icol’ may be used uninitialized in this function 
  ^
 zlatms.f:1095:0: warning: ‘zsym’ may be used uninitialized in this function [-Wmaybe-uninitialized]
              IF( .NOT.ZSYM ) THEN
- ^
-zlatmr.f: In function ‘zlatmr’:
-zlatmr.f:525:0: warning: ‘npvts’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-      $                   MNSUB, MXSUB, NPVTS
  ^
 zlatmt.f: In function ‘zlatmt’:
 zlatmt.f:1234:0: warning: ‘irow’ may be used uninitialized in this function [-Wmaybe-uninitialized]
@@ -11839,16 +11820,6 @@ lapacke_ztprfb_work.c: In function ‘LAPACKE_ztprfb_work’:
 lapacke_ztprfb_work.c:54:20: warning: unused variable ‘r’ [-Wunused-variable]
          lapack_int r = LAPACKE_lsame( side, 'r' ) ? k : k;
                     ^
-sblat1.f:215.44:
-
-               CALL STEST1(SNRM2(N,SX,INCX),STEMP,STEMP,SFAC)           
-                                            1
-Warning: Rank mismatch in argument 'strue1' at (1) (scalar and rank-1)
-sblat1.f:219.44:
-
-               CALL STEST1(SASUM(N,SX,INCX),STEMP,STEMP,SFAC)           
-                                            1
-Warning: Rank mismatch in argument 'strue1' at (1) (scalar and rank-1)
 dblat1.f:215.44:
 
                CALL STEST1(DNRM2(N,SX,INCX),STEMP,STEMP,SFAC)           
@@ -12084,6 +12055,11 @@ sblat1.f:623.20:
       MWPTY(10,5) = 3                                                   
                     1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
+dblat2.f:2985.5:
+
+   60 CONTINUE                                                          
+     1
+Warning: Label 60 at (1) defined but not used
 sblat2.f:253.24:
 
             A( I, J ) = MAX( I - J + 1, 0 )                             
@@ -12104,26 +12080,6 @@ sblat2.f:2985.5:
    60 CONTINUE                                                          
      1
 Warning: Label 60 at (1) defined but not used
-sblat2.f:1695.55:
-
-     $                  INCMAX, A, AA, AS, X, XX, XS, Y, YY, YS, YT, G, 
-                                                       1
-Warning: Unused dummy argument 'y' at (1)
-sblat2.f:1695.63:
-
-     $                  INCMAX, A, AA, AS, X, XX, XS, Y, YY, YS, YT, G, 
-                                                               1
-Warning: Unused dummy argument 'ys' at (1)
-sblat2.f:1695.59:
-
-     $                  INCMAX, A, AA, AS, X, XX, XS, Y, YY, YS, YT, G, 
-                                                           1
-Warning: Unused dummy argument 'yy' at (1)
-dblat2.f:2985.5:
-
-   60 CONTINUE                                                          
-     1
-Warning: Label 60 at (1) defined but not used
 dblat2.f:1695.55:
 
      $                  INCMAX, A, AA, AS, X, XX, XS, Y, YY, YS, YT, G, 
@@ -12135,6 +12091,21 @@ dblat2.f:1695.63:
                                                                1
 Warning: Unused dummy argument 'ys' at (1)
 dblat2.f:1695.59:
+
+     $                  INCMAX, A, AA, AS, X, XX, XS, Y, YY, YS, YT, G, 
+                                                           1
+Warning: Unused dummy argument 'yy' at (1)
+sblat2.f:1695.55:
+
+     $                  INCMAX, A, AA, AS, X, XX, XS, Y, YY, YS, YT, G, 
+                                                       1
+Warning: Unused dummy argument 'y' at (1)
+sblat2.f:1695.63:
+
+     $                  INCMAX, A, AA, AS, X, XX, XS, Y, YY, YS, YT, G, 
+                                                               1
+Warning: Unused dummy argument 'ys' at (1)
+sblat2.f:1695.59:
 
      $                  INCMAX, A, AA, AS, X, XX, XS, Y, YY, YS, YT, G, 
                                                            1
@@ -12204,12 +12175,12 @@ zblat2.f:1736.59:
      $                  INCMAX, A, AA, AS, X, XX, XS, Y, YY, YS, YT, G, 
                                                            1
 Warning: Unused dummy argument 'yy' at (1)
+dblat2.f: In function ‘dchk6’:
 sblat2.f: In function ‘schk6’:
-sblat2.f:2166:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+dblat2.f:2166:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
                       DO 40 I = 1, NARGS
  ^
-dblat2.f: In function ‘dchk6’:
-dblat2.f:2166:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+sblat2.f:2166:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
                       DO 40 I = 1, NARGS
  ^
 cblat2.f: In function ‘cchk6’:
@@ -12264,17 +12235,17 @@ cblat2.f: In function ‘cchk2’:
 cblat2.f:780:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
       $                   N, NARGS, NC, NK, NS
  ^
-zblat2.f: In function ‘zchk2’:
-zblat2.f:783:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-      $                   N, NARGS, NC, NK, NS
- ^
 sblat2.f: In function ‘schk1’:
+dblat2.f: In function ‘dchk1’:
 sblat2.f:425:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
       $                   LDAS, LX, LY, M, ML, MS, N, NARGS, NC, ND, NK,
  ^
-dblat2.f: In function ‘dchk1’:
 dblat2.f:425:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
       $                   LDAS, LX, LY, M, ML, MS, N, NARGS, NC, ND, NK,
+ ^
+zblat2.f: In function ‘zchk2’:
+zblat2.f:783:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      $                   N, NARGS, NC, NK, NS
  ^
 cblat2.f: In function ‘cchk1’:
 cblat2.f:435:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
@@ -12444,6 +12415,16 @@ zblat3.f:1244.44:
      $                  A, AA, AS, B, BB, BS, C, CC, CS, CT, G )        
                                             1
 Warning: Unused dummy argument 'bs' at (1)
+c_dblat1.f:214.48:
+
+               CALL STEST1(DNRM2TEST(N,SX,INCX),STEMP,STEMP,SFAC)       
+                                                1
+Warning: Rank mismatch in argument 'strue1' at (1) (scalar and rank-1)
+c_dblat1.f:218.48:
+
+               CALL STEST1(DASUMTEST(N,SX,INCX),STEMP,STEMP,SFAC)       
+                                                1
+Warning: Rank mismatch in argument 'strue1' at (1) (scalar and rank-1)
 c_sblat1.f:214.48:
 
                CALL STEST1(SNRM2TEST(N,SX,INCX),STEMP,STEMP,SFAC)       
@@ -12679,16 +12660,59 @@ c_sblat1.f:582.20:
       MWPTY(10,5) = 3                                                   
                     1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
-c_dblat1.f:214.48:
-
-               CALL STEST1(DNRM2TEST(N,SX,INCX),STEMP,STEMP,SFAC)       
-                                                1
-Warning: Rank mismatch in argument 'strue1' at (1) (scalar and rank-1)
-c_dblat1.f:218.48:
-
-               CALL STEST1(DASUMTEST(N,SX,INCX),STEMP,STEMP,SFAC)       
-                                                1
-Warning: Rank mismatch in argument 'strue1' at (1) (scalar and rank-1)
+c_dblas1.c: In function ‘daxpytest_’:
+c_dblas1.c:20:4: warning: passing argument 3 of ‘cblas_daxpy’ discards ‘const’ qualifier from pointer target type [enabled by default]
+    cblas_daxpy(*N, *alpha, X, *incX, Y, *incY);
+    ^
+In file included from ../common.h:725:0,
+                 from c_dblas1.c:9:
+../cblas.h:86:6: note: expected ‘double *’ but argument is of type ‘const double *’
+ void cblas_daxpy(OPENBLAS_CONST blasint n, OPENBLAS_CONST double alpha, OPENBLAS_CONST double *x, OPENBLAS_CONST blasint incx, double *y, OPENBLAS_CONST blasint incy);
+      ^
+c_dblas1.c: In function ‘ddottest_’:
+c_dblas1.c:34:4: warning: passing argument 2 of ‘cblas_ddot’ discards ‘const’ qualifier from pointer target type [enabled by default]
+    return cblas_ddot(*N, X, *incX, Y, *incY);
+    ^
+In file included from ../common.h:725:0,
+                 from c_dblas1.c:9:
+../cblas.h:58:8: note: expected ‘double *’ but argument is of type ‘const double *’
+ double cblas_ddot(OPENBLAS_CONST blasint n, OPENBLAS_CONST double *x, OPENBLAS_CONST blasint incx, OPENBLAS_CONST double *y, OPENBLAS_CONST blasint incy);
+        ^
+c_dblas1.c:34:4: warning: passing argument 4 of ‘cblas_ddot’ discards ‘const’ qualifier from pointer target type [enabled by default]
+    return cblas_ddot(*N, X, *incX, Y, *incY);
+    ^
+In file included from ../common.h:725:0,
+                 from c_dblas1.c:9:
+../cblas.h:58:8: note: expected ‘double *’ but argument is of type ‘const double *’
+ double cblas_ddot(OPENBLAS_CONST blasint n, OPENBLAS_CONST double *x, OPENBLAS_CONST blasint incx, OPENBLAS_CONST double *y, OPENBLAS_CONST blasint incy);
+        ^
+c_dblas1.c: In function ‘dnrm2test_’:
+c_dblas1.c:39:4: warning: passing argument 2 of ‘cblas_dnrm2’ discards ‘const’ qualifier from pointer target type [enabled by default]
+    return cblas_dnrm2(*N, X, *incX);
+    ^
+In file included from ../common.h:725:0,
+                 from c_dblas1.c:9:
+../cblas.h:76:8: note: expected ‘double *’ but argument is of type ‘const double *’
+ double cblas_dnrm2 (OPENBLAS_CONST blasint N, OPENBLAS_CONST double *X, OPENBLAS_CONST blasint incX);
+        ^
+c_dblas1.c: In function ‘dznrm2test_’:
+c_dblas1.c:77:4: warning: passing argument 2 of ‘cblas_dznrm2’ discards ‘const’ qualifier from pointer target type [enabled by default]
+    return cblas_dznrm2(*N, X, *incX);
+    ^
+In file included from ../common.h:725:0,
+                 from c_dblas1.c:9:
+../cblas.h:78:8: note: expected ‘double *’ but argument is of type ‘const void *’
+ double cblas_dznrm2(OPENBLAS_CONST blasint N, OPENBLAS_CONST double *X, OPENBLAS_CONST blasint incX);
+        ^
+c_dblas1.c: In function ‘idamaxtest_’:
+c_dblas1.c:83:4: warning: passing argument 2 of ‘cblas_idamax’ discards ‘const’ qualifier from pointer target type [enabled by default]
+    return (cblas_idamax(*N, X, *incX)+1);
+    ^
+In file included from ../common.h:725:0,
+                 from c_dblas1.c:9:
+../cblas.h:81:13: note: expected ‘double *’ but argument is of type ‘const double *’
+ CBLAS_INDEX cblas_idamax(OPENBLAS_CONST blasint n, OPENBLAS_CONST double *x, OPENBLAS_CONST blasint incx);
+             ^
 c_sblas1.c: In function ‘saxpytest_’:
 c_sblas1.c:20:4: warning: passing argument 3 of ‘cblas_saxpy’ discards ‘const’ qualifier from pointer target type [enabled by default]
     cblas_saxpy(*N, *alpha, X, *incX, Y, *incY);
@@ -12750,59 +12774,6 @@ In file included from ../common.h:725:0,
                  from c_sblas1.c:9:
 ../cblas.h:80:13: note: expected ‘float *’ but argument is of type ‘const float *’
  CBLAS_INDEX cblas_isamax(OPENBLAS_CONST blasint n, OPENBLAS_CONST float  *x, OPENBLAS_CONST blasint incx);
-             ^
-c_dblas1.c: In function ‘daxpytest_’:
-c_dblas1.c:20:4: warning: passing argument 3 of ‘cblas_daxpy’ discards ‘const’ qualifier from pointer target type [enabled by default]
-    cblas_daxpy(*N, *alpha, X, *incX, Y, *incY);
-    ^
-In file included from ../common.h:725:0,
-                 from c_dblas1.c:9:
-../cblas.h:86:6: note: expected ‘double *’ but argument is of type ‘const double *’
- void cblas_daxpy(OPENBLAS_CONST blasint n, OPENBLAS_CONST double alpha, OPENBLAS_CONST double *x, OPENBLAS_CONST blasint incx, double *y, OPENBLAS_CONST blasint incy);
-      ^
-c_dblas1.c: In function ‘ddottest_’:
-c_dblas1.c:34:4: warning: passing argument 2 of ‘cblas_ddot’ discards ‘const’ qualifier from pointer target type [enabled by default]
-    return cblas_ddot(*N, X, *incX, Y, *incY);
-    ^
-In file included from ../common.h:725:0,
-                 from c_dblas1.c:9:
-../cblas.h:58:8: note: expected ‘double *’ but argument is of type ‘const double *’
- double cblas_ddot(OPENBLAS_CONST blasint n, OPENBLAS_CONST double *x, OPENBLAS_CONST blasint incx, OPENBLAS_CONST double *y, OPENBLAS_CONST blasint incy);
-        ^
-c_dblas1.c:34:4: warning: passing argument 4 of ‘cblas_ddot’ discards ‘const’ qualifier from pointer target type [enabled by default]
-    return cblas_ddot(*N, X, *incX, Y, *incY);
-    ^
-In file included from ../common.h:725:0,
-                 from c_dblas1.c:9:
-../cblas.h:58:8: note: expected ‘double *’ but argument is of type ‘const double *’
- double cblas_ddot(OPENBLAS_CONST blasint n, OPENBLAS_CONST double *x, OPENBLAS_CONST blasint incx, OPENBLAS_CONST double *y, OPENBLAS_CONST blasint incy);
-        ^
-c_dblas1.c: In function ‘dnrm2test_’:
-c_dblas1.c:39:4: warning: passing argument 2 of ‘cblas_dnrm2’ discards ‘const’ qualifier from pointer target type [enabled by default]
-    return cblas_dnrm2(*N, X, *incX);
-    ^
-In file included from ../common.h:725:0,
-                 from c_dblas1.c:9:
-../cblas.h:76:8: note: expected ‘double *’ but argument is of type ‘const double *’
- double cblas_dnrm2 (OPENBLAS_CONST blasint N, OPENBLAS_CONST double *X, OPENBLAS_CONST blasint incX);
-        ^
-c_dblas1.c: In function ‘dznrm2test_’:
-c_dblas1.c:77:4: warning: passing argument 2 of ‘cblas_dznrm2’ discards ‘const’ qualifier from pointer target type [enabled by default]
-    return cblas_dznrm2(*N, X, *incX);
-    ^
-In file included from ../common.h:725:0,
-                 from c_dblas1.c:9:
-../cblas.h:78:8: note: expected ‘double *’ but argument is of type ‘const void *’
- double cblas_dznrm2(OPENBLAS_CONST blasint N, OPENBLAS_CONST double *X, OPENBLAS_CONST blasint incX);
-        ^
-c_dblas1.c: In function ‘idamaxtest_’:
-c_dblas1.c:83:4: warning: passing argument 2 of ‘cblas_idamax’ discards ‘const’ qualifier from pointer target type [enabled by default]
-    return (cblas_idamax(*N, X, *incX)+1);
-    ^
-In file included from ../common.h:725:0,
-                 from c_dblas1.c:9:
-../cblas.h:81:13: note: expected ‘double *’ but argument is of type ‘const double *’
- CBLAS_INDEX cblas_idamax(OPENBLAS_CONST blasint n, OPENBLAS_CONST double *x, OPENBLAS_CONST blasint incx);
              ^
 c_cblas1.c: In function ‘caxpytest_’:
 c_cblas1.c:15:4: warning: passing argument 2 of ‘cblas_caxpy’ discards ‘const’ qualifier from pointer target type [enabled by default]
@@ -14693,13 +14664,13 @@ c_dblat2.f: In function ‘dchk6’:
 c_dblat2.f:2333:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
                       DO 40 I = 1, NARGS
  ^
-c_dblat2.f: In function ‘dchk5’:
-c_dblat2.f:2014:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-                   DO 30 I = 1, NARGS
- ^
 c_sblat2.f: In function ‘schk3’:
 c_sblat2.f:1206:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
       $                   KS, LAA, LDA, LDAS, LX, N, NARGS, NC, NK, NS
+ ^
+c_dblat2.f: In function ‘dchk5’:
+c_dblat2.f:2014:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                   DO 30 I = 1, NARGS
  ^
 c_cblat2.f:352.7:
 
@@ -16522,10 +16493,6 @@ c_dblat3.f:360.7:
      $   1 )                                                            
        1
 Warning: Nonconforming tab character at (1)
-c_zblat2.f: In function ‘zchk2’:
-c_zblat2.f:856:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-      $                   N, NARGS, NC, NK, NS
- ^
 c_dblat3.f:591.7:
 
      $      BETA, CC, LDC )                                             
@@ -16581,6 +16548,10 @@ c_dblat3.f:2039.5:
  9994 FORMAT( 1X, I6, ': ', A12,'(', 2( '''', A1, ''',' ), 2( I3, ',' ),
      1
 Warning: Label 9994 at (1) defined but not used
+c_zblat2.f: In function ‘zchk2’:
+c_zblat2.f:856:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      $                   N, NARGS, NC, NK, NS
+ ^
 c_dblat3.f:1411.36:
 
      $                  A, AA, AS, B, BB, BS, C, CC, CS, CT, G, IORDER) 
@@ -18559,28 +18530,28 @@ Makefile:121: warning: overriding commands for target `../libopenblas64_p-r0.2.1
 Makefile:100: warning: ignoring old commands for target `../libopenblas64_p-r0.2.15.a.renamed'
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   313  100   313    0     0    274      0  0:00:01  0:00:01 --:--:--   273100   313  100   313    0     0    273      0  0:00:01  0:00:01 --:--:--   273
-100 3848k  100 3848k    0     0  2057k      0  0:00:01  0:00:01 --:--:-- 2057k
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmptuxe9e/usr/lib'
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100   313  100   313    0     0    151      0  0:00:02  0:00:02 --:--:--   151
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  4 3848k    4  186k    0     0  60138      0  0:01:05  0:00:03  0:01:02  189k100 3848k  100 3848k    0     0  1113k      0  0:00:03  0:00:03 --:--:-- 3054k
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpibtdY2/usr/lib'
 libtool: install: warning: relinking `libfftw3f_threads.la'
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmptuxe9e/usr/lib'
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpibtdY2/usr/lib'
 This is not dpkg install-info anymore, but GNU install-info
 See the man page for ginstall-info for command line arguments
-libtool: install: warning: `../threads/libfftw3f_threads.la' has not been installed in `/home/nanosoldier/workdir/tmptuxe9e/usr/lib'
-libtool: install: warning: `/home/nanosoldier/workdir/tmptuxe9e/deps/fftw-3.3.4-single/libfftw3f.la' has not been installed in `/home/nanosoldier/workdir/tmptuxe9e/usr/lib'
-libtool: install: warning: `../libfftw3f.la' has not been installed in `/home/nanosoldier/workdir/tmptuxe9e/usr/lib'
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmptuxe9e/usr/lib'
+libtool: install: warning: `../threads/libfftw3f_threads.la' has not been installed in `/home/nanosoldier/workdir/tmpibtdY2/usr/lib'
+libtool: install: warning: `/home/nanosoldier/workdir/tmpibtdY2/deps/fftw-3.3.4-single/libfftw3f.la' has not been installed in `/home/nanosoldier/workdir/tmpibtdY2/usr/lib'
+libtool: install: warning: `../libfftw3f.la' has not been installed in `/home/nanosoldier/workdir/tmpibtdY2/usr/lib'
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpibtdY2/usr/lib'
 libtool: install: warning: relinking `libfftw3_threads.la'
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmptuxe9e/usr/lib'
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpibtdY2/usr/lib'
 This is not dpkg install-info anymore, but GNU install-info
 See the man page for ginstall-info for command line arguments
-libtool: install: warning: `../threads/libfftw3_threads.la' has not been installed in `/home/nanosoldier/workdir/tmptuxe9e/usr/lib'
-libtool: install: warning: `/home/nanosoldier/workdir/tmptuxe9e/deps/fftw-3.3.4-double/libfftw3.la' has not been installed in `/home/nanosoldier/workdir/tmptuxe9e/usr/lib'
-libtool: install: warning: `../libfftw3.la' has not been installed in `/home/nanosoldier/workdir/tmptuxe9e/usr/lib'
+libtool: install: warning: `../threads/libfftw3_threads.la' has not been installed in `/home/nanosoldier/workdir/tmpibtdY2/usr/lib'
+libtool: install: warning: `/home/nanosoldier/workdir/tmpibtdY2/deps/fftw-3.3.4-double/libfftw3.la' has not been installed in `/home/nanosoldier/workdir/tmpibtdY2/usr/lib'
+libtool: install: warning: `../libfftw3.la' has not been installed in `/home/nanosoldier/workdir/tmpibtdY2/usr/lib'
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   313  100   313    0     0    439      0 --:--:-- --:--:-- --:--:--   438
-  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100 2282k  100 2282k    0     0  1514k      0  0:00:01  0:00:01 --:--:-- 6694k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   313  100   313    0     0    425      0 --:--:-- --:--:-- --:--:--   425
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 2282k  100 2282k    0     0  1337k      0  0:00:01  0:00:01 --:--:-- 2701k
 repl-vsnprintf.c:396:0: warning: ISO C forbids an empty translation unit [-Wpedantic]
  #endif /* ! HAVE_VSNPRINTF */
  ^
@@ -18606,18 +18577,18 @@ CMake Warning:
     CMAKE_CXX_COMPILER_ARG1
 
 
-/home/nanosoldier/workdir/tmptuxe9e/deps/libgit2/src/openssl_stream.c: In function ‘openssl_certificate’:
-/home/nanosoldier/workdir/tmptuxe9e/deps/libgit2/src/openssl_stream.c:367:2: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+/home/nanosoldier/workdir/tmpibtdY2/deps/libgit2/src/openssl_stream.c: In function ‘openssl_certificate’:
+/home/nanosoldier/workdir/tmpibtdY2/deps/libgit2/src/openssl_stream.c:367:2: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
   *out = (git_cert *)&st->cert_info;
   ^
-/home/nanosoldier/workdir/tmptuxe9e/deps/libgit2/src/openssl_stream.c: In function ‘openssl_certificate’:
-/home/nanosoldier/workdir/tmptuxe9e/deps/libgit2/src/openssl_stream.c:367:2: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+/home/nanosoldier/workdir/tmpibtdY2/deps/libgit2/src/openssl_stream.c: In function ‘openssl_certificate’:
+/home/nanosoldier/workdir/tmpibtdY2/deps/libgit2/src/openssl_stream.c:367:2: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
   *out = (git_cert *)&st->cert_info;
   ^
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   311  100   311    0     0    690      0 --:--:-- --:--:-- --:--:--   691
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  165k  100  165k    0     0   167k      0 --:--:-- --:--:-- --:--:--  585k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   311  100   311    0     0   1047      0 --:--:-- --:--:-- --:--:--  1050
+100  165k  100  165k    0     0   244k      0 --:--:-- --:--:-- --:--:--  244k
 randmtzig.c: In function ‘gv_randi’:
 randmtzig.c:92:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
      return *((uint64_t *) &r) & 0x000fffffffffffff;
@@ -18628,20 +18599,20 @@ randmtzig.c:104:5: warning: dereferencing type-punned pointer will break strict-
      ^
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   315  100   315    0     0    397      0 --:--:-- --:--:-- --:--:--   397100   315  100   315    0     0    397      0 --:--:-- --:--:-- --:--:--   396
-100 1196k  100 1196k    0     0   904k      0  0:00:01  0:00:01 --:--:--  904k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   315  100   315    0     0   1277      0 --:--:-- --:--:-- --:--:--  1275100   315  100   315    0     0   1276      0 --:--:-- --:--:-- --:--:--  1275
+100 1196k  100 1196k    0     0  1593k      0 --:--:-- --:--:-- --:--:-- 1593k
 This is not dpkg install-info anymore, but GNU install-info
 See the man page for ginstall-info for command line arguments
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmptuxe9e/usr/lib'
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpibtdY2/usr/lib'
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   323  100   323    0     0    658      0 --:--:-- --:--:-- --:--:--   657
-100 1390k  100 1390k    0     0  1441k      0 --:--:-- --:--:-- --:--:-- 1441k
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmptuxe9e/usr/lib'
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   323  100   323    0     0    917      0 --:--:-- --:--:-- --:--:--   920
+ 50 1390k   50  696k    0     0  1061k      0  0:00:01 --:--:--  0:00:01 1061k100 1390k  100 1390k    0     0  1923k      0 --:--:-- --:--:-- --:--:-- 10.2M
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpibtdY2/usr/lib'
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   327  100   327    0     0   1085      0 --:--:-- --:--:-- --:--:--  1086
-  0 24.4M    0  185k    0     0   231k      0  0:01:48 --:--:--  0:01:48  231k100 24.4M  100 24.4M    0     0  17.7M      0  0:00:01  0:00:01 --:--:-- 42.3M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   327  100   327    0     0   1576      0 --:--:-- --:--:-- --:--:--  1579
+  0 24.4M    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 24.4M  100 24.4M    0     0  18.3M      0  0:00:01  0:00:01 --:--:-- 34.6M
 ar: creating libcerbla.a
 ar: creating libsuitesparseconfig.a
 /bin/sh: 1: cd: can't cd to metis-4.0
