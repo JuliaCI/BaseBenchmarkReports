@@ -1,0 +1,1527 @@
+
+WARNING: deprecated syntax "(String=>Any)[a=>b for (a,b) in c]" at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:1212.
+Use "Dict{String,Any}(a=>b for (a,b) in c)" instead.
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/datafile.jl:31
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/datafile.jl:37
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:241
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:270
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:271
+WARNING: Method definition chartype(Type{String}) in module HDF5 at /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:270 overwritten at /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:271.
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:275
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:277
+WARNING: Method definition cset(Type{String}) in module HDF5 at /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:275 overwritten at /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:277.
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:279
+WARNING: Method definition cset(Type{String}) in module HDF5 at /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:277 overwritten at /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:279.
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:295
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:415
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:424
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:424
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:432
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:432
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:449
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/Blosc/src/Blosc.jl:172
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/Blosc/src/Blosc.jl:172
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:603
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:612
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:623
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:635
+
+WARNING: deprecated syntax "[a=>b for (a,b) in c]".
+Use "Dict(a=>b for (a,b) in c)" instead.
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:646
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:737
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:738
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:739
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:740
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:741
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:742
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:751
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:756
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:757
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:758
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:761
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:761
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:768
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:768
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:768
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:770
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:784
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:784
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:784
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:798
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:798
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:798
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:798
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:807
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:807
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:822
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:822
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:823
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:823
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:824
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:824
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:828
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:834
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:840
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:846
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:848
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:852
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:853
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:854
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:858
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:858
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:859
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:863
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:864
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:865
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:867
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:873
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:873
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:906
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:921
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:922
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:923
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:924
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1089
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1095
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1144
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1165
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1165
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1177
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1246
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1259
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1288
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1449
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1496
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1496
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1522
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1535
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1538
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1522
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1535
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1538
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1543
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1560
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1570
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1573
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1560
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1570
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1573
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1597
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1600
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1727
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1727
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1733
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1733
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1836
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1842
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1854
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1855
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1856
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1857
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1860
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1867
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1879
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1880
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1881
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1882
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1883
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1884
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1885
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2144
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2363
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2365
+WARNING: Method definition _link_properties(String) in module HDF5 at /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2363 overwritten at /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2365.
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2367
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2369
+WARNING: Method definition _attr_properties(String) in module HDF5 at /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2367 overwritten at /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2369.
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2373
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2373
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2373
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2373
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2373
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2373
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2373
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2373
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2373
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2373
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2373
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2373
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2373
+INFO: Recompiling stale cache file /home/nanosoldier/.julia/lib/v0.5/Blosc.ji for module Blosc.
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/FileIO/src/query.jl:52
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/FileIO/src/query.jl:481
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/FileIO/src/query.jl:482
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/FileIO/src/query.jl:158
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/FileIO/src/query.jl:162
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/FileIO/src/query.jl:180
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/FileIO/src/query.jl:481
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/FileIO/src/query.jl:481
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/FileIO/src/query.jl:385
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/FileIO/src/error_handling.jl:481
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/FileIO/src/error_handling.jl:481
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/FileIO/src/error_handling.jl:481
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/FileIO/src/error_handling.jl:481
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/FileIO/src/error_handling.jl:481
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/FileIO/src/error_handling.jl:481
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/FileIO/src/error_handling.jl:481
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/FileIO/src/error_handling.jl:481
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/FileIO/src/error_handling.jl:481
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/FileIO/src/error_handling.jl:481
+WARNING: `@unix_only` is deprecated, use `@static if is_unix()` instead
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in @unix_only(::Any) at ./deprecated.jl:532
+ in include_from_node1(::String) at ./loading.jl:426 (repeats 2 times)
+ in macro expansion; at ./none:2 [inlined]
+ in anonymous at ./<missing>:?
+ in eval(::Module, ::Any) at ./boot.jl:231
+ in process_options(::Base.JLOptions) at ./client.jl:243
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/.julia/v0.5/FileIO/src/query.jl, in expression starting on line 14
+WARNING: symbol is deprecated, use Symbol instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in symbol(::String, ::Vararg{String,N}) at ./deprecated.jl:30
+ in @format_str(::Any) at /home/nanosoldier/.julia/v0.5/FileIO/src/query.jl:42
+ in docm(::String, ::Expr, ::Bool) at ./docs/Docs.jl:606 (repeats 2 times)
+ in docm(::Expr) at ./docs/Docs.jl:679
+ in @doc(::Expr, ::Vararg{Expr,N}) at ./boot.jl:331
+ in include_from_node1(::String) at ./loading.jl:426 (repeats 2 times)
+ in macro expansion; at ./none:2 [inlined]
+ in anonymous at ./<missing>:?
+ in eval(::Module, ::Any) at ./boot.jl:231
+ in process_options(::Base.JLOptions) at ./client.jl:243
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/.julia/v0.5/FileIO/src/query.jl, in expression starting on line 47
+WARNING: symbol is deprecated, use Symbol instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in symbol(::String, ::Vararg{String,N}) at ./deprecated.jl:30
+ in @format_str(::Any) at /home/nanosoldier/.julia/v0.5/FileIO/src/query.jl:42
+ in include_from_node1(::String) at ./loading.jl:426 (repeats 2 times)
+ in macro expansion; at ./none:2 [inlined]
+ in anonymous at ./<missing>:?
+ in eval(::Module, ::Any) at ./boot.jl:231
+ in process_options(::Base.JLOptions) at ./client.jl:243
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/.julia/v0.5/FileIO/src/registry.jl, in expression starting on line 2
+INFO: Recompiling stale cache file /home/nanosoldier/.julia/lib/v0.5/HDF5.ji for module HDF5.
+INFO: Recompiling stale cache file /home/nanosoldier/.julia/lib/v0.5/FileIO.ji for module FileIO.
+WARNING: symbol is deprecated, use Symbol instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in symbol(::String, ::Vararg{String,N}) at ./deprecated.jl:30
+ in @format_str(::Any) at /home/nanosoldier/.julia/v0.5/FileIO/src/query.jl:42
+ in include_from_node1(::String) at ./loading.jl:426
+ in macro expansion; at ./none:2 [inlined]
+ in anonymous at ./<missing>:?
+ in eval(::Module, ::Any) at ./boot.jl:231
+ in process_options(::Base.JLOptions) at ./client.jl:243
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl, in expression starting on line 1183
+WARNING: symbol is deprecated, use Symbol instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in symbol(::String, ::Vararg{String,N}) at ./deprecated.jl:30
+ in @format_str(::Any) at /home/nanosoldier/.julia/v0.5/FileIO/src/query.jl:42
+ in include_from_node1(::String) at ./loading.jl:426
+ in macro expansion; at ./none:2 [inlined]
+ in anonymous at ./<missing>:?
+ in eval(::Module, ::Any) at ./boot.jl:231
+ in process_options(::Base.JLOptions) at ./client.jl:243
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl, in expression starting on line 1195
+
+WARNING: deprecated syntax "Base.(:+)".
+Use "Base.:+" instead.
+
+WARNING: deprecated syntax "Base.(:-)".
+Use "Base.:-" instead.
+
+WARNING: deprecated syntax "Base.(:*)".
+Use "Base.:*" instead.
+
+WARNING: deprecated syntax "Base.(:*)".
+Use "Base.:*" instead.
+
+WARNING: deprecated syntax "Base.(:*)".
+Use "Base.:*" instead.
+WARNING: blas_set_num_threads is deprecated, use BLAS.set_num_threads instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in blas_set_num_threads(::Int64, ::Vararg{Int64,N}) at ./deprecated.jl:30
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 8
+INFO: Recompiling stale cache file /home/nanosoldier/.julia/lib/v0.5/Compat.ji for module Compat.
+INFO: Recompiling stale cache file /home/nanosoldier/.julia/lib/v0.5/JLD.ji for module JLD.
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.WORD_SIZE is deprecated.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.WORD_SIZE is deprecated.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.WORD_SIZE is deprecated.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.WORD_SIZE is deprecated.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.WORD_SIZE is deprecated.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/problem/IMDBGraphs.jl:6
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/problem/IMDBGraphs.jl:12
+WARNING: Base.WORD_SIZE is deprecated.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.WORD_SIZE is deprecated.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.WORD_SIZE is deprecated.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.WORD_SIZE is deprecated.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.WORD_SIZE is deprecated.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+WARNING: Base.WORD_SIZE is deprecated.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+in #jldopen#5 at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl
+WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
+ in #jldopen#5(::Bool, ::Bool, ::Bool, ::Function, ::String, ::Bool, ::Bool, ::Bool, ::Bool, ::Bool) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:210
+ in (::JLD.#kw##jldopen)(::Array{Any,1}, ::JLD.#jldopen, ::String, ::Bool, ::Bool, ::Bool, ::Bool, ::Bool) at ./null:0
+ in #jldopen#6(::Bool, ::Bool, ::Bool, ::Function, ::String, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:244
+ in jldopen(::String, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:244
+ in #jldopen#7(::Array{Any,1}, ::Function, ::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:254
+ in #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ in #loadall!#3(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in loadall!() at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 16
+WARNING: Base.ASCIIString is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+in hdf5_to_julia_eltype at /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:16
+in hdf5_to_julia_eltype at /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl
+WARNING: bytestring(v::Vector{UInt8}) is deprecated, use String(copy(v)) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::Array{UInt8,1}) at ./deprecated.jl:50
+ in read(::HDF5.HDF5Attribute, ::Type{String}) at /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1279
+ in a_read(::HDF5.HDF5Datatype, ::String) at /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1169
+ in jldatatype(::JLD.JldFile, ::HDF5.HDF5Datatype) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:670
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:357
+ in (::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:51
+ in #jldopen#7(::Array{Any,1}, ::Function, ::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:256
+ in #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ in #loadall!#3(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in loadall!() at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 16
+WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
+ in h5t_get_member_name(::Int32, ::Int64) at /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:2164
+ in jldatatype(::JLD.JldFile, ::HDF5.HDF5Datatype) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:685
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:357
+ in (::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:51
+ in #jldopen#7(::Array{Any,1}, ::Function, ::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:256
+ in #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ in #loadall!#3(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in loadall!() at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 16
+WARNING: bytestring(v::Vector{UInt8}) is deprecated, use String(copy(v)) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::Array{UInt8,1}) at ./deprecated.jl:50
+ in read(::HDF5.HDF5Dataset, ::Type{String}) at /home/nanosoldier/.julia/v0.5/HDF5/src/plain.jl:1279
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{String}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:404
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:357
+ in (::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:51
+ in #jldopen#7(::Array{Any,1}, ::Function, ::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:256
+ in #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ in #loadall!#3(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in loadall!() at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 16
+WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
+ in jlconvert at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:178 [inlined]
+ in jlconvert(::Type{Tuple{String,String,Int64}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:369
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:357
+ in (::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:51
+ in #jldopen#7(::Array{Any,1}, ::Function, ::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:256
+ in #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ in #loadall!#3(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in loadall!() at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 16
+WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
+ in jlconvert at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:178 [inlined]
+ in jlconvert(::Type{Tuple{String,String,Int64}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:369
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:357
+ in (::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:51
+ in #jldopen#7(::Array{Any,1}, ::Function, ::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:256
+ in #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ in #loadall!#3(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in loadall!() at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 16
+WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
+ in jlconvert at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:178 [inlined]
+ in jlconvert(::Type{Tuple{String,String,String,Int64}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:369
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:357
+ in (::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:51
+ in #jldopen#7(::Array{Any,1}, ::Function, ::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:256
+ in #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ in #loadall!#3(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in loadall!() at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 16
+WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
+ in jlconvert at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:178 [inlined]
+ in jlconvert(::Type{Tuple{String,String,String,Int64}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:369
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:357
+ in (::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:51
+ in #jldopen#7(::Array{Any,1}, ::Function, ::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:256
+ in #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ in #loadall!#3(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in loadall!() at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 16
+WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
+ in jlconvert at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:178 [inlined]
+ in jlconvert(::Type{Tuple{String,String,String,Int64}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:369
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:357
+ in (::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:51
+ in #jldopen#7(::Array{Any,1}, ::Function, ::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:256
+ in #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ in #loadall!#3(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in loadall!() at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 16
+WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
+ in jlconvert at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:178 [inlined]
+ in jlconvert(::Type{Tuple{String,Int64}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:369
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:357
+ in (::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:51
+ in #jldopen#7(::Array{Any,1}, ::Function, ::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:256
+ in #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ in #loadall!#3(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in loadall!() at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 16
+WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
+ in jlconvert at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:178 [inlined]
+ in jlconvert(::Type{Tuple{String,String,Int64,DataType}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:369
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:357
+ in (::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:51
+ in #jldopen#7(::Array{Any,1}, ::Function, ::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:256
+ in #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ in #loadall!#3(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in loadall!() at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 16
+WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
+ in jlconvert at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:178 [inlined]
+ in jlconvert(::Type{Tuple{String,String,Int64,DataType}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:369
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:357
+ in (::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:51
+ in #jldopen#7(::Array{Any,1}, ::Function, ::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:256
+ in #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ in #loadall!#3(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in loadall!() at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 16
+WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
+ in jlconvert at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:178 [inlined]
+ in jlconvert(::DataType, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:290
+ in jlconvert(::Type{Tuple{String,String,Int64,DataType}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:369
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:357
+ in (::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:51
+ in #jldopen#7(::Array{Any,1}, ::Function, ::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:256
+ in #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ in #loadall!#3(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in loadall!() at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 16
+WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
+ in jlconvert at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:178 [inlined]
+ in jlconvert(::Type{Tuple{String,String}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:369
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:357
+ in (::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:51
+ in #jldopen#7(::Array{Any,1}, ::Function, ::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:256
+ in #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ in #loadall!#3(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in loadall!() at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 16
+WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
+ in jlconvert at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:178 [inlined]
+ in jlconvert(::Type{Tuple{String,String}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:369
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:357
+ in (::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:51
+ in #jldopen#7(::Array{Any,1}, ::Function, ::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:256
+ in #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ in #loadall!#3(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in loadall!() at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 16
+WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
+ in jlconvert at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:178 [inlined]
+ in jlconvert(::Type{Tuple{String,String,String}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:369
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:357
+ in (::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:51
+ in #jldopen#7(::Array{Any,1}, ::Function, ::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:256
+ in #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ in #loadall!#3(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in loadall!() at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 16
+WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
+ in jlconvert at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:178 [inlined]
+ in jlconvert(::Type{Tuple{String,String,String}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:369
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:357
+ in (::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:51
+ in #jldopen#7(::Array{Any,1}, ::Function, ::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:256
+ in #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ in #loadall!#3(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in loadall!() at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 16
+WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
+ in jlconvert at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:178 [inlined]
+ in jlconvert(::Type{Tuple{String,String,String}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:369
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:357
+ in (::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:51
+ in #jldopen#7(::Array{Any,1}, ::Function, ::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:256
+ in #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ in #loadall!#3(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in loadall!() at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 16
+WARNING: bytestring(p::Union{Ptr{Int8},Ptr{UInt8}}) is deprecated, use unsafe_string(p) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::Ptr{UInt8}) at ./deprecated.jl:50
+ in jlconvert at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:178 [inlined]
+ in jlconvert(::Type{Tuple{String,Tuple{Int64,Int64}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:369
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:482
+ in read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:418
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:383
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:509
+ in jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:508
+ in read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:409
+ in read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:381
+ in read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:357
+ in (::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:51
+ in #jldopen#7(::Array{Any,1}, ::Function, ::BaseBenchmarks.##5#6{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:256
+ in #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ in #loadall!#3(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in loadall!() at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 16
+WARNING: could not attach metadata for @simd loop.
+WARNING: could not attach metadata for @simd loop.
+WARNING: could not attach metadata for @simd loop.
+WARNING: could not attach metadata for @simd loop.
+WARNING: sub is deprecated, use view instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in sub(::Array{Float64,2}, ::Vararg{Any,N}) at ./deprecated.jl:30
+ in perf_laplace_iter_sub(::Int64) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/problem/Laplacian.jl:86
+ in ##func#3475() at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:225
+ in ##sample#3476(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:232
+ in #_run#7(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3477")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:260
+ in (::BenchmarkTools.#kw##_run)(::Array{Any,1}, ::BenchmarkTools.#_run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3477")}, ::BenchmarkTools.Parameters) at ./null:0
+ in anonymous at ./<missing>:?
+ in #run#13(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3477")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:27
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3477")}, ::BenchmarkTools.Parameters) at ./null:0 (repeats 2 times)
+ in #run#14(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./null:0
+ in #run#14(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./null:0
+ in #run#14(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./null:0
+ in warmup(::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:62
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 22
+WARNING: sub is deprecated, use view instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in sub(::Array{Float64,2}, ::Vararg{Any,N}) at ./deprecated.jl:30
+ in perf_laplace_iter_sub(::Int64) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/problem/Laplacian.jl:86
+ in ##func#3475() at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:225
+ in ##sample#3476(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:232
+ in #_run#7(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3477")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:260
+ in (::BenchmarkTools.#kw##_run)(::Array{Any,1}, ::BenchmarkTools.#_run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3477")}, ::BenchmarkTools.Parameters) at ./null:0
+ in anonymous at ./<missing>:?
+ in #run#13(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3477")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:27
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3477")}, ::BenchmarkTools.Parameters) at ./null:0 (repeats 2 times)
+ in #run#14(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./null:0
+ in #run#14(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./null:0
+ in #run#14(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./null:0
+ in warmup(::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:62
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 22
+WARNING: sub is deprecated, use view instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in sub(::Array{Float64,2}, ::Vararg{Any,N}) at ./deprecated.jl:30
+ in perf_laplace_iter_sub(::Int64) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/problem/Laplacian.jl:86
+ in ##func#3475() at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:225
+ in ##sample#3476(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:232
+ in #_run#7(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3477")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:260
+ in (::BenchmarkTools.#kw##_run)(::Array{Any,1}, ::BenchmarkTools.#_run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3477")}, ::BenchmarkTools.Parameters) at ./null:0
+ in anonymous at ./<missing>:?
+ in #run#13(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3477")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:27
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3477")}, ::BenchmarkTools.Parameters) at ./null:0 (repeats 2 times)
+ in #run#14(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./null:0
+ in #run#14(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./null:0
+ in #run#14(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./null:0
+ in warmup(::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:62
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 22
+WARNING: sub is deprecated, use view instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in sub(::Array{Float64,2}, ::Vararg{Any,N}) at ./deprecated.jl:30
+ in perf_laplace_iter_sub(::Int64) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/problem/Laplacian.jl:86
+ in ##func#3475() at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:225
+ in ##sample#3476(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:232
+ in #_run#7(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3477")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:260
+ in (::BenchmarkTools.#kw##_run)(::Array{Any,1}, ::BenchmarkTools.#_run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3477")}, ::BenchmarkTools.Parameters) at ./null:0
+ in anonymous at ./<missing>:?
+ in #run#13(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3477")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:27
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3477")}, ::BenchmarkTools.Parameters) at ./null:0 (repeats 2 times)
+ in #run#14(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./null:0
+ in #run#14(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./null:0
+ in #run#14(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./null:0
+ in warmup(::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:62
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:22
+WARNING: x::Integer == y::Char is deprecated, use x == UInt32(y) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in ==(::UInt8, ::Char) at ./deprecated.jl:50
+ in (::BaseBenchmarks.ShootoutBenchmarks.##25#26)(::IOStream) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/shootout/revcomp.jl:49
+ in open(::BaseBenchmarks.ShootoutBenchmarks.##25#26, ::String, ::String) at ./iostream.jl:113
+ in ##func#4485() at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:225
+ in ##sample#4486(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:232
+ in #_run#27(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#4487")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:260
+ in (::BenchmarkTools.#kw##_run)(::Array{Any,1}, ::BenchmarkTools.#_run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#4487")}, ::BenchmarkTools.Parameters) at ./null:0
+ in anonymous at ./<missing>:?
+ in #run#13(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#4487")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:27
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#4487")}, ::BenchmarkTools.Parameters) at ./null:0 (repeats 2 times)
+ in #run#14(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./null:0
+ in #run#14(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./null:0
+ in warmup(::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:62
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:28
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:28
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:28
+WARNING: bytestring(s::AbstractString...) is deprecated, use string(s...) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::String) at ./deprecated.jl:50
+ in #_write#10(::Array{Any,1}, ::Function, ::JLD.JldFile, ::String, ::Int64, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:551
+ in #write#8(::Array{Any,1}, ::Function, ::JLD.JldFile, ::String, ::Int64, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:520
+ in #jldopen#5(::Bool, ::Bool, ::Bool, ::Function, ::String, ::Bool, ::Bool, ::Bool, ::Bool, ::Bool) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:185
+ in (::JLD.#kw##jldopen)(::Array{Any,1}, ::JLD.#jldopen, ::String, ::Bool, ::Bool, ::Bool, ::Bool, ::Bool) at ./null:0
+ in #jldopen#6(::Bool, ::Bool, ::Bool, ::Function, ::String, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:244
+ in (::JLD.#kw##jldopen)(::Array{Any,1}, ::JLD.#jldopen, ::String, ::String) at ./null:0
+ in #jldopen#7(::Array{Any,1}, ::Function, ::JLD.##24#25{String,BenchmarkTools.BenchmarkGroup,Tuple{}}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:254
+ in (::JLD.#kw##jldopen)(::Array{Any,1}, ::JLD.#jldopen, ::Function, ::String, ::String) at ./null:0
+ in #save#23(::Bool, ::Bool, ::Function, ::FileIO.File{FileIO.DataFormat{:JLD}}, ::String, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:1199
+ in save(::FileIO.File{FileIO.DataFormat{:JLD}}, ::String, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:1196
+ in #save#14(::Array{Any,1}, ::Function, ::String, ::String, ::Vararg{Any,N}) at /home/nanosoldier/.julia/v0.5/FileIO/src/loadsave.jl:51
+ in save(::String, ::String, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/FileIO/src/loadsave.jl:51
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 28
+WARNING: bytestring(s::AbstractString...) is deprecated, use string(s...) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::String) at ./deprecated.jl:50
+ in #_write#10(::Array{Any,1}, ::Function, ::JLD.JldFile, ::String, ::Array{String,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:551
+ in #write#8(::Array{Any,1}, ::Function, ::JLD.JldFile, ::String, ::Array{String,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:520
+ in #jldopen#5(::Bool, ::Bool, ::Bool, ::Function, ::String, ::Bool, ::Bool, ::Bool, ::Bool, ::Bool) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:189
+ in (::JLD.#kw##jldopen)(::Array{Any,1}, ::JLD.#jldopen, ::String, ::Bool, ::Bool, ::Bool, ::Bool, ::Bool) at ./null:0
+ in #jldopen#6(::Bool, ::Bool, ::Bool, ::Function, ::String, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:244
+ in (::JLD.#kw##jldopen)(::Array{Any,1}, ::JLD.#jldopen, ::String, ::String) at ./null:0
+ in #jldopen#7(::Array{Any,1}, ::Function, ::JLD.##24#25{String,BenchmarkTools.BenchmarkGroup,Tuple{}}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:254
+ in (::JLD.#kw##jldopen)(::Array{Any,1}, ::JLD.#jldopen, ::Function, ::String, ::String) at ./null:0
+ in #save#23(::Bool, ::Bool, ::Function, ::FileIO.File{FileIO.DataFormat{:JLD}}, ::String, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:1199
+ in save(::FileIO.File{FileIO.DataFormat{:JLD}}, ::String, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:1196
+ in #save#14(::Array{Any,1}, ::Function, ::String, ::String, ::Vararg{Any,N}) at /home/nanosoldier/.julia/v0.5/FileIO/src/loadsave.jl:51
+ in save(::String, ::String, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/FileIO/src/loadsave.jl:51
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 28
+WARNING: bytestring(s::AbstractString...) is deprecated, use string(s...) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::String) at ./deprecated.jl:50
+ in #_write#10(::Array{Any,1}, ::Function, ::JLD.JldFile, ::String, ::Array{Int64,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:551
+ in #write#8(::Array{Any,1}, ::Function, ::JLD.JldFile, ::String, ::Array{Int64,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:520
+ in #jldopen#5(::Bool, ::Bool, ::Bool, ::Function, ::String, ::Bool, ::Bool, ::Bool, ::Bool, ::Bool) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:192
+ in (::JLD.#kw##jldopen)(::Array{Any,1}, ::JLD.#jldopen, ::String, ::Bool, ::Bool, ::Bool, ::Bool, ::Bool) at ./null:0
+ in #jldopen#6(::Bool, ::Bool, ::Bool, ::Function, ::String, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:244
+ in (::JLD.#kw##jldopen)(::Array{Any,1}, ::JLD.#jldopen, ::String, ::String) at ./null:0
+ in #jldopen#7(::Array{Any,1}, ::Function, ::JLD.##24#25{String,BenchmarkTools.BenchmarkGroup,Tuple{}}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:254
+ in (::JLD.#kw##jldopen)(::Array{Any,1}, ::JLD.#jldopen, ::Function, ::String, ::String) at ./null:0
+ in #save#23(::Bool, ::Bool, ::Function, ::FileIO.File{FileIO.DataFormat{:JLD}}, ::String, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:1199
+ in save(::FileIO.File{FileIO.DataFormat{:JLD}}, ::String, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:1196
+ in #save#14(::Array{Any,1}, ::Function, ::String, ::String, ::Vararg{Any,N}) at /home/nanosoldier/.julia/v0.5/FileIO/src/loadsave.jl:51
+ in save(::String, ::String, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/FileIO/src/loadsave.jl:51
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 28
+WARNING: bytestring(s::AbstractString...) is deprecated, use string(s...) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::String) at ./deprecated.jl:50
+ in #_write#10(::Array{Any,1}, ::Function, ::JLD.JldFile, ::String, ::UInt32, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:551
+ in #write#8(::Array{Any,1}, ::Function, ::JLD.JldFile, ::String, ::UInt32, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:520
+ in #jldopen#5(::Bool, ::Bool, ::Bool, ::Function, ::String, ::Bool, ::Bool, ::Bool, ::Bool, ::Bool) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:195
+ in (::JLD.#kw##jldopen)(::Array{Any,1}, ::JLD.#jldopen, ::String, ::Bool, ::Bool, ::Bool, ::Bool, ::Bool) at ./null:0
+ in #jldopen#6(::Bool, ::Bool, ::Bool, ::Function, ::String, ::String) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:244
+ in (::JLD.#kw##jldopen)(::Array{Any,1}, ::JLD.#jldopen, ::String, ::String) at ./null:0
+ in #jldopen#7(::Array{Any,1}, ::Function, ::JLD.##24#25{String,BenchmarkTools.BenchmarkGroup,Tuple{}}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:254
+ in (::JLD.#kw##jldopen)(::Array{Any,1}, ::JLD.#jldopen, ::Function, ::String, ::String) at ./null:0
+ in #save#23(::Bool, ::Bool, ::Function, ::FileIO.File{FileIO.DataFormat{:JLD}}, ::String, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:1199
+ in save(::FileIO.File{FileIO.DataFormat{:JLD}}, ::String, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:1196
+ in #save#14(::Array{Any,1}, ::Function, ::String, ::String, ::Vararg{Any,N}) at /home/nanosoldier/.julia/v0.5/FileIO/src/loadsave.jl:51
+ in save(::String, ::String, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/FileIO/src/loadsave.jl:51
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 28
+WARNING: bytestring(s::AbstractString...) is deprecated, use string(s...) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::String) at ./deprecated.jl:50
+ in (::JLD.##24#25{String,BenchmarkTools.BenchmarkGroup,Tuple{}})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:1201
+ in #jldopen#7(::Array{Any,1}, ::Function, ::JLD.##24#25{String,BenchmarkTools.BenchmarkGroup,Tuple{}}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:256
+ in (::JLD.#kw##jldopen)(::Array{Any,1}, ::JLD.#jldopen, ::Function, ::String, ::String) at ./null:0
+ in #save#23(::Bool, ::Bool, ::Function, ::FileIO.File{FileIO.DataFormat{:JLD}}, ::String, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:1199
+ in save(::FileIO.File{FileIO.DataFormat{:JLD}}, ::String, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:1196
+ in #save#14(::Array{Any,1}, ::Function, ::String, ::String, ::Vararg{Any,N}) at /home/nanosoldier/.julia/v0.5/FileIO/src/loadsave.jl:51
+ in save(::String, ::String, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/FileIO/src/loadsave.jl:51
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 28
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:28
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:28
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:28
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl:28
+WARNING: bytestring(s::AbstractString...) is deprecated, use string(s...) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::String) at ./deprecated.jl:50
+ in #_write#10(::Array{Any,1}, ::Function, ::JLD.JldGroup, ::String, ::String, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:551
+ in _write(::JLD.JldGroup, ::String, ::String, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:549
+ in write_ref(::JLD.JldFile, ::String, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:662
+ in h5convert_array(::JLD.JldFile, ::Array{Any,1}, ::JLD.JldDatatype, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:606
+ in #_write#11(::Array{Any,1}, ::Function, ::JLD.JldGroup, ::String, ::Array{Any,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:570
+ in _write(::JLD.JldGroup, ::String, ::Array{Any,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:568
+ in write_ref(::JLD.JldFile, ::Array{Any,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:662
+ in h5convert!(::Ptr{UInt8}, ::JLD.JldFile, ::JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:621
+ in #write_compound#15(::Array{Any,1}, ::Function, ::JLD.JldGroup, ::String, ::JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:704
+ in _write(::JLD.JldGroup, ::String, ::JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:693
+ in write_ref(::JLD.JldFile, ::Dict{Any,Any}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:662
+ in h5convert!(::Ptr{UInt8}, ::JLD.JldFile, ::BenchmarkTools.BenchmarkGroup, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:621
+ in #write_compound#15(::Array{Any,1}, ::Function, ::JLD.JldFile, ::String, ::BenchmarkTools.BenchmarkGroup, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:704
+ in #write#8(::Array{Any,1}, ::Function, ::JLD.JldFile, ::String, ::BenchmarkTools.BenchmarkGroup, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:520
+ in (::JLD.##24#25{String,BenchmarkTools.BenchmarkGroup,Tuple{}})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:1201
+ in #jldopen#7(::Array{Any,1}, ::Function, ::JLD.##24#25{String,BenchmarkTools.BenchmarkGroup,Tuple{}}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:256
+ in (::JLD.#kw##jldopen)(::Array{Any,1}, ::JLD.#jldopen, ::Function, ::String, ::String) at ./null:0
+ in #save#23(::Bool, ::Bool, ::Function, ::FileIO.File{FileIO.DataFormat{:JLD}}, ::String, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:1199
+ in save(::FileIO.File{FileIO.DataFormat{:JLD}}, ::String, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:1196
+ in #save#14(::Array{Any,1}, ::Function, ::String, ::String, ::Vararg{Any,N}) at /home/nanosoldier/.julia/v0.5/FileIO/src/loadsave.jl:51
+ in save(::String, ::String, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/FileIO/src/loadsave.jl:51
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 28
+WARNING: bytestring(s::AbstractString...) is deprecated, use string(s...) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in bytestring(::String) at ./deprecated.jl:50
+ in #_write#10(::Array{Any,1}, ::Function, ::JLD.JldGroup, ::String, ::Array{Int64,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:551
+ in _write(::JLD.JldGroup, ::String, ::Array{Int64,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:549
+ in write_ref(::JLD.JldFile, ::Array{Int64,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:662
+ in h5convert!(::Ptr{UInt8}, ::JLD.JldFile, ::BenchmarkTools.Trial, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:621
+ in #write_compound#15(::Array{Any,1}, ::Function, ::JLD.JldGroup, ::String, ::BenchmarkTools.Trial, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:704
+ in _write(::JLD.JldGroup, ::String, ::BenchmarkTools.Trial, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:693
+ in write_ref(::JLD.JldFile, ::BenchmarkTools.Trial, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:662
+ in h5convert_array(::JLD.JldFile, ::Array{Any,1}, ::JLD.JldDatatype, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:606
+ in #_write#11(::Array{Any,1}, ::Function, ::JLD.JldGroup, ::String, ::Array{Any,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:570
+ in _write(::JLD.JldGroup, ::String, ::Array{Any,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:568
+ in write_ref(::JLD.JldFile, ::Array{Any,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:662
+ in h5convert!(::Ptr{UInt8}, ::JLD.JldFile, ::JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:621
+ in #write_compound#15(::Array{Any,1}, ::Function, ::JLD.JldGroup, ::String, ::JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:704
+ in _write(::JLD.JldGroup, ::String, ::JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:693
+ in write_ref(::JLD.JldFile, ::Dict{Any,Any}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:662
+ in h5convert!(::Ptr{UInt8}, ::JLD.JldFile, ::BenchmarkTools.BenchmarkGroup, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:621
+ in #write_compound#15(::Array{Any,1}, ::Function, ::JLD.JldGroup, ::String, ::BenchmarkTools.BenchmarkGroup, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:704
+ in _write(::JLD.JldGroup, ::String, ::BenchmarkTools.BenchmarkGroup, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:693
+ in write_ref(::JLD.JldFile, ::BenchmarkTools.BenchmarkGroup, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:662
+ in h5convert_array(::JLD.JldFile, ::Array{Any,1}, ::JLD.JldDatatype, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:606
+ in #_write#11(::Array{Any,1}, ::Function, ::JLD.JldGroup, ::String, ::Array{Any,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:570
+ in _write(::JLD.JldGroup, ::String, ::Array{Any,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:568
+ in write_ref(::JLD.JldFile, ::Array{Any,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:662
+ in h5convert!(::Ptr{UInt8}, ::JLD.JldFile, ::JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:621
+ in #write_compound#15(::Array{Any,1}, ::Function, ::JLD.JldGroup, ::String, ::JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:704
+ in _write(::JLD.JldGroup, ::String, ::JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:693
+ in write_ref(::JLD.JldFile, ::Dict{Any,Any}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:662
+ in h5convert!(::Ptr{UInt8}, ::JLD.JldFile, ::BenchmarkTools.BenchmarkGroup, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/jld_types.jl:621
+ in #write_compound#15(::Array{Any,1}, ::Function, ::JLD.JldFile, ::String, ::BenchmarkTools.BenchmarkGroup, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:704
+ in #write#8(::Array{Any,1}, ::Function, ::JLD.JldFile, ::String, ::BenchmarkTools.BenchmarkGroup, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:520
+ in (::JLD.##24#25{String,BenchmarkTools.BenchmarkGroup,Tuple{}})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:1201
+ in #jldopen#7(::Array{Any,1}, ::Function, ::JLD.##24#25{String,BenchmarkTools.BenchmarkGroup,Tuple{}}, ::String, ::Vararg{String,N}) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:256
+ in (::JLD.#kw##jldopen)(::Array{Any,1}, ::JLD.#jldopen, ::Function, ::String, ::String) at ./null:0
+ in #save#23(::Bool, ::Bool, ::Function, ::FileIO.File{FileIO.DataFormat{:JLD}}, ::String, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:1199
+ in save(::FileIO.File{FileIO.DataFormat{:JLD}}, ::String, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/JLD/src/JLD.jl:1196
+ in #save#14(::Array{Any,1}, ::Function, ::String, ::String, ::Vararg{Any,N}) at /home/nanosoldier/.julia/v0.5/FileIO/src/loadsave.jl:51
+ in save(::String, ::String, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/FileIO/src/loadsave.jl:51
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:266
+ in _start() at ./client.jl:322
+while loading /home/nanosoldier/workdir/tmpnnVaLU/benchscript.jl, in expression starting on line 28
