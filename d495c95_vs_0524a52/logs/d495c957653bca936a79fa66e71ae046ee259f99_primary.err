@@ -1,0 +1,215 @@
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/Blosc/src/Blosc.jl:172
+WARNING: Base.ByteString is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/Blosc/src/Blosc.jl:172
+
+WARNING: deprecated syntax "[a=>b for (a,b) in c]".
+Use "Dict(a=>b for (a,b) in c)" instead.
+INFO: Recompiling stale cache file /home/nanosoldier/.julia/lib/v0.5/Blosc.ji for module Blosc.
+WARNING: could not import Base.lastidx into LegacyStrings
+INFO: Recompiling stale cache file /home/nanosoldier/.julia/lib/v0.5/HDF5.ji for module HDF5.
+INFO: Recompiling stale cache file /home/nanosoldier/.julia/lib/v0.5/FileIO.ji for module FileIO.
+INFO: Recompiling stale cache file /home/nanosoldier/.julia/lib/v0.5/LegacyStrings.ji for module LegacyStrings.
+
+WARNING: deprecated syntax "Base.(:+)".
+Use "Base.:+" instead.
+
+WARNING: deprecated syntax "Base.(:-)".
+Use "Base.:-" instead.
+
+WARNING: deprecated syntax "Base.(:*)".
+Use "Base.:*" instead.
+
+WARNING: deprecated syntax "Base.(:*)".
+Use "Base.:*" instead.
+
+WARNING: deprecated syntax "Base.(:*)".
+Use "Base.:*" instead.
+WARNING: blas_set_num_threads is deprecated, use BLAS.set_num_threads instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in blas_set_num_threads(::Int64, ::Vararg{Int64,N}) at ./deprecated.jl:30
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:262
+ in _start() at ./client.jl:318
+while loading /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl, in expression starting on line 8
+INFO: Recompiling stale cache file /home/nanosoldier/.julia/lib/v0.5/Compat.ji for module Compat.
+INFO: Recompiling stale cache file /home/nanosoldier/.julia/lib/v0.5/JLD.ji for module JLD.
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/problem/IMDBGraphs.jl:6
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/problem/IMDBGraphs.jl:12
+WARNING: could not attach metadata for @simd loop.
+WARNING: could not attach metadata for @simd loop.
+WARNING: could not attach metadata for @simd loop.
+WARNING: could not attach metadata for @simd loop.
+WARNING: sub is deprecated, use view instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in sub(::Array{Float64,2}, ::Vararg{Any,N}) at ./deprecated.jl:30
+ in perf_laplace_iter_sub(::Int64) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/problem/Laplacian.jl:86
+ in ##func#3481() at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:225
+ in ##sample#3482(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:232
+ in #_run#7(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3483")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:260
+ in (::BenchmarkTools.#kw##_run)(::Array{Any,1}, ::BenchmarkTools.#_run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3483")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ in anonymous at ./<missing>:?
+ in #run#17(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3483")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:27
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3483")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in warmup(::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:62
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:262
+ in _start() at ./client.jl:318
+while loading /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl, in expression starting on line 22
+WARNING: sub is deprecated, use view instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in sub(::Array{Float64,2}, ::Vararg{Any,N}) at ./deprecated.jl:30
+ in perf_laplace_iter_sub(::Int64) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/problem/Laplacian.jl:86
+ in ##func#3481() at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:225
+ in ##sample#3482(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:232
+ in #_run#7(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3483")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:260
+ in (::BenchmarkTools.#kw##_run)(::Array{Any,1}, ::BenchmarkTools.#_run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3483")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ in anonymous at ./<missing>:?
+ in #run#17(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3483")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:27
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3483")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in warmup(::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:62
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:262
+ in _start() at ./client.jl:318
+while loading /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl, in expression starting on line 22
+WARNING: sub is deprecated, use view instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in sub(::Array{Float64,2}, ::Vararg{Any,N}) at ./deprecated.jl:30
+ in perf_laplace_iter_sub(::Int64) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/problem/Laplacian.jl:86
+ in ##func#3481() at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:225
+ in ##sample#3482(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:232
+ in #_run#7(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3483")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:260
+ in (::BenchmarkTools.#kw##_run)(::Array{Any,1}, ::BenchmarkTools.#_run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3483")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ in anonymous at ./<missing>:?
+ in #run#17(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3483")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:27
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3483")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in warmup(::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:62
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:262
+ in _start() at ./client.jl:318
+while loading /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl, in expression starting on line 22
+WARNING: sub is deprecated, use view instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in sub(::Array{Float64,2}, ::Vararg{Any,N}) at ./deprecated.jl:30
+ in perf_laplace_iter_sub(::Int64) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/problem/Laplacian.jl:86
+ in ##func#3481() at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:225
+ in ##sample#3482(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:232
+ in #_run#7(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3483")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:260
+ in (::BenchmarkTools.#kw##_run)(::Array{Any,1}, ::BenchmarkTools.#_run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3483")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ in anonymous at ./<missing>:?
+ in #run#17(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3483")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:27
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3483")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in warmup(::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:62
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:262
+ in _start() at ./client.jl:318
+while loading /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl, in expression starting on line 22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: Base.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl:22
+WARNING: x::Integer == y::Char is deprecated, use x == UInt32(y) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in ==(::UInt8, ::Char) at ./deprecated.jl:50
+ in (::BaseBenchmarks.ShootoutBenchmarks.##29#31)(::IOStream) at /home/nanosoldier/.julia/v0.5/BaseBenchmarks/src/shootout/revcomp.jl:49
+ in open(::BaseBenchmarks.ShootoutBenchmarks.##29#31, ::String, ::String) at ./iostream.jl:113
+ in ##func#4491() at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:225
+ in ##sample#4492(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:232
+ in #_run#33(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#4493")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:260
+ in (::BenchmarkTools.#kw##_run)(::Array{Any,1}, ::BenchmarkTools.#_run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#4493")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ in anonymous at ./<missing>:?
+ in #run#17(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#4493")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:27
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#4493")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in warmup(::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.5/BenchmarkTools/src/execution.jl:62
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:262
+ in _start() at ./client.jl:318
+while loading /home/nanosoldier/workdir/tmp0RNvhL/benchscript.jl, in expression starting on line 22
