@@ -2,9 +2,9 @@
 
 ## Job Properties
 
-*Commit(s):* [JuliaLang/julia@dc14f2e765649d94061ed5bee25a3e85b7c5d1c5](https://github.com/JuliaLang/julia/commit/dc14f2e765649d94061ed5bee25a3e85b7c5d1c5)
+*Commit(s):* [JuliaLang/julia@0ec8687cfe9c216e7a942150f7e1c0b463cccaaa](https://github.com/JuliaLang/julia/commit/0ec8687cfe9c216e7a942150f7e1c0b463cccaaa)
 
-*Triggered By:* [link](https://github.com/JuliaLang/julia/commit/dc14f2e765649d94061ed5bee25a3e85b7c5d1c5#commitcomment-18293247)
+*Triggered By:* [link](https://github.com/JuliaLang/julia/pull/16851#issuecomment-233556650)
 
 *Tag Predicate:* `ALL`
 
@@ -31,10 +31,12 @@ benchmark results remained invariant between builds).
 
 | ID | time ratio | memory ratio |
 |----|------------|--------------|
-| `["problem","laplacian","laplace_iter_sub"]` | 1.27 (15%) :x: | 1.00 (1%)  |
+| `["array","cat",("catnd",5)]` | 0.76 (15%) :white_check_mark: | 0.98 (1%) :white_check_mark: |
+| `["problem","laplacian","laplace_iter_sub"]` | 1.25 (15%) :x: | 1.00 (1%)  |
 | `["scalar","iteration","in"]` | 1.17 (15%) :x: | 1.00 (1%)  |
 | `["scalar","iteration","indexed"]` | 1.17 (15%) :x: | 1.00 (1%)  |
-| `["shootout","revcomp"]` | 1.26 (15%) :x: | 1.00 (1%)  |
+| `["shootout","revcomp"]` | 1.21 (15%) :x: | 1.00 (1%)  |
+| `["sort","issorted",("forwards","ascending")]` | 0.84 (15%) :white_check_mark: | 1.00 (1%)  |
 
 ## Benchmark Group List
 
@@ -84,23 +86,23 @@ Here's a list of all the benchmark groups executed by this job:
 #### Primary Build
 
 ```
-Julia Version 0.5.0-dev+5502
-Commit dc14f2e (2016-07-19 03:21 UTC)
+Julia Version 0.5.0-dev+5506
+Commit 0ec8687 (2016-07-19 07:48 UTC)
 Platform Info:
   System: Linux (x86_64-linux-gnu)
   CPU: Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz
   WORD_SIZE: 64
            Ubuntu 14.04.4 LTS
   uname: Linux 3.13.0-85-generic #129-Ubuntu SMP Thu Mar 17 20:50:15 UTC 2016 x86_64 x86_64
-Memory: 31.383651733398438 GB (17983.27734375 MB free)
-Uptime: 4.550664e6 sec
-Load Avg:  1.0029296875  1.0146484375  0.96533203125
+Memory: 31.383651733398438 GB (17966.63671875 MB free)
+Uptime: 4.564498e6 sec
+Load Avg:  1.0029296875  1.001953125  0.95458984375
 Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz: 
        speed         user         nice          sys         idle          irq
-#1  3501 MHz    6107878 s          0 s    1378842 s  446362022 s         17 s
-#2  3501 MHz   16549091 s          0 s     848945 s  437400720 s          2 s
-#3  3501 MHz    6083464 s          0 s     777240 s  447988450 s          8 s
-#4  3501 MHz    5214781 s          0 s     784718 s  448830835 s          2 s
+#1  3501 MHz    6239478 s          0 s    1390093 s  447598936 s         17 s
+#2  3501 MHz   16779697 s          0 s     858513 s  438543003 s          2 s
+#3  3501 MHz    6123998 s          0 s     783619 s  449323761 s          8 s
+#4  3501 MHz    5245765 s          0 s     790286 s  450176403 s          2 s
 
   BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell)
   LAPACK: libopenblas64_

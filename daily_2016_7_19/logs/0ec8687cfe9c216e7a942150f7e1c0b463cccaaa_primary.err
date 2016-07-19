@@ -31,7 +31,7 @@ WARNING: blas_set_num_threads is deprecated, use BLAS.set_num_threads instead.
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:262
  in _start() at ./client.jl:318
-while loading /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl, in expression starting on line 8
+while loading /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl, in expression starting on line 8
 INFO: Recompiling stale cache file /home/nanosoldier/.julia/lib/v0.5/Compat.ji for module Compat.
 INFO: Recompiling stale cache file /home/nanosoldier/.julia/lib/v0.5/JLD.ji for module JLD.
 WARNING: Base.UTF8String is deprecated, use String instead.
@@ -63,7 +63,7 @@ WARNING: sub is deprecated, use view instead.
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:262
  in _start() at ./client.jl:318
-while loading /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl, in expression starting on line 22
+while loading /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl, in expression starting on line 22
 WARNING: sub is deprecated, use view instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in sub(::Array{Float64,2}, ::Vararg{Any,N}) at ./deprecated.jl:30
@@ -85,7 +85,7 @@ WARNING: sub is deprecated, use view instead.
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:262
  in _start() at ./client.jl:318
-while loading /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl, in expression starting on line 22
+while loading /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl, in expression starting on line 22
 WARNING: sub is deprecated, use view instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in sub(::Array{Float64,2}, ::Vararg{Any,N}) at ./deprecated.jl:30
@@ -107,7 +107,7 @@ WARNING: sub is deprecated, use view instead.
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:262
  in _start() at ./client.jl:318
-while loading /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl, in expression starting on line 22
+while loading /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl, in expression starting on line 22
 WARNING: sub is deprecated, use view instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in sub(::Array{Float64,2}, ::Vararg{Any,N}) at ./deprecated.jl:30
@@ -129,69 +129,69 @@ WARNING: sub is deprecated, use view instead.
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:262
  in _start() at ./client.jl:318
-while loading /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl, in expression starting on line 22
+while loading /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl, in expression starting on line 22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: Base.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl:22
 WARNING: x::Integer == y::Char is deprecated, use x == UInt32(y) instead.
  in depwarn(::String, ::Symbol) at ./deprecated.jl:64
  in ==(::UInt8, ::Char) at ./deprecated.jl:50
@@ -212,4 +212,4 @@ WARNING: x::Integer == y::Char is deprecated, use x == UInt32(y) instead.
  in include_from_node1(::String) at ./loading.jl:426
  in process_options(::Base.JLOptions) at ./client.jl:262
  in _start() at ./client.jl:318
-while loading /home/nanosoldier/workdir/tmpSiTHNi/benchscript.jl, in expression starting on line 22
+while loading /home/nanosoldier/workdir/tmpnTuADK/benchscript.jl, in expression starting on line 22
