@@ -1,0 +1,18 @@
+INFO: Recompiling stale cache file /home/nanosoldier/.julia/lib/v0.6/Blosc.ji for module Blosc.
+WARNING: could not import Base.lastidx into LegacyStrings
+INFO: Recompiling stale cache file /home/nanosoldier/.julia/lib/v0.6/HDF5.ji for module HDF5.
+INFO: Recompiling stale cache file /home/nanosoldier/.julia/lib/v0.6/FileIO.ji for module FileIO.
+INFO: Recompiling stale cache file /home/nanosoldier/.julia/lib/v0.6/LegacyStrings.ji for module LegacyStrings.
+WARNING: blas_set_num_threads is deprecated, use BLAS.set_num_threads instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in blas_set_num_threads(::Int64, ::Vararg{Int64,N}) at ./deprecated.jl:30
+ in include_from_node1(::String) at ./loading.jl:426
+ in process_options(::Base.JLOptions) at ./client.jl:262
+ in _start() at ./client.jl:318
+while loading /home/nanosoldier/workdir/tmpcXGZ0a/benchscript.jl, in expression starting on line 8
+INFO: Recompiling stale cache file /home/nanosoldier/.julia/lib/v0.6/Compat.ji for module Compat.
+INFO: Recompiling stale cache file /home/nanosoldier/.julia/lib/v0.6/JLD.ji for module JLD.
+WARNING: could not attach metadata for @simd loop.
+WARNING: could not attach metadata for @simd loop.
+WARNING: could not attach metadata for @simd loop.
+WARNING: could not attach metadata for @simd loop.
