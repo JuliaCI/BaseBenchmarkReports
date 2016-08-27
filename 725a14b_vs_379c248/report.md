@@ -4,9 +4,9 @@
 
 *Commit(s):* [JuliaLang/julia@725a14bc86db564bbb0945b00568d0740bc301f8](https://github.com/JuliaLang/julia/commit/725a14bc86db564bbb0945b00568d0740bc301f8) vs [JuliaLang/julia@379c248bb02690651a6f5cc2bbdb4f991ad3af9b](https://github.com/JuliaLang/julia/commit/379c248bb02690651a6f5cc2bbdb4f991ad3af9b)
 
-*Triggered By:* [link](https://github.com/JuliaLang/julia/pull/18259#issuecomment-242905569)
+*Triggered By:* [link](https://github.com/JuliaLang/julia/pull/18259#issuecomment-242910044)
 
-*Tag Predicate:* `"string" && "problem"`
+*Tag Predicate:* `"string" || "problem"`
 
 ## Results
 
@@ -29,12 +29,27 @@ benchmark results remained invariant between builds).
 
 | ID | time ratio | memory ratio |
 |----|------------|--------------|
+| `["string","join"]` | 1.45 (40%) :x: | 1.00 (1%)  |
 
 ## Benchmark Group List
 
 Here's a list of all the benchmark groups executed by this job:
 
+- `["io","read"]`
+- `["problem","fem"]`
+- `["problem","go"]`
+- `["problem","grigoriadis khachiyan"]`
+- `["problem","imdb"]`
+- `["problem","json"]`
+- `["problem","laplacian"]`
+- `["problem","monte carlo"]`
+- `["problem","raytrace"]`
+- `["problem","seismic"]`
+- `["problem","simplex"]`
 - `["problem","spellcheck"]`
+- `["problem","stockcorr"]`
+- `["problem","ziggurat"]`
+- `["string"]`
 
 ## Version Info
 
@@ -49,15 +64,15 @@ Platform Info:
   WORD_SIZE: 64
            Ubuntu 14.04.4 LTS
   uname: Linux 3.13.0-85-generic #129-Ubuntu SMP Thu Mar 17 20:50:15 UTC 2016 x86_64 x86_64
-Memory: 31.383651733398438 GB (20496.04296875 MB free)
-Uptime: 7.936704e6 sec
-Load Avg:  1.01318359375  0.94091796875  0.88671875
+Memory: 31.383651733398438 GB (20473.859375 MB free)
+Uptime: 7.943357e6 sec
+Load Avg:  1.01416015625  0.95361328125  0.92919921875
 Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz: 
        speed         user         nice          sys         idle          irq
-#1  3501 MHz   13603740 s          0 s    2754516 s  775043819 s         28 s
-#2  3501 MHz   34663597 s          0 s    1718175 s  756745837 s          4 s
-#3  3501 MHz   11992596 s          0 s    1495768 s  779798816 s         17 s
-#4  3501 MHz   10406366 s          0 s    1508965 s  781358719 s          2 s
+#1  3501 MHz   13685196 s          0 s    2767269 s  775613082 s         28 s
+#2  3501 MHz   34851847 s          0 s    1735003 s  757205114 s          4 s
+#3  3501 MHz   12200154 s          0 s    1513828 s  780237208 s         17 s
+#4  3501 MHz   10521110 s          0 s    1522286 s  781894747 s          2 s
 
   BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell)
   LAPACK: libopenblas64_
@@ -77,15 +92,15 @@ Platform Info:
   WORD_SIZE: 64
            Ubuntu 14.04.4 LTS
   uname: Linux 3.13.0-85-generic #129-Ubuntu SMP Thu Mar 17 20:50:15 UTC 2016 x86_64 x86_64
-Memory: 31.383651733398438 GB (20493.953125 MB free)
-Uptime: 7.939943e6 sec
-Load Avg:  1.01025390625  0.92138671875  0.912109375
+Memory: 31.383651733398438 GB (20462.79296875 MB free)
+Uptime: 7.946645e6 sec
+Load Avg:  1.03857421875  1.009765625  0.96826171875
 Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz: 
        speed         user         nice          sys         idle          irq
-#1  3501 MHz   13635218 s          0 s    2760267 s  775329529 s         28 s
-#2  3501 MHz   34721410 s          0 s    1725440 s  757004144 s          4 s
-#3  3501 MHz   12142356 s          0 s    1506877 s  779961281 s         17 s
-#4  3501 MHz   10460802 s          0 s    1515146 s  781621334 s          2 s
+#1  3501 MHz   13717526 s          0 s    2773729 s  775901875 s         28 s
+#2  3501 MHz   34897892 s          0 s    1740378 s  757481969 s          4 s
+#3  3501 MHz   12349396 s          0 s    1524725 s  780405282 s         17 s
+#4  3501 MHz   10591746 s          0 s    1529946 s  782144782 s          2 s
 
   BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell)
   LAPACK: libopenblas64_
