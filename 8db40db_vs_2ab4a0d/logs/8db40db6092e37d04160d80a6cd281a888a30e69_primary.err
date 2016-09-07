@@ -1,0 +1,102 @@
+
+signal (11): Segmentation fault
+while loading /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/parameters.jl, in expression starting on line 49
+julia_type_to_llvm at /home/nanosoldier/workdir/tmpgSxmTN/src/cgutils.cpp:318
+mark_julia_const at /home/nanosoldier/workdir/tmpgSxmTN/src/codegen.cpp:695 [inlined]
+emit_expr at /home/nanosoldier/workdir/tmpgSxmTN/src/codegen.cpp:3264
+emit_invoke at /home/nanosoldier/workdir/tmpgSxmTN/src/codegen.cpp:2791 [inlined]
+emit_expr at /home/nanosoldier/workdir/tmpgSxmTN/src/codegen.cpp:3274
+emit_condition at /home/nanosoldier/workdir/tmpgSxmTN/src/codegen.cpp:3156
+emit_function at /home/nanosoldier/workdir/tmpgSxmTN/src/codegen.cpp:4883
+jl_compile_linfo at /home/nanosoldier/workdir/tmpgSxmTN/src/codegen.cpp:870
+jl_compile_for_dispatch at /home/nanosoldier/workdir/tmpgSxmTN/src/gf.c:1309
+jl_call_method_internal at /home/nanosoldier/workdir/tmpgSxmTN/src/julia_internal.h:180 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpgSxmTN/src/gf.c:1928
+@compat at /home/nanosoldier/.julia/v0.6/Compat/src/Compat.jl:571
+jl_call_method_internal at /home/nanosoldier/workdir/tmpgSxmTN/src/julia_internal.h:185 [inlined]
+fl_invoke_julia_macro at /home/nanosoldier/workdir/tmpgSxmTN/src/ast.c:161
+apply_cl at /home/nanosoldier/workdir/tmpgSxmTN/src/flisp/flisp.c:1227
+do_trycatch at /home/nanosoldier/workdir/tmpgSxmTN/src/flisp/flisp.c:899
+apply_cl at /home/nanosoldier/workdir/tmpgSxmTN/src/flisp/flisp.c:1807
+_applyn at /home/nanosoldier/workdir/tmpgSxmTN/src/flisp/flisp.c:683
+fl_applyn at /home/nanosoldier/workdir/tmpgSxmTN/src/flisp/flisp.c:723
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpgSxmTN/src/ast.c:720
+jl_load at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:658
+jl_load_ at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:667
+include_from_node1 at ./loading.jl:518
+unknown function (ip: 0x7ffff21b11fb)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpgSxmTN/src/julia_internal.h:185 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpgSxmTN/src/gf.c:1928
+do_call at /home/nanosoldier/workdir/tmpgSxmTN/src/interpreter.c:68
+eval at /home/nanosoldier/workdir/tmpgSxmTN/src/interpreter.c:207
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:620 [inlined]
+jl_eval_module_expr at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:196
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:527
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpgSxmTN/src/ast.c:735
+jl_load at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:658
+jl_load_ at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:667
+include_from_node1 at ./loading.jl:518
+unknown function (ip: 0x7ffff21b11fb)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpgSxmTN/src/julia_internal.h:185 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpgSxmTN/src/gf.c:1928
+do_call at /home/nanosoldier/workdir/tmpgSxmTN/src/interpreter.c:68
+eval at /home/nanosoldier/workdir/tmpgSxmTN/src/interpreter.c:207
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:620 [inlined]
+jl_toplevel_eval at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:642
+jl_toplevel_eval_in_warn at /home/nanosoldier/workdir/tmpgSxmTN/src/builtins.c:590
+eval at ./boot.jl:234
+unknown function (ip: 0x7ffff219ae0f)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpgSxmTN/src/julia_internal.h:185 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpgSxmTN/src/gf.c:1928
+require at ./loading.jl:440
+unknown function (ip: 0x7ffff21fdddb)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpgSxmTN/src/julia_internal.h:185 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpgSxmTN/src/gf.c:1928
+jl_apply at /home/nanosoldier/workdir/tmpgSxmTN/src/julia.h:1408 [inlined]
+eval_import_path_ at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:463
+eval_import_path at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:490 [inlined]
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:542 [inlined]
+jl_eval_module_expr at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:196
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:527
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpgSxmTN/src/ast.c:735
+jl_load at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:658
+jl_load_ at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:667
+include_from_node1 at ./loading.jl:518
+unknown function (ip: 0x7ffff21b11fb)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpgSxmTN/src/julia_internal.h:185 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpgSxmTN/src/gf.c:1928
+do_call at /home/nanosoldier/workdir/tmpgSxmTN/src/interpreter.c:68
+eval at /home/nanosoldier/workdir/tmpgSxmTN/src/interpreter.c:207
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:620 [inlined]
+jl_toplevel_eval at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:642
+jl_toplevel_eval_in_warn at /home/nanosoldier/workdir/tmpgSxmTN/src/builtins.c:590
+eval at ./boot.jl:234
+unknown function (ip: 0x7ffff219ae0f)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpgSxmTN/src/julia_internal.h:185 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpgSxmTN/src/gf.c:1928
+require at ./loading.jl:434
+unknown function (ip: 0x7ffff21fdddb)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpgSxmTN/src/julia_internal.h:185 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpgSxmTN/src/gf.c:1928
+jl_apply at /home/nanosoldier/workdir/tmpgSxmTN/src/julia.h:1408 [inlined]
+eval_import_path_ at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:463
+eval_import_path at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:490 [inlined]
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:542
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpgSxmTN/src/ast.c:735
+jl_load at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:658
+jl_load_ at /home/nanosoldier/workdir/tmpgSxmTN/src/toplevel.c:667
+include_from_node1 at ./loading.jl:518
+unknown function (ip: 0x7ffff21b11fb)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpgSxmTN/src/julia_internal.h:185 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpgSxmTN/src/gf.c:1928
+process_options at ./client.jl:262
+_start at ./client.jl:326
+unknown function (ip: 0x7ffff21dcd08)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpgSxmTN/src/julia_internal.h:185 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpgSxmTN/src/gf.c:1928
+jl_apply at /home/nanosoldier/workdir/tmpgSxmTN/ui/../src/julia.h:1408 [inlined]
+true_main at /home/nanosoldier/workdir/tmpgSxmTN/ui/repl.c:113
+main at /home/nanosoldier/workdir/tmpgSxmTN/ui/repl.c:237
+__libc_start_main at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+unknown function (ip: 0x40131f)
+Allocations: 2984748 (Pool: 2983840; Big: 908); GC: 2
