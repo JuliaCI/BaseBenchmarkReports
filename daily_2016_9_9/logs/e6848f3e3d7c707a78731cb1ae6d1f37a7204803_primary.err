@@ -1,0 +1,144 @@
+WARNING: could not import Base.lastidx into LegacyStrings
+WARNING: blas_set_num_threads is deprecated, use BLAS.set_num_threads instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in blas_set_num_threads(::Int64, ::Vararg{Int64,N}) at ./deprecated.jl:30
+ in include_from_node1(::String) at ./loading.jl:541
+ in process_options(::Base.JLOptions) at ./client.jl:262
+ in _start() at ./client.jl:326
+while loading /home/nanosoldier/workdir/tmpNeiqrT/benchscript.jl, in expression starting on line 8
+WARNING: could not attach metadata for @simd loop.
+WARNING: could not attach metadata for @simd loop.
+WARNING: could not attach metadata for @simd loop.
+WARNING: could not attach metadata for @simd loop.
+WARNING: max{T1 <: Real}(x::AbstractArray{T1},y::Real) is deprecated, use max.(x,y) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in max(::Array{Float64,1}, ::Int64) at ./deprecated.jl:50
+ in perf_euro_option_vec(::Int64) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/problem/MonteCarlo.jl:44
+ in ##func#3469() at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:225
+ in ##sample#3470(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:232
+ in #_run#3(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3471")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:260
+ in (::BenchmarkTools.#kw##_run)(::Array{Any,1}, ::BenchmarkTools.#_run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3471")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ in anonymous at ./<missing>:?
+ in #run#17(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3471")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:27
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3471")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in warmup(::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:62
+ in include_from_node1(::String) at ./loading.jl:541
+ in process_options(::Base.JLOptions) at ./client.jl:262
+ in _start() at ./client.jl:326
+while loading /home/nanosoldier/workdir/tmpNeiqrT/benchscript.jl, in expression starting on line 22
+WARNING: max{T1 <: Real}(x::AbstractArray{T1},y::Real) is deprecated, use max.(x,y) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in max(::Array{Float64,1}, ::Int64) at ./deprecated.jl:50
+ in perf_euro_option_devec(::Int64) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/problem/MonteCarlo.jl:24
+ in ##func#3466() at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:225
+ in ##sample#3467(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:232
+ in #_run#2(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3468")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:260
+ in (::BenchmarkTools.#kw##_run)(::Array{Any,1}, ::BenchmarkTools.#_run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3468")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ in anonymous at ./<missing>:?
+ in #run#17(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3468")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:27
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3468")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in warmup(::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:62
+ in include_from_node1(::String) at ./loading.jl:541
+ in process_options(::Base.JLOptions) at ./client.jl:262
+ in _start() at ./client.jl:326
+while loading /home/nanosoldier/workdir/tmpNeiqrT/benchscript.jl, in expression starting on line 22
+WARNING: exp{T <: Number}(x::AbstractArray{T}) is deprecated, use exp.(x) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in exp(::Array{Float64,1}) at ./deprecated.jl:50
+ in perf_gk(::Int64, ::Array{Float64,1}) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/problem/GrigoriadisKhachiyan.jl:64
+ in ##func#3484() at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:225
+ in ##sample#3485(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:232
+ in #_run#8(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3486")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:260
+ in (::BenchmarkTools.#kw##_run)(::Array{Any,1}, ::BenchmarkTools.#_run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3486")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ in anonymous at ./<missing>:?
+ in #run#17(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3486")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:27
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3486")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in warmup(::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:62
+ in include_from_node1(::String) at ./loading.jl:541
+ in process_options(::Base.JLOptions) at ./client.jl:262
+ in _start() at ./client.jl:326
+while loading /home/nanosoldier/workdir/tmpNeiqrT/benchscript.jl, in expression starting on line 22
+WARNING: abs{T <: Number}(x::AbstractArray{T}) is deprecated, use abs.(x) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in abs(::Array{Float64,1}) at ./deprecated.jl:50
+ in perf_gk(::Int64, ::Array{Float64,1}) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/problem/GrigoriadisKhachiyan.jl:90
+ in ##func#3484() at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:225
+ in ##sample#3485(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:232
+ in #_run#8(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3486")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:260
+ in (::BenchmarkTools.#kw##_run)(::Array{Any,1}, ::BenchmarkTools.#_run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3486")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ in anonymous at ./<missing>:?
+ in #run#17(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3486")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:27
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3486")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in warmup(::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:62
+ in include_from_node1(::String) at ./loading.jl:541
+ in process_options(::Base.JLOptions) at ./client.jl:262
+ in _start() at ./client.jl:326
+while loading /home/nanosoldier/workdir/tmpNeiqrT/benchscript.jl, in expression starting on line 22
+WARNING: abs{T <: Number}(x::AbstractArray{T}) is deprecated, use abs.(x) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in abs(::Array{Float64,1}) at ./deprecated.jl:50
+ in perf_gk(::Int64, ::Array{Float64,1}) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/problem/GrigoriadisKhachiyan.jl:90
+ in ##func#3484() at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:225
+ in ##sample#3485(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:232
+ in #_run#8(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3486")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:260
+ in (::BenchmarkTools.#kw##_run)(::Array{Any,1}, ::BenchmarkTools.#_run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3486")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ in anonymous at ./<missing>:?
+ in #run#17(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3486")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:27
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3486")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in warmup(::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:62
+ in include_from_node1(::String) at ./loading.jl:541
+ in process_options(::Base.JLOptions) at ./client.jl:262
+ in _start() at ./client.jl:326
+while loading /home/nanosoldier/workdir/tmpNeiqrT/benchscript.jl, in expression starting on line 22
+WARNING: abs{T <: Number}(x::AbstractArray{T}) is deprecated, use abs.(x) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in abs(::Array{Float64,2}) at ./deprecated.jl:50
+ in perf_lucompletepivCopy!(::Array{Float64,2}) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/array/subarray.jl:7
+ in ##func#4005() at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:225
+ in ##sample#4006(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:232
+ in #_run#164(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#4007")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:260
+ in (::BenchmarkTools.#kw##_run)(::Array{Any,1}, ::BenchmarkTools.#_run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#4007")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ in anonymous at ./<missing>:?
+ in #run#17(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#4007")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:27
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#4007")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:36
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in warmup(::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:62
+ in include_from_node1(::String) at ./loading.jl:541
+ in process_options(::Base.JLOptions) at ./client.jl:262
+ in _start() at ./client.jl:326
+while loading /home/nanosoldier/workdir/tmpNeiqrT/benchscript.jl, in expression starting on line 22
