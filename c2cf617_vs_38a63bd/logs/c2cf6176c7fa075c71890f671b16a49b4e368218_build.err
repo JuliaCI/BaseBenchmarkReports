@@ -1,11 +1,11 @@
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   327  100   327    0     0    403      0 --:--:-- --:--:-- --:--:--   403
-  2 24.3M    2  627k    0     0   449k      0  0:00:55  0:00:01  0:00:54  449k100 24.3M  100 24.3M    0     0  12.9M      0  0:00:01  0:00:01 --:--:-- 48.7M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   327  100   327    0     0    463      0 --:--:-- --:--:-- --:--:--   463
+  2 24.3M    2  508k    0     0   383k      0  0:01:05  0:00:01  0:01:04  383k100 24.3M  100 24.3M    0     0  13.4M      0  0:00:01  0:00:01 --:--:-- 49.0M
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   377  100   377    0     0    648      0 --:--:-- --:--:-- --:--:--   647
-  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0 21 10.3M   21 2277k    0     0  1058k      0  0:00:10  0:00:02  0:00:08 6240k100 10.3M  100 10.3M    0     0  4460k      0  0:00:02  0:00:02 --:--:-- 17.6M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   377  100   377    0     0    649      0 --:--:-- --:--:-- --:--:--   648
+ 17 10.3M   17 1852k    0     0  1597k      0  0:00:06  0:00:01  0:00:05 1597k100 10.3M  100 10.3M    0     0  7542k      0  0:00:01  0:00:01 --:--:-- 35.0M
 rm: cannot remove ‘scratch/openblas-85636ff1a015d04d3a8f960bc644b85ee5157135/’: No such file or directory
 lapack/laswp.c: In function ‘slaswp_’:
 lapack/laswp.c:100:8: warning: passing argument 12 of ‘blas_level1_thread’ from incompatible pointer type [enabled by default]
@@ -17090,46 +17090,46 @@ ar: creating librbio.a
 ar: creating libspqr.a
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   371  100   371    0     0    654      0 --:--:-- --:--:-- --:--:--   654
- 50 1378k   50  696k    0     0   661k      0  0:00:02  0:00:01  0:00:01  661k100 1378k  100 1378k    0     0  1231k      0  0:00:01  0:00:01 --:--:-- 10.0M
-rm: cannot remove ‘/home/nanosoldier/workdir/tmpbdkIUc/deps/srccache/libuv-8d5131b6c1595920dd30644cd1435b4f344b46c8/’: No such file or directory
-/home/nanosoldier/workdir/tmpbdkIUc/deps/srccache/libuv-8d5131b6c1595920dd30644cd1435b4f344b46c8/src/unix/process.c: In function ‘uv__chld’:
-/home/nanosoldier/workdir/tmpbdkIUc/deps/srccache/libuv-8d5131b6c1595920dd30644cd1435b4f344b46c8/src/unix/process.c:124:23: warning: C++ style comments are not allowed in ISO C90 [enabled by default]
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   371  100   371    0     0    449      0 --:--:-- --:--:-- --:--:--   449
+ 60 1378k   60  831k    0     0   643k      0  0:00:02  0:00:01  0:00:01  643k100 1378k  100 1378k    0     0  1033k      0  0:00:01  0:00:01 --:--:-- 13.3M
+rm: cannot remove ‘/home/nanosoldier/workdir/tmpLCdNim/deps/srccache/libuv-8d5131b6c1595920dd30644cd1435b4f344b46c8/’: No such file or directory
+/home/nanosoldier/workdir/tmpLCdNim/deps/srccache/libuv-8d5131b6c1595920dd30644cd1435b4f344b46c8/src/unix/process.c: In function ‘uv__chld’:
+/home/nanosoldier/workdir/tmpLCdNim/deps/srccache/libuv-8d5131b6c1595920dd30644cd1435b4f344b46c8/src/unix/process.c:124:23: warning: C++ style comments are not allowed in ISO C90 [enabled by default]
      process->pid = 0; // pid is no longer valid (or unique)
                        ^
-/home/nanosoldier/workdir/tmpbdkIUc/deps/srccache/libuv-8d5131b6c1595920dd30644cd1435b4f344b46c8/src/unix/process.c:124:23: warning: (this will be reported only once per input file) [enabled by default]
-/home/nanosoldier/workdir/tmpbdkIUc/deps/srccache/libuv-8d5131b6c1595920dd30644cd1435b4f344b46c8/src/unix/process.c: In function ‘uv_spawn’:
-/home/nanosoldier/workdir/tmpbdkIUc/deps/srccache/libuv-8d5131b6c1595920dd30644cd1435b4f344b46c8/src/unix/process.c:401:7: warning: unused variable ‘status’ [-Wunused-variable]
+/home/nanosoldier/workdir/tmpLCdNim/deps/srccache/libuv-8d5131b6c1595920dd30644cd1435b4f344b46c8/src/unix/process.c:124:23: warning: (this will be reported only once per input file) [enabled by default]
+/home/nanosoldier/workdir/tmpLCdNim/deps/srccache/libuv-8d5131b6c1595920dd30644cd1435b4f344b46c8/src/unix/process.c: In function ‘uv_spawn’:
+/home/nanosoldier/workdir/tmpLCdNim/deps/srccache/libuv-8d5131b6c1595920dd30644cd1435b4f344b46c8/src/unix/process.c:401:7: warning: unused variable ‘status’ [-Wunused-variable]
    int status;
        ^
-/home/nanosoldier/workdir/tmpbdkIUc/deps/srccache/libuv-8d5131b6c1595920dd30644cd1435b4f344b46c8/src/unix/stream.c: In function ‘uv__drain’:
-/home/nanosoldier/workdir/tmpbdkIUc/deps/srccache/libuv-8d5131b6c1595920dd30644cd1435b4f344b46c8/src/unix/stream.c:678:5: warning: C++ style comments are not allowed in ISO C90 [enabled by default]
+/home/nanosoldier/workdir/tmpLCdNim/deps/srccache/libuv-8d5131b6c1595920dd30644cd1435b4f344b46c8/src/unix/stream.c: In function ‘uv__drain’:
+/home/nanosoldier/workdir/tmpLCdNim/deps/srccache/libuv-8d5131b6c1595920dd30644cd1435b4f344b46c8/src/unix/stream.c:678:5: warning: C++ style comments are not allowed in ISO C90 [enabled by default]
      //if (shutdown(uv__stream_fd(stream), SHUT_WR))
      ^
-/home/nanosoldier/workdir/tmpbdkIUc/deps/srccache/libuv-8d5131b6c1595920dd30644cd1435b4f344b46c8/src/unix/stream.c:678:5: warning: (this will be reported only once per input file) [enabled by default]
-libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpbdkIUc/usr/lib'
+/home/nanosoldier/workdir/tmpLCdNim/deps/srccache/libuv-8d5131b6c1595920dd30644cd1435b4f344b46c8/src/unix/stream.c:678:5: warning: (this will be reported only once per input file) [enabled by default]
+libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpLCdNim/usr/lib'
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   333  100   333    0     0   3573      0 --:--:-- --:--:-- --:--:--  3580
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  803k  100  803k    0     0  1656k      0 --:--:-- --:--:-- --:--:-- 2383k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   333  100   333    0     0   3629      0 --:--:-- --:--:-- --:--:--  3659
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  803k  100  803k    0     0  1848k      0 --:--:-- --:--:-- --:--:-- 3506k
 configure: WARNING: latex2man not found. Install latex2man. Disabling docs.
-/home/nanosoldier/workdir/tmpbdkIUc/deps/srccache/libunwind-1.1-julia2/src/ptrace/_UPT_get_dyn_info_list_addr.c: In function ‘get_list_addr’:
-/home/nanosoldier/workdir/tmpbdkIUc/deps/srccache/libunwind-1.1-julia2/src/ptrace/_UPT_get_dyn_info_list_addr.c:78:3: warning: #warning Implement get_list_addr(), please. [-Wcpp]
+/home/nanosoldier/workdir/tmpLCdNim/deps/srccache/libunwind-1.1-julia2/src/ptrace/_UPT_get_dyn_info_list_addr.c: In function ‘get_list_addr’:
+/home/nanosoldier/workdir/tmpLCdNim/deps/srccache/libunwind-1.1-julia2/src/ptrace/_UPT_get_dyn_info_list_addr.c:78:3: warning: #warning Implement get_list_addr(), please. [-Wcpp]
  # warning Implement get_list_addr(), please.
    ^
-/home/nanosoldier/workdir/tmpbdkIUc/deps/srccache/libunwind-1.1-julia2/src/coredump/_UPT_get_dyn_info_list_addr.c: In function ‘get_list_addr’:
-/home/nanosoldier/workdir/tmpbdkIUc/deps/srccache/libunwind-1.1-julia2/src/coredump/_UPT_get_dyn_info_list_addr.c:81:3: warning: #warning Implement get_list_addr(), please. [-Wcpp]
+/home/nanosoldier/workdir/tmpLCdNim/deps/srccache/libunwind-1.1-julia2/src/coredump/_UPT_get_dyn_info_list_addr.c: In function ‘get_list_addr’:
+/home/nanosoldier/workdir/tmpLCdNim/deps/srccache/libunwind-1.1-julia2/src/coredump/_UPT_get_dyn_info_list_addr.c:81:3: warning: #warning Implement get_list_addr(), please. [-Wcpp]
  # warning Implement get_list_addr(), please.
    ^
-libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpbdkIUc/usr/lib'
+libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpLCdNim/usr/lib'
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0   1249      0 --:--:-- --:--:-- --:--:--  1252
-100  187k  100  187k    0     0   345k      0 --:--:-- --:--:-- --:--:--  345k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0   1104      0 --:--:-- --:--:-- --:--:--  1104
+100  187k  100  187k    0     0   320k      0 --:--:-- --:--:-- --:--:--  320k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   377  100   377    0     0   1925      0 --:--:-- --:--:-- --:--:--  1923
-100  345k  100  345k    0     0   558k      0 --:--:-- --:--:-- --:--:--  558k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   377  100   377    0     0   1957      0 --:--:-- --:--:-- --:--:--  1953100   377  100   377    0     0   1956      0 --:--:-- --:--:-- --:--:--  1953
+100  345k  100  345k    0     0   654k      0 --:--:-- --:--:-- --:--:--  654k
 rm: cannot remove ‘scratch/openlibm-1581174c85f7b645b15ba1ac1c3a98fb601f0fe7/’: No such file or directory
 src/e_lgamma_r.c: In function ‘lgamma_r’:
 src/e_lgamma_r.c:296:13: warning: ‘nadj’ may be used uninitialized in this function [-Wmaybe-uninitialized]
@@ -17140,7 +17140,7 @@ src/e_lgammaf_r.c:229:13: warning: ‘nadj’ may be used uninitialized in this 
   if(hx<0) r = nadj - r;
              ^
 In file included from ld80/s_exp2l.c:38:0:
-/home/nanosoldier/workdir/tmpbdkIUc/deps/scratch/openlibm-1581174c85f7b645b15ba1ac1c3a98fb601f0fe7/src/math_private.h:240:1: warning: ‘irint’ defined but not used [-Wunused-function]
+/home/nanosoldier/workdir/tmpLCdNim/deps/scratch/openlibm-1581174c85f7b645b15ba1ac1c3a98fb601f0fe7/src/math_private.h:240:1: warning: ‘irint’ defined but not used [-Wunused-function]
  irint(double x)
  ^
 ld80/e_lgammal_r.c: In function ‘lgammal_r’:
@@ -17149,67 +17149,67 @@ ld80/e_lgammal_r.c:423:7: warning: ‘nadj’ may be used uninitialized in this 
        ^
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   383  100   383    0     0   1985      0 --:--:-- --:--:-- --:--:--  1994
-100  118k  100  118k    0     0   225k      0 --:--:-- --:--:-- --:--:--  225k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   383  100   383    0     0   1858      0 --:--:-- --:--:-- --:--:--  1859
+100  118k  100  118k    0     0   281k      0 --:--:-- --:--:-- --:--:--  281k
 rm: cannot remove ‘scratch/openspecfun-39699a1c1824bf88410cabb8a7438af91ea98f4c/’: No such file or directory
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   323  100   323    0     0    744      0 --:--:-- --:--:-- --:--:--   742100   323  100   323    0     0    743      0 --:--:-- --:--:-- --:--:--   742
-100  284k  100  284k    0     0   386k      0 --:--:-- --:--:-- --:--:--  386k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   323  100   323    0     0    418      0 --:--:-- --:--:-- --:--:--   418100   323  100   323    0     0    418      0 --:--:-- --:--:-- --:--:--   418
+100  284k  100  284k    0     0   242k      0  0:00:01  0:00:01 --:--:--  242k
 rm: cannot remove ‘scratch/dsfmt-2.2.3/’: No such file or directory
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   321  100   321    0     0    952      0 --:--:-- --:--:-- --:--:--   955
-  0 13.9M    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 13.9M  100 13.9M    0     0  12.9M      0  0:00:01  0:00:01 --:--:-- 23.9M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   321  100   321    0     0    944      0 --:--:-- --:--:-- --:--:--   944
+100 13.9M  100 13.9M    0     0  13.1M      0  0:00:01  0:00:01 --:--:-- 13.1M
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0    289      0  0:00:01  0:00:01 --:--:--   289100   317  100   317    0     0    289      0  0:00:01  0:00:01 --:--:--   289
-100 1436k  100 1436k    0     0   877k      0  0:00:01  0:00:01 --:--:--  877k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0    298      0  0:00:01  0:00:01 --:--:--   298100   317  100   317    0     0    298      0  0:00:01  0:00:01 --:--:--   298
+ 38 1436k   38  559k    0     0   311k      0  0:00:04  0:00:01  0:00:03  311k100 1436k  100 1436k    0     0   760k      0  0:00:01  0:00:01 --:--:-- 9632k
 libtool: warning: relinking 'libpcre2-posix.la'
-libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpbdkIUc/usr/lib'
-libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpbdkIUc/usr/lib'
-libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpbdkIUc/usr/lib'
-libtool: warning: 'libpcre2-posix.la' has not been installed in '/home/nanosoldier/workdir/tmpbdkIUc/usr/lib'
-libtool: warning: '/home/nanosoldier/workdir/tmpbdkIUc/deps/scratch/pcre2-10.22/libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpbdkIUc/usr/lib'
+libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpLCdNim/usr/lib'
+libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpLCdNim/usr/lib'
+libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpLCdNim/usr/lib'
+libtool: warning: 'libpcre2-posix.la' has not been installed in '/home/nanosoldier/workdir/tmpLCdNim/usr/lib'
+libtool: warning: '/home/nanosoldier/workdir/tmpLCdNim/deps/scratch/pcre2-10.22/libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpLCdNim/usr/lib'
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   313  100   313    0     0   2249      0 --:--:-- --:--:-- --:--:--  2251
-100 4051k  100 4051k    0     0  5865k      0 --:--:-- --:--:-- --:--:-- 5865k
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpbdkIUc/usr/lib'
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   313  100   313    0     0   2147      0 --:--:-- --:--:-- --:--:--  2158
+ 23 4051k   23  934k    0     0  1639k      0  0:00:02 --:--:--  0:00:02 1639k100 4051k  100 4051k    0     0  5464k      0 --:--:-- --:--:-- --:--:-- 17.7M
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpLCdNim/usr/lib'
 libtool: install: warning: relinking `libfftw3f_threads.la'
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpbdkIUc/usr/lib'
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpLCdNim/usr/lib'
 This is not dpkg install-info anymore, but GNU install-info
 See the man page for ginstall-info for command line arguments
-libtool: install: warning: `../threads/libfftw3f_threads.la' has not been installed in `/home/nanosoldier/workdir/tmpbdkIUc/usr/lib'
-libtool: install: warning: `../libfftw3f.la' has not been installed in `/home/nanosoldier/workdir/tmpbdkIUc/usr/lib'
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpbdkIUc/usr/lib'
+libtool: install: warning: `../threads/libfftw3f_threads.la' has not been installed in `/home/nanosoldier/workdir/tmpLCdNim/usr/lib'
+libtool: install: warning: `../libfftw3f.la' has not been installed in `/home/nanosoldier/workdir/tmpLCdNim/usr/lib'
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpLCdNim/usr/lib'
 libtool: install: warning: relinking `libfftw3_threads.la'
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpbdkIUc/usr/lib'
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpLCdNim/usr/lib'
 This is not dpkg install-info anymore, but GNU install-info
 See the man page for ginstall-info for command line arguments
-libtool: install: warning: `../threads/libfftw3_threads.la' has not been installed in `/home/nanosoldier/workdir/tmpbdkIUc/usr/lib'
-libtool: install: warning: `../libfftw3.la' has not been installed in `/home/nanosoldier/workdir/tmpbdkIUc/usr/lib'
+libtool: install: warning: `../threads/libfftw3_threads.la' has not been installed in `/home/nanosoldier/workdir/tmpLCdNim/usr/lib'
+libtool: install: warning: `../libfftw3.la' has not been installed in `/home/nanosoldier/workdir/tmpLCdNim/usr/lib'
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   313  100   313    0     0    185      0  0:00:01  0:00:01 --:--:--   185100   313  100   313    0     0    185      0  0:00:01  0:00:01 --:--:--   185
-  0 2329k    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100 2329k  100 2329k    0     0  1020k      0  0:00:02  0:00:02 --:--:-- 6850k
-/home/nanosoldier/workdir/tmpbdkIUc/deps/srccache/gmp-6.1.1/printf/repl-vsnprintf.c:396:0: warning: ISO C forbids an empty translation unit [-Wpedantic]
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   313  100   313    0     0    219      0  0:00:01  0:00:01 --:--:--   219100   313  100   313    0     0    219      0  0:00:01  0:00:01 --:--:--   219
+ 63 2329k   63 1477k    0     0   708k      0  0:00:03  0:00:02  0:00:01  708k100 2329k  100 2329k    0     0  1088k      0  0:00:02  0:00:02 --:--:-- 15.3M
+/home/nanosoldier/workdir/tmpLCdNim/deps/srccache/gmp-6.1.1/printf/repl-vsnprintf.c:396:0: warning: ISO C forbids an empty translation unit [-Wpedantic]
  #endif /* ! HAVE_VSNPRINTF */
  ^
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   375  100   375    0     0   2457      0 --:--:-- --:--:-- --:--:--  2467
- 44 4077k   44 1834k    0     0  2782k      0  0:00:01 --:--:--  0:00:01 2782k100 4077k  100 4077k    0     0  5414k      0 --:--:-- --:--:-- --:--:-- 23.5M
-rm: cannot remove ‘/home/nanosoldier/workdir/tmpbdkIUc/deps/srccache/libgit2-211e117a0590583a720c53172406f34186c543bd/’: No such file or directory
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   375  100   375    0     0   1969      0 --:--:-- --:--:-- --:--:--  1973
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 4077k  100 4077k    0     0  5045k      0 --:--:-- --:--:-- --:--:-- 7079k
+rm: cannot remove ‘/home/nanosoldier/workdir/tmpLCdNim/deps/srccache/libgit2-211e117a0590583a720c53172406f34186c543bd/’: No such file or directory
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   375  100   375    0     0   2565      0 --:--:-- --:--:-- --:--:--  2568
-100  379k  100  379k    0     0   954k      0 --:--:-- --:--:-- --:--:--  954k
-rm: cannot remove ‘/home/nanosoldier/workdir/tmpbdkIUc/deps/srccache/libssh2-6d553a7bb94966466c4db0abf9a26660e786a275/’: No such file or directory
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   375  100   375    0     0   2488      0 --:--:-- --:--:-- --:--:--  2500
+  0  379k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  379k  100  379k    0     0   788k      0 --:--:-- --:--:-- --:--:-- 2633k
+rm: cannot remove ‘/home/nanosoldier/workdir/tmpLCdNim/deps/srccache/libssh2-6d553a7bb94966466c4db0abf9a26660e786a275/’: No such file or directory
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100   321  100   321    0     0    239      0  0:00:01  0:00:01 --:--:--   239
-  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100 1837k  100 1837k    0     0   860k      0  0:00:02  0:00:02 --:--:-- 2364k
+100 1837k  100 1837k    0     0  1032k      0  0:00:01  0:00:01 --:--:-- 1032k
 Can't open perl script "scripts/config.pl": No such file or directory
 CMake Warning:
   Manually-specified variables were not used by the project:
@@ -17230,11 +17230,11 @@ CMake Warning:
 
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0    503      0 --:--:-- --:--:-- --:--:--   503
-  0 7303k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 7303k  100 7303k    0     0  5655k      0  0:00:01  0:00:01 --:--:-- 14.9M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0    623      0 --:--:-- --:--:-- --:--:--   624
+  0 7303k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 7303k  100 7303k    0     0  6349k      0  0:00:01  0:00:01 --:--:-- 15.1M
 configure: WARNING: zlib disabled
-libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpbdkIUc/usr/lib'
-libtool: warning: '../lib/libcurl.la' has not been installed in '/home/nanosoldier/workdir/tmpbdkIUc/usr/lib'
+libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpLCdNim/usr/lib'
+libtool: warning: '../lib/libcurl.la' has not been installed in '/home/nanosoldier/workdir/tmpLCdNim/usr/lib'
 CMake Warning:
   Manually-specified variables were not used by the project:
 
@@ -17246,43 +17246,43 @@ CMake Warning:
     CURL_LIBRARIES
 
 
-/home/nanosoldier/workdir/tmpbdkIUc/deps/srccache/libgit2-211e117a0590583a720c53172406f34186c543bd/src/rebase.c: In function ‘rebase_commit_inmemory’:
-/home/nanosoldier/workdir/tmpbdkIUc/deps/srccache/libgit2-211e117a0590583a720c53172406f34186c543bd/src/rebase.c:1031:24: warning: variable ‘operation’ set but not used [-Wunused-but-set-variable]
+/home/nanosoldier/workdir/tmpLCdNim/deps/srccache/libgit2-211e117a0590583a720c53172406f34186c543bd/src/rebase.c: In function ‘rebase_commit_inmemory’:
+/home/nanosoldier/workdir/tmpLCdNim/deps/srccache/libgit2-211e117a0590583a720c53172406f34186c543bd/src/rebase.c:1031:24: warning: variable ‘operation’ set but not used [-Wunused-but-set-variable]
   git_rebase_operation *operation;
                         ^
-/home/nanosoldier/workdir/tmpbdkIUc/deps/srccache/libgit2-211e117a0590583a720c53172406f34186c543bd/src/rebase.c: In function ‘rebase_commit_inmemory’:
-/home/nanosoldier/workdir/tmpbdkIUc/deps/srccache/libgit2-211e117a0590583a720c53172406f34186c543bd/src/rebase.c:1031:24: warning: variable ‘operation’ set but not used [-Wunused-but-set-variable]
+/home/nanosoldier/workdir/tmpLCdNim/deps/srccache/libgit2-211e117a0590583a720c53172406f34186c543bd/src/rebase.c: In function ‘rebase_commit_inmemory’:
+/home/nanosoldier/workdir/tmpLCdNim/deps/srccache/libgit2-211e117a0590583a720c53172406f34186c543bd/src/rebase.c:1031:24: warning: variable ‘operation’ set but not used [-Wunused-but-set-variable]
   git_rebase_operation *operation;
                         ^
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   315  100   315    0     0   1326      0 --:--:-- --:--:-- --:--:--  1329
-  5 1249k    5 69257    0     0  79448      0  0:00:16 --:--:--  0:00:16 79448100 1249k  100 1249k    0     0  1182k      0  0:00:01  0:00:01 --:--:-- 6422k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   315  100   315    0     0    550      0 --:--:-- --:--:-- --:--:--   550
+100 1249k  100 1249k    0     0  1098k      0  0:00:01  0:00:01 --:--:-- 1098k
 This is not dpkg install-info anymore, but GNU install-info
 See the man page for ginstall-info for command line arguments
-libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpbdkIUc/usr/lib'
+libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpLCdNim/usr/lib'
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   323  100   323    0     0   3551      0 --:--:-- --:--:-- --:--:--  3588
-100 1358k  100 1358k    0     0  2788k      0 --:--:-- --:--:-- --:--:-- 2788k
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpbdkIUc/usr/lib'
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   323  100   323    0     0   2713      0 --:--:-- --:--:-- --:--:--  2714
+100 1358k  100 1358k    0     0  2568k      0 --:--:-- --:--:-- --:--:-- 2568k
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpLCdNim/usr/lib'
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   377  100   377    0     0   3211      0 --:--:-- --:--:-- --:--:--  3222
-100  147k  100  147k    0     0   420k      0 --:--:-- --:--:-- --:--:--  420k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   377  100   377    0     0   2460      0 --:--:-- --:--:-- --:--:--  2464
+ 33  147k   33 50802    0     0  85655      0  0:00:01 --:--:--  0:00:01 85655100  147k  100  147k    0     0   232k      0 --:--:-- --:--:-- --:--:-- 2498k
 rm: cannot remove ‘scratch/utf8proc-e3a5ed7b8bb5d0c6bb313d3e1f4d072c04113c4b/’: No such file or directory
 ar: creating libutf8proc.a
-/home/nanosoldier/workdir/tmpbdkIUc/src/codegen.cpp: In function ‘std::unique_ptr<llvm::Module> emit_function(jl_method_instance_t*, jl_code_info_t*, jl_llvm_functions_t*)’:
-/home/nanosoldier/workdir/tmpbdkIUc/src/codegen.cpp:4280:29: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/nanosoldier/workdir/tmpLCdNim/src/codegen.cpp: In function ‘std::unique_ptr<llvm::Module> emit_function(jl_method_instance_t*, jl_code_info_t*, jl_llvm_functions_t*)’:
+/home/nanosoldier/workdir/tmpLCdNim/src/codegen.cpp:4280:29: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
                  if (i < ctx.nargs && ctx.slots[i].value.isghost)
                              ^
-In file included from /home/nanosoldier/workdir/tmpbdkIUc/src/codegen.cpp:66:0:
-/home/nanosoldier/workdir/tmpbdkIUc/usr/include/llvm/IR/IRBuilder.h: In function ‘llvm::Value* emit_array_nd_index(const jl_cgval_t&, jl_value_t*, size_t, jl_value_t**, size_t, jl_codectx_t*)’:
-/home/nanosoldier/workdir/tmpbdkIUc/usr/include/llvm/IR/IRBuilder.h:1367:57: warning: ‘ii’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+In file included from /home/nanosoldier/workdir/tmpLCdNim/src/codegen.cpp:66:0:
+/home/nanosoldier/workdir/tmpLCdNim/usr/include/llvm/IR/IRBuilder.h: In function ‘llvm::Value* emit_array_nd_index(const jl_cgval_t&, jl_value_t*, size_t, jl_value_t**, size_t, jl_codectx_t*)’:
+/home/nanosoldier/workdir/tmpLCdNim/usr/include/llvm/IR/IRBuilder.h:1367:57: warning: ‘ii’ may be used uninitialized in this function [-Wmaybe-uninitialized]
      return CreateICmp(ICmpInst::ICMP_ULT, LHS, RHS, Name);
                                                          ^
-In file included from /home/nanosoldier/workdir/tmpbdkIUc/src/codegen.cpp:676:0:
-/home/nanosoldier/workdir/tmpbdkIUc/src/cgutils.cpp:1291:12: note: ‘ii’ was declared here
+In file included from /home/nanosoldier/workdir/tmpLCdNim/src/codegen.cpp:676:0:
+/home/nanosoldier/workdir/tmpLCdNim/src/cgutils.cpp:1291:12: note: ‘ii’ was declared here
      Value *ii;
             ^
 WARNING: Method definition (::Type{#T<:Any})(Any) in module Inference at coreimg.jl:39 overwritten in module Base at sysimg.jl:65.
