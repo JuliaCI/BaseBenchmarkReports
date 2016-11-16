@@ -1,0 +1,179 @@
+WARNING: could not import Base.lastidx into LegacyStrings
+WARNING: blas_set_num_threads is deprecated, use BLAS.set_num_threads instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in blas_set_num_threads(::Int64, ::Vararg{Int64,N}) at ./deprecated.jl:30
+ in include_from_node1(::String) at ./loading.jl:532
+ in include(::String) at ./sysimg.jl:14
+ in process_options(::Base.JLOptions) at ./client.jl:271
+ in _start() at ./client.jl:335
+while loading /home/nanosoldier/workdir/tmpuMHRq8/benchscript.jl, in expression starting on line 8
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: filter(flt,itr) is deprecated, use Iterators.filter(flt,itr) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in filter(::Function, ::Tuple{TypeConstructor,DataType,DataType,DataType,DataType,DataType,DataType}) at ./deprecated.jl:50
+ in include_from_node1(::String) at ./loading.jl:532
+ in include(::String) at ./sysimg.jl:14
+ in #load!#2(::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:39
+ in (::BaseBenchmarks.#kw##load!)(::Array{Any,1}, ::BaseBenchmarks.#load!, ::BenchmarkTools.BenchmarkGroup, ::String) at ./<missing>:0
+ in #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:53
+ in #loadall!#5(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ in loadall!() at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ in include_from_node1(::String) at ./loading.jl:532
+ in include(::String) at ./sysimg.jl:14
+ in process_options(::Base.JLOptions) at ./client.jl:271
+ in _start() at ./client.jl:335
+while loading /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/linalg/LinAlgBenchmarks.jl, in expression starting on line 15
+WARNING: `x $ y` is deprecated.  use `xor(x, y)` or `x ⊻ y` instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in $ at ./deprecated.jl:1028 [inlined]
+ in xor_randn!(::BaseBenchmarks.ProblemBenchmarks.GoGame.XorRNG, ::UInt32) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/problem/GoGame.jl:39
+ in xor_randn! at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/problem/GoGame.jl:45 [inlined]
+ in generate_move(::BaseBenchmarks.ProblemBenchmarks.GoGame.Board, ::Int64) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/problem/GoGame.jl:374
+ in perf_go_game(::Int64) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/problem/GoGame.jl:419
+ in ##core#3680() at ./<missing>:0
+ in ##sample#3681(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:254
+ in #_run#9(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3679")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:282
+ in (::BenchmarkTools.#kw##_run)(::Array{Any,1}, ::BenchmarkTools.#_run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3679")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ in anonymous at ./<missing>:?
+ in #run#17(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3679")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:32
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3679")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:41
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:41
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:41
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in warmup(::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:67
+ in include_from_node1(::String) at ./loading.jl:532
+ in include(::String) at ./sysimg.jl:14
+ in process_options(::Base.JLOptions) at ./client.jl:271
+ in _start() at ./client.jl:335
+while loading /home/nanosoldier/workdir/tmpuMHRq8/benchscript.jl, in expression starting on line 22
+WARNING: `x $ y` is deprecated.  use `xor(x, y)` or `x ⊻ y` instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in $ at ./deprecated.jl:1028 [inlined]
+ in compute_final_status!(::BaseBenchmarks.ProblemBenchmarks.GoGame.Board) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/problem/GoGame.jl:327
+ in compute_score(::BaseBenchmarks.ProblemBenchmarks.GoGame.Board) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/problem/GoGame.jl:384
+ in perf_go_game(::Int64) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/problem/GoGame.jl:430
+ in ##core#3680() at ./<missing>:0
+ in ##sample#3681(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:254
+ in #_run#9(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3679")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:282
+ in (::BenchmarkTools.#kw##_run)(::Array{Any,1}, ::BenchmarkTools.#_run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3679")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ in anonymous at ./<missing>:?
+ in #run#17(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3679")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:32
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3679")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:41
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:41
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:41
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in warmup(::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:67
+ in include_from_node1(::String) at ./loading.jl:532
+ in include(::String) at ./sysimg.jl:14
+ in process_options(::Base.JLOptions) at ./client.jl:271
+ in _start() at ./client.jl:335
+while loading /home/nanosoldier/workdir/tmpuMHRq8/benchscript.jl, in expression starting on line 22
+WARNING: `x $ y` is deprecated.  use `xor(x, y)` or `x ⊻ y` instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in $ at ./deprecated.jl:1028 [inlined]
+ in compute_score(::BaseBenchmarks.ProblemBenchmarks.GoGame.Board) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/problem/GoGame.jl:391
+ in perf_go_game(::Int64) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/problem/GoGame.jl:430
+ in ##core#3680() at ./<missing>:0
+ in ##sample#3681(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:254
+ in #_run#9(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3679")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:282
+ in (::BenchmarkTools.#kw##_run)(::Array{Any,1}, ::BenchmarkTools.#_run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3679")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ in anonymous at ./<missing>:?
+ in #run#17(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3679")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:32
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3679")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:41
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:41
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:41
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in warmup(::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:67
+ in include_from_node1(::String) at ./loading.jl:532
+ in include(::String) at ./sysimg.jl:14
+ in process_options(::Base.JLOptions) at ./client.jl:271
+ in _start() at ./client.jl:335
+while loading /home/nanosoldier/workdir/tmpuMHRq8/benchscript.jl, in expression starting on line 22
+WARNING: Base.take is deprecated.
+  likely near /home/nanosoldier/workdir/tmpuMHRq8/benchscript.jl:22
+WARNING: Base.take is deprecated.
+  likely near /home/nanosoldier/workdir/tmpuMHRq8/benchscript.jl:22
+WARNING: Base.take is deprecated.
+  likely near /home/nanosoldier/workdir/tmpuMHRq8/benchscript.jl:22
+WARNING: Base.take is deprecated.
+  likely near /home/nanosoldier/workdir/tmpuMHRq8/benchscript.jl:22
+WARNING: Base.take is deprecated.
+  likely near /home/nanosoldier/workdir/tmpuMHRq8/benchscript.jl:22
+WARNING: Base.take is deprecated.
+  likely near /home/nanosoldier/workdir/tmpuMHRq8/benchscript.jl:22
