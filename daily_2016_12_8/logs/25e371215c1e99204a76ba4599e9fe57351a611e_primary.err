@@ -1,0 +1,115 @@
+WARNING: could not import Base.lastidx into LegacyStrings
+WARNING: blas_set_num_threads is deprecated, use BLAS.set_num_threads instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in blas_set_num_threads(::Int64, ::Vararg{Int64,N}) at ./deprecated.jl:30
+ in include_from_node1(::String) at ./loading.jl:532
+ in include(::String) at ./sysimg.jl:14
+ in process_options(::Base.JLOptions) at ./client.jl:271
+ in _start() at ./client.jl:335
+while loading /home/nanosoldier/workdir/tmpRFk74I/benchscript.jl, in expression starting on line 8
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: filter(flt,itr) is deprecated, use Iterators.filter(flt,itr) instead.
+ in depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ in filter(::Function, ::Tuple{TypeConstructor,DataType,DataType,DataType,DataType,DataType,DataType}) at ./deprecated.jl:50
+ in include_from_node1(::String) at ./loading.jl:532
+ in include(::String) at ./sysimg.jl:14
+ in #load!#2(::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:39
+ in (::BaseBenchmarks.#kw##load!)(::Array{Any,1}, ::BaseBenchmarks.#load!, ::BenchmarkTools.BenchmarkGroup, ::String) at ./<missing>:0
+ in #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:53
+ in #loadall!#5(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ in loadall!() at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ in include_from_node1(::String) at ./loading.jl:532
+ in include(::String) at ./sysimg.jl:14
+ in process_options(::Base.JLOptions) at ./client.jl:271
+ in _start() at ./client.jl:335
+while loading /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/linalg/LinAlgBenchmarks.jl, in expression starting on line 15
+ERROR: LoadError: DimensionMismatch("array could not be broadcast to match destination")
+ in check_broadcast_shape(::Tuple{Base.OneTo{Int64}}, ::Tuple{Base.OneTo{Int64}}) at ./broadcast.jl:81
+ in check_broadcast_indices at ./broadcast.jl:87 [inlined]
+ in broadcast!(::Function, ::Array{Float64,1}, ::Array{Float64,1}, ::Array{Float64,1}) at ./broadcast.jl:194
+ in ##core#3453() at ./<missing>:0
+ in ##sample#3454(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:254
+ in #_run#7(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3452")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:282
+ in (::BenchmarkTools.#kw##_run)(::Array{Any,1}, ::BenchmarkTools.#_run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3452")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ in anonymous at ./<missing>:?
+ in #run#17(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3452")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:32
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#3452")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:41
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:41
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:41
+ in (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ in warmup(::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:67
+ in include_from_node1(::String) at ./loading.jl:532
+ in include(::String) at ./sysimg.jl:14
+ in process_options(::Base.JLOptions) at ./client.jl:271
+ in _start() at ./client.jl:335
+while loading /home/nanosoldier/workdir/tmpRFk74I/benchscript.jl, in expression starting on line 22
