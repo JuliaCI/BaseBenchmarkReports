@@ -1,0 +1,85 @@
+WARNING: could not import Base.lastidx into LegacyStrings
+
+signal (11): Segmentation fault
+while loading /home/nanosoldier/workdir/tmpLiPJpP/benchscript.jl, in expression starting on line 22
+unknown function (ip: 0x7ffff5695557)
+_ZN4llvm12RegAllocBase16postOptimizationEv at /home/nanosoldier/workdir/tmpLiPJpP/usr/bin/../lib/libLLVM-3.9.so (unknown line)
+unknown function (ip: 0x7ffff57ab97c)
+_ZN4llvm19MachineFunctionPass13runOnFunctionERNS_8FunctionE at /home/nanosoldier/workdir/tmpLiPJpP/usr/bin/../lib/libLLVM-3.9.so (unknown line)
+_ZN4llvm13FPPassManager13runOnFunctionERNS_8FunctionE at /home/nanosoldier/workdir/tmpLiPJpP/usr/bin/../lib/libLLVM-3.9.so (unknown line)
+_ZN4llvm13FPPassManager11runOnModuleERNS_6ModuleE at /home/nanosoldier/workdir/tmpLiPJpP/usr/bin/../lib/libLLVM-3.9.so (unknown line)
+_ZN4llvm6legacy15PassManagerImpl3runERNS_6ModuleE at /home/nanosoldier/workdir/tmpLiPJpP/usr/bin/../lib/libLLVM-3.9.so (unknown line)
+operator() at /home/nanosoldier/workdir/tmpLiPJpP/src/jitlayers.cpp:436 [inlined]
+_M_invoke at /usr/include/c++/4.8/functional:2057
+operator() at /usr/include/c++/4.8/functional:2471 [inlined]
+addModuleSet<llvm::SmallVector<std::unique_ptr<llvm::Module>, 1u>, llvm::RTDyldMemoryManager*, std::unique_ptr<llvm::orc::LambdaResolver<JuliaOJIT::addModule(std::unique_ptr<llvm::Module>)::__lambda11, JuliaOJIT::addModule(std::unique_ptr<llvm::Module>)::__lambda12>, std::default_delete<llvm::orc::LambdaResolver<JuliaOJIT::addModule(std::unique_ptr<llvm::Module>)::__lambda11, JuliaOJIT::addModule(std::unique_ptr<llvm::Module>)::__lambda12> > > > at /home/nanosoldier/workdir/tmpLiPJpP/usr/include/llvm/ExecutionEngine/Orc/IRCompileLayer.h:73 [inlined]
+addModule at /home/nanosoldier/workdir/tmpLiPJpP/src/jitlayers.cpp:559
+jl_add_to_ee at /home/nanosoldier/workdir/tmpLiPJpP/src/jitlayers.cpp:782 [inlined]
+jl_finalize_function at /home/nanosoldier/workdir/tmpLiPJpP/src/jitlayers.cpp:793
+getAddressForFunction at /home/nanosoldier/workdir/tmpLiPJpP/src/codegen.cpp:1070
+jl_generate_fptr at /home/nanosoldier/workdir/tmpLiPJpP/src/codegen.cpp:1193
+jl_call_method_internal at /home/nanosoldier/workdir/tmpLiPJpP/src/julia_internal.h:240 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpLiPJpP/src/gf.c:2196
+#_run at ./<missing>:0
+anonymous at ./<missing> (unknown line)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpLiPJpP/src/julia_internal.h:246 [inlined]
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpLiPJpP/src/toplevel.c:648 [inlined]
+jl_toplevel_eval at /home/nanosoldier/workdir/tmpLiPJpP/src/toplevel.c:659
+jl_toplevel_eval_in at /home/nanosoldier/workdir/tmpLiPJpP/src/builtins.c:606
+#run#17 at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:32
+unknown function (ip: 0x7ffdc9205db2)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpLiPJpP/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpLiPJpP/src/gf.c:2196
+jl_apply at /home/nanosoldier/workdir/tmpLiPJpP/src/julia.h:1388 [inlined]
+jl_invoke at /home/nanosoldier/workdir/tmpLiPJpP/src/gf.c:51
+#run at ./<missing>:0
+#run at ./<missing>:0
+unknown function (ip: 0x7ffdc9205976)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpLiPJpP/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpLiPJpP/src/gf.c:2196
+#run#18 at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:41
+jl_call_method_internal at /home/nanosoldier/workdir/tmpLiPJpP/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpLiPJpP/src/gf.c:2196
+#run at ./<missing>:0
+jl_call_method_internal at /home/nanosoldier/workdir/tmpLiPJpP/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpLiPJpP/src/gf.c:2196
+#run#18 at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:41
+jl_call_method_internal at /home/nanosoldier/workdir/tmpLiPJpP/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpLiPJpP/src/gf.c:2196
+#run at ./<missing>:0
+jl_call_method_internal at /home/nanosoldier/workdir/tmpLiPJpP/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpLiPJpP/src/gf.c:2196
+#run#18 at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:41
+jl_call_method_internal at /home/nanosoldier/workdir/tmpLiPJpP/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpLiPJpP/src/gf.c:2196
+#run at ./<missing>:0
+warmup at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:67
+unknown function (ip: 0x7ffdd80405d2)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpLiPJpP/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpLiPJpP/src/gf.c:2196
+do_call at /home/nanosoldier/workdir/tmpLiPJpP/src/interpreter.c:75
+eval at /home/nanosoldier/workdir/tmpLiPJpP/src/interpreter.c:214
+jl_interpret_toplevel_expr at /home/nanosoldier/workdir/tmpLiPJpP/src/interpreter.c:34
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpLiPJpP/src/toplevel.c:636
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpLiPJpP/src/ast.c:757
+jl_load at /home/nanosoldier/workdir/tmpLiPJpP/src/toplevel.c:675
+jl_load_ at /home/nanosoldier/workdir/tmpLiPJpP/src/toplevel.c:684
+include_from_node1 at ./loading.jl:532
+unknown function (ip: 0x7ffff1b70fab)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpLiPJpP/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpLiPJpP/src/gf.c:2196
+include at ./sysimg.jl:14
+unknown function (ip: 0x7ffff1a3f1ab)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpLiPJpP/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpLiPJpP/src/gf.c:2196
+process_options at ./client.jl:298
+_start at ./client.jl:363
+unknown function (ip: 0x7ffff1b9a608)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpLiPJpP/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpLiPJpP/src/gf.c:2196
+jl_apply at /home/nanosoldier/workdir/tmpLiPJpP/ui/../src/julia.h:1388 [inlined]
+true_main at /home/nanosoldier/workdir/tmpLiPJpP/ui/repl.c:126
+main at /home/nanosoldier/workdir/tmpLiPJpP/ui/repl.c:256
+__libc_start_main at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+unknown function (ip: 0x4014b2)
+Allocations: 115780231 (Pool: 113766457; Big: 2013774); GC: 421
