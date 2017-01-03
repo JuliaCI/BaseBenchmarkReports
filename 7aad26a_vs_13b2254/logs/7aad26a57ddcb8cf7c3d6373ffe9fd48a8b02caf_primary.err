@@ -1,0 +1,469 @@
+WARNING: could not import Base.lastidx into LegacyStrings
+
+signal (11): Segmentation fault
+while loading /home/nanosoldier/.julia/v0.6/JLD/src/jld_types.jl, in expression starting on line 11
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1385 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1452 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1404 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1404 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1452 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+gc_mark_module at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1230
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1465 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1404 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1404 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1404 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1404 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1452 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1404 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1452 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1452 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1452 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+gc_mark_module at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1230
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1465 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1452 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+gc_mark_module at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1230
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1465 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1404 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1404 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1404 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1404 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+gc_mark_module at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1230
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1465 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1404 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1404 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1404 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1404 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+gc_mark_module at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1230
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1465 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1404 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1404 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1404 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+gc_mark_module at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1230
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1465 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1502 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+gc_mark_module at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1230
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1465 [inlined]
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201
+gc_mark_module at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1230
+push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1465
+gc_push_root at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1201 [inlined]
+pre_mark at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1552
+_jl_gc_collect at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1750 [inlined]
+jl_gc_collect at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1906
+jl_gc_pool_alloc at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:840
+jl_gc_alloc_ at /home/nanosoldier/workdir/tmpSsqwXQ/src/julia_internal.h:171 [inlined]
+jl_gc_alloc at /home/nanosoldier/workdir/tmpSsqwXQ/src/gc.c:1929
+_new_array_ at /home/nanosoldier/workdir/tmpSsqwXQ/src/array.c:95 [inlined]
+_new_array at /home/nanosoldier/workdir/tmpSsqwXQ/src/array.c:149 [inlined]
+jl_alloc_array_1d at /home/nanosoldier/workdir/tmpSsqwXQ/src/array.c:346
+getindex at ./array.jl:459
+unknown function (ip: 0x7ffff1980d2f)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpSsqwXQ/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpSsqwXQ/src/gf.c:2212
+inlineable at ./inference.jl:3190
+unknown function (ip: 0x7ffff197f0be)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpSsqwXQ/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpSsqwXQ/src/gf.c:2212
+inlining_pass at ./inference.jl:3579
+inlining_pass at ./inference.jl:3470
+inlining_pass at ./inference.jl:3470
+unknown function (ip: 0x7ffff19751ff)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpSsqwXQ/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpSsqwXQ/src/gf.c:2212
+inlining_pass! at ./inference.jl:3406
+optimize at ./inference.jl:2308
+typeinf_loop at ./inference.jl:2016
+typeinf_frame at ./inference.jl:1853
+typeinf_code at ./inference.jl:1923
+unknown function (ip: 0x7ffff1984edd)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpSsqwXQ/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpSsqwXQ/src/gf.c:2212
+typeinf_ext at ./inference.jl:1962
+unknown function (ip: 0x7ffff1960972)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpSsqwXQ/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpSsqwXQ/src/gf.c:2212
+jl_apply at /home/nanosoldier/workdir/tmpSsqwXQ/src/julia.h:1415 [inlined]
+jl_type_infer at /home/nanosoldier/workdir/tmpSsqwXQ/src/gf.c:267
+jl_compile_for_dispatch at /home/nanosoldier/workdir/tmpSsqwXQ/src/gf.c:1605
+jl_call_method_internal at /home/nanosoldier/workdir/tmpSsqwXQ/src/julia_internal.h:222 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpSsqwXQ/src/gf.c:2212
+push! at ./set.jl:35 [inlined]
+union! at ./set.jl:64
+Type at ./set.jl:7
+Type at ./set.jl:10
+jl_call_method_internal at /home/nanosoldier/workdir/tmpSsqwXQ/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpSsqwXQ/src/gf.c:2212
+do_call at /home/nanosoldier/workdir/tmpSsqwXQ/src/interpreter.c:75
+eval at /home/nanosoldier/workdir/tmpSsqwXQ/src/interpreter.c:215
+eval_body at /home/nanosoldier/workdir/tmpSsqwXQ/src/interpreter.c:521
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpSsqwXQ/src/interpreter.c:666
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpSsqwXQ/src/toplevel.c:651
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpSsqwXQ/src/ast.c:757
+jl_load at /home/nanosoldier/workdir/tmpSsqwXQ/src/toplevel.c:675
+jl_load_ at /home/nanosoldier/workdir/tmpSsqwXQ/src/toplevel.c:684
+include_from_node1 at ./loading.jl:532
+unknown function (ip: 0x7ffff1ac746b)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpSsqwXQ/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpSsqwXQ/src/gf.c:2212
+include at ./sysimg.jl:14
+unknown function (ip: 0x7ffff198861b)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpSsqwXQ/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpSsqwXQ/src/gf.c:2212
+do_call at /home/nanosoldier/workdir/tmpSsqwXQ/src/interpreter.c:75
+eval at /home/nanosoldier/workdir/tmpSsqwXQ/src/interpreter.c:215
+jl_interpret_toplevel_expr at /home/nanosoldier/workdir/tmpSsqwXQ/src/interpreter.c:34
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpSsqwXQ/src/toplevel.c:636 [inlined]
+jl_eval_module_expr at /home/nanosoldier/workdir/tmpSsqwXQ/src/toplevel.c:203
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpSsqwXQ/src/toplevel.c:543
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpSsqwXQ/src/ast.c:757
+jl_load at /home/nanosoldier/workdir/tmpSsqwXQ/src/toplevel.c:675
+jl_load_ at /home/nanosoldier/workdir/tmpSsqwXQ/src/toplevel.c:684
+include_from_node1 at ./loading.jl:532
+unknown function (ip: 0x7ffff1ac746b)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpSsqwXQ/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpSsqwXQ/src/gf.c:2212
+include at ./sysimg.jl:14
+unknown function (ip: 0x7ffff198861b)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpSsqwXQ/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpSsqwXQ/src/gf.c:2212
+do_call at /home/nanosoldier/workdir/tmpSsqwXQ/src/interpreter.c:75
+eval at /home/nanosoldier/workdir/tmpSsqwXQ/src/interpreter.c:215
+jl_interpret_toplevel_expr at /home/nanosoldier/workdir/tmpSsqwXQ/src/interpreter.c:34
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpSsqwXQ/src/toplevel.c:636 [inlined]
+jl_toplevel_eval at /home/nanosoldier/workdir/tmpSsqwXQ/src/toplevel.c:659
+jl_toplevel_eval_in at /home/nanosoldier/workdir/tmpSsqwXQ/src/builtins.c:612
+anonymous at ./<missing>:2
+jl_call_method_internal at /home/nanosoldier/workdir/tmpSsqwXQ/src/julia_internal.h:246 [inlined]
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpSsqwXQ/src/toplevel.c:648 [inlined]
+jl_toplevel_eval at /home/nanosoldier/workdir/tmpSsqwXQ/src/toplevel.c:659
+jl_toplevel_eval_in at /home/nanosoldier/workdir/tmpSsqwXQ/src/builtins.c:612
+eval at ./boot.jl:237
+unknown function (ip: 0x7ffff1ab1c9f)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpSsqwXQ/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpSsqwXQ/src/gf.c:2212
+process_options at ./client.jl:275
+_start at ./client.jl:364
+unknown function (ip: 0x7ffff1af2948)
+jl_call_method_internal at /home/nanosoldier/workdir/tmpSsqwXQ/src/julia_internal.h:246 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpSsqwXQ/src/gf.c:2212
+jl_apply at /home/nanosoldier/workdir/tmpSsqwXQ/ui/../src/julia.h:1415 [inlined]
+true_main at /home/nanosoldier/workdir/tmpSsqwXQ/ui/repl.c:126
+main at /home/nanosoldier/workdir/tmpSsqwXQ/ui/repl.c:263
+__libc_start_main at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+unknown function (ip: 0x4015fa)
+Allocations: 2415968 (Pool: 2414647; Big: 1321); GC: 1
+WARNING: blas_set_num_threads is deprecated, use BLAS.set_num_threads instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ [2] blas_set_num_threads(::Int64, ::Vararg{Int64,N} where N) at ./deprecated.jl:30
+ [3] include_from_node1(::String) at ./loading.jl:532
+ [4] include(::String) at ./sysimg.jl:14
+ [5] process_options(::Base.JLOptions) at ./client.jl:298
+ [6] _start() at ./client.jl:364
+while loading /home/nanosoldier/workdir/tmpSsqwXQ/benchscript.jl, in expression starting on line 8
+ERROR: LoadError: LoadError: Failed to precompile JLD to /home/nanosoldier/.julia/lib/v0.6/JLD.ji.
+Stacktrace:
+ [1] compilecache(::String) at ./loading.jl:672
+ [2] require(::Symbol) at ./loading.jl:424
+ [3] include_from_node1(::String) at ./loading.jl:532
+ [4] eval(::Module, ::Any) at ./boot.jl:237
+ [5] require(::Symbol) at ./loading.jl:440
+ [6] include_from_node1(::String) at ./loading.jl:532
+ [7] include(::String) at ./sysimg.jl:14
+ [8] process_options(::Base.JLOptions) at ./client.jl:298
+ [9] _start() at ./client.jl:364
+while loading /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl, in expression starting on line 4
+while loading /home/nanosoldier/workdir/tmpSsqwXQ/benchscript.jl, in expression starting on line 11
