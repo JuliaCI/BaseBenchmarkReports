@@ -1,0 +1,109 @@
+
+WARNING: deprecated syntax "local sz=0, n, membername, membertype, memberoffset, memberfiletype" at /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl:1387.
+Use "local sz=0; local n; local membername; local membertype; local memberoffset; local memberfiletype" instead.
+WARNING: could not import Base.lastidx into LegacyStrings
+WARNING: blas_set_num_threads is deprecated, use BLAS.set_num_threads instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ [2] blas_set_num_threads(::Int64, ::Vararg{Int64,N}) at ./deprecated.jl:30
+ [3] include_from_node1(::String) at ./loading.jl:532
+ [4] include(::String) at ./sysimg.jl:14
+ [5] process_options(::Base.JLOptions) at ./client.jl:308
+ [6] _start() at ./client.jl:374
+while loading /home/nanosoldier/workdir/tmp3IXkMW/benchscript.jl, in expression starting on line 8
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: Base.drop is deprecated.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/string/StringBenchmarks.jl:19
+WARNING: filter(flt,itr) is deprecated, use Iterators.filter(flt,itr) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ [2] filter(::Function, ::Tuple{TypeConstructor,DataType,DataType,DataType,DataType,DataType,DataType}) at ./deprecated.jl:50
+ [3] include_from_node1(::String) at ./loading.jl:532
+ [4] include(::String) at ./sysimg.jl:14
+ [5] #load!#2(::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:39
+ [6] (::BaseBenchmarks.#kw##load!)(::Array{Any,1}, ::BaseBenchmarks.#load!, ::BenchmarkTools.BenchmarkGroup, ::String) at ./<missing>:0
+ [7] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:53
+ [8] #loadall!#5(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ [9] loadall!() at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ [10] include_from_node1(::String) at ./loading.jl:532
+ [11] include(::String) at ./sysimg.jl:14
+ [12] process_options(::Base.JLOptions) at ./client.jl:308
+ [13] _start() at ./client.jl:374
+while loading /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/linalg/LinAlgBenchmarks.jl, in expression starting on line 15
+WARNING: Base.take is deprecated.
+  likely near /home/nanosoldier/workdir/tmp3IXkMW/benchscript.jl:22
+WARNING: Base.take is deprecated.
+  likely near /home/nanosoldier/workdir/tmp3IXkMW/benchscript.jl:22
+WARNING: Base.take is deprecated.
+  likely near /home/nanosoldier/workdir/tmp3IXkMW/benchscript.jl:22
+WARNING: Base.take is deprecated.
+  likely near /home/nanosoldier/workdir/tmp3IXkMW/benchscript.jl:22
+WARNING: Base.take is deprecated.
+  likely near /home/nanosoldier/workdir/tmp3IXkMW/benchscript.jl:22
+WARNING: Base.take is deprecated.
+  likely near /home/nanosoldier/workdir/tmp3IXkMW/benchscript.jl:22
