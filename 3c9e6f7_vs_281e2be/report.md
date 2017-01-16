@@ -4,7 +4,7 @@
 
 *Commit(s):* [JuliaLang/julia@3c9e6f7b861b2bc22e4417186ece634ba2bd3dba](https://github.com/JuliaLang/julia/commit/3c9e6f7b861b2bc22e4417186ece634ba2bd3dba) vs [JuliaLang/julia@281e2bef9850cc49adf8c96bbbf8c2dcd8c0b7c9](https://github.com/JuliaLang/julia/commit/281e2bef9850cc49adf8c96bbbf8c2dcd8c0b7c9)
 
-*Triggered By:* [link](https://github.com/JuliaLang/julia/pull/20025#issuecomment-272778157)
+*Triggered By:* [link](https://github.com/JuliaLang/julia/pull/20025#issuecomment-272910755)
 
 *Tag Predicate:* `ALL`
 
@@ -29,8 +29,8 @@ benchmark results remained invariant between builds).
 
 | ID | time ratio | memory ratio |
 |----|------------|--------------|
-| `["array","comprehension",("comprehension_iteration","FloatRange{Float64}")]` | 1.34 (15%) :x: | 1.00 (1%)  |
-| `["array","comprehension",("comprehension_iteration","LinSpace{Float64}")]` | 1.26 (15%) :x: | 1.00 (1%)  |
+| `["array","comprehension",("comprehension_iteration","FloatRange{Float64}")]` | 1.33 (15%) :x: | 1.00 (1%)  |
+| `["array","comprehension",("comprehension_iteration","LinSpace{Float64}")]` | 1.25 (15%) :x: | 1.00 (1%)  |
 | `["array","convert",("Complex{Float64}","Int")]` | 0.84 (15%) :white_check_mark: | 1.00 (1%)  |
 | `["array","convert",("Float64","Int")]` | 0.60 (15%) :white_check_mark: | 1.00 (1%)  |
 | `["array","index",("sumcartesian","1.0:1.0:100000.0")]` | 0.33 (50%) :white_check_mark: | 1.00 (1%)  |
@@ -43,14 +43,11 @@ benchmark results remained invariant between builds).
 | `["array","index",("sumlinear","1.0:1.0:100000.0")]` | 0.33 (50%) :white_check_mark: | 1.00 (1%)  |
 | `["array","index",("sumlinear","linspace(1.0,2.0,10000)")]` | 0.38 (50%) :white_check_mark: | 1.00 (1%)  |
 | `["array","index",("sumlinear_view","linspace(1.0,2.0,10000)")]` | 0.37 (50%) :white_check_mark: | 1.00 (1%)  |
-| `["array","index",("sumvector_view","SubArray{Int32,2,BaseBenchmarks.ArrayBenchmarks.ArrayLS{Int32,3},Tuple{Int64,Base.Slice{Base.OneTo{Int64}},Base.Slice{Base.OneTo{Int64}}},false}")]` | 1.63 (50%) :x: | 1.00 (1%)  |
 | `["array","reductions",("BaseBenchmarks.ArrayBenchmarks.norm1","Int64")]` | 0.51 (15%) :white_check_mark: | 1.00 (1%)  |
 | `["array","reductions",("norm","Int64")]` | 0.43 (15%) :white_check_mark: | 1.00 (1%)  |
-| `["broadcast","sparse",((1000,1000),1)]` | 0.80 (15%) :white_check_mark: | 1.00 (1%)  |
-| `["dates","arithmetic",("DateTime","Month")]` | 1.58 (15%) :x: | 1.00 (1%)  |
-| `["micro","pisum"]` | 0.52 (15%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar","arithmetic",("div","Complex{Float32}","Complex{Float32}")]` | 1.64 (25%) :x: | 1.00 (1%)  |
-| `["simd",("sum_reduce","Float32",4096)]` | 0.77 (20%) :white_check_mark: | 1.00 (1%)  |
+| `["micro","pisum"]` | 0.53 (15%) :white_check_mark: | 1.00 (1%)  |
+| `["nullable","nullablearray",("perf_any","NullableArray")]` | 1.74 (50%) :x: | 1.00 (1%)  |
+| `["scalar","arithmetic",("div","Complex{Float32}","Complex{Float32}")]` | 1.50 (25%) :x: | 1.00 (1%)  |
 
 ## Benchmark Group List
 
