@@ -4,9 +4,9 @@
 
 *Commit(s):* [JuliaLang/julia@533393661d276fe5cf648ad6a482f0ff5b0ef5ad](https://github.com/JuliaLang/julia/commit/533393661d276fe5cf648ad6a482f0ff5b0ef5ad) vs [JuliaLang/julia@d3bac6e33ff8bb9fe39bd4945fcce45af665c272](https://github.com/JuliaLang/julia/commit/d3bac6e33ff8bb9fe39bd4945fcce45af665c272)
 
-*Triggered By:* [link](https://github.com/JuliaLang/julia/pull/20165#issuecomment-274214587)
+*Triggered By:* [link](https://github.com/JuliaLang/julia/pull/20165#issuecomment-274226830)
 
-*Tag Predicate:* `"sparse"`
+*Tag Predicate:* `ALL`
 
 ## Results
 
@@ -29,17 +29,77 @@ benchmark results remained invariant between builds).
 
 | ID | time ratio | memory ratio |
 |----|------------|--------------|
+| `["array","index",("sumcartesian_view","100000:-1:1")]` | 0.45 (50%) :white_check_mark: | 1.00 (1%)  |
+| `["array","index",("sumvector_view","BaseBenchmarks.ArrayBenchmarks.ArrayLSLS{Float32,2}")]` | 1.56 (50%) :x: | 1.00 (1%)  |
+| `["array","index",("sumvector_view","BaseBenchmarks.ArrayBenchmarks.ArrayLS{Float32,2}")]` | 1.56 (50%) :x: | 1.00 (1%)  |
 
 ## Benchmark Group List
 
 Here's a list of all the benchmark groups executed by this job:
 
+- `["array","bool"]`
+- `["array","cat"]`
+- `["array","comprehension"]`
+- `["array","convert"]`
+- `["array","growth"]`
+- `["array","index"]`
+- `["array","reductions"]`
+- `["array","reverse"]`
+- `["array","setindex!"]`
+- `["array","subarray"]`
+- `["broadcast","dotop"]`
+- `["broadcast","fusion"]`
 - `["broadcast","sparse"]`
+- `["dates","accessor"]`
+- `["dates","arithmetic"]`
+- `["dates","construction"]`
+- `["dates","conversion"]`
+- `["dates","parse"]`
+- `["dates","query"]`
+- `["dates","string"]`
+- `["io","read"]`
+- `["io","serialization"]`
+- `["linalg","arithmetic"]`
+- `["linalg","blas"]`
+- `["linalg","factorization"]`
+- `["micro"]`
+- `["misc","afoldl"]`
+- `["misc","bitshift"]`
+- `["misc","parse"]`
+- `["misc","repeat"]`
+- `["misc","splatting"]`
+- `["nullable","basic"]`
+- `["nullable","nullablearray"]`
+- `["parallel","remotecall"]`
 - `["problem","fem"]`
+- `["problem","go"]`
+- `["problem","grigoriadis khachiyan"]`
+- `["problem","imdb"]`
+- `["problem","json"]`
 - `["problem","laplacian"]`
+- `["problem","monte carlo"]`
+- `["problem","raytrace"]`
+- `["problem","seismic"]`
+- `["problem","simplex"]`
+- `["problem","spellcheck"]`
+- `["problem","stockcorr"]`
+- `["problem","ziggurat"]`
+- `["scalar","arithmetic"]`
+- `["scalar","fastmath"]`
+- `["scalar","floatexp"]`
+- `["scalar","iteration"]`
+- `["scalar","predicate"]`
+- `["shootout"]`
+- `["simd"]`
+- `["sort","insertionsort"]`
+- `["sort","issorted"]`
+- `["sort","mergesort"]`
+- `["sort","quicksort"]`
 - `["sparse","arithmetic"]`
 - `["sparse","index"]`
 - `["sparse","transpose"]`
+- `["string"]`
+- `["tuple","index"]`
 
 ## Version Info
 
@@ -54,15 +114,15 @@ Platform Info:
   WORD_SIZE: 64
            Ubuntu 14.04.4 LTS
   uname: Linux 3.13.0-85-generic #129-Ubuntu SMP Thu Mar 17 20:50:15 UTC 2016 x86_64 x86_64
-Memory: 31.383651733398438 GB (19464.71875 MB free)
-Uptime: 2.0607559e7 sec
-Load Avg:  0.9970703125  0.9560546875  0.91357421875
+Memory: 31.383651733398438 GB (19286.25390625 MB free)
+Uptime: 2.0618986e7 sec
+Load Avg:  1.0029296875  1.0146484375  0.9921875
 Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz: 
        speed         user         nice          sys         idle          irq
-#1  3501 MHz   39000556 s          0 s    6069319 s  2011485847 s         62 s
-#2  3501 MHz  131468379 s          0 s    7139415 s  1918708872 s         21 s
-#3  3501 MHz   34460022 s          0 s    4173884 s  2021149878 s         36 s
-#4  3501 MHz   30283548 s          0 s    4084600 s  2025607186 s         11 s
+#1  3501 MHz   39187764 s          0 s    6087554 s  2012419947 s         62 s
+#2  3501 MHz  131997750 s          0 s    7153800 s  1919306451 s         21 s
+#3  3501 MHz   34586995 s          0 s    4188659 s  2022148969 s         36 s
+#4  3501 MHz   30491615 s          0 s    4102508 s  2026522709 s         11 s
 
   BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell)
   LAPACK: libopenblas64_
@@ -82,15 +142,15 @@ Platform Info:
   WORD_SIZE: 64
            Ubuntu 14.04.4 LTS
   uname: Linux 3.13.0-85-generic #129-Ubuntu SMP Thu Mar 17 20:50:15 UTC 2016 x86_64 x86_64
-Memory: 31.383651733398438 GB (19538.06640625 MB free)
-Uptime: 2.0611275e7 sec
-Load Avg:  1.0029296875  0.97216796875  0.95458984375
+Memory: 31.383651733398438 GB (18978.1875 MB free)
+Uptime: 2.0626436e7 sec
+Load Avg:  1.0029296875  1.0146484375  0.970703125
 Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz: 
        speed         user         nice          sys         idle          irq
-#1  3501 MHz   39112692 s          0 s    6078359 s  2011735427 s         62 s
-#2  3501 MHz  131558460 s          0 s    7146774 s  1918982231 s         21 s
-#3  3501 MHz   34534138 s          0 s    4182058 s  2021438301 s         36 s
-#4  3501 MHz   30345621 s          0 s    4091764 s  2025908903 s         11 s
+#1  3501 MHz   39301349 s          0 s    6098027 s  2013038683 s         62 s
+#2  3501 MHz  132458520 s          0 s    7161946 s  1919581686 s         21 s
+#3  3501 MHz   34672341 s          0 s    4196019 s  2022800371 s         36 s
+#4  3501 MHz   30545262 s          0 s    4109582 s  2027206309 s         11 s
 
   BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell)
   LAPACK: libopenblas64_
