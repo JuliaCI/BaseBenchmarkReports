@@ -1,0 +1,7 @@
+ERROR: LoadError: UndefVarError: blas_set_num_threads not defined
+Stacktrace:
+ [1] include_from_node1(::String) at ./loading.jl:539
+ [2] include(::String) at ./sysimg.jl:14
+ [3] process_options(::Base.JLOptions) at ./client.jl:300
+ [4] _start() at ./client.jl:366
+while loading /home/nanosoldier/workdir/tmpwHY55w/benchscript.jl, in expression starting on line 8
