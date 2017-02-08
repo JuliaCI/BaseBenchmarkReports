@@ -1,0 +1,457 @@
+WARNING: Array{T}(::Type{T}, m::Int) is deprecated, use Array{T}(m) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:62
+ [2] Array(::Type{UInt64}, ::Int64) at ./deprecated.jl:50
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] anonymous at ./<missing>:2
+ [6] eval(::Module, ::Any) at ./boot.jl:236
+ [7] process_options(::Base.JLOptions) at ./client.jl:281
+ [8] _start() at ./client.jl:366
+while loading /home/nanosoldier/.julia/v0.6/Blosc/src/Blosc.jl, in expression starting on line 101
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+WARNING: could not import Base.lastidx into LegacyStrings
+WARNING: filter(flt, itr) is deprecated, use Iterators.filter(flt, itr) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:62
+ [2] filter(::Function, ::NTuple{7,UnionAll}) at ./deprecated.jl:50
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] #load!#2(::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:39
+ [6] (::BaseBenchmarks.#kw##load!)(::Array{Any,1}, ::BaseBenchmarks.#load!, ::BenchmarkTools.BenchmarkGroup, ::String) at ./<missing>:0
+ [7] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:53
+ [8] #loadall!#5(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ [9] loadall!() at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ [10] include_from_node1(::String) at ./loading.jl:539
+ [11] include(::String) at ./sysimg.jl:14
+ [12] process_options(::Base.JLOptions) at ./client.jl:300
+ [13] _start() at ./client.jl:366
+while loading /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/linalg/LinAlgBenchmarks.jl, in expression starting on line 15
+WARNING: Partial linear indexing is deprecated. Use `reshape(A, Val{2})` to make the dimensionality of the array match the number of indices.
+Stacktrace:
+ [1] partial_linear_indexing_warning_lookup(::Int64) at ./deprecated.jl:1108
+ [2] checkbounds_linear_indices at ./abstractarray.jl:373 [inlined]
+ [3] checkbounds_indices at ./abstractarray.jl:366 [inlined]
+ [4] checkbounds_indices at ./abstractarray.jl:352 [inlined]
+ [5] checkbounds at ./abstractarray.jl:307 [inlined]
+ [6] checkbounds(::SubArray{Int32,3,Array{Int32,3},Tuple{Base.Slice{Base.OneTo{Int64}},Base.Slice{Base.OneTo{Int64}},Base.Slice{Base.OneTo{Int64}}},true}, ::Base.Slice{Base.OneTo{Int64}}, ::UnitRange{Int64}) at ./abstractarray.jl:327
+ [7] view(::SubArray{Int32,3,Array{Int32,3},Tuple{Base.Slice{Base.OneTo{Int64}},Base.Slice{Base.OneTo{Int64}},Base.Slice{Base.OneTo{Int64}}},true}, ::Colon, ::Vararg{Any,N} where N) at ./subarray.jl:113
+ [8] makearrays(::Type{Int32}, ::Int64, ::Int64) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/array/sumindex.jl:298
+ [9] include_from_node1(::String) at ./loading.jl:539
+ [10] include(::String) at ./sysimg.jl:14
+ [11] #load!#2(::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:39
+ [12] (::BaseBenchmarks.#kw##load!)(::Array{Any,1}, ::BaseBenchmarks.#load!, ::BenchmarkTools.BenchmarkGroup, ::String) at ./<missing>:0
+ [13] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:53
+ [14] #loadall!#5(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ [15] loadall!() at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ [16] include_from_node1(::String) at ./loading.jl:539
+ [17] include(::String) at ./sysimg.jl:14
+ [18] process_options(::Base.JLOptions) at ./client.jl:300
+ [19] _start() at ./client.jl:366
+while loading /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/array/ArrayBenchmarks.jl, in expression starting on line 47
+ERROR: LoadError: JLD.TypeMismatchException("BenchmarkTools.Parameters")
+Stacktrace:
+ [1] jldatatype(::JLD.JldFile, ::HDF5.HDF5Datatype) at /home/nanosoldier/.julia/v0.6/JLD/src/jld_types.jl:749
+ [2] read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.6/JLD/src/JLD.jl:385
+ [3] read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.6/JLD/src/JLD.jl:513
+ [4] read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.6/JLD/src/JLD.jl:486
+ [5] read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.6/JLD/src/JLD.jl:422
+ [6] read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.6/JLD/src/JLD.jl:387
+ [7] read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.6/JLD/src/JLD.jl:513
+ [8] macro expansion at /home/nanosoldier/.julia/v0.6/JLD/src/jld_types.jl:451 [inlined]
+ [9] jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.6/JLD/src/jld_types.jl:581
+ [10] read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T} where T) at /home/nanosoldier/.julia/v0.6/JLD/src/JLD.jl:413
+ [11] read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.6/JLD/src/JLD.jl:385
+ [12] read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.6/JLD/src/JLD.jl:513
+ [13] macro expansion at /home/nanosoldier/.julia/v0.6/JLD/src/jld_types.jl:451 [inlined]
+ [14] jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.6/JLD/src/jld_types.jl:581
+ [15] read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T} where T) at /home/nanosoldier/.julia/v0.6/JLD/src/JLD.jl:413
+ [16] read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.6/JLD/src/JLD.jl:385
+ [17] read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.6/JLD/src/JLD.jl:361
+ [18] (::BaseBenchmarks.##7#8{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:59
+ [19] #jldopen#11(::Array{Any,1}, ::Function, ::BaseBenchmarks.##7#8{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N} where N) at /home/nanosoldier/.julia/v0.6/JLD/src/JLD.jl:260
+ [20] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:57
+ [21] #loadall!#5(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ [22] loadall!() at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ [23] include_from_node1(::String) at ./loading.jl:539
+ [24] include(::String) at ./sysimg.jl:14
+ [25] process_options(::Base.JLOptions) at ./client.jl:300
+ [26] _start() at ./client.jl:366
+while loading /home/nanosoldier/workdir/tmpjTxJAh/benchscript.jl, in expression starting on line 16
