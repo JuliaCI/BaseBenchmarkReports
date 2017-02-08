@@ -1,0 +1,645 @@
+
+WARNING: deprecated syntax "local sz=0, n, membername, membertype, memberoffset, memberfiletype" at /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl:1387.
+Use "local sz=0; local n; local membername; local membertype; local memberoffset; local memberfiletype" instead.
+WARNING: Array{T}(::Type{T}, m::Int) is deprecated, use Array{T}(m) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:62
+ [2] Array(::Type{UInt64}, ::Int64) at ./deprecated.jl:50
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] anonymous at ./<missing>:2
+ [6] eval(::Module, ::Any) at ./boot.jl:236
+ [7] process_options(::Base.JLOptions) at ./client.jl:281
+ [8] _start() at ./client.jl:366
+while loading /home/nanosoldier/.julia/v0.6/Blosc/src/Blosc.jl, in expression starting on line 101
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+WARNING: Array{T}(::Type{T}, m::Int) is deprecated, use Array{T}(m) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:62
+ [2] Array(::Type{UInt32}, ::Int64) at ./deprecated.jl:50
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] include_from_node1(::String) at ./loading.jl:539
+ [6] include(::String) at ./sysimg.jl:14
+ [7] anonymous at ./<missing>:2
+ [8] eval(::Module, ::Any) at ./boot.jl:236
+ [9] process_options(::Base.JLOptions) at ./client.jl:281
+ [10] _start() at ./client.jl:366
+while loading /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl, in expression starting on line 35
+WARNING: Array{T}(::Type{T}, m::Int) is deprecated, use Array{T}(m) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:62
+ [2] Array(::Type{UInt32}, ::Int64) at ./deprecated.jl:50
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] include_from_node1(::String) at ./loading.jl:539
+ [6] include(::String) at ./sysimg.jl:14
+ [7] anonymous at ./<missing>:2
+ [8] eval(::Module, ::Any) at ./boot.jl:236
+ [9] process_options(::Base.JLOptions) at ./client.jl:281
+ [10] _start() at ./client.jl:366
+while loading /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl, in expression starting on line 36
+WARNING: Array{T}(::Type{T}, m::Int) is deprecated, use Array{T}(m) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:62
+ [2] Array(::Type{UInt32}, ::Int64) at ./deprecated.jl:50
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] include_from_node1(::String) at ./loading.jl:539
+ [6] include(::String) at ./sysimg.jl:14
+ [7] anonymous at ./<missing>:2
+ [8] eval(::Module, ::Any) at ./boot.jl:236
+ [9] process_options(::Base.JLOptions) at ./client.jl:281
+ [10] _start() at ./client.jl:366
+while loading /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl, in expression starting on line 37
+WARNING: Array{T}(::Type{T}, m::Int) is deprecated, use Array{T}(m) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:62
+ [2] Array(::Type{HDF5.HDF5ReferenceObj}, ::Int64) at ./deprecated.jl:50
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] include_from_node1(::String) at ./loading.jl:539
+ [6] include(::String) at ./sysimg.jl:14
+ [7] anonymous at ./<missing>:2
+ [8] eval(::Module, ::Any) at ./boot.jl:236
+ [9] process_options(::Base.JLOptions) at ./client.jl:281
+ [10] _start() at ./client.jl:366
+while loading /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl, in expression starting on line 420
+WARNING: Array{T}(::Type{T}, m::Int) is deprecated, use Array{T}(m) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:62
+ [2] Array(::Type{UInt32}, ::Int64) at ./deprecated.jl:50
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] include_from_node1(::String) at ./loading.jl:539
+ [6] include(::String) at ./sysimg.jl:14
+ [7] include_from_node1(::String) at ./loading.jl:539
+ [8] include(::String) at ./sysimg.jl:14
+ [9] anonymous at ./<missing>:2
+ [10] eval(::Module, ::Any) at ./boot.jl:236
+ [11] process_options(::Base.JLOptions) at ./client.jl:281
+ [12] _start() at ./client.jl:366
+while loading /home/nanosoldier/.julia/v0.6/HDF5/src/blosc_filter.jl, in expression starting on line 27
+WARNING: Array{T}(::Type{T}, m::Int) is deprecated, use Array{T}(m) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:62
+ [2] Array(::Type{UInt64}, ::Int64) at ./deprecated.jl:50
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] include_from_node1(::String) at ./loading.jl:539
+ [6] include(::String) at ./sysimg.jl:14
+ [7] include_from_node1(::String) at ./loading.jl:539
+ [8] include(::String) at ./sysimg.jl:14
+ [9] anonymous at ./<missing>:2
+ [10] eval(::Module, ::Any) at ./boot.jl:236
+ [11] process_options(::Base.JLOptions) at ./client.jl:281
+ [12] _start() at ./client.jl:366
+while loading /home/nanosoldier/.julia/v0.6/HDF5/src/blosc_filter.jl, in expression starting on line 28
+WARNING: Array{T}(::Type{T}, m::Int) is deprecated, use Array{T}(m) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:62
+ [2] Array(::Type{UInt32}, ::Int64) at ./deprecated.jl:50
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] include_from_node1(::String) at ./loading.jl:539
+ [6] include(::String) at ./sysimg.jl:14
+ [7] include_from_node1(::String) at ./loading.jl:539
+ [8] include(::String) at ./sysimg.jl:14
+ [9] anonymous at ./<missing>:2
+ [10] eval(::Module, ::Any) at ./boot.jl:236
+ [11] process_options(::Base.JLOptions) at ./client.jl:281
+ [12] _start() at ./client.jl:366
+while loading /home/nanosoldier/.julia/v0.6/HDF5/src/blosc_filter.jl, in expression starting on line 29
+WARNING: Array{T}(::Type{T}, m::Int) is deprecated, use Array{T}(m) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:62
+ [2] Array(::Type{UInt64}, ::Int64) at ./deprecated.jl:50
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] include_from_node1(::String) at ./loading.jl:539
+ [6] include(::String) at ./sysimg.jl:14
+ [7] include_from_node1(::String) at ./loading.jl:539
+ [8] include(::String) at ./sysimg.jl:14
+ [9] anonymous at ./<missing>:2
+ [10] eval(::Module, ::Any) at ./boot.jl:236
+ [11] process_options(::Base.JLOptions) at ./client.jl:281
+ [12] _start() at ./client.jl:366
+while loading /home/nanosoldier/.julia/v0.6/HDF5/src/blosc_filter.jl, in expression starting on line 30
+WARNING: Array{T}(::Type{T}, m::Int) is deprecated, use Array{T}(m) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:62
+ [2] Array(::Type{HDF5.H5Ginfo}, ::Int64) at ./deprecated.jl:50
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] include_from_node1(::String) at ./loading.jl:539
+ [6] include(::String) at ./sysimg.jl:14
+ [7] anonymous at ./<missing>:2
+ [8] eval(::Module, ::Any) at ./boot.jl:236
+ [9] process_options(::Base.JLOptions) at ./client.jl:281
+ [10] _start() at ./client.jl:366
+while loading /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl, in expression starting on line 947
+WARNING: Array{T}(::Type{T}, m::Int) is deprecated, use Array{T}(m) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:62
+ [2] Array(::Type{HDF5.H5Oinfo}, ::Int64) at ./deprecated.jl:50
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] include_from_node1(::String) at ./loading.jl:539
+ [6] include(::String) at ./sysimg.jl:14
+ [7] anonymous at ./<missing>:2
+ [8] eval(::Module, ::Any) at ./boot.jl:236
+ [9] process_options(::Base.JLOptions) at ./client.jl:281
+ [10] _start() at ./client.jl:366
+while loading /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl, in expression starting on line 953
+WARNING: Array{T}(::Type{T}, m::Int) is deprecated, use Array{T}(m) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:62
+ [2] Array(::Type{UInt64}, ::Int64) at ./deprecated.jl:50
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] include_from_node1(::String) at ./loading.jl:539
+ [6] include(::String) at ./sysimg.jl:14
+ [7] anonymous at ./<missing>:2
+ [8] eval(::Module, ::Any) at ./boot.jl:236
+ [9] process_options(::Base.JLOptions) at ./client.jl:281
+ [10] _start() at ./client.jl:366
+while loading /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl, in expression starting on line 959
+WARNING: Array{T}(::Type{T}, d::Int...) is deprecated, use Array{T}(d...) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:62
+ [2] Array(::Type{HDF5.HDF5Properties}) at ./deprecated.jl:50
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] include_from_node1(::String) at ./loading.jl:539
+ [6] include(::String) at ./sysimg.jl:14
+ [7] anonymous at ./<missing>:2
+ [8] eval(::Module, ::Any) at ./boot.jl:236
+ [9] process_options(::Base.JLOptions) at ./client.jl:281
+ [10] _start() at ./client.jl:366
+while loading /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl, in expression starting on line 2378
+WARNING: Array{T}(::Type{T}, d::Int...) is deprecated, use Array{T}(d...) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:62
+ [2] Array(::Type{HDF5.HDF5Properties}) at ./deprecated.jl:50
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] include_from_node1(::String) at ./loading.jl:539
+ [6] include(::String) at ./sysimg.jl:14
+ [7] anonymous at ./<missing>:2
+ [8] eval(::Module, ::Any) at ./boot.jl:236
+ [9] process_options(::Base.JLOptions) at ./client.jl:281
+ [10] _start() at ./client.jl:366
+while loading /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl, in expression starting on line 2380
+WARNING: Array{T}(::Type{T}, d::Int...) is deprecated, use Array{T}(d...) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:62
+ [2] Array(::Type{HDF5.HDF5Properties}) at ./deprecated.jl:50
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] include_from_node1(::String) at ./loading.jl:539
+ [6] include(::String) at ./sysimg.jl:14
+ [7] anonymous at ./<missing>:2
+ [8] eval(::Module, ::Any) at ./boot.jl:236
+ [9] process_options(::Base.JLOptions) at ./client.jl:281
+ [10] _start() at ./client.jl:366
+while loading /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl, in expression starting on line 2382
+WARNING: Array{T}(::Type{T}, d::Int...) is deprecated, use Array{T}(d...) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:62
+ [2] Array(::Type{HDF5.HDF5Properties}) at ./deprecated.jl:50
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] include_from_node1(::String) at ./loading.jl:539
+ [6] include(::String) at ./sysimg.jl:14
+ [7] anonymous at ./<missing>:2
+ [8] eval(::Module, ::Any) at ./boot.jl:236
+ [9] process_options(::Base.JLOptions) at ./client.jl:281
+ [10] _start() at ./client.jl:366
+while loading /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl, in expression starting on line 2383
+WARNING: Array{T}(::Type{T}, m::Int) is deprecated, use Array{T}(m) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:62
+ [2] Array(::Type{Pair}, ::Int64) at ./deprecated.jl:50
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] include_from_node1(::String) at ./loading.jl:539
+ [6] include(::String) at ./sysimg.jl:14
+ [7] anonymous at ./<missing>:2
+ [8] eval(::Module, ::Any) at ./boot.jl:236
+ [9] process_options(::Base.JLOptions) at ./client.jl:281
+ [10] _start() at ./client.jl:366
+while loading /home/nanosoldier/.julia/v0.6/FileIO/src/query.jl, in expression starting on line 55
+WARNING: Array{T}(::Type{T}, m::Int) is deprecated, use Array{T}(m) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:62
+ [2] Array(::Type{Pair}, ::Int64) at ./deprecated.jl:50
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] include_from_node1(::String) at ./loading.jl:539
+ [6] include(::String) at ./sysimg.jl:14
+ [7] anonymous at ./<missing>:2
+ [8] eval(::Module, ::Any) at ./boot.jl:236
+ [9] process_options(::Base.JLOptions) at ./client.jl:281
+ [10] _start() at ./client.jl:366
+while loading /home/nanosoldier/.julia/v0.6/FileIO/src/query.jl, in expression starting on line 57
+ERROR: LoadError: LoadError: UndefVarError: readbytes not defined
+Stacktrace:
+ [1] include_from_node1(::String) at ./loading.jl:539
+ [2] include(::String) at ./sysimg.jl:14
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] anonymous at ./<missing>:2
+while loading /home/nanosoldier/.julia/v0.6/FileIO/src/query.jl, in expression starting on line 311
+while loading /home/nanosoldier/.julia/v0.6/FileIO/src/FileIO.jl, in expression starting on line 32
+ERROR: LoadError: Failed to precompile FileIO to /home/nanosoldier/.julia/lib/v0.6/FileIO.ji.
+Stacktrace:
+ [1] compilecache(::String) at ./loading.jl:673
+ [2] require(::Symbol) at ./loading.jl:431
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] anonymous at ./<missing>:2
+while loading /home/nanosoldier/.julia/v0.6/JLD/src/JLD.jl, in expression starting on line 8
+ERROR: LoadError: LoadError: Failed to precompile JLD to /home/nanosoldier/.julia/lib/v0.6/JLD.ji.
+Stacktrace:
+ [1] compilecache(::String) at ./loading.jl:673
+ [2] require(::Symbol) at ./loading.jl:431
+ [3] include_from_node1(::String) at ./loading.jl:539
+while loading /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl, in expression starting on line 4
+while loading /home/nanosoldier/workdir/tmpIdOXnN/benchscript.jl, in expression starting on line 11
