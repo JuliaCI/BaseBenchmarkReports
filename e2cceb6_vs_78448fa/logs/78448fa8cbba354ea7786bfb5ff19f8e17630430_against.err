@@ -1,9 +1,9 @@
-ERROR: LoadError: UndefVarError: isabstract not defined
+ERROR: LoadError: UndefVarError: TypeConstructor not defined
 Stacktrace:
  [1] include_from_node1(::String) at ./loading.jl:539
  [2] include(::String) at ./sysimg.jl:14
  [3] anonymous at ./<missing>:2
-while loading /home/nanosoldier/.julia/v0.6/Compat/src/Compat.jl, in expression starting on line 1779
+while loading /home/nanosoldier/.julia/v0.6/Compat/src/Compat.jl, in expression starting on line 1804
 ERROR: LoadError: LoadError: LoadError: Failed to precompile Compat to /home/nanosoldier/.julia/lib/v0.6/Compat.ji.
 Stacktrace:
  [1] compilecache(::String) at ./loading.jl:673
@@ -14,4 +14,4 @@ Stacktrace:
  [6] include_from_node1(::String) at ./loading.jl:539
 while loading /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/BenchmarkTools.jl, in expression starting on line 3
 while loading /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl, in expression starting on line 3
-while loading /home/nanosoldier/workdir/tmp8wSpTI/benchscript.jl, in expression starting on line 11
+while loading /home/nanosoldier/workdir/tmp2h1usN/benchscript.jl, in expression starting on line 11
