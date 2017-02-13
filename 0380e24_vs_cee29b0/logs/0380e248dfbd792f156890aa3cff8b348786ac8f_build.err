@@ -1,81 +1,82 @@
-  % Total    % Received %% Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed    0     0 0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+  % Total    % Received % Xferd  Average Speed   Tim  Time     Time  Current
+                                    Dload  Upload   Total   Spent    Left  Speed
+   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   313  100   313    0     0    665      0 --:--:-- --:--:-- --:--:--   665
-  1 4051k    1 50801    0     0  58746      0  0:01:10 --:--:--  0:01:10 58746100   313  100   313    0     0    355      0 --:--:-- --:--:-- --:--:--   354100   313  100   313    0     0    355      0 --:--:-- --:--:-- --:--:--   354
-100   317  100   317    0     0    306      0  0:00:01  0:00:01 --:--:--   306100   317  100   317    0     0    306      0  0:00:01  0:00:01 --:--:--   306
-100 4051k  100 4051k    0     0  3290k      0  0:00:01  0:00:01 --:--:-- 10.6M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   313  100   313    0     0    632      0 --:--:-- --:--:-- --:--:--   633
+100   313  100   313    0     0    366      0 --:--:-- --:--:-- --:--:--   366
+100   317  100   317    0     0    331      0 --:--:-- --:--:-- --:--:--   331100   317  100   317    0     0    331      0 --:--:-- --:--:-- --:--:--   331
+  0 2330k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100 2330k  100 2330k    0     0  1816k      0  0:00:01  0:00:01 --:--:-- 8009k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 2330k  100 2330k    0     0  1645k      0  0:00:01  0:00:01 --:--:-- 1645k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 1436k  100 1436k    0     0  1089k      0  0:00:01  0:00:01 --:--:-- 1089k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 1436k  100 1436k    0     0   999k      0  0:00:01  0:00:01 --:--:--  999k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   375  100   375    0     0   2313      0 --:--:-- --:--:-- --:--:--  2314
+100 4051k  100 4051k    0     0  2688k      0  0:00:01  0:00:01 --:--:-- 8054k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   375  100   375    0     0   1514      0 --:--:-- --:--:-- --:--:--  1518
- 12  399k   12 50802    0     0   114k      0  0:00:03 --:--:--  0:00:03  114k100  399k  100  399k    0     0   724k      0 --:--:-- --:--:-- --:--:-- 2989k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  399k  100  399k    0     0   918k      0 --:--:-- --:--:-- --:--:--  918k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0    443      0 --:--:-- --:--:-- --:--:--   443100   317  100   317    0     0    443      0 --:--:-- --:--:-- --:--:--   443
-  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100   375  100   375    0     0    737      0 --:--:-- --:--:-- --:--:--   738
-100 2539k  100 2539k    0     0  2108k      0  0:00:01  0:00:01 --:--:-- 2108k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   375  100   375    0     0   2350      0 --:--:-- --:--:-- --:--:--  2343100   375  100   375    0     0   2349      0 --:--:-- --:--:-- --:--:--  2343
+100   317  100   317    0     0    436      0 --:--:-- --:--:-- --:--:--   436100   317  100   317    0     0    436      0 --:--:-- --:--:-- --:--:--   436
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100 4155k  100 4155k    0     0  4278k      0 --:--:-- --:--:-- --:--:-- 4278k
+100 2539k  100 2539k    0     0  2064k      0  0:00:01  0:00:01 --:--:-- 2064k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 24 4155k   24 1035k    0     0  1185k      0  0:00:03 --:--:--  0:00:03 1185k100 4155k  100 4155k    0     0  4022k      0  0:00:01  0:00:01 --:--:-- 19.1M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   323  100   323    0     0   3400      0 --:--:-- --:--:-- --:--:--  3436
+  0 1358k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   321  100   321    0     0    191      0  0:00:01  0:00:01 --:--:--   191100   321  100   321    0     0    191      0  0:00:01  0:00:01 --:--:--   191
+100 1358k  100 1358k    0     0  2881k      0 --:--:-- --:--:-- --:--:-- 4938k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   321  100   321    0     0    175      0  0:00:01  0:00:01 --:--:--   175100   321  100   321    0     0    175      0  0:00:01  0:00:01 --:--:--   175
-100   323  100   323    0     0    930      0 --:--:-- --:--:-- --:--:--   930
-100   315  100   315    0     0    373      0 --:--:-- --:--:-- --:--:--   373
-100 1837k  100 1837k    0     0   796k      0  0:00:02  0:00:02 --:--:--  796k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   377  100   377    0     0   2586      0 --:--:-- --:--:-- --:--:--  2600
+100 1837k  100 1837k    0     0   863k      0  0:00:02  0:00:02 --:--:--  863k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   377  100   377    0     0   2044      0 --:--:-- --:--:-- --:--:--  2048
-100 1358k  100 1358k    0     0  1917k      0 --:--:-- --:--:-- --:--:-- 1917k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  148k  100  148k    0     0   429k      0 --:--:-- --:--:-- --:--:--  429k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 88 1249k   88 1104k    0     0   920k      0  0:00:01  0:00:01 --:--:--  920k100 1249k  100 1249k    0     0  1029k      0  0:00:01  0:00:01 --:--:-- 10.8M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   315  100   315    0     0    311      0  0:00:01  0:00:01 --:--:--   312
+  5 1249k    5 68209    0     0  57666      0  0:00:22  0:00:01  0:00:21 57666100   327  100   327    0     0    515      0 --:--:-- --:--:-- --:--:--   514100   327  100   327    0     0    515      0 --:--:-- --:--:-- --:--:--   514
+100 1249k  100 1249k    0     0   896k      0  0:00:01  0:00:01 --:--:-- 5606k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0  148k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  148k  100  148k    0     0   344k      0 --:--:-- --:--:-- --:--:-- 1901k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   377  100   377    0     0    645      0 --:--:-- --:--:-- --:--:--   644100   377  100   377    0     0    645      0 --:--:-- --:--:-- --:--:--   644
+100   371  100   371    0     0   2288      0 --:--:-- --:--:-- --:--:--  2290
+100 1378k  100 1378k    0     0  2826k      0 --:--:-- --:--:-- --:--:-- 2826k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   377  100   377    0     0   2459      0 --:--:-- --:--:-- --:--:--  2464
-100   371  100   371    0     0   1127      0 --:--:-- --:--:-- --:--:--  1131
-100 1378k  100 1378k    0     0  1964k      0 --:--:-- --:--:-- --:--:-- 1964k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   333  100   333    0     0   3462      0 --:--:-- --:--:-- --:--:--  3468
+100 10.3M  100 10.3M    0     0  8439k      0  0:00:01  0:00:01 --:--:-- 8439k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 10.3M  100 10.3M    0     0  11.2M      0 --:--:-- --:--:-- --:--:-- 11.2M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 86 24.3M   86 21.0M    0     0  14.0M      0  0:00:01  0:00:01 --:--:-- 14.0M  8  803k    8 69258    0     0   232k      0  0:00:03 --:--:--  0:00:03  232k100 24.3M  100 24.3M    0     0  15.9M      0  0:00:01  0:00:01 --:--:--  113M
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   333  100   333    0     0   2071      0 --:--:-- --:--:-- --:--:--  2068100   333  100   333    0     0   2070      0 --:--:-- --:--:-- --:--:--  2068
-  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   327  100   327    0     0    258      0  0:00:01  0:00:01 --:--:--   258
-100   317  100   317    0     0    792      0 --:--:-- --:--:-- --:--:--   790
-100  803k  100  803k    0     0  1567k      0 --:--:-- --:--:-- --:--:-- 1567k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  803k  100  803k    0     0  1941k      0 --:--:-- --:--:-- --:--:-- 5979k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   377  100   377    0     0   1865      0 --:--:-- --:--:-- --:--:--  1866
-100  187k  100  187k    0     0   291k      0 --:--:-- --:--:-- --:--:--  291k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   317  100   317    0     0   1351      0 --:--:-- --:--:-- --:--:--  1348
+100   377  100   377    0     0   2588      0 --:--:-- --:--:-- --:--:--  2600
+100   383  100   383    0     0   2708      0 --:--:-- --:--:-- --:--:--  2716
+100  187k  100  187k    0     0   415k      0 --:--:-- --:--:-- --:--:--  415k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   383  100   383    0     0   1934      0 --:--:-- --:--:-- --:--:--  1944
-100  345k  100  345k    0     0   784k      0 --:--:-- --:--:-- --:--:--  784k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  345k  100  345k    0     0   798k      0 --:--:-- --:--:-- --:--:--  798k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  118k  100  118k    0     0   321k      0 --:--:-- --:--:-- --:--:--  321k
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 83 24.3M   83 20.3M    0     0  9879k      0  0:00:02  0:00:02 --:--:-- 9879k  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 24.3M  100 24.3M    0     0  11.0M      0  0:00:02  0:00:02 --:--:-- 38.4M
-100   321  100   321    0     0    574      0 --:--:-- --:--:-- --:--:--   574
-100   323  100   323    0     0    416      0 --:--:-- --:--:-- --:--:--   416
-rm: cannot remove ‘/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libssh2-30e9c1347e3b8baa2951db612f05e6d87fc8e2f2/’: No such file or directory
- 22 17.2M   22 3908k    0     0  3801k      0  0:00:04  0:00:01  0:00:03 3801k 89  284k   89  254k    0     0   212k      0  0:00:01  0:00:01 --:--:--  212k100  284k  100  284k    0     0   237k      0  0:00:01  0:00:01 --:--:-- 29.5M
-rm: cannot remove ‘/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/’: No such file or directory
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  118k  100  118k    0     0   295k      0 --:--:-- --:--:-- --:--:--  295k
+100   321  100   321    0     0    783      0 --:--:-- --:--:-- --:--:--   784
+  0 17.2M    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   323  100   323    0     0    399      0 --:--:-- --:--:-- --:--:--   399100   323  100   323    0     0    399      0 --:--:-- --:--:-- --:--:--   399
+rm: cannot remove ‘/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libssh2-30e9c1347e3b8baa2951db612f05e6d87fc8e2f2/’: No such file or directory
+100  284k  100  284k    0     0   271k      0  0:00:01  0:00:01 --:--:--  271k
+rm: cannot remove ‘/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/’: No such file or directory
+100 17.2M  100 17.2M    0     0  15.8M      0  0:00:01  0:00:01 --:--:-- 34.3M
 rm: cannot remove ‘scratch/utf8proc-40e605959eb5cb90b2587fa88e3b661558fbc55a/’: No such file or directory
 rm: cannot remove ‘scratch/openblas-85636ff1a015d04d3a8f960bc644b85ee5157135/’: No such file or directory
-100 17.2M  100 17.2M    0     0  11.2M      0  0:00:01  0:00:01 --:--:-- 26.5M
-rm: cannot remove ‘/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libuv-52d72a52cc7ccd570929990f010ed16e2ec604c8/’: No such file or directory
+rm: cannot remove ‘/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libuv-52d72a52cc7ccd570929990f010ed16e2ec604c8/’: No such file or directory
 rm: cannot remove ‘scratch/openlibm-1581174c85f7b645b15ba1ac1c3a98fb601f0fe7/’: No such file or directory
 rm: cannot remove ‘scratch/openspecfun-39699a1c1824bf88410cabb8a7438af91ea98f4c/’: No such file or directory
 rm: cannot remove ‘scratch/dsfmt-2.2.3/’: No such file or directory
@@ -89,7 +90,7 @@ src/e_lgammaf_r.c:229:13: warning: ‘nadj’ may be used uninitialized in this 
   if(hx<0) r = nadj - r;
              ^
 In file included from ld80/s_exp2l.c:38:0:
-/home/nanosoldier/workdir/tmpYtHZLL/deps/scratch/openlibm-1581174c85f7b645b15ba1ac1c3a98fb601f0fe7/src/math_private.h:240:1: warning: ‘irint’ defined but not used [-Wunused-function]
+/home/nanosoldier/workdir/tmpuOM4WN/deps/scratch/openlibm-1581174c85f7b645b15ba1ac1c3a98fb601f0fe7/src/math_private.h:240:1: warning: ‘irint’ defined but not used [-Wunused-function]
  irint(double x)
  ^
 ld80/e_lgammal_r.c: In function ‘lgammal_r’:
@@ -106,26 +107,26 @@ CMake Warning:
     CMAKE_INSTALL_LIBDIR
 
 
-libtool: warning: relinking 'libpcre2-posix.la'
-libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpYtHZLL/usr/lib'
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libuv-52d72a52cc7ccd570929990f010ed16e2ec604c8/src/unix/process.c: In function ‘uv__chld’:
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libuv-52d72a52cc7ccd570929990f010ed16e2ec604c8/src/unix/process.c:124:23: warning: C++ style comments are not allowed in ISO C90 [enabled by default]
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libuv-52d72a52cc7ccd570929990f010ed16e2ec604c8/src/unix/process.c: In function ‘uv__chld’:
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libuv-52d72a52cc7ccd570929990f010ed16e2ec604c8/src/unix/process.c:124:23: warning: C++ style comments are not allowed in ISO C90 [enabled by default]
      process->pid = 0; // pid is no longer valid (or unique)
                        ^
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libuv-52d72a52cc7ccd570929990f010ed16e2ec604c8/src/unix/process.c:124:23: warning: (this will be reported only once per input file) [enabled by default]
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libuv-52d72a52cc7ccd570929990f010ed16e2ec604c8/src/unix/process.c: In function ‘uv_spawn’:
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libuv-52d72a52cc7ccd570929990f010ed16e2ec604c8/src/unix/process.c:401:7: warning: unused variable ‘status’ [-Wunused-variable]
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libuv-52d72a52cc7ccd570929990f010ed16e2ec604c8/src/unix/process.c:124:23: warning: (this will be reported only once per input file) [enabled by default]
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libuv-52d72a52cc7ccd570929990f010ed16e2ec604c8/src/unix/process.c: In function ‘uv_spawn’:
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libuv-52d72a52cc7ccd570929990f010ed16e2ec604c8/src/unix/process.c:401:7: warning: unused variable ‘status’ [-Wunused-variable]
    int status;
        ^
-libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpYtHZLL/usr/lib'
-libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpYtHZLL/usr/lib'
-libtool: warning: 'libpcre2-posix.la' has not been installed in '/home/nanosoldier/workdir/tmpYtHZLL/usr/lib'
-libtool: warning: '/home/nanosoldier/workdir/tmpYtHZLL/deps/scratch/pcre2-10.22/libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpYtHZLL/usr/lib'
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libuv-52d72a52cc7ccd570929990f010ed16e2ec604c8/src/unix/stream.c: In function ‘uv__drain’:
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libuv-52d72a52cc7ccd570929990f010ed16e2ec604c8/src/unix/stream.c:678:5: warning: C++ style comments are not allowed in ISO C90 [enabled by default]
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libuv-52d72a52cc7ccd570929990f010ed16e2ec604c8/src/unix/stream.c: In function ‘uv__drain’:
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libuv-52d72a52cc7ccd570929990f010ed16e2ec604c8/src/unix/stream.c:678:5: warning: C++ style comments are not allowed in ISO C90 [enabled by default]
      //if (shutdown(uv__stream_fd(stream), SHUT_WR))
      ^
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libuv-52d72a52cc7ccd570929990f010ed16e2ec604c8/src/unix/stream.c:678:5: warning: (this will be reported only once per input file) [enabled by default]
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libuv-52d72a52cc7ccd570929990f010ed16e2ec604c8/src/unix/stream.c:678:5: warning: (this will be reported only once per input file) [enabled by default]
+libtool: warning: relinking 'libpcre2-posix.la'
+libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpuOM4WN/usr/lib'
+libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpuOM4WN/usr/lib'
+libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpuOM4WN/usr/lib'
+libtool: warning: 'libpcre2-posix.la' has not been installed in '/home/nanosoldier/workdir/tmpuOM4WN/usr/lib'
+libtool: warning: '/home/nanosoldier/workdir/tmpuOM4WN/deps/scratch/pcre2-10.22/libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpuOM4WN/usr/lib'
 lapack/laswp.c: In function ‘slaswp_’:
 lapack/laswp.c:100:8: warning: passing argument 12 of ‘blas_level1_thread’ from incompatible pointer type [enabled by default]
         laswp[flag], nthreads);
@@ -135,7 +136,7 @@ In file included from ../common.h:757:0,
 ../common_thread.h:177:5: note: expected ‘int (*)()’ but argument is of type ‘int (*)(BLASLONG,  BLASLONG,  BLASLONG,  float,  float *, BLASLONG,  float *, BLASLONG,  blasint *, BLASLONG)’
  int blas_level1_thread(int mode, BLASLONG m, BLASLONG n, BLASLONG k, void *alpha,
      ^
-libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpYtHZLL/usr/lib'
+libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpuOM4WN/usr/lib'
 lapack/zlaswp.c: In function ‘claswp_’:
 lapack/zlaswp.c:99:3: warning: passing argument 12 of ‘blas_level1_thread’ from incompatible pointer type [enabled by default]
    blas_level1_thread(mode, n, k1, k2, dummyalpha, a, lda, NULL, 0, ipiv, incx, laswp[flag], nthreads);
@@ -146,7 +147,7 @@ In file included from ../common.h:757:0,
  int blas_level1_thread(int mode, BLASLONG m, BLASLONG n, BLASLONG k, void *alpha,
      ^
 ar: creating ../libopenblas64_p-r0.2.19.a
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/gmp-6.1.2/printf/repl-vsnprintf.c:396:0: warning: ISO C forbids an empty translation unit [-Wpedantic]
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/gmp-6.1.2/printf/repl-vsnprintf.c:396:0: warning: ISO C forbids an empty translation unit [-Wpedantic]
  #endif /* ! HAVE_VSNPRINTF */
  ^
 In file included from gemm3m.c:55:0:
@@ -473,13 +474,13 @@ trtri_L_parallel.c: In function ‘ztrtri_LN_parallel’:
 trtri_L_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpYtHZLL/usr/lib'
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpuOM4WN/usr/lib'
 libtool: install: warning: relinking `libfftw3f_threads.la'
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpYtHZLL/usr/lib'
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpuOM4WN/usr/lib'
 This is not dpkg install-info anymore, but GNU install-info
 See the man page for ginstall-info for command line arguments
-libtool: install: warning: `../threads/libfftw3f_threads.la' has not been installed in `/home/nanosoldier/workdir/tmpYtHZLL/usr/lib'
-libtool: install: warning: `../libfftw3f.la' has not been installed in `/home/nanosoldier/workdir/tmpYtHZLL/usr/lib'
+libtool: install: warning: `../threads/libfftw3f_threads.la' has not been installed in `/home/nanosoldier/workdir/tmpuOM4WN/usr/lib'
+libtool: install: warning: `../libfftw3f.la' has not been installed in `/home/nanosoldier/workdir/tmpuOM4WN/usr/lib'
 CMake Warning:
   Manually-specified variables were not used by the project:
 
@@ -488,13 +489,13 @@ CMake Warning:
     LIB_INSTALL_DIR
 
 
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpYtHZLL/usr/lib'
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpuOM4WN/usr/lib'
 libtool: install: warning: relinking `libfftw3_threads.la'
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpYtHZLL/usr/lib'
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpuOM4WN/usr/lib'
 This is not dpkg install-info anymore, but GNU install-info
 See the man page for ginstall-info for command line arguments
-libtool: install: warning: `../threads/libfftw3_threads.la' has not been installed in `/home/nanosoldier/workdir/tmpYtHZLL/usr/lib'
-libtool: install: warning: `../libfftw3.la' has not been installed in `/home/nanosoldier/workdir/tmpYtHZLL/usr/lib'
+libtool: install: warning: `../threads/libfftw3_threads.la' has not been installed in `/home/nanosoldier/workdir/tmpuOM4WN/usr/lib'
+libtool: install: warning: `../libfftw3.la' has not been installed in `/home/nanosoldier/workdir/tmpuOM4WN/usr/lib'
 configure: WARNING: latex2man not found. Install latex2man. Disabling docs.
 ../kernel/x86_64/cgemv_n_4.c: In function ‘cgemv_n_PRESCOTT’:
 ../kernel/x86_64/cgemv_n_4.c:219:11: warning: unused variable ‘j’ [-Wunused-variable]
@@ -612,14 +613,6 @@ generic/zgemm3m_tcopy_8.c:69:18: warning: variable ‘a3’ set but not used [-W
 generic/zgemm3m_tcopy_8.c:69:9: warning: variable ‘a1’ set but not used [-Wunused-but-set-variable]
    FLOAT a1, a2,  a3,  a4,  a5,  a6,  a7,  a8;
          ^
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libunwind-1.1-julia2/src/ptrace/_UPT_get_dyn_info_list_addr.c: In function ‘get_list_addr’:
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libunwind-1.1-julia2/src/ptrace/_UPT_get_dyn_info_list_addr.c:78:3: warning: #warning Implement get_list_addr(), please. [-Wcpp]
- # warning Implement get_list_addr(), please.
-   ^
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libunwind-1.1-julia2/src/coredump/_UPT_get_dyn_info_list_addr.c: In function ‘get_list_addr’:
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libunwind-1.1-julia2/src/coredump/_UPT_get_dyn_info_list_addr.c:81:3: warning: #warning Implement get_list_addr(), please. [-Wcpp]
- # warning Implement get_list_addr(), please.
-   ^
 ../kernel/x86_64/../generic/zimatcopy_rn.c: In function ‘cimatcopy_k_rn_PRESCOTT’:
 ../kernel/x86_64/../generic/zimatcopy_rn.c:37:15: warning: unused variable ‘bptr’ [-Wunused-variable]
   FLOAT *aptr,*bptr;
@@ -632,7 +625,14 @@ generic/zgemm3m_tcopy_8.c:69:9: warning: variable ‘a1’ set but not used [-Wu
 ../kernel/x86_64/../generic/zimatcopy_rnc.c:37:15: warning: unused variable ‘bptr’ [-Wunused-variable]
   FLOAT *aptr,*bptr;
                ^
-libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpYtHZLL/usr/lib'
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libunwind-1.1-julia2/src/ptrace/_UPT_get_dyn_info_list_addr.c: In function ‘get_list_addr’:
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libunwind-1.1-julia2/src/ptrace/_UPT_get_dyn_info_list_addr.c:78:3: warning: #warning Implement get_list_addr(), please. [-Wcpp]
+ # warning Implement get_list_addr(), please.
+   ^
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libunwind-1.1-julia2/src/coredump/_UPT_get_dyn_info_list_addr.c: In function ‘get_list_addr’:
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libunwind-1.1-julia2/src/coredump/_UPT_get_dyn_info_list_addr.c:81:3: warning: #warning Implement get_list_addr(), please. [-Wcpp]
+ # warning Implement get_list_addr(), please.
+   ^
 generic/zgemm3m_ncopy_4.c: In function ‘zgemm3m_incopyr_PRESCOTT’:
 generic/zgemm3m_ncopy_4.c:68:37: warning: variable ‘a8’ set but not used [-Wunused-but-set-variable]
    FLOAT a1, a2, a3, a4, a5, a6, a7, a8;
@@ -685,7 +685,7 @@ generic/zgemm3m_tcopy_4.c:68:17: warning: variable ‘a3’ set but not used [-W
 generic/zgemm3m_tcopy_4.c:68:9: warning: variable ‘a1’ set but not used [-Wunused-but-set-variable]
    FLOAT a1, a2, a3, a4, a5, a6, a7, a8;
          ^
-configure: WARNING: zlib disabled
+libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpuOM4WN/usr/lib'
 ../kernel/x86_64/../generic/zimatcopy_rn.c: In function ‘zimatcopy_k_rn_PRESCOTT’:
 ../kernel/x86_64/../generic/zimatcopy_rn.c:37:15: warning: unused variable ‘bptr’ [-Wunused-variable]
   FLOAT *aptr,*bptr;
@@ -702,9 +702,10 @@ setparam_PRESCOTT.c:562:1: warning: initialization from incompatible pointer typ
  };
  ^
 setparam_PRESCOTT.c:562:1: warning: (near initialization for ‘gotoblas_PRESCOTT.zgeadd_k’) [enabled by default]
+configure: WARNING: zlib disabled
 This is not dpkg install-info anymore, but GNU install-info
 See the man page for ginstall-info for command line arguments
-libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpYtHZLL/usr/lib'
+libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpuOM4WN/usr/lib'
 ../kernel/x86_64/cgemv_n_4.c: In function ‘cgemv_n_CORE2’:
 ../kernel/x86_64/cgemv_n_4.c:219:11: warning: unused variable ‘j’ [-Wunused-variable]
   BLASLONG j;
@@ -925,8 +926,6 @@ setparam_CORE2.c:562:1: warning: initialization from incompatible pointer type [
  };
  ^
 setparam_CORE2.c:562:1: warning: (near initialization for ‘gotoblas_CORE2.zgeadd_k’) [enabled by default]
-libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpYtHZLL/usr/lib'
-libtool: warning: '../lib/libcurl.la' has not been installed in '/home/nanosoldier/workdir/tmpYtHZLL/usr/lib'
 ../kernel/x86_64/cgemv_n_4.c: In function ‘cgemv_n_PENRYN’:
 ../kernel/x86_64/cgemv_n_4.c:219:11: warning: unused variable ‘j’ [-Wunused-variable]
   BLASLONG j;
@@ -1541,6 +1540,8 @@ setparam_NEHALEM.c: In function ‘init_parameter’:
 setparam_NEHALEM.c:685:7: warning: unused variable ‘l2’ [-Wunused-variable]
    int l2 = get_l2_size();
        ^
+libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpuOM4WN/usr/lib'
+libtool: warning: '../lib/libcurl.la' has not been installed in '/home/nanosoldier/workdir/tmpuOM4WN/usr/lib'
 ../kernel/x86_64/cgemv_n_4.c: In function ‘cgemv_n_OPTERON’:
 ../kernel/x86_64/cgemv_n_4.c:219:11: warning: unused variable ‘j’ [-Wunused-variable]
   BLASLONG j;
@@ -1557,17 +1558,6 @@ setparam_NEHALEM.c:685:7: warning: unused variable ‘l2’ [-Wunused-variable]
 ../kernel/x86_64/cgemv_n_4.c:219:11: warning: unused variable ‘j’ [-Wunused-variable]
   BLASLONG j;
            ^
-CMake Warning:
-  Manually-specified variables were not used by the project:
-
-    CMAKE_CXX_COMPILER
-    CMAKE_CXX_COMPILER_ARG1
-    CMAKE_INSTALL_BINDIR
-    CMAKE_INSTALL_LIBDIR
-    CURL_INCLUDE_DIRS
-    CURL_LIBRARIES
-
-
 generic/zgemm3m_ncopy_8.c: In function ‘cgemm3m_incopyr_OPTERON’:
 generic/zgemm3m_ncopy_8.c:70:43: warning: variable ‘a16’ set but not used [-Wunused-but-set-variable]
    FLOAT a9, a10, a11, a12, a13, a14, a15, a16;
@@ -1668,6 +1658,17 @@ generic/zgemm3m_tcopy_8.c:69:18: warning: variable ‘a3’ set but not used [-W
 generic/zgemm3m_tcopy_8.c:69:9: warning: variable ‘a1’ set but not used [-Wunused-but-set-variable]
    FLOAT a1, a2,  a3,  a4,  a5,  a6,  a7,  a8;
          ^
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_COMPILER_ARG1
+    CMAKE_INSTALL_BINDIR
+    CMAKE_INSTALL_LIBDIR
+    CURL_INCLUDE_DIRS
+    CURL_LIBRARIES
+
+
 ../kernel/x86_64/../generic/zimatcopy_rn.c: In function ‘cimatcopy_k_rn_OPTERON’:
 ../kernel/x86_64/../generic/zimatcopy_rn.c:37:15: warning: unused variable ‘bptr’ [-Wunused-variable]
   FLOAT *aptr,*bptr;
@@ -1764,23 +1765,23 @@ setparam_OPTERON.c:562:1: warning: initialization from incompatible pointer type
  };
  ^
 setparam_OPTERON.c:562:1: warning: (near initialization for ‘gotoblas_OPTERON.zgeadd_k’) [enabled by default]
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/mbedtls_stream.c: In function ‘mbedtls_set_proxy’:
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/mbedtls_stream.c:366:5: warning: passing argument 2 of ‘git_stream_set_proxy’ from incompatible pointer type [enabled by default]
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/mbedtls_stream.c: In function ‘mbedtls_set_proxy’:
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/mbedtls_stream.c:366:5: warning: passing argument 2 of ‘git_stream_set_proxy’ from incompatible pointer type [enabled by default]
      return git_stream_set_proxy(st->io, proxy_url);
      ^
-In file included from /home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/mbedtls_stream.c:13:0:
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/stream.h:38:17: note: expected ‘const struct git_proxy_options *’ but argument is of type ‘const char *’
+In file included from /home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/mbedtls_stream.c:13:0:
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/stream.h:38:17: note: expected ‘const struct git_proxy_options *’ but argument is of type ‘const char *’
  GIT_INLINE(int) git_stream_set_proxy(git_stream *st, const git_proxy_options *proxy_opts)
                  ^
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/mbedtls_stream.c: In function ‘git_mbedtls_stream_new’:
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/mbedtls_stream.c:456:26: warning: assignment from incompatible pointer type [enabled by default]
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/mbedtls_stream.c: In function ‘git_mbedtls_stream_new’:
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/mbedtls_stream.c:456:26: warning: assignment from incompatible pointer type [enabled by default]
      st->parent.set_proxy = mbedtls_set_proxy;
                           ^
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/settings.c: In function ‘git_libgit2_opts’:
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/settings.c:199:5: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘int’ [-Wformat=]
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/settings.c: In function ‘git_libgit2_opts’:
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/settings.c:199:5: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘int’ [-Wformat=]
      giterr_set(GITERR_SSL, "SSL error: failed to load CA certificates : %s (%d)", ret, errbuf);
      ^
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/settings.c:199:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘char *’ [-Wformat=]
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/settings.c:199:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘char *’ [-Wformat=]
 ../kernel/x86_64/cgemv_n_4.c: In function ‘cgemv_n_OPTERON_SSE3’:
 ../kernel/x86_64/cgemv_n_4.c:219:11: warning: unused variable ‘j’ [-Wunused-variable]
   BLASLONG j;
@@ -2173,16 +2174,16 @@ generic/zgemm3m_tcopy_4.c:68:17: warning: variable ‘a3’ set but not used [-W
 generic/zgemm3m_tcopy_4.c:68:9: warning: variable ‘a1’ set but not used [-Wunused-but-set-variable]
    FLOAT a1, a2, a3, a4, a5, a6, a7, a8;
          ^
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/mbedtls_stream.c: In function ‘mbedtls_set_proxy’:
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/mbedtls_stream.c:366:5: warning: passing argument 2 of ‘git_stream_set_proxy’ from incompatible pointer type [enabled by default]
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/mbedtls_stream.c: In function ‘mbedtls_set_proxy’:
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/mbedtls_stream.c:366:5: warning: passing argument 2 of ‘git_stream_set_proxy’ from incompatible pointer type [enabled by default]
      return git_stream_set_proxy(st->io, proxy_url);
      ^
-In file included from /home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/mbedtls_stream.c:13:0:
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/stream.h:38:17: note: expected ‘const struct git_proxy_options *’ but argument is of type ‘const char *’
+In file included from /home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/mbedtls_stream.c:13:0:
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/stream.h:38:17: note: expected ‘const struct git_proxy_options *’ but argument is of type ‘const char *’
  GIT_INLINE(int) git_stream_set_proxy(git_stream *st, const git_proxy_options *proxy_opts)
                  ^
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/mbedtls_stream.c: In function ‘git_mbedtls_stream_new’:
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/mbedtls_stream.c:456:26: warning: assignment from incompatible pointer type [enabled by default]
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/mbedtls_stream.c: In function ‘git_mbedtls_stream_new’:
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/mbedtls_stream.c:456:26: warning: assignment from incompatible pointer type [enabled by default]
      st->parent.set_proxy = mbedtls_set_proxy;
                           ^
 ../kernel/x86_64/../generic/zimatcopy_rn.c: In function ‘zimatcopy_k_rn_BARCELONA’:
@@ -2205,11 +2206,11 @@ setparam_BARCELONA.c: In function ‘init_parameter’:
 setparam_BARCELONA.c:685:7: warning: unused variable ‘l2’ [-Wunused-variable]
    int l2 = get_l2_size();
        ^
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/settings.c: In function ‘git_libgit2_opts’:
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/settings.c:199:5: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘int’ [-Wformat=]
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/settings.c: In function ‘git_libgit2_opts’:
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/settings.c:199:5: warning: format ‘%s’ expects argument of type ‘char *’, but argument 3 has type ‘int’ [-Wformat=]
      giterr_set(GITERR_SSL, "SSL error: failed to load CA certificates : %s (%d)", ret, errbuf);
      ^
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/settings.c:199:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘char *’ [-Wformat=]
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/libgit2-75db289a041b1f1084768244e167b953ac7eeaa5/src/settings.c:199:5: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘char *’ [-Wformat=]
 ../kernel/x86_64/cgemv_n_4.c: In function ‘cgemv_n_BOBCAT’:
 ../kernel/x86_64/cgemv_n_4.c:219:11: warning: unused variable ‘j’ [-Wunused-variable]
   BLASLONG j;
@@ -10554,7 +10555,7 @@ lapacke_csyconv.c: In function ‘LAPACKE_csyconv’:
 lapacke_csyconv.c:55:1: warning: label ‘exit_level_0’ defined but not used [-Wunused-label]
  exit_level_0:
  ^
-/home/nanosoldier/workdir/tmpYtHZLL/deps/srccache/llvm-3.9.1/lib/LTO/ThinLTOCodeGenerator.cpp:331:1: warning: ‘std::unique_ptr<llvm::MemoryBuffer> {anonymous}::ProcessThinLTOModule(llvm::Module&, llvm::ModuleSummaryIndex&, llvm::StringMap<llvm::MemoryBufferRef>&, llvm::TargetMachine&, const ImportMapTy&, const ExportSetTy&, const llvm::DenseSet<long unsigned int>&, const GVSummaryMapTy&, const llvm::ThinLTOCodeGenerator::CachingOptions&, bool, llvm::StringRef, unsigned int)’ defined but not used [-Wunused-function]
+/home/nanosoldier/workdir/tmpuOM4WN/deps/srccache/llvm-3.9.1/lib/LTO/ThinLTOCodeGenerator.cpp:331:1: warning: ‘std::unique_ptr<llvm::MemoryBuffer> {anonymous}::ProcessThinLTOModule(llvm::Module&, llvm::ModuleSummaryIndex&, llvm::StringMap<llvm::MemoryBufferRef>&, llvm::TargetMachine&, const ImportMapTy&, const ExportSetTy&, const llvm::DenseSet<long unsigned int>&, const GVSummaryMapTy&, const llvm::ThinLTOCodeGenerator::CachingOptions&, bool, llvm::StringRef, unsigned int)’ defined but not used [-Wunused-function]
  ProcessThinLTOModule(Module &TheModule, ModuleSummaryIndex &Index,
  ^
 lapacke_dsyconv.c: In function ‘LAPACKE_dsyconv’:
@@ -17300,72 +17301,72 @@ ar: creating libcolamd.a
 ar: creating libcholmod.a
 ar: creating libklu.a
 ar: creating libldl.a
-ar: creating libumfpack.a
-ar: creating libcsparse.a
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpYtHZLL/usr/lib'
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpuOM4WN/usr/lib'
 Creating llvm-ranlib
 Creating llvm-lib
 Creating libLLVM-3.9.1.so
 Creating libLLVM.so
+ar: creating libumfpack.a
+ar: creating libcsparse.a
 ar: creating libcxsparse.a
 ar: creating librbio.a
 ar: creating libspqr.a
-/home/nanosoldier/workdir/tmpYtHZLL/src/codegen.cpp: In function ‘std::unique_ptr<llvm::Module> emit_function(jl_method_instance_t*, jl_code_info_t*, size_t, jl_llvm_functions_t*, const jl_cgparams_t*)’:
-/home/nanosoldier/workdir/tmpYtHZLL/src/codegen.cpp:4767:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+/home/nanosoldier/workdir/tmpuOM4WN/src/codegen.cpp: In function ‘std::unique_ptr<llvm::Module> emit_function(jl_method_instance_t*, jl_code_info_t*, size_t, jl_llvm_functions_t*, const jl_cgparams_t*)’:
+/home/nanosoldier/workdir/tmpuOM4WN/src/codegen.cpp:4767:26: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
              if (i != ctx.vaSlot && isbits_spec(jt, false))
                           ^
-/home/nanosoldier/workdir/tmpYtHZLL/src/codegen.cpp: In function ‘jl_value_t* static_eval(jl_value_t*, jl_codectx_t*, int, int)’:
-/home/nanosoldier/workdir/tmpYtHZLL/src/codegen.cpp:1801:28: warning: variable ‘n’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmpuOM4WN/src/codegen.cpp: In function ‘jl_value_t* static_eval(jl_value_t*, jl_codectx_t*, int, int)’:
+/home/nanosoldier/workdir/tmpuOM4WN/src/codegen.cpp:1801:28: warning: variable ‘n’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
                      size_t n = jl_array_dim0(e->args)-1;
                             ^
-/home/nanosoldier/workdir/tmpYtHZLL/src/codegen.cpp: In function ‘jl_llvm_functions_t jl_compile_linfo(jl_method_instance_t**, jl_code_info_t*, size_t, const jl_cgparams_t*)’:
-/home/nanosoldier/workdir/tmpYtHZLL/src/codegen.cpp:831:27: warning: variable ‘li’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmpuOM4WN/src/codegen.cpp: In function ‘jl_llvm_functions_t jl_compile_linfo(jl_method_instance_t**, jl_code_info_t*, size_t, const jl_cgparams_t*)’:
+/home/nanosoldier/workdir/tmpuOM4WN/src/codegen.cpp:831:27: warning: variable ‘li’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
      jl_method_instance_t *li = *pli;
                            ^
-/home/nanosoldier/workdir/tmpYtHZLL/src/codegen.cpp: In function ‘llvm::Function* jl_cfunction_object(jl_function_t*, jl_value_t*, jl_tupletype_t*)’:
-/home/nanosoldier/workdir/tmpYtHZLL/src/codegen.cpp:4139:25: warning: variable ‘sf’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmpuOM4WN/src/codegen.cpp: In function ‘llvm::Function* jl_cfunction_object(jl_function_t*, jl_value_t*, jl_tupletype_t*)’:
+/home/nanosoldier/workdir/tmpuOM4WN/src/codegen.cpp:4139:25: warning: variable ‘sf’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
      jl_typemap_entry_t *sf = NULL;
                          ^
-/home/nanosoldier/workdir/tmpYtHZLL/src/codegen.cpp:3957:12: warning: variable ‘r’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmpuOM4WN/src/codegen.cpp:3957:12: warning: variable ‘r’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
      Value *r;
             ^
-/home/nanosoldier/workdir/tmpYtHZLL/src/codegen.cpp:3914:21: warning: variable ‘b_generic’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmpuOM4WN/src/codegen.cpp:3914:21: warning: variable ‘b_generic’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
          BasicBlock *b_generic, *b_jlcall, *b_after;
                      ^
-/home/nanosoldier/workdir/tmpYtHZLL/src/codegen.cpp:3914:33: warning: variable ‘b_jlcall’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmpuOM4WN/src/codegen.cpp:3914:33: warning: variable ‘b_jlcall’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
          BasicBlock *b_generic, *b_jlcall, *b_after;
                                  ^
-/home/nanosoldier/workdir/tmpYtHZLL/src/codegen.cpp:3914:44: warning: variable ‘b_after’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmpuOM4WN/src/codegen.cpp:3914:44: warning: variable ‘b_after’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
          BasicBlock *b_generic, *b_jlcall, *b_after;
                                             ^
-/home/nanosoldier/workdir/tmpYtHZLL/src/codegen.cpp:3915:16: warning: variable ‘ret_jlcall’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmpuOM4WN/src/codegen.cpp:3915:16: warning: variable ‘ret_jlcall’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
          Value *ret_jlcall;
                 ^
-/home/nanosoldier/workdir/tmpYtHZLL/src/codegen.cpp:4088:18: warning: argument ‘declrt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmpuOM4WN/src/codegen.cpp:4088:18: warning: argument ‘declrt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
  static Function *jl_cfunction_object(jl_function_t *ff, jl_value_t *declrt, jl_tupletype_t *argt)
                   ^
-In file included from /home/nanosoldier/workdir/tmpYtHZLL/src/intrinsics.cpp:7:0,
-                 from /home/nanosoldier/workdir/tmpYtHZLL/src/codegen.cpp:1855:
-/home/nanosoldier/workdir/tmpYtHZLL/src/ccall.cpp: In function ‘jl_cgval_t emit_ccall(jl_value_t**, size_t, jl_codectx_t*)’:
-/home/nanosoldier/workdir/tmpYtHZLL/src/ccall.cpp:1460:21: warning: variable ‘cc’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+In file included from /home/nanosoldier/workdir/tmpuOM4WN/src/intrinsics.cpp:7:0,
+                 from /home/nanosoldier/workdir/tmpuOM4WN/src/codegen.cpp:1855:
+/home/nanosoldier/workdir/tmpuOM4WN/src/ccall.cpp: In function ‘jl_cgval_t emit_ccall(jl_value_t**, size_t, jl_codectx_t*)’:
+/home/nanosoldier/workdir/tmpuOM4WN/src/ccall.cpp:1460:21: warning: variable ‘cc’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
      CallingConv::ID cc = CallingConv::C;
                      ^
-/home/nanosoldier/workdir/tmpYtHZLL/src/ccall.cpp:1461:10: warning: variable ‘llvmcall’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmpuOM4WN/src/ccall.cpp:1461:10: warning: variable ‘llvmcall’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
      bool llvmcall = false;
           ^
-/home/nanosoldier/workdir/tmpYtHZLL/src/ccall.cpp:1525:10: warning: variable ‘isVa’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmpuOM4WN/src/ccall.cpp:1525:10: warning: variable ‘isVa’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
      bool isVa;
           ^
-/home/nanosoldier/workdir/tmpYtHZLL/src/ccall.cpp:1526:12: warning: variable ‘nargt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmpuOM4WN/src/ccall.cpp:1526:12: warning: variable ‘nargt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
      size_t nargt;
             ^
-/home/nanosoldier/workdir/tmpYtHZLL/src/ccall.cpp:1529:10: warning: variable ‘static_rt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmpuOM4WN/src/ccall.cpp:1529:10: warning: variable ‘static_rt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
      bool static_rt;
           ^
-/home/nanosoldier/workdir/tmpYtHZLL/src/ccall.cpp:1496:32: warning: variable ‘ua’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmpuOM4WN/src/ccall.cpp:1496:32: warning: variable ‘ua’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
                  jl_unionall_t *ua = unionall;
                                 ^
-/home/nanosoldier/workdir/tmpYtHZLL/src/ccall.cpp:1451:19: warning: argument ‘nargs’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmpuOM4WN/src/ccall.cpp:1451:19: warning: argument ‘nargs’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
  static jl_cgval_t emit_ccall(jl_value_t **args, size_t nargs, jl_codectx_t *ctx)
                    ^
 WARNING: Method definition (::Type{T})(Any) in module Inference at coreimg.jl:14 overwritten in module Base at sysimg.jl:24.

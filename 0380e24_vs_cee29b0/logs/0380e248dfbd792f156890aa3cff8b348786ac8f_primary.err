@@ -553,12 +553,12 @@ Stacktrace:
  [19] _start() at ./client.jl:371
 while loading /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/array/ArrayBenchmarks.jl, in expression starting on line 47
 WARNING: Base.take is deprecated.
-  likely near /home/nanosoldier/workdir/tmpYtHZLL/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpuOM4WN/benchscript.jl:22
 WARNING: Base.take is deprecated.
-  likely near /home/nanosoldier/workdir/tmpYtHZLL/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpuOM4WN/benchscript.jl:22
 WARNING: Base.take is deprecated.
-  likely near /home/nanosoldier/workdir/tmpYtHZLL/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpuOM4WN/benchscript.jl:22
 WARNING: Base.take is deprecated.
-  likely near /home/nanosoldier/workdir/tmpYtHZLL/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpuOM4WN/benchscript.jl:22
 WARNING: Base.take is deprecated.
-  likely near /home/nanosoldier/workdir/tmpYtHZLL/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpuOM4WN/benchscript.jl:22
