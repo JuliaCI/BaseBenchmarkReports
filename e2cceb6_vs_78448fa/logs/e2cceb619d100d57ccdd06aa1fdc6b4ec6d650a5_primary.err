@@ -1,14 +1,3 @@
-WARNING: Array{T}(::Type{T}, m::Int) is deprecated, use Array{T}(m) instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:62
- [2] Array(::Type{UInt64}, ::Int64) at ./deprecated.jl:50
- [3] include_from_node1(::String) at ./loading.jl:539
- [4] include(::String) at ./sysimg.jl:14
- [5] anonymous at ./<missing>:2
- [6] eval(::Module, ::Any) at ./boot.jl:236
- [7] process_options(::Base.JLOptions) at ./client.jl:281
- [8] _start() at ./client.jl:366
-while loading /home/nanosoldier/.julia/v0.6/Blosc/src/Blosc.jl, in expression starting on line 101
 
 WARNING: deprecated syntax "Expr(:ccall)".
 Use "Expr(:call, :ccall)" instead.
@@ -427,12 +416,12 @@ Stacktrace:
  [19] _start() at ./client.jl:366
 while loading /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/array/ArrayBenchmarks.jl, in expression starting on line 47
 WARNING: Base.take is deprecated.
-  likely near /home/nanosoldier/workdir/tmp5GcaHI/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpIpx0gB/benchscript.jl:22
 WARNING: Base.take is deprecated.
-  likely near /home/nanosoldier/workdir/tmp5GcaHI/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpIpx0gB/benchscript.jl:22
 WARNING: Base.take is deprecated.
-  likely near /home/nanosoldier/workdir/tmp5GcaHI/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpIpx0gB/benchscript.jl:22
 WARNING: Base.take is deprecated.
-  likely near /home/nanosoldier/workdir/tmp5GcaHI/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpIpx0gB/benchscript.jl:22
 WARNING: Base.take is deprecated.
-  likely near /home/nanosoldier/workdir/tmp5GcaHI/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmpIpx0gB/benchscript.jl:22
