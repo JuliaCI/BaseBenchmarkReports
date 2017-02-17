@@ -1,0 +1,590 @@
+
+WARNING: deprecated syntax "typealias BitsKindOrString Union{HDF5BitsKind,String}" at /home/nanosoldier/.julia/v0.6/JLD/src/JLD.jl:24.
+Use "const BitsKindOrString = Union{HDF5BitsKind,String}" instead.
+
+WARNING: deprecated syntax "typealias C_time_t Int" at /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl:53.
+Use "const C_time_t = Int" instead.
+
+WARNING: deprecated syntax "typealias Hid Int64" at /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl:57.
+Use "const Hid = Int64" instead.
+
+WARNING: deprecated syntax "typealias Hid Cint" at /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl:59.
+Use "const Hid = Cint" instead.
+
+WARNING: deprecated syntax "typealias Herr Cint" at /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl:61.
+Use "const Herr = Cint" instead.
+
+WARNING: deprecated syntax "typealias Hsize UInt64" at /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl:62.
+Use "const Hsize = UInt64" instead.
+
+WARNING: deprecated syntax "typealias Hssize Int64" at /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl:63.
+Use "const Hssize = Int64" instead.
+
+WARNING: deprecated syntax "typealias Htri Cint" at /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl:64.
+Use "const Htri = Cint" instead.
+
+WARNING: deprecated syntax "typealias Haddr UInt64" at /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl:65.
+Use "const Haddr = UInt64" instead.
+
+WARNING: deprecated syntax "typealias HDF5BitsKind Union{Int8,UInt8,Int16,UInt16,Int32,UInt32,Int64,UInt64,Float32,Float64}" at /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl:243.
+Use "const HDF5BitsKind = Union{Int8,UInt8,Int16,UInt16,Int32,UInt32,Int64,UInt64,Float32,Float64}" instead.
+
+WARNING: deprecated syntax "typealias BitsKindOrString Union{HDF5BitsKind,String}" at /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl:244.
+Use "const BitsKindOrString = Union{HDF5BitsKind,String}" instead.
+
+WARNING: deprecated syntax "abstract CharType<:AbstractString" at /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl:264.
+Use "abstract type CharType<:AbstractString end" instead.
+
+WARNING: deprecated syntax "typealias HDF5Object Union{HDF5Group,HDF5Dataset,HDF5Datatype}" at /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl:370.
+Use "const HDF5Object = Union{HDF5Group,HDF5Dataset,HDF5Datatype}" instead.
+
+WARNING: deprecated syntax "typealias DatasetOrAttribute Union{HDF5Dataset,HDF5Attribute}" at /home/nanosoldier/.julia/v0.6/HDF5/src/plain.jl:1208.
+Use "const DatasetOrAttribute = Union{HDF5Dataset,HDF5Attribute}" instead.
+
+WARNING: deprecated syntax "abstract DataFile" at /home/nanosoldier/.julia/v0.6/HDF5/src/datafile.jl:13.
+Use "abstract type DataFile end" instead.
+
+WARNING: deprecated syntax "typealias H5T_class_t Cint" at /home/nanosoldier/.julia/v0.6/HDF5/src/blosc_filter.jl:6.
+Use "const H5T_class_t = Cint" instead.
+
+WARNING: deprecated syntax "typealias H5Z_filter_t Cint" at /home/nanosoldier/.julia/v0.6/HDF5/src/blosc_filter.jl:12.
+Use "const H5Z_filter_t = Cint" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "Expr(:ccall)".
+Use "Expr(:call, :ccall)" instead.
+
+WARNING: deprecated syntax "abstract OS" at /home/nanosoldier/.julia/v0.6/FileIO/src/query.jl:3.
+Use "abstract type OS end" instead.
+
+WARNING: deprecated syntax "abstract Unix<:OS" at /home/nanosoldier/.julia/v0.6/FileIO/src/query.jl:4.
+Use "abstract type Unix<:OS end" instead.
+
+WARNING: deprecated syntax "abstract Formatted{F<:DataFormat}" at /home/nanosoldier/.julia/v0.6/FileIO/src/query.jl:218.
+Use "abstract type Formatted{F<:DataFormat} end" instead.
+
+WARNING: deprecated syntax "typealias TypesType SimpleVector" at /home/nanosoldier/.julia/v0.6/JLD/src/jld_types.jl:18.
+Use "const TypesType = SimpleVector" instead.
+
+WARNING: deprecated syntax "typealias TupleType{T<:Tuple} Type{T}" at /home/nanosoldier/.julia/v0.6/JLD/src/jld_types.jl:19.
+Use "TupleType{T<:Tuple} = Type{T}" instead.
+
+WARNING: deprecated syntax "typealias BitsKindTypes Union{$(map(x->begin
+    # /home/nanosoldier/.julia/v0.6/JLD/src/jld_types.jl, line 129
+    Type{x}
+end,uniontypes(HDF5.HDF5BitsKind))...,)}" at /home/nanosoldier/.julia/v0.6/JLD/src/jld_types.jl:130.
+Use "const BitsKindTypes = Union{$(map(x->begin
+    # /home/nanosoldier/.julia/v0.6/JLD/src/jld_types.jl, line 129
+    Type{x}
+end,uniontypes(HDF5.HDF5BitsKind))...,)}" instead.
+
+WARNING: deprecated syntax "typealias VoidType Type{(macrocall @compat Void)}" at /home/nanosoldier/.julia/v0.6/JLD/src/jld_types.jl:150.
+Use "const VoidType = Type{(macrocall @compat Void)}" instead.
+
+WARNING: deprecated syntax "bitstype $sz $name" at /home/nanosoldier/.julia/v0.6/JLD/src/jld_types.jl:771.
+Use "primitive type $name $sz end" instead.
+
+WARNING: deprecated syntax "typealias ByteString Union{ASCIIString,UTF8String}" at /home/nanosoldier/.julia/v0.6/LegacyStrings/src/LegacyStrings.jl:76.
+Use "const ByteString = Union{ASCIIString,UTF8String}" instead.
+WARNING: could not import Base.lastidx into LegacyStrings
+
+WARNING: deprecated syntax "typealias AbstractString1632{Tel<:Union{UInt16,UInt32}} Union{AbstractVector{Tel},AbstractString}" at /home/nanosoldier/.julia/v0.6/LegacyStrings/src/support.jl:177.
+Use "AbstractString1632{Tel<:Union{UInt16,UInt32}} = Union{AbstractVector{Tel},AbstractString}" instead.
+
+WARNING: deprecated syntax "typealias IMDBGraph Dict{UTF8String,IMDBNode}" at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/problem/IMDBGraphs.jl:15.
+Use "const IMDBGraph = Dict{UTF8String,IMDBNode}" instead.
+
+WARNING: deprecated syntax "abstract Scene" at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/problem/Raytracer.jl:41.
+Use "abstract type Scene end" instead.
+
+WARNING: deprecated syntax "abstract MyArray{T,N}<:AbstractArray{T,N}" at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/array/sumindex.jl:199.
+Use "abstract type MyArray{T,N}<:AbstractArray{T,N} end" instead.
+
+WARNING: deprecated syntax "abstract BTree" at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/shootout/binary_trees.jl:8.
+Use "abstract type BTree end" instead.
+WARNING: filter(flt, itr) is deprecated, use Iterators.filter(flt, itr) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ [2] filter(::Function, ::NTuple{7,UnionAll}) at ./deprecated.jl:51
+ [3] include_from_node1(::String) at ./loading.jl:539
+ [4] include(::String) at ./sysimg.jl:14
+ [5] #load!#2(::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:39
+ [6] (::BaseBenchmarks.#kw##load!)(::Array{Any,1}, ::BaseBenchmarks.#load!, ::BenchmarkTools.BenchmarkGroup, ::String) at ./<missing>:0
+ [7] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:53
+ [8] #loadall!#5(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ [9] loadall!() at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ [10] include_from_node1(::String) at ./loading.jl:539
+ [11] include(::String) at ./sysimg.jl:14
+ [12] process_options(::Base.JLOptions) at ./client.jl:305
+ [13] _start() at ./client.jl:371
+while loading /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/linalg/LinAlgBenchmarks.jl, in expression starting on line 16
+WARNING: Base.linearindexing is deprecated, use Base.IndexStyle instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/array/sumindex.jl:263
+WARNING: Partial linear indexing is deprecated. Use `reshape(A, Val{2})` to make the dimensionality of the array match the number of indices.
+Stacktrace:
+ [1] partial_linear_indexing_warning_lookup(::Int64) at ./deprecated.jl:1048
+ [2] checkbounds_linear_indices at ./abstractarray.jl:402 [inlined]
+ [3] checkbounds_indices at ./abstractarray.jl:395 [inlined]
+ [4] checkbounds_indices at ./abstractarray.jl:381 [inlined]
+ [5] checkbounds at ./abstractarray.jl:334 [inlined]
+ [6] checkbounds(::SubArray{Int32,3,Array{Int32,3},Tuple{Base.Slice{Base.OneTo{Int64}},Base.Slice{Base.OneTo{Int64}},Base.Slice{Base.OneTo{Int64}}},true}, ::Base.Slice{Base.OneTo{Int64}}, ::UnitRange{Int64}) at ./abstractarray.jl:354
+ [7] view(::SubArray{Int32,3,Array{Int32,3},Tuple{Base.Slice{Base.OneTo{Int64}},Base.Slice{Base.OneTo{Int64}},Base.Slice{Base.OneTo{Int64}}},true}, ::Colon, ::Vararg{Any,N} where N) at ./subarray.jl:113
+ [8] makearrays(::Type{Int32}, ::Int64, ::Int64) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/array/sumindex.jl:298
+ [9] include_from_node1(::String) at ./loading.jl:539
+ [10] include(::String) at ./sysimg.jl:14
+ [11] #load!#2(::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:39
+ [12] (::BaseBenchmarks.#kw##load!)(::Array{Any,1}, ::BaseBenchmarks.#load!, ::BenchmarkTools.BenchmarkGroup, ::String) at ./<missing>:0
+ [13] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:53
+ [14] #loadall!#5(::Array{Any,1}, ::Function) at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ [15] loadall!() at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ [16] include_from_node1(::String) at ./loading.jl:539
+ [17] include(::String) at ./sysimg.jl:14
+ [18] process_options(::Base.JLOptions) at ./client.jl:305
+ [19] _start() at ./client.jl:371
+while loading /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/array/ArrayBenchmarks.jl, in expression starting on line 47
+WARNING: Base.linearindexing is deprecated, use Base.IndexStyle instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:56
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.take is deprecated.
+  likely near /home/nanosoldier/workdir/tmpdhvguo/benchscript.jl:22
+WARNING: Base.take is deprecated.
+  likely near /home/nanosoldier/workdir/tmpdhvguo/benchscript.jl:22
+WARNING: Base.take is deprecated.
+  likely near /home/nanosoldier/workdir/tmpdhvguo/benchscript.jl:22
+WARNING: Base.take is deprecated.
+  likely near /home/nanosoldier/workdir/tmpdhvguo/benchscript.jl:22
+WARNING: Base.take is deprecated.
+  likely near /home/nanosoldier/workdir/tmpdhvguo/benchscript.jl:22
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/workdir/tmpdhvguo/benchscript.jl:22
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/workdir/tmpdhvguo/benchscript.jl:22
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/workdir/tmpdhvguo/benchscript.jl:22
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/workdir/tmpdhvguo/benchscript.jl:22
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/workdir/tmpdhvguo/benchscript.jl:22
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/workdir/tmpdhvguo/benchscript.jl:22
