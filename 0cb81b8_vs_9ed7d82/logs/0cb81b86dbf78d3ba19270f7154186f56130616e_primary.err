@@ -566,25 +566,3 @@ WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
   likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
 WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
   likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
-WARNING: Base.take is deprecated.
-  likely near /home/nanosoldier/workdir/tmpUmzo3n/benchscript.jl:22
-WARNING: Base.take is deprecated.
-  likely near /home/nanosoldier/workdir/tmpUmzo3n/benchscript.jl:22
-WARNING: Base.take is deprecated.
-  likely near /home/nanosoldier/workdir/tmpUmzo3n/benchscript.jl:22
-WARNING: Base.take is deprecated.
-  likely near /home/nanosoldier/workdir/tmpUmzo3n/benchscript.jl:22
-WARNING: Base.take is deprecated.
-  likely near /home/nanosoldier/workdir/tmpUmzo3n/benchscript.jl:22
-WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
-  likely near /home/nanosoldier/workdir/tmpUmzo3n/benchscript.jl:22
-WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
-  likely near /home/nanosoldier/workdir/tmpUmzo3n/benchscript.jl:22
-WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
-  likely near /home/nanosoldier/workdir/tmpUmzo3n/benchscript.jl:22
-WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
-  likely near /home/nanosoldier/workdir/tmpUmzo3n/benchscript.jl:22
-WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
-  likely near /home/nanosoldier/workdir/tmpUmzo3n/benchscript.jl:22
-WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
-  likely near /home/nanosoldier/workdir/tmpUmzo3n/benchscript.jl:22
