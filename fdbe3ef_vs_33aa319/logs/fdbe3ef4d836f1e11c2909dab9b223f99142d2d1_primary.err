@@ -1,0 +1,136 @@
+
+WARNING: deprecated syntax "typealias BitsKindOrString Union{HDF5BitsKind,String}" at /home/nanosoldier/.julia/v0.6/JLD/src/JLD.jl:24.
+Use "const BitsKindOrString = Union{HDF5BitsKind,String}" instead.
+
+WARNING: deprecated syntax "typealias TypesType SimpleVector" at /home/nanosoldier/.julia/v0.6/JLD/src/jld_types.jl:18.
+Use "const TypesType = SimpleVector" instead.
+
+WARNING: deprecated syntax "typealias TupleType{T<:Tuple} Type{T}" at /home/nanosoldier/.julia/v0.6/JLD/src/jld_types.jl:19.
+Use "TupleType{T<:Tuple} = Type{T}" instead.
+
+WARNING: deprecated syntax "typealias BitsKindTypes Union{$(map(x->begin
+    # /home/nanosoldier/.julia/v0.6/JLD/src/jld_types.jl, line 129
+    Type{x}
+end,uniontypes(HDF5.HDF5BitsKind))...,)}" at /home/nanosoldier/.julia/v0.6/JLD/src/jld_types.jl:130.
+Use "const BitsKindTypes = Union{$(map(x->begin
+    # /home/nanosoldier/.julia/v0.6/JLD/src/jld_types.jl, line 129
+    Type{x}
+end,uniontypes(HDF5.HDF5BitsKind))...,)}" instead.
+
+WARNING: deprecated syntax "typealias VoidType Type{@compat Void}" at /home/nanosoldier/.julia/v0.6/JLD/src/jld_types.jl:150.
+Use "const VoidType = Type{@compat Void}" instead.
+
+WARNING: deprecated syntax "bitstype $sz $name" at /home/nanosoldier/.julia/v0.6/JLD/src/jld_types.jl:771.
+Use "primitive type $name $sz end" instead.
+
+WARNING: deprecated syntax "typealias IMDBGraph Dict{UTF8String,IMDBNode}" at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/problem/IMDBGraphs.jl:15.
+Use "const IMDBGraph = Dict{UTF8String,IMDBNode}" instead.
+
+WARNING: deprecated syntax "abstract Scene" at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/problem/Raytracer.jl:41.
+Use "abstract type Scene end" instead.
+
+WARNING: deprecated syntax "abstract MyArray{T,N}<:AbstractArray{T,N}" at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/array/sumindex.jl:199.
+Use "abstract type MyArray{T,N}<:AbstractArray{T,N} end" instead.
+
+WARNING: deprecated syntax "abstract BTree" at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/shootout/binary_trees.jl:8.
+Use "abstract type BTree end" instead.
+
+signal (11): Segmentation fault
+while loading /home/nanosoldier/workdir/tmpfpNWbp/benchscript.jl, in expression starting on line 25
+gc_scan_obj_ at /home/nanosoldier/workdir/tmpfpNWbp/src/gc.c:1548
+gc_push_root at /home/nanosoldier/workdir/tmpfpNWbp/src/gc.c:1267 [inlined]
+gc_mark_stack at /home/nanosoldier/workdir/tmpfpNWbp/src/gc.c:1361
+gc_scan_obj_ at /home/nanosoldier/workdir/tmpfpNWbp/src/gc.c:1534
+gc_scan_obj at /home/nanosoldier/workdir/tmpfpNWbp/src/gc.c:1573 [inlined]
+jl_gc_mark_remset at /home/nanosoldier/workdir/tmpfpNWbp/src/gc.c:1816 [inlined]
+_jl_gc_collect at /home/nanosoldier/workdir/tmpfpNWbp/src/gc.c:1858
+jl_gc_collect at /home/nanosoldier/workdir/tmpfpNWbp/src/gc.c:2026
+jl_gc_pool_alloc at /home/nanosoldier/workdir/tmpfpNWbp/src/gc.c:910
+jl_gc_alloc_ at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:242 [inlined]
+jl_box_int64 at /home/nanosoldier/workdir/tmpfpNWbp/src/datatype.c:535
+make at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/shootout/binary_trees.jl:23
+make at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/shootout/binary_trees.jl:23
+make at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/shootout/binary_trees.jl:23
+make at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/shootout/binary_trees.jl:23
+make at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/shootout/binary_trees.jl:23
+make at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/shootout/binary_trees.jl:23
+make at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/shootout/binary_trees.jl:23
+make at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/shootout/binary_trees.jl:23
+make at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/shootout/binary_trees.jl:23
+loop_depths at /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/shootout/binary_trees.jl:35
+##core#7403 at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:283
+##sample#7404 at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:289
+#_run#1 at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:323
+unknown function (ip: 0x7ffdc9feaadd)
+jl_call_fptr_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:326 [inlined]
+jl_call_method_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:345 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpfpNWbp/src/gf.c:1913
+#_run at ./<missing>:0
+anonymous at ./<missing> (unknown line)
+jl_call_fptr_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:326 [inlined]
+jl_call_method_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:345 [inlined]
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpfpNWbp/src/toplevel.c:589 [inlined]
+jl_toplevel_eval at /home/nanosoldier/workdir/tmpfpNWbp/src/toplevel.c:600
+jl_toplevel_eval_in at /home/nanosoldier/workdir/tmpfpNWbp/src/builtins.c:484
+#run_result#16 at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:33
+unknown function (ip: 0x7ffdc9fe9ac2)
+jl_call_fptr_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:326 [inlined]
+jl_call_method_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:345 [inlined]
+jl_invoke at /home/nanosoldier/workdir/tmpfpNWbp/src/gf.c:41
+#run_result at ./<missing>:0
+#run#17 at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:36
+unknown function (ip: 0x7ffdc9fe9682)
+jl_call_fptr_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:326 [inlined]
+jl_call_method_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:345 [inlined]
+jl_invoke at /home/nanosoldier/workdir/tmpfpNWbp/src/gf.c:41
+#run at ./<missing>:0
+#run at ./<missing>:0
+unknown function (ip: 0x7ffdc9fe8ff6)
+jl_call_fptr_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:326 [inlined]
+jl_call_method_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:345 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpfpNWbp/src/gf.c:1913
+#run#18 at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:45
+jl_call_fptr_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:326 [inlined]
+jl_call_method_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:345 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpfpNWbp/src/gf.c:1913
+#run at ./<missing>:0
+jl_call_fptr_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:326 [inlined]
+jl_call_method_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:345 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpfpNWbp/src/gf.c:1913
+#run#18 at /home/nanosoldier/.julia/v0.6/BenchmarkTools/src/execution.jl:45
+jl_call_fptr_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:326 [inlined]
+jl_call_method_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:345 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpfpNWbp/src/gf.c:1913
+#run at ./<missing>:0
+jl_call_fptr_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:326 [inlined]
+jl_call_method_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:345 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpfpNWbp/src/gf.c:1913
+do_call at /home/nanosoldier/workdir/tmpfpNWbp/src/interpreter.c:75
+eval at /home/nanosoldier/workdir/tmpfpNWbp/src/interpreter.c:242
+eval_body at /home/nanosoldier/workdir/tmpfpNWbp/src/interpreter.c:546
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpfpNWbp/src/interpreter.c:695
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpfpNWbp/src/toplevel.c:592
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpfpNWbp/src/ast.c:873
+jl_load at /home/nanosoldier/workdir/tmpfpNWbp/src/toplevel.c:616
+include_from_node1 at ./loading.jl:539
+unknown function (ip: 0x7ffff1b513cb)
+jl_call_fptr_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:326 [inlined]
+jl_call_method_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:345 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpfpNWbp/src/gf.c:1913
+include at ./sysimg.jl:14
+unknown function (ip: 0x7ffff19e1b0b)
+jl_call_fptr_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:326 [inlined]
+jl_call_method_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:345 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpfpNWbp/src/gf.c:1913
+process_options at ./client.jl:305
+_start at ./client.jl:371
+unknown function (ip: 0x7ffff1b5c218)
+jl_call_fptr_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:326 [inlined]
+jl_call_method_internal at /home/nanosoldier/workdir/tmpfpNWbp/src/julia_internal.h:345 [inlined]
+jl_apply_generic at /home/nanosoldier/workdir/tmpfpNWbp/src/gf.c:1913
+jl_apply at /home/nanosoldier/workdir/tmpfpNWbp/ui/../src/julia.h:1420 [inlined]
+true_main at /home/nanosoldier/workdir/tmpfpNWbp/ui/repl.c:127
+main at /home/nanosoldier/workdir/tmpfpNWbp/ui/repl.c:264
+__libc_start_main at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+unknown function (ip: 0x4015fa)
+Allocations: 9267888290 (Pool: 9225893527; Big: 41994763); GC: 49513
