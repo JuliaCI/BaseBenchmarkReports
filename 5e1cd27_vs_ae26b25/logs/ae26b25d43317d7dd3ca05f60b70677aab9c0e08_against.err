@@ -1,0 +1,19 @@
+WARNING: Base.String is deprecated, use AbstractString instead.
+  likely near /home/nanosoldier/.julia/v0.4/BaseBenchmarks/src/array/generate_kernel.jl:88
+WARNING: Base.String is deprecated, use AbstractString instead.
+  likely near /home/nanosoldier/.julia/v0.4/BaseBenchmarks/src/array/generate_kernel.jl:277
+WARNING: type Core.Tuple{Core.String,Core.String,Core.Int64} not present in workspace; reconstructing
+WARNING: type Core.Tuple{Core.String,Core.String,Core.String,Core.Int64} not present in workspace; reconstructing
+WARNING: type Core.Tuple{Core.String,Core.String,Core.String,Core.String,Core.Int64} not present in workspace; reconstructing
+WARNING: type Core.Tuple{Core.String,Core.DataType,Core.Int64} not present in workspace; reconstructing
+WARNING: type Core.Tuple{Core.String,Core.Int64} not present in workspace; reconstructing
+WARNING: type Core.Tuple{Core.String,Core.Tuple{Core.Int64,Core.Int64},Core.Tuple{Core.Int64,Core.Int64}} not present in workspace; reconstructing
+WARNING: type Core.Tuple{Core.String,Core.Tuple{Core.Int64,Core.Int64},Core.Tuple{Core.Int64}} not present in workspace; reconstructing
+WARNING: type Core.Tuple{Core.String,Core.String,Core.Int64,Core.DataType} not present in workspace; reconstructing
+WARNING: type Core.Tuple{Core.String,Core.Tuple{Core.Int64,Core.Int64}} not present in workspace; reconstructing
+WARNING: type Core.Tuple{Core.String,Core.Tuple{Core.Int64}} not present in workspace; reconstructing
+WARNING: type Core.Tuple{Core.String,Core.String} not present in workspace; reconstructing
+WARNING: type Core.Tuple{Core.String,Core.String,Core.String} not present in workspace; reconstructing
+WARNING: type Core.Tuple{Core.String,Core.Tuple{Core.Int64,Core.Int64},Core.Int64} not present in workspace; reconstructing
+WARNING: type Core.Tuple{Core.String,Core.Tuple{Core.Int64},Core.Int64} not present in workspace; reconstructing
+WARNING: type Core.Tuple{Core.Int64,Core.String} not present in workspace; reconstructing
