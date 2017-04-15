@@ -4,7 +4,7 @@
 
 *Commit(s):* [JuliaLang/julia@dfc5c89742142a32685a9e0fc9b0219d88bfaa6b](https://github.com/JuliaLang/julia/commit/dfc5c89742142a32685a9e0fc9b0219d88bfaa6b) vs [JuliaLang/julia@67e3b50bc4ffd35ff30e73224554d0c8338c3e98](https://github.com/JuliaLang/julia/commit/67e3b50bc4ffd35ff30e73224554d0c8338c3e98)
 
-*Triggered By:* [link](https://github.com/JuliaLang/julia/commit/dfc5c89742142a32685a9e0fc9b0219d88bfaa6b#commitcomment-21768934)
+*Triggered By:* [link](https://github.com/JuliaLang/julia/commit/dfc5c89742142a32685a9e0fc9b0219d88bfaa6b#commitcomment-21771531)
 
 *Tag Predicate:* `ALL`
 
@@ -29,26 +29,22 @@ benchmark results remained invariant between builds).
 
 | ID | time ratio | memory ratio |
 |----|------------|--------------|
-| `["array","bool","boolarray_true_load!"]` | 1.44 (15%) :x: | 1.00 (1%)  |
-| `["array","growth",("prerend!",2048)]` | 1.16 (15%) :x: | 1.00 (1%)  |
-| `["array","index",("sumvector_view","Array{Float32,2}")]` | 1.55 (50%) :x: | 1.00 (1%)  |
+| `["array","comprehension",("collect","Array{Float64,1}")]` | 1.28 (15%) :x: | 1.00 (1%)  |
+| `["array","index",("sumvector","Array{Float32,2}")]` | 1.87 (50%) :x: | 1.00 (1%)  |
+| `["array","index",("sumvector_view","SubArray{Float32,2,Array{Float32,2},Tuple{Base.Slice{Base.OneTo{Int64}},Base.Slice{Base.OneTo{Int64}}},true}")]` | 1.58 (50%) :x: | 1.00 (1%)  |
 | `["dates","arithmetic",("Date","Month")]` | 0.84 (15%) :white_check_mark: | 1.00 (1%)  |
-| `["dates","query",("dayofweek","Date")]` | 0.34 (25%) :white_check_mark: | 1.00 (1%)  |
+| `["dates","query",("dayofweek","Date")]` | 0.32 (25%) :white_check_mark: | 1.00 (1%)  |
 | `["dates","query",("dayofweek","DateTime")]` | 0.37 (25%) :white_check_mark: | 1.00 (1%)  |
-| `["dates","query",("firstdayofweek","Date")]` | 0.34 (25%) :white_check_mark: | 1.00 (1%)  |
+| `["dates","query",("firstdayofweek","Date")]` | 0.32 (25%) :white_check_mark: | 1.00 (1%)  |
 | `["dates","query",("firstdayofweek","DateTime")]` | 0.40 (25%) :white_check_mark: | 1.00 (1%)  |
-| `["dates","query",("lastdayofweek","Date")]` | 0.32 (25%) :white_check_mark: | 1.00 (1%)  |
-| `["dates","query",("lastdayofweek","DateTime")]` | 0.39 (25%) :white_check_mark: | 1.00 (1%)  |
-| `["linalg","arithmetic",("sqrtm","Base.LinAlg.UnitUpperTriangular",1024)]` | 2.43 (45%) :x: | 1.00 (1%)  |
-| `["linalg","arithmetic",("sqrtm","UpperTriangular",1024)]` | 2.42 (45%) :x: | 1.00 (1%)  |
+| `["dates","query",("lastdayofweek","Date")]` | 0.34 (25%) :white_check_mark: | 1.00 (1%)  |
+| `["dates","query",("lastdayofweek","DateTime")]` | 0.38 (25%) :white_check_mark: | 1.00 (1%)  |
+| `["misc","repeat",(200,1,24)]` | 0.84 (15%) :white_check_mark: | 1.00 (1%)  |
 | `["scalar","arithmetic",("add","Complex{Int64}","Complex{Int64}")]` | 0.72 (25%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar","arithmetic",("sub","Complex{Int64}","Complex{Int64}")]` | 0.72 (25%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar","arithmetic",("add","Complex{UInt64}","Complex{UInt64}")]` | 1.39 (25%) :x: | 1.00 (1%)  |
+| `["scalar","arithmetic",("sub","Complex{Int64}","Complex{Int64}")]` | 1.39 (25%) :x: | 1.00 (1%)  |
 | `["scalar","arithmetic",("sub","Complex{UInt64}","Complex{UInt64}")]` | 0.72 (25%) :white_check_mark: | 1.00 (1%)  |
-| `["shootout","nbody_vec"]` | 0.80 (15%) :white_check_mark: | 1.00 (1%)  |
-| `["simd",("sum_reduce","Float32",4096)]` | 1.27 (20%) :x: | 1.00 (1%)  |
-| `["sparse","transpose",("ctranspose",(20000,20000))]` | 1.38 (30%) :x: | 1.00 (1%)  |
-| `["sparse","transpose",("transpose",(20000,20000))]` | 1.39 (30%) :x: | 1.00 (1%)  |
-| `["tuple","reduction",("minimum",(2,))]` | 1.18 (15%) :x: | 1.00 (1%)  |
+| `["simd",("sum_reduce","Float32",4095)]` | 1.29 (20%) :x: | 1.00 (1%)  |
 
 ## Benchmark Group List
 
@@ -136,15 +132,15 @@ Platform Info:
   WORD_SIZE: 64
            Ubuntu 14.04.4 LTS
   uname: Linux 3.13.0-85-generic #129-Ubuntu SMP Thu Mar 17 20:50:15 UTC 2016 x86_64 x86_64
-Memory: 31.383651733398438 GB (2657.37109375 MB free)
-Uptime: 2.7844355e7 sec
+Memory: 31.383651733398438 GB (4291.640625 MB free)
+Uptime: 2.7856454e7 sec
 Load Avg:  1.0029296875  1.0146484375  1.04541015625
 Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz: 
        speed         user         nice          sys         idle          irq
-#1  3501 MHz   54447840 s          0 s   10593055 s  2711294241 s         76 s
-#2  3501 MHz  218592652 s          0 s    6527644 s  2557694342 s         11 s
-#3  3501 MHz   48447850 s          0 s    5786569 s  2728866527 s         58 s
-#4  3501 MHz   45834132 s          0 s    5920669 s  2731355223 s         12 s
+#1  3501 MHz   57100322 s          0 s    8839810 s  2713726008 s         82 s
+#2  3501 MHz  213032233 s          0 s    9689986 s  2557770107 s         30 s
+#3  3501 MHz   47861722 s          0 s    5592479 s  2730941779 s         44 s
+#4  3501 MHz   43440584 s          0 s    5539653 s  2735673443 s         15 s
 
   BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell)
   LAPACK: libopenblas64_
@@ -164,15 +160,15 @@ Platform Info:
   WORD_SIZE: 64
            Ubuntu 14.04.4 LTS
   uname: Linux 3.13.0-85-generic #129-Ubuntu SMP Thu Mar 17 20:50:15 UTC 2016 x86_64 x86_64
-Memory: 31.383651733398438 GB (2338.75 MB free)
-Uptime: 2.7849836e7 sec
+Memory: 31.383651733398438 GB (4008.1875 MB free)
+Uptime: 2.7861957e7 sec
 Load Avg:  1.0029296875  1.0146484375  1.04541015625
 Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz: 
        speed         user         nice          sys         idle          irq
-#1  3501 MHz   54525827 s          0 s   10602933 s  2711752266 s         76 s
-#2  3501 MHz  219087686 s          0 s    6536585 s  2557737868 s         11 s
-#3  3501 MHz   48545380 s          0 s    5795205 s  2729307784 s         58 s
-#4  3501 MHz   45915504 s          0 s    5928992 s  2731813116 s         12 s
+#1  3501 MHz   57185330 s          0 s    8849514 s  2714179541 s         82 s
+#2  3501 MHz  213528431 s          0 s    9698715 s  2557814886 s         30 s
+#3  3501 MHz   47947240 s          0 s    5601122 s  2731397228 s         44 s
+#4  3501 MHz   43531133 s          0 s    5548350 s  2736123951 s         15 s
 
   BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell)
   LAPACK: libopenblas64_
