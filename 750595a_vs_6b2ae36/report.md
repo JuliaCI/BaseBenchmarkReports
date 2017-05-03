@@ -4,7 +4,7 @@
 
 *Commit(s):* [JuliaLang/julia@750595a9686ef57cad0c46dbe406cf23ff915473](https://github.com/JuliaLang/julia/commit/750595a9686ef57cad0c46dbe406cf23ff915473) vs [JuliaLang/julia@6b2ae3665e59d1aeb4032915c98e2add14ee22c9](https://github.com/JuliaLang/julia/commit/6b2ae3665e59d1aeb4032915c98e2add14ee22c9)
 
-*Triggered By:* [link](https://github.com/JuliaLang/julia/pull/21684#issuecomment-298845914)
+*Triggered By:* [link](https://github.com/JuliaLang/julia/pull/21684#issuecomment-298912882)
 
 *Tag Predicate:* `ALL`
 
@@ -29,33 +29,47 @@ benchmark results remained invariant between builds).
 
 | ID | time ratio | memory ratio |
 |----|------------|--------------|
-| `["array","convert",("Int","Complex{Float64}")]` | 1.15 (15%) :x: | 1.00 (1%)  |
-| `["array","growth",("push_multiple!",2048)]` | 1.39 (15%) :x: | 1.00 (1%)  |
-| `["array","growth",("push_multiple!",256)]` | 1.33 (15%) :x: | 1.00 (1%)  |
-| `["array","growth",("push_multiple!",8)]` | 1.35 (15%) :x: | 1.00 (1%)  |
+| `["array","cat",("hcat",5)]` | 0.76 (15%) :white_check_mark: | 1.00 (1%)  |
+| `["array","cat",("hcat_setind",5)]` | 0.46 (15%) :white_check_mark: | 1.00 (1%)  |
+| `["array","cat",("hvcat",5)]` | 0.57 (15%) :white_check_mark: | 1.00 (1%)  |
+| `["array","cat",("hvcat_setind",5)]` | 0.55 (15%) :white_check_mark: | 1.00 (1%)  |
+| `["array","cat",("vcat_setind",5)]` | 0.52 (15%) :white_check_mark: | 1.00 (1%)  |
+| `["array","comprehension",("collect","Array{Float64,1}")]` | 1.89 (15%) :x: | 1.00 (1%)  |
+| `["array","comprehension",("collect","FloatRange{Float64}")]` | 1.17 (15%) :x: | 1.00 (1%)  |
+| `["array","comprehension",("collect","LinSpace{Float64}")]` | 1.16 (15%) :x: | 1.00 (1%)  |
+| `["array","comprehension",("comprehension_collect","Array{Float64,1}")]` | 1.31 (15%) :x: | 1.00 (1%)  |
+| `["array","comprehension",("comprehension_collect","FloatRange{Float64}")]` | 1.16 (15%) :x: | 1.00 (1%)  |
+| `["array","comprehension",("comprehension_collect","LinSpace{Float64}")]` | 1.16 (15%) :x: | 1.00 (1%)  |
+| `["array","growth",("push_multiple!",2048)]` | 1.36 (15%) :x: | 1.00 (1%)  |
+| `["array","growth",("push_multiple!",256)]` | 1.34 (15%) :x: | 1.00 (1%)  |
+| `["array","growth",("push_multiple!",8)]` | 1.33 (15%) :x: | 1.00 (1%)  |
 | `["array","index","6d"]` | 0.02 (15%) :white_check_mark: | 0.00 (1%) :white_check_mark: |
 | `["array","index","7d"]` | 0.02 (15%) :white_check_mark: | 0.00 (1%) :white_check_mark: |
-| `["broadcast","dotop",("Float64",(1000,1000),2)]` | 1.85 (15%) :x: | 1.00 (1%)  |
-| `["broadcast","dotop",("Float64",(1000000,),1)]` | 1.60 (15%) :x: | 1.00 (1%)  |
-| `["broadcast","dotop",("Float64",(1000000,),2)]` | 1.87 (15%) :x: | 1.00 (1%)  |
-| `["broadcast","sparse",((1000,1000),1)]` | 1.21 (15%) :x: | 1.00 (1%)  |
+| `["array","index",("sumvector_view","1:100000")]` | 1.52 (50%) :x: | 1.00 (1%)  |
+| `["array","reductions",("mean","Float64")]` | 0.85 (15%) :white_check_mark: | 1.00 (1%)  |
+| `["array","subarray",("lucompletepivCopy!",250)]` | 1.86 (15%) :x: | 1.00 (1%)  |
+| `["array","subarray",("lucompletepivCopy!",500)]` | 2.00 (15%) :x: | 1.00 (1%)  |
+| `["array","subarray",("lucompletepivSub!",250)]` | 1.43 (15%) :x: | 1.00 (1%)  |
+| `["array","subarray",("lucompletepivSub!",500)]` | 1.76 (15%) :x: | 1.00 (1%)  |
+| `["broadcast","dotop",("Float64",(1000,1000),2)]` | 1.70 (15%) :x: | 1.00 (1%)  |
+| `["broadcast","dotop",("Float64",(1000000,),1)]` | 1.51 (15%) :x: | 1.00 (1%)  |
+| `["broadcast","dotop",("Float64",(1000000,),2)]` | 1.74 (15%) :x: | 1.00 (1%)  |
+| `["broadcast","sparse",((1000,1000),1)]` | 1.18 (15%) :x: | 1.00 (1%)  |
 | `["linalg","arithmetic",("\\","HermitianSparseWithNonZeroPivots","Vector",1024)]` | 0.39 (45%) :white_check_mark: | 0.41 (1%) :white_check_mark: |
 | `["linalg","arithmetic",("\\","HermitianSparseWithNonZeroPivots","Vector",256)]` | 0.37 (45%) :white_check_mark: | 0.39 (1%) :white_check_mark: |
-| `["linalg","arithmetic",("sqrtm","NPDUpperTriangular",256)]` | 1.55 (45%) :x: | 1.00 (1%)  |
-| `["linalg","factorization",("lu","Tridiagonal",1024)]` | 1.56 (45%) :x: | 1.00 (1%)  |
-| `["linalg","factorization",("svd","Diagonal",1024)]` | 1.77 (45%) :x: | 1.00 (1%)  |
-| `["linalg","factorization",("svdfact","Diagonal",1024)]` | 1.58 (45%) :x: | 1.00 (1%)  |
-| `["problem","laplacian","laplace_iter_sub"]` | 0.82 (15%) :white_check_mark: | 1.00 (1%)  |
-| `["problem","laplacian","laplace_iter_vec"]` | 2.35 (15%) :x: | 1.00 (1%)  |
-| `["shootout","pidigits"]` | 0.81 (15%) :white_check_mark: | 1.00 (1%)  |
-| `["simd",("sum_reduce","Float32",4096)]` | 0.79 (20%) :white_check_mark: | 1.00 (1%)  |
-| `["sparse","arithmetic",("unary minus",(20000,20000))]` | 1.96 (30%) :x: | 1.00 (1%)  |
-| `["sparse","index",("spmat","col","range",1000)]` | 0.46 (30%) :white_check_mark: | 1.00 (1%)  |
-| `["sparse","index",("spvec","range",10000)]` | 0.67 (30%) :white_check_mark: | 1.00 (1%)  |
-| `["sparse","transpose",("ctranspose!",(20000,10000))]` | 1.37 (30%) :x: | 1.00 (1%)  |
-| `["sparse","transpose",("ctranspose!",(20000,20000))]` | 1.61 (30%) :x: | 1.00 (1%)  |
-| `["sparse","transpose",("transpose!",(20000,20000))]` | 1.49 (30%) :x: | 1.00 (1%)  |
-| `["string","join"]` | 1.96 (40%) :x: | 1.00 (1%)  |
+| `["linalg","factorization",("svd","Diagonal",1024)]` | 1.64 (45%) :x: | 1.00 (1%)  |
+| `["linalg","factorization",("svdfact","Diagonal",1024)]` | 1.49 (45%) :x: | 1.00 (1%)  |
+| `["nullable","basic",("get2","Nullable{Float32}()")]` | 0.67 (30%) :white_check_mark: | 1.00 (1%)  |
+| `["problem","laplacian","laplace_iter_sub"]` | 2.08 (15%) :x: | 1.00 (1%)  |
+| `["problem","laplacian","laplace_iter_vec"]` | 2.13 (15%) :x: | 1.00 (1%)  |
+| `["problem","monte carlo","euro_option_vec"]` | 1.29 (15%) :x: | 1.00 (1%)  |
+| `["problem","stockcorr","stockcorr"]` | 2.30 (15%) :x: | 1.00 (1%)  |
+| `["shootout","pidigits"]` | 1.93 (15%) :x: | 1.00 (1%)  |
+| `["simd",("sum_reduce","Float32",4096)]` | 1.23 (20%) :x: | 1.00 (1%)  |
+| `["sparse","arithmetic",("unary minus",(20000,20000))]` | 1.63 (30%) :x: | 1.00 (1%)  |
+| `["sparse","index",("spmat","col","range",1000)]` | 0.47 (30%) :white_check_mark: | 1.00 (1%)  |
+| `["sparse","index",("spvec","range",10000)]` | 0.57 (30%) :white_check_mark: | 1.00 (1%)  |
+| `["string","join"]` | 1.45 (40%) :x: | 1.00 (1%)  |
 
 ## Benchmark Group List
 
@@ -141,15 +155,15 @@ Platform Info:
   WORD_SIZE: 64
            Ubuntu 14.04.4 LTS
   uname: Linux 3.13.0-85-generic #129-Ubuntu SMP Thu Mar 17 20:50:15 UTC 2016 x86_64 x86_64
-Memory: 31.383651733398438 GB (2324.4765625 MB free)
-Uptime: 2.9449913e7 sec
-Load Avg:  1.064453125  1.02978515625  1.04931640625
+Memory: 31.383651733398438 GB (3246.10546875 MB free)
+Uptime: 2.9469949e7 sec
+Load Avg:  1.0458984375  1.02783203125  1.04736328125
 Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz: 
        speed         user         nice          sys         idle          irq
-#1  3501 MHz   59765102 s          0 s   11394436 s  2865261148 s         77 s
-#2  3501 MHz  240660347 s          0 s    7083932 s  2695522921 s         11 s
-#3  3501 MHz   53249562 s          0 s    6300721 s  2884025154 s         61 s
-#4  3501 MHz   50427592 s          0 s    6454860 s  2886692902 s         12 s
+#1  3501 MHz   60583315 s          0 s    9352810 s  2870764061 s         85 s
+#2  3501 MHz  228993460 s          0 s   10322302 s  2702208495 s         34 s
+#3  3501 MHz   51452290 s          0 s    5995254 s  2888227858 s         45 s
+#4  3501 MHz   46984652 s          0 s    5936920 s  2893030634 s         16 s
 
   BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell)
   LAPACK: libopenblas64_
@@ -169,15 +183,15 @@ Platform Info:
   WORD_SIZE: 64
            Ubuntu 14.04.4 LTS
   uname: Linux 3.13.0-85-generic #129-Ubuntu SMP Thu Mar 17 20:50:15 UTC 2016 x86_64 x86_64
-Memory: 31.383651733398438 GB (9101.44921875 MB free)
-Uptime: 2.9457806e7 sec
+Memory: 31.383651733398438 GB (9174.3046875 MB free)
+Uptime: 2.947882e7 sec
 Load Avg:  1.0029296875  1.0146484375  1.04541015625
 Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz: 
        speed         user         nice          sys         idle          irq
-#1  3501 MHz   59843465 s          0 s   11404646 s  2865958914 s         77 s
-#2  3501 MHz  241393726 s          0 s    7096368 s  2695565803 s         11 s
-#3  3501 MHz   53336524 s          0 s    6308730 s  2884718740 s         61 s
-#4  3501 MHz   50501380 s          0 s    6462824 s  2887399919 s         12 s
+#1  3501 MHz   60659190 s          0 s    9363847 s  2871560820 s         85 s
+#2  3501 MHz  229826049 s          0 s   10341809 s  2702242679 s         34 s
+#3  3501 MHz   51532798 s          0 s    6003199 s  2889025603 s         45 s
+#4  3501 MHz   47061584 s          0 s    5944962 s  2893832013 s         16 s
 
   BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell)
   LAPACK: libopenblas64_
