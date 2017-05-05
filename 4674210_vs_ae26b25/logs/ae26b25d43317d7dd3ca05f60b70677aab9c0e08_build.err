@@ -1,0 +1,50 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  peed
+
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   455  100   455    0     0   2074      0 --:--:-- --:--:-- --:--:--  2077
+ 83  140k   83  117k    0     0   274k      0 --:--:-- --:--:-- --:--:--  274k100  140k  100  140k    0     0   320k      0 --:--:-- --:--:-- --:--:-- 2126k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   461  100   461    0     0   7205      0 --:--:-- --:--:-- --:--:--  7317
+Note: checking out '3ee2a6e6a9fc68cbf2ab00f830b9059215e40b06'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   303  100   303    0     0   4593      0 --:--:-- --:--:-- --:--:--  4661
+100  284k  100  284k    0     0   957k      0 --:--:-- --:--:-- --:--:--  957k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   306  100   306    0     0   2487      0 --:--:-- --:--:-- --:--:--  2487
+100   357  100   357    0     0   5592      0 --:--:-- --:--:-- --:--:--  5666
+100   457  100   457    0     0    385      0  0:00:01  0:00:01 --:--:--   385100   457  100   457    0     0    385      0  0:00:01  0:00:01 --:--:--   385
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 20 1072k   20  219k    0     0   154k      0  0:00:06  0:00:01  0:00:05  154k  6 12.9M    6  865k    0     0  1286k      0  0:00:10 --:--:--  0:00:10 1286k  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 1072k  100 1072k    0     0   691k      0  0:00:01  0:00:01 --:--:-- 6464k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (22) The requested URL returned error: 404 Not Found
+make[1]: *** [pcre2-10.20.tar.bz2] Error 22
+make[1]: *** Waiting for unfinished jobs....
+ 38 12.9M   38 5142k    0     0  3099k      0  0:00:04  0:00:01  0:00:03 4333kNote: checking out '12ab1804b6ebcd38b26960d65d254314d8bc33d6'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b new_branch_name
+
+ 72 12.9M   72 9658k    0     0  3622k      0  0:00:03  0:00:02  0:00:01 4409k100 12.9M  100 12.9M    0     0  4050k      0  0:00:03  0:00:03 --:--:-- 4763k
+make: *** [julia-deps] Error 2
