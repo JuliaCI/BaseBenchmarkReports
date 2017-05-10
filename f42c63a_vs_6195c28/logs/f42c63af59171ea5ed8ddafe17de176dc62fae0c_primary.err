@@ -1,0 +1,62 @@
+
+WARNING: deprecated syntax "typealias BitsKindOrString Union{HDF5BitsKind,String}" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:24.
+Use "const BitsKindOrString = Union{HDF5BitsKind,String}" instead.
+
+WARNING: deprecated syntax "typealias TypesType SimpleVector" at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:18.
+Use "const TypesType = SimpleVector" instead.
+
+WARNING: deprecated syntax "typealias TupleType{T<:Tuple} Type{T}" at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:19.
+Use "TupleType{T<:Tuple} = Type{T}" instead.
+
+WARNING: deprecated syntax "typealias BitsKindTypes Union{$(map(x->begin
+    # /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl, line 129
+    Type{x}
+end,uniontypes(HDF5.HDF5BitsKind))...,)}" at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:130.
+Use "const BitsKindTypes = Union{$(map(x->begin
+    # /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl, line 129
+    Type{x}
+end,uniontypes(HDF5.HDF5BitsKind))...,)}" instead.
+
+WARNING: deprecated syntax "typealias VoidType Type{@compat Void}" at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:150.
+Use "const VoidType = Type{@compat Void}" instead.
+
+WARNING: deprecated syntax "bitstype $sz $name" at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:771.
+Use "primitive type $name $sz end" instead.
+WARNING: filter(flt, itr) is deprecated, use Iterators.filter(flt, itr) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ [2] filter(::Function, ::NTuple{7,UnionAll}) at ./deprecated.jl:51
+ [3] include_from_node1(::String) at ./loading.jl:552
+ [4] include(::String) at ./sysimg.jl:14
+ [5] #load!#2(::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:39
+ [6] (::BaseBenchmarks.#kw##load!)(::Array{Any,1}, ::BaseBenchmarks.#load!, ::BenchmarkTools.BenchmarkGroup, ::String) at ./<missing>:0
+ [7] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:53
+ [8] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:48 [inlined]
+ [9] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ [10] include_from_node1(::String) at ./loading.jl:552
+ [11] include(::String) at ./sysimg.jl:14
+ [12] process_options(::Base.JLOptions) at ./client.jl:305
+ [13] _start() at ./client.jl:371
+while loading /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/linalg/LinAlgBenchmarks.jl, in expression starting on line 16
+ERROR: LoadError: LoadError: MethodError: Cannot `convert` an object of type Int64 to an object of type Complex{_} where _
+This may have arisen from a call to the constructor Complex{_} where _(...),
+since type constructors fall back to convert methods.
+Stacktrace:
+ [1] _noshapecheck_map(::Base.#+, ::SparseMatrixCSC{Float64,Int64}, ::SparseMatrixCSC{Complex{_} where _,Int64}) at ./sparse/higherorderfns.jl:85
+ [2] map(::Base.#+, ::SparseMatrixCSC{Float64,Int64}, ::SparseMatrixCSC{Complex{_} where _,Int64}) at ./sparse/higherorderfns.jl:70
+ [3] +(::SparseMatrixCSC{Float64,Int64}, ::SparseMatrixCSC{Complex{_} where _,Int64}) at ./sparse/sparsematrix.jl:1452
+ [4] macro expansion at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/sparse/SparseBenchmarks.jl:97 [inlined]
+ [5] anonymous at ./<missing>:?
+ [6] include_from_node1(::String) at ./loading.jl:552
+ [7] include(::String) at ./sysimg.jl:14
+ [8] #load!#2(::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:39
+ [9] (::BaseBenchmarks.#kw##load!)(::Array{Any,1}, ::BaseBenchmarks.#load!, ::BenchmarkTools.BenchmarkGroup, ::String) at ./<missing>:0
+ [10] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:53
+ [11] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:48 [inlined]
+ [12] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ [13] include_from_node1(::String) at ./loading.jl:552
+ [14] include(::String) at ./sysimg.jl:14
+ [15] process_options(::Base.JLOptions) at ./client.jl:305
+ [16] _start() at ./client.jl:371
+while loading /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/sparse/SparseBenchmarks.jl, in expression starting on line 96
+while loading /home/nanosoldier/workdir/tmpytEBZ9/benchscript.jl, in expression starting on line 16
