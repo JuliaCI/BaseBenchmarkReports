@@ -4,7 +4,7 @@
 
 *Commit(s):* [JuliaLang/julia@e375d87093831f5a34abc6dec0b40718ece48076](https://github.com/JuliaLang/julia/commit/e375d87093831f5a34abc6dec0b40718ece48076) vs [JuliaLang/julia@6bdb3950bdf64152](https://github.com/JuliaLang/julia/commit/6bdb3950bdf64152)
 
-*Triggered By:* [link](https://github.com/JuliaLang/julia/pull/21878#issuecomment-302010108)
+*Triggered By:* [link](https://github.com/JuliaLang/julia/pull/21878#issuecomment-302171541)
 
 *Tag Predicate:* `ALL`
 
@@ -29,18 +29,17 @@ benchmark results remained invariant between builds).
 
 | ID | time ratio | memory ratio |
 |----|------------|--------------|
-| `["array","comprehension",("collect","Array{Float64,1}")]` | 0.69 (15%) :white_check_mark: | 1.00 (1%)  |
-| `["array","index",("sumvector_view","BaseBenchmarks.ArrayBenchmarks.ArrayLF{Int32,2}")]` | 1.60 (50%) :x: | 1.00 (1%)  |
-| `["broadcast","typeargs",("tuple",5)]` | 1.17 (15%) :x: | 1.00 (1%)  |
-| `["dates","parse","DateTime"]` | 2.21 (15%) :x: | 1.00 (1%)  |
-| `["dates","parse",("DateTime","ISODateTimeFormat")]` | 2.21 (15%) :x: | 1.00 (1%)  |
-| `["misc","parse","DateTime"]` | 2.24 (15%) :x: | 1.00 (1%)  |
-| `["scalar","intfuncs",("nextpow2","BigInt","+")]` | 0.37 (40%) :white_check_mark: | 0.23 (1%) :white_check_mark: |
+| `["array","index",("sumvector_view","BaseBenchmarks.ArrayBenchmarks.ArrayLSLS{Float32,2}")]` | 1.60 (50%) :x: | 1.00 (1%)  |
+| `["scalar","intfuncs",("nextpow2","BigInt","+")]` | 0.36 (40%) :white_check_mark: | 0.23 (1%) :white_check_mark: |
 | `["scalar","intfuncs",("nextpow2","BigInt","-")]` | 0.22 (40%) :white_check_mark: | 0.12 (1%) :white_check_mark: |
-| `["scalar","intfuncs",("prevpow2","BigInt","+")]` | 0.77 (40%)  | 0.71 (1%) :white_check_mark: |
-| `["scalar","intfuncs",("prevpow2","BigInt","-")]` | 0.41 (40%) :white_check_mark: | 0.29 (1%) :white_check_mark: |
+| `["scalar","intfuncs",("prevpow2","BigInt","+")]` | 0.78 (40%)  | 0.71 (1%) :white_check_mark: |
+| `["scalar","intfuncs",("prevpow2","BigInt","-")]` | 0.40 (40%) :white_check_mark: | 0.29 (1%) :white_check_mark: |
 | `["scalar","predicate",("isinteger","Complex{BigInt}")]` | 0.46 (40%) :white_check_mark: | 1.00 (1%)  |
+| `["sparse","index",("spmat","integer",100)]` | 1.31 (30%) :x: | 1.00 (1%)  |
+| `["tuple","reduction",("minimum",(2,))]` | 1.18 (15%) :x: | 1.00 (1%)  |
 | `["tuple","reduction",("sum",(4,))]` | 0.82 (15%) :white_check_mark: | 1.00 (1%)  |
+| `["tuple","reduction",("sum",(8,))]` | 1.20 (15%) :x: | 1.00 (1%)  |
+| `["tuple","reduction",("sumabs",(2,2))]` | 0.83 (15%) :white_check_mark: | 1.00 (1%)  |
 
 ## Benchmark Group List
 
@@ -128,15 +127,15 @@ Platform Info:
   WORD_SIZE: 64
            Ubuntu 14.04.4 LTS
   uname: Linux 3.13.0-85-generic #129-Ubuntu SMP Thu Mar 17 20:50:15 UTC 2016 x86_64 x86_64
-Memory: 31.383651733398438 GB (8209.31640625 MB free)
-Uptime: 3.0658002e7 sec
-Load Avg:  0.9267578125  1.0  1.0400390625
+Memory: 31.383651733398438 GB (4002.37890625 MB free)
+Uptime: 3.0694896e7 sec
+Load Avg:  1.0419921875  1.02734375  1.046875
 Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz: 
        speed         user         nice          sys         idle          irq
-#1  3501 MHz   63397699 s          0 s    9812422 s  2986015559 s         89 s
-#2  3501 MHz  246934304 s          0 s   10812452 s  2802431516 s         36 s
-#3  3501 MHz   54304525 s          0 s    6329877 s  3003783623 s         46 s
-#4  3501 MHz   49884042 s          0 s    6278855 s  3008536763 s         17 s
+#1  3501 MHz   63823258 s          0 s   12014948 s  2984704680 s         80 s
+#2  3501 MHz  261126716 s          0 s    7536412 s  2799028093 s         12 s
+#3  3501 MHz   56945172 s          0 s    6703787 s  3004356599 s         64 s
+#4  3501 MHz   53996926 s          0 s    6852851 s  3007159089 s         14 s
 
   BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell)
   LAPACK: libopenblas64_
@@ -156,15 +155,15 @@ Platform Info:
   WORD_SIZE: 64
            Ubuntu 14.04.4 LTS
   uname: Linux 3.13.0-85-generic #129-Ubuntu SMP Thu Mar 17 20:50:15 UTC 2016 x86_64 x86_64
-Memory: 31.383651733398438 GB (7990.90625 MB free)
-Uptime: 3.0663458e7 sec
-Load Avg:  1.0029296875  1.0146484375  1.04541015625
+Memory: 31.383651733398438 GB (3677.0390625 MB free)
+Uptime: 3.0700313e7 sec
+Load Avg:  0.9228515625  0.998046875  1.0400390625
 Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz: 
        speed         user         nice          sys         idle          irq
-#1  3501 MHz   63481259 s          0 s    9822695 s  2986465169 s         89 s
-#2  3501 MHz  247421771 s          0 s   10821254 s  2802480190 s         36 s
-#3  3501 MHz   54404733 s          0 s    6338430 s  3004219739 s         46 s
-#4  3501 MHz   49969994 s          0 s    6287422 s  3008987197 s         17 s
+#1  3501 MHz   63907548 s          0 s   12024524 s  2985150311 s         80 s
+#2  3501 MHz  261612673 s          0 s    7544869 s  2799074657 s         12 s
+#3  3501 MHz   57030840 s          0 s    6711937 s  3004803685 s         64 s
+#4  3501 MHz   54090639 s          0 s    6861155 s  3007598170 s         14 s
 
   BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell)
   LAPACK: libopenblas64_
