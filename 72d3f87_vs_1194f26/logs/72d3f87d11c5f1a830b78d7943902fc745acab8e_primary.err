@@ -1,0 +1,461 @@
+
+WARNING: deprecated syntax "typealias BitsKindOrString Union{HDF5BitsKind,String}" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:24.
+Use "const BitsKindOrString = Union{HDF5BitsKind,String}" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:45.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:46.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:47.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:50.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:56.
+Use "struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:68.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:97.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:102.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:116.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:119.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:795.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:836.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:857.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:866.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:223.
+Use "struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:264.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:268.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:294.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:309.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:322.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:335.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:364.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:375.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:388.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:393.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:418.
+Use "struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:425.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:431.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:434.
+Use "struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:439.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:448.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:464.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:472.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:476.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:500.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/HDF5/src/blosc_filter.jl:12.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/Blosc/src/Blosc.jl:235.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:4.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:5.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:6.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:8.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:9.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:40.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:224.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:247.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/error_handling.jl:6.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/error_handling.jl:18.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/error_handling.jl:30.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/error_handling.jl:39.
+Use "struct" instead.
+
+WARNING: deprecated syntax "typealias TypesType SimpleVector" at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:18.
+Use "const TypesType = SimpleVector" instead.
+
+WARNING: deprecated syntax "typealias TupleType{T<:Tuple} Type{T}" at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:19.
+Use "TupleType{T<:Tuple} = Type{T}" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:29.
+Use "struct" instead.
+
+WARNING: deprecated syntax "typealias BitsKindTypes Union{$(map(x->begin
+    # /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl, line 129
+    Type{x}
+end,uniontypes(HDF5.HDF5BitsKind))...,)}" at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:130.
+Use "const BitsKindTypes = Union{$(map(x->begin
+    # /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl, line 129
+    Type{x}
+end,uniontypes(HDF5.HDF5BitsKind))...,)}" instead.
+
+WARNING: deprecated syntax "typealias VoidType Type{@compat Void}" at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:150.
+Use "const VoidType = Type{@compat Void}" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:768.
+Use "struct" instead.
+
+WARNING: deprecated syntax "bitstype $sz $name" at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:771.
+Use "primitive type $name $sz end" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:807.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/LegacyStrings/src/LegacyStrings.jl:52.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/LegacyStrings/src/LegacyStrings.jl:56.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/LegacyStrings/src/LegacyStrings.jl:60.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/LegacyStrings/src/LegacyStrings.jl:70.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/LegacyStrings/src/rep.jl:3.
+Use "struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/parameters.jl:8.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/trials.jl:5.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/trials.jl:89.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/trials.jl:136.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/trials.jl:181.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/groups.jl:5.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/groups.jl:141.
+Use "struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:10.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/serialization.jl:5.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/serialization.jl:16.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/parameters.jl:8.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/trials.jl:5.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/trials.jl:89.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/trials.jl:136.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/trials.jl:181.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/groups.jl:5.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/groups.jl:141.
+Use "struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:10.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/serialization.jl:5.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/serialization.jl:16.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/linalg/LinAlgBenchmarks.jl:38.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/linalg/LinAlgBenchmarks.jl:51.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/tuple/TupleBenchmarks.jl:17.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/tuple/TupleBenchmarks.jl:66.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/tuple/TupleBenchmarks.jl:75.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/simd/SIMDBenchmarks.jl:91.
+Use "struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/simd/SIMDBenchmarks.jl:99.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/IMDBGraphs.jl:8.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "typealias IMDBGraph Dict{UTF8String,IMDBNode}" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/IMDBGraphs.jl:15.
+Use "const IMDBGraph = Dict{UTF8String,IMDBNode}" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/GoGame.jl:36.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/GoGame.jl:53.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/Raytracer.jl:15.
+Use "struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/Raytracer.jl:30.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/Raytracer.jl:35.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "abstract Scene" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/Raytracer.jl:41.
+Use "abstract type Scene end" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/Raytracer.jl:42.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/Raytracer.jl:72.
+Use "struct" instead.
+
+WARNING: deprecated syntax "abstract MyArray{T,N}<:AbstractArray{T,N}" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/sumindex.jl:199.
+Use "abstract type MyArray{T,N}<:AbstractArray{T,N} end" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/sumindex.jl:200.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/sumindex.jl:204.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/sumindex.jl:208.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/sumindex.jl:212.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/sumindex.jl:219.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:38.
+Use "struct" instead.
+
+WARNING: deprecated syntax "abstract BTree" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/binary_trees.jl:8.
+Use "abstract type BTree end" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/binary_trees.jl:9.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/binary_trees.jl:12.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/k_nucleotide.jl:27.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/nbody.jl:14.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/nbody_vec.jl:16.
+Use "mutable struct" instead.
+WARNING: filter(flt, itr) is deprecated, use Iterators.filter(flt, itr) instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:64
+ [2] filter(::Function, ::NTuple{7,UnionAll}) at ./deprecated.jl:51
+ [3] include_from_node1(::String) at ./loading.jl:569
+ [4] include(::String) at ./sysimg.jl:14
+ [5] #load!#2(::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:39
+ [6] (::BaseBenchmarks.#kw##load!)(::Array{Any,1}, ::BaseBenchmarks.#load!, ::BenchmarkTools.BenchmarkGroup, ::String) at ./<missing>:0
+ [7] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:53
+ [8] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:48 [inlined]
+ [9] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ [10] include_from_node1(::String) at ./loading.jl:569
+ [11] include(::String) at ./sysimg.jl:14
+ [12] process_options(::Base.JLOptions) at ./client.jl:305
+ [13] _start() at ./client.jl:371
+while loading /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/linalg/LinAlgBenchmarks.jl, in expression starting on line 16
+WARNING: Base.linearindexing is deprecated, use Base.IndexStyle instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/sumindex.jl:263
+WARNING: Partial linear indexing is deprecated. Use `reshape(A, Val{2})` to make the dimensionality of the array match the number of indices.
+Stacktrace:
+ [1] partial_linear_indexing_warning_lookup(::Int64) at ./deprecated.jl:1057
+ [2] checkbounds_linear_indices at ./abstractarray.jl:406 [inlined]
+ [3] checkbounds_indices at ./abstractarray.jl:399 [inlined]
+ [4] checkbounds_indices at ./abstractarray.jl:382 [inlined]
+ [5] checkbounds at ./abstractarray.jl:335 [inlined]
+ [6] checkbounds(::SubArray{Int32,3,Array{Int32,3},Tuple{Base.Slice{Base.OneTo{Int64}},Base.Slice{Base.OneTo{Int64}},Base.Slice{Base.OneTo{Int64}}},true}, ::Base.Slice{Base.OneTo{Int64}}, ::UnitRange{Int64}) at ./abstractarray.jl:355
+ [7] view(::SubArray{Int32,3,Array{Int32,3},Tuple{Base.Slice{Base.OneTo{Int64}},Base.Slice{Base.OneTo{Int64}},Base.Slice{Base.OneTo{Int64}}},true}, ::Colon, ::Vararg{Any,N} where N) at ./subarray.jl:113
+ [8] makearrays(::Type{Int32}, ::Int64, ::Int64) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/sumindex.jl:298
+ [9] include_from_node1(::String) at ./loading.jl:569
+ [10] include(::String) at ./sysimg.jl:14
+ [11] #load!#2(::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:39
+ [12] (::BaseBenchmarks.#kw##load!)(::Array{Any,1}, ::BaseBenchmarks.#load!, ::BenchmarkTools.BenchmarkGroup, ::String) at ./<missing>:0
+ [13] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:53
+ [14] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:48 [inlined]
+ [15] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ [16] include_from_node1(::String) at ./loading.jl:569
+ [17] include(::String) at ./sysimg.jl:14
+ [18] process_options(::Base.JLOptions) at ./client.jl:305
+ [19] _start() at ./client.jl:371
+while loading /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/ArrayBenchmarks.jl, in expression starting on line 47
+WARNING: Base.linearindexing is deprecated, use Base.IndexStyle instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:56
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/nullable/NullableBenchmarks.jl:85
+WARNING: Base.take is deprecated, use Base.Iterators.take instead.
+  likely near /home/nanosoldier/workdir/tmpuZ6zys/benchscript.jl:22
+WARNING: Base.take is deprecated, use Base.Iterators.take instead.
+  likely near /home/nanosoldier/workdir/tmpuZ6zys/benchscript.jl:22
+WARNING: Base.take is deprecated, use Base.Iterators.take instead.
+  likely near /home/nanosoldier/workdir/tmpuZ6zys/benchscript.jl:22
+WARNING: Base.take is deprecated, use Base.Iterators.take instead.
+  likely near /home/nanosoldier/workdir/tmpuZ6zys/benchscript.jl:22
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/workdir/tmpuZ6zys/benchscript.jl:22
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/workdir/tmpuZ6zys/benchscript.jl:22
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/workdir/tmpuZ6zys/benchscript.jl:22
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/workdir/tmpuZ6zys/benchscript.jl:22
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/workdir/tmpuZ6zys/benchscript.jl:22
+WARNING: Base.LinearFast is deprecated, use Base.IndexLinear instead.
+  likely near /home/nanosoldier/workdir/tmpuZ6zys/benchscript.jl:22
