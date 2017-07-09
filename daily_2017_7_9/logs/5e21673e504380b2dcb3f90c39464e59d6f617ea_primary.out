@@ -1,0 +1,51 @@
+cset: moving following pidspec: 30250
+cset: moving 1 userspace tasks to /user/child
+cset: done
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/parameters.jl:8.
+	From worker 2:	Use "mutable struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/trials.jl:5.
+	From worker 2:	Use "mutable struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/trials.jl:89.
+	From worker 2:	Use "mutable struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/trials.jl:136.
+	From worker 2:	Use "mutable struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/trials.jl:181.
+	From worker 2:	Use "struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/groups.jl:5.
+	From worker 2:	Use "struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/groups.jl:141.
+	From worker 2:	Use "struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:10.
+	From worker 2:	Use "mutable struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/serialization.jl:5.
+	From worker 2:	Use "mutable struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/serialization.jl:16.
+	From worker 2:	Use "mutable struct" instead.
+LOADING SUITE...
+loading group "string"...done (took 1.128176967 seconds)
+loading group "linalg"...done (took 8.60881879 seconds)
+loading group "parallel"...done (took 0.270973169 seconds)
+loading group "tuple"...done (took 2.088925816 seconds)
+loading group "dates"...done (took 1.589533279 seconds)
+loading group "micro"...done (took 0.476039784 seconds)
+loading group "io"...done (took 0.559587153 seconds)
+loading group "scalar"...done (took 24.246419474 seconds)
+loading group "sparse"...done (took 4.120341854 seconds)
+loading group "broadcast"...done (took 1.325274877 seconds)
+loading group "simd"...done (took 2.621701791 seconds)
+loading group "problem"...done (took 1.751759898 seconds)
+loading group "array"...done (took 20.960887263 seconds)
+loading group "misc"...done (took 0.787290298 seconds)
+loading group "sort"...done (took 3.948843553 seconds)
+loading group "nullable"...done (took 6.362727455 seconds)
+loading group "shootout"...done (took 1.074974498 seconds)
