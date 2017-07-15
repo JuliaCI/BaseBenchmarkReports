@@ -19,48 +19,6 @@ Stacktrace:
  [7] _start() at ./client.jl:383
 while loading /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl, in expression starting on line 682
 
-WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:41.
-Use "mutable struct" instead.
-
-WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:42.
-Use "mutable struct" instead.
-
-WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:43.
-Use "mutable struct" instead.
-
-WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:46.
-Use "struct" instead.
-
-WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:52.
-Use "struct" instead.
-
-WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:64.
-Use "mutable struct" instead.
-
-WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:93.
-Use "struct" instead.
-
-WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:98.
-Use "struct" instead.
-
-WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:112.
-Use "struct" instead.
-
-WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:115.
-Use "struct" instead.
-
-WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:790.
-Use "struct" instead.
-
-WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:831.
-Use "struct" instead.
-
-WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:852.
-Use "struct" instead.
-
-WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:861.
-Use "struct" instead.
-
 WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:223.
 Use "struct" instead.
 
@@ -128,6 +86,48 @@ WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/HDF5/src
 Use "struct" instead.
 
 WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/Blosc/src/Blosc.jl:235.
+Use "struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:41.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:42.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:43.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:46.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:52.
+Use "struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:64.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:93.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:98.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:112.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:115.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:790.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:831.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:852.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:861.
 Use "struct" instead.
 
 WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:4.
@@ -2298,43 +2298,6 @@ Use "mutable struct" instead.
 
 WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/nbody_vec.jl:16.
 Use "mutable struct" instead.
-HDF5-DIAG: Error detected in HDF5 (1.8.11) thread 140737354054848:
-  #000: ../../../src/H5R.c line 577 in H5Rdereference(): unable to dereference object
-    major: References
-    minor: Unable to initialize object
-  #001: ../../../src/H5R.c line 465 in H5R_dereference(): dereferencing deleted object
-    major: References
-    minor: Bad object header link count
-  #002: ../../../src/H5O.c line 3084 in H5O_get_rc_and_type(): unable to load object header
-    major: Object header
-    minor: Unable to protect metadata
-  #003: ../../../src/H5O.c line 1684 in H5O_protect(): unable to load object header
-    major: Object header
-    minor: Unable to protect metadata
-  #004: ../../../src/H5AC.c line 1329 in H5AC_protect(): H5C_protect() failed.
-    major: Object cache
-    minor: Unable to protect metadata
-  #005: ../../../src/H5C.c line 3570 in H5C_protect(): can't load entry
-    major: Object cache
-    minor: Unable to load metadata into cache
-  #006: ../../../src/H5C.c line 7950 in H5C_load_entry(): unable to load entry
-    major: Object cache
-    minor: Unable to load metadata into cache
-  #007: ../../../src/H5Ocache.c line 189 in H5O_load(): unable to read object header
-    major: Object header
-    minor: Read failed
-  #008: ../../../src/H5Fio.c line 113 in H5F_block_read(): read through metadata accumulator failed
-    major: Low-level I/O
-    minor: Read failed
-  #009: ../../../src/H5Faccum.c line 209 in H5F_accum_read(): driver read request failed
-    major: Low-level I/O
-    minor: Read failed
-  #010: ../../../src/H5FDint.c line 142 in H5FD_read(): driver read request failed
-    major: Virtual File Layer
-    minor: Read failed
-  #011: ../../../src/H5FDsec2.c line 692 in H5FD_sec2_read(): addr overflow, addr = 140737114196272, size=512, eoa=1968215
-    major: Invalid arguments to routine
-    minor: Address overflowed
 ./sysimg.jl:14
  [15] process_options(::Base.JLOptions) at ./client.jl:315
  [16] _start() at ./client.jl:383
@@ -3458,7 +3421,7 @@ Stacktrace:
  [15] include(::Module, ::String) at ./sysimg.jl:14
  [16] process_options(::Base.JLOptions) at ./client.jl:315
  [17] _start() at ./client.jl:383
-while loading /home/nanosoldier/workdir/tmpytBdvZ/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpnOGN0V/benchscript.jl, in expression starting on line 16
 WARNING: `nfields(::DataType)` is deprecated, use `fieldcount` instead
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:70
@@ -3481,7 +3444,7 @@ Stacktrace:
  [18] include(::Module, ::String) at ./sysimg.jl:14
  [19] process_options(::Base.JLOptions) at ./client.jl:315
  [20] _start() at ./client.jl:383
-while loading /home/nanosoldier/workdir/tmpytBdvZ/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpnOGN0V/benchscript.jl, in expression starting on line 16
 WARNING: `nfields(::DataType)` is deprecated, use `fieldcount` instead
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:70
@@ -3504,7 +3467,7 @@ Stacktrace:
  [18] include(::Module, ::String) at ./sysimg.jl:14
  [19] process_options(::Base.JLOptions) at ./client.jl:315
  [20] _start() at ./client.jl:383
-while loading /home/nanosoldier/workdir/tmpytBdvZ/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpnOGN0V/benchscript.jl, in expression starting on line 16
 WARNING: `nfields(::DataType)` is deprecated, use `fieldcount` instead
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:70
@@ -3532,7 +3495,7 @@ Stacktrace:
  [23] include(::Module, ::String) at ./sysimg.jl:14
  [24] process_options(::Base.JLOptions) at ./client.jl:315
  [25] _start() at ./client.jl:383
-while loading /home/nanosoldier/workdir/tmpytBdvZ/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpnOGN0V/benchscript.jl, in expression starting on line 16
 WARNING: `nfields(::DataType)` is deprecated, use `fieldcount` instead
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:70
@@ -3560,44 +3523,47 @@ Stacktrace:
  [23] include(::Module, ::String) at ./sysimg.jl:14
  [24] process_options(::Base.JLOptions) at ./client.jl:315
  [25] _start() at ./client.jl:383
-while loading /home/nanosoldier/workdir/tmpytBdvZ/benchscript.jl, in expression starting on line 16
-ERROR: LoadError: Error dereferencing object
+while loading /home/nanosoldier/workdir/tmpnOGN0V/benchscript.jl, in expression starting on line 16
+WARNING: current_module() is deprecated, use `@__MODULE__` instead.
 Stacktrace:
- [1] h5r_dereference at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1897 [inlined]
- [2] getindex at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:296 [inlined]
- [3] read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:507
- [4] @generated body at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:451 [inlined]
- [5] jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:581
- [6] read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T} where T) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:409
- [7] read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:381
- [8] read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:509
- [9] @generated body at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:451 [inlined]
- [10] jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:581
- [11] read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T} where T) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:409
- [12] read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:381
- [13] read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:509
- [14] read_refs(::JLD.JldDataset, ::Type{Any}, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:482
- [15] read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32, ::Tuple{Int64}) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:418
- [16] read_array(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Int32, ::Int32) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:417
- [17] read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:383
- [18] read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:509
- [19] @generated body at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:451 [inlined]
- [20] jlconvert(::Type{JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:581
- [21] read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T} where T) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:409
- [22] read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:381
- [23] read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:509
- [24] @generated body at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:451 [inlined]
- [25] jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:581
- [26] read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T} where T) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:409
- [27] read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:381
- [28] read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:357
- [29] (::BaseBenchmarks.##7#8{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:59
- [30] #jldopen#11(::Array{Any,1}, ::Function, ::BaseBenchmarks.##7#8{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:256
- [31] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:57
- [32] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:48 [inlined]
- [33] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:48
- [34] include_from_node1(::Module, ::String) at ./loading.jl:556
- [35] include(::Module, ::String) at ./sysimg.jl:14
- [36] process_options(::Base.JLOptions) at ./client.jl:315
- [37] _start() at ./client.jl:383
-while loading /home/nanosoldier/workdir/tmpytBdvZ/benchscript.jl, in expression starting on line 16
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:70
+ [2] current_module() at ./deprecated.jl:1405
+ [3] #run_result#16(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#726")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:40
+ [4] (::BenchmarkTools.#kw##run_result)(::Array{Any,1}, ::BenchmarkTools.#run_result, ::BenchmarkTools.Benchmark{Symbol("##benchmark#726")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [5] #run#17(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#726")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:43
+ [6] (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#726")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [7] #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:52
+ [8] (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ [9] #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:52
+ [10] (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ [11] warmup(::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:78
+ [12] include_from_node1(::Module, ::String) at ./loading.jl:556
+ [13] include(::Module, ::String) at ./sysimg.jl:14
+ [14] process_options(::Base.JLOptions) at ./client.jl:315
+ [15] _start() at ./client.jl:383
+while loading /home/nanosoldier/workdir/tmpnOGN0V/benchscript.jl, in expression starting on line 22
+WARNING: Base.take is deprecated, use Base.Iterators.take instead.
+  likely near /home/nanosoldier/workdir/tmpnOGN0V/benchscript.jl:22
+WARNING: Base.take is deprecated, use Base.Iterators.take instead.
+  likely near /home/nanosoldier/workdir/tmpnOGN0V/benchscript.jl:22
+WARNING: Base.take is deprecated, use Base.Iterators.take instead.
+  likely near /home/nanosoldier/workdir/tmpnOGN0V/benchscript.jl:22
+WARNING: Base.take is deprecated, use Base.Iterators.take instead.
+  likely near /home/nanosoldier/workdir/tmpnOGN0V/benchscript.jl:22
+WARNING: current_module() is deprecated, use `@__MODULE__` instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:70
+ [2] current_module() at ./deprecated.jl:1405
+ [3] #run_result#16(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#726")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:40
+ [4] (::BenchmarkTools.#kw##run_result)(::Array{Any,1}, ::BenchmarkTools.#run_result, ::BenchmarkTools.Benchmark{Symbol("##benchmark#726")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [5] #run#17(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#726")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:43
+ [6] (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.Benchmark{Symbol("##benchmark#726")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [7] #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:52
+ [8] (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ [9] #run#18(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:52
+ [10] (::Base.#kw##run)(::Array{Any,1}, ::Base.#run, ::BenchmarkTools.BenchmarkGroup) at ./<missing>:0
+ [11] include_from_node1(::Module, ::String) at ./loading.jl:556
+ [12] include(::Module, ::String) at ./sysimg.jl:14
+ [13] process_options(::Base.JLOptions) at ./client.jl:315
+ [14] _start() at ./client.jl:383
+while loading /home/nanosoldier/workdir/tmpnOGN0V/benchscript.jl, in expression starting on line 25
