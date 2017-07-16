@@ -1,4 +1,4 @@
-cset: moving following pidspec: 5403
+cset: moving following pidspec: 26984
 cset: moving 1 userspace tasks to /user/child
 cset: done
 	From worker 2:	
@@ -32,20 +32,20 @@ cset: done
 	From worker 2:	WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/serialization.jl:16.
 	From worker 2:	Use "mutable struct" instead.
 LOADING SUITE...
-loading group "string"...done (took 1.222582125 seconds)
-loading group "linalg"...done (took 8.542887459 seconds)
-loading group "parallel"...done (took 0.269985357 seconds)
-loading group "tuple"...done (took 2.044558922 seconds)
-loading group "dates"...done (took 1.55949839 seconds)
-loading group "micro"...done (took 0.476026631 seconds)
-loading group "io"...done (took 0.554903648 seconds)
-loading group "scalar"...done (took 24.789727838 seconds)
-loading group "sparse"...done (took 4.252997073 seconds)
-loading group "broadcast"...done (took 1.305716442 seconds)
-loading group "simd"...done (took 2.577837127 seconds)
-loading group "problem"...done (took 1.725731491 seconds)
-loading group "array"...done (took 21.39861797 seconds)
-loading group "misc"...done (took 0.775330955 seconds)
-loading group "sort"...done (took 3.872194801 seconds)
-loading group "nullable"...done (took 6.316711696 seconds)
-loading group "shootout"...done (took 1.067597009 seconds)
+loading group "string"...done (took 1.263977367 seconds)
+loading group "linalg"...done (took 8.522532342 seconds)
+loading group "parallel"...done (took 0.270125356 seconds)
+loading group "tuple"...done (took 2.041277571 seconds)
+loading group "dates"...done (took 1.555949185 seconds)
+loading group "micro"...done (took 0.476767411 seconds)
+loading group "io"...done (took 0.556176232 seconds)
+loading group "scalar"...done (took 24.777296346 seconds)
+loading group "sparse"...done (took 4.245600769 seconds)
+loading group "broadcast"...done (took 1.303378878 seconds)
+loading group "simd"...done (took 2.568467059 seconds)
+loading group "problem"...done (took 1.713248702 seconds)
+loading group "array"...done (took 21.399170244 seconds)
+loading group "misc"...done (took 0.775359147 seconds)
+loading group "sort"...done (took 3.868221643 seconds)
+loading group "nullable"...done (took 6.312463491 seconds)
+loading group "shootout"...done (took 1.066790955 seconds)
