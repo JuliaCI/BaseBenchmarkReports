@@ -1,0 +1,52 @@
+cset: moving following pidspec: 16618
+cset: moving 1 userspace tasks to /user/child
+cset: done
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/parameters.jl:8.
+	From worker 2:	Use "mutable struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/trials.jl:5.
+	From worker 2:	Use "mutable struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/trials.jl:89.
+	From worker 2:	Use "mutable struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/trials.jl:136.
+	From worker 2:	Use "mutable struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/trials.jl:181.
+	From worker 2:	Use "struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/groups.jl:5.
+	From worker 2:	Use "struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/groups.jl:141.
+	From worker 2:	Use "struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:10.
+	From worker 2:	Use "mutable struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/serialization.jl:5.
+	From worker 2:	Use "mutable struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/serialization.jl:16.
+	From worker 2:	Use "mutable struct" instead.
+	From worker 2:	WARNING: importing deprecated binding Compat.UTF8String into BaseBenchmarks.
+LOADING SUITE...
+loading group "string"...done (took 1.210391279 seconds)
+loading group "linalg"...done (took 8.583470496 seconds)
+loading group "parallel"...done (took 0.216634671 seconds)
+loading group "tuple"...done (took 2.014484244 seconds)
+loading group "dates"...done (took 1.571308754 seconds)
+loading group "micro"...done (took 0.452783835 seconds)
+loading group "io"...done (took 0.531215038 seconds)
+loading group "scalar"...done (took 24.949695629 seconds)
+loading group "sparse"...done (took 4.311977661 seconds)
+loading group "broadcast"...done (took 1.305058416 seconds)
+loading group "simd"...done (took 2.582354572 seconds)
+loading group "problem"...done (took 1.601750544 seconds)
+loading group "array"...done (took 21.527235272 seconds)
+loading group "misc"...done (took 0.758120568 seconds)
+loading group "sort"...done (took 3.914319202 seconds)
+loading group "nullable"...done (took 6.575577663 seconds)
+loading group "shootout"...done (took 0.898593739 seconds)
