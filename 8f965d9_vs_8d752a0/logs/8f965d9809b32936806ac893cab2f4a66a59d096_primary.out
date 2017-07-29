@@ -1,4 +1,4 @@
-cset: moving following pidspec: 5804
+cset: moving following pidspec: 26617
 cset: moving 1 userspace tasks to /user/child
 cset: done
 	From worker 2:	
@@ -33,21 +33,21 @@ cset: done
 	From worker 2:	Use "mutable struct" instead.
 	From worker 2:	WARNING: importing deprecated binding Compat.UTF8String into BaseBenchmarks.
 LOADING SUITE...
-loading group "string"...done (took 1.168809665 seconds)
-loading group "linalg"...done (took 8.551204731 seconds)
-loading group "parallel"...done (took 0.21152194 seconds)
-loading group "tuple"...done (took 2.027630958 seconds)
-loading group "dates"...done (took 1.463488968 seconds)
-loading group "micro"...done (took 0.433665552 seconds)
-loading group "io"...done (took 0.57260836 seconds)
-loading group "scalar"...done (took 32.130573519 seconds)
-loading group "sparse"...done (took 4.047400581 seconds)
-loading group "broadcast"...done (took 1.230554737 seconds)
-loading group "simd"...done (took 2.534064073 seconds)
-loading group "random"...done (took 9.687578149 seconds)
-loading group "problem"...done (took 1.528535927 seconds)
-loading group "array"...done (took 20.502909275 seconds)
-loading group "misc"...done (took 0.941076585 seconds)
-loading group "sort"...done (took 3.646015461 seconds)
-loading group "nullable"...done (took 6.159077562 seconds)
-loading group "shootout"...done (took 0.843783626 seconds)
+loading group "string"...done (took 1.16755797 seconds)
+loading group "linalg"...done (took 8.526510516 seconds)
+loading group "parallel"...done (took 0.210973685 seconds)
+loading group "tuple"...done (took 2.018756298 seconds)
+loading group "dates"...done (took 1.462604848 seconds)
+loading group "micro"...done (took 0.43349021 seconds)
+loading group "io"...done (took 0.574665436 seconds)
+loading group "scalar"...done (took 32.292789199 seconds)
+loading group "sparse"...done (took 4.311955525 seconds)
+loading group "broadcast"...done (took 1.23776108 seconds)
+loading group "simd"...done (took 2.551407748 seconds)
+loading group "random"...done (took 9.742661681 seconds)
+loading group "problem"...done (took 1.523272165 seconds)
+loading group "array"...done (took 20.627626403 seconds)
+loading group "misc"...done (took 0.937838211 seconds)
+loading group "sort"...done (took 3.641631876 seconds)
+loading group "nullable"...done (took 6.163108192 seconds)
+loading group "shootout"...done (took 0.841758035 seconds)
