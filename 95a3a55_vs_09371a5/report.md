@@ -4,9 +4,9 @@
 
 *Commit(s):* [musm/julia@95a3a553744e5dd5ddd33ea589d70f92eb65e37b](https://github.com/musm/julia/commit/95a3a553744e5dd5ddd33ea589d70f92eb65e37b) vs [JuliaLang/julia@09371a5c904348b4f7883dac8e3e034818678e87](https://github.com/JuliaLang/julia/commit/09371a5c904348b4f7883dac8e3e034818678e87)
 
-*Triggered By:* [link](https://github.com/JuliaLang/julia/pull/23046#issuecomment-319107436)
+*Triggered By:* [link](https://github.com/JuliaLang/julia/pull/23046#issuecomment-319108366)
 
-*Tag Predicate:* `"rand"`
+*Tag Predicate:* `"random"`
 
 ## Results
 
@@ -29,17 +29,23 @@ benchmark results remained invariant between builds).
 
 | ID | time ratio | memory ratio |
 |----|------------|--------------|
-| `["random","ranges",("rand","MersenneTwister","BigInt","RangeGenerator(1:2^10000)")]` | 1.26 (25%) :x: | 1.00 (1%)  |
-| `["random","types",("rand","MersenneTwister","Complex{Float32}")]` | 1.26 (25%) :x: | 1.00 (1%)  |
+| `["random","ranges",("rand","MersenneTwister","BigInt","RangeGenerator(1:2^10000)")]` | 1.27 (25%) :x: | 1.00 (1%)  |
+| `["random","ranges",("rand","MersenneTwister","UInt128","RangeGenerator(1:170141183460469231731687303715884105728)")]` | 1.26 (25%) :x: | 1.00 (1%)  |
 
 ## Benchmark Group List
 
 Here's a list of all the benchmark groups executed by this job:
 
-- `["micro"]`
+- `["problem","monte carlo"]`
 - `["random","collections"]`
+- `["random","randstring"]`
 - `["random","ranges"]`
+- `["random","sequences"]`
 - `["random","types"]`
+- `["sort","insertionsort"]`
+- `["sort","issorted"]`
+- `["sort","mergesort"]`
+- `["sort","quicksort"]`
 
 ## Version Info
 
@@ -54,14 +60,14 @@ Platform Info:
   uname: Linux 3.13.0-85-generic #129-Ubuntu SMP Thu Mar 17 20:50:15 UTC 2016 x86_64 x86_64
   CPU: Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz: 
               speed         user         nice          sys         idle          irq
-       #1  3501 MHz   81037436 s          0 s   14711645 s  3609750480 s         85 s
-       #2  3501 MHz  330941150 s          0 s    9156846 s  3374089325 s         13 s
-       #3  3501 MHz   70183382 s          0 s    8136182 s  3636254655 s         72 s
-       #4  3501 MHz   66975133 s          0 s    8328128 s  3639252623 s         17 s
+       #1  3501 MHz   81210464 s          0 s   14726171 s  3609947910 s         85 s
+       #2  3501 MHz  331206350 s          0 s    9177613 s  3374188946 s         13 s
+       #3  3501 MHz   70355329 s          0 s    8150634 s  3636453564 s         72 s
+       #4  3501 MHz   67128968 s          0 s    8342376 s  3639470030 s         17 s
        
-  Memory: 31.383651733398438 GB (2774.85546875 MB free)
-  Uptime: 3.7163509e7 sec
-  Load Avg:  0.9228515625  1.14013671875  1.53955078125
+  Memory: 31.383651733398438 GB (2866.54296875 MB free)
+  Uptime: 3.7167373e7 sec
+  Load Avg:  1.064453125  1.15283203125  1.6767578125
   WORD_SIZE: 64
   BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell)
   LAPACK: libopenblas64_
@@ -81,14 +87,14 @@ Platform Info:
   uname: Linux 3.13.0-85-generic #129-Ubuntu SMP Thu Mar 17 20:50:15 UTC 2016 x86_64 x86_64
   CPU: Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz: 
               speed         user         nice          sys         idle          irq
-       #1  3501 MHz   81131946 s          0 s   14718934 s  3609837077 s         85 s
-       #2  3501 MHz  331069016 s          0 s    9167296 s  3374139638 s         13 s
-       #3  3501 MHz   70261903 s          0 s    8143417 s  3636357419 s         72 s
-       #4  3501 MHz   67052779 s          0 s    8335193 s  3639356585 s         17 s
+       #1  3501 MHz   81285990 s          0 s   14733459 s  3610059570 s         85 s
+       #2  3501 MHz  331359440 s          0 s    9188106 s  3374220116 s         13 s
+       #3  3501 MHz   70433496 s          0 s    8157925 s  3636562770 s         72 s
+       #4  3501 MHz   67206301 s          0 s    8349325 s  3639580544 s         17 s
        
-  Memory: 31.383651733398438 GB (2787.78515625 MB free)
-  Uptime: 3.71654e7 sec
-  Load Avg:  0.9970703125  1.14599609375  1.6708984375
+  Memory: 31.383651733398438 GB (2807.03515625 MB free)
+  Uptime: 3.7169325e7 sec
+  Load Avg:  1.0029296875  1.13037109375  1.67138671875
   WORD_SIZE: 64
   BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell)
   LAPACK: libopenblas64_

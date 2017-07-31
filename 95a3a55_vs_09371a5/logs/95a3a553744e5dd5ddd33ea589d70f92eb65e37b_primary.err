@@ -916,9 +916,9 @@ WARNING: deprecated syntax "parametric method syntax perf_matmat{R1, R2, C, T}(A
 Use "perf_matmat(A::FixedMatrix{R1, C, T}, B::FixedMatrix{C, R2, T}) where {R1, R2, C, T}" instead.
 WARNING: importing deprecated binding Compat.UTF8String into BaseBenchmarks.
 WARNING: Compat.ASCIIString is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpW2a8q3/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmphZaD0F/benchscript.jl:16
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpW2a8q3/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmphZaD0F/benchscript.jl:16
 WARNING: importing deprecated binding Compat.UTF8String into RandUtils.
 WARNING: importing deprecated binding Compat.UTF8String into StringBenchmarks.
 WARNING: current_module() is deprecated, use `@__MODULE__` instead.
@@ -6312,10 +6312,10 @@ Stacktrace:
  [14] _start() at ./client.jl:383
 while loading /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/ShootoutBenchmarks.jl, in expression starting on line 253
 WARNING: Compat.ASCIIString is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpW2a8q3/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmphZaD0F/benchscript.jl:16
 in jldatatype at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpW2a8q3/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmphZaD0F/benchscript.jl:16
 in jldatatype at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl
 WARNING: `nfields(::DataType)` is deprecated, use `fieldcount` instead
 Stacktrace:
@@ -6339,7 +6339,7 @@ Stacktrace:
  [18] include(::Module, ::String) at ./sysimg.jl:14
  [19] process_options(::Base.JLOptions) at ./client.jl:315
  [20] _start() at ./client.jl:383
-while loading /home/nanosoldier/workdir/tmpW2a8q3/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmphZaD0F/benchscript.jl, in expression starting on line 16
 WARNING: `nfields(::DataType)` is deprecated, use `fieldcount` instead
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:70
@@ -6362,7 +6362,7 @@ Stacktrace:
  [18] include(::Module, ::String) at ./sysimg.jl:14
  [19] process_options(::Base.JLOptions) at ./client.jl:315
  [20] _start() at ./client.jl:383
-while loading /home/nanosoldier/workdir/tmpW2a8q3/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmphZaD0F/benchscript.jl, in expression starting on line 16
 WARNING: `nfields(::DataType)` is deprecated, use `fieldcount` instead
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:70
@@ -6390,7 +6390,7 @@ Stacktrace:
  [23] include(::Module, ::String) at ./sysimg.jl:14
  [24] process_options(::Base.JLOptions) at ./client.jl:315
  [25] _start() at ./client.jl:383
-while loading /home/nanosoldier/workdir/tmpW2a8q3/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmphZaD0F/benchscript.jl, in expression starting on line 16
 WARNING: `nfields(::DataType)` is deprecated, use `fieldcount` instead
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:70
@@ -6418,9 +6418,9 @@ Stacktrace:
  [23] include(::Module, ::String) at ./sysimg.jl:14
  [24] process_options(::Base.JLOptions) at ./client.jl:315
  [25] _start() at ./client.jl:383
-while loading /home/nanosoldier/workdir/tmpW2a8q3/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmphZaD0F/benchscript.jl, in expression starting on line 16
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpW2a8q3/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmphZaD0F/benchscript.jl:16
 WARNING: current_module() is deprecated, use `@__MODULE__` instead.
 Stacktrace:
  [1] depwarn at ./deprecated.jl:70 [inlined]
@@ -6440,7 +6440,7 @@ Stacktrace:
  [15] include(::Module, ::String) at ./sysimg.jl:14
  [16] process_options(::Base.JLOptions) at ./client.jl:315
  [17] _start() at ./client.jl:383
-while loading /home/nanosoldier/workdir/tmpW2a8q3/benchscript.jl, in expression starting on line 22
+while loading /home/nanosoldier/workdir/tmphZaD0F/benchscript.jl, in expression starting on line 22
 WARNING: current_module() is deprecated, use `@__MODULE__` instead.
 Stacktrace:
  [1] depwarn at ./deprecated.jl:70 [inlined]
@@ -6459,6 +6459,6 @@ Stacktrace:
  [14] include(::Module, ::String) at ./sysimg.jl:14
  [15] process_options(::Base.JLOptions) at ./client.jl:315
  [16] _start() at ./client.jl:383
-while loading /home/nanosoldier/workdir/tmpW2a8q3/benchscript.jl, in expression starting on line 25
+while loading /home/nanosoldier/workdir/tmphZaD0F/benchscript.jl, in expression starting on line 25
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpW2a8q3/benchscript.jl:28
+  likely near /home/nanosoldier/workdir/tmphZaD0F/benchscript.jl:28

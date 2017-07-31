@@ -916,9 +916,9 @@ WARNING: deprecated syntax "parametric method syntax perf_matmat{R1, R2, C, T}(A
 Use "perf_matmat(A::FixedMatrix{R1, C, T}, B::FixedMatrix{C, R2, T}) where {R1, R2, C, T}" instead.
 WARNING: importing deprecated binding Compat.UTF8String into BaseBenchmarks.
 WARNING: Compat.ASCIIString is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpEjb9A9/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpGGANDU/benchscript.jl:16
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpEjb9A9/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpGGANDU/benchscript.jl:16
 WARNING: importing deprecated binding Compat.UTF8String into RandUtils.
 WARNING: importing deprecated binding Compat.UTF8String into StringBenchmarks.
 WARNING: current_module() is deprecated, use `@__MODULE__` instead.
@@ -6312,10 +6312,10 @@ Stacktrace:
  [14] _start() at ./client.jl:383
 while loading /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/ShootoutBenchmarks.jl, in expression starting on line 253
 WARNING: Compat.ASCIIString is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpEjb9A9/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpGGANDU/benchscript.jl:16
 in jldatatype at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpEjb9A9/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpGGANDU/benchscript.jl:16
 in jldatatype at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl
 WARNING: `nfields(::DataType)` is deprecated, use `fieldcount` instead
 Stacktrace:
@@ -6331,7 +6331,7 @@ Stacktrace:
  [10] read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:368
  [11] read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:344
  [12] (::BaseBenchmarks.##7#8{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:60
- [13] #jldopen#11(::Array{Any,1}, ::Function, ::BaseBenchmarks.##7#8{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:243
+ [13] #jldopen#11(::Array{Any,1}, ::Function, ::BaseBenchmarks.##7#8{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:243
  [14] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:58
  [15] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
  [16] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49
@@ -6339,7 +6339,7 @@ Stacktrace:
  [18] include(::Module, ::String) at ./sysimg.jl:14
  [19] process_options(::Base.JLOptions) at ./client.jl:315
  [20] _start() at ./client.jl:383
-while loading /home/nanosoldier/workdir/tmpEjb9A9/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpGGANDU/benchscript.jl, in expression starting on line 16
 WARNING: `nfields(::DataType)` is deprecated, use `fieldcount` instead
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:70
@@ -6354,7 +6354,7 @@ Stacktrace:
  [10] read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:368
  [11] read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:344
  [12] (::BaseBenchmarks.##7#8{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:60
- [13] #jldopen#11(::Array{Any,1}, ::Function, ::BaseBenchmarks.##7#8{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:243
+ [13] #jldopen#11(::Array{Any,1}, ::Function, ::BaseBenchmarks.##7#8{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:243
  [14] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:58
  [15] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
  [16] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49
@@ -6362,7 +6362,7 @@ Stacktrace:
  [18] include(::Module, ::String) at ./sysimg.jl:14
  [19] process_options(::Base.JLOptions) at ./client.jl:315
  [20] _start() at ./client.jl:383
-while loading /home/nanosoldier/workdir/tmpEjb9A9/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpGGANDU/benchscript.jl, in expression starting on line 16
 WARNING: `nfields(::DataType)` is deprecated, use `fieldcount` instead
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:70
@@ -6382,7 +6382,7 @@ Stacktrace:
  [15] read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:368
  [16] read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:344
  [17] (::BaseBenchmarks.##7#8{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:60
- [18] #jldopen#11(::Array{Any,1}, ::Function, ::BaseBenchmarks.##7#8{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:243
+ [18] #jldopen#11(::Array{Any,1}, ::Function, ::BaseBenchmarks.##7#8{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:243
  [19] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:58
  [20] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
  [21] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49
@@ -6390,7 +6390,7 @@ Stacktrace:
  [23] include(::Module, ::String) at ./sysimg.jl:14
  [24] process_options(::Base.JLOptions) at ./client.jl:315
  [25] _start() at ./client.jl:383
-while loading /home/nanosoldier/workdir/tmpEjb9A9/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpGGANDU/benchscript.jl, in expression starting on line 16
 WARNING: `nfields(::DataType)` is deprecated, use `fieldcount` instead
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:70
@@ -6410,7 +6410,7 @@ Stacktrace:
  [15] read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:368
  [16] read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:344
  [17] (::BaseBenchmarks.##7#8{BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:60
- [18] #jldopen#11(::Array{Any,1}, ::Function, ::BaseBenchmarks.##7#8{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{String,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:243
+ [18] #jldopen#11(::Array{Any,1}, ::Function, ::BaseBenchmarks.##7#8{BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:243
  [19] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:58
  [20] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
  [21] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49
@@ -6418,9 +6418,9 @@ Stacktrace:
  [23] include(::Module, ::String) at ./sysimg.jl:14
  [24] process_options(::Base.JLOptions) at ./client.jl:315
  [25] _start() at ./client.jl:383
-while loading /home/nanosoldier/workdir/tmpEjb9A9/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpGGANDU/benchscript.jl, in expression starting on line 16
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpEjb9A9/benchscript.jl:16
+  likely near /home/nanosoldier/workdir/tmpGGANDU/benchscript.jl:16
 WARNING: current_module() is deprecated, use `@__MODULE__` instead.
 Stacktrace:
  [1] depwarn at ./deprecated.jl:70 [inlined]
@@ -6440,7 +6440,7 @@ Stacktrace:
  [15] include(::Module, ::String) at ./sysimg.jl:14
  [16] process_options(::Base.JLOptions) at ./client.jl:315
  [17] _start() at ./client.jl:383
-while loading /home/nanosoldier/workdir/tmpEjb9A9/benchscript.jl, in expression starting on line 22
+while loading /home/nanosoldier/workdir/tmpGGANDU/benchscript.jl, in expression starting on line 22
 WARNING: current_module() is deprecated, use `@__MODULE__` instead.
 Stacktrace:
  [1] depwarn at ./deprecated.jl:70 [inlined]
@@ -6459,6 +6459,6 @@ Stacktrace:
  [14] include(::Module, ::String) at ./sysimg.jl:14
  [15] process_options(::Base.JLOptions) at ./client.jl:315
  [16] _start() at ./client.jl:383
-while loading /home/nanosoldier/workdir/tmpEjb9A9/benchscript.jl, in expression starting on line 25
+while loading /home/nanosoldier/workdir/tmpGGANDU/benchscript.jl, in expression starting on line 25
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpEjb9A9/benchscript.jl:28
+  likely near /home/nanosoldier/workdir/tmpGGANDU/benchscript.jl:28
