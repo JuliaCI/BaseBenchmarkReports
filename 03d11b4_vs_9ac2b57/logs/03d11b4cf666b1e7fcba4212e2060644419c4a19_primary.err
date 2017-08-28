@@ -5736,4 +5736,4 @@ Stacktrace:
  [15] process_options(::Base.JLOptions) at ./client.jl:315
  [16] _start() at ./client.jl:383
 while loading /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/ArrayBenchmarks.jl, in expression starting on line 47
-while loading /home/nanosoldier/workdir/tmpH2g4iU/benchscript.jl, in expression starting on line 16
+while loading /home/nanosoldier/workdir/tmpY4w2YJ/benchscript.jl, in expression starting on line 16
