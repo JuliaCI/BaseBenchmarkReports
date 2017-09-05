@@ -1,0 +1,185 @@
+cset: moving following pidspec: 2624
+cset: moving 1 userspace tasks to /user/child
+cset: done
+	From worker 2:	WARNING: cfunction(f, r, a::Tuple) is deprecated, use cfunction(f, r, Tuple{a...}) instead.
+	From worker 2:	Stacktrace:
+	From worker 2:	 [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
+	From worker 2:	 [2] cfunction(::Function, ::Type{T} where T, ::Tuple{DataType,DataType,DataType}) at ./deprecated.jl:56
+	From worker 2:	 [3] register_blosc at /home/nanosoldier/.julia/v0.7/HDF5/src/blosc_filter.jl:122 [inlined]
+	From worker 2:	 [4] __init__() at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:2369
+	From worker 2:	 [5] _include_from_serialized(::String) at ./loading.jl:149
+	From worker 2:	 [6] _require_from_serialized(::Symbol, ::String) at ./loading.jl:155
+	From worker 2:	 [7] _require_search_from_serialized(::Symbol, ::String) at ./loading.jl:175
+	From worker 2:	 [8] _require(::Symbol) at ./loading.jl:365
+	From worker 2:	 [9] require(::Symbol) at ./loading.jl:318
+	From worker 2:	 [10] _include_from_serialized(::String) at ./loading.jl:149
+	From worker 2:	 [11] _require_from_serialized(::Symbol, ::String) at ./loading.jl:155
+	From worker 2:	 [12] _require_search_from_serialized(::Symbol, ::String) at ./loading.jl:175
+	From worker 2:	 [13] _require(::Symbol) at ./loading.jl:365
+	From worker 2:	 [14] require(::Symbol) at ./loading.jl:318
+	From worker 2:	 [15] include_relative(::Module, ::String) at ./loading.jl:464
+	From worker 2:	 [16] _require(::Symbol) at ./loading.jl:401
+	From worker 2:	 [17] require(::Symbol) at ./loading.jl:318
+	From worker 2:	 [18] include_relative(::Module, ::String) at ./loading.jl:464
+	From worker 2:	 [19] _require(::Symbol) at ./loading.jl:401
+	From worker 2:	 [20] (::getfield(Base, Symbol("##736#738")){Symbol})() at ./loading.jl:326
+	From worker 2:	 [21] (::getfield(Base.Distributed, Symbol("##118#120")){Base.Distributed.CallWaitMsg})() at ./distributed/process_messages.jl:278
+	From worker 2:	 [22] run_work_thunk(::getfield(Base.Distributed, Symbol("##118#120")){Base.Distributed.CallWaitMsg}, ::Bool) at ./distributed/process_messages.jl:56
+	From worker 2:	 [23] run_work_thunk(::Base.Distributed.RemoteValue, ::Function) at ./distributed/process_messages.jl:65
+	From worker 2:	 [24] (::getfield(Base.Distributed, Symbol("##104#106")){Base.Distributed.RemoteValue,getfield(Base.Distributed, Symbol("##118#120")){Base.Distributed.CallWaitMsg}})() at ./event.jl:96
+	From worker 2:	while loading /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/BenchmarkTools.jl, in expression starting on line 4
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/parameters.jl:8.
+	From worker 2:	Use "mutable struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/trials.jl:5.
+	From worker 2:	Use "mutable struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/trials.jl:89.
+	From worker 2:	Use "mutable struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/trials.jl:136.
+	From worker 2:	Use "mutable struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/trials.jl:181.
+	From worker 2:	Use "struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/groups.jl:5.
+	From worker 2:	Use "struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/groups.jl:141.
+	From worker 2:	Use "struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:10.
+	From worker 2:	Use "mutable struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/serialization.jl:5.
+	From worker 2:	Use "mutable struct" instead.
+	From worker 2:	
+	From worker 2:	WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/serialization.jl:16.
+	From worker 2:	Use "mutable struct" instead.
+	From worker 2:	WARNING: importing deprecated binding Compat.UTF8String into BaseBenchmarks.
+LOADING SUITE...
+loading group "string"...done (took 1.315768925 seconds)
+loading group "linalg"...done (took 8.554104401 seconds)
+loading group "parallel"...done (took 0.215796855 seconds)
+loading group "tuple"...done (took 2.066890979 seconds)
+loading group "dates"...done (took 1.679182109 seconds)
+loading group "micro"...done (took 0.549153213 seconds)
+loading group "io"...done (took 0.587232915 seconds)
+loading group "scalar"...done (took 36.035227246 seconds)
+loading group "sparse"...done (took 4.726866594 seconds)
+loading group "broadcast"...done (took 1.333624688 seconds)
+loading group "simd"...done (took 2.598947044 seconds)
+loading group "random"...done (took 9.954620627 seconds)
+loading group "problem"...done (took 2.271520771 seconds)
+loading group "array"...done (took 22.94138689 seconds)
+loading group "misc"...done (took 1.02370448 seconds)
+loading group "sort"...done (took 3.827689401 seconds)
+loading group "nullable"...done (took 6.721775305 seconds)
+loading group "shootout"...done (took 0.894503624 seconds)
+FILTERING SUITE...
+WARMING UP BENCHMARKS...
+(1/4) benchmarking "string"...
+  (1/4) benchmarking "join"...
+  done (took 0.599752524 seconds)
+  (2/4) benchmarking "search"...
+    (1/2) benchmarking "Char"...
+    done (took 0.159519098 seconds)
+    (2/2) benchmarking "String"...
+    done (took 0.169170954 seconds)
+  done (took 0.90866988 seconds)
+  (3/4) benchmarking "searchindex"...
+    (1/2) benchmarking "Char"...
+    done (took 0.122039402 seconds)
+    (2/2) benchmarking "String"...
+    done (took 0.121655065 seconds)
+  done (took 0.812359309 seconds)
+  (4/4) benchmarking "replace"...
+  done (took 0.111037374 seconds)
+done (took 3.053430119 seconds)
+(2/4) benchmarking "io"...
+  (1/2) benchmarking "serialization"...
+    (1/4) benchmarking ("deserialize", "Matrix{Float64}")...
+    done (took 0.3531308 seconds)
+    (2/4) benchmarking ("deserialize", "Vector{String}")...
+    done (took 0.169270757 seconds)
+    (3/4) benchmarking ("serialize", "Matrix{Float64}")...
+    done (took 0.146625698 seconds)
+    (4/4) benchmarking ("serialize", "Vector{String}")...
+    done (took 0.172674332 seconds)
+  done (took 1.449945207 seconds)
+  (2/2) benchmarking "read"...
+    (1/2) benchmarking "readstring"...
+    done (took 0.113602574 seconds)
+    (2/2) benchmarking "read"...
+    done (took 0.127173504 seconds)
+  done (took 0.80864466 seconds)
+done (took 2.823522879 seconds)
+(3/4) benchmarking "problem"...
+  (1/1) benchmarking "spellcheck"...
+    (1/1) benchmarking "spellcheck"...
+    done (took 6.618018255 seconds)
+  done (took 7.180575547 seconds)
+done (took 7.746908877 seconds)
+(4/4) benchmarking "dates"...
+  (1/1) benchmarking "string"...
+    (1/2) benchmarking "Date"...
+    done (took 0.144536956 seconds)
+    (2/2) benchmarking "DateTime"...
+    done (took 0.115305235 seconds)
+  done (took 0.82650608 seconds)
+done (took 1.397716427 seconds)
+RUNNING BENCHMARKS...
+(1/4) benchmarking "string"...
+  (1/4) benchmarking "join"...
+  done (took 1.851952822 seconds)
+  (2/4) benchmarking "search"...
+    (1/2) benchmarking "Char"...
+    done (took 0.77660127 seconds)
+    (2/2) benchmarking "String"...
+    done (took 0.856166277 seconds)
+  done (took 2.219237935 seconds)
+  (3/4) benchmarking "searchindex"...
+    (1/2) benchmarking "Char"...
+    done (took 0.775482763 seconds)
+    (2/2) benchmarking "String"...
+    done (took 0.82167893 seconds)
+  done (took 2.163849468 seconds)
+  (4/4) benchmarking "replace"...
+  done (took 1.574824005 seconds)
+done (took 8.375875033 seconds)
+(2/4) benchmarking "io"...
+  (1/2) benchmarking "serialization"...
+    (1/4) benchmarking ("deserialize", "Matrix{Float64}")...
+    done (took 1.573379129 seconds)
+    (2/4) benchmarking ("deserialize", "Vector{String}")...
+    done (took 1.580545334 seconds)
+    (3/4) benchmarking ("serialize", "Matrix{Float64}")...
+    done (took 1.573856424 seconds)
+    (4/4) benchmarking ("serialize", "Vector{String}")...
+    done (took 1.491102814 seconds)
+  done (took 6.785084053 seconds)
+  (2/2) benchmarking "read"...
+    (1/2) benchmarking "readstring"...
+    done (took 1.338917889 seconds)
+    (2/2) benchmarking "read"...
+    done (took 0.969741752 seconds)
+  done (took 2.874696217 seconds)
+done (took 10.225513664 seconds)
+(3/4) benchmarking "problem"...
+  (1/1) benchmarking "spellcheck"...
+    (1/1) benchmarking "spellcheck"...
+    done (took 5.929947726 seconds)
+  done (took 6.495988352 seconds)
+done (took 7.062081498 seconds)
+(4/4) benchmarking "dates"...
+  (1/1) benchmarking "string"...
+    (1/2) benchmarking "Date"...
+    done (took 1.573305377 seconds)
+    (2/2) benchmarking "DateTime"...
+    done (took 1.576760984 seconds)
+  done (took 3.715879722 seconds)
+done (took 4.283685656 seconds)
+SAVING RESULT...
+DONE!
