@@ -1,25 +1,4 @@
 
-WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:147.
-Use "struct" instead.
-
-WARNING: deprecated syntax "parametric method syntax Base.Broadcast.broadcast{N}(f, t::NTuple{N}, ts::Vararg{NTuple{N}}) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:277".
-Use "Base.Broadcast.broadcast(f, t::NTuple{N}, ts::Vararg{NTuple{N}}) where N" instead.
-
-WARNING: deprecated syntax "parametric method syntax Base.convert{T}(::Type{Set{T}}, s::Set{T}) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:430".
-Use "Base.convert(#unused#::Type{Set{T}}, s::Set{T}) where T" instead.
-
-WARNING: deprecated syntax "parametric method syntax Base.convert{T}(::Type{Set{T}}, s::Set) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:431".
-Use "Base.convert(#unused#::Type{Set{T}}, s::Set) where T" instead.
-
-WARNING: deprecated syntax "parametric method syntax Base.unsafe_trunc{T <: Integer}(::Type{T}, x::Integer) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:440".
-Use "Base.unsafe_trunc(#unused#::Type{T}, x::Integer) where T <: Integer" instead.
-
-WARNING: deprecated syntax "parametric method syntax reshape{N}(parent::AbstractArray, ndims::Val{N}) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:523".
-Use "reshape(parent::AbstractArray, ndims::Val{N}) where N" instead.
-
-WARNING: deprecated syntax "parametric method syntax ntuple{F, N}(f::F, ::Val{N}) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:525".
-Use "ntuple(f::F, #unused#::Val{N}) where {F, N}" instead.
-
 WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:238.
 Use "struct" instead.
 
@@ -124,13 +103,9 @@ Use "decompress!(dest::DenseVector{T}, src::DenseVector{UInt8}) where T" instead
 
 WARNING: deprecated syntax "parametric method syntax decompress{T}(::Type{T}, src::DenseVector{UInt8}) around /home/nanosoldier/.julia/v0.7/Blosc/src/Blosc.jl:172".
 Use "decompress(#unused#::Type{T}, src::DenseVector{UInt8}) where T" instead.
-Syntax "&argument" around /home/nanosoldier/.julia/v0.7/HDF5/src/blosc_filter.jl:126 is deprecated. Remove the "&" and use a "Ref" argument type instead.
 
 WARNING: deprecated syntax "parametric method syntax heuristic_chunk{T}(A::AbstractArray{T}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:569".
 Use "heuristic_chunk(A::AbstractArray{T}) where T" instead.
-WARNING: importing deprecated binding Base.Range into HDF5.
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:701
 
 WARNING: deprecated syntax "parametric method syntax datatype{T <: HDF5Scalar}(x::T) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1136".
 Use "datatype(x::T) where T <: HDF5Scalar" instead.
@@ -254,24 +229,6 @@ Use "write(parent::Union{HDF5File, HDF5Group}, name::String, data::Union{T, Arra
 
 WARNING: deprecated syntax "parametric method syntax write{T <: ScalarOrString}(parent::HDF5Dataset, name::String, data::Union{T, Array{T}}, plists...) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1667".
 Use "write(parent::HDF5Dataset, name::String, data::Union{T, Array{T}}, plists...) where T <: ScalarOrString" instead.
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1670
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1680
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1699
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1703
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1729
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1738
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1747
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1748
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1750
 
 WARNING: deprecated syntax "parametric method syntax h5a_write{T <: HDF5Scalar}(attr_id::Hid, mem_type_id::Hid, x::T) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1905".
 Use "h5a_write(attr_id::Hid, mem_type_id::Hid, x::T) where T <: HDF5Scalar" instead.
@@ -290,7 +247,6 @@ Use "h5d_write(dataset_id::Hid, memtype_id::Hid, strs::Array{S}) where S <: Stri
 
 WARNING: deprecated syntax "parametric method syntax h5d_write{T <: Union{HDF5Scalar, CharType}}(dataset_id::Hid, memtype_id::Hid, v::HDF5Vlen{T}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1937".
 Use "h5d_write(dataset_id::Hid, memtype_id::Hid, v::HDF5Vlen{T}) where T <: Union{HDF5Scalar, CharType}" instead.
-Syntax "&argument" around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1955 is deprecated. Remove the "&" and use a "Ref" argument type instead.
 
 WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:4.
 Use "struct" instead.
@@ -475,257 +431,6 @@ Use "pointer(x::SubString{T}, i::Integer) where T <: Union{UTF16String, UTF32Str
 
 WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/LegacyStrings/src/rep.jl:3.
 Use "struct" instead.
-WARNING: importing deprecated binding Base.Range into JLD.
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:719
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:734
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:766
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:770
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:771
-
-WARNING: deprecated syntax "`const` declaration on local variable around /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:1111".
-
-WARNING: deprecated syntax "`const` declaration on local variable around /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:1295".
-
-WARNING: deprecated syntax "==(i, 1)?" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD00.jl:607.
-Use "==(i, 1) ?" instead.
-
-WARNING: deprecated syntax "==(i, 1) ?2" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD00.jl:607.
-Use "==(i, 1) ? 2" instead.
-
-WARNING: deprecated syntax "==(i, 1) ? 2:" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD00.jl:607.
-Use "==(i, 1) ? 2 :" instead.
-
-WARNING: deprecated syntax "==(i, 1) ? 2 :size" at /home/nanosoldier/.julia/v0.7/JLD/src/JLD00.jl:607.
-Use "==(i, 1) ? 2 : size" instead.
-
-WARNING: deprecated syntax "`const` declaration on local variable around /home/nanosoldier/.julia/v0.7/JLD/src/JLD00.jl:1013".
-WARNING: cfunction(f, r, a::Tuple) is deprecated, use cfunction(f, r, Tuple{a...}) instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] cfunction(::Function, ::Type{T} where T, ::Tuple{DataType,DataType,DataType}) at ./deprecated.jl:56
- [3] register_blosc at /home/nanosoldier/.julia/v0.7/HDF5/src/blosc_filter.jl:122 [inlined]
- [4] __init__() at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:2369
- [5] _include_from_serialized(::String) at ./loading.jl:149
- [6] _require_from_serialized(::Symbol, ::String) at ./loading.jl:155
- [7] _require(::Symbol) at ./loading.jl:447
- [8] require(::Symbol) at ./loading.jl:320
- [9] include_relative(::Module, ::String) at ./loading.jl:526
- [10] include(::Module, ::String) at ./sysimg.jl:14
- [11] anonymous at ./<missing>:2
- [12] eval(::Module, ::Expr) at ./sysimg.jl:53
- [13] process_options(::Base.JLOptions) at ./client.jl:298
- [14] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:4
-WARNING: `x::ANY` is deprecated, use `@nospecialize(x)` instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] include_relative(::Module, ::String) at ./loading.jl:526
- [3] include at ./sysimg.jl:14 [inlined]
- [4] include(::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:3
- [5] include_relative(::Module, ::String) at ./loading.jl:526
- [6] include(::Module, ::String) at ./sysimg.jl:14
- [7] anonymous at ./<missing>:2
- [8] eval(::Module, ::Expr) at ./sysimg.jl:53
- [9] process_options(::Base.JLOptions) at ./client.jl:298
- [10] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:43
-WARNING: `x::ANY` is deprecated, use `@nospecialize(x)` instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] include_relative(::Module, ::String) at ./loading.jl:526
- [3] include at ./sysimg.jl:14 [inlined]
- [4] include(::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:3
- [5] include_relative(::Module, ::String) at ./loading.jl:526
- [6] include(::Module, ::String) at ./sysimg.jl:14
- [7] anonymous at ./<missing>:2
- [8] eval(::Module, ::Expr) at ./sysimg.jl:53
- [9] process_options(::Base.JLOptions) at ./client.jl:298
- [10] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:47
-WARNING: `x::ANY` is deprecated, use `@nospecialize(x)` instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] include_relative(::Module, ::String) at ./loading.jl:526
- [3] include at ./sysimg.jl:14 [inlined]
- [4] include(::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:3
- [5] include_relative(::Module, ::String) at ./loading.jl:526
- [6] include(::Module, ::String) at ./sysimg.jl:14
- [7] anonymous at ./<missing>:2
- [8] eval(::Module, ::Expr) at ./sysimg.jl:53
- [9] process_options(::Base.JLOptions) at ./client.jl:298
- [10] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:69
-WARNING: `x::ANY` is deprecated, use `@nospecialize(x)` instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] include_relative(::Module, ::String) at ./loading.jl:526
- [3] include at ./sysimg.jl:14 [inlined]
- [4] include(::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:3
- [5] include_relative(::Module, ::String) at ./loading.jl:526
- [6] include(::Module, ::String) at ./sysimg.jl:14
- [7] anonymous at ./<missing>:2
- [8] eval(::Module, ::Expr) at ./sysimg.jl:53
- [9] process_options(::Base.JLOptions) at ./client.jl:298
- [10] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:331
-WARNING: `x::ANY` is deprecated, use `@nospecialize(x)` instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] include_relative(::Module, ::String) at ./loading.jl:526
- [3] include at ./sysimg.jl:14 [inlined]
- [4] include(::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:3
- [5] include_relative(::Module, ::String) at ./loading.jl:526
- [6] include(::Module, ::String) at ./sysimg.jl:14
- [7] anonymous at ./<missing>:2
- [8] eval(::Module, ::Expr) at ./sysimg.jl:53
- [9] process_options(::Base.JLOptions) at ./client.jl:298
- [10] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:335
-WARNING: `x::ANY` is deprecated, use `@nospecialize(x)` instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] include_relative(::Module, ::String) at ./loading.jl:526
- [3] include at ./sysimg.jl:14 [inlined]
- [4] include(::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:3
- [5] include_relative(::Module, ::String) at ./loading.jl:526
- [6] include(::Module, ::String) at ./sysimg.jl:14
- [7] anonymous at ./<missing>:2
- [8] eval(::Module, ::Expr) at ./sysimg.jl:53
- [9] process_options(::Base.JLOptions) at ./client.jl:298
- [10] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:369
-WARNING: `x::ANY` is deprecated, use `@nospecialize(x)` instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] include_relative(::Module, ::String) at ./loading.jl:526
- [3] include at ./sysimg.jl:14 [inlined]
- [4] include(::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:3
- [5] include_relative(::Module, ::String) at ./loading.jl:526
- [6] include(::Module, ::String) at ./sysimg.jl:14
- [7] anonymous at ./<missing>:2
- [8] eval(::Module, ::Expr) at ./sysimg.jl:53
- [9] process_options(::Base.JLOptions) at ./client.jl:298
- [10] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:391
-WARNING: `x::ANY` is deprecated, use `@nospecialize(x)` instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] include_relative(::Module, ::String) at ./loading.jl:526
- [3] include at ./sysimg.jl:14 [inlined]
- [4] include(::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:3
- [5] include_relative(::Module, ::String) at ./loading.jl:526
- [6] include(::Module, ::String) at ./sysimg.jl:14
- [7] anonymous at ./<missing>:2
- [8] eval(::Module, ::Expr) at ./sysimg.jl:53
- [9] process_options(::Base.JLOptions) at ./client.jl:298
- [10] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:396
-WARNING: `x::ANY` is deprecated, use `@nospecialize(x)` instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] include_relative(::Module, ::String) at ./loading.jl:526
- [3] include at ./sysimg.jl:14 [inlined]
- [4] include(::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:3
- [5] include_relative(::Module, ::String) at ./loading.jl:526
- [6] include(::Module, ::String) at ./sysimg.jl:14
- [7] anonymous at ./<missing>:2
- [8] eval(::Module, ::Expr) at ./sysimg.jl:53
- [9] process_options(::Base.JLOptions) at ./client.jl:298
- [10] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:439
-WARNING: `x::ANY` is deprecated, use `@nospecialize(x)` instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] include_relative(::Module, ::String) at ./loading.jl:526
- [3] include at ./sysimg.jl:14 [inlined]
- [4] include(::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:3
- [5] include_relative(::Module, ::String) at ./loading.jl:526
- [6] include(::Module, ::String) at ./sysimg.jl:14
- [7] anonymous at ./<missing>:2
- [8] eval(::Module, ::Expr) at ./sysimg.jl:53
- [9] process_options(::Base.JLOptions) at ./client.jl:298
- [10] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:474
-WARNING: `x::ANY` is deprecated, use `@nospecialize(x)` instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] include_relative(::Module, ::String) at ./loading.jl:526
- [3] include at ./sysimg.jl:14 [inlined]
- [4] include(::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:3
- [5] include_relative(::Module, ::String) at ./loading.jl:526
- [6] include(::Module, ::String) at ./sysimg.jl:14
- [7] anonymous at ./<missing>:2
- [8] eval(::Module, ::Expr) at ./sysimg.jl:53
- [9] process_options(::Base.JLOptions) at ./client.jl:298
- [10] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:499
-WARNING: `x::ANY` is deprecated, use `@nospecialize(x)` instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] include_relative(::Module, ::String) at ./loading.jl:526
- [3] include at ./sysimg.jl:14 [inlined]
- [4] include(::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:3
- [5] include_relative(::Module, ::String) at ./loading.jl:526
- [6] include(::Module, ::String) at ./sysimg.jl:14
- [7] anonymous at ./<missing>:2
- [8] eval(::Module, ::Expr) at ./sysimg.jl:53
- [9] process_options(::Base.JLOptions) at ./client.jl:298
- [10] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:506
-WARNING: `x::ANY` is deprecated, use `@nospecialize(x)` instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] include_relative(::Module, ::String) at ./loading.jl:526
- [3] include at ./sysimg.jl:14 [inlined]
- [4] include(::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:3
- [5] include_relative(::Module, ::String) at ./loading.jl:526
- [6] include(::Module, ::String) at ./sysimg.jl:14
- [7] anonymous at ./<missing>:2
- [8] eval(::Module, ::Expr) at ./sysimg.jl:53
- [9] process_options(::Base.JLOptions) at ./client.jl:298
- [10] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:525
-WARNING: `x::ANY` is deprecated, use `@nospecialize(x)` instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] include_relative(::Module, ::String) at ./loading.jl:526
- [3] include at ./sysimg.jl:14 [inlined]
- [4] include(::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:3
- [5] include_relative(::Module, ::String) at ./loading.jl:526
- [6] include(::Module, ::String) at ./sysimg.jl:14
- [7] anonymous at ./<missing>:2
- [8] eval(::Module, ::Expr) at ./sysimg.jl:53
- [9] process_options(::Base.JLOptions) at ./client.jl:298
- [10] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:580
-WARNING: `x::ANY` is deprecated, use `@nospecialize(x)` instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] include_relative(::Module, ::String) at ./loading.jl:526
- [3] include at ./sysimg.jl:14 [inlined]
- [4] include(::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:3
- [5] include_relative(::Module, ::String) at ./loading.jl:526
- [6] include(::Module, ::String) at ./sysimg.jl:14
- [7] anonymous at ./<missing>:2
- [8] eval(::Module, ::Expr) at ./sysimg.jl:53
- [9] process_options(::Base.JLOptions) at ./client.jl:298
- [10] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:609
-WARNING: `x::ANY` is deprecated, use `@nospecialize(x)` instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] include_relative(::Module, ::String) at ./loading.jl:526
- [3] include(::Module, ::String) at ./sysimg.jl:14
- [4] anonymous at ./<missing>:2
- [5] eval(::Module, ::Expr) at ./sysimg.jl:53
- [6] process_options(::Base.JLOptions) at ./client.jl:298
- [7] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:611
 
 WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/parameters.jl:8.
 Use "mutable struct" instead.
@@ -819,53 +524,7 @@ Use "perf_matvec(A::FixedMatrix{R, C, T}, b::FixedVector{C, T}) where {R, C, T}"
 
 WARNING: deprecated syntax "parametric method syntax perf_matmat{R1, R2, C, T}(A::FixedMatrix{R1, C, T}, B::FixedMatrix{C, R2, T}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/tuple/TupleBenchmarks.jl:144".
 Use "perf_matmat(A::FixedMatrix{R1, C, T}, B::FixedMatrix{C, R2, T}) where {R1, R2, C, T}" instead.
-WARNING: cfunction(f, r, a::Tuple) is deprecated, use cfunction(f, r, Tuple{a...}) instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] cfunction(::Function, ::Type{T} where T, ::Tuple{DataType,DataType,DataType}) at ./deprecated.jl:56
- [3] register_blosc at /home/nanosoldier/.julia/v0.7/HDF5/src/blosc_filter.jl:122 [inlined]
- [4] __init__() at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:2369
- [5] _include_from_serialized(::String) at ./loading.jl:149
- [6] _require_from_serialized(::Symbol, ::String) at ./loading.jl:155
- [7] _require_search_from_serialized(::Symbol, ::String) at ./loading.jl:175
- [8] _require(::Symbol) at ./loading.jl:423
- [9] require(::Symbol) at ./loading.jl:320
- [10] _include_from_serialized(::String) at ./loading.jl:149
- [11] _require_from_serialized(::Symbol, ::String) at ./loading.jl:155
- [12] _require(::Symbol) at ./loading.jl:447
- [13] require(::Symbol) at ./loading.jl:320
- [14] include_relative(::Module, ::String) at ./loading.jl:526
- [15] _require(::Symbol) at ./loading.jl:461
- [16] require(::Symbol) at ./loading.jl:320
- [17] include_relative(::Module, ::String) at ./loading.jl:526
- [18] _require(::Symbol) at ./loading.jl:461
- [19] require(::Symbol) at ./loading.jl:320
- [20] include_relative(::Module, ::String) at ./loading.jl:526
- [21] include(::Module, ::String) at ./sysimg.jl:14
- [22] process_options(::Base.JLOptions) at ./client.jl:315
- [23] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/BenchmarkTools.jl:4
 WARNING: importing deprecated binding Compat.UTF8String into BaseBenchmarks.
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:16
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:16
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:16
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:16
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:16
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:16
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:16
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:16
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:16
-WARNING: Base.Range is deprecated, use Base.AbstractRange{T} where T instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:16
 WARNING: tic() is deprecated, use @time, @elapsed, or calls to time_ns() instead.
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
@@ -877,7 +536,7 @@ Stacktrace:
  [7] include(::Module, ::String) at ./sysimg.jl:14
  [8] process_options(::Base.JLOptions) at ./client.jl:315
  [9] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:16
+in expression starting at /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:16
 WARNING: importing deprecated binding Compat.UTF8String into RandUtils.
 WARNING: importing deprecated binding Compat.UTF8String into StringBenchmarks.
 WARNING: current_module() is deprecated, use `@__MODULE__` instead.
@@ -927,7 +586,7 @@ Stacktrace:
  [7] include(::Module, ::String) at ./sysimg.jl:14
  [8] process_options(::Base.JLOptions) at ./client.jl:315
  [9] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:16
+in expression starting at /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:16
 WARNING: importing deprecated binding Compat.UTF8String into RandUtils.
 WARNING: importing deprecated binding Compat.UTF8String into LinAlgBenchmarks.
 WARNING: current_module() is deprecated, use `@__MODULE__` instead.
@@ -4158,6 +3817,44 @@ Stacktrace:
  [6] include at ./sysimg.jl:14 [inlined]
  [7] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
  [8] #load!#2(::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ [9] (::getfield(BaseBenchmarks, Symbol("#kw##load!")))(::Array{Any,1}, ::typeof(BaseBenchmarks.load!), ::BenchmarkTools.BenchmarkGroup, ::String) at ./<missing>:0
+ [10] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:54
+ [11] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
+ [12] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ [13] include_relative(::Module, ::String) at ./loading.jl:526
+ [14] include(::Module, ::String) at ./sysimg.jl:14
+ [15] process_options(::Base.JLOptions) at ./client.jl:315
+ [16] _start() at ./client.jl:383
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/scalar/ScalarBenchmarks.jl:499
+WARNING: current_module() is deprecated, use `@__MODULE__` instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
+ [2] current_module() at ./deprecated.jl:1370
+ [3] macro expansion at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/scalar/ScalarBenchmarks.jl:510 [inlined]
+ [4] anonymous at ./<missing>:?
+ [5] include_relative(::Module, ::String) at ./loading.jl:526
+ [6] include at ./sysimg.jl:14 [inlined]
+ [7] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
+ [8] #load!#2(::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ [9] (::getfield(BaseBenchmarks, Symbol("#kw##load!")))(::Array{Any,1}, ::typeof(BaseBenchmarks.load!), ::BenchmarkTools.BenchmarkGroup, ::String) at ./<missing>:0
+ [10] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:54
+ [11] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
+ [12] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ [13] include_relative(::Module, ::String) at ./loading.jl:526
+ [14] include(::Module, ::String) at ./sysimg.jl:14
+ [15] process_options(::Base.JLOptions) at ./client.jl:315
+ [16] _start() at ./client.jl:383
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/scalar/ScalarBenchmarks.jl:499
+WARNING: current_module() is deprecated, use `@__MODULE__` instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
+ [2] current_module() at ./deprecated.jl:1370
+ [3] macro expansion at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/scalar/ScalarBenchmarks.jl:511 [inlined]
+ [4] anonymous at ./<missing>:?
+ [5] include_relative(::Module, ::String) at ./loading.jl:526
+ [6] include at ./sysimg.jl:14 [inlined]
+ [7] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
+ [8] #load!#2(::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:40
  [9] (::getfield(BaseBenchmarks, Symbol("#kw##load!")))(::Array{Any,1}, ::typeof(BaseBenchmarks.load!), ::BenchmarkTools.BenchmarkGroup, Loop variable "r" around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/broadcast/BroadcastBenchmarks.jl:72 overwrites a variable in an enclosing scope. In the future the variable will be local to the loop instead.
 
 WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/simd/SIMDBenchmarks.jl:91.
@@ -4283,44 +3980,6 @@ Use "Base.unsafe_getindex(A::ArrayStrides{T, 2}, i::Real, j::Real) where T" inst
 WARNING: deprecated syntax "parametric method syntax makearrays{T}(::Type{T}, r::Integer, c::Integer) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/sumindex.jl:294".
 Use "makearrays(#unused#::Type{T}, r::Integer, c::Integer) where T" instead.
 ::String) at ./<missing>:0
- [10] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:54
- [11] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
- [12] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49
- [13] include_relative(::Module, ::String) at ./loading.jl:526
- [14] include(::Module, ::String) at ./sysimg.jl:14
- [15] process_options(::Base.JLOptions) at ./client.jl:315
- [16] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/scalar/ScalarBenchmarks.jl:499
-WARNING: current_module() is deprecated, use `@__MODULE__` instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] current_module() at ./deprecated.jl:1370
- [3] macro expansion at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/scalar/ScalarBenchmarks.jl:510 [inlined]
- [4] anonymous at ./<missing>:?
- [5] include_relative(::Module, ::String) at ./loading.jl:526
- [6] include at ./sysimg.jl:14 [inlined]
- [7] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
- [8] #load!#2(::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:40
- [9] (::getfield(BaseBenchmarks, Symbol("#kw##load!")))(::Array{Any,1}, ::typeof(BaseBenchmarks.load!), ::BenchmarkTools.BenchmarkGroup, ::String) at ./<missing>:0
- [10] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:54
- [11] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
- [12] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49
- [13] include_relative(::Module, ::String) at ./loading.jl:526
- [14] include(::Module, ::String) at ./sysimg.jl:14
- [15] process_options(::Base.JLOptions) at ./client.jl:315
- [16] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/scalar/ScalarBenchmarks.jl:499
-WARNING: current_module() is deprecated, use `@__MODULE__` instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] current_module() at ./deprecated.jl:1370
- [3] macro expansion at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/scalar/ScalarBenchmarks.jl:511 [inlined]
- [4] anonymous at ./<missing>:?
- [5] include_relative(::Module, ::String) at ./loading.jl:526
- [6] include at ./sysimg.jl:14 [inlined]
- [7] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
- [8] #load!#2(::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:40
- [9] (::getfield(BaseBenchmarks, Symbol("#kw##load!")))(::Array{Any,1}, ::typeof(BaseBenchmarks.load!), ::BenchmarkTools.BenchmarkGroup, ::String) at ./<missing>:0
  [10] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:54
  [11] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
  [12] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49
@@ -5947,6 +5606,44 @@ Stacktrace:
  [9] (::getfield(BaseBenchmarks, Symbol("#kw##load!")))(::Array{Any,1}, ::typeof(BaseBenchmarks.load!), ::BenchmarkTools.BenchmarkGroup, ::String) at ./<missing>:0
  [10] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:54
  [11] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
+ [12] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ [13] include_relative(::Module, ::String) at ./loading.jl:526
+ [14] include(::Module, ::String) at ./sysimg.jl:14
+ [15] process_options(::Base.JLOptions) at ./client.jl:315
+ [16] _start() at ./client.jl:383
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/ArrayBenchmarks.jl:53
+WARNING: current_module() is deprecated, use `@__MODULE__` instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
+ [2] current_module() at ./deprecated.jl:1370
+ [3] macro expansion at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/ArrayBenchmarks.jl:60 [inlined]
+ [4] anonymous at ./<missing>:?
+ [5] include_relative(::Module, ::String) at ./loading.jl:526
+ [6] include at ./sysimg.jl:14 [inlined]
+ [7] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
+ [8] #load!#2(::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ [9] (::getfield(BaseBenchmarks, Symbol("#kw##load!")))(::Array{Any,1}, ::typeof(BaseBenchmarks.load!), ::BenchmarkTools.BenchmarkGroup, ::String) at ./<missing>:0
+ [10] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:54
+ [11] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
+ [12] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ [13] include_relative(::Module, ::String) at ./loading.jl:526
+ [14] include(::Module, ::String) at ./sysimg.jl:14
+ [15] process_options(::Base.JLOptions) at ./client.jl:315
+ [16] _start() at ./client.jl:383
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/ArrayBenchmarks.jl:53
+WARNING: current_module() is deprecated, use `@__MODULE__` instead.
+Stacktrace:
+ [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
+ [2] current_module() at ./deprecated.jl:1370
+ [3] macro expansion at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/ArrayBenchmarks.jl:61 [inlined]
+ [4] anonymous at ./<missing>:?
+ [5] include_relative(::Module, ::String) at ./loading.jl:526
+ [6] include at ./sysimg.jl:14 [inlined]
+ [7] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
+ [8] #load!#2(::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:40
+ [9] (::getfield(BaseBenchmarks, Symbol("#kw##load!")))(::Array{Any,1}, ::typeof(BaseBenchmarks.load!), ::BenchmarkTools.BenchmarkGroup, ::String) at ./<missing>:0
+ [10] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:54
+ [11] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
  [12] loadall!() at 
 WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 2}, u_ip1::AbstractArray{T, 2}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:3".
 Use "kernel5(idx, u_i::AbstractArray{T, 2}, u_ip1::AbstractArray{T, 2}) where T" instead.
@@ -6027,44 +5724,6 @@ Use "mutable struct" instead.
 WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/nbody_vec.jl:16.
 Use "mutable struct" instead.
 /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49
- [13] include_relative(::Module, ::String) at ./loading.jl:526
- [14] include(::Module, ::String) at ./sysimg.jl:14
- [15] process_options(::Base.JLOptions) at ./client.jl:315
- [16] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/ArrayBenchmarks.jl:53
-WARNING: current_module() is deprecated, use `@__MODULE__` instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] current_module() at ./deprecated.jl:1370
- [3] macro expansion at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/ArrayBenchmarks.jl:60 [inlined]
- [4] anonymous at ./<missing>:?
- [5] include_relative(::Module, ::String) at ./loading.jl:526
- [6] include at ./sysimg.jl:14 [inlined]
- [7] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
- [8] #load!#2(::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:40
- [9] (::getfield(BaseBenchmarks, Symbol("#kw##load!")))(::Array{Any,1}, ::typeof(BaseBenchmarks.load!), ::BenchmarkTools.BenchmarkGroup, ::String) at ./<missing>:0
- [10] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:54
- [11] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
- [12] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49
- [13] include_relative(::Module, ::String) at ./loading.jl:526
- [14] include(::Module, ::String) at ./sysimg.jl:14
- [15] process_options(::Base.JLOptions) at ./client.jl:315
- [16] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/ArrayBenchmarks.jl:53
-WARNING: current_module() is deprecated, use `@__MODULE__` instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] current_module() at ./deprecated.jl:1370
- [3] macro expansion at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/ArrayBenchmarks.jl:61 [inlined]
- [4] anonymous at ./<missing>:?
- [5] include_relative(::Module, ::String) at ./loading.jl:526
- [6] include at ./sysimg.jl:14 [inlined]
- [7] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
- [8] #load!#2(::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:40
- [9] (::getfield(BaseBenchmarks, Symbol("#kw##load!")))(::Array{Any,1}, ::typeof(BaseBenchmarks.load!), ::BenchmarkTools.BenchmarkGroup, ::String) at ./<missing>:0
- [10] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:54
- [11] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
- [12] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49
  [13] include_relative(::Module, ::String) at ./loading.jl:526
  [14] include(::Module, ::String) at ./sysimg.jl:14
  [15] process_options(::Base.JLOptions) at ./client.jl:315
@@ -6980,132 +6639,6 @@ Stacktrace:
  [13] process_options(::Base.JLOptions) at ./client.jl:315
  [14] _start() at ./client.jl:383
 in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/ShootoutBenchmarks.jl:253
-WARNING: isleaftype is deprecated, use isconcrete instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] isleaftype(::Type{T} where T, ::Vararg{Type{T} where T,N} where N) at ./deprecated.jl:31
- [3] h5fieldtype(::JLD.JldFile, ::Type{T} where T, ::Bool) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:331
- [4] JLD.JldTypeInfo(::JLD.JldFile, ::SimpleVector, ::Bool) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:37
- [5] JLD.JldTypeInfo(::JLD.JldFile, ::Type{T} where T, ::Bool) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:43
- [6] jldatatype(::JLD.JldFile, ::HDF5.HDF5Datatype) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:716
- [7] read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:368
- [8] read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:344
- [9] (::getfield(BaseBenchmarks, Symbol("##7#8")){BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:60
- [10] #jldopen#11(::Array{Any,1}, ::Function, ::getfield(BaseBenchmarks, Symbol("##7#8")){BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:243
- [11] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:58
- [12] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
- [13] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49
- [14] include_relative(::Module, ::String) at ./loading.jl:526
- [15] include(::Module, ::String) at ./sysimg.jl:14
- [16] process_options(::Base.JLOptions) at ./client.jl:315
- [17] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:16
-WARNING: `nfields(::DataType)` is deprecated, use `fieldcount` instead
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] _gen_jlconvert_immutable(::JLD.JldTypeInfo, ::Type{T} where T) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:399
- [3] gen_jlconvert(::Type{T} where T) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:521
- [4] jlconvert(...) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:553
- [5] retrieve_code_info(::Core.MethodInstance) at ./inference.jl:342
- [6] Core.Inference.InferenceState(::Core.MethodInstance, ::Bool, ::Bool, ::Core.Inference.InferenceParams) at ./inference.jl:293
- [7] typeinf_frame at ./inference.jl:2981 [inlined]
- [8] typeinf_code(::Core.MethodInstance, ::Bool, ::Bool, ::Core.Inference.InferenceParams) at ./inference.jl:3066
- [9] typeinf_ext(::Core.MethodInstance, ::UInt64) at ./inference.jl:3105
- [10] read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T} where T) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:396
- [11] read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:368
- [12] read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:344
- [13] (::getfield(BaseBenchmarks, Symbol("##7#8")){BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:60
- [14] #jldopen#11(::Array{Any,1}, ::Function, ::getfield(BaseBenchmarks, Symbol("##7#8")){BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:243
- [15] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:58
- [16] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
- [17] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49
- [18] include_relative(::Module, ::String) at ./loading.jl:526
- [19] include(::Module, ::String) at ./sysimg.jl:14
- [20] process_options(::Base.JLOptions) at ./client.jl:315
- [21] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:16
-WARNING: `nfields(::DataType)` is deprecated, use `fieldcount` instead
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] _gen_jlconvert_immutable(::JLD.JldTypeInfo, ::Type{T} where T) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:399
- [3] gen_jlconvert(::Type{T} where T) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:521
- [4] jlconvert(...) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:553
- [5] retrieve_code_info(::Core.MethodInstance) at ./inference.jl:342
- [6] Core.Inference.InferenceState(::Core.MethodInstance, ::Bool, ::Bool, ::Core.Inference.InferenceParams) at ./inference.jl:293
- [7] typeinf_frame at ./inference.jl:2981 [inlined]
- [8] typeinf_code(::Core.MethodInstance, ::Bool, ::Bool, ::Core.Inference.InferenceParams) at ./inference.jl:3066
- [9] typeinf_ext(::Core.MethodInstance, ::UInt64) at ./inference.jl:3105
- [10] read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T} where T) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:396
- [11] read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:368
- [12] read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:344
- [13] (::getfield(BaseBenchmarks, Symbol("##7#8")){BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:60
- [14] #jldopen#11(::Array{Any,1}, ::Function, ::getfield(BaseBenchmarks, Symbol("##7#8")){BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:243
- [15] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:58
- [16] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
- [17] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49
- [18] include_relative(::Module, ::String) at ./loading.jl:526
- [19] include(::Module, ::String) at ./sysimg.jl:14
- [20] process_options(::Base.JLOptions) at ./client.jl:315
- [21] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:16
-WARNING: `nfields(::DataType)` is deprecated, use `fieldcount` instead
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] _gen_jlconvert_immutable(::JLD.JldTypeInfo, ::Type{T} where T) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:399
- [3] gen_jlconvert(::Type{T} where T) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:521
- [4] jlconvert(...) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:553
- [5] retrieve_code_info(::Core.MethodInstance) at ./inference.jl:342
- [6] Core.Inference.InferenceState(::Core.MethodInstance, ::Bool, ::Bool, ::Core.Inference.InferenceParams) at ./inference.jl:293
- [7] typeinf_frame at ./inference.jl:2981 [inlined]
- [8] typeinf_code(::Core.MethodInstance, ::Bool, ::Bool, ::Core.Inference.InferenceParams) at ./inference.jl:3066
- [9] typeinf_ext(::Core.MethodInstance, ::UInt64) at ./inference.jl:3105
- [10] read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T} where T) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:396
- [11] read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:368
- [12] read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:500
- [13] @generated body at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:427 [inlined]
- [14] jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:553
- [15] read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T} where T) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:396
- [16] read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:368
- [17] read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:344
- [18] (::getfield(BaseBenchmarks, Symbol("##7#8")){BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:60
- [19] #jldopen#11(::Array{Any,1}, ::Function, ::getfield(BaseBenchmarks, Symbol("##7#8")){BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:243
- [20] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:58
- [21] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
- [22] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49
- [23] include_relative(::Module, ::String) at ./loading.jl:526
- [24] include(::Module, ::String) at ./sysimg.jl:14
- [25] process_options(::Base.JLOptions) at ./client.jl:315
- [26] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:16
-WARNING: `nfields(::DataType)` is deprecated, use `fieldcount` instead
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] _gen_jlconvert_immutable(::JLD.JldTypeInfo, ::Type{T} where T) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:399
- [3] gen_jlconvert(::Type{T} where T) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:521
- [4] jlconvert(...) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:553
- [5] retrieve_code_info(::Core.MethodInstance) at ./inference.jl:342
- [6] Core.Inference.InferenceState(::Core.MethodInstance, ::Bool, ::Bool, ::Core.Inference.InferenceParams) at ./inference.jl:293
- [7] typeinf_frame at ./inference.jl:2981 [inlined]
- [8] typeinf_code(::Core.MethodInstance, ::Bool, ::Bool, ::Core.Inference.InferenceParams) at ./inference.jl:3066
- [9] typeinf_ext(::Core.MethodInstance, ::UInt64) at ./inference.jl:3105
- [10] read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T} where T) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:396
- [11] read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:368
- [12] read_ref(::JLD.JldFile, ::HDF5.HDF5ReferenceObj) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:500
- [13] @generated body at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:427 [inlined]
- [14] jlconvert(::Type{BenchmarkTools.BenchmarkGroup}, ::JLD.JldFile, ::Ptr{UInt8}) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:553
- [15] read_scalar(::JLD.JldDataset, ::HDF5.HDF5Datatype, ::Type{T} where T) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:396
- [16] read(::JLD.JldDataset) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:368
- [17] read(::JLD.JldFile, ::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:344
- [18] (::getfield(BaseBenchmarks, Symbol("##7#8")){BenchmarkTools.BenchmarkGroup})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:60
- [19] #jldopen#11(::Array{Any,1}, ::Function, ::getfield(BaseBenchmarks, Symbol("##7#8")){BenchmarkTools.BenchmarkGroup}, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:243
- [20] #loadall!#6(::Bool, ::Bool, ::Function, ::BenchmarkTools.BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:58
- [21] #loadall!#5 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
- [22] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49
- [23] include_relative(::Module, ::String) at ./loading.jl:526
- [24] include(::Module, ::String) at ./sysimg.jl:14
- [25] process_options(::Base.JLOptions) at ./client.jl:315
- [26] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:16
 WARNING: tic() is deprecated, use @time, @elapsed, or calls to time_ns() instead.
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
@@ -7117,7 +6650,7 @@ Stacktrace:
  [7] include(::Module, ::String) at ./sysimg.jl:14
  [8] process_options(::Base.JLOptions) at ./client.jl:315
  [9] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+in expression starting at /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: current_module() is deprecated, use `@__MODULE__` instead.
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
@@ -7135,7 +6668,7 @@ Stacktrace:
  [13] include(::Module, ::String) at ./sysimg.jl:14
  [14] process_options(::Base.JLOptions) at ./client.jl:315
  [15] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+in expression starting at /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: toq() is deprecated, use @elapsed or calls to time_ns() instead.
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
@@ -7149,7 +6682,7 @@ Stacktrace:
  [9] include(::Module, ::String) at ./sysimg.jl:14
  [10] process_options(::Base.JLOptions) at ./client.jl:315
  [11] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+in expression starting at /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
 WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
 WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
@@ -7182,62 +6715,62 @@ Stacktrace:
  [23] include(::Module, ::String) at ./sysimg.jl:14
  [24] process_options(::Base.JLOptions) at ./client.jl:315
  [25] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+in expression starting at /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: importing deprecated binding Base.take into IMDBGraphs.
 WARNING: Base.take is deprecated, use Base.Iterators.take instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Compat.UTF8String is deprecated, use String instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Base.take is deprecated, use Base.Iterators.take instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Base.take is deprecated, use Base.Iterators.take instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: Base.take is deprecated, use Base.Iterators.take instead.
-  likely near /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+  likely near /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: tic() is deprecated, use @time, @elapsed, or calls to time_ns() instead.
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
@@ -7263,7 +6796,7 @@ Stacktrace:
  [21] include(::Module, ::String) at ./sysimg.jl:14
  [22] process_options(::Base.JLOptions) at ./client.jl:315
  [23] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+in expression starting at /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: toq() is deprecated, use @elapsed or calls to time_ns() instead.
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
@@ -7289,7 +6822,7 @@ Stacktrace:
  [21] include(::Module, ::String) at ./sysimg.jl:14
  [22] process_options(::Base.JLOptions) at ./client.jl:315
  [23] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+in expression starting at /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: macroexpand(x) is deprecated, use `macroexpand(module, x)` instead.
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
@@ -7314,7 +6847,7 @@ Stacktrace:
  [20] include(::Module, ::String) at ./sysimg.jl:14
  [21] process_options(::Base.JLOptions) at ./client.jl:315
  [22] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:22
+in expression starting at /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:22
 WARNING: tic() is deprecated, use @time, @elapsed, or calls to time_ns() instead.
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
@@ -7325,7 +6858,7 @@ Stacktrace:
  [6] include(::Module, ::String) at ./sysimg.jl:14
  [7] process_options(::Base.JLOptions) at ./client.jl:315
  [8] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:25
+in expression starting at /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:25
 WARNING: current_module() is deprecated, use `@__MODULE__` instead.
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
@@ -7342,7 +6875,7 @@ Stacktrace:
  [12] include(::Module, ::String) at ./sysimg.jl:14
  [13] process_options(::Base.JLOptions) at ./client.jl:315
  [14] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:25
+in expression starting at /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:25
 WARNING: toq() is deprecated, use @elapsed or calls to time_ns() instead.
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
@@ -7355,7 +6888,30 @@ Stacktrace:
  [8] include(::Module, ::String) at ./sysimg.jl:14
  [9] process_options(::Base.JLOptions) at ./client.jl:315
  [10] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:25
+in expression starting at /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:25
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
+WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
 WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
 WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
 WARNING: readuntil(IO,AbstractString) will perform poorly with a long string
@@ -17661,7 +17217,7 @@ Stacktrace:
  [22] include(::Module, ::String) at ./sysimg.jl:14
  [23] process_options(::Base.JLOptions) at ./client.jl:315
  [24] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:25
+in expression starting at /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:25
 WARNING: tic() is deprecated, use @time, @elapsed, or calls to time_ns() instead.
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
@@ -17686,7 +17242,7 @@ Stacktrace:
  [20] include(::Module, ::String) at ./sysimg.jl:14
  [21] process_options(::Base.JLOptions) at ./client.jl:315
  [22] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:25
+in expression starting at /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:25
 WARNING: toq() is deprecated, use @elapsed or calls to time_ns() instead.
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
@@ -17711,7 +17267,7 @@ Stacktrace:
  [20] include(::Module, ::String) at ./sysimg.jl:14
  [21] process_options(::Base.JLOptions) at ./client.jl:315
  [22] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:25
+in expression starting at /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:25
 WARNING: macroexpand(x) is deprecated, use `macroexpand(module, x)` instead.
 Stacktrace:
  [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
@@ -17735,124 +17291,4 @@ Stacktrace:
  [19] include(::Module, ::String) at ./sysimg.jl:14
  [20] process_options(::Base.JLOptions) at ./client.jl:315
  [21] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:25
-WARNING: isleaftype is deprecated, use isconcrete instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] isleaftype(::Type{T} where T, ::Vararg{Type{T} where T,N} where N) at ./deprecated.jl:31
- [3] h5fieldtype(::JLD.JldFile, ::Type{T} where T, ::Bool) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:331
- [4] #_write#17(::Array{Any,1}, ::Function, ::JLD.JldFile, ::String, ::Array{Any,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:560
- [5] _write(::JLD.JldFile, ::String, ::Array{Any,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:559
- [6] #write#14(::Array{Any,1}, ::Function, ::JLD.JldFile, ::String, ::Any, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:512
- [7] #jldopen#9(::Bool, ::Bool, ::Bool, ::Function, ::String, ::Bool, ::Bool, ::Bool, ::Bool, ::Bool) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:178
- [8] (::getfield(JLD, Symbol("#kw##jldopen")))(::Array{Any,1}, ::typeof(JLD.jldopen), ::String, ::Bool, ::Bool, ::Bool, ::Bool, ::Bool) at ./<missing>:0
- [9] #jldopen#10(::Bool, ::Bool, ::Bool, ::Function, ::String, ::String) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:231
- [10] (::getfield(JLD, Symbol("#kw##jldopen")))(::Array{Any,1}, ::typeof(JLD.jldopen), ::String, ::String) at ./<missing>:0
- [11] #jldopen#11(::Array{Any,1}, ::Function, ::getfield(JLD, Symbol("##34#35")){String,Dict{String,String},Tuple{String,BenchmarkTools.BenchmarkGroup}}, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:241
- [12] (::getfield(JLD, Symbol("#kw##jldopen")))(::Array{Any,1}, ::typeof(JLD.jldopen), ::Function, ::String, ::Any) at ./<missing>:0
- [13] #save#33(::Bool, ::Bool, ::Function, ::FileIO.File{FileIO.DataFormat{:JLD}}, ::String, ::Any, ::Any, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:1220
- [14] save(::FileIO.File{FileIO.DataFormat{:JLD}}, ::String, ::Dict{String,String}, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:1217
- [15] #save#14(::Array{Any,1}, ::Function, ::String, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/FileIO/src/loadsave.jl:61
- [16] save(::String, ::String, ::Dict{String,String}, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/FileIO/src/loadsave.jl:61
- [17] save(::String, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/serialization.jl:36
- [18] include_relative(::Module, ::String) at ./loading.jl:526
- [19] include(::Module, ::String) at ./sysimg.jl:14
- [20] process_options(::Base.JLOptions) at ./client.jl:315
- [21] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:28
-WARNING: isleaftype is deprecated, use isconcrete instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] isleaftype(::DataType, ::Vararg{DataType,N} where N) at ./deprecated.jl:31
- [3] h5type(::JLD.JldFile, ::Type{T} where T, ::Bool) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:340
- [4] #write_compound#21(::Array{Any,1}, ::Function, ::JLD.JldFile, ::String, ::Any, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:692
- [5] _write(::JLD.JldFile, ::String, ::JLD.AssociativeWrapper{String,String,Dict{String,String}}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:686
- [6] #write#14(::Array{Any,1}, ::Function, ::JLD.JldFile, ::String, ::Any, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:512
- [7] (::getfield(JLD, Symbol("##34#35")){String,Dict{String,String},Tuple{String,BenchmarkTools.BenchmarkGroup}})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:1222
- [8] #jldopen#11(::Array{Any,1}, ::Function, ::getfield(JLD, Symbol("##34#35")){String,Dict{String,String},Tuple{String,BenchmarkTools.BenchmarkGroup}}, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:243
- [9] (::getfield(JLD, Symbol("#kw##jldopen")))(::Array{Any,1}, ::typeof(JLD.jldopen), ::Function, ::String, ::Any) at ./<missing>:0
- [10] #save#33(::Bool, ::Bool, ::Function, ::FileIO.File{FileIO.DataFormat{:JLD}}, ::String, ::Any, ::Any, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:1220
- [11] save(::FileIO.File{FileIO.DataFormat{:JLD}}, ::String, ::Dict{String,String}, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:1217
- [12] #save#14(::Array{Any,1}, ::Function, ::String, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/FileIO/src/loadsave.jl:61
- [13] save(::String, ::String, ::Dict{String,String}, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/FileIO/src/loadsave.jl:61
- [14] save(::String, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/serialization.jl:36
- [15] include_relative(::Module, ::String) at ./loading.jl:526
- [16] include(::Module, ::String) at ./sysimg.jl:14
- [17] process_options(::Base.JLOptions) at ./client.jl:315
- [18] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:28
-WARNING: isleaftype is deprecated, use isconcrete instead.
-Stacktrace:
- [1] depwarn(::String, ::Symbol) at ./deprecated.jl:68
- [2] isleaftype(::Type{T} where T<:Tuple, ::Vararg{Type{T} where T<:Tuple,N} where N) at ./deprecated.jl:31
- [3] h5type(::JLD.JldFile, ::Type{Tuple{String,String,String,Int64}}, ::Bool) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:297
- [4] #write_compound#21(::Array{Any,1}, ::Function, ::JLD.JldGroup, ::String, ::Any, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:692
- [5] _write(::JLD.JldGroup, ::String, ::Tuple{String,String,String,Int64}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:686
- [6] write_ref(::JLD.JldFile, ::Tuple{String,String,String,Int64}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:654
- [7] h5convert_array(::JLD.JldFile, ::Array{Any,1}, ::JLD.JldDatatype, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:598
- [8] #_write#17(::Array{Any,1}, ::Function, ::JLD.JldGroup, ::String, ::Array{Any,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:561
- [9] _write(::JLD.JldGroup, ::String, ::Array{Any,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:559
- [10] write_ref(::JLD.JldFile, ::Array{Any,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:654
- [11] @generated body at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:641 [inlined]
- [12] h5convert!(::Ptr{UInt8}, ::JLD.JldFile, ::JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:657
- [13] #write_compound#21(::Array{Any,1}, ::Function, ::JLD.JldGroup, ::String, ::Any, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:696
- [14] _write(::JLD.JldGroup, ::String, ::JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:686
- [15] write_ref(::JLD.JldFile, ::Dict{Any,Any}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:654
- [16] @generated body at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:641 [inlined]
- [17] h5convert!(::Ptr{UInt8}, ::JLD.JldFile, ::BenchmarkTools.BenchmarkGroup, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:657
- [18] #write_compound#21(::Array{Any,1}, ::Function, ::JLD.JldGroup, ::String, ::Any, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:696
- [19] _write(::JLD.JldGroup, ::String, ::BenchmarkTools.BenchmarkGroup, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:686
- [20] write_ref(::JLD.JldFile, ::BenchmarkTools.BenchmarkGroup, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:654
- [21] h5convert_array(::JLD.JldFile, ::Array{Any,1}, ::JLD.JldDatatype, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:598
- [22] #_write#17(::Array{Any,1}, ::Function, ::JLD.JldGroup, ::String, ::Array{Any,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:561
- [23] _write(::JLD.JldGroup, ::String, ::Array{Any,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:559
- [24] write_ref(::JLD.JldFile, ::Array{Any,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:654
- [25] @generated body at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:641 [inlined]
- [26] h5convert!(::Ptr{UInt8}, ::JLD.JldFile, ::JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:657
- [27] #write_compound#21(::Array{Any,1}, ::Function, ::JLD.JldGroup, ::String, ::Any, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:696
- [28] _write(::JLD.JldGroup, ::String, ::JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:686
- [29] write_ref(::JLD.JldFile, ::Dict{Any,Any}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:654
- [30] @generated body at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:641 [inlined]
- [31] h5convert!(::Ptr{UInt8}, ::JLD.JldFile, ::BenchmarkTools.BenchmarkGroup, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:657
- [32] #write_compound#21(::Array{Any,1}, ::Function, ::JLD.JldGroup, ::String, ::Any, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:696
- [33] _write(::JLD.JldGroup, ::String, ::BenchmarkTools.BenchmarkGroup, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:686
- [34] write_ref(::JLD.JldFile, ::BenchmarkTools.BenchmarkGroup, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:654
- [35] h5convert_array(::JLD.JldFile, ::Array{Any,1}, ::JLD.JldDatatype, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:598
- [36] #_write#17(::Array{Any,1}, ::Function, ::JLD.JldGroup, ::String, ::Array{Any,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:561
- [37] _write(::JLD.JldGroup, ::String, ::Array{Any,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:559
- [38] write_ref(::JLD.JldFile, ::Array{Any,1}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:654
- [39] @generated body at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:641 [inlined]
- [40] h5convert!(::Ptr{UInt8}, ::JLD.JldFile, ::JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:657
- [41] #write_compound#21(::Array{Any,1}, ::Function, ::JLD.JldGroup, ::String, ::Any, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:696
- [42] _write(::JLD.JldGroup, ::String, ::JLD.AssociativeWrapper{Any,Any,Dict{Any,Any}}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:686
- [43] write_ref(::JLD.JldFile, ::Dict{Any,Any}, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:654
- [44] @generated body at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:641 [inlined]
- [45] h5convert!(::Ptr{UInt8}, ::JLD.JldFile, ::BenchmarkTools.BenchmarkGroup, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/jld_types.jl:657
- [46] #write_compound#21(::Array{Any,1}, ::Function, ::JLD.JldFile, ::String, ::Any, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:696
- [47] _write(::JLD.JldFile, ::String, ::BenchmarkTools.BenchmarkGroup, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:686
- [48] #write#14(::Array{Any,1}, ::Function, ::JLD.JldFile, ::String, ::Any, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:512
- [49] write(::JLD.JldFile, ::String, ::BenchmarkTools.BenchmarkGroup, ::JLD.JldWriteSession) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:512
- [50] (::getfield(JLD, Symbol("##34#35")){String,Dict{String,String},Tuple{String,BenchmarkTools.BenchmarkGroup}})(::JLD.JldFile) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:1224
- [51] #jldopen#11(::Array{Any,1}, ::Function, ::getfield(JLD, Symbol("##34#35")){String,Dict{String,String},Tuple{String,BenchmarkTools.BenchmarkGroup}}, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:243
- [52] (::getfield(JLD, Symbol("#kw##jldopen")))(::Array{Any,1}, ::typeof(JLD.jldopen), ::Function, ::String, ::Any) at ./<missing>:0
- [53] #save#33(::Bool, ::Bool, ::Function, ::FileIO.File{FileIO.DataFormat{:JLD}}, ::String, ::Any, ::Any, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:1220
- [54] save(::FileIO.File{FileIO.DataFormat{:JLD}}, ::String, ::Dict{String,String}, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:1217
- [55] #save#14(::Array{Any,1}, ::Function, ::String, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/FileIO/src/loadsave.jl:61
- [56] save(::String, ::String, ::Dict{String,String}, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/FileIO/src/loadsave.jl:61
- [57] save(::String, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/serialization.jl:36
- [58] include_relative(::Module, ::String) at ./loading.jl:526
- [59] include(::Module, ::String) at ./sysimg.jl:14
- [60] process_options(::Base.JLOptions) at ./client.jl:315
- [61] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:28
-ERROR: LoadError: must be a toplevel module
-Stacktrace:
- [1] addrequire(::JLD.JldFile, ::Module) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:1250
- [2] (::getfield(BenchmarkTools, Symbol("##25#26")))(::JLD.JldFile) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/serialization.jl:38
- [3] #jldopen#11(::Array{Any,1}, ::Function, ::getfield(BenchmarkTools, Symbol("##25#26")), ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:243
- [4] save(::String, ::String, ::Vararg{Any,N} where N) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/serialization.jl:37
- [5] include_relative(::Module, ::String) at ./loading.jl:526
- [6] include(::Module, ::String) at ./sysimg.jl:14
- [7] process_options(::Base.JLOptions) at ./client.jl:315
- [8] _start() at ./client.jl:383
-in expression starting at /home/nanosoldier/workdir/tmpMuc2Bn/benchscript.jl:28
+in expression starting at /home/nanosoldier/workdir/tmplWE1LG/benchscript.jl:25
