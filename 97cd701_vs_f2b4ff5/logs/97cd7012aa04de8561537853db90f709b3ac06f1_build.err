@@ -1,76 +1,76 @@
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left    0 
-     0     0    0     0    0     0      0      0 --:--:--- --:--:--     0--     0  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   357  100   357    0     0   2878      0 --:--:-- --:--:-- --:--:--  2902
-100   451  100   451    0     0    619      0 --:--:-- --:--:-- --:--:--   620
-  0 2330k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 1546k    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100 2330k  100 2330k    0     0  1785k      0  0:00:01  0:00:01 --:--:-- 7106k
+   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   357  100   357    0     0   1902      0 --:--:-- --:--:-- --:--:--  1909
+100   451  100   451    0     0    576      0 --:--:-- --:--:-- --:--:--   577
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100 2330k  100 2330k    0     0  1519k      0  0:00:01  0:00:01 --:--:-- 3717k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   497  100   497    0     0   3618      0 --:--:-- --:--:-- --:--:--  3627
-100  399k  100  399k    0     0   878k      0 --:--:-- --:--:-- --:--:--  878k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   497  100   497    0     0   2268      0 --:--:-- --:--:-- --:--:--  2269
+ 12 1546k   12  192k    0     0    98k      0  0:00:15  0:00:01  0:00:14  201k  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  399k  100  399k    0     0   671k      0 --:--:-- --:--:-- --:--:-- 2349k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   459  100   459    0     0    236      0  0:00:01  0:00:01 --:--:--   236
-  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0 22 1546k   22  352k    0     0   178k      0  0:00:08  0:00:01  0:00:07  368k  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   455  100   455    0     0   1845      0 --:--:-- --:--:-- --:--:--  1842
-100 1912k  100 1912k    0     0   785k      0  0:00:02  0:00:02 --:--:-- 4025k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   459  100   459    0     0    213      0  0:00:02  0:00:02 --:--:--   213100   459  100   459    0     0    213      0  0:00:02  0:00:02 --:--:--   213
+100   455  100   455    0     0   1537      0 --:--:-- --:--:-- --:--:--  1542
+100 1912k  100 1912k    0     0   728k      0  0:00:02  0:00:02 --:--:--  728k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 2721k  100 2721k    0     0  3928k      0 --:--:-- --:--:-- --:--:-- 3928k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 94 2721k   94 2565k    0     0  3355k      0 --:--:-- --:--:-- --:--:-- 3355k100 2721k  100 2721k    0     0  3550k      0 --:--:-- --:--:-- --:--:-- 76.1M
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   497  100   497    0     0   2872      0 --:--:-- --:--:-- --:--:--  2889
- 20 4589k   20  933k    0     0  1771k      0  0:00:02 --:--:--  0:00:02 1771k 92 1546k   92 1424k    0     0   470k      0  0:00:03  0:00:03 --:--:--  711k100 1546k  100 1546k    0     0   511k      0  0:00:03  0:00:03 --:--:--  772k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 56 1546k   56  880k    0     0   293k      0  0:00:05  0:00:02  0:00:03  439k100   497  100   497    0     0    956      0 --:--:-- --:--:-- --:--:--   955100   497  100   497    0     0    956      0 --:--:-- --:--:-- --:--:--   955
+100 1546k  100 1546k    0     0   445k      0  0:00:03  0:00:03 --:--:--  623k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   329  100   329    0     0   5054      0 --:--:-- --:--:-- --:--:--  5061
-100   453  100   453    0     0    684      0 --:--:-- --:--:-- --:--:--   683100   453  100   453    0     0    684      0 --:--:-- --:--:-- --:--:--   683
-100 4589k  100 4589k    0     0  6448k      0 --:--:-- --:--:-- --:--:-- 19.4M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   329  100   329    0     0   5016      0 --:--:-- --:--:-- --:--:--  5061
+100 4589k  100 4589k    0     0  4188k      0  0:00:01  0:00:01 --:--:-- 4188k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   497  100   497    0     0   3565      0 --:--:-- --:--:-- --:--:--  3575
-100 1249k  100 1249k    0     0  1194k      0  0:00:01  0:00:01 --:--:-- 1194k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   497  100   497    0     0   2404      0 --:--:-- --:--:-- --:--:--  2400
+100   453  100   453    0     0    413      0  0:00:01  0:00:01 --:--:--   413100   453  100   453    0     0    413      0  0:00:01  0:00:01 --:--:--   413
+  0 1358k    0  2238    0     0   3277      0  0:07:04 --:--:--  0:07:04  3277100  148k  100  148k    0     0   284k      0 --:--:-- --:--:-- --:--:--  284k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  148k  100  148k    0     0   383k      0 --:--:-- --:--:-- --:--:--  383k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 1249k  100 1249k    0     0   848k      0  0:00:01  0:00:01 --:--:--  848k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 55 1358k   55  751k    0     0   808k      0  0:00:01 --:--:--  0:00:01  808k100   465  100   465    0     0    852      0 --:--:-- --:--:-- --:--:--   851100   465  100   465    0     0    852      0 --:--:-- --:--:-- --:--:--   851
-100 1358k  100 1358k    0     0  1194k      0  0:00:01  0:00:01 --:--:-- 2930k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   465  100   465    0     0    897      0 --:--:-- --:--:-- --:--:--   899
+100 1358k  100 1358k    0     0   977k      0  0:00:01  0:00:01 --:--:-- 1920k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   497  100   497    0     0    767      0 --:--:-- --:--:-- --:--:--   766100   497  100   497    0     0    766      0 --:--:-- --:--:-- --:--:--   766
-100   497  100   497    0     0   3275      0 --:--:-- --:--:-- --:--:--  3291
-100 1378k  100 1378k    0     0  2797k      0 --:--:-- --:--:-- --:--:-- 2797k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 24.3M    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   497  100   497    0     0    828      0 --:--:-- --:--:-- --:--:--   828100   497  100   497    0     0    828      0 --:--:-- --:--:-- --:--:--   828
+100   497  100   497    0     0   1580      0 --:--:-- --:--:-- --:--:--  1577
+100 1378k  100 1378k    0     0  2004k      0 --:--:-- --:--:-- --:--:-- 2004k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   339  100   339    0     0   5234      0 --:--:-- --:--:-- --:--:--  5296
-100 11.0M  100 11.0M    0     0  8359k      0  0:00:01  0:00:01 --:--:-- 8359k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   339  100   339    0     0   4628      0 --:--:-- --:--:-- --:--:--  4643
+100 11.0M  100 11.0M    0     0  8558k      0  0:00:01  0:00:01 --:--:-- 8558k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 77 24.3M   77 18.9M    0     0  13.2M      0  0:00:01  0:00:01 --:--:-- 13.2M  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 24.3M  100 24.3M    0     0  15.9M      0  0:00:01  0:00:01 --:--:-- 58.1M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 68 24.3M   68 16.7M    0     0  10.2M      0  0:00:02  0:00:01  0:00:01 17.6M  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0  803k    0  2238    0     0   5896      0  0:02:19 --:--:--  0:02:19  5896100 24.3M  100 24.3M    0     0  12.6M      0  0:00:01  0:00:01 --:--:-- 19.5M
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   497  100   497    0     0   3585      0 --:--:-- --:--:-- --:--:--  3601
-100  345k  100  345k    0     0   729k      0 --:--:-- --:--:-- --:--:--  729k
-100   455  100   455    0     0    744      0 --:--:-- --:--:-- --:--:--   743
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   455  100   455    0     0    731      0 --:--:-- --:--:-- --:--:--   730
+100  803k  100  803k    0     0   975k      0 --:--:-- --:--:-- --:--:-- 1807k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  803k  100  803k    0     0   886k      0 --:--:-- --:--:-- --:--:-- 1318k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   497  100   497    0     0   2163      0 --:--:-- --:--:-- --:--:--  2170
+100  187k  100  187k    0     0   222k      0 --:--:-- --:--:-- --:--:--  222k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  187k  100  187k    0     0   233k      0 --:--:-- --:--:-- --:--:--  233k
-100   459  100   459    0     0   1551      0 --:--:-- --:--:-- --:--:--  1555
-  0 17.2M    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0rm: cannot remove ‘/home/nanosoldier/workdir/tmp9YBF0C/deps/srccache/libssh2-30e9c1347e3b8baa2951db612f05e6d87fc8e2f2/’: No such file or directory
-100   461  100   461    0     0    448      0  0:00:01  0:00:01 --:--:--   448100   461  100   461    0     0    448      0  0:00:01  0:00:01 --:--:--   448
-100 17.2M  100 17.2M    0     0  16.0M      0  0:00:01  0:00:01 --:--:-- 27.4M
-rm: cannot remove ‘/home/nanosoldier/workdir/tmp9YBF0C/deps/srccache/libgit2-15e119375018fba121cf58e02a9f17fe22df0df8/’: No such file or directory
-100  284k  100  284k    0     0   220k      0  0:00:01  0:00:01 --:--:--  220k
-rm: cannot remove ‘scratch/utf8proc-40e605959eb5cb90b2587fa88e3b661558fbc55a/’: No such file or directory
-rm: cannot remove ‘/home/nanosoldier/workdir/tmp9YBF0C/deps/srccache/libuv-c5a4e584989669ad48c1728b35063291e16f85ee/’: No such file or directory
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  345k  100  345k    0     0   672k      0 --:--:-- --:--:-- --:--:--  672k
+rm: cannot remove ‘/home/nanosoldier/workdir/tmp1vCh1z/deps/srccache/libssh2-30e9c1347e3b8baa2951db612f05e6d87fc8e2f2/’: No such file or directory
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0rm: cannot remove ‘/home/nanosoldier/workdir/tmp1vCh1z/deps/srccache/libgit2-15e119375018fba121cf58e02a9f17fe22df0df8/’: No such file or directory
+100   461  100   461    0     0    334      0  0:00:01  0:00:01 --:--:--   334
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0  284k    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0rm: cannot remove ‘scratch/utf8proc-40e605959eb5cb90b2587fa88e3b661558fbc55a/’: No such file or directory
+100  284k  100  284k    0     0   175k      0  0:00:01  0:00:01 --:--:-- 2662k
 rm: cannot remove ‘scratch/openblas-5dde4e65d321076582a2fafe16949d2160551e81/’: No such file or directory
+100   459  100   459    0     0    301      0  0:00:01  0:00:01 --:--:--   301100   459  100   459    0     0    301      0  0:00:01  0:00:01 --:--:--   301
+rm: cannot remove ‘/home/nanosoldier/workdir/tmp1vCh1z/deps/srccache/libuv-c5a4e584989669ad48c1728b35063291e16f85ee/’: No such file or directory
 rm: cannot remove ‘scratch/openlibm-1581174c85f7b645b15ba1ac1c3a98fb601f0fe7/’: No such file or directory
 rm: cannot remove ‘scratch/dsfmt-2.2.3/’: No such file or directory
+100 17.2M  100 17.2M    0     0  7931k      0  0:00:02  0:00:02 --:--:-- 7931k
 CMake Warning:
   Manually-specified variables were not used by the project:
 
@@ -90,12 +90,21 @@ src/e_lgammaf_r.c:229:13: warning: ‘nadj’ may be used uninitialized in this 
   if(hx<0) r = nadj - r;
              ^
 In file included from ld80/s_exp2l.c:38:0:
-/home/nanosoldier/workdir/tmp9YBF0C/deps/scratch/openlibm-1581174c85f7b645b15ba1ac1c3a98fb601f0fe7/src/math_private.h:240:1: warning: ‘irint’ defined but not used [-Wunused-function]
+/home/nanosoldier/workdir/tmp1vCh1z/deps/scratch/openlibm-1581174c85f7b645b15ba1ac1c3a98fb601f0fe7/src/math_private.h:240:1: warning: ‘irint’ defined but not used [-Wunused-function]
  irint(double x)
  ^
 ld80/e_lgammal_r.c: In function ‘lgammal_r’:
 ld80/e_lgammal_r.c:423:7: warning: ‘nadj’ may be used uninitialized in this function [-Wmaybe-uninitialized]
      r = nadj - r;
+       ^
+/home/nanosoldier/workdir/tmp1vCh1z/deps/srccache/libuv-c5a4e584989669ad48c1728b35063291e16f85ee/src/unix/process.c: In function ‘uv__chld’:
+/home/nanosoldier/workdir/tmp1vCh1z/deps/srccache/libuv-c5a4e584989669ad48c1728b35063291e16f85ee/src/unix/process.c:124:23: warning: C++ style comments are not allowed in ISO C90 [enabled by default]
+     process->pid = 0; // pid is no longer valid (or unique)
+                       ^
+/home/nanosoldier/workdir/tmp1vCh1z/deps/srccache/libuv-c5a4e584989669ad48c1728b35063291e16f85ee/src/unix/process.c:124:23: warning: (this will be reported only once per input file) [enabled by default]
+/home/nanosoldier/workdir/tmp1vCh1z/deps/srccache/libuv-c5a4e584989669ad48c1728b35063291e16f85ee/src/unix/process.c: In function ‘uv_spawn’:
+/home/nanosoldier/workdir/tmp1vCh1z/deps/srccache/libuv-c5a4e584989669ad48c1728b35063291e16f85ee/src/unix/process.c:401:7: warning: unused variable ‘status’ [-Wunused-variable]
+   int status;
        ^
 lapack/laswp.c: In function ‘slaswp_’:
 lapack/laswp.c:100:8: warning: passing argument 12 of ‘blas_level1_thread’ from incompatible pointer type [enabled by default]
@@ -106,27 +115,26 @@ In file included from ../common.h:775:0,
 ../common_thread.h:177:5: note: expected ‘int (*)()’ but argument is of type ‘int (*)(BLASLONG,  BLASLONG,  BLASLONG,  float,  float *, BLASLONG,  float *, BLASLONG,  blasint *, BLASLONG)’
  int blas_level1_thread(int mode, BLASLONG m, BLASLONG n, BLASLONG k, void *alpha,
      ^
-/home/nanosoldier/workdir/tmp9YBF0C/deps/srccache/libuv-c5a4e584989669ad48c1728b35063291e16f85ee/src/unix/process.c: In function ‘uv__chld’:
-/home/nanosoldier/workdir/tmp9YBF0C/deps/srccache/libuv-c5a4e584989669ad48c1728b35063291e16f85ee/src/unix/process.c:124:23: warning: C++ style comments are not allowed in ISO C90 [enabled by default]
-     process->pid = 0; // pid is no longer valid (or unique)
-                       ^
-/home/nanosoldier/workdir/tmp9YBF0C/deps/srccache/libuv-c5a4e584989669ad48c1728b35063291e16f85ee/src/unix/process.c:124:23: warning: (this will be reported only once per input file) [enabled by default]
-/home/nanosoldier/workdir/tmp9YBF0C/deps/srccache/libuv-c5a4e584989669ad48c1728b35063291e16f85ee/src/unix/process.c: In function ‘uv_spawn’:
-/home/nanosoldier/workdir/tmp9YBF0C/deps/srccache/libuv-c5a4e584989669ad48c1728b35063291e16f85ee/src/unix/process.c:401:7: warning: unused variable ‘status’ [-Wunused-variable]
-   int status;
-       ^
-/home/nanosoldier/workdir/tmp9YBF0C/deps/srccache/libuv-c5a4e584989669ad48c1728b35063291e16f85ee/src/unix/stream.c: In function ‘uv__drain’:
-/home/nanosoldier/workdir/tmp9YBF0C/deps/srccache/libuv-c5a4e584989669ad48c1728b35063291e16f85ee/src/unix/stream.c:678:5: warning: C++ style comments are not allowed in ISO C90 [enabled by default]
+libtool: warning: relinking 'libpcre2-posix.la'
+libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmp1vCh1z/usr/lib'
+/home/nanosoldier/workdir/tmp1vCh1z/deps/srccache/libuv-c5a4e584989669ad48c1728b35063291e16f85ee/src/unix/stream.c: In function ‘uv__drain’:
+/home/nanosoldier/workdir/tmp1vCh1z/deps/srccache/libuv-c5a4e584989669ad48c1728b35063291e16f85ee/src/unix/stream.c:678:5: warning: C++ style comments are not allowed in ISO C90 [enabled by default]
      //if (shutdown(uv__stream_fd(stream), SHUT_WR))
      ^
-/home/nanosoldier/workdir/tmp9YBF0C/deps/srccache/libuv-c5a4e584989669ad48c1728b35063291e16f85ee/src/unix/stream.c:678:5: warning: (this will be reported only once per input file) [enabled by default]
-libtool: warning: relinking 'libpcre2-posix.la'
-libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmp9YBF0C/usr/lib'
-libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmp9YBF0C/usr/lib'
-libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmp9YBF0C/usr/lib'
-libtool: warning: 'libpcre2-posix.la' has not been installed in '/home/nanosoldier/workdir/tmp9YBF0C/usr/lib'
-libtool: warning: '/home/nanosoldier/workdir/tmp9YBF0C/deps/scratch/pcre2-10.30/libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmp9YBF0C/usr/lib'
-libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmp9YBF0C/usr/lib'
+/home/nanosoldier/workdir/tmp1vCh1z/deps/srccache/libuv-c5a4e584989669ad48c1728b35063291e16f85ee/src/unix/stream.c:678:5: warning: (this will be reported only once per input file) [enabled by default]
+libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmp1vCh1z/usr/lib'
+libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmp1vCh1z/usr/lib'
+libtool: warning: 'libpcre2-posix.la' has not been installed in '/home/nanosoldier/workdir/tmp1vCh1z/usr/lib'
+libtool: warning: '/home/nanosoldier/workdir/tmp1vCh1z/deps/scratch/pcre2-10.30/libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmp1vCh1z/usr/lib'
+libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmp1vCh1z/usr/lib'
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_COMPILER_ARG1
+    LIB_INSTALL_DIR
+
+
 xerbla.c: In function ‘cblas_xerbla’:
 xerbla.c:16:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘blasint’ [-Wformat=]
        fprintf(stderr, "Parameter %d to routine %s was incorrect\n", p, rout);
@@ -140,35 +148,27 @@ In file included from ../common.h:775:0,
 ../common_thread.h:177:5: note: expected ‘int (*)()’ but argument is of type ‘int (*)(BLASLONG,  BLASLONG,  BLASLONG,  float,  float,  float *, BLASLONG,  float *, BLASLONG,  blasint *, BLASLONG)’
  int blas_level1_thread(int mode, BLASLONG m, BLASLONG n, BLASLONG k, void *alpha,
      ^
-CMake Warning:
-  Manually-specified variables were not used by the project:
-
-    CMAKE_CXX_COMPILER
-    CMAKE_CXX_COMPILER_ARG1
-    LIB_INSTALL_DIR
-
-
-ar: creating ../libopenblas64_p-r0.2.20.a
 configure: WARNING: latex2man not found. Install latex2man. Disabling docs.
-/home/nanosoldier/workdir/tmp9YBF0C/deps/srccache/libunwind-1.1-julia2/src/ptrace/_UPT_get_dyn_info_list_addr.c: In function ‘get_list_addr’:
-/home/nanosoldier/workdir/tmp9YBF0C/deps/srccache/libunwind-1.1-julia2/src/ptrace/_UPT_get_dyn_info_list_addr.c:78:3: warning: #warning Implement get_list_addr(), please. [-Wcpp]
+ar: creating ../libopenblas64_p-r0.2.20.a
+/home/nanosoldier/workdir/tmp1vCh1z/deps/srccache/libunwind-1.1-julia2/src/ptrace/_UPT_get_dyn_info_list_addr.c: In function ‘get_list_addr’:
+/home/nanosoldier/workdir/tmp1vCh1z/deps/srccache/libunwind-1.1-julia2/src/ptrace/_UPT_get_dyn_info_list_addr.c:78:3: warning: #warning Implement get_list_addr(), please. [-Wcpp]
  # warning Implement get_list_addr(), please.
    ^
-/home/nanosoldier/workdir/tmp9YBF0C/deps/srccache/libunwind-1.1-julia2/src/coredump/_UPT_get_dyn_info_list_addr.c: In function ‘get_list_addr’:
-/home/nanosoldier/workdir/tmp9YBF0C/deps/srccache/libunwind-1.1-julia2/src/coredump/_UPT_get_dyn_info_list_addr.c:81:3: warning: #warning Implement get_list_addr(), please. [-Wcpp]
+/home/nanosoldier/workdir/tmp1vCh1z/deps/srccache/libunwind-1.1-julia2/src/coredump/_UPT_get_dyn_info_list_addr.c: In function ‘get_list_addr’:
+/home/nanosoldier/workdir/tmp1vCh1z/deps/srccache/libunwind-1.1-julia2/src/coredump/_UPT_get_dyn_info_list_addr.c:81:3: warning: #warning Implement get_list_addr(), please. [-Wcpp]
  # warning Implement get_list_addr(), please.
    ^
-/home/nanosoldier/workdir/tmp9YBF0C/deps/srccache/gmp-6.1.2/printf/repl-vsnprintf.c:396:0: warning: ISO C forbids an empty translation unit [-Wpedantic]
- #endif /* ! HAVE_VSNPRINTF */
- ^
-libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmp9YBF0C/usr/lib'
+libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmp1vCh1z/usr/lib'
 configure: WARNING: zlib disabled
 configure: WARNING: Cannot find libraries for IDN support: IDN disabled
+/home/nanosoldier/workdir/tmp1vCh1z/deps/srccache/gmp-6.1.2/printf/repl-vsnprintf.c:396:0: warning: ISO C forbids an empty translation unit [-Wpedantic]
+ #endif /* ! HAVE_VSNPRINTF */
+ ^
 This is not dpkg install-info anymore, but GNU install-info
 See the man page for ginstall-info for command line arguments
-libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmp9YBF0C/usr/lib'
-libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmp9YBF0C/usr/lib'
-libtool: warning: '../lib/libcurl.la' has not been installed in '/home/nanosoldier/workdir/tmp9YBF0C/usr/lib'
+libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmp1vCh1z/usr/lib'
+libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmp1vCh1z/usr/lib'
+libtool: warning: '../lib/libcurl.la' has not been installed in '/home/nanosoldier/workdir/tmp1vCh1z/usr/lib'
 CMake Warning:
   Manually-specified variables were not used by the project:
 
@@ -178,14 +178,6 @@ CMake Warning:
     CMAKE_INSTALL_LIBDIR
     CURL_INCLUDE_DIRS
     CURL_LIBRARIES
-
-
-CMake Warning:
-  Manually-specified variables were not used by the project:
-
-    CMAKE_INSTALL_BINDIR
-    CMAKE_INSTALL_LIBDIR
-    LIB_INSTALL_DIR
 
 
 In file included from gemm3m.c:55:0:
@@ -456,18 +448,15 @@ getrf_single.c:54:24: warning: variable ‘offsetB’ set but not used [-Wunused
    FLOAT *a, *offsetA, *offsetB;
                         ^
 trtri_U_parallel.c: In function ‘strtri_UU_parallel’:
-trtri_U_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
-   BLASLONG lda, range_N[2];
-                 ^
 trtri_U_parallel.c: In function ‘strtri_UN_parallel’:
 trtri_U_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
-trtri_L_parallel.c: In function ‘strtri_LU_parallel’:
+trtri_L_parallel.c: In function ‘strtri_LN_parallel’:
 trtri_L_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
-trtri_L_parallel.c: In function ‘strtri_LN_parallel’:
+trtri_L_parallel.c: In function ‘strtri_LU_parallel’:
 trtri_L_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
@@ -479,27 +468,27 @@ trtri_U_parallel.c: In function ‘dtrtri_UN_parallel’:
 trtri_U_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
-trtri_L_parallel.c: In function ‘dtrtri_LU_parallel’:
-trtri_L_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
-   BLASLONG lda, range_N[2];
-                 ^
 trtri_L_parallel.c: In function ‘dtrtri_LN_parallel’:
 trtri_L_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
-trtri_U_parallel.c: In function ‘ctrtri_UU_parallel’:
-trtri_U_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
+trtri_L_parallel.c: In function ‘dtrtri_LU_parallel’:
+trtri_L_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
 trtri_U_parallel.c: In function ‘ctrtri_UN_parallel’:
 trtri_U_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
+trtri_U_parallel.c: In function ‘ctrtri_UU_parallel’:
+trtri_U_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
+   BLASLONG lda, range_N[2];
+                 ^
+trtri_L_parallel.c: In function ‘ctrtri_LN_parallel’:
 trtri_L_parallel.c: In function ‘ctrtri_LU_parallel’:
 trtri_L_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
-trtri_L_parallel.c: In function ‘ctrtri_LN_parallel’:
 trtri_L_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
@@ -507,18 +496,18 @@ trtri_U_parallel.c: In function ‘ztrtri_UU_parallel’:
 trtri_U_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
-trtri_U_parallel.c: In function ‘ztrtri_UN_parallel’:
-trtri_U_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
-   BLASLONG lda, range_N[2];
-                 ^
 trtri_L_parallel.c: In function ‘ztrtri_LU_parallel’:
 trtri_L_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
-trtri_L_parallel.c: In function ‘ztrtri_LN_parallel’:
-trtri_L_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
-   BLASLONG lda, range_N[2];
-                 ^
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_INSTALL_BINDIR
+    CMAKE_INSTALL_LIBDIR
+    LIB_INSTALL_DIR
+
+
 ../kernel/x86_64/cgemv_n_4.c: In function ‘cgemv_n_PRESCOTT’:
 ../kernel/x86_64/cgemv_n_4.c:219:11: warning: unused variable ‘j’ [-Wunused-variable]
   BLASLONG j;
@@ -4393,9 +4382,6 @@ generic/zgemm3m_tcopy_4.c:68:17: warning: variable ‘a3’ set but not used [-W
 generic/zgemm3m_tcopy_4.c:68:9: warning: variable ‘a1’ set but not used [-Wunused-but-set-variable]
    FLOAT a1, a2, a3, a4, a5, a6, a7, a8;
          ^
-/home/nanosoldier/workdir/tmp9YBF0C/deps/srccache/llvm-3.9.1/lib/LTO/ThinLTOCodeGenerator.cpp:331:1: warning: ‘std::unique_ptr<llvm::MemoryBuffer> {anonymous}::ProcessThinLTOModule(llvm::Module&, llvm::ModuleSummaryIndex&, llvm::StringMap<llvm::MemoryBufferRef>&, llvm::TargetMachine&, const ImportMapTy&, const ExportSetTy&, const llvm::DenseSet<long unsigned int>&, const GVSummaryMapTy&, const llvm::ThinLTOCodeGenerator::CachingOptions&, bool, llvm::StringRef, unsigned int)’ defined but not used [-Wunused-function]
- ProcessThinLTOModule(Module &TheModule, ModuleSummaryIndex &Index,
- ^
 ../kernel/x86_64/../generic/zimatcopy_rn.c: In function ‘cimatcopy_k_rn_ZEN’:
 ../kernel/x86_64/../generic/zimatcopy_rn.c:37:15: warning: unused variable ‘bptr’ [-Wunused-variable]
   FLOAT *aptr,*bptr;
@@ -5467,6 +5453,9 @@ sormtr.f:307.18:
       WORK( 1 ) = LWKOPT                                                
                   1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
+/home/nanosoldier/workdir/tmp1vCh1z/deps/srccache/llvm-3.9.1/lib/LTO/ThinLTOCodeGenerator.cpp:331:1: warning: ‘std::unique_ptr<llvm::MemoryBuffer> {anonymous}::ProcessThinLTOModule(llvm::Module&, llvm::ModuleSummaryIndex&, llvm::StringMap<llvm::MemoryBufferRef>&, llvm::TargetMachine&, const ImportMapTy&, const ExportSetTy&, const llvm::DenseSet<long unsigned int>&, const GVSummaryMapTy&, const llvm::ThinLTOCodeGenerator::CachingOptions&, bool, llvm::StringRef, unsigned int)’ defined but not used [-Wunused-function]
+ ProcessThinLTOModule(Module &TheModule, ModuleSummaryIndex &Index,
+ ^
 spbsvx.f: In function ‘spbsvx’:
 spbsvx.f:432:0: warning: ‘smlnum’ may be used uninitialized in this function [-Wmaybe-uninitialized]
                 SCOND = MAX( SMIN, SMLNUM ) / MIN( SMAX, BIGNUM )
@@ -11932,6 +11921,26 @@ sblat2.f:1695.59:
      $                  INCMAX, A, AA, AS, X, XX, XS, Y, YY, YS, YT, G, 
                                                            1
 Warning: Unused dummy argument 'yy' at (1)
+sblat2.f: In function ‘schk6’:
+sblat2.f:2166:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                      DO 40 I = 1, NARGS
+ ^
+sblat2.f: In function ‘schk5’:
+sblat2.f:1864:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                   DO 30 I = 1, NARGS
+ ^
+sblat2.f: In function ‘schk3’:
+sblat2.f:1104:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      $                   KS, LAA, LDA, LDAS, LX, N, NARGS, NC, NK, NS
+ ^
+sblat2.f: In function ‘schk2’:
+sblat2.f:766:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      $                   N, NARGS, NC, NK, NS
+ ^
+sblat2.f: In function ‘schk1’:
+sblat2.f:425:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      $                   LDAS, LX, LY, M, ML, MS, N, NARGS, NC, ND, NK,
+ ^
 dblat2.f:2985.5:
 
    60 CONTINUE                                                          
@@ -11952,6 +11961,26 @@ dblat2.f:1695.59:
      $                  INCMAX, A, AA, AS, X, XX, XS, Y, YY, YS, YT, G, 
                                                            1
 Warning: Unused dummy argument 'yy' at (1)
+dblat2.f: In function ‘dchk6’:
+dblat2.f:2166:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                      DO 40 I = 1, NARGS
+ ^
+dblat2.f: In function ‘dchk5’:
+dblat2.f:1864:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                   DO 30 I = 1, NARGS
+ ^
+dblat2.f: In function ‘dchk3’:
+dblat2.f:1104:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      $                   KS, LAA, LDA, LDAS, LX, N, NARGS, NC, NK, NS
+ ^
+dblat2.f: In function ‘dchk2’:
+dblat2.f:766:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      $                   N, NARGS, NC, NK, NS
+ ^
+dblat2.f: In function ‘dchk1’:
+dblat2.f:425:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      $                   LDAS, LX, LY, M, ML, MS, N, NARGS, NC, ND, NK,
+ ^
 cblat2.f:258.24:
 
             A( I, J ) = MAX( I - J + 1, 0 )                             
@@ -11992,53 +12021,13 @@ cblat2.f:1731.59:
      $                  INCMAX, A, AA, AS, X, XX, XS, Y, YY, YS, YT, G, 
                                                            1
 Warning: Unused dummy argument 'yy' at (1)
-sblat2.f: In function ‘schk6’:
-sblat2.f:2166:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-                      DO 40 I = 1, NARGS
- ^
-dblat2.f: In function ‘dchk6’:
-dblat2.f:2166:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-                      DO 40 I = 1, NARGS
- ^
-sblat2.f: In function ‘schk5’:
-sblat2.f:1864:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-                   DO 30 I = 1, NARGS
- ^
-dblat2.f: In function ‘dchk5’:
-dblat2.f:1864:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-                   DO 30 I = 1, NARGS
- ^
 cblat2.f: In function ‘cchk6’:
 cblat2.f:2213:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
                       DO 40 I = 1, NARGS
  ^
-sblat2.f: In function ‘schk3’:
-sblat2.f:1104:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-      $                   KS, LAA, LDA, LDAS, LX, N, NARGS, NC, NK, NS
- ^
-dblat2.f: In function ‘dchk3’:
-dblat2.f:1104:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-      $                   KS, LAA, LDA, LDAS, LX, N, NARGS, NC, NK, NS
- ^
 cblat2.f: In function ‘cchk5’:
 cblat2.f:1906:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
                    DO 30 I = 1, NARGS
- ^
-sblat2.f: In function ‘schk2’:
-sblat2.f:766:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-      $                   N, NARGS, NC, NK, NS
- ^
-dblat2.f: In function ‘dchk2’:
-dblat2.f:766:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-      $                   N, NARGS, NC, NK, NS
- ^
-sblat2.f: In function ‘schk1’:
-sblat2.f:425:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-      $                   LDAS, LX, LY, M, ML, MS, N, NARGS, NC, ND, NK,
- ^
-dblat2.f: In function ‘dchk1’:
-dblat2.f:425:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-      $                   LDAS, LX, LY, M, ML, MS, N, NARGS, NC, ND, NK,
  ^
 cblat2.f: In function ‘cchk3’:
 cblat2.f:1124:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
@@ -12050,6 +12039,51 @@ cblat2.f:780:0: warning: ‘nargs’ may be used uninitialized in this function 
  ^
 cblat2.f: In function ‘cchk1’:
 cblat2.f:435:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      $                   LDAS, LX, LY, M, ML, MS, N, NARGS, NC, ND, NK,
+ ^
+zblat2.f:2973.12:
+
+      ERR = ZERO                                                        
+            1
+Warning: Possible change of value in conversion from COMPLEX(8) to REAL(8) at (1)
+zblat2.f:3090.5:
+
+   60 CONTINUE                                                          
+     1
+Warning: Label 60 at (1) defined but not used
+zblat2.f:1736.55:
+
+     $                  INCMAX, A, AA, AS, X, XX, XS, Y, YY, YS, YT, G, 
+                                                       1
+Warning: Unused dummy argument 'y' at (1)
+zblat2.f:1736.63:
+
+     $                  INCMAX, A, AA, AS, X, XX, XS, Y, YY, YS, YT, G, 
+                                                               1
+Warning: Unused dummy argument 'ys' at (1)
+zblat2.f:1736.59:
+
+     $                  INCMAX, A, AA, AS, X, XX, XS, Y, YY, YS, YT, G, 
+                                                           1
+Warning: Unused dummy argument 'yy' at (1)
+zblat2.f: In function ‘zchk6’:
+zblat2.f:2220:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                      DO 40 I = 1, NARGS
+ ^
+zblat2.f: In function ‘zchk5’:
+zblat2.f:1912:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                   DO 30 I = 1, NARGS
+ ^
+zblat2.f: In function ‘zchk3’:
+zblat2.f:1128:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      $                   KS, LAA, LDA, LDAS, LX, N, NARGS, NC, NK, NS
+ ^
+zblat2.f: In function ‘zchk2’:
+zblat2.f:783:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      $                   N, NARGS, NC, NK, NS
+ ^
+zblat2.f: In function ‘zchk1’:
+zblat2.f:437:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
       $                   LDAS, LX, LY, M, ML, MS, N, NARGS, NC, ND, NK,
  ^
 sblat3.f:200.25:
@@ -12087,17 +12121,7 @@ sblat3.f:235.27:
          CC( N - J + 1 ) = J*( ( J + 1 )*J )/2 -                        
                            1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
-zblat2.f:2973.12:
-
-      ERR = ZERO                                                        
-            1
-Warning: Possible change of value in conversion from COMPLEX(8) to REAL(8) at (1)
 sblat3.f:2663.5:
-
-   60 CONTINUE                                                          
-     1
-Warning: Label 60 at (1) defined but not used
-zblat2.f:3090.5:
 
    60 CONTINUE                                                          
      1
@@ -12117,25 +12141,6 @@ sblat3.f:1214.44:
      $                  A, AA, AS, B, BB, BS, C, CC, CS, CT, G )        
                                             1
 Warning: Unused dummy argument 'bs' at (1)
-zblat2.f:1736.55:
-
-     $                  INCMAX, A, AA, AS, X, XX, XS, Y, YY, YS, YT, G, 
-                                                       1
-Warning: Unused dummy argument 'y' at (1)
-zblat2.f:1736.63:
-
-     $                  INCMAX, A, AA, AS, X, XX, XS, Y, YY, YS, YT, G, 
-                                                               1
-Warning: Unused dummy argument 'ys' at (1)
-zblat2.f:1736.59:
-
-     $                  INCMAX, A, AA, AS, X, XX, XS, Y, YY, YS, YT, G, 
-                                                           1
-Warning: Unused dummy argument 'yy' at (1)
-zblat2.f: In function ‘zchk6’:
-zblat2.f:2220:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-                      DO 40 I = 1, NARGS
- ^
 dblat3.f:2663.5:
 
    60 CONTINUE                                                          
@@ -12156,26 +12161,6 @@ dblat3.f:1214.44:
      $                  A, AA, AS, B, BB, BS, C, CC, CS, CT, G )        
                                             1
 Warning: Unused dummy argument 'bs' at (1)
-zblat2.f: In function ‘zchk5’:
-zblat2.f:1912:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-                   DO 30 I = 1, NARGS
- ^
-zblat2.f: In function ‘zchk3’:
-zblat2.f:1128:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-      $                   KS, LAA, LDA, LDAS, LX, N, NARGS, NC, NK, NS
- ^
-zblat2.f: In function ‘zchk2’:
-zblat2.f:783:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-      $                   N, NARGS, NC, NK, NS
- ^
-zblat2.f: In function ‘zchk1’:
-zblat2.f:437:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-      $                   LDAS, LX, LY, M, ML, MS, N, NARGS, NC, ND, NK,
- ^
-Creating llvm-ranlib
-Creating llvm-lib
-Creating libLLVM-3.9.1.so
-Creating libLLVM.so
 cblat3.f:207.25:
 
             AB( I, J ) = MAX( I - J + 1, 0 )                            
@@ -12261,6 +12246,68 @@ zblat3.f:1244.44:
      $                  A, AA, AS, B, BB, BS, C, CC, CS, CT, G )        
                                             1
 Warning: Unused dummy argument 'bs' at (1)
+c_sblas1.c: In function ‘saxpytest_’:
+c_sblas1.c:20:4: warning: passing argument 3 of ‘cblas_saxpy’ discards ‘const’ qualifier from pointer target type [enabled by default]
+    cblas_saxpy(*N, *alpha, X, *incX, Y, *incY);
+    ^
+In file included from ../common.h:761:0,
+                 from c_sblas1.c:9:
+../cblas.h:85:6: note: expected ‘float *’ but argument is of type ‘const float *’
+ void cblas_saxpy(OPENBLAS_CONST blasint n, OPENBLAS_CONST float alpha, OPENBLAS_CONST float *x, OPENBLAS_CONST blasint incx, float *y, OPENBLAS_CONST blasint incy);
+      ^
+c_sblas1.c: In function ‘scnrm2test_’:
+c_sblas1.c:31:4: warning: passing argument 2 of ‘cblas_scnrm2’ discards ‘const’ qualifier from pointer target type [enabled by default]
+    return cblas_scnrm2(*N, X, *incX);
+    ^
+In file included from ../common.h:761:0,
+                 from c_sblas1.c:9:
+../cblas.h:77:8: note: expected ‘float *’ but argument is of type ‘const float *’
+ float  cblas_scnrm2(OPENBLAS_CONST blasint N, OPENBLAS_CONST float  *X, OPENBLAS_CONST blasint incX);
+        ^
+c_sblas1.c: In function ‘scopytest_’:
+c_sblas1.c:37:4: warning: passing argument 2 of ‘cblas_scopy’ discards ‘const’ qualifier from pointer target type [enabled by default]
+    cblas_scopy(*N, X, *incX, Y, *incY);
+    ^
+In file included from ../common.h:761:0,
+                 from c_sblas1.c:9:
+../cblas.h:90:6: note: expected ‘float *’ but argument is of type ‘const float *’
+ void cblas_scopy(OPENBLAS_CONST blasint n, OPENBLAS_CONST float *x, OPENBLAS_CONST blasint incx, float *y, OPENBLAS_CONST blasint incy);
+      ^
+c_sblas1.c: In function ‘sdottest_’:
+c_sblas1.c:44:4: warning: passing argument 2 of ‘cblas_sdot’ discards ‘const’ qualifier from pointer target type [enabled by default]
+    return cblas_sdot(*N, X, *incX, Y, *incY);
+    ^
+In file included from ../common.h:761:0,
+                 from c_sblas1.c:9:
+../cblas.h:57:8: note: expected ‘float *’ but argument is of type ‘const float *’
+ float  cblas_sdot(OPENBLAS_CONST blasint n, OPENBLAS_CONST float  *x, OPENBLAS_CONST blasint incx, OPENBLAS_CONST float  *y, OPENBLAS_CONST blasint incy);
+        ^
+c_sblas1.c:44:4: warning: passing argument 4 of ‘cblas_sdot’ discards ‘const’ qualifier from pointer target type [enabled by default]
+    return cblas_sdot(*N, X, *incX, Y, *incY);
+    ^
+In file included from ../common.h:761:0,
+                 from c_sblas1.c:9:
+../cblas.h:57:8: note: expected ‘float *’ but argument is of type ‘const float *’
+ float  cblas_sdot(OPENBLAS_CONST blasint n, OPENBLAS_CONST float  *x, OPENBLAS_CONST blasint incx, OPENBLAS_CONST float  *y, OPENBLAS_CONST blasint incy);
+        ^
+c_sblas1.c: In function ‘snrm2test_’:
+c_sblas1.c:49:4: warning: passing argument 2 of ‘cblas_snrm2’ discards ‘const’ qualifier from pointer target type [enabled by default]
+    return cblas_snrm2(*N, X, *incX);
+    ^
+In file included from ../common.h:761:0,
+                 from c_sblas1.c:9:
+../cblas.h:75:8: note: expected ‘float *’ but argument is of type ‘const float *’
+ float  cblas_snrm2 (OPENBLAS_CONST blasint N, OPENBLAS_CONST float  *X, OPENBLAS_CONST blasint incX);
+        ^
+c_sblas1.c: In function ‘isamaxtest_’:
+c_sblas1.c:82:4: warning: passing argument 2 of ‘cblas_isamax’ discards ‘const’ qualifier from pointer target type [enabled by default]
+    return (cblas_isamax(*N, X, *incX)+1);
+    ^
+In file included from ../common.h:761:0,
+                 from c_sblas1.c:9:
+../cblas.h:80:13: note: expected ‘float *’ but argument is of type ‘const float *’
+ CBLAS_INDEX cblas_isamax(OPENBLAS_CONST blasint n, OPENBLAS_CONST float  *x, OPENBLAS_CONST blasint incx);
+             ^
 c_sblat1.f:214.48:
 
                CALL STEST1(SNRM2TEST(N,SX,INCX),STEMP,STEMP,SFAC)       
@@ -12496,28 +12543,19 @@ c_sblat1.f:582.20:
       MWPTY(10,5) = 3                                                   
                     1
 Warning: Possible change of value in conversion from INTEGER(8) to REAL(4) at (1)
-c_sblas1.c: In function ‘saxpytest_’:
-c_sblas1.c:20:4: warning: passing argument 3 of ‘cblas_saxpy’ discards ‘const’ qualifier from pointer target type [enabled by default]
-    cblas_saxpy(*N, *alpha, X, *incX, Y, *incY);
+c_dblas1.c: In function ‘daxpytest_’:
+c_dblas1.c:20:4: warning: passing argument 3 of ‘cblas_daxpy’ discards ‘const’ qualifier from pointer target type [enabled by default]
+    cblas_daxpy(*N, *alpha, X, *incX, Y, *incY);
     ^
 In file included from ../common.h:761:0,
                  from c_dblas1.c:9:
 ../cblas.h:86:6: note: expected ‘double *’ but argument is of type ‘const double *’
  void cblas_daxpy(OPENBLAS_CONST blasint n, OPENBLAS_CONST double alpha, OPENBLAS_CONST double *x, OPENBLAS_CONST blasint incx, double *y, OPENBLAS_CONST blasint incy);
       ^
-c_sblas1.c: In function ‘scnrm2test_’:
 c_dblas1.c: In function ‘ddottest_’:
-c_sblas1.c:31:4: warning: passing argument 2 of ‘cblas_scnrm2’ discards ‘const’ qualifier from pointer target type [enabled by default]
-    return cblas_scnrm2(*N, X, *incX);
-    ^
 c_dblas1.c:34:4: warning: passing argument 2 of ‘cblas_ddot’ discards ‘const’ qualifier from pointer target type [enabled by default]
     return cblas_ddot(*N, X, *incX, Y, *incY);
     ^
-In file included from ../common.h:761:0,
-                 from c_sblas1.c:9:
-../cblas.h:77:8: note: expected ‘float *’ but argument is of type ‘const float *’
- float  cblas_scnrm2(OPENBLAS_CONST blasint N, OPENBLAS_CONST float  *X, OPENBLAS_CONST blasint incX);
-        ^
 In file included from ../common.h:761:0,
                  from c_dblas1.c:9:
 ../cblas.h:58:8: note: expected ‘double *’ but argument is of type ‘const double *’
@@ -12526,20 +12564,12 @@ In file included from ../common.h:761:0,
 c_dblas1.c:34:4: warning: passing argument 4 of ‘cblas_ddot’ discards ‘const’ qualifier from pointer target type [enabled by default]
     return cblas_ddot(*N, X, *incX, Y, *incY);
     ^
-c_sblas1.c: In function ‘scopytest_’:
 In file included from ../common.h:761:0,
                  from c_dblas1.c:9:
 ../cblas.h:58:8: note: expected ‘double *’ but argument is of type ‘const double *’
  double cblas_ddot(OPENBLAS_CONST blasint n, OPENBLAS_CONST double *x, OPENBLAS_CONST blasint incx, OPENBLAS_CONST double *y, OPENBLAS_CONST blasint incy);
         ^
-c_sblas1.c:37:4: warning: passing argument 2 of ‘cblas_scopy’ discards ‘const’ qualifier from pointer target type [enabled by default]
-    cblas_scopy(*N, X, *incX, Y, *incY);
-    ^
-In file included from ../common.h:761:0,
-                 from c_sblas1.c:9:
-../cblas.h:90:6: note: expected ‘float *’ but argument is of type ‘const float *’
- void cblas_scopy(OPENBLAS_CONST blasint n, OPENBLAS_CONST float *x, OPENBLAS_CONST blasint incx, float *y, OPENBLAS_CONST blasint incy);
-      ^
+c_dblas1.c: In function ‘dnrm2test_’:
 c_dblas1.c:39:4: warning: passing argument 2 of ‘cblas_dnrm2’ discards ‘const’ qualifier from pointer target type [enabled by default]
     return cblas_dnrm2(*N, X, *incX);
     ^
@@ -12548,35 +12578,10 @@ In file included from ../common.h:761:0,
 ../cblas.h:76:8: note: expected ‘double *’ but argument is of type ‘const double *’
  double cblas_dnrm2 (OPENBLAS_CONST blasint N, OPENBLAS_CONST double *X, OPENBLAS_CONST blasint incX);
         ^
-c_sblas1.c:44:4: warning: passing argument 2 of ‘cblas_sdot’ discards ‘const’ qualifier from pointer target type [enabled by default]
-    return cblas_sdot(*N, X, *incX, Y, *incY);
-    ^
-In file included from ../common.h:761:0,
-                 from c_sblas1.c:9:
-../cblas.h:57:8: note: expected ‘float *’ but argument is of type ‘const float *’
- float  cblas_sdot(OPENBLAS_CONST blasint n, OPENBLAS_CONST float  *x, OPENBLAS_CONST blasint incx, OPENBLAS_CONST float  *y, OPENBLAS_CONST blasint incy);
-        ^
-c_sblas1.c:44:4: warning: passing argument 4 of ‘cblas_sdot’ discards ‘const’ qualifier from pointer target type [enabled by default]
-    return cblas_sdot(*N, X, *incX, Y, *incY);
-    ^
-In file included from ../common.h:761:0,
-                 from c_sblas1.c:9:
-../cblas.h:57:8: note: expected ‘float *’ but argument is of type ‘const float *’
- float  cblas_sdot(OPENBLAS_CONST blasint n, OPENBLAS_CONST float  *x, OPENBLAS_CONST blasint incx, OPENBLAS_CONST float  *y, OPENBLAS_CONST blasint incy);
-        ^
-c_sblas1.c: In function ‘snrm2test_’:
 c_dblas1.c: In function ‘dznrm2test_’:
-c_sblas1.c:49:4: warning: passing argument 2 of ‘cblas_snrm2’ discards ‘const’ qualifier from pointer target type [enabled by default]
-    return cblas_snrm2(*N, X, *incX);
-    ^
 c_dblas1.c:77:4: warning: passing argument 2 of ‘cblas_dznrm2’ discards ‘const’ qualifier from pointer target type [enabled by default]
     return cblas_dznrm2(*N, X, *incX);
     ^
-In file included from ../common.h:761:0,
-                 from c_sblas1.c:9:
-../cblas.h:75:8: note: expected ‘float *’ but argument is of type ‘const float *’
- float  cblas_snrm2 (OPENBLAS_CONST blasint N, OPENBLAS_CONST float  *X, OPENBLAS_CONST blasint incX);
-        ^
 In file included from ../common.h:761:0,
                  from c_dblas1.c:9:
 ../cblas.h:78:8: note: expected ‘double *’ but argument is of type ‘const void *’
@@ -12590,15 +12595,6 @@ In file included from ../common.h:761:0,
                  from c_dblas1.c:9:
 ../cblas.h:81:13: note: expected ‘double *’ but argument is of type ‘const double *’
  CBLAS_INDEX cblas_idamax(OPENBLAS_CONST blasint n, OPENBLAS_CONST double *x, OPENBLAS_CONST blasint incx);
-             ^
-c_sblas1.c: In function ‘isamaxtest_’:
-c_sblas1.c:82:4: warning: passing argument 2 of ‘cblas_isamax’ discards ‘const’ qualifier from pointer target type [enabled by default]
-    return (cblas_isamax(*N, X, *incX)+1);
-    ^
-In file included from ../common.h:761:0,
-                 from c_sblas1.c:9:
-../cblas.h:80:13: note: expected ‘float *’ but argument is of type ‘const float *’
- CBLAS_INDEX cblas_isamax(OPENBLAS_CONST blasint n, OPENBLAS_CONST float  *x, OPENBLAS_CONST blasint incx);
              ^
 c_dblat1.f:214.48:
 
@@ -12716,15 +12712,6 @@ c_sblat2.f:354.7:
      $   1 )                                                            
        1
 Warning: Nonconforming tab character at (1)
-c_xerbla.c: In function ‘cblas_xerbla’:
-c_xerbla.c:81:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘blasint’ [-Wformat=]
-       printf("***** XERBLA WAS CALLED WITH INFO = %d INSTEAD OF %d in %s *******\n",info, cblas_info, rout);
-       ^
-c_xerbla.c:81:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long int’ [-Wformat=]
-c_xerbla.c: In function ‘xerbla_’:
-c_xerbla.c:135:1: warning: control reaches end of non-void function [-Wreturn-type]
- };
- ^
 c_sblat2.f:1007.7:
 
      $       INCY )                                                     
@@ -12825,6 +12812,23 @@ c_sblat2.f:1837.59:
      $                  INCMAX, A, AA, AS, X, XX, XS, Y, YY, YS, YT, G, 
                                                            1
 Warning: Unused dummy argument 'yy' at (1)
+c_xerbla.c: In function ‘cblas_xerbla’:
+c_xerbla.c:81:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘blasint’ [-Wformat=]
+       printf("***** XERBLA WAS CALLED WITH INFO = %d INSTEAD OF %d in %s *******\n",info, cblas_info, rout);
+       ^
+c_xerbla.c:81:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘long int’ [-Wformat=]
+c_xerbla.c: In function ‘xerbla_’:
+c_xerbla.c:135:1: warning: control reaches end of non-void function [-Wreturn-type]
+ };
+ ^
+c_sblat2.f: In function ‘schk6’:
+c_sblat2.f:2333:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                      DO 40 I = 1, NARGS
+ ^
+c_sblat2.f: In function ‘schk5’:
+c_sblat2.f:2014:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                   DO 30 I = 1, NARGS
+ ^
 c_d2chke.c: In function ‘chkxer’:
 c_d2chke.c:21:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
        printf("***** ILLEGAL VALUE OF PARAMETER NUMBER %d NOT DETECTED BY %s *****\n", cblas_info, cblas_rout);
@@ -12832,9 +12836,9 @@ c_d2chke.c:21:7: warning: format ‘%d’ expects argument of type ‘int’, bu
 c_d2chke.c:7:5: warning: unused variable ‘link_xerbla’ [-Wunused-variable]
  int link_xerbla=TRUE;
      ^
-c_sblat2.f: In function ‘schk6’:
-c_sblat2.f:2333:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-                      DO 40 I = 1, NARGS
+c_sblat2.f: In function ‘schk3’:
+c_sblat2.f:1206:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      $                   KS, LAA, LDA, LDAS, LX, N, NARGS, NC, NK, NS
  ^
 c_dblat2.f:348.7:
 
@@ -12931,8 +12935,20 @@ c_dblat2.f:1837.59:
      $                  INCMAX, A, AA, AS, X, XX, XS, Y, YY, YS, YT, G, 
                                                            1
 Warning: Unused dummy argument 'yy' at (1)
-c_sblat2.f: In function ‘schk5’:
-c_sblat2.f:2014:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+c_sblat2.f: In function ‘schk2’:
+c_sblat2.f:850:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      $                   N, NARGS, NC, NK, NS
+ ^
+c_sblat2.f: In function ‘schk1’:
+c_sblat2.f:490:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      $                   LDAS, LX, LY, M, ML, MS, N, NARGS, NC, ND, NK,
+ ^
+c_dblat2.f: In function ‘dchk6’:
+c_dblat2.f:2333:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                      DO 40 I = 1, NARGS
+ ^
+c_dblat2.f: In function ‘dchk5’:
+c_dblat2.f:2014:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
                    DO 30 I = 1, NARGS
  ^
 c_cblas2.c: In function ‘ccgemv_’:
@@ -14488,24 +14504,16 @@ In file included from ../common.h:761:0,
 ../cblas.h:154:6: note: expected ‘float *’ but argument is of type ‘struct CBLAS_TEST_COMPLEX *’
  void cblas_cher2(OPENBLAS_CONST enum CBLAS_ORDER order, OPENBLAS_CONST enum CBLAS_UPLO Uplo, OPENBLAS_CONST blasint N, OPENBLAS_CONST float *alpha, OPENBLAS_CONST float *X, OPENBLAS_CONST blasint incX,
       ^
-c_sblat2.f: In function ‘schk3’:
-c_sblat2.f:1206:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+c_dblat2.f: In function ‘dchk3’:
+c_dblat2.f:1206:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
       $                   KS, LAA, LDA, LDAS, LX, N, NARGS, NC, NK, NS
  ^
-c_dblat2.f: In function ‘dchk6’:
-c_dblat2.f:2333:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-                      DO 40 I = 1, NARGS
- ^
-c_dblat2.f: In function ‘dchk5’:
-c_dblat2.f:2014:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-                   DO 30 I = 1, NARGS
- ^
-c_sblat2.f: In function ‘schk2’:
-c_sblat2.f:850:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+c_dblat2.f: In function ‘dchk2’:
+c_dblat2.f:850:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
       $                   N, NARGS, NC, NK, NS
  ^
-c_sblat2.f: In function ‘schk1’:
-c_sblat2.f:490:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+c_dblat2.f: In function ‘dchk1’:
+c_dblat2.f:490:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
       $                   LDAS, LX, LY, M, ML, MS, N, NARGS, NC, ND, NK,
  ^
 c_c2chke.c: In function ‘chkxer’:
@@ -14515,14 +14523,6 @@ c_c2chke.c:21:7: warning: format ‘%d’ expects argument of type ‘int’, bu
 c_c2chke.c:7:5: warning: unused variable ‘link_xerbla’ [-Wunused-variable]
  int link_xerbla=TRUE;
      ^
-c_dblat2.f: In function ‘dchk3’:
-c_dblat2.f:1206:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-      $                   KS, LAA, LDA, LDAS, LX, N, NARGS, NC, NK, NS
- ^
-c_dblat2.f: In function ‘dchk2’:
-c_dblat2.f:850:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-      $                   N, NARGS, NC, NK, NS
- ^
 c_cblat2.f:352.7:
 
      $   0 )                                                            
@@ -15786,7 +15786,6 @@ In file included from ../common.h:761:0,
 ../cblas.h:138:6: note: expected ‘double *’ but argument is of type ‘struct CBLAS_TEST_ZOMPLEX *’
  void cblas_ztrsv(OPENBLAS_CONST enum CBLAS_ORDER order, OPENBLAS_CONST enum CBLAS_UPLO Uplo, OPENBLAS_CONST enum CBLAS_TRANSPOSE TransA, OPENBLAS_CONST enum CBLAS_DIAG Diag, OPENBLAS_CONST blasint N, OPENBLAS_CONST double *A, OPENBLAS_CONST blasint lda, double *X, OPENBLAS_CONST blasint incX);
       ^
-c_dblat2.f: In function ‘dchk1’:
 c_zblas2.c: In function ‘czhpr_’:
 c_zblas2.c:601:9: warning: passing argument 5 of ‘cblas_zhpr’ from incompatible pointer type [enabled by default]
          cblas_zhpr(CblasRowMajor, UNDEFINED, *n, *alpha, x, *incx, ap );
@@ -16131,10 +16130,6 @@ c_cblat2.f: In function ‘cchk6’:
 c_cblat2.f:2331:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
                       DO 40 I = 1, NARGS
  ^
-c_cblat2.f: In function ‘cchk5’:
-c_cblat2.f:2017:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-                   DO 30 I = 1, NARGS
- ^
 c_z2chke.c: In function ‘chkxer’:
 c_z2chke.c:21:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
        printf("***** ILLEGAL VALUE OF PARAMETER NUMBER %d NOT DETECTED BY %s *****\n", cblas_info, cblas_rout);
@@ -16142,6 +16137,10 @@ c_z2chke.c:21:7: warning: format ‘%d’ expects argument of type ‘int’, bu
 c_z2chke.c:7:5: warning: unused variable ‘link_xerbla’ [-Wunused-variable]
  int link_xerbla=TRUE;
      ^
+c_cblat2.f: In function ‘cchk5’:
+c_cblat2.f:2017:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                   DO 30 I = 1, NARGS
+ ^
 c_zblat2.f:352.7:
 
      $   0 )                                                            
@@ -16181,28 +16180,28 @@ c_cblat2.f: In function ‘cchk3’:
 c_cblat2.f:1207:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
       $                   KS, LAA, LDA, LDAS, LX, N, NARGS, NC, NK, NS
  ^
-c_cblat2.f: In function ‘cchk2’:
-c_cblat2.f:854:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-      $                   N, NARGS, NC, NK, NS
- ^
 c_zblat2.f: In function ‘zchk6’:
 c_zblat2.f:2337:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
                       DO 40 I = 1, NARGS
  ^
-c_cblat2.f: In function ‘cchk1’:
-c_cblat2.f:499:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
-      $                   LDAS, LX, LY, M, ML, MS, N, NARGS, NC, ND, NK,
+c_cblat2.f: In function ‘cchk2’:
+c_cblat2.f:854:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      $                   N, NARGS, NC, NK, NS
  ^
 c_s3chke.c: In function ‘chkxer’:
 c_s3chke.c:21:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
        printf("***** ILLEGAL VALUE OF PARAMETER NUMBER %d NOT DETECTED BY %s *****\n", cblas_info, cblas_rout);
        ^
+c_zblat2.f: In function ‘zchk5’:
 c_s3chke.c:7:5: warning: unused variable ‘link_xerbla’ [-Wunused-variable]
  int link_xerbla=TRUE;
      ^
-c_zblat2.f: In function ‘zchk5’:
 c_zblat2.f:2022:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
                    DO 30 I = 1, NARGS
+ ^
+c_cblat2.f: In function ‘cchk1’:
+c_cblat2.f:499:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      $                   LDAS, LX, LY, M, ML, MS, N, NARGS, NC, ND, NK,
  ^
 c_zblat2.f: In function ‘zchk3’:
 c_zblat2.f:1210:0: warning: ‘nargs’ may be used uninitialized in this function [-Wmaybe-uninitialized]
@@ -17276,6 +17275,13 @@ In file included from ../common.h:761:0,
 ../cblas.h:300:6: note: expected ‘float *’ but argument is of type ‘struct CBLAS_TEST_COMPLEX *’
  void cblas_ctrsm(OPENBLAS_CONST enum CBLAS_ORDER Order, OPENBLAS_CONST enum CBLAS_SIDE Side, OPENBLAS_CONST enum CBLAS_UPLO Uplo, OPENBLAS_CONST enum CBLAS_TRANSPOSE TransA,
       ^
+c_c3chke.c: In function ‘chkxer’:
+c_c3chke.c:21:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
+       printf("***** ILLEGAL VALUE OF PARAMETER NUMBER %d NOT DETECTED BY %s *****\n", cblas_info, cblas_rout);
+       ^
+c_c3chke.c:7:5: warning: unused variable ‘link_xerbla’ [-Wunused-variable]
+ int link_xerbla=TRUE;
+     ^
 c_cblat3.f:332.7:
 
      $  0 )                                                             
@@ -17296,13 +17302,6 @@ c_cblat3.f:366.7:
      $  1 )                                                             
        1
 Warning: Nonconforming tab character at (1)
-c_c3chke.c: In function ‘chkxer’:
-c_c3chke.c:21:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘long int’ [-Wformat=]
-       printf("***** ILLEGAL VALUE OF PARAMETER NUMBER %d NOT DETECTED BY %s *****\n", cblas_info, cblas_rout);
-       ^
-c_c3chke.c:7:5: warning: unused variable ‘link_xerbla’ [-Wunused-variable]
- int link_xerbla=TRUE;
-     ^
 c_cblat3.f:221.25:
 
             AB( I, J ) = MAX( I - J + 1, 0 )                            
@@ -18358,6 +18357,10 @@ c_zblat3.f:1444.44:
      $                  A, AA, AS, B, BB, BS, C, CC, CS, CT, G,         
                                             1
 Warning: Unused dummy argument 'bs' at (1)
+Creating llvm-ranlib
+Creating llvm-lib
+Creating libLLVM-3.9.1.so
+Creating libLLVM.so
 ar: creating libcerbla.a
 ar: creating libsuitesparseconfig.a
 /bin/sh: 1: cd: can't cd to metis-4.0
@@ -18366,7 +18369,7 @@ ar: creating libbtf.a
 ar: creating libcamd.a
 ar: creating libccolamd.a
 ar: creating libcolamd.a
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmp9YBF0C/usr/lib'
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmp1vCh1z/usr/lib'
 ar: creating libcholmod.a
 ar: creating libklu.a
 ar: creating libldl.a
@@ -18375,54 +18378,54 @@ ar: creating libcsparse.a
 ar: creating libcxsparse.a
 ar: creating librbio.a
 ar: creating libspqr.a
-/home/nanosoldier/workdir/tmp9YBF0C/src/jlapi.c: In function ‘jl_init__threading’:
-/home/nanosoldier/workdir/tmp9YBF0C/src/jlapi.c:73:9: warning: ignoring return value of ‘asprintf’, declared with attribute warn_unused_result [-Wunused-result]
+/home/nanosoldier/workdir/tmp1vCh1z/src/jlapi.c: In function ‘jl_init__threading’:
+/home/nanosoldier/workdir/tmp1vCh1z/src/jlapi.c:73:9: warning: ignoring return value of ‘asprintf’, declared with attribute warn_unused_result [-Wunused-result]
          (void)asprintf(&libbindir, "%s" PATHSEPSTRING ".." PATHSEPSTRING "%s", dirname(to_free), "bin");
          ^
-/home/nanosoldier/workdir/tmp9YBF0C/src/codegen.cpp: In function ‘llvm::Value* global_binding_pointer(jl_codectx_t&, jl_module_t*, jl_sym_t*, jl_binding_t**, bool)’:
-/home/nanosoldier/workdir/tmp9YBF0C/src/codegen.cpp:3101:97: warning: ignoring return value of ‘int asprintf(char**, const char*, ...)’, declared with attribute warn_unused_result [-Wunused-result]
+/home/nanosoldier/workdir/tmp1vCh1z/src/codegen.cpp: In function ‘llvm::Value* global_binding_pointer(jl_codectx_t&, jl_module_t*, jl_sym_t*, jl_binding_t**, bool)’:
+/home/nanosoldier/workdir/tmp1vCh1z/src/codegen.cpp:3101:97: warning: ignoring return value of ‘int asprintf(char**, const char*, ...)’, declared with attribute warn_unused_result [-Wunused-result]
                       jl_symbol_name(b->owner->name), jl_symbol_name(s), jl_symbol_name(m->name));
                                                                                                  ^
-/home/nanosoldier/workdir/tmp9YBF0C/src/codegen.cpp: In function ‘jl_cgval_t emit_expr(jl_codectx_t&, jl_value_t*)’:
-/home/nanosoldier/workdir/tmp9YBF0C/src/codegen.cpp:3781:21: warning: variable ‘mn’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmp1vCh1z/src/codegen.cpp: In function ‘jl_cgval_t emit_expr(jl_codectx_t&, jl_value_t*)’:
+/home/nanosoldier/workdir/tmp1vCh1z/src/codegen.cpp:3781:21: warning: variable ‘mn’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
          jl_value_t *mn = args[0];
                      ^
-/home/nanosoldier/workdir/tmp9YBF0C/src/codegen.cpp:3788:22: warning: variable ‘mod’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmp1vCh1z/src/codegen.cpp:3788:22: warning: variable ‘mod’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
          jl_module_t *mod = ctx.module;
                       ^
-/home/nanosoldier/workdir/tmp9YBF0C/src/codegen.cpp:3687:19: warning: argument ‘expr’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmp1vCh1z/src/codegen.cpp:3687:19: warning: argument ‘expr’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
  static jl_cgval_t emit_expr(jl_codectx_t &ctx, jl_value_t *expr)
                    ^
-/home/nanosoldier/workdir/tmp9YBF0C/src/codegen.cpp: In function ‘jl_llvm_functions_t jl_compile_linfo(jl_method_instance_t**, jl_code_info_t*, size_t, const jl_cgparams_t*)’:
-/home/nanosoldier/workdir/tmp9YBF0C/src/codegen.cpp:1066:27: warning: variable ‘li’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmp1vCh1z/src/codegen.cpp: In function ‘jl_llvm_functions_t jl_compile_linfo(jl_method_instance_t**, jl_code_info_t*, size_t, const jl_cgparams_t*)’:
+/home/nanosoldier/workdir/tmp1vCh1z/src/codegen.cpp:1066:27: warning: variable ‘li’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
      jl_method_instance_t *li = *pli;
                            ^
-/home/nanosoldier/workdir/tmp9YBF0C/src/codegen.cpp: In function ‘llvm::Function* jl_cfunction_object(jl_function_t*, jl_value_t*, jl_tupletype_t*)’:
-/home/nanosoldier/workdir/tmp9YBF0C/src/codegen.cpp:4499:25: warning: variable ‘sf’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmp1vCh1z/src/codegen.cpp: In function ‘llvm::Function* jl_cfunction_object(jl_function_t*, jl_value_t*, jl_tupletype_t*)’:
+/home/nanosoldier/workdir/tmp1vCh1z/src/codegen.cpp:4499:25: warning: variable ‘sf’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
      jl_typemap_entry_t *sf = NULL;
                          ^
-/home/nanosoldier/workdir/tmp9YBF0C/src/codegen.cpp:4446:18: warning: argument ‘declrt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmp1vCh1z/src/codegen.cpp:4446:18: warning: argument ‘declrt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
  static Function *jl_cfunction_object(jl_function_t *ff, jl_value_t *declrt, jl_tupletype_t *argt)
                   ^
-In file included from /home/nanosoldier/workdir/tmp9YBF0C/src/intrinsics.cpp:7:0,
-                 from /home/nanosoldier/workdir/tmp9YBF0C/src/codegen.cpp:1888:
-/home/nanosoldier/workdir/tmp9YBF0C/src/ccall.cpp: In function ‘jl_cgval_t emit_ccall(jl_codectx_t&, jl_value_t**, size_t)’:
-/home/nanosoldier/workdir/tmp9YBF0C/src/ccall.cpp:1508:10: warning: variable ‘isVa’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+In file included from /home/nanosoldier/workdir/tmp1vCh1z/src/intrinsics.cpp:7:0,
+                 from /home/nanosoldier/workdir/tmp1vCh1z/src/codegen.cpp:1888:
+/home/nanosoldier/workdir/tmp1vCh1z/src/ccall.cpp: In function ‘jl_cgval_t emit_ccall(jl_codectx_t&, jl_value_t**, size_t)’:
+/home/nanosoldier/workdir/tmp1vCh1z/src/ccall.cpp:1508:10: warning: variable ‘isVa’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
      bool isVa;
           ^
-/home/nanosoldier/workdir/tmp9YBF0C/src/ccall.cpp:1509:12: warning: variable ‘nargt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmp1vCh1z/src/ccall.cpp:1509:12: warning: variable ‘nargt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
      size_t nargt;
             ^
-/home/nanosoldier/workdir/tmp9YBF0C/src/ccall.cpp:1510:11: warning: variable ‘lrt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmp1vCh1z/src/ccall.cpp:1510:11: warning: variable ‘lrt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
      Type *lrt;
            ^
-/home/nanosoldier/workdir/tmp9YBF0C/src/ccall.cpp:1512:10: warning: variable ‘static_rt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmp1vCh1z/src/ccall.cpp:1512:10: warning: variable ‘static_rt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
      bool static_rt;
           ^
-/home/nanosoldier/workdir/tmp9YBF0C/src/ccall.cpp:1479:32: warning: variable ‘ua’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmp1vCh1z/src/ccall.cpp:1479:32: warning: variable ‘ua’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
                  jl_unionall_t *ua = unionall;
                                 ^
-/home/nanosoldier/workdir/tmp9YBF0C/src/ccall.cpp:1757:21: warning: variable ‘frt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmp1vCh1z/src/ccall.cpp:1757:21: warning: variable ‘frt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
          jl_value_t *frt = argv[1].constant;
                      ^
 WARNING: Method definition (::Type{T})(Any) in module Inference at coreimg.jl:16 overwritten in module Base at sysimg.jl:107.
