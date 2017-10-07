@@ -1,0 +1,4 @@
+WARNING: Compat.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/problem/IMDBGraphs.jl:8
+WARNING: Compat.UTF8String is deprecated, use String instead.
+  likely near /home/nanosoldier/.julia/v0.6/BaseBenchmarks/src/problem/IMDBGraphs.jl:14
