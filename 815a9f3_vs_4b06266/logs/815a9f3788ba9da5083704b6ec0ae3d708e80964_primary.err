@@ -1,0 +1,440 @@
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:147.
+Use "struct" instead.
+
+WARNING: deprecated syntax "parametric method syntax Base.Broadcast.broadcast{N}(f, t::NTuple{N}, ts::Vararg{NTuple{N}}) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:277".
+Use "Base.Broadcast.broadcast(f, t::NTuple{N}, ts::Vararg{NTuple{N}}) where N" instead.
+
+WARNING: deprecated syntax "parametric method syntax Base.convert{T}(::Type{Set{T}}, s::Set{T}) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:430".
+Use "Base.convert(#unused#::Type{Set{T}}, s::Set{T}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax Base.convert{T}(::Type{Set{T}}, s::Set) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:431".
+Use "Base.convert(#unused#::Type{Set{T}}, s::Set) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax Base.unsafe_trunc{T <: Integer}(::Type{T}, x::Integer) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:440".
+Use "Base.unsafe_trunc(#unused#::Type{T}, x::Integer) where T <: Integer" instead.
+
+WARNING: deprecated syntax "parametric method syntax reshape{N}(parent::AbstractArray, ndims::Val{N}) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:523".
+Use "reshape(parent::AbstractArray, ndims::Val{N}) where N" instead.
+
+WARNING: deprecated syntax "parametric method syntax ntuple{F, N}(f::F, ::Val{N}) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:525".
+Use "ntuple(f::F, #unused#::Val{N}) where {F, N}" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:238.
+Use "struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:280.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:285.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:312.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:334.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:353.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:372.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:401.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:412.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:425.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:430.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:455.
+Use "struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:462.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:468.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:471.
+Use "struct" instead.
+
+WARNING: deprecated syntax "type" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:476.
+Use "mutable struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:485.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:501.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:509.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:513.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:537.
+Use "struct" instead.
+
+WARNING: deprecated syntax "parametric method syntax hdf5_type_id{S <: AbstractString}(::Type{S}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:274".
+Use "hdf5_type_id(#unused#::Type{S}) where S <: AbstractString" instead.
+
+WARNING: deprecated syntax "parametric method syntax hdf5_type_id{C <: CharType}(::Type{C}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:298".
+Use "hdf5_type_id(#unused#::Type{C}) where C <: CharType" instead.
+
+WARNING: deprecated syntax "parametric method syntax size{T, D}(::Type{FixedArray{T, D}}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:472".
+Use "size(#unused#::Type{FixedArray{T, D}}) where {T, D}" instead.
+
+WARNING: deprecated syntax "parametric method syntax eltype{T, D}(::Type{FixedArray{T, D}}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:473".
+Use "eltype(#unused#::Type{FixedArray{T, D}}) where {T, D}" instead.
+
+WARNING: deprecated syntax "parametric method syntax HDF5Vlen{S <: String}(strs::Array{S}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:479".
+Use "HDF5Vlen(strs::Array{S}) where S <: String" instead.
+
+WARNING: deprecated syntax "parametric method syntax HDF5Vlen{T <: HDF5Scalar}(A::Array{Array{T}}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:480".
+Use "HDF5Vlen(A::Array{Array{T}}) where T <: HDF5Scalar" instead.
+
+WARNING: deprecated syntax "parametric method syntax HDF5Vlen{T <: HDF5Scalar, N}(A::Array{Array{T, N}}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:481".
+Use "HDF5Vlen(A::Array{Array{T, N}}) where {T <: HDF5Scalar, N}" instead.
+
+WARNING: deprecated syntax "parametric method syntax vlenpack{T <: Union{HDF5Scalar, CharType}}(v::HDF5Vlen{T}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:491".
+Use "vlenpack(v::HDF5Vlen{T}) where T <: Union{HDF5Scalar, CharType}" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/HDF5/src/blosc_filter.jl:12.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/Blosc/src/Blosc.jl:232.
+Use "struct" instead.
+
+WARNING: deprecated syntax "parametric method syntax compress!{T}(dest::DenseVector{UInt8}, src::Ptr{T}, src_size::Integer; level::Integer = 5, shuffle::Bool = true, itemsize::Integer = sizeof(T)) around /home/nanosoldier/.julia/v0.7/Blosc/src/Blosc.jl:59".
+Use "compress!(dest::DenseVector{UInt8}, src::Ptr{T}, src_size::Integer; level::Integer = 5, shuffle::Bool = true, itemsize::Integer = sizeof(T)) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax compress{T}(src::Ptr{T}, src_size::Integer; kws...) around /home/nanosoldier/.julia/v0.7/Blosc/src/Blosc.jl:86".
+Use "compress(src::Ptr{T}, src_size::Integer; kws...) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax decompress!{T}(dest::DenseVector{T}, src::DenseVector{UInt8}) around /home/nanosoldier/.julia/v0.7/Blosc/src/Blosc.jl:146".
+Use "decompress!(dest::DenseVector{T}, src::DenseVector{UInt8}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax decompress{T}(::Type{T}, src::DenseVector{UInt8}) around /home/nanosoldier/.julia/v0.7/Blosc/src/Blosc.jl:172".
+Use "decompress(#unused#::Type{T}, src::DenseVector{UInt8}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax heuristic_chunk{T}(A::AbstractArray{T}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:569".
+Use "heuristic_chunk(A::AbstractArray{T}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax datatype{T <: HDF5Scalar}(x::T) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1136".
+Use "datatype(x::T) where T <: HDF5Scalar" instead.
+
+WARNING: deprecated syntax "parametric method syntax datatype{T <: HDF5Scalar}(::Type{T}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1137".
+Use "datatype(#unused#::Type{T}) where T <: HDF5Scalar" instead.
+
+WARNING: deprecated syntax "parametric method syntax datatype{T <: HDF5Scalar}(A::Array{T}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1138".
+Use "datatype(A::Array{T}) where T <: HDF5Scalar" instead.
+
+WARNING: deprecated syntax "parametric method syntax datatype{S <: String}(str::S) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1140".
+Use "datatype(str::S) where S <: String" instead.
+
+WARNING: deprecated syntax "parametric method syntax datatype{S <: String}(str::Array{S}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1146".
+Use "datatype(str::Array{S}) where S <: String" instead.
+
+WARNING: deprecated syntax "parametric method syntax datatype{T <: HDF5Scalar}(A::HDF5Vlen{T}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1151".
+Use "datatype(A::HDF5Vlen{T}) where T <: HDF5Scalar" instead.
+
+WARNING: deprecated syntax "parametric method syntax datatype{C <: CharType}(str::HDF5Vlen{C}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1153".
+Use "datatype(str::HDF5Vlen{C}) where C <: CharType" instead.
+
+WARNING: deprecated syntax "parametric method syntax dataspace{T <: HDF5Scalar}(x::T) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1167".
+Use "dataspace(x::T) where T <: HDF5Scalar" instead.
+
+WARNING: deprecated syntax "parametric method syntax read{T <: HDF5Scalar}(obj::DatasetOrAttribute, ::Type{T}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1263".
+Use "read(obj::DatasetOrAttribute, #unused#::Type{T}) where T <: HDF5Scalar" instead.
+
+WARNING: deprecated syntax "parametric method syntax read{T <: HDF5Scalar}(obj::DatasetOrAttribute, ::Type{Array{T}}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1268".
+Use "read(obj::DatasetOrAttribute, #unused#::Type{Array{T}}) where T <: HDF5Scalar" instead.
+
+WARNING: deprecated syntax "parametric method syntax read{T <: ScalarOrString}(obj::DatasetOrAttribute, ::Type{EmptyArray{T}}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1278".
+Use "read(obj::DatasetOrAttribute, #unused#::Type{EmptyArray{T}}) where T <: ScalarOrString" instead.
+
+WARNING: deprecated syntax "parametric method syntax read{A <: FixedArray}(obj::DatasetOrAttribute, ::Type{A}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1282".
+Use "read(obj::DatasetOrAttribute, #unused#::Type{A}) where A <: FixedArray" instead.
+
+WARNING: deprecated syntax "parametric method syntax read{A <: FixedArray}(obj::DatasetOrAttribute, ::Type{Array{A}}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1289".
+Use "read(obj::DatasetOrAttribute, #unused#::Type{Array{A}}) where A <: FixedArray" instead.
+
+WARNING: deprecated syntax "parametric method syntax read{S <: String}(obj::DatasetOrAttribute, ::Type{S}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1330".
+Use "read(obj::DatasetOrAttribute, #unused#::Type{S}) where S <: String" instead.
+
+WARNING: deprecated syntax "parametric method syntax read{S <: CharType}(obj::DatasetOrAttribute, ::Type{S}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1353".
+Use "read(obj::DatasetOrAttribute, #unused#::Type{S}) where S <: CharType" instead.
+
+WARNING: deprecated syntax "parametric method syntax read{S <: String}(obj::DatasetOrAttribute, ::Type{Array{S}}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1356".
+Use "read(obj::DatasetOrAttribute, #unused#::Type{Array{S}}) where S <: String" instead.
+
+WARNING: deprecated syntax "parametric method syntax read{S <: CharType}(obj::DatasetOrAttribute, ::Type{Array{S}}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1401".
+Use "read(obj::DatasetOrAttribute, #unused#::Type{Array{S}}) where S <: CharType" instead.
+
+WARNING: deprecated syntax "parametric method syntax read{C <: CharType}(obj::DatasetOrAttribute, ::Type{EmptyArray{C}}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1404".
+Use "read(obj::DatasetOrAttribute, #unused#::Type{EmptyArray{C}}) where C <: CharType" instead.
+
+WARNING: deprecated syntax "parametric method syntax read{N}(obj::HDF5Dataset, T::Union{Type{Array{HDF5Compound{N}}}, Type{HDF5Compound{N}}}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1435".
+Use "read(obj::HDF5Dataset, T::Union{Type{Array{HDF5Compound{N}}}, Type{HDF5Compound{N}}}) where N" instead.
+
+WARNING: deprecated syntax "parametric method syntax atype{T <: HDF5Scalar}(::Type{T}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1505".
+Use "atype(#unused#::Type{T}) where T <: HDF5Scalar" instead.
+
+WARNING: deprecated syntax "parametric method syntax atype{C <: CharType}(::Type{C}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1506".
+Use "atype(#unused#::Type{C}) where C <: CharType" instead.
+
+WARNING: deprecated syntax "parametric method syntax p2a{T <: HDF5Scalar}(p::Ptr{T}, len::Int) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1507".
+Use "p2a(p::Ptr{T}, len::Int) where T <: HDF5Scalar" instead.
+
+WARNING: deprecated syntax "parametric method syntax p2a{C <: CharType}(p::Ptr{C}, len::Int) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1508".
+Use "p2a(p::Ptr{C}, len::Int) where C <: CharType" instead.
+
+WARNING: deprecated syntax "parametric method syntax t2p{T <: HDF5Scalar}(::Type{T}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1509".
+Use "t2p(#unused#::Type{T}) where T <: HDF5Scalar" instead.
+
+WARNING: deprecated syntax "parametric method syntax t2p{C <: CharType}(::Type{C}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1510".
+Use "t2p(#unused#::Type{C}) where C <: CharType" instead.
+
+WARNING: deprecated syntax "parametric method syntax read{T <: Union{HDF5Scalar, CharType}}(obj::DatasetOrAttribute, ::Type{HDF5Vlen{T}}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1512".
+Use "read(obj::DatasetOrAttribute, #unused#::Type{HDF5Vlen{T}}) where T <: Union{HDF5Scalar, CharType}" instead.
+
+WARNING: deprecated syntax "parametric method syntax ismmappable{T <: HDF5Scalar}(::Type{Array{T}}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1540".
+Use "ismmappable(#unused#::Type{Array{T}}) where T <: HDF5Scalar" instead.
+
+WARNING: deprecated syntax "parametric method syntax ismmappable{T}(obj::HDF5Dataset, ::Type{T}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1542".
+Use "ismmappable(obj::HDF5Dataset, #unused#::Type{T}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax readmmap{T}(obj::HDF5Dataset, ::Type{Array{T}}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1546".
+Use "readmmap(obj::HDF5Dataset, #unused#::Type{Array{T}}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax d_create{T <: ScalarOrString}(parent::Union{HDF5.HDF5File, HDF5.HDF5Group}, name::String, data::Union{T, Array{T}}, plists...) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1614".
+Use "d_create(parent::Union{HDF5.HDF5File, HDF5.HDF5Group}, name::String, data::Union{T, Array{T}}, plists...) where T <: ScalarOrString" instead.
+
+WARNING: deprecated syntax "parametric method syntax d_create{T <: Union{HDF5Scalar, CharType}}(parent::Union{HDF5.HDF5File, HDF5.HDF5Group}, name::String, data::HDF5Vlen{T}, plists...) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1617".
+Use "d_create(parent::Union{HDF5.HDF5File, HDF5.HDF5Group}, name::String, data::HDF5Vlen{T}, plists...) where T <: Union{HDF5Scalar, CharType}" instead.
+
+WARNING: deprecated syntax "parametric method syntax a_create{T <: ScalarOrString}(parent::Union{HDF5.HDF5Dataset, HDF5.HDF5Datatype, HDF5.HDF5File, HDF5.HDF5Group}, name::String, data::Union{T, Array{T}}, plists...) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1614".
+Use "a_create(parent::Union{HDF5.HDF5Dataset, HDF5.HDF5Datatype, HDF5.HDF5File, HDF5.HDF5Group}, name::String, data::Union{T, Array{T}}, plists...) where T <: ScalarOrString" instead.
+
+WARNING: deprecated syntax "parametric method syntax a_create{T <: Union{HDF5Scalar, CharType}}(parent::Union{HDF5.HDF5Dataset, HDF5.HDF5Datatype, HDF5.HDF5File, HDF5.HDF5Group}, name::String, data::HDF5Vlen{T}, plists...) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1617".
+Use "a_create(parent::Union{HDF5.HDF5Dataset, HDF5.HDF5Datatype, HDF5.HDF5File, HDF5.HDF5Group}, name::String, data::HDF5Vlen{T}, plists...) where T <: Union{HDF5Scalar, CharType}" instead.
+
+WARNING: deprecated syntax "parametric method syntax d_write{T <: ScalarOrString}(parent::Union{HDF5.HDF5File, HDF5.HDF5Group}, name::String, data::Union{T, Array{T}}, plists...) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1637".
+Use "d_write(parent::Union{HDF5.HDF5File, HDF5.HDF5Group}, name::String, data::Union{T, Array{T}}, plists...) where T <: ScalarOrString" instead.
+
+WARNING: deprecated syntax "parametric method syntax d_write{T <: Union{HDF5Scalar, CharType}}(parent::Union{HDF5.HDF5File, HDF5.HDF5Group}, name::String, data::HDF5Vlen{T}, plists...) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1640".
+Use "d_write(parent::Union{HDF5.HDF5File, HDF5.HDF5Group}, name::String, data::HDF5Vlen{T}, plists...) where T <: Union{HDF5Scalar, CharType}" instead.
+
+WARNING: deprecated syntax "parametric method syntax a_write{T <: ScalarOrString}(parent::Union{HDF5.HDF5Dataset, HDF5.HDF5Datatype, HDF5.HDF5File, HDF5.HDF5Group}, name::String, data::Union{T, Array{T}}, plists...) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1637".
+Use "a_write(parent::Union{HDF5.HDF5Dataset, HDF5.HDF5Datatype, HDF5.HDF5File, HDF5.HDF5Group}, name::String, data::Union{T, Array{T}}, plists...) where T <: ScalarOrString" instead.
+
+WARNING: deprecated syntax "parametric method syntax a_write{T <: Union{HDF5Scalar, CharType}}(parent::Union{HDF5.HDF5Dataset, HDF5.HDF5Datatype, HDF5.HDF5File, HDF5.HDF5Group}, name::String, data::HDF5Vlen{T}, plists...) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1640".
+Use "a_write(parent::Union{HDF5.HDF5Dataset, HDF5.HDF5Datatype, HDF5.HDF5File, HDF5.HDF5Group}, name::String, data::HDF5Vlen{T}, plists...) where T <: Union{HDF5Scalar, CharType}" instead.
+
+WARNING: deprecated syntax "parametric method syntax write{T <: ScalarOrString}(obj::DatasetOrAttribute, x::Union{T, Array{T}}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1647".
+Use "write(obj::DatasetOrAttribute, x::Union{T, Array{T}}) where T <: ScalarOrString" instead.
+
+WARNING: deprecated syntax "parametric method syntax write{T <: Union{HDF5Scalar, CharType}}(obj::DatasetOrAttribute, data::HDF5Vlen{T}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1656".
+Use "write(obj::DatasetOrAttribute, data::HDF5Vlen{T}) where T <: Union{HDF5Scalar, CharType}" instead.
+
+WARNING: deprecated syntax "parametric method syntax write{T <: ScalarOrString}(parent::Union{HDF5File, HDF5Group}, name::String, data::Union{T, Array{T}}, plists...) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1664".
+Use "write(parent::Union{HDF5File, HDF5Group}, name::String, data::Union{T, Array{T}}, plists...) where T <: ScalarOrString" instead.
+
+WARNING: deprecated syntax "parametric method syntax write{T <: ScalarOrString}(parent::HDF5Dataset, name::String, data::Union{T, Array{T}}, plists...) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1667".
+Use "write(parent::HDF5Dataset, name::String, data::Union{T, Array{T}}, plists...) where T <: ScalarOrString" instead.
+
+WARNING: deprecated syntax "parametric method syntax h5a_write{T <: HDF5Scalar}(attr_id::Hid, mem_type_id::Hid, x::T) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1905".
+Use "h5a_write(attr_id::Hid, mem_type_id::Hid, x::T) where T <: HDF5Scalar" instead.
+
+WARNING: deprecated syntax "parametric method syntax h5a_write{S <: String}(attr_id::Hid, memtype_id::Hid, strs::Array{S}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1909".
+Use "h5a_write(attr_id::Hid, memtype_id::Hid, strs::Array{S}) where S <: String" instead.
+
+WARNING: deprecated syntax "parametric method syntax h5a_write{T <: Union{HDF5Scalar, CharType}}(attr_id::Hid, memtype_id::Hid, v::HDF5Vlen{T}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1913".
+Use "h5a_write(attr_id::Hid, memtype_id::Hid, v::HDF5Vlen{T}) where T <: Union{HDF5Scalar, CharType}" instead.
+
+WARNING: deprecated syntax "parametric method syntax h5d_write{T <: HDF5Scalar}(dataset_id::Hid, memtype_id::Hid, x::T) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1925".
+Use "h5d_write(dataset_id::Hid, memtype_id::Hid, x::T) where T <: HDF5Scalar" instead.
+
+WARNING: deprecated syntax "parametric method syntax h5d_write{S <: String}(dataset_id::Hid, memtype_id::Hid, strs::Array{S}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1929".
+Use "h5d_write(dataset_id::Hid, memtype_id::Hid, strs::Array{S}) where S <: String" instead.
+
+WARNING: deprecated syntax "parametric method syntax h5d_write{T <: Union{HDF5Scalar, CharType}}(dataset_id::Hid, memtype_id::Hid, v::HDF5Vlen{T}) around /home/nanosoldier/.julia/v0.7/HDF5/src/HDF5.jl:1937".
+Use "h5d_write(dataset_id::Hid, memtype_id::Hid, v::HDF5Vlen{T}) where T <: Union{HDF5Scalar, CharType}" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:4.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:5.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:6.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:8.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:9.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:40.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:225.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:248.
+Use "struct" instead.
+
+WARNING: deprecated syntax "parametric method syntax applies_to_os{O <: OS}(os::Type{O}) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:13".
+Use "applies_to_os(os::Type{O}) where O <: OS" instead.
+
+WARNING: deprecated syntax "parametric method syntax applies_to_os{U <: Unix}(os::Type{U}) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:15".
+Use "applies_to_os(os::Type{U}) where U <: Unix" instead.
+
+WARNING: deprecated syntax "parametric method syntax unknown{sym}(::Type{DataFormat{sym}}) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:52".
+Use "unknown(#unused#::Type{DataFormat{sym}}) where sym" instead.
+
+WARNING: deprecated syntax "parametric method syntax add_format{sym}(fmt::Type{DataFormat{sym}}, magic::Union{Tuple, AbstractVector, String}, extension) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:79".
+Use "add_format(fmt::Type{DataFormat{sym}}, magic::Union{Tuple, AbstractVector, String}, extension) where sym" instead.
+
+WARNING: deprecated syntax "parametric method syntax add_format{sym, T <: Vector{UInt8}}(fmt::Type{DataFormat{sym}}, magics::Tuple{T, Vararg{T}}, extension) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:94".
+Use "add_format(fmt::Type{DataFormat{sym}}, magics::Tuple{T, Vararg{T}}, extension) where {sym, T <: Vector{UInt8}}" instead.
+
+WARNING: deprecated syntax "parametric method syntax add_format{sym}(fmt::Type{DataFormat{sym}}, magic, extension) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:111".
+Use "add_format(fmt::Type{DataFormat{sym}}, magic, extension) where sym" instead.
+
+WARNING: deprecated syntax "parametric method syntax del_format{sym}(fmt::Type{DataFormat{sym}}) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:122".
+Use "del_format(fmt::Type{DataFormat{sym}}) where sym" instead.
+
+WARNING: deprecated syntax "parametric method syntax del_magic{N}(magic::NTuple{N, UInt8}, sym) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:135".
+Use "del_magic(magic::NTuple{N, UInt8}, sym) where N" instead.
+
+WARNING: deprecated syntax "parametric method syntax Base.info{sym}(::Type{DataFormat{sym}}) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:162".
+Use "Base.info(#unused#::Type{DataFormat{sym}}) where sym" instead.
+
+WARNING: deprecated syntax "parametric method syntax canonicalize_magic{N}(m::NTuple{N, UInt8}) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:165".
+Use "canonicalize_magic(m::NTuple{N, UInt8}) where N" instead.
+
+WARNING: deprecated syntax "parametric method syntax File{sym}(fmt::Type{DataFormat{sym}}, filename) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:228".
+Use "File(fmt::Type{DataFormat{sym}}, filename) where sym" instead.
+
+WARNING: deprecated syntax "parametric method syntax Stream{F <: DataFormat}(::Type{F}, io::IO) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:253".
+Use "Stream(#unused#::Type{F}, io::IO) where F <: DataFormat" instead.
+
+WARNING: deprecated syntax "parametric method syntax Stream{F <: DataFormat}(::Type{F}, io::IO, filename::AbstractString) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:254".
+Use "Stream(#unused#::Type{F}, io::IO, filename::AbstractString) where F <: DataFormat" instead.
+
+WARNING: deprecated syntax "parametric method syntax Stream{F <: DataFormat}(::Type{F}, io::IO, filename) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:255".
+Use "Stream(#unused#::Type{F}, io::IO, filename) where F <: DataFormat" instead.
+
+WARNING: deprecated syntax "parametric method syntax Stream{F}(file::File{F}, io::IO) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:256".
+Use "Stream(file::File{F}, io::IO) where F" instead.
+
+WARNING: deprecated syntax "parametric method syntax file!{F}(strm::Stream{F}) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:279".
+Use "file!(strm::Stream{F}) where F" instead.
+
+WARNING: deprecated syntax "parametric method syntax Base.open{F <: DataFormat}(file::File{F}, args...) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:289".
+Use "Base.open(file::File{F}, args...) where F <: DataFormat" instead.
+
+WARNING: deprecated syntax "parametric method syntax magic{F <: DataFormat}(fmt::Type{F}) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:316".
+Use "magic(fmt::Type{F}) where F <: DataFormat" instead.
+
+WARNING: deprecated syntax "parametric method syntax skipmagic{F}(s::Stream{F}) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:322".
+Use "skipmagic(s::Stream{F}) where F" instead.
+
+WARNING: deprecated syntax "parametric method syntax skipmagic{sym}(io, fmt::Type{DataFormat{sym}}) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:324".
+Use "skipmagic(io, fmt::Type{DataFormat{sym}}) where sym" instead.
+
+WARNING: deprecated syntax "parametric method syntax skipmagic{N}(io, magic::NTuple{N, UInt8}) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:329".
+Use "skipmagic(io, magic::NTuple{N, UInt8}) where N" instead.
+
+WARNING: deprecated syntax "parametric method syntax unknown{F}(::File{F}) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:356".
+Use "unknown(#unused#::File{F}) where F" instead.
+
+WARNING: deprecated syntax "parametric method syntax unknown{F}(::Stream{F}) around /home/nanosoldier/.julia/v0.7/FileIO/src/query.jl:357".
+Use "unknown(#unused#::Stream{F}) where F" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/error_handling.jl:6.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/error_handling.jl:18.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/error_handling.jl:30.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/FileIO/src/error_handling.jl:39.
+Use "struct" instead.
+
+WARNING: deprecated syntax "parametric method syntax applicable_loaders{sym}(::Union{Type{DataFormat{sym}}, Formatted{DataFormat{sym}}}) around /home/nanosoldier/.julia/v0.7/FileIO/src/loadsave.jl:25".
+Use "applicable_loaders(#unused#::Union{Type{DataFormat{sym}}, Formatted{DataFormat{sym}}}) where sym" instead.
+
+WARNING: deprecated syntax "parametric method syntax add_loader{sym}(::Type{DataFormat{sym}}, pkg::Symbol) around /home/nanosoldier/.julia/v0.7/FileIO/src/loadsave.jl:31".
+Use "add_loader(#unused#::Type{DataFormat{sym}}, pkg::Symbol) where sym" instead.
+
+WARNING: deprecated syntax "parametric method syntax applicable_savers{sym}(::Union{Type{DataFormat{sym}}, Formatted{DataFormat{sym}}}) around /home/nanosoldier/.julia/v0.7/FileIO/src/loadsave.jl:25".
+Use "applicable_savers(#unused#::Union{Type{DataFormat{sym}}, Formatted{DataFormat{sym}}}) where sym" instead.
+
+WARNING: deprecated syntax "parametric method syntax add_saver{sym}(::Type{DataFormat{sym}}, pkg::Symbol) around /home/nanosoldier/.julia/v0.7/FileIO/src/loadsave.jl:31".
+Use "add_saver(#unused#::Type{DataFormat{sym}}, pkg::Symbol) where sym" instead.
+
+WARNING: deprecated syntax "parametric method syntax save{sym}(df::Type{DataFormat{sym}}, f::AbstractString, data...; options...) around /home/nanosoldier/.julia/v0.7/FileIO/src/loadsave.jl:70".
+Use "save(df::Type{DataFormat{sym}}, f::AbstractString, data...; options...) where sym" instead.
+
+WARNING: deprecated syntax "parametric method syntax save{sym}(df::Type{DataFormat{sym}}, s::IO, data...; options...) around /home/nanosoldier/.julia/v0.7/FileIO/src/loadsave.jl:77".
+Use "save(df::Type{DataFormat{sym}}, s::IO, data...; options...) where sym" instead.
+
+WARNING: deprecated syntax "parametric method syntax load{F}(q::Formatted{F}, args...; options...) around /home/nanosoldier/.julia/v0.7/FileIO/src/loadsave.jl:86".
+Use "load(q::Formatted{F}, args...; options...) where F" instead.
+
+WARNING: deprecated syntax "parametric method syntax save{F}(q::Formatted{F}, data...; options...) around /home/nanosoldier/.julia/v0.7/FileIO/src/loadsave.jl:106".
+Use "save(q::Formatted{F}, data...; options...) where F" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/LegacyStrings/src/LegacyStrings.jl:52.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/LegacyStrings/src/LegacyStrings.jl:56.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/LegacyStrings/src/LegacyStrings.jl:60.
+Use "struct" instead.
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/LegacyStrings/src/LegacyStrings.jl:70.
+Use "struct" instead.
+ERROR: LoadError: UndefVarError: DirectIndexString not defined
+Stacktrace:
+ [1] include_relative(::Module, ::String) at ./loading.jl:509
+ [2] include(::Module, ::String) at ./sysimg.jl:15
+ [3] anonymous at ./<missing>:2
+in expression starting at /home/nanosoldier/.julia/v0.7/LegacyStrings/src/LegacyStrings.jl:52
+ERROR: LoadError: Failed to precompile LegacyStrings to /home/nanosoldier/.julia/lib/v0.7/LegacyStrings.ji.
+Stacktrace:
+ [1] compilecache(::String) at ./loading.jl:637
+ [2] _require(::Symbol) at ./loading.jl:426
+ [3] require(::Symbol) at ./loading.jl:300
+ [4] include_relative(::Module, ::String) at ./loading.jl:509
+ [5] include(::Module, ::String) at ./sysimg.jl:15
+ [6] anonymous at ./<missing>:2
+in expression starting at /home/nanosoldier/.julia/v0.7/JLD/src/JLD.jl:10
+ERROR: LoadError: LoadError: Failed to precompile JLD to /home/nanosoldier/.julia/lib/v0.7/JLD.ji.
+Stacktrace:
+ [1] compilecache(::String) at ./loading.jl:637
+ [2] _require(::Symbol) at ./loading.jl:426
+ [3] require(::Symbol) at ./loading.jl:300
+ [4] include_relative(::Module, ::String) at ./loading.jl:509
+ [5] _require(::Symbol) at ./loading.jl:441
+ [6] require(::Symbol) at ./loading.jl:300
+ [7] include_relative(::Module, ::String) at ./loading.jl:509
+ [8] include(::Module, ::String) at ./sysimg.jl:15
+ [9] process_options(::Base.JLOptions) at ./client.jl:334
+ [10] _start() at ./client.jl:400
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:4
+in expression starting at /home/nanosoldier/workdir/tmpOKcGwM/benchscript.jl:11
