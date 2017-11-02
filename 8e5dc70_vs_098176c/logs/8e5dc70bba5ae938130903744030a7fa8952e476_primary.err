@@ -1,0 +1,35 @@
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:147.
+Use "struct" instead.
+
+WARNING: deprecated syntax "parametric method syntax Base.Broadcast.broadcast{N}(f, t::NTuple{N}, ts::Vararg{NTuple{N}}) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:277".
+Use "Base.Broadcast.broadcast(f, t::NTuple{N}, ts::Vararg{NTuple{N}}) where N" instead.
+
+WARNING: deprecated syntax "parametric method syntax Base.convert{T}(::Type{Set{T}}, s::Set{T}) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:430".
+Use "Base.convert(#unused#::Type{Set{T}}, s::Set{T}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax Base.convert{T}(::Type{Set{T}}, s::Set) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:431".
+Use "Base.convert(#unused#::Type{Set{T}}, s::Set) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax Base.unsafe_trunc{T <: Integer}(::Type{T}, x::Integer) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:440".
+Use "Base.unsafe_trunc(#unused#::Type{T}, x::Integer) where T <: Integer" instead.
+
+WARNING: deprecated syntax "parametric method syntax reshape{N}(parent::AbstractArray, ndims::Val{N}) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:523".
+Use "reshape(parent::AbstractArray, ndims::Val{N}) where N" instead.
+
+WARNING: deprecated syntax "parametric method syntax ntuple{F, N}(f::F, ::Val{N}) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:525".
+Use "ntuple(f::F, #unused#::Val{N}) where {F, N}" instead.
+ERROR: LoadError: LoadError: ArgumentError: Module JLD not found in current path.
+Run `Pkg.add("JLD")` to install the JLD package.
+Stacktrace:
+ [1] _require(::Symbol) at ./loading.jl:397
+ [2] require(::Symbol) at ./loading.jl:300
+ [3] include_relative(::Module, ::String) at ./loading.jl:509
+ [4] _require(::Symbol) at ./loading.jl:441
+ [5] require(::Symbol) at ./loading.jl:300
+ [6] include_relative(::Module, ::String) at ./loading.jl:509
+ [7] include(::Module, ::String) at ./sysimg.jl:15
+ [8] process_options(::Base.JLOptions) at ./client.jl:334
+ [9] _start() at ./client.jl:400
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:4
+in expression starting at /home/nanosoldier/workdir/tmpJwSKgZ/benchscript.jl:11
