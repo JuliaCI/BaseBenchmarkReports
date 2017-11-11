@@ -4,9 +4,9 @@
 
 *Commit(s):* [JuliaLang/julia@9b29fe016cf84a31aff5f4a7874226d302f3066b](https://github.com/JuliaLang/julia/commit/9b29fe016cf84a31aff5f4a7874226d302f3066b) vs [JuliaLang/julia@247087d94c1414d83e28d721f263ba4bf050f854](https://github.com/JuliaLang/julia/commit/247087d94c1414d83e28d721f263ba4bf050f854)
 
-*Triggered By:* [link](https://github.com/JuliaLang/julia/pull/24519#issuecomment-343567313)
+*Triggered By:* [link](https://github.com/JuliaLang/julia/pull/24519#issuecomment-343613911)
 
-*Tag Predicate:* `ALL`
+*Tag Predicate:* `"array"`
 
 ## Results
 
@@ -29,17 +29,10 @@ benchmark results remained invariant between builds).
 
 | ID | time ratio | memory ratio |
 |----|------------|--------------|
-| `["array", "cat", "(\"catnd\", 5)"]` | 1.15 (15%) :x: | 1.00 (1%)  |
-| `["array", "comprehension", "(\"collect\", \"Array{Float64,1}\")"]` | 1.37 (15%) :x: | 1.00 (1%)  |
-| `["array", "index", "(\"sumvector_view\", \"BaseBenchmarks.ArrayBenchmarks.ArrayLF{Float32,2}\")"]` | 1.84 (50%) :x: | 1.00 (1%)  |
-| `["array", "index", "(\"sumvector_view\", \"SubArray{Int32,2,Array{Int32,3},Tuple{Int64,Base.Slice{Base.OneTo{Int64}},Base.Slice{Base.OneTo{Int64}}},true}\")"]` | 1.64 (50%) :x: | 1.00 (1%)  |
-| `["dates", "parse", "(\"Date\", \"DateFormat\")"]` | 0.77 (15%) :white_check_mark: | 1.00 (1%)  |
-| `["sparse", "matmul", "(\"A_mul_Bc\", \"dense 50x50, sparse 5x50 -> dense 50x5\")"]` | 1.14 (30%)  | 1.92 (1%) :x: |
-| `["sparse", "matmul", "(\"A_mul_Bt\", \"dense 50x50, sparse 5x50 -> dense 50x5\")"]` | 0.92 (30%)  | 0.53 (1%) :white_check_mark: |
-| `["sparse", "matmul", "(\"Ac_mul_B\", \"dense 50x50, sparse 50x5 -> dense 50x5\")"]` | 1.09 (30%)  | 1.94 (1%) :x: |
-| `["sparse", "matmul", "(\"Ac_mul_Bc\", \"dense 50x50, sparse 5x50 -> dense 50x5\")"]` | 0.94 (30%)  | 1.92 (1%) :x: |
-| `["sparse", "matmul", "(\"At_mul_B\", \"dense 50x50, sparse 50x5 -> dense 50x5\")"]` | 0.90 (30%)  | 0.52 (1%) :white_check_mark: |
-| `["sparse", "matmul", "(\"At_mul_Bt\", \"dense 50x50, sparse 5x50 -> dense 50x5\")"]` | 0.90 (30%)  | 0.53 (1%) :white_check_mark: |
+| `["array", "bool", "boolarray_true_load!"]` | 1.44 (15%) :x: | 1.00 (1%)  |
+| `["array", "cat", "(\"hcat_setind\", 5)"]` | 1.16 (15%) :x: | 1.00 (1%)  |
+| `["array", "cat", "(\"vcat_setind\", 5)"]` | 1.21 (15%) :x: | 1.00 (1%)  |
+| `["broadcast", "dotop", "(\"Float64\", (1000000,), 1)"]` | 1.16 (15%) :x: | 1.00 (1%)  |
 
 ## Benchmark Group List
 
@@ -57,83 +50,21 @@ Here's a list of all the benchmark groups executed by this job:
 - `["array", "subarray"]`
 - `["broadcast", "dotop"]`
 - `["broadcast", "fusion"]`
-- `["broadcast", "mix_scalar_tuple"]`
 - `["broadcast", "sparse"]`
 - `["broadcast", "typeargs"]`
-- `["dates", "accessor"]`
-- `["dates", "arithmetic"]`
-- `["dates", "construction"]`
-- `["dates", "conversion"]`
-- `["dates", "parse"]`
-- `["dates", "query"]`
-- `["dates", "string"]`
-- `["io", "read"]`
-- `["io", "serialization"]`
 - `["linalg", "arithmetic"]`
 - `["linalg", "blas"]`
 - `["linalg", "factorization"]`
-- `["micro"]`
-- `["misc", "afoldl"]`
-- `["misc", "bitshift"]`
 - `["misc", "julia"]`
-- `["misc", "parse"]`
 - `["misc", "repeat"]`
 - `["misc", "splatting"]`
-- `["nullable", "basic"]`
-- `["nullable", "nullablearray"]`
-- `["parallel", "remotecall"]`
-- `["problem", "chaosgame"]`
-- `["problem", "fem"]`
-- `["problem", "go"]`
-- `["problem", "grigoriadis khachiyan"]`
-- `["problem", "imdb"]`
-- `["problem", "json"]`
 - `["problem", "laplacian"]`
-- `["problem", "monte carlo"]`
-- `["problem", "raytrace"]`
-- `["problem", "seismic"]`
-- `["problem", "simplex"]`
-- `["problem", "spellcheck"]`
-- `["problem", "stockcorr"]`
-- `["problem", "ziggurat"]`
-- `["random", "collections"]`
-- `["random", "randstring"]`
-- `["random", "ranges"]`
-- `["random", "sequences"]`
-- `["random", "types"]`
-- `["scalar", "acos"]`
-- `["scalar", "arithmetic"]`
-- `["scalar", "asin"]`
-- `["scalar", "atan"]`
-- `["scalar", "atan2"]`
-- `["scalar", "cos"]`
-- `["scalar", "fastmath"]`
-- `["scalar", "floatexp"]`
-- `["scalar", "intfuncs"]`
-- `["scalar", "iteration"]`
-- `["scalar", "mod2pi"]`
-- `["scalar", "predicate"]`
-- `["scalar", "rem_pio2"]`
-- `["scalar", "sin"]`
-- `["scalar", "tan"]`
-- `["shootout"]`
 - `["simd"]`
-- `["sort", "insertionsort"]`
-- `["sort", "issorted"]`
-- `["sort", "mergesort"]`
-- `["sort", "quicksort"]`
 - `["sparse", "arithmetic"]`
 - `["sparse", "constructors"]`
 - `["sparse", "index"]`
 - `["sparse", "matmul"]`
 - `["sparse", "transpose"]`
-- `["string"]`
-- `["string", "readuntil"]`
-- `["string", "search"]`
-- `["string", "searchindex"]`
-- `["tuple", "index"]`
-- `["tuple", "linear algebra"]`
-- `["tuple", "reduction"]`
 
 ## Version Info
 
@@ -148,15 +79,15 @@ Platform Info:
   WORD_SIZE: 64
            Ubuntu 14.04.4 LTS
   uname: Linux 3.13.0-85-generic #129-Ubuntu SMP Thu Mar 17 20:50:15 UTC 2016 x86_64 x86_64
-Memory: 31.383651733398438 GB (11381.48828125 MB free)
-Uptime: 4.5995765e7 sec
-Load Avg:  1.0029296875  1.0146484375  1.04541015625
+Memory: 31.383651733398438 GB (14849.71875 MB free)
+Uptime: 4.600674e7 sec
+Load Avg:  1.0029296875  1.0146484375  1.08154296875
 Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz: 
        speed         user         nice          sys         idle          irq
-#1  3501 MHz   92957451 s          0 s   14429968 s  4481902644 s        203 s
-#2  3501 MHz  370636222 s          0 s   15654700 s  4205156523 s         70 s
-#3  3501 MHz   76562115 s          0 s    8725531 s  4512384935 s         91 s
-#4  3501 MHz   71741237 s          0 s    8592948 s  4517755590 s         36 s
+#1  3501 MHz  100380236 s          0 s   17943806 s  4468952721 s         97 s
+#2  3501 MHz  437601862 s          0 s   11605442 s  4148797942 s         21 s
+#3  3501 MHz   86683263 s          0 s    9935786 s  4501832493 s         80 s
+#4  3501 MHz   82863722 s          0 s   10099300 s  4505498250 s         20 s
 
   BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell)
   LAPACK: libopenblas64_
@@ -176,15 +107,15 @@ Platform Info:
   WORD_SIZE: 64
            Ubuntu 14.04.4 LTS
   uname: Linux 3.13.0-85-generic #129-Ubuntu SMP Thu Mar 17 20:50:15 UTC 2016 x86_64 x86_64
-Memory: 31.383651733398438 GB (10805.3515625 MB free)
-Uptime: 4.6002366e7 sec
-Load Avg:  1.0029296875  1.0146484375  1.04541015625
+Memory: 31.383651733398438 GB (14750.72265625 MB free)
+Uptime: 4.6010492e7 sec
+Load Avg:  1.0029296875  1.0146484375  1.1025390625
 Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz: 
        speed         user         nice          sys         idle          irq
-#1  3501 MHz   93057195 s          0 s   14440694 s  4482449564 s        203 s
-#2  3501 MHz  371237426 s          0 s   15664370 s  4205204871 s         70 s
-#3  3501 MHz   76650032 s          0 s    8734015 s  4512947801 s         92 s
-#4  3501 MHz   71824863 s          0 s    8601359 s  4518322930 s         36 s
+#1  3501 MHz  100467341 s          0 s   17952630 s  4469230438 s         97 s
+#2  3501 MHz  437929846 s          0 s   11614294 s  4148835833 s         21 s
+#3  3501 MHz   86766042 s          0 s    9944120 s  4502115863 s         80 s
+#4  3501 MHz   82949409 s          0 s   10107600 s  4505778982 s         20 s
 
   BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell)
   LAPACK: libopenblas64_
