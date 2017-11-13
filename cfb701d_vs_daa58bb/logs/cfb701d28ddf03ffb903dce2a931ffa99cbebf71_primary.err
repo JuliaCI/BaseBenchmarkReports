@@ -1,0 +1,88 @@
+
+WARNING: deprecated syntax "immutable" at /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:161.
+Use "struct" instead.
+
+WARNING: deprecated syntax "parametric method syntax Base.Broadcast.broadcast{N}(f, t::NTuple{N}, ts::Vararg{NTuple{N}}) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:291".
+Use "Base.Broadcast.broadcast(f, t::NTuple{N}, ts::Vararg{NTuple{N}}) where N" instead.
+
+WARNING: deprecated syntax "parametric method syntax Base.convert{T}(::Type{Set{T}}, s::Set{T}) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:444".
+Use "Base.convert(#unused#::Type{Set{T}}, s::Set{T}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax Base.convert{T}(::Type{Set{T}}, s::Set) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:445".
+Use "Base.convert(#unused#::Type{Set{T}}, s::Set) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax Base.unsafe_trunc{T <: Integer}(::Type{T}, x::Integer) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:454".
+Use "Base.unsafe_trunc(#unused#::Type{T}, x::Integer) where T <: Integer" instead.
+
+WARNING: deprecated syntax "parametric method syntax reshape{N}(parent::AbstractArray, ndims::Val{N}) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:537".
+Use "reshape(parent::AbstractArray, ndims::Val{N}) where N" instead.
+
+WARNING: deprecated syntax "parametric method syntax ntuple{F, N}(f::F, ::Val{N}) around /home/nanosoldier/.julia/v0.7/Compat/src/Compat.jl:539".
+Use "ntuple(f::F, #unused#::Val{N}) where {F, N}" instead.
+
+WARNING: deprecated syntax "parametric method syntax sum_tuple{N, T}(n::Union{NTuple{N, T}, TupleWrapper{N, T}}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/tuple/TupleBenchmarks.jl:33".
+Use "sum_tuple(n::Union{NTuple{N, T}, TupleWrapper{N, T}}) where {N, T}" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `r`".
+Use "global r" instead.
+Loop variable "r" overwrites a variable in an enclosing scope. In the future the variable will be local to the loop instead.
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 2}, u_ip1::AbstractArray{T, 2}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:3".
+Use "kernel5(idx, u_i::AbstractArray{T, 2}, u_ip1::AbstractArray{T, 2}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 3}, u_ip1::AbstractArray{T, 3}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:29".
+Use "kernel5(idx, u_i::AbstractArray{T, 3}, u_ip1::AbstractArray{T, 3}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 4}, u_ip1::AbstractArray{T, 4}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:69".
+Use "kernel5(idx, u_i::AbstractArray{T, 4}, u_ip1::AbstractArray{T, 4}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 5}, u_ip1::AbstractArray{T, 5}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:123".
+Use "kernel5(idx, u_i::AbstractArray{T, 5}, u_ip1::AbstractArray{T, 5}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 6}, u_ip1::AbstractArray{T, 6}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:193".
+Use "kernel5(idx, u_i::AbstractArray{T, 6}, u_ip1::AbstractArray{T, 6}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 7}, u_ip1::AbstractArray{T, 7}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:277".
+Use "kernel5(idx, u_i::AbstractArray{T, 7}, u_ip1::AbstractArray{T, 7}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 2}, u_ip1::AbstractArray{T, 2}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:375".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 2}, u_ip1::AbstractArray{T, 2}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 3}, u_ip1::AbstractArray{T, 3}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:386".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 3}, u_ip1::AbstractArray{T, 3}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 4}, u_ip1::AbstractArray{T, 4}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:401".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 4}, u_ip1::AbstractArray{T, 4}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 5}, u_ip1::AbstractArray{T, 5}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:420".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 5}, u_ip1::AbstractArray{T, 5}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 6}, u_ip1::AbstractArray{T, 6}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:443".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 6}, u_ip1::AbstractArray{T, 6}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 7}, u_ip1::AbstractArray{T, 7}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:470".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 7}, u_ip1::AbstractArray{T, 7}) where T" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `s`".
+Use "global s" instead.
+Loop variable "s" overwrites a variable in an enclosing scope. In the future the variable will be local to the loop instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `s`".
+Use "global s" instead.
+Loop variable "s" overwrites a variable in an enclosing scope. In the future the variable will be local to the loop instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `s`".
+Use "global s" instead.
+Loop variable "s" overwrites a variable in an enclosing scope. In the future the variable will be local to the loop instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `s`".
+Use "global s" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `v`".
+Use "global v" instead.
+Loop variable "s" overwrites a variable in an enclosing scope. In the future the variable will be local to the loop instead.
+WARNING: importing deprecated binding Base.IntSet into RandomBenchmarks.
+WARNING: Base.IntSet is deprecated, use Base.BitSet instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:116
+WARNING: Base.IntSet is deprecated, use Base.BitSet instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:116
