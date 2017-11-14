@@ -4,7 +4,7 @@
 
 *Commit(s):* [JuliaLang/julia@c14adf071c20929def773a45fc8eb48829c7bdf6](https://github.com/JuliaLang/julia/commit/c14adf071c20929def773a45fc8eb48829c7bdf6)
 
-*Triggered By:* [link](https://github.com/JuliaLang/julia/commit/c14adf071c20929def773a45fc8eb48829c7bdf6#commitcomment-25597763)
+*Triggered By:* [link](https://github.com/JuliaLang/julia/commit/c14adf071c20929def773a45fc8eb48829c7bdf6#commitcomment-25598873)
 
 *Tag Predicate:* `ALL`
 
@@ -31,22 +31,21 @@ benchmark results remained invariant between builds).
 
 | ID | time ratio | memory ratio |
 |----|------------|--------------|
-| `["array", "growth", "(\"prerend!\", 256)"]` | 1.21 (15%) :x: | 1.00 (1%)  |
-| `["array", "index", "(\"sumvector_view\", \"SubArray{Float32,2,BaseBenchmarks.ArrayBenchmarks.ArrayLS{Float32,3},Tuple{Int64,Base.Slice{Base.OneTo{Int64}},Base.Slice{Base.OneTo{Int64}}},false}\")"]` | 1.74 (50%) :x: | 1.00 (1%)  |
+| `["array", "growth", "(\"prerend!\", 256)"]` | 1.17 (15%) :x: | 1.00 (1%)  |
 | `["dates", "arithmetic", "(\"DateTime\", \"Month\")"]` | 0.77 (15%) :white_check_mark: | 1.00 (1%)  |
 | `["dates", "arithmetic", "(\"DateTime\", \"Year\")"]` | 0.71 (15%) :white_check_mark: | 1.00 (1%)  |
-| `["dates", "arithmetic", "(\"Date\", \"Month\")"]` | 0.77 (15%) :white_check_mark: | 1.00 (1%)  |
-| `["dates", "arithmetic", "(\"Date\", \"Year\")"]` | 0.77 (15%) :white_check_mark: | 1.00 (1%)  |
-| `["dates", "query", "(\"dayofyear\", \"Date\")"]` | 0.67 (25%) :white_check_mark: | 1.00 (1%)  |
+| `["dates", "arithmetic", "(\"Date\", \"Month\")"]` | 0.76 (15%) :white_check_mark: | 1.00 (1%)  |
+| `["dates", "arithmetic", "(\"Date\", \"Year\")"]` | 0.75 (15%) :white_check_mark: | 1.00 (1%)  |
+| `["dates", "query", "(\"dayofyear\", \"Date\")"]` | 0.65 (25%) :white_check_mark: | 1.00 (1%)  |
 | `["dates", "query", "(\"lastdayofmonth\", \"Date\")"]` | 0.67 (25%) :white_check_mark: | 1.00 (1%)  |
 | `["misc", "julia", "(\"macroexpand\", \"evalpoly\")"]` | 0.00 (15%) :white_check_mark: | 0.00 (1%) :white_check_mark: |
-| `["random", "sequences", "(\"randcycle\", \"MersenneTwister\", \"5\")"]` | 0.73 (25%) :white_check_mark: | 1.00 (1%)  |
-| `["random", "types", "(\"randn!\", \"MersenneTwister\", \"Float32\")"]` | 0.73 (25%) :white_check_mark: | 1.00 (1%)  |
+| `["random", "sequences", "(\"randcycle\", \"MersenneTwister\", \"5\")"]` | 0.71 (25%) :white_check_mark: | 1.00 (1%)  |
+| `["random", "types", "(\"randn!\", \"MersenneTwister\", \"Float32\")"]` | 0.74 (25%) :white_check_mark: | 1.00 (1%)  |
 | `["random", "types", "(\"randn!\", \"MersenneTwister\", \"Float64\")"]` | 0.72 (25%) :white_check_mark: | 1.00 (1%)  |
 | `["scalar", "atan2", "(\"abs(y/x) safe (large)\", \"y negative\", \"x positive\", \"Float32\")"]` | 0.82 (15%) :white_check_mark: | 1.00 (1%)  |
 | `["scalar", "atan2", "(\"x one\", \"Float64\")"]` | 1.63 (15%) :x: | 1.00 (1%)  |
-| `["scalar", "sin", "(\"argument reduction (hard) abs(x) < 4π/4\", \"negative argument\", \"Float64\", \"sin_kernel\")"]` | 0.85 (15%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "sin", "(\"argument reduction (hard) abs(x) < 4π/4\", \"positive argument\", \"Float64\", \"sin_kernel\")"]` | 0.80 (15%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "predicate", "(\"isequal\", \"Float64\")"]` | 0.41 (25%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "rem_pio2", "(\"argument reduction (hard) abs(x) < 4π/4\", \"negative argument\", \"Float64\")"]` | 1.27 (15%) :x: | 1.00 (1%)  |
 | `["sparse", "matmul", "(\"A_mul_Bc\", \"dense 500x5, sparse 5x5 -> dense 500x5\")"]` | 1.00 (30%)  | 1.56 (1%) :x: |
 | `["sparse", "matmul", "(\"A_mul_Bc\", \"dense 50x50, sparse 50x50 -> dense 50x50\")"]` | 0.94 (30%)  | 0.86 (1%) :white_check_mark: |
 | `["sparse", "matmul", "(\"A_mul_Bc\", \"dense 50x50, sparse 5x50 -> dense 50x5\")"]` | 1.01 (30%)  | 1.62 (1%) :x: |
@@ -57,29 +56,29 @@ benchmark results remained invariant between builds).
 | `["sparse", "matmul", "(\"A_mul_Bt\", \"dense 50x50, sparse 5x50 -> dense 50x5\")"]` | 1.01 (30%)  | 0.54 (1%) :white_check_mark: |
 | `["sparse", "matmul", "(\"A_mul_Bt\", \"dense 5x5, sparse 500x5 -> dense 5x500\")"]` | 1.00 (30%)  | 1.02 (1%) :x: |
 | `["sparse", "matmul", "(\"A_mul_Bt\", \"dense 5x50, sparse 500x50 -> dense 5x500\")"]` | 0.96 (30%)  | 0.97 (1%) :white_check_mark: |
-| `["sparse", "matmul", "(\"A_mul_Bt\", \"dense 5x500, sparse 50x500 -> dense 5x50\")"]` | 1.01 (30%)  | 1.05 (1%) :x: |
+| `["sparse", "matmul", "(\"A_mul_Bt\", \"dense 5x500, sparse 50x500 -> dense 5x50\")"]` | 1.00 (30%)  | 1.05 (1%) :x: |
 | `["sparse", "matmul", "(\"Ac_mul_B\", \"dense 500x5, sparse 500x50 -> dense 5x50\")"]` | 1.01 (30%)  | 1.01 (1%) :x: |
 | `["sparse", "matmul", "(\"Ac_mul_B\", \"dense 500x5, sparse 500x500 -> dense 5x500\")"]` | 0.99 (30%)  | 0.98 (1%) :white_check_mark: |
 | `["sparse", "matmul", "(\"Ac_mul_B\", \"dense 50x50, sparse 50x5 -> dense 50x5\")"]` | 0.92 (30%)  | 1.63 (1%) :x: |
 | `["sparse", "matmul", "(\"Ac_mul_B\", \"dense 50x50, sparse 50x50 -> dense 50x50\")"]` | 0.95 (30%)  | 0.86 (1%) :white_check_mark: |
 | `["sparse", "matmul", "(\"Ac_mul_B\", \"dense 5x500, sparse 5x5 -> dense 500x5\")"]` | 0.99 (30%)  | 1.56 (1%) :x: |
-| `["sparse", "matmul", "(\"Ac_mul_Bc\", \"dense 500x5, sparse 500x500 -> dense 5x500\")"]` | 1.00 (30%)  | 0.98 (1%) :white_check_mark: |
-| `["sparse", "matmul", "(\"Ac_mul_Bc\", \"dense 500x5, sparse 50x500 -> dense 5x50\")"]` | 1.00 (30%)  | 1.01 (1%) :x: |
+| `["sparse", "matmul", "(\"Ac_mul_Bc\", \"dense 500x5, sparse 500x500 -> dense 5x500\")"]` | 0.99 (30%)  | 0.98 (1%) :white_check_mark: |
+| `["sparse", "matmul", "(\"Ac_mul_Bc\", \"dense 500x5, sparse 50x500 -> dense 5x50\")"]` | 0.98 (30%)  | 1.01 (1%) :x: |
 | `["sparse", "matmul", "(\"Ac_mul_Bc\", \"dense 50x50, sparse 50x50 -> dense 50x50\")"]` | 0.94 (30%)  | 0.86 (1%) :white_check_mark: |
-| `["sparse", "matmul", "(\"Ac_mul_Bc\", \"dense 50x50, sparse 5x50 -> dense 50x5\")"]` | 1.02 (30%)  | 1.62 (1%) :x: |
+| `["sparse", "matmul", "(\"Ac_mul_Bc\", \"dense 50x50, sparse 5x50 -> dense 50x5\")"]` | 1.01 (30%)  | 1.62 (1%) :x: |
 | `["sparse", "matmul", "(\"Ac_mul_Bc\", \"dense 5x500, sparse 5x5 -> dense 500x5\")"]` | 1.00 (30%)  | 1.56 (1%) :x: |
 | `["sparse", "matmul", "(\"At_mul_B\", \"dense 500x5, sparse 500x50 -> dense 5x50\")"]` | 1.02 (30%)  | 1.05 (1%) :x: |
 | `["sparse", "matmul", "(\"At_mul_B\", \"dense 50x5, sparse 50x500 -> dense 5x500\")"]` | 0.96 (30%)  | 0.97 (1%) :white_check_mark: |
-| `["sparse", "matmul", "(\"At_mul_B\", \"dense 50x50, sparse 50x5 -> dense 50x5\")"]` | 0.99 (30%)  | 1.05 (1%) :x: |
-| `["sparse", "matmul", "(\"At_mul_B\", \"dense 50x50, sparse 50x50 -> dense 50x50\")"]` | 0.94 (30%)  | 0.93 (1%) :white_check_mark: |
+| `["sparse", "matmul", "(\"At_mul_B\", \"dense 50x50, sparse 50x5 -> dense 50x5\")"]` | 1.00 (30%)  | 1.05 (1%) :x: |
+| `["sparse", "matmul", "(\"At_mul_B\", \"dense 50x50, sparse 50x50 -> dense 50x50\")"]` | 0.95 (30%)  | 0.93 (1%) :white_check_mark: |
 | `["sparse", "matmul", "(\"At_mul_B\", \"dense 5x5, sparse 5x500 -> dense 5x500\")"]` | 1.00 (30%)  | 1.02 (1%) :x: |
 | `["sparse", "matmul", "(\"At_mul_B\", \"dense 5x500, sparse 5x5 -> dense 500x5\")"]` | 0.99 (30%)  | 0.90 (1%) :white_check_mark: |
-| `["sparse", "matmul", "(\"At_mul_Bt\", \"dense 500x5, sparse 50x500 -> dense 5x50\")"]` | 1.01 (30%)  | 1.05 (1%) :x: |
+| `["sparse", "matmul", "(\"At_mul_Bt\", \"dense 500x5, sparse 50x500 -> dense 5x50\")"]` | 1.00 (30%)  | 1.05 (1%) :x: |
 | `["sparse", "matmul", "(\"At_mul_Bt\", \"dense 50x5, sparse 500x50 -> dense 5x500\")"]` | 0.96 (30%)  | 0.97 (1%) :white_check_mark: |
 | `["sparse", "matmul", "(\"At_mul_Bt\", \"dense 50x50, sparse 50x50 -> dense 50x50\")"]` | 0.94 (30%)  | 0.93 (1%) :white_check_mark: |
 | `["sparse", "matmul", "(\"At_mul_Bt\", \"dense 50x50, sparse 5x50 -> dense 50x5\")"]` | 1.01 (30%)  | 0.54 (1%) :white_check_mark: |
-| `["sparse", "matmul", "(\"At_mul_Bt\", \"dense 5x5, sparse 500x5 -> dense 5x500\")"]` | 1.00 (30%)  | 1.02 (1%) :x: |
-| `["sparse", "matmul", "(\"At_mul_Bt\", \"dense 5x500, sparse 5x5 -> dense 500x5\")"]` | 0.99 (30%)  | 0.90 (1%) :white_check_mark: |
+| `["sparse", "matmul", "(\"At_mul_Bt\", \"dense 5x5, sparse 500x5 -> dense 5x500\")"]` | 1.01 (30%)  | 1.02 (1%) :x: |
+| `["sparse", "matmul", "(\"At_mul_Bt\", \"dense 5x500, sparse 5x5 -> dense 500x5\")"]` | 1.00 (30%)  | 0.90 (1%) :white_check_mark: |
 
 ## Benchmark Group List
 
@@ -189,14 +188,14 @@ Platform Info:
   uname: Linux 3.13.0-85-generic #129-Ubuntu SMP Thu Mar 17 20:50:15 UTC 2016 x86_64 x86_64
   CPU: Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz: 
               speed         user         nice          sys         idle          irq
-       #1  3501 MHz  101028592 s          0 s   18053584 s  4496221722 s         97 s
-       #2  3501 MHz  440822706 s          0 s   11677324 s  4173604709 s         21 s
-       #3  3501 MHz   87309024 s          0 s    9999132 s  4529245315 s         81 s
-       #4  3501 MHz   83475742 s          0 s   10163257 s  4532925138 s         20 s
+       #1  3501 MHz  101122862 s          0 s   18063596 s  4497028243 s         97 s
+       #2  3501 MHz  441463877 s          0 s   11686684 s  4173867467 s         21 s
+       #3  3501 MHz   87391440 s          0 s   10006828 s  4530068389 s         81 s
+       #4  3501 MHz   83574584 s          0 s   10170978 s  4533731969 s         20 s
        
-  Memory: 31.383651733398438 GB (12917.328125 MB free)
-  Uptime: 4.6287885e7 sec
-  Load Avg:  1.0029296875  1.0146484375  1.04541015625
+  Memory: 31.383651733398438 GB (13828.91015625 MB free)
+  Uptime: 4.6297025e7 sec
+  Load Avg:  0.8837890625  0.9814453125  1.03466796875
   WORD_SIZE: 64
   BLAS: libopenblas (USE64BITINT DYNAMIC_ARCH NO_AFFINITY Haswell)
   LAPACK: libopenblas64_
