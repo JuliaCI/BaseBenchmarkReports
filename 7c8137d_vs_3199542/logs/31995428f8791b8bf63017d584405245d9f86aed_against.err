@@ -1,0 +1,39 @@
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 2}, u_ip1::AbstractArray{T, 2}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:3".
+Use "kernel5(idx, u_i::AbstractArray{T, 2}, u_ip1::AbstractArray{T, 2}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 3}, u_ip1::AbstractArray{T, 3}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:29".
+Use "kernel5(idx, u_i::AbstractArray{T, 3}, u_ip1::AbstractArray{T, 3}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 4}, u_ip1::AbstractArray{T, 4}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:69".
+Use "kernel5(idx, u_i::AbstractArray{T, 4}, u_ip1::AbstractArray{T, 4}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 5}, u_ip1::AbstractArray{T, 5}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:123".
+Use "kernel5(idx, u_i::AbstractArray{T, 5}, u_ip1::AbstractArray{T, 5}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 6}, u_ip1::AbstractArray{T, 6}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:193".
+Use "kernel5(idx, u_i::AbstractArray{T, 6}, u_ip1::AbstractArray{T, 6}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 7}, u_ip1::AbstractArray{T, 7}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:277".
+Use "kernel5(idx, u_i::AbstractArray{T, 7}, u_ip1::AbstractArray{T, 7}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 2}, u_ip1::AbstractArray{T, 2}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:375".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 2}, u_ip1::AbstractArray{T, 2}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 3}, u_ip1::AbstractArray{T, 3}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:386".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 3}, u_ip1::AbstractArray{T, 3}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 4}, u_ip1::AbstractArray{T, 4}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:401".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 4}, u_ip1::AbstractArray{T, 4}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 5}, u_ip1::AbstractArray{T, 5}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:420".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 5}, u_ip1::AbstractArray{T, 5}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 6}, u_ip1::AbstractArray{T, 6}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:443".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 6}, u_ip1::AbstractArray{T, 6}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 7}, u_ip1::AbstractArray{T, 7}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:470".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 7}, u_ip1::AbstractArray{T, 7}) where T" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `v`".
+Use "global v" instead.
