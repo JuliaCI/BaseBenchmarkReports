@@ -1,0 +1,59 @@
+WARNING: importing deprecated binding Base.Nullable into Parser.
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Array{UInt8,1},1}(::Int64) at ./deprecated.jl:56
+ [3] top-level scope
+ [4] include_relative(::Module, ::String) at ./loading.jl:509
+ [5] include at ./sysimg.jl:15 [inlined]
+ [6] include(::String) at /home/nanosoldier/.julia/v0.7/JSON/src/Common.jl:4
+ [7] top-level scope
+ [8] include_relative(::Module, ::String) at ./loading.jl:509
+ [9] include at ./sysimg.jl:15 [inlined]
+ [10] include(::String) at /home/nanosoldier/.julia/v0.7/JSON/src/JSON.jl:3
+ [11] top-level scope
+ [12] include_relative(::Module, ::String) at ./loading.jl:509
+ [13] include(::Module, ::String) at ./sysimg.jl:15
+ [14] top-level scope
+ [15] top-level scope at ./<missing>:2
+ [16] eval(::Module, ::Expr) at ./sysimg.jl:60
+ [17] process_options(::Base.JLOptions) at ./client.jl:322
+ [18] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/.julia/v0.7/JSON/src/bytes.jl:47
+ERROR: LoadError: LoadError: TypeError: in Type{...} expression, expected UnionAll, got typeof(Base.Nullable)
+Stacktrace:
+ [1] top-level scope (repeats 2 times)
+ [2] include_relative(::Module, ::String) at ./loading.jl:509
+ [3] include at ./sysimg.jl:15 [inlined]
+ [4] include(::String) at /home/nanosoldier/.julia/v0.7/JSON/src/JSON.jl:3
+ [5] top-level scope
+ [6] include_relative(::Module, ::String) at ./loading.jl:509
+ [7] include(::Module, ::String) at ./sysimg.jl:15
+ [8] top-level scope
+ [9] top-level scope at ./<missing>:2
+in expression starting at /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:303
+in expression starting at /home/nanosoldier/.julia/v0.7/JSON/src/JSON.jl:10
+ERROR: LoadError: Failed to precompile JSON to /home/nanosoldier/.julia/lib/v0.7/JSON.ji.
+Stacktrace:
+ [1] compilecache(::String) at ./loading.jl:637
+ [2] _require(::Symbol) at ./loading.jl:426
+ [3] require(::Symbol) at ./loading.jl:300
+ [4] include_relative(::Module, ::String) at ./loading.jl:509
+ [5] include(::Module, ::String) at ./sysimg.jl:15
+ [6] top-level scope
+ [7] top-level scope at ./<missing>:2
+in expression starting at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/BenchmarkTools.jl:6
+ERROR: LoadError: LoadError: Failed to precompile BenchmarkTools to /home/nanosoldier/.julia/lib/v0.7/BenchmarkTools.ji.
+Stacktrace:
+ [1] compilecache(::String) at ./loading.jl:637
+ [2] _require(::Symbol) at ./loading.jl:426
+ [3] require(::Symbol) at ./loading.jl:300
+ [4] include_relative(::Module, ::String) at ./loading.jl:509
+ [5] _require(::Symbol) at ./loading.jl:441
+ [6] require(::Symbol) at ./loading.jl:300
+ [7] include_relative(::Module, ::String) at ./loading.jl:509
+ [8] include(::Module, ::String) at ./sysimg.jl:15
+ [9] process_options(::Base.JLOptions) at ./client.jl:340
+ [10] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:3
+in expression starting at /home/nanosoldier/workdir/tmpbMPyRz/benchscript.jl:14
