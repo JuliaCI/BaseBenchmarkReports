@@ -1,0 +1,1195 @@
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Array{UInt8,1},1}(::Int64) at ./deprecated.jl:56
+ [3] top-level scope
+ [4] include_relative(::Module, ::String) at ./loading.jl:509
+ [5] include at ./sysimg.jl:15 [inlined]
+ [6] include(::String) at /home/nanosoldier/.julia/v0.7/JSON/src/Common.jl:4
+ [7] top-level scope
+ [8] include_relative(::Module, ::String) at ./loading.jl:509
+ [9] include at ./sysimg.jl:15 [inlined]
+ [10] include(::String) at /home/nanosoldier/.julia/v0.7/JSON/src/JSON.jl:3
+ [11] top-level scope
+ [12] include_relative(::Module, ::String) at ./loading.jl:509
+ [13] include(::Module, ::String) at ./sysimg.jl:15
+ [14] top-level scope
+ [15] top-level scope at ./<missing>:2
+ [16] eval(::Module, ::Expr) at ./sysimg.jl:60
+ [17] process_options(::Base.JLOptions) at ./client.jl:322
+ [18] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/.julia/v0.7/JSON/src/bytes.jl:47
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Int64,1}(::Int64) at ./deprecated.jl:56
+ [3] top-level scope
+ [4] include_relative(::Module, ::String) at ./loading.jl:509
+ [5] include at ./sysimg.jl:15 [inlined]
+ [6] include(::String) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/BenchmarkTools.jl:3
+ [7] top-level scope
+ [8] include_relative(::Module, ::String) at ./loading.jl:509
+ [9] include(::Module, ::String) at ./sysimg.jl:15
+ [10] top-level scope
+ [11] top-level scope at ./<missing>:2
+ [12] eval(::Module, ::Expr) at ./sysimg.jl:60
+ [13] process_options(::Base.JLOptions) at ./client.jl:322
+ [14] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:131
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 2}, u_ip1::AbstractArray{T, 2}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:3".
+Use "kernel5(idx, u_i::AbstractArray{T, 2}, u_ip1::AbstractArray{T, 2}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 3}, u_ip1::AbstractArray{T, 3}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:29".
+Use "kernel5(idx, u_i::AbstractArray{T, 3}, u_ip1::AbstractArray{T, 3}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 4}, u_ip1::AbstractArray{T, 4}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:69".
+Use "kernel5(idx, u_i::AbstractArray{T, 4}, u_ip1::AbstractArray{T, 4}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 5}, u_ip1::AbstractArray{T, 5}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:123".
+Use "kernel5(idx, u_i::AbstractArray{T, 5}, u_ip1::AbstractArray{T, 5}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 6}, u_ip1::AbstractArray{T, 6}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:193".
+Use "kernel5(idx, u_i::AbstractArray{T, 6}, u_ip1::AbstractArray{T, 6}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 7}, u_ip1::AbstractArray{T, 7}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:277".
+Use "kernel5(idx, u_i::AbstractArray{T, 7}, u_ip1::AbstractArray{T, 7}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 2}, u_ip1::AbstractArray{T, 2}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:375".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 2}, u_ip1::AbstractArray{T, 2}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 3}, u_ip1::AbstractArray{T, 3}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:386".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 3}, u_ip1::AbstractArray{T, 3}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 4}, u_ip1::AbstractArray{T, 4}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:401".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 4}, u_ip1::AbstractArray{T, 4}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 5}, u_ip1::AbstractArray{T, 5}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:420".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 5}, u_ip1::AbstractArray{T, 5}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 6}, u_ip1::AbstractArray{T, 6}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:443".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 6}, u_ip1::AbstractArray{T, 6}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 7}, u_ip1::AbstractArray{T, 7}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:470".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 7}, u_ip1::AbstractArray{T, 7}) where T" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `v`".
+Use "global v" instead.
+WARNING: Array{T, 2}(m::Int, n::Int) where T is deprecated, use Array{T, 2}(uninitialized, m, n) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Float64,2}(::Int64, ::Int64) at ./deprecated.jl:56
+ [3] top-level scope
+ [4] include_relative(::Module, ::String) at ./loading.jl:509
+ [5] include at ./sysimg.jl:15 [inlined]
+ [6] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
+ [7] top-level scope
+ [8] #load!#2(::Bool, ::Function, ::BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:37
+ [9] (::getfield(BaseBenchmarks, Symbol("#kw##load!")))(::Array{Any,1}, ::typeof(BaseBenchmarks.load!), ::BenchmarkGroup, ::String) at ./<missing>:0
+ [10] macro expansion at ./util.jl:225 [inlined]
+ [11] #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:53
+ [12] #loadall!#3 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:47 [inlined]
+ [13] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:47
+ [14] top-level scope
+ [15] include_relative(::Module, ::String) at ./loading.jl:509
+ [16] include(::Module, ::String) at ./sysimg.jl:15
+ [17] process_options(::Base.JLOptions) at ./client.jl:340
+ [18] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/broadcast/BroadcastBenchmarks.jl:25
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Int64,1}(::Int64) at ./deprecated.jl:56
+ [3] top-level scope
+ [4] include_relative(::Module, ::String) at ./loading.jl:509
+ [5] include at ./sysimg.jl:15 [inlined]
+ [6] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
+ [7] top-level scope
+ [8] #load!#2(::Bool, ::Function, ::BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:37
+ [9] (::getfield(BaseBenchmarks, Symbol("#kw##load!")))(::Array{Any,1}, ::typeof(BaseBenchmarks.load!), ::BenchmarkGroup, ::String) at ./<missing>:0
+ [10] macro expansion at ./util.jl:225 [inlined]
+ [11] #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:53
+ [12] #loadall!#3 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:47 [inlined]
+ [13] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:47
+ [14] top-level scope
+ [15] include_relative(::Module, ::String) at ./loading.jl:509
+ [16] include(::Module, ::String) at ./sysimg.jl:15
+ [17] process_options(::Base.JLOptions) at ./client.jl:340
+ [18] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:22
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Int64,1}(::Int64) at ./deprecated.jl:56
+ [3] top-level scope at ./<missing>:84
+ [4] include_relative(::Module, ::String) at ./loading.jl:509
+ [5] include at ./sysimg.jl:15 [inlined]
+ [6] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
+ [7] top-level scope
+ [8] #load!#2(::Bool, ::Function, ::BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:37
+ [9] (::getfield(BaseBenchmarks, Symbol("#kw##load!")))(::Array{Any,1}, ::typeof(BaseBenchmarks.load!), ::BenchmarkGroup, ::String) at ./<missing>:0
+ [10] macro expansion at ./util.jl:225 [inlined]
+ [11] #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:53
+ [12] #loadall!#3 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:47 [inlined]
+ [13] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:47
+ [14] top-level scope
+ [15] include_relative(::Module, ::String) at ./loading.jl:509
+ [16] include(::Module, ::String) at ./sysimg.jl:15
+ [17] process_options(::Base.JLOptions) at ./client.jl:340
+ [18] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:82
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Int8,1}(::Int64) at ./deprecated.jl:56
+ [3] top-level scope at ./<missing>:103
+ [4] include_relative(::Module, ::String) at ./loading.jl:509
+ [5] include at ./sysimg.jl:15 [inlined]
+ [6] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
+ [7] top-level scope
+ [8] #load!#2(::Bool, ::Function, ::BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:37
+ [9] (::getfield(BaseBenchmarks, Symbol("#kw##load!")))(::Array{Any,1}, ::typeof(BaseBenchmarks.load!), ::BenchmarkGroup, ::String) at ./<missing>:0
+ [10] macro expansion at ./util.jl:225 [inlined]
+ [11] #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:53
+ [12] #loadall!#3 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:47 [inlined]
+ [13] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:47
+ [14] top-level scope
+ [15] include_relative(::Module, ::String) at ./loading.jl:509
+ [16] include(::Module, ::String) at ./sysimg.jl:15
+ [17] process_options(::Base.JLOptions) at ./client.jl:340
+ [18] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:100
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Int64,1}(::Int64) at ./deprecated.jl:56
+ [3] top-level scope at ./<missing>:140
+ [4] include_relative(::Module, ::String) at ./loading.jl:509
+ [5] include at ./sysimg.jl:15 [inlined]
+ [6] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
+ [7] top-level scope
+ [8] #load!#2(::Bool, ::Function, ::BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:37
+ [9] (::getfield(BaseBenchmarks, Symbol("#kw##load!")))(::Array{Any,1}, ::typeof(BaseBenchmarks.load!), ::BenchmarkGroup, ::String) at ./<missing>:0
+ [10] macro expansion at ./util.jl:225 [inlined]
+ [11] #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:53
+ [12] #loadall!#3 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:47 [inlined]
+ [13] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:47
+ [14] top-level scope
+ [15] include_relative(::Module, ::String) at ./loading.jl:509
+ [16] include(::Module, ::String) at ./sysimg.jl:15
+ [17] process_options(::Base.JLOptions) at ./client.jl:340
+ [18] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:139
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Bool,1}(::Int64) at ./deprecated.jl:56
+ [3] top-level scope
+ [4] include_relative(::Module, ::String) at ./loading.jl:509
+ [5] include at ./sysimg.jl:15 [inlined]
+ [6] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
+ [7] top-level scope
+ [8] #load!#2(::Bool, ::Function, ::BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:37
+ [9] (::getfield(BaseBenchmarks, Symbol("#kw##load!")))(::Array{Any,1}, ::typeof(BaseBenchmarks.load!), ::BenchmarkGroup, ::String) at ./<missing>:0
+ [10] macro expansion at ./util.jl:225 [inlined]
+ [11] #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:53
+ [12] #loadall!#3 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:47 [inlined]
+ [13] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:47
+ [14] top-level scope
+ [15] include_relative(::Module, ::String) at ./loading.jl:509
+ [16] include(::Module, ::String) at ./sysimg.jl:15
+ [17] process_options(::Base.JLOptions) at ./client.jl:340
+ [18] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/ArrayBenchmarks.jl:244
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Int64,1}(::Int64) at ./deprecated.jl:56
+ [3] top-level scope at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:277
+ [4] include_relative(::Module, ::String) at ./loading.jl:509
+ [5] include at ./sysimg.jl:15 [inlined]
+ [6] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
+ [7] top-level scope
+ [8] #load!#2(::Bool, ::Function, ::BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:37
+ [9] (::getfield(BaseBenchmarks, Symbol("#kw##load!")))(::Array{Any,1}, ::typeof(BaseBenchmarks.load!), ::BenchmarkGroup, ::String) at ./<missing>:0
+ [10] macro expansion at ./util.jl:225 [inlined]
+ [11] #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:53
+ [12] #loadall!#3 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:47 [inlined]
+ [13] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:47
+ [14] top-level scope
+ [15] include_relative(::Module, ::String) at ./loading.jl:509
+ [16] include(::Module, ::String) at ./sysimg.jl:15
+ [17] process_options(::Base.JLOptions) at ./client.jl:340
+ [18] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/misc/MiscellaneousBenchmarks.jl:277
+WARNING: Array{T, 2}(m::Int, n::Int) where T is deprecated, use Array{T, 2}(uninitialized, m, n) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Any,2}(::Int64, ::Int64) at ./deprecated.jl:56
+ [3] top-level scope
+ [4] include_relative(::Module, ::String) at ./loading.jl:509
+ [5] include at ./sysimg.jl:15 [inlined]
+ [6] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/ShootoutBenchmarks.jl:1
+ [7] top-level scope
+ [8] include_relative(::Module, ::String) at ./loading.jl:509
+ [9] include at ./sysimg.jl:15 [inlined]
+ [10] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
+ [11] top-level scope
+ [12] #load!#2(::Bool, ::Function, ::BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:37
+ [13] (::getfield(BaseBenchmarks, Symbol("#kw##load!")))(::Array{Any,1}, ::typeof(BaseBenchmarks.load!), ::BenchmarkGroup, ::String) at ./<missing>:0
+ [14] macro expansion at ./util.jl:225 [inlined]
+ [15] #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:53
+ [16] #loadall!#3 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:47 [inlined]
+ [17] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:47
+ [18] top-level scope
+ [19] include_relative(::Module, ::String) at ./loading.jl:509
+ [20] include(::Module, ::String) at ./sysimg.jl:15
+ [21] process_options(::Base.JLOptions) at ./client.jl:340
+ [22] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/meteor_contest.jl:45
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Any,1}(::Int64) at ./deprecated.jl:56
+ [3] recover(::Array{Any,1}) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/serialization.jl:31
+ [4] map!(::typeof(BenchmarkTools.recover), ::Array{Any,1}, ::Array{Any,1}) at ./abstractarray.jl:1913
+ [5] load(::String) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/serialization.jl:97
+ [6] #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:60
+ [7] #loadall!#3 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:47 [inlined]
+ [8] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:47
+ [9] top-level scope
+ [10] include_relative(::Module, ::String) at ./loading.jl:509
+ [11] include(::Module, ::String) at ./sysimg.jl:15
+ [12] process_options(::Base.JLOptions) at ./client.jl:340
+ [13] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:19
+WARNING: similar(a::Associative) is deprecated, use empty(a) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] similar(::Dict{Any,Any}) at ./deprecated.jl:56
+ [3] similar at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/groups.jl:24 [inlined]
+ [4] getindex(::BenchmarkGroup, ::BenchmarkTools.TagFilter{getfield(, Symbol("##1#2"))}) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/groups.jl:172
+ [5] top-level scope
+ [6] include_relative(::Module, ::String) at ./loading.jl:509
+ [7] include(::Module, ::String) at ./sysimg.jl:15
+ [8] process_options(::Base.JLOptions) at ./client.jl:340
+ [9] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:22
+WARNING: similar(a::Associative) is deprecated, use empty(a) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] similar(::Dict{Any,Any}) at ./deprecated.jl:56
+ [3] similar at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/groups.jl:24 [inlined]
+ [4] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:66
+ [5] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [6] #warmup#25(::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [7] warmup(::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [8] top-level scope
+ [9] include_relative(::Module, ::String) at ./loading.jl:509
+ [10] include(::Module, ::String) at ./sysimg.jl:15
+ [11] process_options(::Base.JLOptions) at ./client.jl:340
+ [12] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:25
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Float64,1}(::Int64) at ./deprecated.jl:56
+ [3] perf_ziggurat(::Int64) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/Ziggurat.jl:146
+ [4] ##core#8818() at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [5] ##sample#8819(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [6] #_run#14(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#8817")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#8817")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#8817")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [9] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#8817")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#8817")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#8817")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#8817")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#8817")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [24] macro expansion at ./util.jl:225 [inlined]
+ [25] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [26] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [27] #warmup#25(::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [28] warmup(::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [29] top-level scope
+ [30] include_relative(::Module, ::String) at ./loading.jl:509
+ [31] include(::Module, ::String) at ./sysimg.jl:15
+ [32] process_options(::Base.JLOptions) at ./client.jl:340
+ [33] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:25
+WARNING: Array{T}(m::Int) where T is deprecated, use Array{T}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Float64,N} where N(::Int64) at ./deprecated.jl:56
+ [3] perf_euro_option_vec(::Int64) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/MonteCarlo.jl:38
+ [4] ##core#8784() at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [5] ##sample#8785(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [6] #_run#3(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#8783")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#8783")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#8783")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [9] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#8783")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#8783")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#8783")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#8783")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#8783")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [24] macro expansion at ./util.jl:225 [inlined]
+ [25] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [26] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [27] #warmup#25(::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [28] warmup(::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [29] top-level scope
+ [30] include_relative(::Module, ::String) at ./loading.jl:509
+ [31] include(::Module, ::String) at ./sysimg.jl:15
+ [32] process_options(::Base.JLOptions) at ./client.jl:340
+ [33] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:25
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Int64,1}(::Int64) at ./deprecated.jl:56
+ [3] setup_mapr_access at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/sumindex.jl:198 [inlined]
+ [4] macro expansion at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/ArrayBenchmarks.jl:61 [inlined]
+ [5] ##sample#9249(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:314
+ [6] #_run#136(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#9247")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#9247")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#9247")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [9] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#9247")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#9247")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#9247")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#9247")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#9247")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [24] macro expansion at ./util.jl:225 [inlined]
+ [25] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [26] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [27] #warmup#25(::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [28] warmup(::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [29] top-level scope
+ [30] include_relative(::Module, ::String) at ./loading.jl:509
+ [31] include(::Module, ::String) at ./sysimg.jl:15
+ [32] process_options(::Base.JLOptions) at ./client.jl:340
+ [33] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:25
+WARNING: Array{T, 2}(m::Int, n::Int) where T is deprecated, use Array{T, 2}(uninitialized, m, n) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Float64,2}(::Int64, ::Int64) at ./deprecated.jl:56
+ [3] perf_hcat_setind(::Array{Float64,2}, ::Array{Float64,2}) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/cat.jl:20
+ [4] ##core#10514(::Array{Float64,2}, ::Array{Float64,2}) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [5] ##sample#10515(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [6] #_run#546(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10513")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10513")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#10513")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [9] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10513")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10513")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10513")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10513")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10513")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [24] macro expansion at ./util.jl:225 [inlined]
+ [25] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [26] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [27] #warmup#25(::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [28] warmup(::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [29] top-level scope
+ [30] include_relative(::Module, ::String) at ./loading.jl:509
+ [31] include(::Module, ::String) at ./sysimg.jl:15
+ [32] process_options(::Base.JLOptions) at ./client.jl:340
+ [33] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:25
+WARNING: Array{T, 2}(m::Int, n::Int) where T is deprecated, use Array{T, 2}(uninitialized, m, n) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Float64,2}(::Int64, ::Int64) at ./deprecated.jl:56
+ [3] perf_hvcat_setind(::Array{Float64,2}, ::Array{Float64,2}) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/cat.jl:8
+ [4] ##core#10535(::Array{Float64,2}, ::Array{Float64,2}) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [5] ##sample#10536(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [6] #_run#553(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10534")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10534")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#10534")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [9] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10534")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10534")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10534")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10534")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10534")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [24] macro expansion at ./util.jl:225 [inlined]
+ [25] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [26] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [27] #warmup#25(::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [28] warmup(::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [29] top-level scope
+ [30] include_relative(::Module, ::String) at ./loading.jl:509
+ [31] include(::Module, ::String) at ./sysimg.jl:15
+ [32] process_options(::Base.JLOptions) at ./client.jl:340
+ [33] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:25
+WARNING: Array{T}(d::Integer...) where T is deprecated, use Array{T}(uninitialized, d) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Float64,N} where N(::Int64, ::Int64, ::Int64, ::Int64) at ./deprecated.jl:56
+ [3] perf_catnd_setind(::Int64) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/cat.jl:50
+ [4] ##core#10520(::Int64) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [5] ##sample#10521(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [6] #_run#548(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10519")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10519")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#10519")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [9] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10519")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10519")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10519")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10519")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10519")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [24] macro expansion at ./util.jl:225 [inlined]
+ [25] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [26] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [27] #warmup#25(::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [28] warmup(::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [29] top-level scope
+ [30] include_relative(::Module, ::String) at ./loading.jl:509
+ [31] include(::Module, ::String) at ./sysimg.jl:15
+ [32] process_options(::Base.JLOptions) at ./client.jl:340
+ [33] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:25
+WARNING: Array{T, 2}(m::Int, n::Int) where T is deprecated, use Array{T, 2}(uninitialized, m, n) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Float64,2}(::Int64, ::Int64) at ./deprecated.jl:56
+ [3] perf_vcat_setind(::Array{Float64,2}, ::Array{Float64,2}) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/cat.jl:33
+ [4] ##core#10541(::Array{Float64,2}, ::Array{Float64,2}) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [5] ##sample#10542(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [6] #_run#555(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10540")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10540")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#10540")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [9] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10540")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10540")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10540")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10540")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10540")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [24] macro expansion at ./util.jl:225 [inlined]
+ [25] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [26] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [27] #warmup#25(::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [28] warmup(::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [29] top-level scope
+ [30] include_relative(::Module, ::String) at ./loading.jl:509
+ [31] include(::Module, ::String) at ./sysimg.jl:15
+ [32] process_options(::Base.JLOptions) at ./client.jl:340
+ [33] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:25
+WARNING: parse(str::AbstractString; kwargs...) is deprecated, use Meta.parse(str; kwargs...) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] #parse#863(::Array{Any,1}, ::Function, ::String) at ./deprecated.jl:56
+ [3] parse(::String) at ./deprecated.jl:56
+ [4] ##core#10922(::String) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [5] ##sample#10923(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [6] #_run#14(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10921")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10921")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#10921")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [9] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10921")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10921")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10921")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10921")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10921")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [24] macro expansion at ./util.jl:225 [inlined]
+ [25] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [26] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [27] #warmup#25(::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [28] warmup(::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [29] top-level scope
+ [30] include_relative(::Module, ::String) at ./loading.jl:509
+ [31] include(::Module, ::String) at ./sysimg.jl:15
+ [32] process_options(::Base.JLOptions) at ./client.jl:340
+ [33] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:25
+WARNING: parse(str::AbstractString; kwargs...) is deprecated, use Meta.parse(str; kwargs...) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] #parse#863(::Array{Any,1}, ::Function, ::String) at ./deprecated.jl:56
+ [3] parse(::String) at ./deprecated.jl:56
+ [4] ##core#10930(::String) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [5] ##sample#10931(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [6] #_run#16(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10929")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10929")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#10929")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [9] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10929")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10929")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10929")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10929")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10929")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [24] macro expansion at ./util.jl:225 [inlined]
+ [25] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [26] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [27] #warmup#25(::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [28] warmup(::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [29] top-level scope
+ [30] include_relative(::Module, ::String) at ./loading.jl:509
+ [31] include(::Module, ::String) at ./sysimg.jl:15
+ [32] process_options(::Base.JLOptions) at ./client.jl:340
+ [33] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:25
+WARNING: parse(str::AbstractString; kwargs...) is deprecated, use Meta.parse(str; kwargs...) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] #parse#863(::Array{Any,1}, ::Function, ::String) at ./deprecated.jl:56
+ [3] parse(::String) at ./deprecated.jl:56
+ [4] ##core#10926(::String) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [5] ##sample#10927(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [6] #_run#15(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10925")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10925")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#10925")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [9] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10925")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10925")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10925")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10925")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10925")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [24] macro expansion at ./util.jl:225 [inlined]
+ [25] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [26] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [27] #warmup#25(::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [28] warmup(::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [29] top-level scope
+ [30] include_relative(::Module, ::String) at ./loading.jl:509
+ [31] include(::Module, ::String) at ./sysimg.jl:15
+ [32] process_options(::Base.JLOptions) at ./client.jl:340
+ [33] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:25
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{BaseBenchmarks.ShootoutBenchmarks.KNuc,1}(::Int64) at ./deprecated.jl:56
+ [3] sorted_array(::Dict{AbstractString,Int64}) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/k_nucleotide.jl:41
+ [4] perf_k_nucleotide() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/k_nucleotide.jl:83
+ [5] ##core#11276() at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [6] ##sample#11277(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [7] #_run#4(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11275")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [8] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#11275")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [9] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#11275")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [10] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11275")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [11] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11275")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [12] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [13] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#11275")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [14] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11275")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [15] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#11275")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [16] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [17] macro expansion at ./util.jl:225 [inlined]
+ [18] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [19] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [20] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [21] macro expansion at ./util.jl:225 [inlined]
+ [22] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [23] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [24] #warmup#25(::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [25] warmup(::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [26] top-level scope
+ [27] include_relative(::Module, ::String) at ./loading.jl:509
+ [28] include(::Module, ::String) at ./sysimg.jl:15
+ [29] process_options(::Base.JLOptions) at ./client.jl:340
+ [30] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:25
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{UInt8,1}(::Int64) at ./deprecated.jl:56
+ [3] random_fasta(::Array{UInt8,1}, ::Array{Float64,1}, ::Int64) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/fasta.jl:46
+ [4] perf_fasta at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/fasta.jl:61 [inlined]
+ [5] ##core#11271() at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [6] ##sample#11272(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [7] #_run#3(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11270")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [8] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#11270")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [9] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#11270")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [10] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11270")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [11] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11270")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [12] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [13] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#11270")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [14] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11270")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [15] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#11270")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [16] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [17] macro expansion at ./util.jl:225 [inlined]
+ [18] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [19] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [20] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [21] macro expansion at ./util.jl:225 [inlined]
+ [22] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [23] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [24] #warmup#25(::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [25] warmup(::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [26] top-level scope
+ [27] include_relative(::Module, ::String) at ./loading.jl:509
+ [28] include(::Module, ::String) at ./sysimg.jl:15
+ [29] process_options(::Base.JLOptions) at ./client.jl:340
+ [30] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:25
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Int32,1}(::Int64) at ./deprecated.jl:56
+ [3] perf_fannkuch(::Int64) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/fannkuch.jl:8
+ [4] ##core#11268() at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [5] ##sample#11269(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [6] #_run#2(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11267")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#11267")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#11267")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [9] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11267")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11267")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#11267")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11267")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#11267")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] #warmup#25(::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [24] warmup(::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [25] top-level scope
+ [26] include_relative(::Module, ::String) at ./loading.jl:509
+ [27] include(::Module, ::String) at ./sysimg.jl:15
+ [28] process_options(::Base.JLOptions) at ./client.jl:340
+ [29] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:25
+WARNING: similar(a::Associative) is deprecated, use empty(a) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] similar(::Dict{Any,Any}) at ./deprecated.jl:56
+ [3] similar at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/groups.jl:24 [inlined]
+ [4] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:66
+ [5] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [6] top-level scope
+ [7] include_relative(::Module, ::String) at ./loading.jl:509
+ [8] include(::Module, ::String) at ./sysimg.jl:15
+ [9] process_options(::Base.JLOptions) at ./client.jl:340
+ [10] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:28
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Float64,1}(::Int64) at ./deprecated.jl:56
+ [3] perf_ziggurat(::Int64) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/Ziggurat.jl:146
+ [4] ##core#8818() at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [5] ##sample#8819(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [6] #_run#14(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#8817")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#8817")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#8817")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [9] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#8817")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#8817")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#8817")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#8817")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#8817")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [24] macro expansion at ./util.jl:225 [inlined]
+ [25] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [26] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [27] top-level scope
+ [28] include_relative(::Module, ::String) at ./loading.jl:509
+ [29] include(::Module, ::String) at ./sysimg.jl:15
+ [30] process_options(::Base.JLOptions) at ./client.jl:340
+ [31] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:28
+WARNING: Array{T}(m::Int) where T is deprecated, use Array{T}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Float64,N} where N(::Int64) at ./deprecated.jl:56
+ [3] perf_euro_option_vec(::Int64) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/MonteCarlo.jl:38
+ [4] ##core#8784() at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [5] ##sample#8785(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [6] #_run#3(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#8783")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#8783")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#8783")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [9] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#8783")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#8783")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#8783")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#8783")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#8783")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [24] macro expansion at ./util.jl:225 [inlined]
+ [25] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [26] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [27] top-level scope
+ [28] include_relative(::Module, ::String) at ./loading.jl:509
+ [29] include(::Module, ::String) at ./sysimg.jl:15
+ [30] process_options(::Base.JLOptions) at ./client.jl:340
+ [31] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:28
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Int64,1}(::Int64) at ./deprecated.jl:56
+ [3] setup_mapr_access at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/sumindex.jl:198 [inlined]
+ [4] macro expansion at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/ArrayBenchmarks.jl:61 [inlined]
+ [5] ##sample#9249(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:314
+ [6] #_run#136(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#9247")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#9247")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#9247")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [9] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#9247")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#9247")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#9247")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#9247")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#9247")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [24] macro expansion at ./util.jl:225 [inlined]
+ [25] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [26] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [27] top-level scope
+ [28] include_relative(::Module, ::String) at ./loading.jl:509
+ [29] include(::Module, ::String) at ./sysimg.jl:15
+ [30] process_options(::Base.JLOptions) at ./client.jl:340
+ [31] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:28
+WARNING: Array{T, 2}(m::Int, n::Int) where T is deprecated, use Array{T, 2}(uninitialized, m, n) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Float64,2}(::Int64, ::Int64) at ./deprecated.jl:56
+ [3] perf_hcat_setind(::Array{Float64,2}, ::Array{Float64,2}) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/cat.jl:20
+ [4] ##core#10514(::Array{Float64,2}, ::Array{Float64,2}) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [5] ##sample#10515(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [6] #_run#546(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10513")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10513")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#10513")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [9] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10513")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10513")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10513")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10513")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10513")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [24] macro expansion at ./util.jl:225 [inlined]
+ [25] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [26] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [27] top-level scope
+ [28] include_relative(::Module, ::String) at ./loading.jl:509
+ [29] include(::Module, ::String) at ./sysimg.jl:15
+ [30] process_options(::Base.JLOptions) at ./client.jl:340
+ [31] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:28
+WARNING: Array{T, 2}(m::Int, n::Int) where T is deprecated, use Array{T, 2}(uninitialized, m, n) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Float64,2}(::Int64, ::Int64) at ./deprecated.jl:56
+ [3] perf_hvcat_setind(::Array{Float64,2}, ::Array{Float64,2}) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/cat.jl:8
+ [4] ##core#10535(::Array{Float64,2}, ::Array{Float64,2}) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [5] ##sample#10536(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [6] #_run#553(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10534")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10534")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#10534")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [9] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10534")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10534")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10534")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10534")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10534")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [24] macro expansion at ./util.jl:225 [inlined]
+ [25] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [26] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [27] top-level scope
+ [28] include_relative(::Module, ::String) at ./loading.jl:509
+ [29] include(::Module, ::String) at ./sysimg.jl:15
+ [30] process_options(::Base.JLOptions) at ./client.jl:340
+ [31] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:28
+WARNING: Array{T}(d::Integer...) where T is deprecated, use Array{T}(uninitialized, d) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Float64,N} where N(::Int64, ::Int64, ::Int64, ::Int64) at ./deprecated.jl:56
+ [3] perf_catnd_setind(::Int64) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/cat.jl:50
+ [4] ##core#10520(::Int64) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [5] ##sample#10521(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [6] #_run#548(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10519")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10519")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#10519")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [9] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10519")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10519")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10519")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10519")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10519")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [24] macro expansion at ./util.jl:225 [inlined]
+ [25] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [26] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [27] top-level scope
+ [28] include_relative(::Module, ::String) at ./loading.jl:509
+ [29] include(::Module, ::String) at ./sysimg.jl:15
+ [30] process_options(::Base.JLOptions) at ./client.jl:340
+ [31] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:28
+WARNING: Array{T, 2}(m::Int, n::Int) where T is deprecated, use Array{T, 2}(uninitialized, m, n) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Float64,2}(::Int64, ::Int64) at ./deprecated.jl:56
+ [3] perf_vcat_setind(::Array{Float64,2}, ::Array{Float64,2}) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/cat.jl:33
+ [4] ##core#10541(::Array{Float64,2}, ::Array{Float64,2}) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [5] ##sample#10542(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [6] #_run#555(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10540")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10540")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#10540")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [9] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10540")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10540")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10540")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10540")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10540")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [24] macro expansion at ./util.jl:225 [inlined]
+ [25] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [26] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [27] top-level scope
+ [28] include_relative(::Module, ::String) at ./loading.jl:509
+ [29] include(::Module, ::String) at ./sysimg.jl:15
+ [30] process_options(::Base.JLOptions) at ./client.jl:340
+ [31] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:28
+WARNING: parse(str::AbstractString; kwargs...) is deprecated, use Meta.parse(str; kwargs...) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] #parse#863(::Array{Any,1}, ::Function, ::String) at ./deprecated.jl:56
+ [3] parse(::String) at ./deprecated.jl:56
+ [4] ##core#10922(::String) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [5] ##sample#10923(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [6] #_run#14(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10921")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10921")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#10921")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [9] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10921")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10921")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10921")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10921")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10921")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [24] macro expansion at ./util.jl:225 [inlined]
+ [25] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [26] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [27] top-level scope
+ [28] include_relative(::Module, ::String) at ./loading.jl:509
+ [29] include(::Module, ::String) at ./sysimg.jl:15
+ [30] process_options(::Base.JLOptions) at ./client.jl:340
+ [31] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:28
+WARNING: parse(str::AbstractString; kwargs...) is deprecated, use Meta.parse(str; kwargs...) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] #parse#863(::Array{Any,1}, ::Function, ::String) at ./deprecated.jl:56
+ [3] parse(::String) at ./deprecated.jl:56
+ [4] ##core#10930(::String) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [5] ##sample#10931(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [6] #_run#16(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10929")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10929")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#10929")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [9] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10929")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10929")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10929")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10929")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10929")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [24] macro expansion at ./util.jl:225 [inlined]
+ [25] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [26] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [27] top-level scope
+ [28] include_relative(::Module, ::String) at ./loading.jl:509
+ [29] include(::Module, ::String) at ./sysimg.jl:15
+ [30] process_options(::Base.JLOptions) at ./client.jl:340
+ [31] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:28
+WARNING: parse(str::AbstractString; kwargs...) is deprecated, use Meta.parse(str; kwargs...) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] #parse#863(::Array{Any,1}, ::Function, ::String) at ./deprecated.jl:56
+ [3] parse(::String) at ./deprecated.jl:56
+ [4] ##core#10926(::String) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [5] ##sample#10927(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [6] #_run#15(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10925")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10925")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#10925")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [9] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10925")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10925")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10925")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10925")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#10925")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [24] macro expansion at ./util.jl:225 [inlined]
+ [25] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [26] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [27] top-level scope
+ [28] include_relative(::Module, ::String) at ./loading.jl:509
+ [29] include(::Module, ::String) at ./sysimg.jl:15
+ [30] process_options(::Base.JLOptions) at ./client.jl:340
+ [31] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:28
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{BaseBenchmarks.ShootoutBenchmarks.KNuc,1}(::Int64) at ./deprecated.jl:56
+ [3] sorted_array(::Dict{AbstractString,Int64}) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/k_nucleotide.jl:41
+ [4] perf_k_nucleotide() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/k_nucleotide.jl:83
+ [5] ##core#11276() at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [6] ##sample#11277(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [7] #_run#4(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11275")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [8] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#11275")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [9] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#11275")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [10] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11275")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [11] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11275")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [12] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [13] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#11275")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [14] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11275")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [15] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#11275")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [16] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [17] macro expansion at ./util.jl:225 [inlined]
+ [18] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [19] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [20] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [21] macro expansion at ./util.jl:225 [inlined]
+ [22] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [23] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [24] top-level scope
+ [25] include_relative(::Module, ::String) at ./loading.jl:509
+ [26] include(::Module, ::String) at ./sysimg.jl:15
+ [27] process_options(::Base.JLOptions) at ./client.jl:340
+ [28] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:28
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{UInt8,1}(::Int64) at ./deprecated.jl:56
+ [3] random_fasta(::Array{UInt8,1}, ::Array{Float64,1}, ::Int64) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/fasta.jl:46
+ [4] perf_fasta at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/fasta.jl:61 [inlined]
+ [5] ##core#11271() at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [6] ##sample#11272(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [7] #_run#3(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11270")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [8] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#11270")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [9] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#11270")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [10] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11270")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [11] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11270")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [12] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [13] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#11270")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [14] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11270")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [15] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#11270")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [16] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [17] macro expansion at ./util.jl:225 [inlined]
+ [18] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [19] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [20] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [21] macro expansion at ./util.jl:225 [inlined]
+ [22] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [23] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [24] top-level scope
+ [25] include_relative(::Module, ::String) at ./loading.jl:509
+ [26] include(::Module, ::String) at ./sysimg.jl:15
+ [27] process_options(::Base.JLOptions) at ./client.jl:340
+ [28] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:28
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Int32,1}(::Int64) at ./deprecated.jl:56
+ [3] perf_fannkuch(::Int64) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/fannkuch.jl:8
+ [4] ##core#11268() at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [5] ##sample#11269(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [6] #_run#2(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11267")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::Array{Any,1}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#11267")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Array{Any,1},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#11267")},BenchmarkTools.Parameters}})() at ./essentials.jl:669
+ [9] #invokelatest#3(::Array{Any,1}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11267")}, ::Vararg{Any,N} where N) at ./essentials.jl:670
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::Array{Any,1}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11267")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33 [inlined]
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::Array{Any,1}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#11267")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Array{Any,1}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#11267")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#11267")}, ::BenchmarkTools.Parameters) at ./<missing>:0 (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Array{Any,1}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::Array{Any,1}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] top-level scope
+ [24] include_relative(::Module, ::String) at ./loading.jl:509
+ [25] include(::Module, ::String) at ./sysimg.jl:15
+ [26] process_options(::Base.JLOptions) at ./client.jl:340
+ [27] _start() at ./client.jl:406
+in expression starting at /home/nanosoldier/workdir/tmptC7YUt/benchscript.jl:28
