@@ -1,0 +1,173 @@
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Int64,1}(::Int64) at ./deprecated.jl:56
+ [3] top-level scope
+ [4] include at ./boot.jl:279 [inlined]
+ [5] include_relative(::Module, ::String) at ./loading.jl:509
+ [6] include at ./sysimg.jl:15 [inlined]
+ [7] include(::String) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/BenchmarkTools.jl:3
+ [8] top-level scope
+ [9] include at ./boot.jl:279 [inlined]
+ [10] include_relative(::Module, ::String) at ./loading.jl:509
+ [11] include(::Module, ::String) at ./sysimg.jl:15
+ [12] top-level scope
+ [13] eval at ./boot.jl:282 [inlined]
+ [14] top-level scope at ./<missing>:2
+ [15] eval at ./boot.jl:282 [inlined]
+ [16] eval(::Module, ::Expr) at ./sysimg.jl:60
+ [17] process_options(::Base.JLOptions) at ./client.jl:320
+ [18] _start() at ./client.jl:404
+in expression starting at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:131
+WARNING: Array{T, 2}(m::Int, n::Int) where T is deprecated, use Array{T, 2}(uninitialized, m, n) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Float64,2}(::Int64, ::Int64) at ./deprecated.jl:56
+ [3] top-level scope
+ [4] include at ./boot.jl:279 [inlined]
+ [5] include_relative(::Module, ::String) at ./loading.jl:509
+ [6] include at ./sysimg.jl:15 [inlined]
+ [7] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
+ [8] top-level scope
+ [9] eval at ./boot.jl:282 [inlined]
+ [10] eval at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1 [inlined]
+ [11] #load!#2(::Bool, ::Function, ::BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:38
+ [12] #load! at ./<missing>:0 [inlined]
+ [13] macro expansion at ./util.jl:225 [inlined]
+ [14] #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:54
+ [15] loadall! at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:51 [inlined]
+ [16] #loadall!#3 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:48 [inlined]
+ [17] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ [18] top-level scope
+ [19] include at ./boot.jl:279 [inlined]
+ [20] include_relative(::Module, ::String) at ./loading.jl:509
+ [21] include(::Module, ::String) at ./sysimg.jl:15
+ [22] process_options(::Base.JLOptions) at ./client.jl:338
+ [23] _start() at ./client.jl:404
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/broadcast/BroadcastBenchmarks.jl:25
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Int64,1}(::Int64) at ./deprecated.jl:56
+ [3] top-level scope
+ [4] include at ./boot.jl:279 [inlined]
+ [5] include_relative(::Module, ::String) at ./loading.jl:509
+ [6] include at ./sysimg.jl:15 [inlined]
+ [7] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
+ [8] top-level scope
+ [9] eval at ./boot.jl:282 [inlined]
+ [10] eval at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1 [inlined]
+ [11] #load!#2(::Bool, ::Function, ::BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:38
+ [12] #load! at ./<missing>:0 [inlined]
+ [13] macro expansion at ./util.jl:225 [inlined]
+ [14] #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:54
+ [15] loadall! at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:51 [inlined]
+ [16] #loadall!#3 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:48 [inlined]
+ [17] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ [18] top-level scope
+ [19] include at ./boot.jl:279 [inlined]
+ [20] include_relative(::Module, ::String) at ./loading.jl:509
+ [21] include(::Module, ::String) at ./sysimg.jl:15
+ [22] process_options(::Base.JLOptions) at ./client.jl:338
+ [23] _start() at ./client.jl:404
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:22
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Int64,1}(::Int64) at ./deprecated.jl:56
+ [3] top-level scope at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:84
+ [4] include at ./boot.jl:279 [inlined]
+ [5] include_relative(::Module, ::String) at ./loading.jl:509
+ [6] include at ./sysimg.jl:15 [inlined]
+ [7] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
+ [8] top-level scope
+ [9] eval at ./boot.jl:282 [inlined]
+ [10] eval at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1 [inlined]
+ [11] #load!#2(::Bool, ::Function, ::BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:38
+ [12] #load! at ./<missing>:0 [inlined]
+ [13] macro expansion at ./util.jl:225 [inlined]
+ [14] #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:54
+ [15] loadall! at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:51 [inlined]
+ [16] #loadall!#3 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:48 [inlined]
+ [17] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ [18] top-level scope
+ [19] include at ./boot.jl:279 [inlined]
+ [20] include_relative(::Module, ::String) at ./loading.jl:509
+ [21] include(::Module, ::String) at ./sysimg.jl:15
+ [22] process_options(::Base.JLOptions) at ./client.jl:338
+ [23] _start() at ./client.jl:404
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:84
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Int8,1}(::Int64) at ./deprecated.jl:56
+ [3] top-level scope at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+ [4] include at ./boot.jl:279 [inlined]
+ [5] include_relative(::Module, ::String) at ./loading.jl:509
+ [6] include at ./sysimg.jl:15 [inlined]
+ [7] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
+ [8] top-level scope
+ [9] eval at ./boot.jl:282 [inlined]
+ [10] eval at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1 [inlined]
+ [11] #load!#2(::Bool, ::Function, ::BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:38
+ [12] #load! at ./<missing>:0 [inlined]
+ [13] macro expansion at ./util.jl:225 [inlined]
+ [14] #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:54
+ [15] loadall! at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:51 [inlined]
+ [16] #loadall!#3 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:48 [inlined]
+ [17] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ [18] top-level scope
+ [19] include at ./boot.jl:279 [inlined]
+ [20] include_relative(::Module, ::String) at ./loading.jl:509
+ [21] include(::Module, ::String) at ./sysimg.jl:15
+ [22] process_options(::Base.JLOptions) at ./client.jl:338
+ [23] _start() at ./client.jl:404
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Array{T, 1}(m::Int) where T is deprecated, use Array{T, 1}(uninitialized, m) instead.
+Stacktrace:
+ [1] depwarn at ./deprecated.jl:68 [inlined]
+ [2] Array{Int64,1}(::Int64) at ./deprecated.jl:56
+ [3] top-level scope at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+ [4] include at ./boot.jl:279 [inlined]
+ [5] include_relative(::Module, ::String) at ./loading.jl:509
+ [6] include at ./sysimg.jl:15 [inlined]
+ [7] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
+ [8] top-level scope
+ [9] eval at ./boot.jl:282 [inlined]
+ [10] eval at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1 [inlined]
+ [11] #load!#2(::Bool, ::Function, ::BenchmarkGroup, ::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:38
+ [12] #load! at ./<missing>:0 [inlined]
+ [13] macro expansion at ./util.jl:225 [inlined]
+ [14] #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:54
+ [15] loadall! at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:51 [inlined]
+ [16] #loadall!#3 at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:48 [inlined]
+ [17] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:48
+ [18] top-level scope
+ [19] include at ./boot.jl:279 [inlined]
+ [20] include_relative(::Module, ::String) at ./loading.jl:509
+ [21] include(::Module, ::String) at ./sysimg.jl:15
+ [22] process_options(::Base.JLOptions) at ./client.jl:338
+ [23] _start() at ./client.jl:404
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: importing deprecated binding Base.lowercase into SpellCheck.
+ERROR: LoadError: LoadError: LoadError: Base.lowercase has been moved to the standard library package Unicode.
+Restart Julia and then run `using Unicode` to load it.
+Stacktrace:
+ [1] error(::Function, ::String, ::String, ::String, ::String, ::String, ::String) at ./error.jl:44
+ [2] #lowercase#899 at ./deprecated.jl:129 [inlined]
+ [3] lowercase at ./deprecated.jl:129 [inlined]
+ [4] words(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/SpellCheck.jl:17
+ [5] top-level scope
+ [6] include at ./boot.jl:279 [inlined]
+ [7] include_relative(::Module, ::String) at ./loading.jl:509
+ [8] include at ./sysimg.jl:15 [inlined]
+ [9] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/ProblemBenchmarks.jl:1
+ [10] top-level scope
+ [11] include at ./boot.jl:279 [inlined]
+ [12] include_relative(::Module, ::String) at ./loading.jl:509
+ [13] include at ./sysimg.jl:15 [inlined]
+ [14] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
+ [15] top-level scope
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/SpellCheck.jl:27
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/ProblemBenchmarks.jl:152
+in expression starting at /home/nanosoldier/workdir/tmpzLgQiP/benchscript.jl:19
