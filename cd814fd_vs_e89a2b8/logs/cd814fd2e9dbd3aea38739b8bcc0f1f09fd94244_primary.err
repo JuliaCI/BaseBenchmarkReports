@@ -1,0 +1,113 @@
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+WARNING: Broadcast._containertype is deprecated, use Base.Broadcast.BroadcastStyle instead.
+  likely near /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:408
+WARNING: Broadcast.promote_containertype is deprecated, use Base.Broadcast.BroadcastStyle instead.
+  likely near /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:409
+WARNING: Broadcast.promote_containertype is deprecated, use Base.Broadcast.BroadcastStyle instead.
+  likely near /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:410
+WARNING: Broadcast.promote_containertype is deprecated, use Base.Broadcast.BroadcastStyle instead.
+  likely near /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:411
+WARNING: Broadcast.promote_containertype is deprecated, use Base.Broadcast.BroadcastStyle instead.
+  likely near /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:412
+WARNING: Broadcast.broadcast_c is deprecated, `broadcast_c(f, ::Type{C}, As...)` should become `broadcast(f, C, nothing, nothing, As...))` (see the manual chapter Interfaces).
+  likely near /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:432
+WARNING: importing deprecated binding Base.Associative into Parser.
+WARNING: Base.Associative is deprecated, use Base.AbstractDict{K, V} where V where K instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:315
+WARNING: Base.Associative is deprecated, use Base.AbstractDict{K, V} where V where K instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:315
+WARNING: Base.Associative is deprecated, use Base.AbstractDict{K, V} where V where K instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:384
+WARNING: Base.Associative is deprecated, use Base.AbstractDict{K, V} where V where K instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:395
+WARNING: Base.Associative is deprecated, use Base.AbstractDict{K, V} where V where K instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:401
+WARNING: importing deprecated binding Base.Associative into Writer.
+WARNING: Base.Associative is deprecated, use Base.AbstractDict{K, V} where V where K instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Writer.jl:276
+WARNING: importing deprecated binding Base.@sprintf into BenchmarkTools.
+ERROR: LoadError: LoadError: LoadError: Base.@sprintf has been moved to the standard library package Printf.
+Restart Julia and then run `using Printf` to load it.
+Stacktrace:
+ [1] error(::Function, ::String, ::String, ::String, ::String, ::String, ::String) at ./error.jl:42
+ [2] #@sprintf#896(::NamedTuple{(),Tuple{}}, ::Function, ::LineNumberNode, ::Vararg{Any,N} where N) at ./deprecated.jl:139
+ [3] @sprintf(::Vararg{Any,N} where N) at ./deprecated.jl:139
+ [4] include at ./boot.jl:283 [inlined]
+ [5] include_relative(::Module, ::String) at ./loading.jl:503
+ [6] include at ./sysimg.jl:15 [inlined]
+ [7] include(::String) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/BenchmarkTools.jl:3
+ [8] top-level scope
+ [9] include at ./boot.jl:283 [inlined]
+ [10] include_relative(::Module, ::String) at ./loading.jl:503
+ [11] include(::Module, ::String) at ./sysimg.jl:15
+ [12] top-level scope
+ [13] eval at ./boot.jl:286 [inlined]
+ [14] top-level scope at ./<missing>:2
+in expression starting at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/trials.jl:232
+in expression starting at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/trials.jl:232
+in expression starting at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/BenchmarkTools.jl:23
+ERROR: LoadError: LoadError: Failed to precompile BenchmarkTools to /home/nanosoldier/.julia/lib/v0.7/BenchmarkTools.ji.
+Stacktrace:
+ [1] error at ./error.jl:33 [inlined]
+ [2] compilecache(::String) at ./loading.jl:630
+ [3] compilecache at ./loading.jl:587 [inlined]
+ [4] _require(::Symbol) at ./loading.jl:420
+ [5] require(::Symbol) at ./loading.jl:298
+ [6] include at ./boot.jl:283 [inlined]
+ [7] include_relative(::Module, ::String) at ./loading.jl:503
+ [8] _require(::Symbol) at ./loading.jl:434
+ [9] require(::Symbol) at ./loading.jl:298
+ [10] include at ./boot.jl:283 [inlined]
+ [11] include_relative(::Module, ::String) at ./loading.jl:503
+ [12] include(::Module, ::String) at ./sysimg.jl:15
+ [13] process_options(::Base.JLOptions) at ./client.jl:322
+ [14] _start() at ./client.jl:373
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:3
+in expression starting at /home/nanosoldier/workdir/tmpAMFHEh/benchscript.jl:18
