@@ -1,0 +1,99 @@
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+WARNING: Broadcast._containertype is deprecated, use Base.Broadcast.BroadcastStyle instead.
+  likely near /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:408
+WARNING: Broadcast.promote_containertype is deprecated, use Base.Broadcast.BroadcastStyle instead.
+  likely near /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:409
+WARNING: Broadcast.promote_containertype is deprecated, use Base.Broadcast.BroadcastStyle instead.
+  likely near /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:410
+WARNING: Broadcast.promote_containertype is deprecated, use Base.Broadcast.BroadcastStyle instead.
+  likely near /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:411
+WARNING: Broadcast.promote_containertype is deprecated, use Base.Broadcast.BroadcastStyle instead.
+  likely near /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:412
+WARNING: Broadcast.broadcast_c is deprecated, `broadcast_c(f, ::Type{C}, As...)` should become `broadcast(f, C, nothing, nothing, As...))` (see the manual chapter Interfaces).
+  likely near /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:432
+WARNING: importing deprecated binding Base.Associative into Parser.
+WARNING: Base.Associative is deprecated, use Base.AbstractDict{K, V} where V where K instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:315
+WARNING: Base.Associative is deprecated, use Base.AbstractDict{K, V} where V where K instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:315
+WARNING: Base.Associative is deprecated, use Base.AbstractDict{K, V} where V where K instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:384
+WARNING: Base.Associative is deprecated, use Base.AbstractDict{K, V} where V where K instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:395
+WARNING: Base.Associative is deprecated, use Base.AbstractDict{K, V} where V where K instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:401
+WARNING: importing deprecated binding Base.Associative into Writer.
+WARNING: Base.Associative is deprecated, use Base.AbstractDict{K, V} where V where K instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Writer.jl:276
+WARNING: Base.Associative is deprecated, use Base.AbstractDict{K, V} where V where K instead.
+  likely near /home/nanosoldier/workdir/tmpZI4lsn/benchscript.jl:23
+WARNING: Base.Associative is deprecated, use Base.AbstractDict{K, V} where V where K instead.
+  likely near /home/nanosoldier/workdir/tmpZI4lsn/benchscript.jl:23
+WARNING: importing deprecated binding Base.@printf into ShootoutBenchmarks.
+ERROR: LoadError: LoadError: LoadError: LoadError: Base.@printf has been moved to the standard library package Printf.
+Restart Julia and then run `using Printf` to load it.
+Stacktrace:
+ [1] error(::Function, ::String, ::String, ::String, ::String, ::String, ::String) at ./error.jl:42
+ [2] #@printf#895(::NamedTuple{(),Tuple{}}, ::Function, ::LineNumberNode, ::Vararg{Any,N} where N) at ./deprecated.jl:139
+ [3] @printf(::Vararg{Any,N} where N) at ./deprecated.jl:139
+ [4] include at ./boot.jl:286 [inlined]
+ [5] include_relative(::Module, ::String) at ./loading.jl:503
+ [6] include at ./sysimg.jl:26 [inlined]
+ [7] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/ShootoutBenchmarks.jl:1
+ [8] top-level scope
+ [9] include at ./boot.jl:286 [inlined]
+ [10] include_relative(::Module, ::String) at ./loading.jl:503
+ [11] include at ./sysimg.jl:26 [inlined]
+ [12] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
+ [13] top-level scope
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/k_nucleotide.jl:56
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/k_nucleotide.jl:50
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/ShootoutBenchmarks.jl:47
+in expression starting at /home/nanosoldier/workdir/tmpZI4lsn/benchscript.jl:23
