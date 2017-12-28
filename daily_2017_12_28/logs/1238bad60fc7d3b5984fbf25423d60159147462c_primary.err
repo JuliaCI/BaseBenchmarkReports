@@ -1,0 +1,903 @@
+WARNING: importing deprecated binding Base.Void into Nullables.
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:56
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:57
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `null_safe_op`".
+Use "global null_safe_op" instead.
+WARNING: Broadcast._containertype is deprecated, use BroadcastStyle instead.
+  likely near /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:408
+WARNING: Broadcast.promote_containertype is deprecated, use BroadcastStyle instead.
+  likely near /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:409
+WARNING: Broadcast.promote_containertype is deprecated, use BroadcastStyle instead.
+  likely near /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:410
+WARNING: Broadcast.promote_containertype is deprecated, use BroadcastStyle instead.
+  likely near /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:411
+WARNING: Broadcast.promote_containertype is deprecated, use BroadcastStyle instead.
+  likely near /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:412
+WARNING: Broadcast.broadcast_c is deprecated, `broadcast_c(f, ::Type{C}, As...)` should become `broadcast(f, C, nothing, nothing, As...))` (see the manual chapter Interfaces).
+  likely near /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:432
+WARNING: importing deprecated binding Base.Associative into Parser.
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:315
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:315
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:384
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:395
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:401
+WARNING: importing deprecated binding Base.Void into Writer.
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Writer.jl:266
+WARNING: importing deprecated binding Base.Associative into Writer.
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Writer.jl:276
+The syntax `.'` for transposition is deprecated, and the special lowering of `.'` in multiplication (`*`), left-division (`\`), and right-division (`/`) operations, for example `A.'*B` lowering to `At_mul_B(A, B)`, `A\B.'` lowering to `A_ldiv_Bt(A, B)`, and `A.'/B.'` lowering to `At_rdiv_Bt(A, B)`, has been removed in favor of a lazy `Transpose` wrapper type and dispatch on that type. Two rewrites for `A.'` for matrix `A` exist: eager or materializing `transpose(A)`, which constructs a freshly allocated matrix of `A`'s type and containing the transpose of `A`, and lazy `Transpose(A)`, which wraps `A` in a `Transpose` view type. Which rewrite is appropriate depends on context: If `A.'` appears in a multiplication, left-division, or right-division operation that was formerly specially lowered to an `A_mul_B`-like call, then the lazy `Tranpose(A)` is the correct replacement and will result in dispatch to a method equivalent to the former `A_mul_B`-like call. For example, `A.'*B`, formerly yielding `At_mul_B(A, B)`, should be rewritten `Transpose(A)*B`, which will dispatch to a method equivalent to the former `At_mul_B(A, B)` method. If `A.'` appears outside such an operation, then `transpose(A)` is the correct rewrite. For vector `A`, `A.'` already transposed lazily to a `RowVector`, so `Transpose(A)`. which now yields a `Transpose`-wrapped vector behaviorally equivalent to the former `RowVector` is always the correct rewrite for vectors. For more information, see issue #5332 on Julia's issue tracker on GitHub.
+The syntax `.'` for transposition is deprecated, and the special lowering of `.'` in multiplication (`*`), left-division (`\`), and right-division (`/`) operations, for example `A.'*B` lowering to `At_mul_B(A, B)`, `A\B.'` lowering to `A_ldiv_Bt(A, B)`, and `A.'/B.'` lowering to `At_rdiv_Bt(A, B)`, has been removed in favor of a lazy `Transpose` wrapper type and dispatch on that type. Two rewrites for `A.'` for matrix `A` exist: eager or materializing `transpose(A)`, which constructs a freshly allocated matrix of `A`'s type and containing the transpose of `A`, and lazy `Transpose(A)`, which wraps `A` in a `Transpose` view type. Which rewrite is appropriate depends on context: If `A.'` appears in a multiplication, left-division, or right-division operation that was formerly specially lowered to an `A_mul_B`-like call, then the lazy `Tranpose(A)` is the correct replacement and will result in dispatch to a method equivalent to the former `A_mul_B`-like call. For example, `A.'*B`, formerly yielding `At_mul_B(A, B)`, should be rewritten `Transpose(A)*B`, which will dispatch to a method equivalent to the former `At_mul_B(A, B)` method. If `A.'` appears outside such an operation, then `transpose(A)` is the correct rewrite. For vector `A`, `A.'` already transposed lazily to a `RowVector`, so `Transpose(A)`. which now yields a `Transpose`-wrapped vector behaviorally equivalent to the former `RowVector` is always the correct rewrite for vectors. For more information, see issue #5332 on Julia's issue tracker on GitHub.
+The syntax `.'` for transposition is deprecated, and the special lowering of `.'` in multiplication (`*`), left-division (`\`), and right-division (`/`) operations, for example `A.'*B` lowering to `At_mul_B(A, B)`, `A\B.'` lowering to `A_ldiv_Bt(A, B)`, and `A.'/B.'` lowering to `At_rdiv_Bt(A, B)`, has been removed in favor of a lazy `Transpose` wrapper type and dispatch on that type. Two rewrites for `A.'` for matrix `A` exist: eager or materializing `transpose(A)`, which constructs a freshly allocated matrix of `A`'s type and containing the transpose of `A`, and lazy `Transpose(A)`, which wraps `A` in a `Transpose` view type. Which rewrite is appropriate depends on context: If `A.'` appears in a multiplication, left-division, or right-division operation that was formerly specially lowered to an `A_mul_B`-like call, then the lazy `Tranpose(A)` is the correct replacement and will result in dispatch to a method equivalent to the former `A_mul_B`-like call. For example, `A.'*B`, formerly yielding `At_mul_B(A, B)`, should be rewritten `Transpose(A)*B`, which will dispatch to a method equivalent to the former `At_mul_B(A, B)` method. If `A.'` appears outside such an operation, then `transpose(A)` is the correct rewrite. For vector `A`, `A.'` already transposed lazily to a `RowVector`, so `Transpose(A)`. which now yields a `Transpose`-wrapped vector behaviorally equivalent to the former `RowVector` is always the correct rewrite for vectors. For more information, see issue #5332 on Julia's issue tracker on GitHub.
+The syntax `.'` for transposition is deprecated, and the special lowering of `.'` in multiplication (`*`), left-division (`\`), and right-division (`/`) operations, for example `A.'*B` lowering to `At_mul_B(A, B)`, `A\B.'` lowering to `A_ldiv_Bt(A, B)`, and `A.'/B.'` lowering to `At_rdiv_Bt(A, B)`, has been removed in favor of a lazy `Transpose` wrapper type and dispatch on that type. Two rewrites for `A.'` for matrix `A` exist: eager or materializing `transpose(A)`, which constructs a freshly allocated matrix of `A`'s type and containing the transpose of `A`, and lazy `Transpose(A)`, which wraps `A` in a `Transpose` view type. Which rewrite is appropriate depends on context: If `A.'` appears in a multiplication, left-division, or right-division operation that was formerly specially lowered to an `A_mul_B`-like call, then the lazy `Tranpose(A)` is the correct replacement and will result in dispatch to a method equivalent to the former `A_mul_B`-like call. For example, `A.'*B`, formerly yielding `At_mul_B(A, B)`, should be rewritten `Transpose(A)*B`, which will dispatch to a method equivalent to the former `At_mul_B(A, B)` method. If `A.'` appears outside such an operation, then `transpose(A)` is the correct rewrite. For vector `A`, `A.'` already transposed lazily to a `RowVector`, so `Transpose(A)`. which now yields a `Transpose`-wrapped vector behaviorally equivalent to the former `RowVector` is always the correct rewrite for vectors. For more information, see issue #5332 on Julia's issue tracker on GitHub.
+The syntax `.'` for transposition is deprecated, and the special lowering of `.'` in multiplication (`*`), left-division (`\`), and right-division (`/`) operations, for example `A.'*B` lowering to `At_mul_B(A, B)`, `A\B.'` lowering to `A_ldiv_Bt(A, B)`, and `A.'/B.'` lowering to `At_rdiv_Bt(A, B)`, has been removed in favor of a lazy `Transpose` wrapper type and dispatch on that type. Two rewrites for `A.'` for matrix `A` exist: eager or materializing `transpose(A)`, which constructs a freshly allocated matrix of `A`'s type and containing the transpose of `A`, and lazy `Transpose(A)`, which wraps `A` in a `Transpose` view type. Which rewrite is appropriate depends on context: If `A.'` appears in a multiplication, left-division, or right-division operation that was formerly specially lowered to an `A_mul_B`-like call, then the lazy `Tranpose(A)` is the correct replacement and will result in dispatch to a method equivalent to the former `A_mul_B`-like call. For example, `A.'*B`, formerly yielding `At_mul_B(A, B)`, should be rewritten `Transpose(A)*B`, which will dispatch to a method equivalent to the former `At_mul_B(A, B)` method. If `A.'` appears outside such an operation, then `transpose(A)` is the correct rewrite. For vector `A`, `A.'` already transposed lazily to a `RowVector`, so `Transpose(A)`. which now yields a `Transpose`-wrapped vector behaviorally equivalent to the former `RowVector` is always the correct rewrite for vectors. For more information, see issue #5332 on Julia's issue tracker on GitHub.
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 2}, u_ip1::AbstractArray{T, 2}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:3".
+Use "kernel5(idx, u_i::AbstractArray{T, 2}, u_ip1::AbstractArray{T, 2}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 3}, u_ip1::AbstractArray{T, 3}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:29".
+Use "kernel5(idx, u_i::AbstractArray{T, 3}, u_ip1::AbstractArray{T, 3}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 4}, u_ip1::AbstractArray{T, 4}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:69".
+Use "kernel5(idx, u_i::AbstractArray{T, 4}, u_ip1::AbstractArray{T, 4}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 5}, u_ip1::AbstractArray{T, 5}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:123".
+Use "kernel5(idx, u_i::AbstractArray{T, 5}, u_ip1::AbstractArray{T, 5}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 6}, u_ip1::AbstractArray{T, 6}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:193".
+Use "kernel5(idx, u_i::AbstractArray{T, 6}, u_ip1::AbstractArray{T, 6}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax kernel5{T}(idx, u_i::AbstractArray{T, 7}, u_ip1::AbstractArray{T, 7}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:277".
+Use "kernel5(idx, u_i::AbstractArray{T, 7}, u_ip1::AbstractArray{T, 7}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 2}, u_ip1::AbstractArray{T, 2}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:375".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 2}, u_ip1::AbstractArray{T, 2}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 3}, u_ip1::AbstractArray{T, 3}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:386".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 3}, u_ip1::AbstractArray{T, 3}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 4}, u_ip1::AbstractArray{T, 4}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:401".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 4}, u_ip1::AbstractArray{T, 4}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 5}, u_ip1::AbstractArray{T, 5}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:420".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 5}, u_ip1::AbstractArray{T, 5}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 6}, u_ip1::AbstractArray{T, 6}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:443".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 6}, u_ip1::AbstractArray{T, 6}) where T" instead.
+
+WARNING: deprecated syntax "parametric method syntax perf_hdindexing5{T}(u_i::AbstractArray{T, 7}, u_ip1::AbstractArray{T, 7}) around /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/array/hdindexing.jl:470".
+Use "perf_hdindexing5(u_i::AbstractArray{T, 7}, u_ip1::AbstractArray{T, 7}) where T" instead.
+
+WARNING: deprecated syntax "implicit assignment to global variable `v`".
+Use "global v" instead.
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:23
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:23
+WARNING: importing deprecated binding Base.Void into UnionBenchmarks.
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:20
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:56
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:57
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:58
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:59
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:56
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:57
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:58
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:59
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:56
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:57
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:58
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:59
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:56
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:57
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:58
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:59
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:56
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:57
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:58
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:59
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:56
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:57
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:58
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:59
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:56
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:57
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:58
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:59
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:56
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:57
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:58
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:59
+WARNING: importing deprecated binding Base.Void into CollectionBenchmarks.
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:261
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:262
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:262
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:269
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:262
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:269
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:262
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:269
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:262
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:269
+WARNING: importing deprecated binding Base.CartesianRange into ArrayBenchmarks.
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
+WARNING: Base.CartesianRange is deprecated, use CartesianIndices instead.
+  likely near /home/nanosoldier/workdir/tmpzt9dC2/benchscript.jl:29
