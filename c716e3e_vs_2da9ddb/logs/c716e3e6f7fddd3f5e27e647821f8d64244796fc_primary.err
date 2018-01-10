@@ -1,0 +1,155 @@
+WARNING: importing deprecated binding Base.Associative into Parser.
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:315
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:315
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:384
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:395
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:401
+WARNING: importing deprecated binding Base.Void into Writer.
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Writer.jl:266
+WARNING: importing deprecated binding Base.Associative into Writer.
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Writer.jl:276
+┌ Warning: `using A.B` will only be allowed for modules, not single bindings. Use `using A: B` instead
+│   caller = ip:0x0
+└                                                                     @ Core :-1
+[ Warning: Replacing module `Compat`                       @ Base loading.jl:350
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/workdir/tmpDHMZmS/benchscript.jl:23
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/workdir/tmpDHMZmS/benchscript.jl:23
+WARNING: importing deprecated binding Base.Void into UnionBenchmarks.
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:20
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:56
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:57
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:58
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:59
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:56
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:57
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:58
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:59
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:56
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:57
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:58
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:59
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:56
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:57
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:58
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:59
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:56
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:57
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:58
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:59
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:56
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:57
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:58
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:59
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:56
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:57
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:58
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:59
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:56
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:57
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:58
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/union/UnionBenchmarks.jl:59
+WARNING: importing deprecated binding Base.Void into CollectionBenchmarks.
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:261
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:262
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:262
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:269
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:262
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:269
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:262
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:269
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:262
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:269
+ERROR: LoadError: MethodError: no method matching isless(::Int64, ::Nothing)
+Closest candidates are:
+  isless(!Matched::Missing, ::Any) at missing.jl:56
+  isless(::Real, !Matched::AbstractFloat) at operators.jl:125
+  isless(::Real, !Matched::Real) at operators.jl:302
+  ...
+Stacktrace:
+ [1] <(::Int64, ::Nothing) at ./operators.jl:227
+ [2] >(::Nothing, ::Int64) at ./operators.jl:250
+ [3] perf_findprev(::Function, ::Array{Float32,1}) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/find/FindBenchmarks.jl:76
+ [4] ##core#2533(::Function, ::Array{Float32,1}) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:312
+ [5] ##sample#2534(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:318
+ [6] #_run#59(::Bool, ::String, ::Base.Iterators.IndexValue{Symbol,Integer,NTuple{4,Symbol},NamedTuple{(:samples, :evals, :gctrial, :gcsample),Tuple{Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#2532")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:346
+ [7] (::getfield(BenchmarkTools, Symbol("#kw##_run")))(::NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}, ::typeof(BenchmarkTools._run), ::BenchmarkTools.Benchmark{Symbol("##benchmark#2532")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [8] (::getfield(Base, Symbol("#inner#4")){Base.Iterators.IndexValue{Symbol,Any,NTuple{6,Symbol},NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#2532")},BenchmarkTools.Parameters}})() at ./essentials.jl:666
+ [9] #invokelatest#3(::Base.Iterators.IndexValue{Symbol,Any,NTuple{6,Symbol},NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}}, ::Function, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#2532")}, ::Vararg{Any,N} where N) at ./essentials.jl:667
+ [10] (::getfield(Base, Symbol("#kw##invokelatest")))(::NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#2532")}, ::Vararg{Any,N} where N) at ./<missing>:0
+ [11] #run_result#18(::Base.Iterators.IndexValue{Symbol,Any,NTuple{6,Symbol},NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#2532")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:33
+ [12] (::getfield(BenchmarkTools, Symbol("#kw##run_result")))(::NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}, ::typeof(BenchmarkTools.run_result), ::BenchmarkTools.Benchmark{Symbol("##benchmark#2532")}, ::BenchmarkTools.Parameters) at ./<missing>:0
+ [13] #run#22(::Base.Iterators.IndexValue{Symbol,Any,NTuple{6,Symbol},NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#2532")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:63
+ [14] #run at ./<missing>:0 [inlined] (repeats 2 times)
+ [15] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [16] macro expansion at ./util.jl:225 [inlined]
+ [17] #run#23(::Bool, ::String, ::Base.Iterators.IndexValue{Symbol,Integer,NTuple{4,Symbol},NamedTuple{(:samples, :evals, :gctrial, :gcsample),Tuple{Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [18] (::getfield(Base, Symbol("#kw##run")))(::NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [19] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [20] macro expansion at ./util.jl:225 [inlined]
+ [21] #run#23(::Bool, ::String, ::Base.Iterators.IndexValue{Symbol,Integer,NTuple{4,Symbol},NamedTuple{(:samples, :evals, :gctrial, :gcsample),Tuple{Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [22] (::getfield(Base, Symbol("#kw##run")))(::NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [23] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:72 [inlined]
+ [24] macro expansion at ./util.jl:225 [inlined]
+ [25] #run#23(::Bool, ::String, ::Base.Iterators.IndexValue{Symbol,Integer,NTuple{4,Symbol},NamedTuple{(:samples, :evals, :gctrial, :gcsample),Tuple{Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:71
+ [26] #run at ./<missing>:0 [inlined]
+ [27] #warmup#25 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96 [inlined]
+ [28] warmup(::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:96
+ [29] top-level scope
+ [30] include at ./boot.jl:292 [inlined]
+ [31] include_relative(::Module, ::String) at ./loading.jl:521
+ [32] include(::Module, ::String) at ./sysimg.jl:26
+ [33] process_options(::Base.JLOptions) at ./client.jl:324
+ [34] _start() at ./client.jl:375
+in expression starting at /home/nanosoldier/workdir/tmpDHMZmS/benchscript.jl:29
