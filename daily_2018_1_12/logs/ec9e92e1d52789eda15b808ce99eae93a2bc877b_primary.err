@@ -1,0 +1,69 @@
+ERROR: LoadError: LoadError: UndefVarError: scalarmin not defined
+Stacktrace:
+ [1] getproperty(::Module, ::Symbol) at ./sysimg.jl:14
+ [2] top-level scope
+ [3] include at ./boot.jl:292 [inlined]
+ [4] include_relative(::Module, ::String) at ./loading.jl:521
+ [5] include at ./sysimg.jl:26 [inlined]
+ [6] include(::String) at /home/nanosoldier/.julia/v0.7/Nullables/src/Nullables.jl:1
+ [7] top-level scope at /home/nanosoldier/.julia/v0.7/Nullables/src/Nullables.jl:4
+ [8] include at ./boot.jl:292 [inlined]
+ [9] include_relative(::Module, ::String) at ./loading.jl:521
+ [10] include(::Module, ::String) at ./sysimg.jl:26
+ [11] top-level scope
+ [12] eval at ./boot.jl:295 [inlined]
+ [13] top-level scope at ./<missing>:2
+in expression starting at /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:394
+in expression starting at /home/nanosoldier/.julia/v0.7/Nullables/src/Nullables.jl:4
+ERROR: LoadError: LoadError: Failed to precompile Nullables to /home/nanosoldier/.julia/lib/v0.7/Nullables.ji.
+Stacktrace:
+ [1] error at ./error.jl:33 [inlined]
+ [2] compilecache(::String) at ./loading.jl:648
+ [3] compilecache at ./loading.jl:605 [inlined]
+ [4] _require(::Symbol) at ./loading.jl:440
+ [5] require(::Symbol) at ./loading.jl:333
+ [6] include at ./boot.jl:292 [inlined]
+ [7] include_relative(::Module, ::String) at ./loading.jl:521
+ [8] include at ./sysimg.jl:26 [inlined]
+ [9] include(::String) at /home/nanosoldier/.julia/v0.7/JSON/src/JSON.jl:3
+ [10] top-level scope
+ [11] include at ./boot.jl:292 [inlined]
+ [12] include_relative(::Module, ::String) at ./loading.jl:521
+ [13] include(::Module, ::String) at ./sysimg.jl:26
+ [14] top-level scope
+ [15] eval at ./boot.jl:295 [inlined]
+ [16] top-level scope at ./<missing>:2
+in expression starting at /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:5
+in expression starting at /home/nanosoldier/.julia/v0.7/JSON/src/JSON.jl:10
+ERROR: LoadError: Failed to precompile JSON to /home/nanosoldier/.julia/lib/v0.7/JSON.ji.
+Stacktrace:
+ [1] error at ./error.jl:33 [inlined]
+ [2] compilecache(::String) at ./loading.jl:648
+ [3] compilecache at ./loading.jl:605 [inlined]
+ [4] _require(::Symbol) at ./loading.jl:440
+ [5] require(::Symbol) at ./loading.jl:333
+ [6] include at ./boot.jl:292 [inlined]
+ [7] include_relative(::Module, ::String) at ./loading.jl:521
+ [8] include(::Module, ::String) at ./sysimg.jl:26
+ [9] top-level scope
+ [10] eval at ./boot.jl:295 [inlined]
+ [11] top-level scope at ./<missing>:2
+in expression starting at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/BenchmarkTools.jl:6
+ERROR: LoadError: LoadError: Failed to precompile BenchmarkTools to /home/nanosoldier/.julia/lib/v0.7/BenchmarkTools.ji.
+Stacktrace:
+ [1] error at ./error.jl:33 [inlined]
+ [2] compilecache(::String) at ./loading.jl:648
+ [3] compilecache at ./loading.jl:605 [inlined]
+ [4] _require(::Symbol) at ./loading.jl:440
+ [5] require(::Symbol) at ./loading.jl:333
+ [6] include at ./boot.jl:292 [inlined]
+ [7] include_relative(::Module, ::String) at ./loading.jl:521
+ [8] _require(::Symbol) at ./loading.jl:453
+ [9] require(::Symbol) at ./loading.jl:333
+ [10] include at ./boot.jl:292 [inlined]
+ [11] include_relative(::Module, ::String) at ./loading.jl:521
+ [12] include(::Module, ::String) at ./sysimg.jl:26
+ [13] process_options(::Base.JLOptions) at ./client.jl:324
+ [14] _start() at ./client.jl:375
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:3
+in expression starting at /home/nanosoldier/workdir/tmpc3oySn/benchscript.jl:18
