@@ -1,0 +1,47 @@
+WARNING: importing deprecated binding Base.Associative into Parser.
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:315
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:315
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:384
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:395
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:401
+WARNING: importing deprecated binding Base.Void into Writer.
+WARNING: Base.Void is deprecated, use Nothing instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Writer.jl:266
+WARNING: importing deprecated binding Base.Associative into Writer.
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/Writer.jl:276
+┌ Warning: `using A.B` will only be allowed for modules, not single bindings. Use `using A: B` instead
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Replacing module `Compat`
+└ @ Base loading.jl:350
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/workdir/tmpim1Oq8/benchscript.jl:23
+WARNING: Base.Associative is deprecated, use AbstractDict instead.
+  likely near /home/nanosoldier/workdir/tmpim1Oq8/benchscript.jl:23
+WARNING: importing deprecated binding Base.MersenneTwister into RandUtils.
+ERROR: LoadError: LoadError: LoadError: Base.MersenneTwister has been moved to the standard library package Random.
+Restart Julia and then run `using Random` to load it.
+Stacktrace:
+ [1] error(::Function, ::String, ::String, ::String, ::String, ::String, ::String) at ./error.jl:42
+ [2] #MersenneTwister#896(::Base.Iterators.IndexValue{Union{},Union{},Tuple{},NamedTuple{(),Tuple{}}}, ::Function, ::Int64, ::Vararg{Int64,N} where N) at ./deprecated.jl:138
+ [3] MersenneTwister(::Int64, ::Vararg{Int64,N} where N) at ./deprecated.jl:138
+ [4] top-level scope
+ [5] include at ./boot.jl:292 [inlined]
+ [6] include_relative(::Module, ::String) at ./loading.jl:521
+ [7] include at ./sysimg.jl:26 [inlined]
+ [8] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/ShootoutBenchmarks.jl:1
+ [9] top-level scope
+ [10] include at ./boot.jl:292 [inlined]
+ [11] include_relative(::Module, ::String) at ./loading.jl:521
+ [12] include at ./sysimg.jl:26 [inlined]
+ [13] include(::String) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:1
+ [14] top-level scope
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/../utils/RandUtils.jl:9
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/ShootoutBenchmarks.jl:9
+in expression starting at /home/nanosoldier/workdir/tmpim1Oq8/benchscript.jl:23
