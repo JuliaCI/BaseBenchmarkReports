@@ -1,0 +1,24 @@
+┌ Warning: `using A.B` will only be allowed for modules, not single bindings. Use `using A: B` instead
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Replacing module `Compat`
+└ @ Base loading.jl:350
+ERROR: LoadError: MethodError: done(::BenchmarkGroup, ::Base.LegacyIterationCompat{Pair{Any,Any},Int64}) is ambiguous. Candidates:
+  done(group::BenchmarkGroup, state) in BenchmarkTools at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/groups.jl:39
+  done(itr, state::Base.LegacyIterationCompat) in Base at essentials.jl:830
+Possible fix, define
+  done(::BenchmarkGroup, ::Base.LegacyIterationCompat)
+Stacktrace:
+ [1] iterate at ./essentials.jl:787 [inlined]
+ [2] iterate at ./essentials.jl:791 [inlined]
+ [3] #loadall!#4(::Bool, ::Bool, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:63
+ [4] loadall! at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:52 [inlined]
+ [5] #loadall!#3(::Base.Iterators.IndexValue{Union{},Union{},Tuple{},NamedTuple{(),Tuple{}}}, ::Function) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ [6] loadall!() at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:49
+ [7] top-level scope
+ [8] include at ./boot.jl:292 [inlined]
+ [9] include_relative(::Module, ::String) at ./loading.jl:521
+ [10] include(::Module, ::String) at ./sysimg.jl:26
+ [11] process_options(::Base.JLOptions) at ./client.jl:324
+ [12] _start() at ./client.jl:375
+in expression starting at /home/nanosoldier/workdir/tmp5ny9SA/benchscript.jl:23
