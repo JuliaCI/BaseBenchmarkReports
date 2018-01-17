@@ -1,0 +1,5 @@
+┌ Warning: `using A.B` will only be allowed for modules, not single bindings. Use `using A: B` instead
+│   caller = ip:0x0
+└ @ Core :-1
+┌ Warning: Replacing module `Compat`
+└ @ Base loading.jl:350
