@@ -1,0 +1,9 @@
+ERROR: LoadError: UndefVarError: BLAS not defined
+Stacktrace:
+ [1] top-level scope
+ [2] include at ./boot.jl:292 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:521
+ [4] include(::Module, ::String) at ./sysimg.jl:26
+ [5] process_options(::Base.JLOptions) at ./client.jl:324
+ [6] _start() at ./client.jl:375
+in expression starting at /home/nanosoldier/workdir/tmpKJgHne/benchscript.jl:15
