@@ -1,0 +1,47 @@
+┌ Warning: Deprecated syntax `multiple line breaks between doc string and object` at /home/nanosoldier/.julia/v0.7/JSON/src/Serializations.jl:8.
+│ Use `at most one line break` instead.
+└ @ nothing Serializations.jl:8
+┌ Warning: `using A.B` will only be allowed for modules, not single bindings. Use `using A: B` instead
+│   caller = ip:0x0
+└ @ Core :-1
+ERROR: LoadError: MethodError: no method matching keys(::Base.Generator{Array{UInt64,1},getfield(BaseBenchmarks.FindBenchmarks, Symbol("##16#17"))})
+Closest candidates are:
+  keys(!Matched::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/groups.jl:35
+  keys(!Matched::Cmd) at process.jl:819
+  keys(!Matched::Tuple) at tuple.jl:42
+  ...
+Stacktrace:
+ [1] pairs(::Base.Generator{Array{UInt64,1},getfield(BaseBenchmarks.FindBenchmarks, Symbol("##16#17"))}) at ./abstractdict.jl:138
+ [2] findall at ./array.jl:1930 [inlined]
+ [3] ##core#2446(::Function, ::Base.Generator{Array{UInt64,1},getfield(BaseBenchmarks.FindBenchmarks, Symbol("##16#17"))}) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:316
+ [4] ##sample#2447(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:322
+ [5] #_run#27 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:350 [inlined]
+ [6] #_run at ./<missing>:0 [inlined]
+ [7] (::getfield(Base, Symbol("#inner#4")){Base.Iterators.Pairs{Symbol,Any,NTuple{6,Symbol},NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#2445")},BenchmarkTools.Parameters}})() at ./essentials.jl:639
+ [8] #invokelatest#3 at ./essentials.jl:640 [inlined]
+ [9] #invokelatest at ./<missing>:0 [inlined]
+ [10] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:37 [inlined]
+ [11] #run_result at ./<missing>:0 [inlined]
+ [12] #run#22(::Base.Iterators.Pairs{Symbol,Any,NTuple{6,Symbol},NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#2445")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:67
+ [13] #run at ./<missing>:0 [inlined] (repeats 2 times)
+ [14] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:76 [inlined]
+ [15] macro expansion at ./util.jl:213 [inlined]
+ [16] #run#23(::Bool, ::String, ::Base.Iterators.Pairs{Symbol,Integer,NTuple{4,Symbol},NamedTuple{(:samples, :evals, :gctrial, :gcsample),Tuple{Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:75
+ [17] (::getfield(Base, Symbol("#kw##run")))(::NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [18] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:76 [inlined]
+ [19] macro expansion at ./util.jl:213 [inlined]
+ [20] #run#23(::Bool, ::String, ::Base.Iterators.Pairs{Symbol,Integer,NTuple{4,Symbol},NamedTuple{(:samples, :evals, :gctrial, :gcsample),Tuple{Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:75
+ [21] (::getfield(Base, Symbol("#kw##run")))(::NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [22] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:76 [inlined]
+ [23] macro expansion at ./util.jl:213 [inlined]
+ [24] #run#23(::Bool, ::String, ::Base.Iterators.Pairs{Symbol,Integer,NTuple{4,Symbol},NamedTuple{(:samples, :evals, :gctrial, :gcsample),Tuple{Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:75
+ [25] #run at ./<missing>:0 [inlined]
+ [26] #warmup#25 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:100 [inlined]
+ [27] warmup(::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:100
+ [28] top-level scope
+ [29] include at ./boot.jl:295 [inlined]
+ [30] include_relative(::Module, ::String) at ./loading.jl:1064
+ [31] include(::Module, ::String) at ./sysimg.jl:27
+ [32] exec_options(::Base.JLOptions) at ./client.jl:332
+ [33] _start() at ./client.jl:448
+in expression starting at /home/nanosoldier/workdir/tmpamt5Ut/benchscript.jl:32
