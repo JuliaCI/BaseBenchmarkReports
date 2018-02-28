@@ -1,0 +1,25 @@
+┌ Warning: `using A.B` will only be allowed for modules, not single bindings. Use `using A: B` instead
+│   caller = ip:0x0
+└ @ Core :-1
+WARNING: importing deprecated binding Base.repmat into Simplex.
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpVkAw7G/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpVkAw7G/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpVkAw7G/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpVkAw7G/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpVkAw7G/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpVkAw7G/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpVkAw7G/benchscript.jl:32
+in perf_simplex at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/Simplex.jl
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpVkAw7G/benchscript.jl:32
+in perf_simplex at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/Simplex.jl
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpVkAw7G/benchscript.jl:32
+in perf_simplex at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/Simplex.jl
