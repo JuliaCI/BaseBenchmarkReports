@@ -1,0 +1,76 @@
+WARNING: importing deprecated binding Base.uninitialized into Common.
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/JSON/src/bytes.jl:47
+ERROR: LoadError: LoadError: UndefVarError: Scalar not defined
+Stacktrace:
+ [1] getproperty(::Module, ::Symbol) at ./sysimg.jl:16
+ [2] top-level scope
+ [3] include at ./boot.jl:306 [inlined]
+ [4] include_relative(::Module, ::String) at ./loading.jl:1072
+ [5] include at ./sysimg.jl:29 [inlined]
+ [6] include(::String) at /home/nanosoldier/.julia/v0.7/Nullables/src/Nullables.jl:2
+ [7] top-level scope at /home/nanosoldier/.julia/v0.7/Nullables/src/Nullables.jl:5
+ [8] include at ./boot.jl:306 [inlined]
+ [9] include_relative(::Module, ::String) at ./loading.jl:1072
+ [10] include(::Module, ::String) at ./sysimg.jl:29
+ [11] top-level scope
+ [12] eval at ./boot.jl:309 [inlined]
+ [13] top-level scope at ./<missing>:3
+in expression starting at /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:412
+in expression starting at /home/nanosoldier/.julia/v0.7/Nullables/src/Nullables.jl:5
+┌ Warning: `hex(n, pad)` is deprecated, use `string(n, base=16, pad=pad)` instead.
+│   caller = top-level scope at <missing>:56
+└ @ Core <missing>:56
+ERROR: LoadError: LoadError: Failed to precompile Nullables to /home/nanosoldier/.julia/compiled/v0.7/Nullables.ji.
+Stacktrace:
+ [1] error at ./error.jl:33 [inlined]
+ [2] compilecache(::Base.PkgId) at ./loading.jl:1206
+ [3] _require(::Base.PkgId) at ./loading.jl:979
+ [4] require(::Base.PkgId) at ./loading.jl:879
+ [5] require(::Module, ::Symbol) at ./loading.jl:874
+ [6] include at ./boot.jl:306 [inlined]
+ [7] include_relative(::Module, ::String) at ./loading.jl:1072
+ [8] include at ./sysimg.jl:29 [inlined]
+ [9] include(::String) at /home/nanosoldier/.julia/v0.7/JSON/src/JSON.jl:3
+ [10] top-level scope
+ [11] include at ./boot.jl:306 [inlined]
+ [12] include_relative(::Module, ::String) at ./loading.jl:1072
+ [13] include(::Module, ::String) at ./sysimg.jl:29
+ [14] top-level scope
+ [15] eval at ./boot.jl:309 [inlined]
+ [16] top-level scope at ./<missing>:3
+in expression starting at /home/nanosoldier/.julia/v0.7/JSON/src/Parser.jl:5
+in expression starting at /home/nanosoldier/.julia/v0.7/JSON/src/JSON.jl:11
+ERROR: LoadError: Failed to precompile JSON to /home/nanosoldier/.julia/compiled/v0.7/JSON.ji.
+Stacktrace:
+ [1] error at ./error.jl:33 [inlined]
+ [2] compilecache(::Base.PkgId) at ./loading.jl:1206
+ [3] _require(::Base.PkgId) at ./loading.jl:979
+ [4] require(::Base.PkgId) at ./loading.jl:879
+ [5] require(::Module, ::Symbol) at ./loading.jl:874
+ [6] include at ./boot.jl:306 [inlined]
+ [7] include_relative(::Module, ::String) at ./loading.jl:1072
+ [8] include(::Module, ::String) at ./sysimg.jl:29
+ [9] top-level scope
+ [10] eval at ./boot.jl:309 [inlined]
+ [11] top-level scope at ./<missing>:3
+in expression starting at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/BenchmarkTools.jl:6
+ERROR: LoadError: LoadError: Failed to precompile BenchmarkTools to /home/nanosoldier/.julia/compiled/v0.7/BenchmarkTools.ji.
+Stacktrace:
+ [1] error at ./error.jl:33 [inlined]
+ [2] compilecache(::Base.PkgId) at ./loading.jl:1206
+ [3] _require(::Base.PkgId) at ./loading.jl:979
+ [4] require(::Base.PkgId) at ./loading.jl:879
+ [5] require(::Module, ::Symbol) at ./loading.jl:874
+ [6] include at ./boot.jl:306 [inlined]
+ [7] include_relative(::Module, ::String) at ./loading.jl:1072
+ [8] _require(::Base.PkgId) at ./loading.jl:998
+ [9] require(::Base.PkgId) at ./loading.jl:879
+ [10] require(::Module, ::Symbol) at ./loading.jl:874
+ [11] include at ./boot.jl:306 [inlined]
+ [12] include_relative(::Module, ::String) at ./loading.jl:1072
+ [13] include(::Module, ::String) at ./sysimg.jl:29
+ [14] exec_options(::Base.JLOptions) at ./client.jl:327
+ [15] _start() at ./client.jl:455
+in expression starting at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/BaseBenchmarks.jl:3
+in expression starting at /home/nanosoldier/workdir/tmpzqQS3l/benchscript.jl:21
