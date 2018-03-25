@@ -11,11 +11,11 @@ WARNING: Base.uninitialized is deprecated, use undef instead.
 │   caller = ip:0x0
 └ @ Core :-1
 WARNING: Base.uninitialized is deprecated, use undef instead.
-  likely near /home/nanosoldier/workdir/tmpB62GsG/benchscript.jl:26
+  likely near /home/nanosoldier/workdir/tmpWkdjfv/benchscript.jl:26
 WARNING: Base.uninitialized is deprecated, use undef instead.
-  likely near /home/nanosoldier/workdir/tmpB62GsG/benchscript.jl:26
+  likely near /home/nanosoldier/workdir/tmpWkdjfv/benchscript.jl:26
 WARNING: Base.uninitialized is deprecated, use undef instead.
-  likely near /home/nanosoldier/workdir/tmpB62GsG/benchscript.jl:26
+  likely near /home/nanosoldier/workdir/tmpWkdjfv/benchscript.jl:26
 WARNING: importing deprecated binding Base.uninitialized into ShootoutBenchmarks.
 WARNING: Base.uninitialized is deprecated, use undef instead.
   likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/meteor_contest.jl:45
@@ -119,35 +119,35 @@ WARNING: importing deprecated binding Base.uninitialized into CollectionBenchmar
 WARNING: Base.uninitialized is deprecated, use undef instead.
   likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:263
 WARNING: Base.uninitialized is deprecated, use undef instead.
-  likely near /home/nanosoldier/workdir/tmpB62GsG/benchscript.jl:26
+  likely near /home/nanosoldier/workdir/tmpWkdjfv/benchscript.jl:26
 WARNING: Base.uninitialized is deprecated, use undef instead.
-  likely near /home/nanosoldier/workdir/tmpB62GsG/benchscript.jl:26
+  likely near /home/nanosoldier/workdir/tmpWkdjfv/benchscript.jl:26
 WARNING: Base.uninitialized is deprecated, use undef instead.
-  likely near /home/nanosoldier/workdir/tmpB62GsG/benchscript.jl:26
+  likely near /home/nanosoldier/workdir/tmpWkdjfv/benchscript.jl:26
 WARNING: Base.uninitialized is deprecated, use undef instead.
-  likely near /home/nanosoldier/workdir/tmpB62GsG/benchscript.jl:32
+  likely near /home/nanosoldier/workdir/tmpWkdjfv/benchscript.jl:32
 WARNING: Base.uninitialized is deprecated, use undef instead.
-  likely near /home/nanosoldier/workdir/tmpB62GsG/benchscript.jl:32
+  likely near /home/nanosoldier/workdir/tmpWkdjfv/benchscript.jl:32
 WARNING: Base.uninitialized is deprecated, use undef instead.
-  likely near /home/nanosoldier/workdir/tmpB62GsG/benchscript.jl:32
+  likely near /home/nanosoldier/workdir/tmpWkdjfv/benchscript.jl:32
 WARNING: Base.uninitialized is deprecated, use undef instead.
-  likely near /home/nanosoldier/workdir/tmpB62GsG/benchscript.jl:32
+  likely near /home/nanosoldier/workdir/tmpWkdjfv/benchscript.jl:32
 WARNING: Base.uninitialized is deprecated, use undef instead.
-  likely near /home/nanosoldier/workdir/tmpB62GsG/benchscript.jl:32
+  likely near /home/nanosoldier/workdir/tmpWkdjfv/benchscript.jl:32
 WARNING: Base.uninitialized is deprecated, use undef instead.
-  likely near /home/nanosoldier/workdir/tmpB62GsG/benchscript.jl:32
+  likely near /home/nanosoldier/workdir/tmpWkdjfv/benchscript.jl:32
 WARNING: Base.uninitialized is deprecated, use undef instead.
-  likely near /home/nanosoldier/workdir/tmpB62GsG/benchscript.jl:32
+  likely near /home/nanosoldier/workdir/tmpWkdjfv/benchscript.jl:32
 WARNING: Base.uninitialized is deprecated, use undef instead.
-  likely near /home/nanosoldier/workdir/tmpB62GsG/benchscript.jl:32
+  likely near /home/nanosoldier/workdir/tmpWkdjfv/benchscript.jl:32
 WARNING: Base.uninitialized is deprecated, use undef instead.
-  likely near /home/nanosoldier/workdir/tmpB62GsG/benchscript.jl:32
+  likely near /home/nanosoldier/workdir/tmpWkdjfv/benchscript.jl:32
 WARNING: Base.uninitialized is deprecated, use undef instead.
-  likely near /home/nanosoldier/workdir/tmpB62GsG/benchscript.jl:32
+  likely near /home/nanosoldier/workdir/tmpWkdjfv/benchscript.jl:32
 WARNING: Base.uninitialized is deprecated, use undef instead.
-  likely near /home/nanosoldier/workdir/tmpB62GsG/benchscript.jl:32
+  likely near /home/nanosoldier/workdir/tmpWkdjfv/benchscript.jl:32
 WARNING: Base.uninitialized is deprecated, use undef instead.
-  likely near /home/nanosoldier/workdir/tmpB62GsG/benchscript.jl:32
+  likely near /home/nanosoldier/workdir/tmpWkdjfv/benchscript.jl:32
 ERROR: LoadError: UndefVarError: equalto not defined
 Stacktrace:
  [1] ##core#1576(::Char, ::String) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:316
@@ -175,4 +175,4 @@ Stacktrace:
  [23] include(::Module, ::String) at ./sysimg.jl:29
  [24] exec_options(::Base.JLOptions) at ./client.jl:327
  [25] _start() at ./client.jl:455
-in expression starting at /home/nanosoldier/workdir/tmpB62GsG/benchscript.jl:32
+in expression starting at /home/nanosoldier/workdir/tmpWkdjfv/benchscript.jl:32

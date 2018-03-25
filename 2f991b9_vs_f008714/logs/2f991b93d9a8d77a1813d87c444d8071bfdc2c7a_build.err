@@ -4,82 +4,82 @@
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100   357  100   357    0     0    227      0  0:00:01  0:00:01 --:--:--   226
-100   459  100   459    0     0    257      0  0:00:01  0:00:01 --:--:--   256
-100   451  100   451    0     0    210      0  0:00:02  0:00:02 --:--:--   210
-  0 2330k    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0100 2330k  100 2330k    0     0   917k      0  0:00:02  0:00:02 --:--:-- 8999k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100   357  100   357    0     0    226      0  0:00:01  0:00:01 --:--:--   226
+  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0100   451  100   451    0     0    142      0  0:00:03  0:00:03 --:--:--   143
+100   459  100   459    0     0    131      0  0:00:03  0:00:03 --:--:--   131
+  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0100 1912k  100 1912k    0     0   494k      0  0:00:03  0:00:03 --:--:-- 6089k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   497  100   497    0     0   1675      0 --:--:-- --:--:-- --:--:--  1679
-  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0100  399k  100  399k    0     0   746k      0 --:--:-- --:--:-- --:--:--  746k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0100   497  100   497    0     0   1973      0 --:--:-- --:--:-- --:--:--  1980
+100  399k  100  399k    0     0   650k      0 --:--:-- --:--:-- --:--:--  650k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   455  100   455    0     0   2435      0 --:--:-- --:--:-- --:--:--  2433100   455  100   455    0     0   2434      0 --:--:-- --:--:-- --:--:--  2433
-  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0100 1912k  100 1912k    0     0   519k      0  0:00:03  0:00:03 --:--:-- 1381k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   455  100   455    0     0   3332      0 --:--:-- --:--:-- --:--:--  3321
+  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0100 2771k  100 2771k    0     0  4935k      0 --:--:-- --:--:-- --:--:-- 4935k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 2771k  100 2771k    0     0  4058k      0 --:--:-- --:--:-- --:--:-- 4058k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0100   497  100   497    0     0   1682      0 --:--:-- --:--:-- --:--:--  1684
+  0 4589k    0 16360    0     0  34953      0  0:02:14 --:--:--  0:02:14 34953  0 1546k    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0100 4589k  100 4589k    0     0  5321k      0 --:--:-- --:--:-- --:--:-- 11.3M
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   459  100   459    0     0   5884      0 --:--:-- --:--:-- --:--:--  5961
-100  218k  100  218k    0     0   795k      0 --:--:-- --:--:-- --:--:--  795k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   459  100   459    0     0   5934      0 --:--:-- --:--:-- --:--:--  5961
+100 2330k  100 2330k    0     0   386k      0  0:00:06  0:00:06 --:--:--  983k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   497  100   497    0     0    661      0 --:--:-- --:--:-- --:--:--   660100   497  100   497    0     0    660      0 --:--:-- --:--:-- --:--:--   660
-100 4589k  100 4589k    0     0  3474k      0  0:00:01  0:00:01 --:--:-- 3474k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  218k  100  218k    0     0   715k      0 --:--:-- --:--:-- --:--:--  715k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   329  100   329    0     0   5105      0 --:--:-- --:--:-- --:--:--  5140
-  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100   453  100   453    0     0    260      0  0:00:01  0:00:01 --:--:--   260
-100 1358k  100 1358k    0     0  1395k      0 --:--:-- --:--:-- --:--:-- 1815k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   329  100   329    0     0   4858      0 --:--:-- --:--:-- --:--:--  4910
+ 26 1546k   26  416k    0     0  64927      0  0:00:24  0:00:06  0:00:18  119k  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100 1358k  100 1358k    0     0  1348k      0  0:00:01  0:00:01 --:--:-- 2006k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0100   497  100   497    0     0   2847      0 --:--:-- --:--:-- --:--:--  2856
-100 1581k  100 1581k    0     0   745k      0  0:00:02  0:00:02 --:--:--  745k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   497  100   497    0     0   3686      0 --:--:-- --:--:-- --:--:--  3708
+100 1546k  100 1546k    0     0   207k      0  0:00:07  0:00:07 --:--:--  354k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  148k  100  148k    0     0   312k      0 --:--:-- --:--:-- --:--:-- 1561k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   453  100   453    0     0    311      0  0:00:01  0:00:01 --:--:--   311
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100   497  100   497    0     0   3572      0 --:--:-- --:--:-- --:--:--  3550100   497  100   497    0     0   3570      0 --:--:-- --:--:-- --:--:--  3550
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  4183  100  4183    0     0  16713      0 --:--:-- --:--:-- --:--:-- 16713
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   497  100   497    0     0   1522      0 --:--:-- --:--:-- --:--:--  1519
-100   465  100   465    0     0   1272      0 --:--:-- --:--:-- --:--:--  1273
-  5 24.3M    5 1342k    0     0  1775k      0  0:00:14 --:--:--  0:00:14 1775k 16 1546k   16  256k    0     0  36186      0  0:00:43  0:00:07  0:00:36 62985  0  4183    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100  4183  100  4183    0     0   3237      0  0:00:01  0:00:01 --:--:-- 4084k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  148k  100  148k    0     0   323k      0 --:--:-- --:--:-- --:--:-- 1256k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 24.3M  100 24.3M    0     0  18.9M      0  0:00:01  0:00:01 --:--:-- 43.3M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 1581k  100 1581k    0     0   859k      0  0:00:01  0:00:01 --:--:-- 4666k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   497  100   497    0     0    678      0 --:--:-- --:--:-- --:--:--   678100   497  100   497    0     0    678      0 --:--:-- --:--:-- --:--:--   678
- 99 1546k   99 1536k    0     0   186k      0  0:00:08  0:00:08 --:--:--  369k100 1546k  100 1546k    0     0   187k      0  0:00:08  0:00:08 --:--:--  490k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   497  100   497    0     0   2272      0 --:--:-- --:--:-- --:--:--  2279
+100   497  100   497    0     0   1225      0 --:--:-- --:--:-- --:--:--  1227
+  8 1457k    8  117k    0     0   180k      0  0:00:08 --:--:--  0:00:08  180k 29 11.0M   29 3370k    0     0  4211k      0  0:00:02 --:--:--  0:00:02 4211k100 1457k  100 1457k    0     0  1835k      0 --:--:-- --:--:-- --:--:-- 9438k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   339  100   339    0     0   5252      0 --:--:-- --:--:-- --:--:--  5296
-100   497  100   497    0     0    909      0 --:--:-- --:--:-- --:--:--   908100   497  100   497    0     0    909      0 --:--:-- --:--:-- --:--:--   908
-100 1457k  100 1457k    0     0  1632k      0 --:--:-- --:--:-- --:--:-- 1632k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   339  100   339    0     0   5352      0 --:--:-- --:--:-- --:--:--  5380
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100 11.0M  100 11.0M    0     0  9444k      0  0:00:01  0:00:01 --:--:-- 19.3M
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  803k  100  803k    0     0  1119k      0 --:--:-- --:--:-- --:--:-- 1119k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   465  100   465    0     0    353      0  0:00:01  0:00:01 --:--:--   353
+100  803k  100  803k    0     0  1124k      0 --:--:-- --:--:-- --:--:-- 1124k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   497  100   497    0     0   2218      0 --:--:-- --:--:-- --:--:--  2228
- 92 11.0M   92 10.2M    0     0  6061k      0  0:00:01  0:00:01 --:--:-- 6061k  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   455  100   455    0     0    779      0 --:--:-- --:--:-- --:--:--   779100   455  100   455    0     0    779      0 --:--:-- --:--:-- --:--:--   777
-100 11.0M  100 11.0M    0     0  6328k      0  0:00:01  0:00:01 --:--:-- 13.1M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   455  100   455    0     0    779      0 --:--:-- --:--:-- --:--:--   780
+ 16 24.3M   16 4184k    0     0  2275k      0  0:00:10  0:00:01  0:00:09 2275k  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   497  100   497    0     0   3515      0 --:--:-- --:--:-- --:--:--  3500100   497  100   497    0     0   3513      0 --:--:-- --:--:-- --:--:--  3500
+100  187k  100  187k    0     0   240k      0 --:--:-- --:--:-- --:--:-- 1068k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  345k  100  345k    0     0   691k      0 --:--:-- --:--:-- --:--:-- 1500k
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  345k  100  345k    0     0   683k      0 --:--:-- --:--:-- --:--:--  683k
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  187k  100  187k    0     0   234k      0 --:--:-- --:--:-- --:--:--  234k
-100   459  100   459    0     0   2595      0 --:--:-- --:--:-- --:--:--  2607
-rm: cannot remove ‘/home/nanosoldier/workdir/tmpB62GsG/deps/srccache/libssh2-30e9c1347e3b8baa2951db612f05e6d87fc8e2f2/’: No such file or directory
-100   461  100   461    0     0    560      0 --:--:-- --:--:-- --:--:--   560
- 41 24.1M   41 10.1M    0     0  13.3M      0  0:00:01 --:--:--  0:00:01 13.3M  0  284k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  284k  100  284k    0     0   258k      0  0:00:01  0:00:01 --:--:-- 2739k
-rm: cannot remove ‘/home/nanosoldier/workdir/tmpB62GsG/deps/srccache/libgit2-15e119375018fba121cf58e02a9f17fe22df0df8/’: No such file or directory
-100 24.1M  100 24.1M    0     0  23.6M      0  0:00:01  0:00:01 --:--:-- 53.7M
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   459  100   459    0     0   6249      0 --:--:-- --:--:-- --:--:--  6287
+100   461  100   461    0     0    597      0 --:--:-- --:--:-- --:--:--   597
+ 11 24.1M   11 2736k    0     0  4477k      0  0:00:05 --:--:--  0:00:05 4477k 73 24.3M   73 17.9M    0     0  6467k        0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0:00:03  0:00:02  0:00:01 13.8M100  284k  100  284k    0     0   275k      0  0:00:01  0:00:01 --:--:-- 1238k
+100 24.1M  100 24.1M    0     0  23.9M      0  0:00:01  0:00:01 --:--:-- 53.8M
+100 24.3M  100 24.3M    0     0  7255k      0  0:00:03  0:00:03 --:--:-- 12.6M
+rm: cannot remove ‘/home/nanosoldier/workdir/tmpWkdjfv/deps/srccache/libssh2-30e9c1347e3b8baa2951db612f05e6d87fc8e2f2/’: No such file or directory
+rm: cannot remove ‘/home/nanosoldier/workdir/tmpWkdjfv/deps/srccache/libgit2-15e119375018fba121cf58e02a9f17fe22df0df8/’: No such file or directory
 rm: cannot remove ‘scratch/utf8proc-40e605959eb5cb90b2587fa88e3b661558fbc55a/’: No such file or directory
 rm: cannot remove ‘scratch/libwhich-81e9723c0273d78493dc8c8ed570f68d9ce7e89e/’: No such file or directory
+rm: cannot remove ‘/home/nanosoldier/workdir/tmpWkdjfv/deps/srccache/libuv-80caa0b133fbadd322dad52bcddd2933b3b803f7/’: No such file or directory
 rm: cannot remove ‘scratch/openblas-5dde4e65d321076582a2fafe16949d2160551e81/’: No such file or directory
-rm: cannot remove ‘/home/nanosoldier/workdir/tmpB62GsG/deps/srccache/libuv-80caa0b133fbadd322dad52bcddd2933b3b803f7/’: No such file or directory
 rm: cannot remove ‘scratch/openlibm-1581174c85f7b645b15ba1ac1c3a98fb601f0fe7/’: No such file or directory
 rm: cannot remove ‘scratch/dsfmt-2.2.3/’: No such file or directory
 CMake Warning:
@@ -101,19 +101,13 @@ src/e_lgammaf_r.c:229:13: warning: ‘nadj’ may be used uninitialized in this 
   if(hx<0) r = nadj - r;
              ^
 In file included from ld80/s_exp2l.c:38:0:
-/home/nanosoldier/workdir/tmpB62GsG/deps/scratch/openlibm-1581174c85f7b645b15ba1ac1c3a98fb601f0fe7/src/math_private.h:240:1: warning: ‘irint’ defined but not used [-Wunused-function]
+/home/nanosoldier/workdir/tmpWkdjfv/deps/scratch/openlibm-1581174c85f7b645b15ba1ac1c3a98fb601f0fe7/src/math_private.h:240:1: warning: ‘irint’ defined but not used [-Wunused-function]
  irint(double x)
  ^
 ld80/e_lgammal_r.c: In function ‘lgammal_r’:
 ld80/e_lgammal_r.c:423:7: warning: ‘nadj’ may be used uninitialized in this function [-Wmaybe-uninitialized]
      r = nadj - r;
        ^
-libtool: warning: relinking 'libpcre2-posix.la'
-libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpB62GsG/usr/lib'
-libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpB62GsG/usr/lib'
-libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpB62GsG/usr/lib'
-libtool: warning: 'libpcre2-posix.la' has not been installed in '/home/nanosoldier/workdir/tmpB62GsG/usr/lib'
-libtool: warning: '/home/nanosoldier/workdir/tmpB62GsG/deps/scratch/pcre2-10.30/libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpB62GsG/usr/lib'
 lapack/laswp.c: In function ‘slaswp_’:
 lapack/laswp.c:100:8: warning: passing argument 12 of ‘blas_level1_thread’ from incompatible pointer type [enabled by default]
         laswp[flag], nthreads);
@@ -123,19 +117,12 @@ In file included from ../common.h:775:0,
 ../common_thread.h:177:5: note: expected ‘int (*)()’ but argument is of type ‘int (*)(BLASLONG,  BLASLONG,  BLASLONG,  float,  float *, BLASLONG,  float *, BLASLONG,  blasint *, BLASLONG)’
  int blas_level1_thread(int mode, BLASLONG m, BLASLONG n, BLASLONG k, void *alpha,
      ^
-/home/nanosoldier/workdir/tmpB62GsG/deps/srccache/libuv-80caa0b133fbadd322dad52bcddd2933b3b803f7/src/unix/process.c: In function ‘uv_spawn’:
-/home/nanosoldier/workdir/tmpB62GsG/deps/srccache/libuv-80caa0b133fbadd322dad52bcddd2933b3b803f7/src/unix/process.c:424:7: warning: unused variable ‘status’ [-Wunused-variable]
-   int status;
-       ^
-libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpB62GsG/usr/lib'
-CMake Warning:
-  Manually-specified variables were not used by the project:
-
-    CMAKE_CXX_COMPILER
-    CMAKE_CXX_COMPILER_ARG1
-    LIB_INSTALL_DIR
-
-
+libtool: warning: relinking 'libpcre2-posix.la'
+libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpWkdjfv/usr/lib'
+libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpWkdjfv/usr/lib'
+libtool: warning: 'libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpWkdjfv/usr/lib'
+libtool: warning: 'libpcre2-posix.la' has not been installed in '/home/nanosoldier/workdir/tmpWkdjfv/usr/lib'
+libtool: warning: '/home/nanosoldier/workdir/tmpWkdjfv/deps/scratch/pcre2-10.30/libpcre2-8.la' has not been installed in '/home/nanosoldier/workdir/tmpWkdjfv/usr/lib'
 xerbla.c: In function ‘cblas_xerbla’:
 xerbla.c:16:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘blasint’ [-Wformat=]
        fprintf(stderr, "Parameter %d to routine %s was incorrect\n", p, rout);
@@ -149,34 +136,36 @@ In file included from ../common.h:775:0,
 ../common_thread.h:177:5: note: expected ‘int (*)()’ but argument is of type ‘int (*)(BLASLONG,  BLASLONG,  BLASLONG,  float,  float,  float *, BLASLONG,  float *, BLASLONG,  blasint *, BLASLONG)’
  int blas_level1_thread(int mode, BLASLONG m, BLASLONG n, BLASLONG k, void *alpha,
      ^
+/home/nanosoldier/workdir/tmpWkdjfv/deps/srccache/libuv-80caa0b133fbadd322dad52bcddd2933b3b803f7/src/unix/process.c: In function ‘uv_spawn’:
+/home/nanosoldier/workdir/tmpWkdjfv/deps/srccache/libuv-80caa0b133fbadd322dad52bcddd2933b3b803f7/src/unix/process.c:424:7: warning: unused variable ‘status’ [-Wunused-variable]
+   int status;
+       ^
 ar: creating ../libopenblas64_p-r0.2.20.a
-configure: WARNING: latex2man not found. Install latex2man. Disabling docs.
-/home/nanosoldier/workdir/tmpB62GsG/deps/srccache/gmp-6.1.2/printf/repl-vsnprintf.c:396:0: warning: ISO C forbids an empty translation unit [-Wpedantic]
- #endif /* ! HAVE_VSNPRINTF */
- ^
-/home/nanosoldier/workdir/tmpB62GsG/deps/srccache/libunwind-1.1-julia2/src/ptrace/_UPT_get_dyn_info_list_addr.c: In function ‘get_list_addr’:
-/home/nanosoldier/workdir/tmpB62GsG/deps/srccache/libunwind-1.1-julia2/src/ptrace/_UPT_get_dyn_info_list_addr.c:78:3: warning: #warning Implement get_list_addr(), please. [-Wcpp]
- # warning Implement get_list_addr(), please.
-   ^
-/home/nanosoldier/workdir/tmpB62GsG/deps/srccache/libunwind-1.1-julia2/src/coredump/_UPT_get_dyn_info_list_addr.c: In function ‘get_list_addr’:
-/home/nanosoldier/workdir/tmpB62GsG/deps/srccache/libunwind-1.1-julia2/src/coredump/_UPT_get_dyn_info_list_addr.c:81:3: warning: #warning Implement get_list_addr(), please. [-Wcpp]
- # warning Implement get_list_addr(), please.
-   ^
-configure: WARNING: Continuing even with errors mentioned immediately above this line.
-libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpB62GsG/usr/lib'
-configure: WARNING: zlib disabled
-configure: WARNING: Cannot find libraries for IDN support: IDN disabled
-configure: WARNING: Continuing even with errors mentioned immediately above this line.
+libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpWkdjfv/usr/lib'
 CMake Warning:
   Manually-specified variables were not used by the project:
 
-    CMAKE_INSTALL_BINDIR
-    CMAKE_INSTALL_LIBDIR
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_COMPILER_ARG1
     LIB_INSTALL_DIR
 
 
-libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpB62GsG/usr/lib'
-libtool: warning: '../lib/libcurl.la' has not been installed in '/home/nanosoldier/workdir/tmpB62GsG/usr/lib'
+configure: WARNING: latex2man not found. Install latex2man. Disabling docs.
+/home/nanosoldier/workdir/tmpWkdjfv/deps/srccache/gmp-6.1.2/printf/repl-vsnprintf.c:396:0: warning: ISO C forbids an empty translation unit [-Wpedantic]
+ #endif /* ! HAVE_VSNPRINTF */
+ ^
+/home/nanosoldier/workdir/tmpWkdjfv/deps/srccache/libunwind-1.1-julia2/src/ptrace/_UPT_get_dyn_info_list_addr.c: In function ‘get_list_addr’:
+/home/nanosoldier/workdir/tmpWkdjfv/deps/srccache/libunwind-1.1-julia2/src/ptrace/_UPT_get_dyn_info_list_addr.c:78:3: warning: #warning Implement get_list_addr(), please. [-Wcpp]
+ # warning Implement get_list_addr(), please.
+   ^
+/home/nanosoldier/workdir/tmpWkdjfv/deps/srccache/libunwind-1.1-julia2/src/coredump/_UPT_get_dyn_info_list_addr.c: In function ‘get_list_addr’:
+/home/nanosoldier/workdir/tmpWkdjfv/deps/srccache/libunwind-1.1-julia2/src/coredump/_UPT_get_dyn_info_list_addr.c:81:3: warning: #warning Implement get_list_addr(), please. [-Wcpp]
+ # warning Implement get_list_addr(), please.
+   ^
+configure: WARNING: Continuing even with errors mentioned immediately above this line.
+libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpWkdjfv/usr/lib'
+configure: WARNING: zlib disabled
+configure: WARNING: Cannot find libraries for IDN support: IDN disabled
 In file included from gemm3m.c:55:0:
 level3_gemm3m_thread.c: In function ‘cgemm3m_thread_nn’:
 level3_gemm3m_thread.c:977:12: warning: variable ‘n’ set but not used [-Wunused-but-set-variable]
@@ -297,6 +286,7 @@ level3_gemm3m_thread.c: In function ‘chemm3m_thread_RL’:
 level3_gemm3m_thread.c:977:12: warning: variable ‘n’ set but not used [-Wunused-but-set-variable]
    BLASLONG n = args -> n;
             ^
+configure: WARNING: Continuing even with errors mentioned immediately above this line.
 In file included from gemm3m.c:55:0:
 level3_gemm3m_thread.c: In function ‘zgemm3m_thread_nn’:
 level3_gemm3m_thread.c:977:12: warning: variable ‘n’ set but not used [-Wunused-but-set-variable]
@@ -444,6 +434,14 @@ getrf_single.c: In function ‘zgetrf_single’:
 getrf_single.c:54:24: warning: variable ‘offsetB’ set but not used [-Wunused-but-set-variable]
    FLOAT *a, *offsetA, *offsetB;
                         ^
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_INSTALL_BINDIR
+    CMAKE_INSTALL_LIBDIR
+    LIB_INSTALL_DIR
+
+
 trtri_U_parallel.c: In function ‘strtri_UU_parallel’:
 trtri_U_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
@@ -508,9 +506,6 @@ trtri_L_parallel.c: In function ‘ztrtri_LN_parallel’:
 trtri_L_parallel.c:57:17: warning: variable ‘range_N’ set but not used [-Wunused-but-set-variable]
    BLASLONG lda, range_N[2];
                  ^
-This is not dpkg install-info anymore, but GNU install-info
-See the man page for ginstall-info for command line arguments
-libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpB62GsG/usr/lib'
 ../kernel/x86_64/cgemv_n_4.c: In function ‘cgemv_n_PRESCOTT’:
 ../kernel/x86_64/cgemv_n_4.c:219:11: warning: unused variable ‘j’ [-Wunused-variable]
   BLASLONG j;
@@ -707,10 +702,26 @@ setparam_PRESCOTT.c:562:1: warning: initialization from incompatible pointer typ
  };
  ^
 setparam_PRESCOTT.c:562:1: warning: (near initialization for ‘gotoblas_PRESCOTT.zgeadd_k’) [enabled by default]
+libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpWkdjfv/usr/lib'
+libtool: warning: '../lib/libcurl.la' has not been installed in '/home/nanosoldier/workdir/tmpWkdjfv/usr/lib'
+This is not dpkg install-info anymore, but GNU install-info
+See the man page for ginstall-info for command line arguments
+libtool: warning: remember to run 'libtool --finish /home/nanosoldier/workdir/tmpWkdjfv/usr/lib'
 ../kernel/x86_64/cgemv_n_4.c: In function ‘cgemv_n_CORE2’:
 ../kernel/x86_64/cgemv_n_4.c:219:11: warning: unused variable ‘j’ [-Wunused-variable]
   BLASLONG j;
            ^
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_COMPILER_ARG1
+    CMAKE_INSTALL_BINDIR
+    CMAKE_INSTALL_LIBDIR
+    CURL_INCLUDE_DIRS
+    CURL_LIBRARIES
+
+
 ../kernel/x86_64/cgemv_n_4.c: In function ‘cgemv_r_CORE2’:
 ../kernel/x86_64/cgemv_n_4.c:219:11: warning: unused variable ‘j’ [-Wunused-variable]
   BLASLONG j;
@@ -1377,17 +1388,6 @@ setparam_DUNNINGTON.c:562:1: warning: (near initialization for ‘gotoblas_DUNNI
 ../kernel/x86_64/dsymv_U.c:167:8: warning: unused variable ‘at0’ [-Wunused-variable]
   FLOAT at0,at1,at2,at3;
         ^
-CMake Warning:
-  Manually-specified variables were not used by the project:
-
-    CMAKE_CXX_COMPILER
-    CMAKE_CXX_COMPILER_ARG1
-    CMAKE_INSTALL_BINDIR
-    CMAKE_INSTALL_LIBDIR
-    CURL_INCLUDE_DIRS
-    CURL_LIBRARIES
-
-
 ../kernel/x86_64/cgemv_n_4.c: In function ‘cgemv_n_NEHALEM’:
 ../kernel/x86_64/cgemv_n_4.c:219:11: warning: unused variable ‘j’ [-Wunused-variable]
   BLASLONG j;
@@ -18384,166 +18384,166 @@ ar: creating libcsparse.a
 ar: creating libcxsparse.a
 ar: creating librbio.a
 ar: creating libspqr.a
-libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpB62GsG/usr/lib'
+libtool: install: warning: remember to run `libtool --finish /home/nanosoldier/workdir/tmpWkdjfv/usr/lib'
 Creating llvm-ranlib
 Creating llvm-lib
 Creating llvm-dlltool
 Creating llvm-readelf
 Creating libLLVM-6.0.0.so
 Creating libLLVM.so
-/home/nanosoldier/workdir/tmpB62GsG/src/jlapi.c: In function ‘jl_init__threading’:
-/home/nanosoldier/workdir/tmpB62GsG/src/jlapi.c:73:9: warning: ignoring return value of ‘asprintf’, declared with attribute warn_unused_result [-Wunused-result]
+/home/nanosoldier/workdir/tmpWkdjfv/src/jlapi.c: In function ‘jl_init__threading’:
+/home/nanosoldier/workdir/tmpWkdjfv/src/jlapi.c:73:9: warning: ignoring return value of ‘asprintf’, declared with attribute warn_unused_result [-Wunused-result]
          (void)asprintf(&libbindir, "%s" PATHSEPSTRING ".." PATHSEPSTRING "%s", dirname(to_free), "bin");
          ^
-In file included from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/EpochTracker.h:19:0,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/SmallPtrSet.h:18,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Support/CommandLine.h:25,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/CodeGen/MachinePassRegistry.h:23,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/CodeGen/SchedulerRegistry.h:18,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/CodeGen/TargetSubtargetInfo.h:22,
-                 from /home/nanosoldier/workdir/tmpB62GsG/src/codegen.cpp:42:
-/home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
+In file included from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/EpochTracker.h:19:0,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/SmallPtrSet.h:18,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Support/CommandLine.h:25,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/CodeGen/MachinePassRegistry.h:23,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/CodeGen/SchedulerRegistry.h:18,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/CodeGen/TargetSubtargetInfo.h:22,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/src/codegen.cpp:42:
+/home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
  #if !LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING
       ^
-In file included from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/EpochTracker.h:19:0,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/DenseMap.h:18,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Analysis/BasicAliasAnalysis.h:17,
-                 from /home/nanosoldier/workdir/tmpB62GsG/src/jitlayers.cpp:11:
-/home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
+In file included from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/EpochTracker.h:19:0,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/DenseMap.h:18,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Analysis/BasicAliasAnalysis.h:17,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/src/jitlayers.cpp:11:
+/home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
  #if !LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING
       ^
-In file included from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Support/Error.h:21:0,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Object/Error.h:18,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Object/Binary.h:18,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Object/ObjectFile.h:22,
-                 from /home/nanosoldier/workdir/tmpB62GsG/src/disasm.cpp:30:
-/home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
+In file included from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Support/Error.h:21:0,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Object/Error.h:18,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Object/Binary.h:18,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Object/ObjectFile.h:22,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/src/disasm.cpp:30:
+/home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
  #if !LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING
       ^
-/home/nanosoldier/workdir/tmpB62GsG/src/codegen.cpp: In function ‘std::unique_ptr<llvm::Module> emit_function(jl_method_instance_t*, jl_code_info_t*, size_t, jl_llvm_functions_t*, const jl_cgparams_t*)’:
-/home/nanosoldier/workdir/tmpB62GsG/src/codegen.cpp:6033:22: warning: variable ‘found’ set but not used [-Wunused-but-set-variable]
+/home/nanosoldier/workdir/tmpWkdjfv/src/codegen.cpp: In function ‘std::unique_ptr<llvm::Module> emit_function(jl_method_instance_t*, jl_code_info_t*, size_t, jl_llvm_functions_t*, const jl_cgparams_t*)’:
+/home/nanosoldier/workdir/tmpWkdjfv/src/codegen.cpp:6033:22: warning: variable ‘found’ set but not used [-Wunused-but-set-variable]
                  bool found = false;
                       ^
-/home/nanosoldier/workdir/tmpB62GsG/src/codegen.cpp: In function ‘llvm::Value* global_binding_pointer(jl_codectx_t&, jl_module_t*, jl_sym_t*, jl_binding_t**, bool)’:
-/home/nanosoldier/workdir/tmpB62GsG/src/codegen.cpp:3152:96: warning: ignoring return value of ‘int asprintf(char**, const char*, ...)’, declared with attribute warn_unused_result [-Wunused-result]
+/home/nanosoldier/workdir/tmpWkdjfv/src/codegen.cpp: In function ‘llvm::Value* global_binding_pointer(jl_codectx_t&, jl_module_t*, jl_sym_t*, jl_binding_t**, bool)’:
+/home/nanosoldier/workdir/tmpWkdjfv/src/codegen.cpp:3152:96: warning: ignoring return value of ‘int asprintf(char**, const char*, ...)’, declared with attribute warn_unused_result [-Wunused-result]
                      jl_symbol_name(b->owner->name), jl_symbol_name(s), jl_symbol_name(m->name));
                                                                                                 ^
-In file included from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Support/Error.h:21:0,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ExecutionEngine/JITSymbol.h:24,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ExecutionEngine/ExecutionEngine.h:24,
-                 from /home/nanosoldier/workdir/tmpB62GsG/src/debuginfo.cpp:6:
-/home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
+In file included from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Support/Error.h:21:0,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ExecutionEngine/JITSymbol.h:24,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ExecutionEngine/ExecutionEngine.h:24,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/src/debuginfo.cpp:6:
+/home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
  #if !LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING
       ^
-In file included from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/EpochTracker.h:19:0,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/DenseMap.h:18,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Analysis/LoopInfo.h:39,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Analysis/LoopPass.h:18,
-                 from /home/nanosoldier/workdir/tmpB62GsG/src/llvm-simdloop.cpp:12:
-/home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
+In file included from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/EpochTracker.h:19:0,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/DenseMap.h:18,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Analysis/LoopInfo.h:39,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Analysis/LoopPass.h:18,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/src/llvm-simdloop.cpp:12:
+/home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
  #if !LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING
       ^
-In file included from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/EpochTracker.h:19:0,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/DenseMap.h:18,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/PassRegistry.h:20,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/PassSupport.h:26,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Pass.h:376,
-                 from /home/nanosoldier/workdir/tmpB62GsG/src/llvm-ptls.cpp:12:
-/home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
+In file included from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/EpochTracker.h:19:0,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/DenseMap.h:18,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/PassRegistry.h:20,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/PassSupport.h:26,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Pass.h:376,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/src/llvm-ptls.cpp:12:
+/home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
  #if !LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING
       ^
-In file included from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/EpochTracker.h:19:0,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/DenseMap.h:18,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/DenseSet.h:17,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/IR/Function.h:21,
-                 from /home/nanosoldier/workdir/tmpB62GsG/src/llvm-muladd.cpp:8:
-/home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
+In file included from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/EpochTracker.h:19:0,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/DenseMap.h:18,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/DenseSet.h:17,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/IR/Function.h:21,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/src/llvm-muladd.cpp:8:
+/home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
  #if !LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING
       ^
-In file included from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/EpochTracker.h:19:0,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/SmallPtrSet.h:18,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/PostOrderIterator.h:21,
-                 from /home/nanosoldier/workdir/tmpB62GsG/src/llvm-late-gc-lowering.cpp:4:
-/home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
+In file included from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/EpochTracker.h:19:0,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/SmallPtrSet.h:18,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/PostOrderIterator.h:21,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/src/llvm-late-gc-lowering.cpp:4:
+/home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
  #if !LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING
       ^
-In file included from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/EpochTracker.h:19:0,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/SmallPtrSet.h:18,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/DepthFirstIterator.h:39,
-                 from /home/nanosoldier/workdir/tmpB62GsG/src/llvm-lower-handlers.cpp:3:
-/home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
+In file included from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/EpochTracker.h:19:0,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/SmallPtrSet.h:18,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/DepthFirstIterator.h:39,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/src/llvm-lower-handlers.cpp:3:
+/home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
  #if !LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING
       ^
-/home/nanosoldier/workdir/tmpB62GsG/src/codegen.cpp: In function ‘jl_cgval_t emit_expr(jl_codectx_t&, jl_value_t*)’:
-/home/nanosoldier/workdir/tmpB62GsG/src/codegen.cpp:3890:21: warning: variable ‘mn’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmpWkdjfv/src/codegen.cpp: In function ‘jl_cgval_t emit_expr(jl_codectx_t&, jl_value_t*)’:
+/home/nanosoldier/workdir/tmpWkdjfv/src/codegen.cpp:3890:21: warning: variable ‘mn’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
          jl_value_t *mn = args[0];
                      ^
-/home/nanosoldier/workdir/tmpB62GsG/src/codegen.cpp:3897:22: warning: variable ‘mod’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmpWkdjfv/src/codegen.cpp:3897:22: warning: variable ‘mod’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
          jl_module_t *mod = ctx.module;
                       ^
-/home/nanosoldier/workdir/tmpB62GsG/src/codegen.cpp:3788:19: warning: argument ‘expr’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmpWkdjfv/src/codegen.cpp:3788:19: warning: argument ‘expr’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
  static jl_cgval_t emit_expr(jl_codectx_t &ctx, jl_value_t *expr)
                    ^
-In file included from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/EpochTracker.h:19:0,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/SmallPtrSet.h:18,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/PostOrderIterator.h:21,
-                 from /home/nanosoldier/workdir/tmpB62GsG/src/llvm-gc-invariant-verifier.cpp:7:
-/home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
+In file included from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/EpochTracker.h:19:0,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/SmallPtrSet.h:18,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/PostOrderIterator.h:21,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/src/llvm-gc-invariant-verifier.cpp:7:
+/home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
  #if !LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING
       ^
-/home/nanosoldier/workdir/tmpB62GsG/src/codegen.cpp: In function ‘jl_llvm_functions_t jl_compile_linfo(jl_method_instance_t**, jl_code_info_t*, size_t, const jl_cgparams_t*)’:
-/home/nanosoldier/workdir/tmpB62GsG/src/codegen.cpp:1071:27: warning: variable ‘li’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmpWkdjfv/src/codegen.cpp: In function ‘jl_llvm_functions_t jl_compile_linfo(jl_method_instance_t**, jl_code_info_t*, size_t, const jl_cgparams_t*)’:
+/home/nanosoldier/workdir/tmpWkdjfv/src/codegen.cpp:1071:27: warning: variable ‘li’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
      jl_method_instance_t *li = *pli;
                            ^
-In file included from /home/nanosoldier/workdir/tmpB62GsG/src/intrinsics.cpp:7:0,
-                 from /home/nanosoldier/workdir/tmpB62GsG/src/codegen.cpp:1902:
-/home/nanosoldier/workdir/tmpB62GsG/src/ccall.cpp: In function ‘jl_cgval_t emit_ccall(jl_codectx_t&, jl_value_t**, size_t)’:
-/home/nanosoldier/workdir/tmpB62GsG/src/ccall.cpp:1578:12: warning: variable ‘nargt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+In file included from /home/nanosoldier/workdir/tmpWkdjfv/src/intrinsics.cpp:7:0,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/src/codegen.cpp:1902:
+/home/nanosoldier/workdir/tmpWkdjfv/src/ccall.cpp: In function ‘jl_cgval_t emit_ccall(jl_codectx_t&, jl_value_t**, size_t)’:
+/home/nanosoldier/workdir/tmpWkdjfv/src/ccall.cpp:1578:12: warning: variable ‘nargt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
      size_t nargt;
             ^
-/home/nanosoldier/workdir/tmpB62GsG/src/ccall.cpp:1579:11: warning: variable ‘lrt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmpWkdjfv/src/ccall.cpp:1579:11: warning: variable ‘lrt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
      Type *lrt;
            ^
-/home/nanosoldier/workdir/tmpB62GsG/src/ccall.cpp:1581:10: warning: variable ‘static_rt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmpWkdjfv/src/ccall.cpp:1581:10: warning: variable ‘static_rt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
      bool static_rt;
           ^
-/home/nanosoldier/workdir/tmpB62GsG/src/ccall.cpp:1778:21: warning: variable ‘frt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+/home/nanosoldier/workdir/tmpWkdjfv/src/ccall.cpp:1778:21: warning: variable ‘frt’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
          jl_value_t *frt = argv[1].constant;
                      ^
-In file included from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/EpochTracker.h:19:0,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/SmallPtrSet.h:18,
-                 from /home/nanosoldier/workdir/tmpB62GsG/src/llvm-propagate-addrspaces.cpp:3:
-/home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
+In file included from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/EpochTracker.h:19:0,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/SmallPtrSet.h:18,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/src/llvm-propagate-addrspaces.cpp:3:
+/home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
  #if !LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING
       ^
-In file included from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/EpochTracker.h:19:0,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/DenseMap.h:18,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/PassRegistry.h:20,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/PassSupport.h:26,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Pass.h:376,
-                 from /home/nanosoldier/workdir/tmpB62GsG/src/llvm-multiversioning.cpp:12:
-/home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
+In file included from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/EpochTracker.h:19:0,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/DenseMap.h:18,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/PassRegistry.h:20,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/PassSupport.h:26,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Pass.h:376,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/src/llvm-multiversioning.cpp:12:
+/home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
  #if !LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING
       ^
-In file included from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/EpochTracker.h:19:0,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/SmallPtrSet.h:18,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/SmallSet.h:18,
-                 from /home/nanosoldier/workdir/tmpB62GsG/src/llvm-alloc-opt.cpp:7:
-/home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
+In file included from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/EpochTracker.h:19:0,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/SmallPtrSet.h:18,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/SmallSet.h:18,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/src/llvm-alloc-opt.cpp:7:
+/home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
  #if !LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING
       ^
-In file included from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Support/Error.h:21:0,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ExecutionEngine/JITSymbol.h:24,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ExecutionEngine/RTDyldMemoryManager.h:18,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ExecutionEngine/SectionMemoryManager.h:20,
-                 from /home/nanosoldier/workdir/tmpB62GsG/src/cgmemmgr.cpp:7:
-/home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
+In file included from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Support/Error.h:21:0,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ExecutionEngine/JITSymbol.h:24,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ExecutionEngine/RTDyldMemoryManager.h:18,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ExecutionEngine/SectionMemoryManager.h:20,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/src/cgmemmgr.cpp:7:
+/home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
  #if !LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING
       ^
-In file included from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/EpochTracker.h:19:0,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/ADT/DenseMap.h:18,
-                 from /home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Analysis/TargetLibraryInfo.h:13,
-                 from /home/nanosoldier/workdir/tmpB62GsG/src/llvm-api.cpp:15:
-/home/nanosoldier/workdir/tmpB62GsG/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
+In file included from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/EpochTracker.h:19:0,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/ADT/DenseMap.h:18,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Analysis/TargetLibraryInfo.h:13,
+                 from /home/nanosoldier/workdir/tmpWkdjfv/src/llvm-api.cpp:15:
+/home/nanosoldier/workdir/tmpWkdjfv/usr/include/llvm/Config/abi-breaking.h:23:6: warning: "LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING" is not defined [-Wundef]
  #if !LLVM_DISABLE_ABI_BREAKING_CHECKS_ENFORCING
       ^

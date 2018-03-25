@@ -1,57 +1,57 @@
-cset: moving following pidspec: 11328
+cset: moving following pidspec: 30840
 cset: moving 1 userspace tasks to /user/child
 cset: done
 LOADING SUITE...
-loading group "shootout"... done (took 1.64924715 seconds)
-loading group "string"... done (took 0.531523554 seconds)
-loading group "linalg"... done (took 9.837922206 seconds)
-loading group "parallel"... done (took 0.176042487 seconds)
-loading group "find"... done (took 4.017835158 seconds)
-loading group "tuple"... done (took 2.139422753 seconds)
-loading group "dates"... done (took 1.440742188 seconds)
-loading group "micro"... done (took 0.203147153 seconds)
-loading group "io"... done (took 0.527685132 seconds)
-loading group "scalar"... done (took 58.455811781 seconds)
-loading group "sparse"... done (took 14.284978077 seconds)
-loading group "broadcast"... done (took 1.772197087 seconds)
-loading group "union"... done (took 10.752288729 seconds)
-loading group "simd"... done (took 3.715512224 seconds)
-loading group "random"... done (took 13.777221614 seconds)
-loading group "problem"... done (took 2.236862135 seconds)
-loading group "array"... done (took 24.983577243 seconds)
-loading group "misc"... done (took 1.190245214 seconds)
-loading group "sort"... done (took 3.901130373 seconds)
-loading group "collection"... done (took 22.537713846 seconds)
+loading group "shootout"... done (took 2.063916717 seconds)
+loading group "string"... done (took 0.535898874 seconds)
+loading group "linalg"... done (took 9.87720282 seconds)
+loading group "parallel"... done (took 0.178951038 seconds)
+loading group "find"... done (took 4.03487329 seconds)
+loading group "tuple"... done (took 2.166437855 seconds)
+loading group "dates"... done (took 1.463311361 seconds)
+loading group "micro"... done (took 0.207628987 seconds)
+loading group "io"... done (took 0.532099508 seconds)
+loading group "scalar"... done (took 58.655451788 seconds)
+loading group "sparse"... done (took 14.386654966 seconds)
+loading group "broadcast"... done (took 1.334320307 seconds)
+loading group "union"... done (took 10.688716282 seconds)
+loading group "simd"... done (took 3.698752683 seconds)
+loading group "random"... done (took 14.087771009 seconds)
+loading group "problem"... done (took 2.268802199 seconds)
+loading group "array"... done (took 24.878120046 seconds)
+loading group "misc"... done (took 1.187614011 seconds)
+loading group "sort"... done (took 3.894360658 seconds)
+loading group "collection"... done (took 22.547968706 seconds)
 FILTERING SUITE...
 WARMING UP BENCHMARKS...
 (1/20) benchmarking "shootout"...
   (1/12) benchmarking "k_nucleotide"...
-  done (took 0.702473499 seconds)
+  done (took 0.718442548 seconds)
   (2/12) benchmarking "fasta"...
-  done (took 0.147211681 seconds)
+  done (took 0.146783261 seconds)
   (3/12) benchmarking "spectralnorm"...
-  done (took 0.197979582 seconds)
+  done (took 0.195894883 seconds)
   (4/12) benchmarking "revcomp"...
-  done (took 0.210804761 seconds)
+  done (took 0.208791216 seconds)
   (5/12) benchmarking "pidigits"...
-  done (took 0.283733249 seconds)
+  done (took 0.282540957 seconds)
   (6/12) benchmarking "binary_trees"...
-  done (took 0.161960086 seconds)
+  done (took 0.159694679 seconds)
   (7/12) benchmarking "nbody"...
-  done (took 0.159945654 seconds)
+  done (took 0.158128558 seconds)
   (8/12) benchmarking "regex_dna"...
-  done (took 0.176261979 seconds)
+  done (took 0.172051906 seconds)
   (9/12) benchmarking "meteor_contest"...
-  done (took 2.725029025 seconds)
+  done (took 2.744372381 seconds)
   (10/12) benchmarking "mandelbrot"...
-  done (took 0.219081359 seconds)
+  done (took 0.21372215 seconds)
   (11/12) benchmarking "fannkuch"...
-  done (took 0.138194977 seconds)
+  done (took 0.140218949 seconds)
   (12/12) benchmarking "nbody_vec"...
-  done (took 0.423795979 seconds)
-done (took 6.312102442 seconds)
+  done (took 0.403469673 seconds)
+done (took 6.320626247 seconds)
 (2/20) benchmarking "string"...
   (1/4) benchmarking "join"...
-  done (took 0.469880421 seconds)
+  done (took 0.316992964 seconds)
   (2/4) benchmarking "findfirst"...
     (1/2) benchmarking "Char"...
