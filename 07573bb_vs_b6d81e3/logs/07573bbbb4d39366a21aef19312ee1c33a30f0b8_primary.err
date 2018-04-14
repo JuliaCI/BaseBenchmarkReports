@@ -1,0 +1,216 @@
+WARNING: importing deprecated binding Base.uninitialized into BenchmarkTools.
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:135
+┌ Warning: `using A.B` will only be allowed for modules, not single bindings. Use `using A: B` instead
+│   caller = ip:0x0
+└ @ Core :-1
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:26
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:26
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:26
+WARNING: importing deprecated binding Base.uninitialized into ShootoutBenchmarks.
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/shootout/meteor_contest.jl:45
+WARNING: importing deprecated binding Base.uninitialized into BroadcastBenchmarks.
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/broadcast/BroadcastBenchmarks.jl:25
+WARNING: importing deprecated binding Base.uninitialized into RandomBenchmarks.
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:22
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:84
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:84
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: importing deprecated binding Base.uninitialized into MiscellaneousBenchmarks.
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/misc/MiscellaneousBenchmarks.jl:281
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/misc/MiscellaneousBenchmarks.jl:281
+WARNING: importing deprecated binding Base.uninitialized into CollectionBenchmarks.
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:263
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:26
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:26
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:26
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: importing deprecated binding LinearAlgebra.trace into MicroBenchmarks.
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: importing deprecated binding Base.uninitialized into Ziggurat.
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
+ERROR: LoadError: indexing requires complete instantiation
+Stacktrace:
+ [1] error at ./error.jl:33 [inlined]
+ [2] broadcast_getindex_error(::Base.Broadcast.Broadcasted{Nothing,Tuple{Base.OneTo{Int64}},Nothing,typeof(identity),Tuple{Tuple{Int64,Int64}}}, ::CartesianIndex{1}) at ./broadcast.jl:605
+ [3] _broadcast_getindex at ./broadcast.jl:541 [inlined]
+ [4] macro expansion at ./broadcast.jl:808 [inlined]
+ [5] macro expansion at ./simdloop.jl:73 [inlined]
+ [6] copyto! at ./broadcast.jl:807 [inlined]
+ [7] copyto! at ./broadcast.jl:766 [inlined]
+ [8] materialize! at ./broadcast.jl:725 [inlined]
+ [9] broadcast!(::typeof(identity), ::SubArray{Int64,1,Array{Int64,2},Tuple{Base.Slice{Base.OneTo{Int64}},Int64},true}, ::Tuple{Int64,Int64}) at ./broadcast.jl:715
+ [10] generate_move(::BaseBenchmarks.ProblemBenchmarks.GoGame.Board, ::Int64) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/GoGame.jl:354
+ [11] perf_go_game(::Int64) at /home/nanosoldier/.julia/v0.7/BaseBenchmarks/src/problem/GoGame.jl:421
+ [12] ##core#10735() at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:316
+ [13] ##sample#10736(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:322
+ [14] #_run#9(::Bool, ::String, ::Base.Iterators.Pairs{Symbol,Integer,NTuple{4,Symbol},NamedTuple{(:samples, :evals, :gctrial, :gcsample),Tuple{Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10734")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:350
+ [15] #_run at ./<missing>:0 [inlined]
+ [16] (::getfield(Base, Symbol("#inner#4")){Base.Iterators.Pairs{Symbol,Any,NTuple{6,Symbol},NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#10734")},BenchmarkTools.Parameters}})() at ./essentials.jl:643
+ [17] #invokelatest#3 at ./essentials.jl:644 [inlined]
+ [18] #invokelatest at ./<missing>:0 [inlined]
+ [19] #run_result#18 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:37 [inlined]
+ [20] #run_result at ./<missing>:0 [inlined]
+ [21] #run#22(::Base.Iterators.Pairs{Symbol,Any,NTuple{6,Symbol},NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10734")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:67
+ [22] #run at ./<missing>:0 [inlined] (repeats 2 times)
+ [23] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:76 [inlined]
+ [24] macro expansion at ./util.jl:213 [inlined]
+ [25] #run#23(::Bool, ::String, ::Base.Iterators.Pairs{Symbol,Integer,NTuple{4,Symbol},NamedTuple{(:samples, :evals, :gctrial, :gcsample),Tuple{Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:75
+ [26] (::getfield(Base, Symbol("#kw##run")))(::NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [27] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:76 [inlined]
+ [28] macro expansion at ./util.jl:213 [inlined]
+ [29] #run#23(::Bool, ::String, ::Base.Iterators.Pairs{Symbol,Integer,NTuple{4,Symbol},NamedTuple{(:samples, :evals, :gctrial, :gcsample),Tuple{Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:75
+ [30] (::getfield(Base, Symbol("#kw##run")))(::NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [31] macro expansion at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:76 [inlined]
+ [32] macro expansion at ./util.jl:213 [inlined]
+ [33] #run#23(::Bool, ::String, ::Base.Iterators.Pairs{Symbol,Integer,NTuple{4,Symbol},NamedTuple{(:samples, :evals, :gctrial, :gcsample),Tuple{Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:75
+ [34] #run at ./<missing>:0 [inlined]
+ [35] #warmup#25 at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:100 [inlined]
+ [36] warmup(::BenchmarkGroup) at /home/nanosoldier/.julia/v0.7/BenchmarkTools/src/execution.jl:100
+ [37] top-level scope
+ [38] include at ./boot.jl:314 [inlined]
+ [39] include_relative(::Module, ::String) at ./loading.jl:1067
+ [40] include(::Module, ::String) at ./sysimg.jl:29
+ [41] exec_options(::Base.JLOptions) at ./client.jl:327
+ [42] _start() at ./client.jl:455
+in expression starting at /home/nanosoldier/workdir/tmpil4sSy/benchscript.jl:32
