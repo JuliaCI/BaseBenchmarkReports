@@ -1,0 +1,118 @@
+WARNING: Broadcast.broadcast_indices is deprecated, use broadcast_axes instead.
+  likely near /home/nanosoldier/.julia/packages/Nullables/sjCf/src/nullable.jl:414
+┌ Warning: using `A[I...] = x` to implicitly broadcast `x` across many locations is deprecated. Use `A[I...] .= x` instead.
+│   caller = macro expansion at execution.jl:138 [inlined]
+└ @ Core execution.jl:138
+WARNING: Broadcast.broadcast_indices is deprecated, use broadcast_axes instead.
+  likely near /home/nanosoldier/.julia/v0.7/Nullables/src/nullable.jl:414
+┌ Warning: using `A[I...] = x` to implicitly broadcast `x` across many locations is deprecated. Use `A[I...] .= x` instead.
+│   caller = macro expansion at execution.jl:138 [inlined]
+└ @ Core execution.jl:138
+WARNING: importing deprecated binding Base.uninitialized into ShootoutBenchmarks.
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/shootout/meteor_contest.jl:45
+WARNING: importing deprecated binding Base.uninitialized into BroadcastBenchmarks.
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/broadcast/BroadcastBenchmarks.jl:25
+WARNING: importing deprecated binding Base.uninitialized into RandomBenchmarks.
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:22
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:84
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:84
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: importing deprecated binding Base.uninitialized into MiscellaneousBenchmarks.
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/misc/MiscellaneousBenchmarks.jl:281
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/misc/MiscellaneousBenchmarks.jl:281
+WARNING: importing deprecated binding Base.uninitialized into CollectionBenchmarks.
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:263
+ERROR: LoadError: KeyError: key BenchmarkTools.TagFilter{getfield(Main, Symbol("##3#4"))}(getfield(Main, Symbol("##3#4"))()) not found
+Stacktrace:
+ [1] getindex at ./dict.jl:485 [inlined]
+ [2] getindex(::BenchmarkTools.BenchmarkGroup, ::BenchmarkTools.TagFilter{getfield(Main, Symbol("##3#4"))}) at /home/nanosoldier/.julia/packages/BenchmarkTools/zEzk/src/groups.jl:31
+ [3] top-level scope
+ [4] include at ./boot.jl:314 [inlined]
+ [5] include_relative(::Module, ::String) at ./loading.jl:1070
+ [6] include(::Module, ::String) at ./sysimg.jl:29
+ [7] exec_options(::Base.JLOptions) at ./client.jl:264
+ [8] _start() at ./client.jl:424
+in expression starting at /home/nanosoldier/workdir/tmpk068VJ/benchscript.jl:29
