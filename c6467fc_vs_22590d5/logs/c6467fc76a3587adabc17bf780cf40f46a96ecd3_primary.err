@@ -1,0 +1,12 @@
+WARNING: Broadcast.broadcast_indices is deprecated, use broadcast_axes instead.
+  likely near /home/nanosoldier/.julia/packages/Nullables/sjCf/src/nullable.jl:414
+ERROR: LoadError: ArgumentError: Module JSON not found in current path.
+Run `Pkg.add("JSON")` to install the JSON package.
+Stacktrace:
+ [1] require(::Module, ::Symbol) at ./loading.jl:868
+ [2] include at ./boot.jl:314 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1071
+ [4] include(::Module, ::String) at ./sysimg.jl:29
+ [5] exec_options(::Base.JLOptions) at ./client.jl:267
+ [6] _start() at ./client.jl:427
+in expression starting at /home/nanosoldier/workdir/tmphs3PTq/benchscript.jl:23
