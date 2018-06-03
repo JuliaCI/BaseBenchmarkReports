@@ -1,0 +1,910 @@
+WARNING: Broadcast.broadcast_indices is deprecated, use broadcast_axes instead.
+  likely near /home/nanosoldier/.julia/packages/Nullables/sjCf/src/nullable.jl:414
+rec_backtrace at /home/nanosoldier/workdir/tmpzqgBfg/src/stackwalk.c:94
+record_backtrace at /home/nanosoldier/workdir/tmpzqgBfg/src/task.c:246
+jl_throw at /home/nanosoldier/workdir/tmpzqgBfg/src/task.c:577
+jl_method_error_bare at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1608
+jl_method_error at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1626
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2117
+error at ./error.jl:42
+verify_ir at ./compiler/ssair/verify.jl:101
+run_passes at ./compiler/ssair/driver.jl:181
+optimize at ./compiler/optimize.jl:183
+typeinf at ./compiler/typeinfer.jl:436
+typeinf_frame at ./compiler/typeinfer.jl:96 [inlined]
+typeinf_code at ./compiler/typeinfer.jl:191
+typeinf_ext at ./compiler/typeinfer.jl:233
+jfptr_typeinf_ext_12 at /home/nanosoldier/workdir/tmpzqgBfg/usr/lib/julia/sys.so (unknown line)
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+jl_apply at /home/nanosoldier/workdir/tmpzqgBfg/src/julia.h:1540 [inlined]
+jl_apply_with_saved_exception_state at /home/nanosoldier/workdir/tmpzqgBfg/src/rtutils.c:257
+jl_type_infer at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:274
+jl_compile_method_internal at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1778 [inlined]
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1822
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:559
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe6c7bd2f)
+unknown function (ip: 0x3a)
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856 [inlined]
+jl_eval_module_expr at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:233
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:652
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpzqgBfg/src/ast.c:852
+jl_load at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:894
+include at ./boot.jl:314 [inlined]
+include_relative at ./loading.jl:1071
+include at ./sysimg.jl:29
+include at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:1
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:559
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe65f096f)
+unknown function (ip: 0xffffffffffffffff)
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856 [inlined]
+jl_toplevel_eval at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:869
+jl_toplevel_eval_in at /home/nanosoldier/workdir/tmpzqgBfg/src/builtins.c:631
+eval at ./boot.jl:316 [inlined]
+eval at ./deprecated.jl:55
+#load!#2 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:39
+unknown function (ip: 0x7fffe3b162e3)
+macro expansion at ./<missing>:0 [inlined]
+#loadall!#4 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:55
+unknown function (ip: 0x7fffe3b14872)
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1823
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+loadall! at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:52 [inlined]
+#loadall!#3 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
+loadall! at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:49
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1823
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_stmt_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:367 [inlined]
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:681
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe6635d4f)
+unknown function (ip: (nil))
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpzqgBfg/src/ast.c:852
+jl_load at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:894
+include at ./boot.jl:314 [inlined]
+include_relative at ./loading.jl:1071
+include at ./sysimg.jl:29
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+exec_options at ./client.jl:267
+_start at ./client.jl:427
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+jl_apply at /home/nanosoldier/workdir/tmpzqgBfg/ui/../src/julia.h:1540 [inlined]
+true_main at /home/nanosoldier/workdir/tmpzqgBfg/ui/repl.c:112
+main at /home/nanosoldier/workdir/tmpzqgBfg/ui/repl.c:243
+__libc_start_main at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+_start at /home/nanosoldier/workdir/tmpzqgBfg/julia (unknown line)
+rec_backtrace at /home/nanosoldier/workdir/tmpzqgBfg/src/stackwalk.c:94
+record_backtrace at /home/nanosoldier/workdir/tmpzqgBfg/src/task.c:246
+jl_throw at /home/nanosoldier/workdir/tmpzqgBfg/src/task.c:577
+jl_method_error_bare at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1608
+jl_method_error at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1626
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2117
+error at ./error.jl:42
+verify_ir at ./compiler/ssair/verify.jl:101
+run_passes at ./compiler/ssair/driver.jl:181
+optimize at ./compiler/optimize.jl:183
+typeinf at ./compiler/typeinfer.jl:436
+typeinf_frame at ./compiler/typeinfer.jl:96 [inlined]
+typeinf_code at ./compiler/typeinfer.jl:191
+typeinf_ext at ./compiler/typeinfer.jl:233
+jfptr_typeinf_ext_12 at /home/nanosoldier/workdir/tmpzqgBfg/usr/lib/julia/sys.so (unknown line)
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+jl_apply at /home/nanosoldier/workdir/tmpzqgBfg/src/julia.h:1540 [inlined]
+jl_apply_with_saved_exception_state at /home/nanosoldier/workdir/tmpzqgBfg/src/rtutils.c:257
+jl_type_infer at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:274
+jl_compile_method_internal at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1778 [inlined]
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1822
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:559
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe6c7bd2f)
+unknown function (ip: 0x3a)
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856 [inlined]
+jl_eval_module_expr at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:233
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:652
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpzqgBfg/src/ast.c:852
+jl_load at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:894
+include at ./boot.jl:314 [inlined]
+include_relative at ./loading.jl:1071
+include at ./sysimg.jl:29
+include at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:1
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:559
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe65f096f)
+unknown function (ip: 0xffffffffffffffff)
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856 [inlined]
+jl_toplevel_eval at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:869
+jl_toplevel_eval_in at /home/nanosoldier/workdir/tmpzqgBfg/src/builtins.c:631
+eval at ./boot.jl:316 [inlined]
+eval at ./deprecated.jl:55
+#load!#2 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:39
+unknown function (ip: 0x7fffe3b162e3)
+macro expansion at ./<missing>:0 [inlined]
+#loadall!#4 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:55
+unknown function (ip: 0x7fffe3b14872)
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1823
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+loadall! at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:52 [inlined]
+#loadall!#3 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
+loadall! at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:49
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1823
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_stmt_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:367 [inlined]
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:681
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe6635d4f)
+unknown function (ip: (nil))
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpzqgBfg/src/ast.c:852
+jl_load at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:894
+include at ./boot.jl:314 [inlined]
+include_relative at ./loading.jl:1071
+include at ./sysimg.jl:29
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+exec_options at ./client.jl:267
+_start at ./client.jl:427
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+jl_apply at /home/nanosoldier/workdir/tmpzqgBfg/ui/../src/julia.h:1540 [inlined]
+true_main at /home/nanosoldier/workdir/tmpzqgBfg/ui/repl.c:112
+main at /home/nanosoldier/workdir/tmpzqgBfg/ui/repl.c:243
+__libc_start_main at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+_start at /home/nanosoldier/workdir/tmpzqgBfg/julia (unknown line)
+rec_backtrace at /home/nanosoldier/workdir/tmpzqgBfg/src/stackwalk.c:94
+record_backtrace at /home/nanosoldier/workdir/tmpzqgBfg/src/task.c:246
+jl_throw at /home/nanosoldier/workdir/tmpzqgBfg/src/task.c:577
+jl_method_error_bare at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1608
+jl_method_error at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1626
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2117
+error at ./error.jl:42
+verify_ir at ./compiler/ssair/verify.jl:101
+run_passes at ./compiler/ssair/driver.jl:181
+optimize at ./compiler/optimize.jl:183
+typeinf at ./compiler/typeinfer.jl:436
+typeinf_frame at ./compiler/typeinfer.jl:96 [inlined]
+typeinf_code at ./compiler/typeinfer.jl:191
+typeinf_ext at ./compiler/typeinfer.jl:233
+jfptr_typeinf_ext_12 at /home/nanosoldier/workdir/tmpzqgBfg/usr/lib/julia/sys.so (unknown line)
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+jl_apply at /home/nanosoldier/workdir/tmpzqgBfg/src/julia.h:1540 [inlined]
+jl_apply_with_saved_exception_state at /home/nanosoldier/workdir/tmpzqgBfg/src/rtutils.c:257
+jl_type_infer at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:274
+jl_compile_method_internal at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1778 [inlined]
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1822
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:559
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe6c7bd2f)
+unknown function (ip: 0x3a)
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856 [inlined]
+jl_eval_module_expr at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:233
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:652
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpzqgBfg/src/ast.c:852
+jl_load at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:894
+include at ./boot.jl:314 [inlined]
+include_relative at ./loading.jl:1071
+include at ./sysimg.jl:29
+include at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:1
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:559
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe65f096f)
+unknown function (ip: 0xffffffffffffffff)
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856 [inlined]
+jl_toplevel_eval at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:869
+jl_toplevel_eval_in at /home/nanosoldier/workdir/tmpzqgBfg/src/builtins.c:631
+eval at ./boot.jl:316 [inlined]
+eval at ./deprecated.jl:55
+#load!#2 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:39
+unknown function (ip: 0x7fffe3b162e3)
+macro expansion at ./<missing>:0 [inlined]
+#loadall!#4 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:55
+unknown function (ip: 0x7fffe3b14872)
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1823
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+loadall! at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:52 [inlined]
+#loadall!#3 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
+loadall! at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:49
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1823
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_stmt_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:367 [inlined]
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:681
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe6635d4f)
+unknown function (ip: (nil))
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpzqgBfg/src/ast.c:852
+jl_load at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:894
+include at ./boot.jl:314 [inlined]
+include_relative at ./loading.jl:1071
+include at ./sysimg.jl:29
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+exec_options at ./client.jl:267
+_start at ./client.jl:427
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+jl_apply at /home/nanosoldier/workdir/tmpzqgBfg/ui/../src/julia.h:1540 [inlined]
+true_main at /home/nanosoldier/workdir/tmpzqgBfg/ui/repl.c:112
+main at /home/nanosoldier/workdir/tmpzqgBfg/ui/repl.c:243
+__libc_start_main at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+_start at /home/nanosoldier/workdir/tmpzqgBfg/julia (unknown line)
+rec_backtrace at /home/nanosoldier/workdir/tmpzqgBfg/src/stackwalk.c:94
+record_backtrace at /home/nanosoldier/workdir/tmpzqgBfg/src/task.c:246
+jl_throw at /home/nanosoldier/workdir/tmpzqgBfg/src/task.c:577
+jl_method_error_bare at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1608
+jl_method_error at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1626
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2117
+error at ./error.jl:42
+verify_ir at ./compiler/ssair/verify.jl:101
+run_passes at ./compiler/ssair/driver.jl:181
+optimize at ./compiler/optimize.jl:183
+typeinf at ./compiler/typeinfer.jl:436
+typeinf_frame at ./compiler/typeinfer.jl:96 [inlined]
+typeinf_code at ./compiler/typeinfer.jl:191
+typeinf_ext at ./compiler/typeinfer.jl:233
+jfptr_typeinf_ext_12 at /home/nanosoldier/workdir/tmpzqgBfg/usr/lib/julia/sys.so (unknown line)
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+jl_apply at /home/nanosoldier/workdir/tmpzqgBfg/src/julia.h:1540 [inlined]
+jl_apply_with_saved_exception_state at /home/nanosoldier/workdir/tmpzqgBfg/src/rtutils.c:257
+jl_type_infer at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:274
+jl_compile_method_internal at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1778 [inlined]
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1822
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:559
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe6c7bd2f)
+unknown function (ip: 0x3a)
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856 [inlined]
+jl_eval_module_expr at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:233
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:652
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpzqgBfg/src/ast.c:852
+jl_load at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:894
+include at ./boot.jl:314 [inlined]
+include_relative at ./loading.jl:1071
+include at ./sysimg.jl:29
+include at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:1
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:559
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe65f096f)
+unknown function (ip: 0xffffffffffffffff)
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856 [inlined]
+jl_toplevel_eval at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:869
+jl_toplevel_eval_in at /home/nanosoldier/workdir/tmpzqgBfg/src/builtins.c:631
+eval at ./boot.jl:316 [inlined]
+eval at ./deprecated.jl:55
+#load!#2 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:39
+unknown function (ip: 0x7fffe3b162e3)
+macro expansion at ./<missing>:0 [inlined]
+#loadall!#4 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:55
+unknown function (ip: 0x7fffe3b14872)
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1823
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+loadall! at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:52 [inlined]
+#loadall!#3 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
+loadall! at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:49
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1823
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_stmt_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:367 [inlined]
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:681
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe6635d4f)
+unknown function (ip: (nil))
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpzqgBfg/src/ast.c:852
+jl_load at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:894
+include at ./boot.jl:314 [inlined]
+include_relative at ./loading.jl:1071
+include at ./sysimg.jl:29
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+exec_options at ./client.jl:267
+_start at ./client.jl:427
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+jl_apply at /home/nanosoldier/workdir/tmpzqgBfg/ui/../src/julia.h:1540 [inlined]
+true_main at /home/nanosoldier/workdir/tmpzqgBfg/ui/repl.c:112
+main at /home/nanosoldier/workdir/tmpzqgBfg/ui/repl.c:243
+__libc_start_main at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+_start at /home/nanosoldier/workdir/tmpzqgBfg/julia (unknown line)
+rec_backtrace at /home/nanosoldier/workdir/tmpzqgBfg/src/stackwalk.c:94
+record_backtrace at /home/nanosoldier/workdir/tmpzqgBfg/src/task.c:246
+jl_throw at /home/nanosoldier/workdir/tmpzqgBfg/src/task.c:577
+jl_method_error_bare at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1608
+jl_method_error at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1626
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2117
+error at ./error.jl:42
+verify_ir at ./compiler/ssair/verify.jl:101
+run_passes at ./compiler/ssair/driver.jl:181
+optimize at ./compiler/optimize.jl:183
+typeinf at ./compiler/typeinfer.jl:436
+typeinf_frame at ./compiler/typeinfer.jl:96 [inlined]
+typeinf_code at ./compiler/typeinfer.jl:191
+typeinf_ext at ./compiler/typeinfer.jl:233
+jfptr_typeinf_ext_12 at /home/nanosoldier/workdir/tmpzqgBfg/usr/lib/julia/sys.so (unknown line)
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+jl_apply at /home/nanosoldier/workdir/tmpzqgBfg/src/julia.h:1540 [inlined]
+jl_apply_with_saved_exception_state at /home/nanosoldier/workdir/tmpzqgBfg/src/rtutils.c:257
+jl_type_infer at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:274
+jl_compile_method_internal at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1778 [inlined]
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1822
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:559
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe6c7bd2f)
+unknown function (ip: 0x3a)
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856 [inlined]
+jl_eval_module_expr at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:233
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:652
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpzqgBfg/src/ast.c:852
+jl_load at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:894
+include at ./boot.jl:314 [inlined]
+include_relative at ./loading.jl:1071
+include at ./sysimg.jl:29
+include at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:1
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:559
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe65f096f)
+unknown function (ip: 0xffffffffffffffff)
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856 [inlined]
+jl_toplevel_eval at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:869
+jl_toplevel_eval_in at /home/nanosoldier/workdir/tmpzqgBfg/src/builtins.c:631
+eval at ./boot.jl:316 [inlined]
+eval at ./deprecated.jl:55
+#load!#2 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:39
+unknown function (ip: 0x7fffe3b162e3)
+macro expansion at ./<missing>:0 [inlined]
+#loadall!#4 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:55
+unknown function (ip: 0x7fffe3b14872)
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1823
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+loadall! at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:52 [inlined]
+#loadall!#3 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
+loadall! at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:49
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1823
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_stmt_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:367 [inlined]
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:681
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe6635d4f)
+unknown function (ip: (nil))
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpzqgBfg/src/ast.c:852
+jl_load at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:894
+include at ./boot.jl:314 [inlined]
+include_relative at ./loading.jl:1071
+include at ./sysimg.jl:29
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+exec_options at ./client.jl:267
+_start at ./client.jl:427
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+jl_apply at /home/nanosoldier/workdir/tmpzqgBfg/ui/../src/julia.h:1540 [inlined]
+true_main at /home/nanosoldier/workdir/tmpzqgBfg/ui/repl.c:112
+main at /home/nanosoldier/workdir/tmpzqgBfg/ui/repl.c:243
+__libc_start_main at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+_start at /home/nanosoldier/workdir/tmpzqgBfg/julia (unknown line)
+rec_backtrace at /home/nanosoldier/workdir/tmpzqgBfg/src/stackwalk.c:94
+record_backtrace at /home/nanosoldier/workdir/tmpzqgBfg/src/task.c:246
+jl_throw at /home/nanosoldier/workdir/tmpzqgBfg/src/task.c:577
+jl_method_error_bare at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1608
+jl_method_error at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1626
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2117
+error at ./error.jl:42
+verify_ir at ./compiler/ssair/verify.jl:101
+run_passes at ./compiler/ssair/driver.jl:181
+optimize at ./compiler/optimize.jl:183
+typeinf at ./compiler/typeinfer.jl:436
+typeinf_frame at ./compiler/typeinfer.jl:96 [inlined]
+typeinf_code at ./compiler/typeinfer.jl:191
+typeinf_ext at ./compiler/typeinfer.jl:233
+jfptr_typeinf_ext_12 at /home/nanosoldier/workdir/tmpzqgBfg/usr/lib/julia/sys.so (unknown line)
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+jl_apply at /home/nanosoldier/workdir/tmpzqgBfg/src/julia.h:1540 [inlined]
+jl_apply_with_saved_exception_state at /home/nanosoldier/workdir/tmpzqgBfg/src/rtutils.c:257
+jl_type_infer at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:274
+jl_compile_method_internal at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1778 [inlined]
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1822
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:559
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe6c7bd2f)
+unknown function (ip: 0x3a)
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856 [inlined]
+jl_eval_module_expr at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:233
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:652
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpzqgBfg/src/ast.c:852
+jl_load at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:894
+include at ./boot.jl:314 [inlined]
+include_relative at ./loading.jl:1071
+include at ./sysimg.jl:29
+include at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:1
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:559
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe65f096f)
+unknown function (ip: 0xffffffffffffffff)
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856 [inlined]
+jl_toplevel_eval at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:869
+jl_toplevel_eval_in at /home/nanosoldier/workdir/tmpzqgBfg/src/builtins.c:631
+eval at ./boot.jl:316 [inlined]
+eval at ./deprecated.jl:55
+#load!#2 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:39
+unknown function (ip: 0x7fffe3b162e3)
+macro expansion at ./<missing>:0 [inlined]
+#loadall!#4 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:55
+unknown function (ip: 0x7fffe3b14872)
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1823
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+loadall! at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:52 [inlined]
+#loadall!#3 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
+loadall! at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:49
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1823
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_stmt_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:367 [inlined]
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:681
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe6635d4f)
+unknown function (ip: (nil))
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpzqgBfg/src/ast.c:852
+jl_load at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:894
+include at ./boot.jl:314 [inlined]
+include_relative at ./loading.jl:1071
+include at ./sysimg.jl:29
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+exec_options at ./client.jl:267
+_start at ./client.jl:427
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+jl_apply at /home/nanosoldier/workdir/tmpzqgBfg/ui/../src/julia.h:1540 [inlined]
+true_main at /home/nanosoldier/workdir/tmpzqgBfg/ui/repl.c:112
+main at /home/nanosoldier/workdir/tmpzqgBfg/ui/repl.c:243
+__libc_start_main at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+_start at /home/nanosoldier/workdir/tmpzqgBfg/julia (unknown line)
+rec_backtrace at /home/nanosoldier/workdir/tmpzqgBfg/src/stackwalk.c:94
+record_backtrace at /home/nanosoldier/workdir/tmpzqgBfg/src/task.c:246
+jl_throw at /home/nanosoldier/workdir/tmpzqgBfg/src/task.c:577
+jl_method_error_bare at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1608
+jl_method_error at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1626
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2117
+error at ./error.jl:42
+verify_ir at ./compiler/ssair/verify.jl:101
+run_passes at ./compiler/ssair/driver.jl:181
+optimize at ./compiler/optimize.jl:183
+typeinf at ./compiler/typeinfer.jl:436
+typeinf_frame at ./compiler/typeinfer.jl:96 [inlined]
+typeinf_code at ./compiler/typeinfer.jl:191
+typeinf_ext at ./compiler/typeinfer.jl:233
+jfptr_typeinf_ext_12 at /home/nanosoldier/workdir/tmpzqgBfg/usr/lib/julia/sys.so (unknown line)
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+jl_apply at /home/nanosoldier/workdir/tmpzqgBfg/src/julia.h:1540 [inlined]
+jl_apply_with_saved_exception_state at /home/nanosoldier/workdir/tmpzqgBfg/src/rtutils.c:257
+jl_type_infer at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:274
+jl_compile_method_internal at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1778 [inlined]
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1822
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:559
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe6c7bd2f)
+unknown function (ip: 0x11a)
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856 [inlined]
+jl_eval_module_expr at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:233
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:652
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpzqgBfg/src/ast.c:852
+jl_load at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:894
+include at ./boot.jl:314 [inlined]
+include_relative at ./loading.jl:1071
+include at ./sysimg.jl:29
+include at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:1
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:559
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe65f096f)
+unknown function (ip: 0xffffffffffffffff)
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856 [inlined]
+jl_toplevel_eval at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:869
+jl_toplevel_eval_in at /home/nanosoldier/workdir/tmpzqgBfg/src/builtins.c:631
+eval at ./boot.jl:316 [inlined]
+eval at ./deprecated.jl:55
+#load!#2 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:39
+unknown function (ip: 0x7fffe3b162e3)
+macro expansion at ./<missing>:0 [inlined]
+#loadall!#4 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:55
+unknown function (ip: 0x7fffe3b14872)
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1823
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+loadall! at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:52 [inlined]
+#loadall!#3 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
+loadall! at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:49
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1823
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_stmt_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:367 [inlined]
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:681
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe6635d4f)
+unknown function (ip: (nil))
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpzqgBfg/src/ast.c:852
+jl_load at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:894
+include at ./boot.jl:314 [inlined]
+include_relative at ./loading.jl:1071
+include at ./sysimg.jl:29
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+exec_options at ./client.jl:267
+_start at ./client.jl:427
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+jl_apply at /home/nanosoldier/workdir/tmpzqgBfg/ui/../src/julia.h:1540 [inlined]
+true_main at /home/nanosoldier/workdir/tmpzqgBfg/ui/repl.c:112
+main at /home/nanosoldier/workdir/tmpzqgBfg/ui/repl.c:243
+__libc_start_main at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+_start at /home/nanosoldier/workdir/tmpzqgBfg/julia (unknown line)
+rec_backtrace at /home/nanosoldier/workdir/tmpzqgBfg/src/stackwalk.c:94
+record_backtrace at /home/nanosoldier/workdir/tmpzqgBfg/src/task.c:246
+jl_throw at /home/nanosoldier/workdir/tmpzqgBfg/src/task.c:577
+jl_method_error_bare at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1608
+jl_method_error at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1626
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2117
+error at ./error.jl:42
+verify_ir at ./compiler/ssair/verify.jl:101
+run_passes at ./compiler/ssair/driver.jl:181
+optimize at ./compiler/optimize.jl:183
+typeinf at ./compiler/typeinfer.jl:436
+typeinf_frame at ./compiler/typeinfer.jl:96 [inlined]
+typeinf_code at ./compiler/typeinfer.jl:191
+typeinf_ext at ./compiler/typeinfer.jl:233
+jfptr_typeinf_ext_12 at /home/nanosoldier/workdir/tmpzqgBfg/usr/lib/julia/sys.so (unknown line)
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+jl_apply at /home/nanosoldier/workdir/tmpzqgBfg/src/julia.h:1540 [inlined]
+jl_apply_with_saved_exception_state at /home/nanosoldier/workdir/tmpzqgBfg/src/rtutils.c:257
+jl_type_infer at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:274
+jl_compile_method_internal at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1778 [inlined]
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1822
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:559
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe6c7bd2f)
+unknown function (ip: 0x11a)
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856 [inlined]
+jl_eval_module_expr at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:233
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:652
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpzqgBfg/src/ast.c:852
+jl_load at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:894
+include at ./boot.jl:314 [inlined]
+include_relative at ./loading.jl:1071
+include at ./sysimg.jl:29
+include at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:1
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:559
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe65f096f)
+unknown function (ip: 0xffffffffffffffff)
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856 [inlined]
+jl_toplevel_eval at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:869
+jl_toplevel_eval_in at /home/nanosoldier/workdir/tmpzqgBfg/src/builtins.c:631
+eval at ./boot.jl:316 [inlined]
+eval at ./deprecated.jl:55
+#load!#2 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:39
+unknown function (ip: 0x7fffe3b162e3)
+macro expansion at ./<missing>:0 [inlined]
+#loadall!#4 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:55
+unknown function (ip: 0x7fffe3b14872)
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1823
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+loadall! at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:52 [inlined]
+#loadall!#3 at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:49 [inlined]
+loadall! at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:49
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:1823
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+do_call at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:416
+eval_stmt_value at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:367 [inlined]
+eval_body at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:681
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:798
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe6635d4f)
+unknown function (ip: (nil))
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpzqgBfg/src/interpreter.c:807
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:856
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpzqgBfg/src/ast.c:852
+jl_load at /home/nanosoldier/workdir/tmpzqgBfg/src/toplevel.c:894
+include at ./boot.jl:314 [inlined]
+include_relative at ./loading.jl:1071
+include at ./sysimg.jl:29
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+exec_options at ./client.jl:267
+_start at ./client.jl:427
+jl_apply_generic at /home/nanosoldier/workdir/tmpzqgBfg/src/gf.c:2140
+jl_apply at /home/nanosoldier/workdir/tmpzqgBfg/ui/../src/julia.h:1540 [inlined]
+true_main at /home/nanosoldier/workdir/tmpzqgBfg/ui/repl.c:112
+main at /home/nanosoldier/workdir/tmpzqgBfg/ui/repl.c:243
+__libc_start_main at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+_start at /home/nanosoldier/workdir/tmpzqgBfg/julia (unknown line)
+WARNING: importing deprecated binding Base.uninitialized into ShootoutBenchmarks.
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/shootout/meteor_contest.jl:45
+Internal error: encountered unexpected error in runtime:
+MethodError(f=typeof(Base.string)(), args=(), world=0x0000000000000f30)
+Internal error: encountered unexpected error in runtime:
+MethodError(f=typeof(Base.string)(), args=(), world=0x0000000000000f30)
+Internal error: encountered unexpected error in runtime:
+MethodError(f=typeof(Base.string)(), args=(), world=0x0000000000000f30)
+Internal error: encountered unexpected error in runtime:
+MethodError(f=typeof(Base.string)(), args=(), world=0x0000000000000f30)
+Internal error: encountered unexpected error in runtime:
+MethodError(f=typeof(Base.string)(), args=(), world=0x0000000000000f30)
+Internal error: encountered unexpected error in runtime:
+MethodError(f=typeof(Base.string)(), args=(), world=0x0000000000000f30)
+Internal error: encountered unexpected error in runtime:
+MethodError(f=typeof(Base.string)(), args=(), world=0x0000000000000f30)
+Internal error: encountered unexpected error in runtime:
+MethodError(f=typeof(Base.string)(), args=(), world=0x0000000000000f30)
+WARNING: importing deprecated binding Base.uninitialized into BroadcastBenchmarks.
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/broadcast/BroadcastBenchmarks.jl:25
+WARNING: importing deprecated binding Base.uninitialized into RandomBenchmarks.
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:22
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:84
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:84
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:103
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/random/RandomBenchmarks.jl:140
+WARNING: importing deprecated binding Base.var into ArrayBenchmarks.
+WARNING: importing deprecated binding Base.uninitialized into MiscellaneousBenchmarks.
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/misc/MiscellaneousBenchmarks.jl:281
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/misc/MiscellaneousBenchmarks.jl:281
+WARNING: importing deprecated binding Base.uninitialized into CollectionBenchmarks.
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/collection/CollectionBenchmarks.jl:263
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: Base.uninitialized is deprecated, use undef instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: importing deprecated binding LinearAlgebra.trace into MicroBenchmarks.
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: importing deprecated binding Base.std into MicroBenchmarks.
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
+ERROR: LoadError: std has been moved to the package StatsBase.jl.
+Run `Pkg.add("StatsBase")` to install it, restart Julia,
+and then run `using StatsBase` to load it.
+Stacktrace:
+ [1] error at ./error.jl:33 [inlined]
+ [2] #std#828 at ./deprecated.jl:150 [inlined]
+ [3] std at ./deprecated.jl:150 [inlined]
+ [4] perf_micro_randmatstat(::Int64) at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/micro/methods.jl:109
+ [5] ##core#1798() at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:316
+ [6] ##sample#1799(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:322
+ [7] #_run#8 at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:350 [inlined]
+ [8] #_run at ./<missing>:0 [inlined]
+ [9] (::getfield(Base, Symbol("#inner#2")){Base.Iterators.Pairs{Symbol,Any,NTuple{6,Symbol},NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#1797")},BenchmarkTools.Parameters}})() at ./essentials.jl:673
+ [10] #invokelatest#1 at ./essentials.jl:674 [inlined]
+ [11] #invokelatest at ./<missing>:0 [inlined]
+ [12] #run_result#18 at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:37 [inlined]
+ [13] #run_result at ./<missing>:0 [inlined]
+ [14] #run#22(::Base.Iterators.Pairs{Symbol,Any,NTuple{6,Symbol},NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#1797")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:67
+ [15] #run at ./<missing>:0 [inlined] (repeats 2 times)
+ [16] #run#23(::Bool, ::String, ::Base.Iterators.Pairs{Symbol,Integer,NTuple{4,Symbol},NamedTuple{(:samples, :evals, :gctrial, :gcsample),Tuple{Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:76
+ [17] (::getfield(Base, Symbol("#kw##run")))(::NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}, ::typeof(run), ::BenchmarkGroup) at ./<missing>:0
+ [18] #run#23(::Bool, ::String, ::Base.Iterators.Pairs{Symbol,Integer,NTuple{4,Symbol},NamedTuple{(:samples, :evals, :gctrial, :gcsample),Tuple{Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:76
+ [19] #run at ./<missing>:0 [inlined]
+ [20] #warmup#25 at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:100 [inlined]
+ [21] warmup(::BenchmarkGroup) at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:100
+ [22] top-level scope
+ [23] include at ./boot.jl:314 [inlined]
+ [24] include_relative(::Module, ::String) at ./loading.jl:1071
+ [25] include(::Module, ::String) at ./sysimg.jl:29
+ [26] exec_options(::Base.JLOptions) at ./client.jl:267
+ [27] _start() at ./client.jl:427
+in expression starting at /home/nanosoldier/workdir/tmpzqgBfg/benchscript.jl:32
