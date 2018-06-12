@@ -1,0 +1,47 @@
+WARNING: Broadcast.broadcast_indices is deprecated, use broadcast_axes instead.
+  likely near /home/nanosoldier/.julia/packages/Nullables/sjCf/src/nullable.jl:414
+WARNING: importing deprecated binding LinearAlgebra.trace into MicroBenchmarks.
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpK2fL9j/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpK2fL9j/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpK2fL9j/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpK2fL9j/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpK2fL9j/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpK2fL9j/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpK2fL9j/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpK2fL9j/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpK2fL9j/benchscript.jl:32
+in perf_micro_randmatstat at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/micro/methods.jl
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpK2fL9j/benchscript.jl:32
+in perf_micro_randmatstat at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/micro/methods.jl
+WARNING: importing deprecated binding Base.repmat into Simplex.
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpK2fL9j/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpK2fL9j/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpK2fL9j/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpK2fL9j/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpK2fL9j/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpK2fL9j/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpK2fL9j/benchscript.jl:32
+in perf_simplex at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/problem/Simplex.jl
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpK2fL9j/benchscript.jl:32
+in perf_simplex at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/problem/Simplex.jl
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpK2fL9j/benchscript.jl:32
+in perf_simplex at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/problem/Simplex.jl
