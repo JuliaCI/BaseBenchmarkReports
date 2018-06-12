@@ -1,13 +1,49 @@
 WARNING: Broadcast.broadcast_indices is deprecated, use broadcast_axes instead.
   likely near /home/nanosoldier/.julia/packages/Nullables/sjCf/src/nullable.jl:414
-ERROR: LoadError: LoadError: ArgumentError: Module StatsBase not found in current path.
-Run `Pkg.add("StatsBase")` to install the StatsBase package.
-Stacktrace:
- [1] require(::Module, ::Symbol) at ./loading.jl:868
- [2] include at ./boot.jl:318 [inlined]
- [3] include_relative(::Module, ::String) at ./loading.jl:1071
- [4] include(::Module, ::String) at ./sysimg.jl:29
- [5] include(::String) at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:1
- [6] top-level scope at none:0
-in expression starting at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/micro/MicroBenchmarks.jl:8
-in expression starting at /home/nanosoldier/workdir/tmpT89jyn/benchscript.jl:26
+WARNING: importing deprecated binding LinearAlgebra.trace into MicroBenchmarks.
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpfL4KOE/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpfL4KOE/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpfL4KOE/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpfL4KOE/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpfL4KOE/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpfL4KOE/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpfL4KOE/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpfL4KOE/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpfL4KOE/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpfL4KOE/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpfL4KOE/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpfL4KOE/benchscript.jl:32
+WARNING: importing deprecated binding Base.repmat into Simplex.
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpfL4KOE/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpfL4KOE/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpfL4KOE/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpfL4KOE/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpfL4KOE/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpfL4KOE/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpfL4KOE/benchscript.jl:32
+in perf_simplex at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/problem/Simplex.jl
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpfL4KOE/benchscript.jl:32
+in perf_simplex at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/problem/Simplex.jl
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpfL4KOE/benchscript.jl:32
+in perf_simplex at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/problem/Simplex.jl
