@@ -1,0 +1,4 @@
+/home/nanosoldier/workdir/tmpT74Pzc/contrib/install.sh 755 /home/nanosoldier/workdir/tmpT74Pzc/contrib/julia-config.jl /home/nanosoldier/workdir/tmpT74Pzc/usr/share/julia/
+Creating usr/etc/julia/juliarc.jl
+Copying in usr/share/doc/julia/examples
+Copying in usr/share/man/man1/julia.1
