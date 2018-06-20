@@ -1,0 +1,136 @@
+WARNING: Broadcast.broadcast_indices is deprecated, use broadcast_axes instead.
+  likely near /home/nanosoldier/.julia/packages/Nullables/sjCf/src/nullable.jl:414
+
+signal (11): Segmentation fault
+in expression starting at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:136
+gc_get_stack_addr at /home/nanosoldier/workdir/tmpi943ql/src/gc.c:1350 [inlined]
+gc_read_stack at /home/nanosoldier/workdir/tmpi943ql/src/gc.c:1358 [inlined]
+gc_mark_loop at /home/nanosoldier/workdir/tmpi943ql/src/gc.c:1858
+_jl_gc_collect at /home/nanosoldier/workdir/tmpi943ql/src/gc.c:2468
+jl_gc_collect at /home/nanosoldier/workdir/tmpi943ql/src/gc.c:2633
+jl_gc_pool_alloc at /home/nanosoldier/workdir/tmpi943ql/src/gc.c:953
+jl_gc_alloc_ at /home/nanosoldier/workdir/tmpi943ql/src/julia_internal.h:274 [inlined]
+jl_new_uninitialized_datatype at /home/nanosoldier/workdir/tmpi943ql/src/datatype.c:79
+inst_datatype_inner at /home/nanosoldier/workdir/tmpi943ql/src/jltypes.c:1196
+inst_datatype_env at /home/nanosoldier/workdir/tmpi943ql/src/jltypes.c:1309 [inlined]
+inst_datatype_env at /home/nanosoldier/workdir/tmpi943ql/src/jltypes.c:1313 [inlined]
+inst_datatype_env at /home/nanosoldier/workdir/tmpi943ql/src/jltypes.c:1313
+inst_datatype at /home/nanosoldier/workdir/tmpi943ql/src/jltypes.c:1319 [inlined]
+inst_type_w_ at /home/nanosoldier/workdir/tmpi943ql/src/jltypes.c:1510
+inst_type_w_ at /home/nanosoldier/workdir/tmpi943ql/src/jltypes.c:1458
+jl_instantiate_unionall at /home/nanosoldier/workdir/tmpi943ql/src/jltypes.c:940
+jl_wrap_vararg at /home/nanosoldier/workdir/tmpi943ql/src/jltypes.c:1563
+jl_compilation_sig at /home/nanosoldier/workdir/tmpi943ql/src/gf.c:750
+jl_compilation_sig at /home/nanosoldier/workdir/tmpi943ql/src/gf.c:1045 [inlined]
+cache_method at /home/nanosoldier/workdir/tmpi943ql/src/gf.c:948
+jl_mt_assoc_by_type at /home/nanosoldier/workdir/tmpi943ql/src/gf.c:1108
+jl_apply_generic at /home/nanosoldier/workdir/tmpi943ql/src/gf.c:2111
+jl_apply at /home/nanosoldier/workdir/tmpi943ql/src/julia.h:1537 [inlined]
+jl_f__apply at /home/nanosoldier/workdir/tmpi943ql/src/builtins.c:561
+ir_inline_item! at ./compiler/ssair/inlining2.jl:283
+batch_inline! at ./compiler/ssair/inlining2.jl:511
+ssa_inlining_pass! at ./compiler/ssair/inlining2.jl:63 [inlined]
+run_passes at ./compiler/ssair/driver.jl:123
+optimize at ./compiler/optimize.jl:146
+typeinf at ./compiler/typeinfer.jl:35
+typeinf_edge at ./compiler/typeinfer.jl:549
+abstract_call_method at ./compiler/abstractinterpretation.jl:303
+abstract_call_gf_by_type at ./compiler/abstractinterpretation.jl:78
+abstract_call at ./compiler/abstractinterpretation.jl:709
+abstract_eval_call at ./compiler/abstractinterpretation.jl:738
+abstract_eval at ./compiler/abstractinterpretation.jl:825
+typeinf_local at ./compiler/abstractinterpretation.jl:1049
+typeinf_nocycle at ./compiler/abstractinterpretation.jl:1105
+typeinf at ./compiler/typeinfer.jl:15
+typeinf_edge at ./compiler/typeinfer.jl:549
+abstract_call_method at ./compiler/abstractinterpretation.jl:303
+abstract_call_gf_by_type at ./compiler/abstractinterpretation.jl:78
+abstract_call at ./compiler/abstractinterpretation.jl:709
+abstract_eval_call at ./compiler/abstractinterpretation.jl:738
+abstract_eval at ./compiler/abstractinterpretation.jl:825
+typeinf_local at ./compiler/abstractinterpretation.jl:1049
+typeinf_nocycle at ./compiler/abstractinterpretation.jl:1105
+typeinf at ./compiler/typeinfer.jl:15
+typeinf_ext at ./compiler/typeinfer.jl:669
+jfptr_typeinf_ext_12 at /home/nanosoldier/workdir/tmpi943ql/usr/lib/julia/sys.so (unknown line)
+jl_apply_generic at /home/nanosoldier/workdir/tmpi943ql/src/gf.c:2142
+jl_apply at /home/nanosoldier/workdir/tmpi943ql/src/julia.h:1537 [inlined]
+jl_apply_with_saved_exception_state at /home/nanosoldier/workdir/tmpi943ql/src/rtutils.c:257
+jl_type_infer at /home/nanosoldier/workdir/tmpi943ql/src/gf.c:274
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpi943ql/src/toplevel.c:805
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpi943ql/src/ast.c:854
+jl_load at /home/nanosoldier/workdir/tmpi943ql/src/toplevel.c:848
+include at ./boot.jl:317 [inlined]
+include_relative at ./loading.jl:1075
+include at ./sysimg.jl:29 [inlined]
+include at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/BenchmarkTools.jl:3
+jl_apply_generic at /home/nanosoldier/workdir/tmpi943ql/src/gf.c:2142
+do_call at /home/nanosoldier/workdir/tmpi943ql/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpi943ql/src/interpreter.c:409
+eval_stmt_value at /home/nanosoldier/workdir/tmpi943ql/src/interpreter.c:363 [inlined]
+eval_body at /home/nanosoldier/workdir/tmpi943ql/src/interpreter.c:671
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpi943ql/src/interpreter.c:788
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe7e9d02f)
+unknown function (ip: 0xffffffffffffffff)
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpi943ql/src/interpreter.c:797
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpi943ql/src/toplevel.c:814
+jl_eval_module_expr at /home/nanosoldier/workdir/tmpi943ql/src/toplevel.c:233
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpi943ql/src/toplevel.c:605
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpi943ql/src/ast.c:854
+jl_load at /home/nanosoldier/workdir/tmpi943ql/src/toplevel.c:848
+include at ./boot.jl:317 [inlined]
+include_relative at ./loading.jl:1075
+include at ./sysimg.jl:29
+jl_apply_generic at /home/nanosoldier/workdir/tmpi943ql/src/gf.c:2142
+do_call at /home/nanosoldier/workdir/tmpi943ql/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpi943ql/src/interpreter.c:409
+eval_stmt_value at /home/nanosoldier/workdir/tmpi943ql/src/interpreter.c:363 [inlined]
+eval_body at /home/nanosoldier/workdir/tmpi943ql/src/interpreter.c:671
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpi943ql/src/interpreter.c:788
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffe6e936cf)
+unknown function (ip: 0x1)
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpi943ql/src/interpreter.c:797
+jl_toplevel_eval at /home/nanosoldier/workdir/tmpi943ql/src/toplevel.c:814
+jl_toplevel_eval_in at /home/nanosoldier/workdir/tmpi943ql/src/builtins.c:631
+eval at ./boot.jl:319 [inlined]
+eval at ./client.jl:394
+jl_apply_generic at /home/nanosoldier/workdir/tmpi943ql/src/gf.c:2142
+top-level scope at ./none:3 [inlined]
+top-level scope at ./<missing>:0
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpi943ql/src/gf.c:1813
+jl_toplevel_eval at /home/nanosoldier/workdir/tmpi943ql/src/toplevel.c:808
+jl_toplevel_eval_in at /home/nanosoldier/workdir/tmpi943ql/src/builtins.c:631
+eval at ./boot.jl:319
+jl_apply_generic at /home/nanosoldier/workdir/tmpi943ql/src/gf.c:2142
+exec_options at ./client.jl:243
+_start at ./client.jl:427
+jl_apply_generic at /home/nanosoldier/workdir/tmpi943ql/src/gf.c:2142
+jl_apply at /home/nanosoldier/workdir/tmpi943ql/ui/../src/julia.h:1537 [inlined]
+true_main at /home/nanosoldier/workdir/tmpi943ql/ui/repl.c:112
+main at /home/nanosoldier/workdir/tmpi943ql/ui/repl.c:243
+__libc_start_main at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+_start at /home/nanosoldier/workdir/tmpi943ql/usr/bin/julia (unknown line)
+Allocations: 3827395 (Pool: 3826589; Big: 806); GC: 7
+ERROR: LoadError: LoadError: Failed to precompile BenchmarkTools to /home/nanosoldier/.julia/compiled/v0.7/BenchmarkTools/ZXPQ.ji.
+Stacktrace:
+ [1] error at ./error.jl:33 [inlined]
+ [2] compilecache(::Base.PkgId) at ./loading.jl:1205
+ [3] _require(::Base.PkgId) at ./loading.jl:979
+ [4] require(::Base.PkgId) at ./loading.jl:879
+ [5] require(::Module, ::Symbol) at ./loading.jl:874
+ [6] include at ./boot.jl:317 [inlined]
+ [7] include_relative(::Module, ::String) at ./loading.jl:1075
+ [8] _require(::Base.PkgId) at ./loading.jl:998
+ [9] require(::Base.PkgId) at ./loading.jl:879
+ [10] require(::Module, ::Symbol) at ./loading.jl:874
+ [11] include at ./boot.jl:317 [inlined]
+ [12] include_relative(::Module, ::String) at ./loading.jl:1075
+ [13] include(::Module, ::String) at ./sysimg.jl:29
+ [14] macro expansion at ./task.jl:244 [inlined]
+ [15] macro expansion at ./task.jl:242 [inlined]
+ [16] exec_options(::Base.JLOptions) at ./client.jl:251
+ [17] _start() at ./client.jl:427
+in expression starting at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:3
+in expression starting at /home/nanosoldier/workdir/tmpi943ql/benchscript.jl:21
