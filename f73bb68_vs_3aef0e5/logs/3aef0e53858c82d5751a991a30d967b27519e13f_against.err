@@ -1,0 +1,217 @@
+WARNING: Broadcast.broadcast_indices is deprecated, use broadcast_axes instead.
+  likely near /home/nanosoldier/.julia/packages/Nullables/sjCf/src/nullable.jl:414
+
+signal (11): Segmentation fault
+in expression starting at /home/nanosoldier/workdir/tmpTDDHwp/benchscript.jl:32
+gc_get_stack_addr at /home/nanosoldier/workdir/tmpTDDHwp/src/gc.c:1350 [inlined]
+gc_read_stack at /home/nanosoldier/workdir/tmpTDDHwp/src/gc.c:1358 [inlined]
+gc_mark_loop at /home/nanosoldier/workdir/tmpTDDHwp/src/gc.c:1858
+_jl_gc_collect at /home/nanosoldier/workdir/tmpTDDHwp/src/gc.c:2468
+jl_gc_collect at /home/nanosoldier/workdir/tmpTDDHwp/src/gc.c:2633
+jl_gc_pool_alloc at /home/nanosoldier/workdir/tmpTDDHwp/src/gc.c:953
+jl_gc_alloc_ at /home/nanosoldier/workdir/tmpTDDHwp/src/julia_internal.h:274 [inlined]
+jl_new_uninitialized_datatype at /home/nanosoldier/workdir/tmpTDDHwp/src/datatype.c:79
+inst_datatype_inner at /home/nanosoldier/workdir/tmpTDDHwp/src/jltypes.c:1196
+inst_datatype_env at /home/nanosoldier/workdir/tmpTDDHwp/src/jltypes.c:1309 [inlined]
+inst_datatype_env at /home/nanosoldier/workdir/tmpTDDHwp/src/jltypes.c:1313 [inlined]
+inst_datatype_env at /home/nanosoldier/workdir/tmpTDDHwp/src/jltypes.c:1313
+inst_datatype at /home/nanosoldier/workdir/tmpTDDHwp/src/jltypes.c:1319 [inlined]
+inst_type_w_ at /home/nanosoldier/workdir/tmpTDDHwp/src/jltypes.c:1510
+inst_type_w_ at /home/nanosoldier/workdir/tmpTDDHwp/src/jltypes.c:1458
+jl_instantiate_unionall at /home/nanosoldier/workdir/tmpTDDHwp/src/jltypes.c:940
+jl_wrap_vararg at /home/nanosoldier/workdir/tmpTDDHwp/src/jltypes.c:1563
+jl_compilation_sig at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:750
+jl_compilation_sig at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:1888 [inlined]
+jl_get_specialization1 at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:1889 [inlined]
+jl_get_spec_lambda at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:1932
+_spec_lambda at ./compiler/ssair/inlining2.jl:541 [inlined]
+spec_lambda at ./compiler/ssair/inlining2.jl:551
+analyze_method! at ./compiler/ssair/inlining2.jl:640
+jfptr_analyze_method!_2377 at /home/nanosoldier/workdir/tmpTDDHwp/usr/lib/julia/sys.so (unknown line)
+jl_apply_generic at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:2142
+assemble_inline_todo! at ./compiler/ssair/inlining2.jl:897
+ssa_inlining_pass! at ./compiler/ssair/inlining2.jl:60 [inlined]
+run_passes at ./compiler/ssair/driver.jl:123
+optimize at ./compiler/optimize.jl:146
+typeinf at ./compiler/typeinfer.jl:35
+typeinf_edge at ./compiler/typeinfer.jl:549
+abstract_call_method at ./compiler/abstractinterpretation.jl:303
+abstract_call_gf_by_type at ./compiler/abstractinterpretation.jl:78
+abstract_call at ./compiler/abstractinterpretation.jl:709
+abstract_eval_call at ./compiler/abstractinterpretation.jl:738
+abstract_eval at ./compiler/abstractinterpretation.jl:825
+typeinf_local at ./compiler/abstractinterpretation.jl:1049
+typeinf_nocycle at ./compiler/abstractinterpretation.jl:1105
+typeinf at ./compiler/typeinfer.jl:15
+typeinf_edge at ./compiler/typeinfer.jl:549
+abstract_call_method at ./compiler/abstractinterpretation.jl:303
+abstract_call_gf_by_type at ./compiler/abstractinterpretation.jl:78
+abstract_call at ./compiler/abstractinterpretation.jl:709
+abstract_eval_call at ./compiler/abstractinterpretation.jl:738
+abstract_eval at ./compiler/abstractinterpretation.jl:825
+typeinf_local at ./compiler/abstractinterpretation.jl:1049
+typeinf_nocycle at ./compiler/abstractinterpretation.jl:1105
+typeinf at ./compiler/typeinfer.jl:15
+typeinf_edge at ./compiler/typeinfer.jl:549
+abstract_call_method at ./compiler/abstractinterpretation.jl:303
+abstract_call_gf_by_type at ./compiler/abstractinterpretation.jl:78
+abstract_call at ./compiler/abstractinterpretation.jl:709
+jl_apply_generic at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:2142
+abstract_apply at ./compiler/abstractinterpretation.jl:443
+abstract_call at ./compiler/abstractinterpretation.jl:492
+abstract_eval_call at ./compiler/abstractinterpretation.jl:738
+abstract_eval at ./compiler/abstractinterpretation.jl:825
+typeinf_local at ./compiler/abstractinterpretation.jl:1049
+typeinf_nocycle at ./compiler/abstractinterpretation.jl:1105
+typeinf at ./compiler/typeinfer.jl:15
+typeinf_edge at ./compiler/typeinfer.jl:549
+abstract_call_method at ./compiler/abstractinterpretation.jl:303
+abstract_call_gf_by_type at ./compiler/abstractinterpretation.jl:78
+abstract_call at ./compiler/abstractinterpretation.jl:709
+jl_apply_generic at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:2142
+abstract_apply at ./compiler/abstractinterpretation.jl:443
+abstract_call at ./compiler/abstractinterpretation.jl:492
+abstract_eval_call at ./compiler/abstractinterpretation.jl:738
+abstract_eval at ./compiler/abstractinterpretation.jl:825
+typeinf_local at ./compiler/abstractinterpretation.jl:1049
+typeinf_nocycle at ./compiler/abstractinterpretation.jl:1105
+typeinf at ./compiler/typeinfer.jl:15
+typeinf_edge at ./compiler/typeinfer.jl:549
+abstract_call_method at ./compiler/abstractinterpretation.jl:303
+abstract_call_gf_by_type at ./compiler/abstractinterpretation.jl:78
+abstract_call at ./compiler/abstractinterpretation.jl:709
+abstract_eval_call at ./compiler/abstractinterpretation.jl:738
+abstract_eval at ./compiler/abstractinterpretation.jl:825
+typeinf_local at ./compiler/abstractinterpretation.jl:1049
+typeinf_nocycle at ./compiler/abstractinterpretation.jl:1105
+typeinf at ./compiler/typeinfer.jl:15
+typeinf_edge at ./compiler/typeinfer.jl:549
+abstract_call_method at ./compiler/abstractinterpretation.jl:303
+abstract_call_gf_by_type at ./compiler/abstractinterpretation.jl:78
+abstract_call at ./compiler/abstractinterpretation.jl:709
+abstract_eval_call at ./compiler/abstractinterpretation.jl:738
+abstract_eval at ./compiler/abstractinterpretation.jl:825
+typeinf_local at ./compiler/abstractinterpretation.jl:1049
+typeinf_nocycle at ./compiler/abstractinterpretation.jl:1105
+typeinf at ./compiler/typeinfer.jl:15
+typeinf_edge at ./compiler/typeinfer.jl:549
+abstract_call_method at ./compiler/abstractinterpretation.jl:303
+abstract_call_gf_by_type at ./compiler/abstractinterpretation.jl:78
+abstract_call at ./compiler/abstractinterpretation.jl:709
+abstract_eval_call at ./compiler/abstractinterpretation.jl:738
+abstract_eval at ./compiler/abstractinterpretation.jl:825
+typeinf_local at ./compiler/abstractinterpretation.jl:1049
+typeinf_nocycle at ./compiler/abstractinterpretation.jl:1105
+typeinf at ./compiler/typeinfer.jl:15
+typeinf_edge at ./compiler/typeinfer.jl:549
+abstract_call_method at ./compiler/abstractinterpretation.jl:303
+abstract_call_gf_by_type at ./compiler/abstractinterpretation.jl:78
+abstract_call at ./compiler/abstractinterpretation.jl:709
+abstract_eval_call at ./compiler/abstractinterpretation.jl:738
+abstract_eval at ./compiler/abstractinterpretation.jl:825
+typeinf_local at ./compiler/abstractinterpretation.jl:1049
+typeinf_nocycle at ./compiler/abstractinterpretation.jl:1105
+typeinf at ./compiler/typeinfer.jl:15
+typeinf_edge at ./compiler/typeinfer.jl:549
+abstract_call_method at ./compiler/abstractinterpretation.jl:303
+abstract_call_gf_by_type at ./compiler/abstractinterpretation.jl:78
+abstract_call at ./compiler/abstractinterpretation.jl:709
+abstract_eval_call at ./compiler/abstractinterpretation.jl:738
+abstract_eval at ./compiler/abstractinterpretation.jl:825
+typeinf_local at ./compiler/abstractinterpretation.jl:1035
+typeinf_nocycle at ./compiler/abstractinterpretation.jl:1105
+typeinf at ./compiler/typeinfer.jl:15
+typeinf_edge at ./compiler/typeinfer.jl:549
+abstract_call_method at ./compiler/abstractinterpretation.jl:303
+abstract_call_gf_by_type at ./compiler/abstractinterpretation.jl:78
+abstract_call at ./compiler/abstractinterpretation.jl:709
+abstract_eval_call at ./compiler/abstractinterpretation.jl:738
+abstract_eval at ./compiler/abstractinterpretation.jl:825
+typeinf_local at ./compiler/abstractinterpretation.jl:1035
+typeinf_nocycle at ./compiler/abstractinterpretation.jl:1105
+typeinf at ./compiler/typeinfer.jl:15
+typeinf_edge at ./compiler/typeinfer.jl:549
+abstract_call_method at ./compiler/abstractinterpretation.jl:303
+abstract_call_gf_by_type at ./compiler/abstractinterpretation.jl:78
+abstract_call at ./compiler/abstractinterpretation.jl:709
+abstract_eval_call at ./compiler/abstractinterpretation.jl:738
+abstract_eval at ./compiler/abstractinterpretation.jl:825
+typeinf_local at ./compiler/abstractinterpretation.jl:1049
+typeinf_nocycle at ./compiler/abstractinterpretation.jl:1105
+typeinf at ./compiler/typeinfer.jl:15
+typeinf_edge at ./compiler/typeinfer.jl:549
+abstract_call_method at ./compiler/abstractinterpretation.jl:303
+abstract_call_gf_by_type at ./compiler/abstractinterpretation.jl:78
+abstract_call at ./compiler/abstractinterpretation.jl:709
+jl_apply_generic at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:2142
+abstract_apply at ./compiler/abstractinterpretation.jl:443
+abstract_call at ./compiler/abstractinterpretation.jl:492
+abstract_eval_call at ./compiler/abstractinterpretation.jl:738
+abstract_eval at ./compiler/abstractinterpretation.jl:825
+typeinf_local at ./compiler/abstractinterpretation.jl:1049
+typeinf_nocycle at ./compiler/abstractinterpretation.jl:1105
+typeinf at ./compiler/typeinfer.jl:15
+typeinf_ext at ./compiler/typeinfer.jl:625
+typeinf_ext at ./compiler/typeinfer.jl:662
+jfptr_typeinf_ext_12 at /home/nanosoldier/workdir/tmpTDDHwp/usr/lib/julia/sys.so (unknown line)
+jl_apply_generic at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:2142
+jl_apply at /home/nanosoldier/workdir/tmpTDDHwp/src/julia.h:1537 [inlined]
+jl_apply_with_saved_exception_state at /home/nanosoldier/workdir/tmpTDDHwp/src/rtutils.c:257
+jl_type_infer at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:274
+jl_compile_method_internal at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:1768 [inlined]
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:1812
+jl_apply_generic at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:2142
+jl_apply at /home/nanosoldier/workdir/tmpTDDHwp/src/julia.h:1537 [inlined]
+jl_f__apply at /home/nanosoldier/workdir/tmpTDDHwp/src/builtins.c:561
+jl_f__apply_latest at /home/nanosoldier/workdir/tmpTDDHwp/src/builtins.c:599
+#invokelatest#1 at ./essentials.jl:674 [inlined]
+#invokelatest at ./none:0 [inlined]
+#run_result#18 at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:37 [inlined]
+#run_result at ./none:0 [inlined]
+#run#22 at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:67
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:1813
+jl_apply_generic at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:2142
+#run at ./none:0 [inlined]
+#run at ./none:0
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:1813
+jl_apply_generic at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:2142
+#run#23 at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:214
+#run at ./none:0
+#run#23 at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:214
+#run at ./none:0
+#run#23 at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:214
+unknown function (ip: 0x7fffc88a8467)
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:1813
+jl_apply_generic at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:2142
+#run at ./none:0 [inlined]
+#warmup#25 at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:100 [inlined]
+warmup at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:100
+jl_fptr_trampoline at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:1813
+jl_apply_generic at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:2142
+do_call at /home/nanosoldier/workdir/tmpTDDHwp/src/interpreter.c:324
+eval_value at /home/nanosoldier/workdir/tmpTDDHwp/src/interpreter.c:409
+eval_stmt_value at /home/nanosoldier/workdir/tmpTDDHwp/src/interpreter.c:363 [inlined]
+eval_body at /home/nanosoldier/workdir/tmpTDDHwp/src/interpreter.c:671
+jl_interpret_toplevel_thunk_callback at /home/nanosoldier/workdir/tmpTDDHwp/src/interpreter.c:788
+unknown function (ip: 0xfffffffffffffffe)
+unknown function (ip: 0x7fffc3e3950f)
+unknown function (ip: 0xffffffffffffffff)
+jl_interpret_toplevel_thunk at /home/nanosoldier/workdir/tmpTDDHwp/src/interpreter.c:797
+jl_toplevel_eval_flex at /home/nanosoldier/workdir/tmpTDDHwp/src/toplevel.c:814
+jl_parse_eval_all at /home/nanosoldier/workdir/tmpTDDHwp/src/ast.c:854
+jl_load at /home/nanosoldier/workdir/tmpTDDHwp/src/toplevel.c:848
+include at ./boot.jl:317 [inlined]
+include_relative at ./loading.jl:1075
+include at ./sysimg.jl:29
+jl_apply_generic at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:2142
+macro expansion at ./task.jl:244 [inlined]
+macro expansion at ./task.jl:242 [inlined]
+exec_options at ./client.jl:251
+_start at ./client.jl:427
+jl_apply_generic at /home/nanosoldier/workdir/tmpTDDHwp/src/gf.c:2142
+jl_apply at /home/nanosoldier/workdir/tmpTDDHwp/ui/../src/julia.h:1537 [inlined]
+true_main at /home/nanosoldier/workdir/tmpTDDHwp/ui/repl.c:112
+main at /home/nanosoldier/workdir/tmpTDDHwp/ui/repl.c:243
+__libc_start_main at /lib/x86_64-linux-gnu/libc.so.6 (unknown line)
+_start at /home/nanosoldier/workdir/tmpTDDHwp/julia (unknown line)
+Allocations: 357792807 (Pool: 354772187; Big: 3020620); GC: 1772
