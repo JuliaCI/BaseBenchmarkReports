@@ -1,0 +1,21 @@
+cset: moving following pidspec: 31197
+cset: moving 1 userspace tasks to /user/child
+cset: done
+LOADING SUITE...
+loading group "shootout"... done (took 1.874125907 seconds)
+loading group "string"... done (took 0.581357158 seconds)
+loading group "linalg"... done (took 8.926012864 seconds)
+loading group "parallel"... done (took 0.170832576 seconds)
+loading group "find"... done (took 1.419042881 seconds)
+loading group "tuple"... done (took 2.103079137 seconds)
+loading group "dates"... done (took 1.380184034 seconds)
+loading group "micro"... done (took 0.219975107 seconds)
+loading group "io"... done (took 0.612323726 seconds)
+loading group "scalar"... done (took 43.58586248 seconds)
+loading group "sparse"... done (took 13.539414754 seconds)
+loading group "broadcast"... done (took 1.097695468 seconds)
+loading group "union"... done (took 12.532730683 seconds)
+loading group "simd"... done (took 2.576237158 seconds)
+loading group "random"... done (took 10.326690971 seconds)
+loading group "problem"... done (took 1834.681420679 seconds)
+loading group "array"... 
