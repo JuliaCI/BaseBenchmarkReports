@@ -1,0 +1,21 @@
+WARNING: Broadcast.broadcast_indices is deprecated, use broadcast_axes instead.
+  likely near /home/nanosoldier/.julia/packages/Nullables/sjCf/src/nullable.jl:414
+ERROR: LoadError: LoadError: LoadError: UndefVarError: isvatuple not defined
+Stacktrace:
+ [1] Base.IteratorSize(::Type{Base.Iterators.ProductIterator{Tuple{UnitRange{Int64},UnitRange{Int64}}}}) at ./iterators.jl:753
+ [2] Type at ./generator.jl:89 [inlined]
+ [3] hcat(::Int64, ::Int64) at ./abstractarray.jl:1203
+ [4] top-level scope at none:0
+ [5] include at ./boot.jl:317 [inlined]
+ [6] include_relative(::Module, ::String) at ./loading.jl:1075
+ [7] include at ./sysimg.jl:29 [inlined]
+ [8] include(::String) at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/array/ArrayBenchmarks.jl:1
+ [9] top-level scope at none:0
+ [10] include at ./boot.jl:317 [inlined]
+ [11] include_relative(::Module, ::String) at ./loading.jl:1075
+ [12] include at ./sysimg.jl:29 [inlined]
+ [13] include(::String) at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:1
+ [14] top-level scope at none:0
+in expression starting at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/array/sumindex.jl:280
+in expression starting at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/array/ArrayBenchmarks.jl:44
+in expression starting at /home/nanosoldier/workdir/tmp8BbToi/benchscript.jl:26
