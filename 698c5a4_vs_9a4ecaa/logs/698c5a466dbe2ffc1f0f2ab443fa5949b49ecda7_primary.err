@@ -1,0 +1,139 @@
+WARNING: Broadcast.broadcast_indices is deprecated, use broadcast_axes instead.
+  likely near /home/nanosoldier/.julia/packages/Nullables/sjCf/src/nullable.jl:414
+WARNING: Base.median is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/trials.jl:121
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/trials.jl:122
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/groups.jl:79
+WARNING: Base.median is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/groups.jl:80
+WARNING: importing deprecated binding Base.mean into ArrayBenchmarks.
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/array/ArrayBenchmarks.jl:23
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/array/ArrayBenchmarks.jl:23
+WARNING: importing deprecated binding LinearAlgebra.trace into MicroBenchmarks.
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: importing deprecated binding Base.mean into MicroBenchmarks.
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: LinearAlgebra.trace is deprecated, use tr instead.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: importing deprecated binding Base.mean into IMDBGraphs.
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: importing deprecated binding Base.mean into MonteCarlo.
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: importing deprecated binding Base.repmat into Simplex.
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+in perf_simplex at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/problem/Simplex.jl
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+in perf_simplex at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/problem/Simplex.jl
+WARNING: Base.repmat is deprecated, use repeat instead.
+  likely near /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
+in perf_simplex at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/problem/Simplex.jl
+ERROR: LoadError: UndefVarError: dims not defined
+Stacktrace:
+ [1] mapreduce(::Function, ::Function, ::Float64, ::Array{Float64,1}) at ./deprecated.jl:54
+ [2] perf_mapreduce at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/array/ArrayBenchmarks.jl:22 [inlined]
+ [3] ##core#10203(::typeof(BaseBenchmarks.ArrayBenchmarks.perf_mapreduce), ::Array{Float64,1}) at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:316
+ [4] ##sample#10204(::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:322
+ [5] #_run#13(::Bool, ::String, ::Base.Iterators.Pairs{Symbol,Integer,NTuple{4,Symbol},NamedTuple{(:samples, :evals, :gctrial, :gcsample),Tuple{Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10202")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:350
+ [6] #_run at ./none:0 [inlined]
+ [7] (::getfield(Base, Symbol("#inner#2")){Base.Iterators.Pairs{Symbol,Any,NTuple{6,Symbol},NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}},typeof(BenchmarkTools._run),Tuple{BenchmarkTools.Benchmark{Symbol("##benchmark#10202")},BenchmarkTools.Parameters}})() at ./essentials.jl:663
+ [8] #invokelatest#1(::Base.Iterators.Pairs{Symbol,Any,NTuple{6,Symbol},NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}}, ::Function, ::Any, ::Any, ::Vararg{Any,N} where N) at ./essentials.jl:664
+ [9] (::getfield(Base, Symbol("#kw##invokelatest")))(::NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}, ::typeof(Base.invokelatest), ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10202")}, ::Vararg{Any,N} where N) at ./none:0
+ [10] #run_result#18 at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:37 [inlined]
+ [11] #run_result at ./none:0 [inlined]
+ [12] #run#22(::Base.Iterators.Pairs{Symbol,Any,NTuple{6,Symbol},NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkTools.Benchmark{Symbol("##benchmark#10202")}, ::BenchmarkTools.Parameters) at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:67
+ [13] #run at ./none:0 [inlined] (repeats 2 times)
+ [14] #run#23(::Bool, ::String, ::Base.Iterators.Pairs{Symbol,Integer,NTuple{4,Symbol},NamedTuple{(:samples, :evals, :gctrial, :gcsample),Tuple{Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:214
+ [15] (::getfield(Base, Symbol("#kw##run")))(::NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}, ::typeof(run), ::BenchmarkGroup) at ./none:0
+ [16] #run#23(::Bool, ::String, ::Base.Iterators.Pairs{Symbol,Integer,NTuple{4,Symbol},NamedTuple{(:samples, :evals, :gctrial, :gcsample),Tuple{Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:214
+ [17] (::getfield(Base, Symbol("#kw##run")))(::NamedTuple{(:verbose, :pad, :samples, :evals, :gctrial, :gcsample),Tuple{Bool,String,Int64,Int64,Bool,Bool}}, ::typeof(run), ::BenchmarkGroup) at ./none:0
+ [18] #run#23(::Bool, ::String, ::Base.Iterators.Pairs{Symbol,Integer,NTuple{4,Symbol},NamedTuple{(:samples, :evals, :gctrial, :gcsample),Tuple{Int64,Int64,Bool,Bool}}}, ::Function, ::BenchmarkGroup) at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:214
+ [19] #run at ./none:0 [inlined]
+ [20] #warmup#25 at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:100 [inlined]
+ [21] warmup(::BenchmarkGroup) at /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/execution.jl:100
+ [22] top-level scope at none:0
+ [23] include at ./boot.jl:317 [inlined]
+ [24] include_relative(::Module, ::String) at ./loading.jl:1034
+ [25] include(::Module, ::String) at ./sysimg.jl:29
+ [26] macro expansion at ./task.jl:244 [inlined]
+ [27] macro expansion at ./task.jl:242 [inlined]
+ [28] exec_options(::Base.JLOptions) at ./client.jl:251
+ [29] _start() at ./client.jl:427
+in expression starting at /home/nanosoldier/workdir/tmpbXMYOk/benchscript.jl:32
