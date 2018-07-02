@@ -1,0 +1,37 @@
+cset: moving following pidspec: 2096
+cset: moving 1 userspace tasks to /user/child
+cset: done
+LOADING SUITE...
+loading group "shootout"... done (took 1.852932351 seconds)
+loading group "string"... done (took 0.509870677 seconds)
+loading group "linalg"... done (took 8.387247482 seconds)
+loading group "parallel"... done (took 0.173358265 seconds)
+loading group "find"... done (took 1.299335297 seconds)
+loading group "tuple"... done (took 2.098998568 seconds)
+loading group "dates"... done (took 1.257500487 seconds)
+loading group "micro"... done (took 0.197966102 seconds)
+loading group "io"... done (took 0.665084719 seconds)
+loading group "scalar"... done (took 40.596718111 seconds)
+loading group "sparse"... done (took 12.926722189 seconds)
+loading group "broadcast"... done (took 1.205071859 seconds)
+loading group "union"... done (took 14.023386781 seconds)
+loading group "simd"... done (took 5.087040418 seconds)
+loading group "random"... done (took 10.175319246 seconds)
+loading group "problem"... done (took 2.174495192 seconds)
+loading group "array"... done (took 25.924854378 seconds)
+loading group "misc"... done (took 1.185324703 seconds)
+loading group "sort"... done (took 3.559820645 seconds)
+loading group "collection"... done (took 22.051483964 seconds)
+FILTERING SUITE...
+WARMING UP BENCHMARKS...
+(1/1) benchmarking "string"...
+  (1/1) benchmarking "join"...
+  done (took 0.518509461 seconds)
+done (took 1.192705941 seconds)
+RUNNING BENCHMARKS...
+(1/1) benchmarking "string"...
+  (1/1) benchmarking "join"...
+  done (took 1.691305196 seconds)
+done (took 2.308488496 seconds)
+SAVING RESULT...
+DONE!
