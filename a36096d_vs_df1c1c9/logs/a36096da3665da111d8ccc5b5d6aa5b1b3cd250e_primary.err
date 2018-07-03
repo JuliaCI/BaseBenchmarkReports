@@ -1,0 +1,28 @@
+WARNING: Base.median is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/trials.jl:121
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/trials.jl:122
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/groups.jl:79
+WARNING: Base.median is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/groups.jl:80
+ERROR: LoadError: LoadError: ArgumentError: Package BaseBenchmarks does not have Statistics in its dependencies:
+ - If you have BaseBenchmarks checked out for development and have
+   added Statistics as a dependency but haven't updated your primary
+   environment's manifest file, try `Pkg.resolve()`.
+ - Otherwise you may need to report an issue with BaseBenchmarks.
+
+Stacktrace:
+ [1] require(::Module, ::Symbol) at ./loading.jl:821
+ [2] top-level scope at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/micro/MicroBenchmarks.jl:9
+ [3] include at ./boot.jl:317 [inlined]
+ [4] include_relative(::Module, ::String) at ./loading.jl:1034
+ [5] include at ./sysimg.jl:29 [inlined]
+ [6] include(::String) at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/BaseBenchmarks.jl:1
+ [7] top-level scope at none:0
+in expression starting at /home/nanosoldier/.julia/dev/BaseBenchmarks/src/micro/MicroBenchmarks.jl:8
+in expression starting at /home/nanosoldier/workdir/tmpzrZb9d/benchscript.jl:26
