@@ -1,0 +1,2168 @@
+/home/nanosoldier/workdir/tmp4fIcap/contrib/install.sh 755 /home/nanosoldier/workdir/tmp4fIcap/contrib/julia-config.jl /home/nanosoldier/workdir/tmp4fIcap/usr/share/julia/
+Creating usr/etc/julia/startup.jl
+Copying in usr/share/man/man1/julia.1
+patching file dSFMT.h
+Hunk #2 succeeded at 181 (offset 2 lines).
+Hunk #3 succeeded at 202 (offset 2 lines).
+Hunk #4 succeeded at 220 (offset 2 lines).
+Hunk #5 succeeded at 244 (offset 2 lines).
+Hunk #6 succeeded at 265 (offset 2 lines).
+Hunk #7 succeeded at 284 (offset 2 lines).
+Hunk #8 succeeded at 295 (offset 2 lines).
+Hunk #9 succeeded at 307 (offset 2 lines).
+Hunk #10 succeeded at 318 (offset 2 lines).
+Hunk #11 succeeded at 330 (offset 2 lines).
+Hunk #12 succeeded at 341 (offset 2 lines).
+Hunk #13 succeeded at 353 (offset 2 lines).
+Hunk #14 succeeded at 376 (offset 2 lines).
+Hunk #15 succeeded at 391 (offset 2 lines).
+Hunk #16 succeeded at 407 (offset 2 lines).
+Hunk #17 succeeded at 423 (offset 2 lines).
+Hunk #18 succeeded at 439 (offset 2 lines).
+Hunk #19 succeeded at 449 (offset 2 lines).
+Hunk #20 succeeded at 459 (offset 2 lines).
+Hunk #21 succeeded at 470 (offset 2 lines).
+Hunk #22 succeeded at 483 (offset 2 lines).
+Hunk #23 succeeded at 497 (offset 2 lines).
+Hunk #24 succeeded at 511 (offset 2 lines).
+Hunk #25 succeeded at 520 (offset 2 lines).
+Hunk #26 succeeded at 529 (offset 2 lines).
+Hunk #27 succeeded at 539 (offset 2 lines).
+Hunk #28 succeeded at 549 (offset 2 lines).
+Hunk #29 succeeded at 559 (offset 2 lines).
+Hunk #30 succeeded at 569 (offset 2 lines).
+Hunk #31 succeeded at 579 (offset 2 lines).
+Hunk #32 succeeded at 592 (offset 2 lines).
+Hunk #33 succeeded at 605 (offset 2 lines).
+Hunk #34 succeeded at 618 (offset 2 lines).
+Hunk #35 succeeded at 630 (offset 2 lines).
+patching file test.c
+patching file dSFMT.c
+patching file errno.c
+-- The C compiler identification is GNU 4.8.4
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found Perl: /usr/bin/perl (found version "5.18.2") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nanosoldier/workdir/tmp4fIcap/deps/scratch/mbedtls-2.6.0-gpl
+patching file src/crypt.c
+patching file src/libgcrypt.c
+patching file src/libssh2_priv.h
+patching file src/os400qc3.c
+patching file src/pem.c
+patching file src/wincng.c
+patching file tests/etc/user
+patching file tests/etc/user-decrypted
+patching file tests/etc/user.pub
+patching file .travis.yml
+patching file CMakeLists.txt
+patching file cmake/Modules/FindmbedTLS.cmake
+patching file script/install-deps-linux.sh
+patching file src/CMakeLists.txt
+Hunk #1 succeeded at 129 (offset -4 lines).
+Hunk #2 succeeded at 148 (offset -4 lines).
+Hunk #3 succeeded at 178 (offset -4 lines).
+Hunk #4 succeeded at 187 (offset -4 lines).
+Hunk #5 succeeded at 279 (offset -4 lines).
+patching file src/features.h.in
+patching file src/global.c
+patching file src/hash.h
+patching file src/hash/hash_mbedtls.c
+patching file src/hash/hash_mbedtls.h
+patching file src/settings.c
+patching file src/streams/mbedtls.c
+patching file src/streams/mbedtls.h
+patching file src/streams/tls.c
+patching file tests/core/stream.c
+patching file SuiteSparse_config/SuiteSparse_config.h
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for gcc... gcc -m64
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc -m64 accepts -g... yes
+checking for gcc -m64 option to accept ISO C89... none needed
+checking whether gcc -m64 understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc -m64... gcc3
+checking if gcc -m64 supports -pedantic flag... yes
+checking for gcc -m64 way to treat warnings as errors... -Werror
+checking if gcc -m64 supports -fvisibility=hidden... yes
+checking if gcc -m64 supports -g flag... yes
+checking if gcc -m64 supports -std=gnu99 flag... yes
+checking if gcc -m64 supports -Wall flag... yes
+checking if gcc -m64 supports -Wextra flag... yes
+checking if gcc -m64 supports -Wno-unused-parameter flag... yes
+checking if gcc -m64 supports -Wstrict-prototypes flag... yes
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc -m64... ld
+checking if the linker (ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 3458764513820540925
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc -m64 object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -m64 -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc -m64 supports -fno-rtti -fno-exceptions... no
+checking for gcc -m64 option to produce PIC... -fPIC -DPIC
+checking if gcc -m64 PIC flag -fPIC -DPIC works... yes
+checking if gcc -m64 static flag -static works... no
+checking if gcc -m64 supports -c -o file.o... yes
+checking if gcc -m64 supports -c -o file.o... (cached) yes
+checking whether the gcc -m64 linker (ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... patching file src/arm/Gstep.c
+patching file src/mi/Gdyn-extract.c
+no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking whether make supports nested variables... (cached) yes
+checking for dlopen in -ldl... checking for a BSD-compatible install... yes
+checking for kstat_lookup in -lkstat... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc -m64
+no
+checking for gethostbyname in -lnsl... checking whether the C compiler works... yes
+checking for perfstat_cpu in -lperfstat... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... no
+checking for pthread_mutex_init in -lpthread... 
+checking whether we are cross compiling... yes
+checking for clock_gettime in -lrt... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc -m64 accepts -g... yes
+checking for sendfile in -lsendfile... yes
+checking for gcc -m64 option to accept ISO C89... no
+checking for socket in -lsocket... none needed
+checking whether gcc -m64 understands -c and -o together... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking sys/ahafs_evProds.h usability... yes
+checking dependency style of gcc -m64... gcc3
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ -m64 accepts -g... no
+checking sys/ahafs_evProds.h presence... yes
+checking dependency style of g++ -m64... no
+checking for sys/ahafs_evProds.h... no
+checking for pkg-config... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+gcc3
+Setting page size to 4096
+checking that generated files are newer than configure... config.status: creating Makefile
+config.status: executing depfiles commands
+config.status: executing libtool commands
+done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating patchelf.spec
+config.status: executing depfiles commands
+patching file lib/MC/MCObjectFileInfo.cpp
+Hunk #1 succeeded at 289 with fuzz 1 (offset 8 lines).
+patching file test/ExecutionEngine/RuntimeDyld/AArch64/ELF_ARM64_BE-large-relocations.s
+patching file test/ExecutionEngine/RuntimeDyld/AArch64/ELF_ARM64_large-relocations.s
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking ABI=64
+checking compiler gcc -m64 -O2 -pedantic -fomit-frame-pointer -m64 ... yes
+checking compiler gcc -m64 -O2 -pedantic -fomit-frame-pointer -m64  -mtune=k8... yes
+checking compiler gcc -m64 -O2 -pedantic -fomit-frame-pointer -m64 -mtune=k8  -march=k8... yes
+checking for gcc... gcc -m64
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc -m64 accepts -g... yes
+checking for gcc -m64 option to accept ISO C89... none needed
+checking whether gcc -m64 understands -c and -o together... yes
+checking for gcc -m64 option to accept ISO C99... -std=gnu99
+checking for gcc -m64 -std=gnu99 option to accept ISO Standard C... (cached) -std=gnu99
+checking how to run the C preprocessor... gcc -m64 -std=gnu99 -E
+checking build system compiler gcc -m64 -std=gnu99... yes
+checking for build system preprocessor... gcc -m64 -std=gnu99 -E
+checking for build system executable suffix... 
+checking whether build system compiler is ANSI... yes
+checking for build system compiler math library... -lm
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+using ABI="64"
+      CC="gcc -m64 -std=gnu99"
+      CFLAGS="-O2 -pedantic -fomit-frame-pointer -m64 -mtune=k8 -march=k8"
+      CPPFLAGS=""
+      MPN_PATH=" x86_64/k8 x86_64 generic"
+checking whether assembler supports --noexecstack option... yes
+checking for ar... ar
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc -m64 -std=gnu99... ld
+checking if the linker (ld) is GNU ld... yes
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 3458764513820540925
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... dlltool
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc -m64 -std=gnu99 object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc -m64 -std=gnu99 supports -fno-rtti -fno-exceptions... no
+checking for gcc -m64 -std=gnu99 option to produce PIC... -fPIC -DPIC
+checking if gcc -m64 -std=gnu99 PIC flag -fPIC -DPIC works... yes
+checking if gcc -m64 -std=gnu99 static flag -static works... yes
+checking if gcc -m64 -std=gnu99 supports -c -o file.o... yes
+checking if gcc -m64 -std=gnu99 supports -c -o file.o... (cached) yes
+checking whether the gcc -m64 -std=gnu99 linker (ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... g++ -m64 -E
+checking whether the g++ -m64 linker (ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ -m64 option to produce PIC...  -DPIC
+checking if g++ -m64 PIC flag  -DPIC works... yes
+checking if g++ -m64 static flag  works... yes
+checking if g++ -m64 supports -c -o file.o... yes
+checking if g++ -m64 supports -c -o file.o... (cached) yes
+checking whether the g++ -m64 linker (ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... unsupported
+checking for ANSI C header files... (cached) yes
+checking whether time.h and sys/time.h may both be included... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking float.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking invent.h usability... no
+checking invent.h presence... no
+checking for invent.h... no
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking nl_types.h usability... yes
+checking nl_types.h presence... yes
+checking for nl_types.h... yes
+checking sys/attributes.h usability... no
+checking sys/attributes.h presence... no
+checking for sys/attributes.h... no
+checking sys/iograph.h usability... no
+checking sys/iograph.h presence... no
+checking for sys/iograph.h... no
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/processor.h usability... no
+checking sys/processor.h presence... no
+checking for sys/processor.h... no
+checking sys/pstat.h usability... no
+checking sys/pstat.h presence... no
+checking for sys/pstat.h... no
+checking sys/sysinfo.h usability... yes
+checking sys/sysinfo.h presence... yes
+checking for sys/sysinfo.h... yes
+checking sys/syssgi.h usability... no
+checking sys/syssgi.h presence... no
+checking for sys/syssgi.h... no
+checking sys/systemcfg.h usability... no
+checking sys/systemcfg.h presence... no
+checking for sys/systemcfg.h... no
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/times.h usability... yes
+checking sys/times.h presence... yes
+checking for sys/times.h... yes
+checking for sys/resource.h... yes
+checking for sys/sysctl.h... yes
+checking for machine/hal_sysinfo.h... no
+checking whether fgetc is declared... yes
+checking whether fscanf is declared... yes
+checking whether optarg is declared... yes
+checking whether ungetc is declared... yes
+checking whether vfprintf is declared... yes
+checking whether sys_errlist is declared... yes
+checking whether sys_nerr is declared... yes
+checking return type of signal handlers... void
+checking for intmax_t... yes
+checking for long double... yes
+checking for long long... yes
+checking for ptrdiff_t... yes
+checking for quad_t... yes
+checking for uint_least32_t... yes
+checking for intptr_t... yes
+checking for working volatile... yes
+checking for C/C++ restrict keyword... __restrict
+checking whether gcc __attribute__ ((const)) works... yes
+checking whether gcc __attribute__ ((malloc)) works... yes
+checking whether gcc __attribute__ ((mode (XX))) works... yes
+checking whether gcc __attribute__ ((noreturn)) works... yes
+checking whether gcc hidden aliases work... yes
+checking for inline... inline
+checking for cos in -lm... yes
+checking for working alloca.h... yes
+checking for alloca (via gmp-impl.h)... yes
+checking how to allocate temporary memory... alloca
+checking whether byte ordering is bigendian... no
+checking format of `double' floating point... IEEE little endian
+checking for alarm... yes
+checking for attr_get... no
+checking for clock... yes
+checking for cputime... no
+checking for getpagesize... yes
+checking for getrusage... yes
+checking for gettimeofday... Scanning dependencies of target mbedcrypto
+[  0%] Building C object library/CMakeFiles/mbedcrypto.dir/aes.c.o
+yes
+checking for getsysinfo... no
+checking for localeconv... yes
+checking for memset... yes
+checking for mmap... yes
+checking for mprotect... yes
+checking for nl_langinfo... yes
+checking for obstack_vprintf... [  0%] Building C object library/CMakeFiles/mbedcrypto.dir/aesni.c.o
+yes
+checking for popen... yes
+[  1%] Building C object library/CMakeFiles/mbedcrypto.dir/arc4.c.o
+checking for processor_info... no
+checking for pstat_getprocessor... [  1%] Building C object library/CMakeFiles/mbedcrypto.dir/asn1parse.c.o
+no
+checking for raise... yes
+checking for read_real_time... no
+checking for sigaction... [  1%] Building C object library/CMakeFiles/mbedcrypto.dir/asn1write.c.o
+yes
+checking for sigaltstack... yes
+checking for sigstack... [  2%] Building C object library/CMakeFiles/mbedcrypto.dir/base64.c.o
+yes
+checking for syssgi... no
+checking for strchr... yes
+[  2%] Building C object library/CMakeFiles/mbedcrypto.dir/bignum.c.o
+checking for strerror... yes
+checking for strnlen... yes
+checking for strtol... yes
+checking for strtoul... yes
+checking for sysconf... yes
+checking for sysctl... yes
+checking for sysctlbyname... no
+checking for times... yes
+checking for library containing clock_gettime... none required
+checking for vsnprintf... yes
+checking whether vsnprintf works... yes
+checking whether sscanf needs writable input... no
+checking for struct pst_processor.psp_iticksperclktick... [  3%] Building C object library/CMakeFiles/mbedcrypto.dir/blowfish.c.o
+no
+[  3%] Building C object library/CMakeFiles/mbedcrypto.dir/camellia.c.o
+[  3%] Building C object library/CMakeFiles/mbedcrypto.dir/ccm.c.o
+[  4%] Building C object library/CMakeFiles/mbedcrypto.dir/cipher.c.o
+[  4%] Building C object library/CMakeFiles/mbedcrypto.dir/cipher_wrap.c.o
+[  5%] Building C object library/CMakeFiles/mbedcrypto.dir/cmac.c.o
+[  5%] Building C object library/CMakeFiles/mbedcrypto.dir/ctr_drbg.c.o
+[  5%] Building C object library/CMakeFiles/mbedcrypto.dir/des.c.o
+[  6%] Building C object library/CMakeFiles/mbedcrypto.dir/dhm.c.o
+checking for suitable m4... m4
+checking if m4wrap produces spurious output... no
+checking how to switch to text section... .text
+checking how to switch to data section... .data
+checking for assembler label suffix... :
+checking for assembler global directive... .globl
+checking for assembler global directive attribute... 
+checking if globals are prefixed by underscore... [  6%] Building C object library/CMakeFiles/mbedcrypto.dir/ecdh.c.o
+no
+checking how to switch to read-only data section... 	.section	.rodata
+checking for assembler .type directive... .type	$1,@$2
+checking for assembler .size directive... .size	$1,$2
+checking for assembler local label prefix... .L
+checking for assembler byte directive... .byte
+checking how to define a 32-bit word... [  7%] Building C object library/CMakeFiles/mbedcrypto.dir/ecdsa.c.o
+.long
+checking if .align assembly directive is logarithmic... no
+checking if the .align directive accepts an 0x90 fill in .text... yes
+checking size of void *... 8
+checking size of unsigned short... [  7%] Building C object library/CMakeFiles/mbedcrypto.dir/ecjpake.c.o
+[  7%] Building C object library/CMakeFiles/mbedcrypto.dir/ecp.c.o
+2
+checking size of unsigned... 4
+checking size of unsigned long... 8
+checking size of mp_limb_t... 8
+checking for stack_t... yes
+checking for tputs in -lncurses... no
+checking for tputs in -lcurses... no
+checking for readline in -lreadline... no
+checking readline detected... no
+checking for bison... no
+checking for byacc... no
+checking for flex... no
+checking for lex... no
+checking for ranlib... (cached) ranlib
+creating config.m4
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+[  8%] Building C object library/CMakeFiles/mbedcrypto.dir/ecp_curves.c.o
+[  8%] Building C object library/CMakeFiles/mbedcrypto.dir/entropy.c.o
+config.status: creating demos/pexpr-config.h
+config.status: creating demos/calc/calc-config.h
+config.status: creating Makefile
+config.status: creating mpf/Makefile
+[  9%] Building C object library/CMakeFiles/mbedcrypto.dir/entropy_poll.c.o
+config.status: creating mpn/Makefile
+config.status: creating mpq/Makefile
+config.status: creating mpz/Makefile
+[  9%] Building C object library/CMakeFiles/mbedcrypto.dir/error.c.o
+config.status: creating printf/Makefile
+config.status: creating scanf/Makefile
+config.status: creating rand/Makefile
+config.status: creating cxx/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/devel/Makefile
+config.status: creating tests/mpf/Makefile
+config.status: creating tests/mpn/Makefile
+config.status: creating tests/mpq/Makefile
+config.status: creating tests/mpz/Makefile
+config.status: creating tests/rand/Makefile
+config.status: creating tests/misc/Makefile
+config.status: creating tests/cxx/Makefile
+config.status: creating doc/Makefile
+config.status: creating tune/Makefile
+config.status: creating demos/Makefile
+config.status: creating demos/calc/Makefile
+config.status: creating demos/expr/Makefile
+config.status: creating gmp.h
+config.status: creating config.h
+[  9%] Building C object library/CMakeFiles/mbedcrypto.dir/gcm.c.o
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/invert_limb_table.asm to mpn/invert_limb_table.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/add.c to mpn/add.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/add_1.c to mpn/add_1.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/aors_n.asm to mpn/add_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sub.c to mpn/sub.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sub_1.c to mpn/sub_1.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/aors_n.asm to mpn/sub_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/cnd_aors_n.asm to mpn/cnd_add_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/cnd_aors_n.asm to mpn/cnd_sub_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/cnd_swap.c to mpn/cnd_swap.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/neg.c to mpn/neg.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/com.asm to mpn/com.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/mul_1.asm to mpn/mul_1.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/aorsmul_1.asm to mpn/addmul_1.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/aorsmul_1.asm to mpn/submul_1.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/aors_err1_n.asm to mpn/add_err1_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/aors_err2_n.asm to mpn/add_err2_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/aors_err3_n.asm to mpn/add_err3_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/aors_err1_n.asm to mpn/sub_err1_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/aors_err2_n.asm to mpn/sub_err2_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/aors_err3_n.asm to mpn/sub_err3_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/lshift.asm to mpn/lshift.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/rshift.asm to mpn/rshift.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/dive_1.asm to mpn/dive_1.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/diveby3.c to mpn/diveby3.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/divis.c to mpn/divis.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/divrem.c to mpn/divrem.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/divrem_1.asm to mpn/divrem_1.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/divrem_2.asm to mpn/divrem_2.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/fib2_ui.c to mpn/fib2_ui.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/mod_1.c to mpn/mod_1.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/mod_34lsub1.asm to mpn/mod_34lsub1.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/mode1o.asm to mpn/mode1o.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/pre_mod_1.c to mpn/pre_mod_1.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/dump.c to mpn/dump.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/mod_1_1.asm to mpn/mod_1_1.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/mod_1_2.asm to mpn/mod_1_2.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/mod_1_3.c to mpn/mod_1_3.c
+[ 10%] Building C object library/CMakeFiles/mbedcrypto.dir/havege.c.o
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/mod_1_4.asm to mpn/mod_1_4.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/lshiftc.asm to mpn/lshiftc.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/mul.c to mpn/mul.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/mul_fft.c to mpn/mul_fft.c
+[ 10%] Building C object library/CMakeFiles/mbedcrypto.dir/hmac_drbg.c.o
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/mul_n.c to mpn/mul_n.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sqr.c to mpn/sqr.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/k8/mul_basecase.asm to mpn/mul_basecase.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/k8/sqr_basecase.asm to mpn/sqr_basecase.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/nussbaumer_mul.c to mpn/nussbaumer_mul.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/k8/mulmid_basecase.asm to mpn/mulmid_basecase.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom42_mulmid.c to mpn/toom42_mulmid.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/mulmid_n.c to mpn/mulmid_n.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/mulmid.c to mpn/mulmid.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/random.c to mpn/random.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/random2.c to mpn/random2.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/pow_1.c to mpn/pow_1.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/rootrem.c to mpn/rootrem.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sqrtrem.c to mpn/sqrtrem.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sizeinbase.c to mpn/sizeinbase.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/get_str.c to mpn/get_str.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/set_str.c to mpn/set_str.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/scan0.c to mpn/scan0.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/scan1.c to mpn/scan1.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/popham.asm to mpn/popcount.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/popham.asm to mpn/hamdist.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/cmp.c to mpn/cmp.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/zero_p.c to mpn/zero_p.c
+[ 11%] Building C object library/CMakeFiles/mbedcrypto.dir/md.c.o
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/perfsqr.c to mpn/perfsqr.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/perfpow.c to mpn/perfpow.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/gcd_1.asm to mpn/gcd_1.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/gcd.c to mpn/gcd.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/gcdext_1.c to mpn/gcdext_1.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/gcdext.c to mpn/gcdext.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/gcd_subdiv_step.c to mpn/gcd_subdiv_step.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/gcdext_lehmer.c to mpn/gcdext_lehmer.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/div_q.c to mpn/div_q.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/tdiv_qr.c to mpn/tdiv_qr.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/jacbase.c to mpn/jacbase.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/jacobi_2.c to mpn/jacobi_2.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/jacobi.c to mpn/jacobi.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/get_d.c to mpn/get_d.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/matrix22_mul.c to mpn/matrix22_mul.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/matrix22_mul1_inverse_vector.c to mpn/matrix22_mul1_inverse_vector.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/hgcd_matrix.c to mpn/hgcd_matrix.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/hgcd2.c to mpn/hgcd2.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/hgcd_step.c to mpn/hgcd_step.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/hgcd_reduce.c to mpn/hgcd_reduce.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/hgcd.c to mpn/hgcd.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/hgcd_appr.c to mpn/hgcd_appr.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/hgcd2_jacobi.c to mpn/hgcd2_jacobi.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/hgcd_jacobi.c to mpn/hgcd_jacobi.c
+[ 11%] Building C object library/CMakeFiles/mbedcrypto.dir/md2.c.o
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/mullo_n.c to mpn/mullo_n.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/k8/mullo_basecase.asm to mpn/mullo_basecase.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sqrlo.c to mpn/sqrlo.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sqrlo_basecase.c to mpn/sqrlo_basecase.c
+[ 11%] Building C object library/CMakeFiles/mbedcrypto.dir/md4.c.o
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom22_mul.c to mpn/toom22_mul.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom32_mul.c to mpn/toom32_mul.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom42_mul.c to mpn/toom42_mul.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom52_mul.c to mpn/toom52_mul.c
+[ 12%] Building C object library/CMakeFiles/mbedcrypto.dir/md5.c.o
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom62_mul.c to mpn/toom62_mul.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom33_mul.c to mpn/toom33_mul.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom43_mul.c to mpn/toom43_mul.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom53_mul.c to mpn/toom53_mul.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom54_mul.c to mpn/toom54_mul.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom63_mul.c to mpn/toom63_mul.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom44_mul.c to mpn/toom44_mul.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom6h_mul.c to mpn/toom6h_mul.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom6_sqr.c to mpn/toom6_sqr.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom8h_mul.c to mpn/toom8h_mul.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom8_sqr.c to mpn/toom8_sqr.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom_couple_handling.c to mpn/toom_couple_handling.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom2_sqr.c to mpn/toom2_sqr.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom3_sqr.c to mpn/toom3_sqr.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom4_sqr.c to mpn/toom4_sqr.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom_eval_dgr3_pm1.c to mpn/toom_eval_dgr3_pm1.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom_eval_dgr3_pm2.c to mpn/toom_eval_dgr3_pm2.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom_eval_pm1.c to mpn/toom_eval_pm1.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom_eval_pm2.c to mpn/toom_eval_pm2.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom_eval_pm2exp.c to mpn/toom_eval_pm2exp.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom_eval_pm2rexp.c to mpn/toom_eval_pm2rexp.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom_interpolate_5pts.c to mpn/toom_interpolate_5pts.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom_interpolate_6pts.c to mpn/toom_interpolate_6pts.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom_interpolate_7pts.c to mpn/toom_interpolate_7pts.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom_interpolate_8pts.c to mpn/toom_interpolate_8pts.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom_interpolate_12pts.c to mpn/toom_interpolate_12pts.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/toom_interpolate_16pts.c to mpn/toom_interpolate_16pts.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/invertappr.c to mpn/invertappr.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/invert.c to mpn/invert.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/binvert.c to mpn/binvert.c
+[ 12%] Building C object library/CMakeFiles/mbedcrypto.dir/md_wrap.c.o
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/mulmod_bnm1.c to mpn/mulmod_bnm1.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sqrmod_bnm1.c to mpn/sqrmod_bnm1.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/div_qr_1.c to mpn/div_qr_1.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/k8/div_qr_1n_pi1.asm to mpn/div_qr_1n_pi1.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/div_qr_2.c to mpn/div_qr_2.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/div_qr_2n_pi1.asm to mpn/div_qr_2n_pi1.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/div_qr_2u_pi1.asm to mpn/div_qr_2u_pi1.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sbpi1_div_q.c to mpn/sbpi1_div_q.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sbpi1_div_qr.c to mpn/sbpi1_div_qr.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sbpi1_divappr_q.c to mpn/sbpi1_divappr_q.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/dcpi1_div_q.c to mpn/dcpi1_div_q.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/dcpi1_div_qr.c to mpn/dcpi1_div_qr.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/dcpi1_divappr_q.c to mpn/dcpi1_divappr_q.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/mu_div_qr.c to mpn/mu_div_qr.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/mu_divappr_q.c to mpn/mu_divappr_q.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/mu_div_q.c to mpn/mu_div_q.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/bdiv_q_1.asm to mpn/bdiv_q_1.asm
+[ 12%] Building C object library/CMakeFiles/mbedcrypto.dir/memory_buffer_alloc.c.o
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sbpi1_bdiv_q.c to mpn/sbpi1_bdiv_q.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sbpi1_bdiv_qr.c to mpn/sbpi1_bdiv_qr.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/dcpi1_bdiv_q.c to mpn/dcpi1_bdiv_q.c
+[ 13%] Building C object library/CMakeFiles/mbedcrypto.dir/oid.c.o
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/dcpi1_bdiv_qr.c to mpn/dcpi1_bdiv_qr.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/mu_bdiv_q.c to mpn/mu_bdiv_q.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/mu_bdiv_qr.c to mpn/mu_bdiv_qr.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/bdiv_q.c to mpn/bdiv_q.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/bdiv_qr.c to mpn/bdiv_qr.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/broot.c to mpn/broot.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/brootinv.c to mpn/brootinv.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/bsqrt.c to mpn/bsqrt.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/bsqrtinv.c to mpn/bsqrtinv.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/divexact.c to mpn/divexact.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/bdiv_dbm1c.asm to mpn/bdiv_dbm1c.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/k8/redc_1.asm to mpn/redc_1.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/redc_2.c to mpn/redc_2.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/redc_n.c to mpn/redc_n.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/powm.c to mpn/powm.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/powlo.c to mpn/powlo.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sec_powm.c to mpn/sec_powm.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sec_mul.c to mpn/sec_mul.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sec_sqr.c to mpn/sec_sqr.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sec_div.c to mpn/sec_div_qr.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sec_div.c to mpn/sec_div_r.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sec_pi1_div.c to mpn/sec_pi1_div_qr.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sec_pi1_div.c to mpn/sec_pi1_div_r.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sec_aors_1.c to mpn/sec_add_1.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sec_aors_1.c to mpn/sec_sub_1.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/sec_invert.c to mpn/sec_invert.c
+[ 13%] Building C object library/CMakeFiles/mbedcrypto.dir/padlock.c.o
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/trialdiv.c to mpn/trialdiv.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/remove.c to mpn/remove.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/logops_n.asm to mpn/and_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/logops_n.asm to mpn/andn_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/logops_n.asm to mpn/nand_n.asm
+[ 14%] Building C object library/CMakeFiles/mbedcrypto.dir/pem.c.o
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/logops_n.asm to mpn/ior_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/logops_n.asm to mpn/iorn_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/logops_n.asm to mpn/nior_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/logops_n.asm to mpn/xor_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/logops_n.asm to mpn/xnor_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/copyi.asm to mpn/copyi.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/copyd.asm to mpn/copyd.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/zero.c to mpn/zero.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/sec_tabselect.asm to mpn/sec_tabselect.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/comb_tables.c to mpn/comb_tables.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/invert_limb.asm to mpn/invert_limb.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/sqr_diag_addlsh1.asm to mpn/sqr_diag_addlsh1.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/mul_2.asm to mpn/mul_2.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/addmul_2.asm to mpn/addmul_2.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/aorrlsh1_n.asm to mpn/addlsh1_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/sublsh1_n.asm to mpn/sublsh1_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/aorrlsh1_n.asm to mpn/rsblsh1_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/rsh1aors_n.asm to mpn/rsh1add_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/rsh1aors_n.asm to mpn/rsh1sub_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/aorrlsh2_n.asm to mpn/addlsh2_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/aorrlsh2_n.asm to mpn/rsblsh2_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/k8/aorrlsh_n.asm to mpn/addlsh_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/k8/aorrlsh_n.asm to mpn/rsblsh_n.asm
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/generic/add_n_sub_n.c to mpn/add_n_sub_n.c
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/addaddmul_1msb0.asm to mpn/addaddmul_1msb0.asm
+[ 14%] Building C object library/CMakeFiles/mbedcrypto.dir/pk.c.o
+config.status: linking /home/nanosoldier/workdir/tmp4fIcap/deps/srccache/gmp-6.1.2/mpn/x86_64/k8/gmp-mparam.h to gmp-mparam.h
+config.status: executing libtool commands
+configure: summary of build options:
+
+  Version:           GNU MP 6.1.2
+  Host type:         x86_64-pc-linux-gnu
+  ABI:               64
+  Install prefix:    /home/nanosoldier/workdir/tmp4fIcap/usr
+  Compiler:          gcc -m64 -std=gnu99
+  Static libraries:  no
+  Shared libraries:  yes
+
+patching file tests/CMakeLists.txt
+patching file .travis.yml
+patching file src/CMakeLists.txt
+Hunk #1 succeeded at 282 (offset -2 lines).
+patching file src/transports/ssh.c
+Hunk #1 succeeded at 301 (offset 5 lines).
+[ 14%] Building C object library/CMakeFiles/mbedcrypto.dir/pk_wrap.c.o
+[ 15%] Building C object library/CMakeFiles/mbedcrypto.dir/pkcs12.c.o
+[ 15%] Building C object library/CMakeFiles/mbedcrypto.dir/pkcs5.c.o
+[ 16%] Building C object library/CMakeFiles/mbedcrypto.dir/pkparse.c.o
+[ 16%] Building C object library/CMakeFiles/mbedcrypto.dir/pkwrite.c.o
+[ 16%] Building C object library/CMakeFiles/mbedcrypto.dir/platform.c.o
+[ 17%] Building C object library/CMakeFiles/mbedcrypto.dir/ripemd160.c.o
+[ 17%] Building C object library/CMakeFiles/mbedcrypto.dir/rsa.c.o
+[ 18%] Building C object library/CMakeFiles/mbedcrypto.dir/sha1.c.o
+[ 18%] Building C object library/CMakeFiles/mbedcrypto.dir/sha256.c.o
+[ 18%] Building C object library/CMakeFiles/mbedcrypto.dir/sha512.c.o
+[ 19%] Building C object library/CMakeFiles/mbedcrypto.dir/threading.c.o
+[ 19%] Building C object library/CMakeFiles/mbedcrypto.dir/timing.c.o
+[ 20%] Building C object library/CMakeFiles/mbedcrypto.dir/version.c.o
+[ 20%] Building C object library/CMakeFiles/mbedcrypto.dir/version_features.c.o
+[ 20%] Building C object library/CMakeFiles/mbedcrypto.dir/xtea.c.o
+make -C scratch/openblas-c6aec89d10d9d6e186dc90e7246c6c928664d3c9/ CC=gcc -m64 FC=gfortran -m64 LD=ld RANLIB=ranlib TARGET= BINARY=64 USE_THREAD=1 GEMM_MULTITHREADING_THRESHOLD=50 NUM_THREADS=16 NO_AFFINITY=1 DYNAMIC_ARCH=1 INTERFACE64=1 SYMBOLSUFFIX=64_ LIBPREFIX=libopenblas64_ CFLAGS= -O2 FFLAGS= -O2 -fPIC LDFLAGS= -Wl,-rpath,'$$ORIGIN' -Wl,-z,origin MAKE_NB_JOBS=0
+[ 21%] Linking C shared library libmbedcrypto.so
+[ 21%] Built target mbedcrypto
+Scanning dependencies of target mbedx509
+[ 21%] Building C object library/CMakeFiles/mbedx509.dir/certs.c.o
+[ 21%] Building C object library/CMakeFiles/mbedx509.dir/pkcs11.c.o
+[ 22%] Building C object library/CMakeFiles/mbedx509.dir/x509.c.o
+[ 22%] Building C object library/CMakeFiles/mbedx509.dir/x509_create.c.o
+[ 23%] Building C object library/CMakeFiles/mbedx509.dir/x509_crl.c.o
+[ 23%] Building C object library/CMakeFiles/mbedx509.dir/x509_crt.c.o
+[ 23%] Building C object library/CMakeFiles/mbedx509.dir/x509_csr.c.o
+[ 24%] Building C object library/CMakeFiles/mbedx509.dir/x509write_crt.c.o
+[ 24%] Building C object library/CMakeFiles/mbedx509.dir/x509write_csr.c.o
+[ 25%] Linking C shared library libmbedx509.so
+[ 25%] Built target mbedx509
+Scanning dependencies of target mbedtls
+[ 25%] Building C object library/CMakeFiles/mbedtls.dir/debug.c.o
+[ 26%] Building C object library/CMakeFiles/mbedtls.dir/net_sockets.c.o
+[ 26%] Building C object library/CMakeFiles/mbedtls.dir/ssl_cache.c.o
+[ 26%] Building C object library/CMakeFiles/mbedtls.dir/ssl_ciphersuites.c.o
+[ 27%] Building C object library/CMakeFiles/mbedtls.dir/ssl_cli.c.o
+[ 27%] Building C object library/CMakeFiles/mbedtls.dir/ssl_cookie.c.o
+[ 28%] Building C object library/CMakeFiles/mbedtls.dir/ssl_srv.c.o
+[ 28%] Building C object library/CMakeFiles/mbedtls.dir/ssl_ticket.c.o
+[ 28%] Building C object library/CMakeFiles/mbedtls.dir/ssl_tls.c.o
+[ 29%] Linking C shared library libmbedtls.so
+[ 29%] Built target mbedtls
+[ 29%] Generating test_suite_version.c
+Scanning dependencies of target test_suite_version
+[ 30%] Building C object tests/CMakeFiles/test_suite_version.dir/test_suite_version.c.o
+[ 30%] Linking C executable test_suite_version
+[ 30%] Built target test_suite_version
+[ 31%] Generating test_suite_ssl.c
+Scanning dependencies of target test_suite_ssl
+[ 31%] Building C object tests/CMakeFiles/test_suite_ssl.dir/test_suite_ssl.c.o
+[ 32%] Linking C executable test_suite_ssl
+[ 32%] Built target test_suite_ssl
+[ 33%] Generating test_suite_shax.c
+Scanning dependencies of target test_suite_shax
+[ 33%] Building C object tests/CMakeFiles/test_suite_shax.dir/test_suite_shax.c.o
+[ 33%] Linking C executable test_suite_shax
+[ 33%] Built target test_suite_shax
+[ 33%] Generating test_suite_pkwrite.c
+Scanning dependencies of target test_suite_pkwrite
+[ 34%] Building C object tests/CMakeFiles/test_suite_pkwrite.dir/test_suite_pkwrite.c.o
+[ 34%] Linking C executable test_suite_pkwrite
+[ 34%] Built target test_suite_pkwrite
+[ 34%] Generating test_suite_pk.c
+Scanning dependencies of target test_suite_pk
+[ 35%] Building C object tests/CMakeFiles/test_suite_pk.dir/test_suite_pk.c.o
+[ 35%] Linking C executable test_suite_pk
+[ 35%] Built target test_suite_pk
+[ 36%] Generating test_suite_pkcs1_v21.c
+Scanning dependencies of target test_suite_pkcs1_v21
+[ 36%] Building C object tests/CMakeFiles/test_suite_pkcs1_v21.dir/test_suite_pkcs1_v21.c.o
+[ 37%] Linking C executable test_suite_pkcs1_v21
+[ 37%] Built target test_suite_pkcs1_v21
+[ 38%] Generating test_suite_debug.c
+Scanning dependencies of target test_suite_debug
+[ 38%] Building C object tests/CMakeFiles/test_suite_debug.dir/test_suite_debug.c.o
+[ 39%] Linking C executable test_suite_debug
+[ 39%] Built target test_suite_debug
+[ 39%] Generating test_suite_blowfish.c
+Scanning dependencies of target test_suite_blowfish
+[ 40%] Building C object tests/CMakeFiles/test_suite_blowfish.dir/test_suite_blowfish.c.o
+[ 40%] Linking C executable test_suite_blowfish
+[ 40%] Built target test_suite_blowfish
+[ 40%] Generating test_suite_mpi.c
+Scanning dependencies of target test_suite_mpi
+[ 40%] Building C object tests/CMakeFiles/test_suite_mpi.dir/test_suite_mpi.c.o
+[ 41%] Linking C executable test_suite_mpi
+[ 41%] Built target test_suite_mpi
+[ 41%] Generating test_suite_aes.cfb.c
+Scanning dependencies of target test_suite_aes.cfb
+[ 42%] Building C object tests/CMakeFiles/test_suite_aes.cfb.dir/test_suite_aes.cfb.c.o
+[ 42%] Linking C executable test_suite_aes.cfb
+[ 42%] Built target test_suite_aes.cfb
+[ 43%] Generating test_suite_ctr_drbg.c
+Scanning dependencies of target test_suite_ctr_drbg
+[ 43%] Building C object tests/CMakeFiles/test_suite_ctr_drbg.dir/test_suite_ctr_drbg.c.o
+[ 43%] Linking C executable test_suite_ctr_drbg
+[ 43%] Built target test_suite_ctr_drbg
+[ 43%] Generating test_suite_cmac.c
+Scanning dependencies of target test_suite_cmac
+[ 44%] Building C object tests/CMakeFiles/test_suite_cmac.dir/test_suite_cmac.c.o
+[ 44%] Linking C executable test_suite_cmac
+[ 44%] Built target test_suite_cmac
+[ 44%] Generating test_suite_cipher.padding.c
+Scanning dependencies of target test_suite_cipher.padding
+[ 45%] Building C object tests/CMakeFiles/test_suite_cipher.padding.dir/test_suite_cipher.padding.c.o
+[ 45%] Linking C executable test_suite_cipher.padding
+[ 45%] Built target test_suite_cipher.padding
+[ 45%] Generating test_suite_x509parse.c
+Scanning dependencies of target test_suite_x509parse
+[ 46%] Building C object tests/CMakeFiles/test_suite_x509parse.dir/test_suite_x509parse.c.o
+[ 46%] Linking C executable test_suite_x509parse
+[ 46%] Built target test_suite_x509parse
+[ 46%] Generating test_suite_pkcs5.c
+Scanning dependencies of target test_suite_pkcs5
+[ 46%] Building C object tests/CMakeFiles/test_suite_pkcs5.dir/test_suite_pkcs5.c.o
+[ 47%] Linking C executable test_suite_pkcs5
+[ 47%] Built target test_suite_pkcs5
+[ 48%] Generating test_suite_cipher.ccm.c
+Scanning dependencies of target test_suite_cipher.ccm
+[ 48%] Building C object tests/CMakeFiles/test_suite_cipher.ccm.dir/test_suite_cipher.ccm.c.o
+[ 48%] Linking C executable test_suite_cipher.ccm
+[ 48%] Built target test_suite_cipher.ccm
+[ 48%] Generating test_suite_timing.c
+Scanning dependencies of target test_suite_timing
+[ 48%] Building C object tests/CMakeFiles/test_suite_timing.dir/test_suite_timing.c.o
+[ 49%] Linking C executable test_suite_timing
+[ 49%] Built target test_suite_timing
+[ 49%] Generating test_suite_gcm.aes256_en.c
+Scanning dependencies of target test_suite_gcm.aes256_en
+[ 50%] Building C object tests/CMakeFiles/test_suite_gcm.aes256_en.dir/test_suite_gcm.aes256_en.c.o
+[ 50%] Linking C executable test_suite_gcm.aes256_en
+[ 50%] Built target test_suite_gcm.aes256_en
+[ 51%] Generating test_suite_xtea.c
+Scanning dependencies of target test_suite_xtea
+[ 51%] Building C object tests/CMakeFiles/test_suite_xtea.dir/test_suite_xtea.c.o
+[ 52%] Linking C executable test_suite_xtea
+[ 52%] Built target test_suite_xtea
+[ 52%] Generating test_suite_hmac_drbg.nopr.c
+Scanning dependencies of target test_suite_hmac_drbg.nopr
+[ 52%] Building C object tests/CMakeFiles/test_suite_hmac_drbg.nopr.dir/test_suite_hmac_drbg.nopr.c.o
+[ 53%] Linking C executable test_suite_hmac_drbg.nopr
+[ 53%] Built target test_suite_hmac_drbg.nopr
+[ 53%] Generating test_suite_cipher.arc4.c
+Scanning dependencies of target test_suite_cipher.arc4
+[ 53%] Building C object tests/CMakeFiles/test_suite_cipher.arc4.dir/test_suite_cipher.arc4.c.o
+[ 54%] Linking C executable test_suite_cipher.arc4
+[ 54%] Built target test_suite_cipher.arc4
+[ 54%] Generating test_suite_ecp.c
+Scanning dependencies of target test_suite_ecp
+[ 54%] Building C object tests/CMakeFiles/test_suite_ecp.dir/test_suite_ecp.c.o
+[ 55%] Linking C executable test_suite_ecp
+[ 55%] Built target test_suite_ecp
+[ 56%] Generating test_suite_gcm.aes128_en.c
+Scanning dependencies of target test_suite_gcm.aes128_en
+[ 56%] Building C object tests/CMakeFiles/test_suite_gcm.aes128_en.dir/test_suite_gcm.aes128_en.c.o
+[ 56%] Linking C executable test_suite_gcm.aes128_en
+[ 56%] Built target test_suite_gcm.aes128_en
+[ 56%] Generating test_suite_cipher.null.c
+Scanning dependencies of target test_suite_cipher.null
+[ 57%] Building C object tests/CMakeFiles/test_suite_cipher.null.dir/test_suite_cipher.null.c.o
+[ 57%] Linking C executable test_suite_cipher.null
+[ 57%] Built target test_suite_cipher.null
+[ 57%] Generating test_suite_hmac_drbg.no_reseed.c
+Scanning dependencies of target test_suite_hmac_drbg.no_reseed
+[ 57%] Building C object tests/CMakeFiles/test_suite_hmac_drbg.no_reseed.dir/test_suite_hmac_drbg.no_reseed.c.o
+[ 58%] Linking C executable test_suite_hmac_drbg.no_reseed
+[ 58%] Built target test_suite_hmac_drbg.no_reseed
+[ 58%] Generating test_suite_base64.c
+Scanning dependencies of target test_suite_base64
+[ 59%] Building C object tests/CMakeFiles/test_suite_base64.dir/test_suite_base64.c.o
+[ 59%] Linking C executable test_suite_base64
+[ 59%] Built target test_suite_base64
+[ 59%] Generating test_suite_asn1write.c
+Scanning dependencies of target test_suite_asn1write
+[ 59%] Building C object tests/CMakeFiles/test_suite_asn1write.dir/test_suite_asn1write.c.o
+[ 60%] Linking C executable test_suite_asn1write
+[ 60%] Built target test_suite_asn1write
+[ 61%] Generating test_suite_pkcs1_v15.c
+Scanning dependencies of target test_suite_pkcs1_v15
+[ 61%] Building C object tests/CMakeFiles/test_suite_pkcs1_v15.dir/test_suite_pkcs1_v15.c.o
+[ 61%] Linking C executable test_suite_pkcs1_v15
+[ 61%] Built target test_suite_pkcs1_v15
+[ 61%] Generating test_suite_cipher.blowfish.c
+Scanning dependencies of target test_suite_cipher.blowfish
+[ 62%] Building C object tests/CMakeFiles/test_suite_cipher.blowfish.dir/test_suite_cipher.blowfish.c.o
+[ 62%] Linking C executable test_suite_cipher.blowfish
+[ 62%] Built target test_suite_cipher.blowfish
+[ 63%] Generating test_suite_memory_buffer_alloc.c
+Scanning dependencies of target test_suite_memory_buffer_alloc
+[ 63%] Building C object tests/CMakeFiles/test_suite_memory_buffer_alloc.dir/test_suite_memory_buffer_alloc.c.o
+[ 64%] Linking C executable test_suite_memory_buffer_alloc
+[ 64%] Built target test_suite_memory_buffer_alloc
+[ 64%] Generating test_suite_pkparse.c
+Scanning dependencies of target test_suite_pkparse
+[ 64%] Building C object tests/CMakeFiles/test_suite_pkparse.dir/test_suite_pkparse.c.o
+[ 65%] Linking C executable test_suite_pkparse
+[ 65%] Built target test_suite_pkparse
+[ 65%] Generating test_suite_aes.cbc.c
+Scanning dependencies of target test_suite_aes.cbc
+[ 65%] Building C object tests/CMakeFiles/test_suite_aes.cbc.dir/test_suite_aes.cbc.c.o
+[ 66%] Linking C executable test_suite_aes.cbc
+[ 66%] Built target test_suite_aes.cbc
+[ 66%] Generating test_suite_cipher.gcm.c
+Scanning dependencies of target test_suite_cipher.gcm
+[ 66%] Building C object tests/CMakeFiles/test_suite_cipher.gcm.dir/test_suite_cipher.gcm.c.o
+[ 67%] Linking C executable test_suite_cipher.gcm
+[ 67%] Built target test_suite_cipher.gcm
+[ 68%] Generating test_suite_ccm.c
+Scanning dependencies of target test_suite_ccm
+[ 68%] Building C object tests/CMakeFiles/test_suite_ccm.dir/test_suite_ccm.c.o
+[ 68%] Linking C executable test_suite_ccm
+[ 68%] Built target test_suite_ccm
+[ 68%] Generating test_suite_cipher.camellia.c
+Scanning dependencies of target test_suite_cipher.camellia
+[ 69%] Building C object tests/CMakeFiles/test_suite_cipher.camellia.dir/test_suite_cipher.camellia.c.o
+[ 69%] Linking C executable test_suite_cipher.camellia
+[ 69%] Built target test_suite_cipher.camellia
+[ 70%] Generating test_suite_arc4.c
+Scanning dependencies of target test_suite_arc4
+[ 70%] Building C object tests/CMakeFiles/test_suite_arc4.dir/test_suite_arc4.c.o
+[ 71%] Linking C executable test_suite_arc4
+[ 71%] Built target test_suite_arc4
+[ 72%] Generating test_suite_aes.rest.c
+Scanning dependencies of target test_suite_aes.rest
+[ 72%] Building C object tests/CMakeFiles/test_suite_aes.rest.dir/test_suite_aes.rest.c.o
+[ 72%] Linking C executable test_suite_aes.rest
+[ 72%] Built target test_suite_aes.rest
+[ 73%] Generating test_suite_x509write.c
+Scanning dependencies of target test_suite_x509write
+[ 73%] Building C object tests/CMakeFiles/test_suite_x509write.dir/test_suite_x509write.c.o
+[ 73%] Linking C executable test_suite_x509write
+[ 73%] Built target test_suite_x509write
+[ 73%] Generating test_suite_camellia.c
+Scanning dependencies of target test_suite_camellia
+[ 74%] Building C object tests/CMakeFiles/test_suite_camellia.dir/test_suite_camellia.c.o
+[ 74%] Linking C executable test_suite_camellia
+[ 74%] Built target test_suite_camellia
+[ 74%] Generating test_suite_des.c
+Scanning dependencies of target test_suite_des
+[ 74%] Building C object tests/CMakeFiles/test_suite_des.dir/test_suite_des.c.o
+[ 75%] Linking C executable test_suite_des
+[ 75%] Built target test_suite_des
+[ 75%] Generating test_suite_aes.ecb.c
+[ 76%] Generating test_suite_gcm.camellia.c
+Scanning dependencies of target test_suite_aes.ecb
+Scanning dependencies of target test_suite_gcm.camellia
+[ 77%] Building C object tests/CMakeFiles/test_suite_aes.ecb.dir/test_suite_aes.ecb.c.o
+[ 77%] Building C object tests/CMakeFiles/test_suite_gcm.camellia.dir/test_suite_gcm.camellia.c.o
+[ 77%] Linking C executable test_suite_gcm.camellia
+[ 77%] Built target test_suite_gcm.camellia
+[ 78%] Generating test_suite_cipher.des.c
+Scanning dependencies of target test_suite_cipher.des
+[ 78%] Building C object tests/CMakeFiles/test_suite_cipher.des.dir/test_suite_cipher.des.c.o
+[ 78%] Built target test_suite_aes.ecb
+[ 79%] Generating test_suite_ecdsa.c
+Scanning dependencies of target test_suite_ecdsa
+[ 79%] Building C object tests/CMakeFiles/test_suite_ecdsa.dir/test_suite_ecdsa.c.o
+[ 79%] Linking C executable test_suite_ecdsa
+[ 79%] Built target test_suite_ecdsa
+[ 79%] Generating test_suite_dhm.c
+Scanning dependencies of target test_suite_dhm
+[ 80%] Building C object tests/CMakeFiles/test_suite_dhm.dir/test_suite_dhm.c.o
+[ 81%] Linking C executable test_suite_cipher.des
+[ 81%] Built target test_suite_cipher.des
+[ 82%] Generating test_suite_ecjpake.c
+Scanning dependencies of target test_suite_ecjpake
+[ 82%] Building C object tests/CMakeFiles/test_suite_ecjpake.dir/test_suite_ecjpake.c.o
+[ 82%] Linking C executable test_suite_dhm
+[ 83%] Linking C executable test_suite_ecjpake
+[ 83%] Built target test_suite_dhm
+[ 84%] Generating test_suite_cipher.aes.c
+[ 84%] Built target test_suite_ecjpake
+Scanning dependencies of target test_suite_cipher.aes
+[ 84%] Building C object tests/CMakeFiles/test_suite_cipher.aes.dir/test_suite_cipher.aes.c.o
+[ 84%] Generating test_suite_error.c
+Scanning dependencies of target test_suite_error
+[ 85%] Building C object tests/CMakeFiles/test_suite_error.dir/test_suite_error.c.o
+[ 85%] Linking C executable test_suite_error
+[ 85%] Built target test_suite_error
+[ 86%] Generating test_suite_mdx.c
+Scanning dependencies of target test_suite_mdx
+[ 86%] Building C object tests/CMakeFiles/test_suite_mdx.dir/test_suite_mdx.c.o
+[ 87%] Linking C executable test_suite_cipher.aes
+[ 87%] Built target test_suite_cipher.aes
+[ 87%] Generating test_suite_rsa.c
+Scanning dependencies of target test_suite_rsa
+[ 88%] Building C object tests/CMakeFiles/test_suite_rsa.dir/test_suite_rsa.c.o
+[ 88%] Linking C executable test_suite_mdx
+[ 88%] Built target test_suite_mdx
+[ 88%] Generating test_suite_gcm.aes128_de.c
+Scanning dependencies of target test_suite_gcm.aes128_de
+[ 89%] Building C object tests/CMakeFiles/test_suite_gcm.aes128_de.dir/test_suite_gcm.aes128_de.c.o
+[ 89%] Linking C executable test_suite_gcm.aes128_de
+[ 89%] Built target test_suite_gcm.aes128_de
+[ 90%] Generating test_suite_gcm.aes192_de.c
+Scanning dependencies of target test_suite_gcm.aes192_de
+[ 90%] Building C object tests/CMakeFiles/test_suite_gcm.aes192_de.dir/test_suite_gcm.aes192_de.c.o
+[ 90%] Linking C executable test_suite_rsa
+[ 90%] Built target test_suite_rsa
+[ 90%] Generating test_suite_gcm.aes192_en.c
+Scanning dependencies of target test_suite_gcm.aes192_en
+[ 90%] Building C object tests/CMakeFiles/test_suite_gcm.aes192_en.dir/test_suite_gcm.aes192_en.c.o
+[ 91%] Linking C executable test_suite_gcm.aes192_de
+[ 91%] Built target test_suite_gcm.aes192_de
+[ 91%] Generating test_suite_gcm.aes256_de.c
+Scanning dependencies of target test_suite_gcm.aes256_de
+[ 92%] Building C object tests/CMakeFiles/test_suite_gcm.aes256_de.dir/test_suite_gcm.aes256_de.c.o
+[ 93%] Linking C executable test_suite_gcm.aes192_en
+[ 93%] Built target test_suite_gcm.aes192_en
+[ 93%] Linking C executable test_suite_gcm.aes256_de
+[ 93%] Built target test_suite_gcm.aes256_de
+[ 94%] Generating test_suite_hmac_drbg.misc.c
+Scanning dependencies of target test_suite_hmac_drbg.misc
+[ 94%] Building C object tests/CMakeFiles/test_suite_hmac_drbg.misc.dir/test_suite_hmac_drbg.misc.c.o
+[ 94%] Generating test_suite_entropy.c
+Scanning dependencies of target test_suite_entropy
+[ 94%] Building C object tests/CMakeFiles/test_suite_entropy.dir/test_suite_entropy.c.o
+[ 95%] Linking C executable test_suite_entropy
+[ 95%] Built target test_suite_entropy
+[ 95%] Generating test_suite_hmac_drbg.pr.c
+[ 96%] Linking C executable test_suite_hmac_drbg.misc
+Scanning dependencies of target test_suite_hmac_drbg.pr
+[ 97%] Building C object tests/CMakeFiles/test_suite_hmac_drbg.pr.dir/test_suite_hmac_drbg.pr.c.o
+[ 97%] Built target test_suite_hmac_drbg.misc
+[ 97%] Generating test_suite_ecdh.c
+Scanning dependencies of target test_suite_ecdh
+[ 98%] Building C object tests/CMakeFiles/test_suite_ecdh.dir/test_suite_ecdh.c.o
+[ 98%] Linking C executable test_suite_hmac_drbg.pr
+[ 98%] Linking C executable test_suite_ecdh
+[ 98%] Built target test_suite_hmac_drbg.pr
+[ 98%] Generating test_suite_md.c
+[ 98%] Built target test_suite_ecdh
+Scanning dependencies of target test_suite_md
+[ 99%] Building C object tests/CMakeFiles/test_suite_md.dir/test_suite_md.c.o
+[ 99%] Generating test_suite_pem.c
+Scanning dependencies of target test_suite_pem
+[100%] Building C object tests/CMakeFiles/test_suite_pem.dir/test_suite_pem.c.o
+[100%] Linking C executable test_suite_pem
+[100%] Built target test_suite_pem
+[100%] Linking C executable test_suite_md
+[100%] Built target test_suite_md
+ Real BLAS Test Program Results
+
+
+ Test of subprogram number  1             SDOT 
+                                    ----- PASS -----
+
+ Test of subprogram number  2            SAXPY 
+                                    ----- PASS -----
+
+ Test of subprogram number  3            SROTG 
+                                    ----- PASS -----
+
+ Test of subprogram number  4             SROT 
+                                    ----- PASS -----
+
+ Test of subprogram number  5            SCOPY 
+                                    ----- PASS -----
+
+ Test of subprogram number  6            SSWAP 
+                                    ----- PASS -----
+
+ Test of subprogram number  7            SNRM2 
+                                    ----- PASS -----
+
+ Test of subprogram number  8            SASUM 
+                                    ----- PASS -----
+
+ Test of subprogram number  9            SSCAL 
+                                    ----- PASS -----
+
+ Test of subprogram number 10            ISAMAX
+                                    ----- PASS -----
+
+ Test of subprogram number 11            SROTMG
+                                    ----- PASS -----
+
+ Test of subprogram number 12            SROTM 
+                                    ----- PASS -----
+
+ Test of subprogram number 13            SDSDOT
+                                    ----- PASS -----
+ Real BLAS Test Program Results
+
+
+ Test of subprogram number  1             DDOT 
+                                    ----- PASS -----
+
+ Test of subprogram number  2            DAXPY 
+                                    ----- PASS -----
+
+ Test of subprogram number  3            DROTG 
+                                    ----- PASS -----
+
+ Test of subprogram number  4             DROT 
+                                    ----- PASS -----
+
+ Test of subprogram number  5            DCOPY 
+                                    ----- PASS -----
+
+ Test of subprogram number  6            DSWAP 
+                                    ----- PASS -----
+
+ Test of subprogram number  7            DNRM2 
+                                    ----- PASS -----
+
+ Test of subprogram number  8            DASUM 
+                                    ----- PASS -----
+
+ Test of subprogram number  9            DSCAL 
+                                    ----- PASS -----
+
+ Test of subprogram number 10            IDAMAX
+                                    ----- PASS -----
+
+ Test of subprogram number 11            DROTMG
+                                    ----- PASS -----
+
+ Test of subprogram number 12            DROTM 
+                                    ----- PASS -----
+
+ Test of subprogram number 13            DSDOT 
+                                    ----- PASS -----
+ Complex BLAS Test Program Results
+
+
+ Test of subprogram number  1            CDOTC 
+                                    ----- PASS -----
+
+ Test of subprogram number  2            CDOTU 
+                                    ----- PASS -----
+
+ Test of subprogram number  3            CAXPY 
+                                    ----- PASS -----
+
+ Test of subprogram number  4            CCOPY 
+                                    ----- PASS -----
+
+ Test of subprogram number  5            CSWAP 
+                                    ----- PASS -----
+
+ Test of subprogram number  6            SCNRM2
+                                    ----- PASS -----
+
+ Test of subprogram number  7            SCASUM
+                                    ----- PASS -----
+
+ Test of subprogram number  8            CSCAL 
+                                    ----- PASS -----
+
+ Test of subprogram number  9            CSSCAL
+                                    ----- PASS -----
+
+ Test of subprogram number 10            ICAMAX
+                                    ----- PASS -----
+ Complex BLAS Test Program Results
+
+
+ Test of subprogram number  1            ZDOTC 
+                                    ----- PASS -----
+
+ Test of subprogram number  2            ZDOTU 
+                                    ----- PASS -----
+
+ Test of subprogram number  3            ZAXPY 
+                                    ----- PASS -----
+
+ Test of subprogram number  4            ZCOPY 
+                                    ----- PASS -----
+
+ Test of subprogram number  5            ZSWAP 
+                                    ----- PASS -----
+
+ Test of subprogram number  6            DZNRM2
+                                    ----- PASS -----
+
+ Test of subprogram number  7            DZASUM
+                                    ----- PASS -----
+
+ Test of subprogram number  8            ZSCAL 
+                                    ----- PASS -----
+
+ Test of subprogram number  9            ZDSCAL
+                                    ----- PASS -----
+
+ Test of subprogram number 10            IZAMAX
+                                    ----- PASS -----
+ Real BLAS Test Program Results
+
+
+ Test of subprogram number  1             SDOT 
+                                    ----- PASS -----
+
+ Test of subprogram number  2            SAXPY 
+                                    ----- PASS -----
+
+ Test of subprogram number  3            SROTG 
+                                    ----- PASS -----
+
+ Test of subprogram number  4             SROT 
+                                    ----- PASS -----
+
+ Test of subprogram number  5            SCOPY 
+                                    ----- PASS -----
+
+ Test of subprogram number  6            SSWAP 
+                                    ----- PASS -----
+
+ Test of subprogram number  7            SNRM2 
+                                    ----- PASS -----
+
+ Test of subprogram number  8            SASUM 
+                                    ----- PASS -----
+
+ Test of subprogram number  9            SSCAL 
+                                    ----- PASS -----
+
+ Test of subprogram number 10            ISAMAX
+                                    ----- PASS -----
+
+ Test of subprogram number 11            SROTMG
+                                    ----- PASS -----
+
+ Test of subprogram number 12            SROTM 
+                                    ----- PASS -----
+
+ Test of subprogram number 13            SDSDOT
+                                    ----- PASS -----
+ Real BLAS Test Program Results
+
+
+ Test of subprogram number  1             DDOT 
+                                    ----- PASS -----
+
+ Test of subprogram number  2            DAXPY 
+                                    ----- PASS -----
+
+ Test of subprogram number  3            DROTG 
+                                    ----- PASS -----
+
+ Test of subprogram number  4             DROT 
+                                    ----- PASS -----
+
+ Test of subprogram number  5            DCOPY 
+                                    ----- PASS -----
+
+ Test of subprogram number  6            DSWAP 
+                                    ----- PASS -----
+
+ Test of subprogram number  7            DNRM2 
+                                    ----- PASS -----
+
+ Test of subprogram number  8            DASUM 
+                                    ----- PASS -----
+
+ Test of subprogram number  9            DSCAL 
+                                    ----- PASS -----
+
+ Test of subprogram number 10            IDAMAX
+                                    ----- PASS -----
+
+ Test of subprogram number 11            DROTMG
+                                    ----- PASS -----
+
+ Test of subprogram number 12            DROTM 
+                                    ----- PASS -----
+
+ Test of subprogram number 13            DSDOT 
+                                    ----- PASS -----
+ Complex BLAS Test Program Results
+
+
+ Test of subprogram number  1            CDOTC 
+                                    ----- PASS -----
+
+ Test of subprogram number  2            CDOTU 
+                                    ----- PASS -----
+
+ Test of subprogram number  3            CAXPY 
+                                    ----- PASS -----
+
+ Test of subprogram number  4            CCOPY 
+                                    ----- PASS -----
+
+ Test of subprogram number  5            CSWAP 
+                                    ----- PASS -----
+
+ Test of subprogram number  6            SCNRM2
+                                    ----- PASS -----
+
+ Test of subprogram number  7            SCASUM
+                                    ----- PASS -----
+
+ Test of subprogram number  8            CSCAL 
+                                    ----- PASS -----
+
+ Test of subprogram number  9            CSSCAL
+                                    ----- PASS -----
+
+ Test of subprogram number 10            ICAMAX
+                                    ----- PASS -----
+ Complex BLAS Test Program Results
+
+
+ Test of subprogram number  1            ZDOTC 
+                                    ----- PASS -----
+
+ Test of subprogram number  2            ZDOTU 
+                                    ----- PASS -----
+
+ Test of subprogram number  3            ZAXPY 
+                                    ----- PASS -----
+
+ Test of subprogram number  4            ZCOPY 
+                                    ----- PASS -----
+
+ Test of subprogram number  5            ZSWAP 
+                                    ----- PASS -----
+
+ Test of subprogram number  6            DZNRM2
+                                    ----- PASS -----
+
+ Test of subprogram number  7            DZASUM
+                                    ----- PASS -----
+
+ Test of subprogram number  8            ZSCAL 
+                                    ----- PASS -----
+
+ Test of subprogram number  9            ZDSCAL
+                                    ----- PASS -----
+
+ Test of subprogram number 10            IZAMAX
+                                    ----- PASS -----
+TEST 1/23 amax:samax [OK]
+TEST 2/23 drotmg:drotmg_D1_big_D2_big_flag_zero [OK]
+TEST 3/23 drotmg:rotmg_D1eqD2_X1eqX2 [OK]
+TEST 4/23 drotmg:rotmg_issue1452 [OK]
+TEST 5/23 drotmg:rotmg [OK]
+TEST 6/23 axpy:caxpy_inc_0 [OK]
+TEST 7/23 axpy:saxpy_inc_0 [OK]
+TEST 8/23 axpy:zaxpy_inc_0 [OK]
+TEST 9/23 axpy:daxpy_inc_0 [OK]
+TEST 10/23 zdotu:zdotu_offset_1 [OK]
+TEST 11/23 zdotu:zdotu_n_1 [OK]
+TEST 12/23 dsdot:dsdot_n_1 [OK]
+TEST 13/23 swap:cswap_inc_0 [OK]
+TEST 14/23 swap:sswap_inc_0 [OK]
+TEST 15/23 swap:zswap_inc_0 [OK]
+TEST 16/23 swap:dswap_inc_0 [OK]
+TEST 17/23 rot:csrot_inc_0 [OK]
+TEST 18/23 rot:srot_inc_0 [OK]
+TEST 19/23 rot:zdrot_inc_0 [OK]
+TEST 20/23 rot:drot_inc_0 [OK]
+TEST 21/23 potrf:smoketest_trivial [OK]
+TEST 22/23 potrf:bug_695 [OK]
+TEST 23/23 fork:safety [OK]
+RESULTS: 23 tests (23 ok, 0 failed, 0 skipped) ran in 133 ms
+ Real CBLAS Test Program Results
+
+
+ Test of subprogram number  1         CBLAS_SDOT     
+                                    ----- PASS -----
+
+ Test of subprogram number  2         CBLAS_SAXPY    
+                                    ----- PASS -----
+
+ Test of subprogram number  3         CBLAS_SROTG    
+                                    ----- PASS -----
+
+ Test of subprogram number  4         CBLAS_SROT     
+                                    ----- PASS -----
+
+ Test of subprogram number  5         CBLAS_SCOPY    
+                                    ----- PASS -----
+
+ Test of subprogram number  6         CBLAS_SSWAP    
+                                    ----- PASS -----
+
+ Test of subprogram number  7         CBLAS_SNRM2    
+                                    ----- PASS -----
+
+ Test of subprogram number  8         CBLAS_SASUM    
+                                    ----- PASS -----
+
+ Test of subprogram number  9         CBLAS_SSCAL    
+                                    ----- PASS -----
+
+ Test of subprogram number 10         CBLAS_ISAMAX   
+                                    ----- PASS -----
+ Real CBLAS Test Program Results
+
+
+ Test of subprogram number  1         CBLAS_DDOT     
+                                    ----- PASS -----
+
+ Test of subprogram number  2         CBLAS_DAXPY    
+                                    ----- PASS -----
+
+ Test of subprogram number  3         CBLAS_DROTG    
+                                    ----- PASS -----
+
+ Test of subprogram number  4         CBLAS_DROT     
+                                    ----- PASS -----
+
+ Test of subprogram number  5         CBLAS_DCOPY    
+                                    ----- PASS -----
+
+ Test of subprogram number  6         CBLAS_DSWAP    
+                                    ----- PASS -----
+
+ Test of subprogram number  7         CBLAS_DNRM2    
+                                    ----- PASS -----
+
+ Test of subprogram number  8         CBLAS_DASUM    
+                                    ----- PASS -----
+
+ Test of subprogram number  9         CBLAS_DSCAL    
+                                    ----- PASS -----
+
+ Test of subprogram number 10         CBLAS_IDAMAX   
+                                    ----- PASS -----
+ Complex CBLAS Test Program Results
+
+
+ Test of subprogram number  1         CBLAS_CDOTC    
+                                    ----- PASS -----
+
+ Test of subprogram number  2         CBLAS_CDOTU    
+                                    ----- PASS -----
+
+ Test of subprogram number  3         CBLAS_CAXPY    
+                                    ----- PASS -----
+
+ Test of subprogram number  4         CBLAS_CCOPY    
+                                    ----- PASS -----
+
+ Test of subprogram number  5         CBLAS_CSWAP    
+                                    ----- PASS -----
+
+ Test of subprogram number  6         CBLAS_SCNRM2   
+                                    ----- PASS -----
+
+ Test of subprogram number  7         CBLAS_SCASUM   
+                                    ----- PASS -----
+
+ Test of subprogram number  8         CBLAS_CSCAL    
+                                    ----- PASS -----
+
+ Test of subprogram number  9         CBLAS_CSSCAL   
+                                    ----- PASS -----
+
+ Test of subprogram number 10         CBLAS_ICAMAX   
+                                    ----- PASS -----
+ Complex CBLAS Test Program Results
+
+
+ Test of subprogram number  1         CBLAS_ZDOTC    
+                                    ----- PASS -----
+
+ Test of subprogram number  2         CBLAS_ZDOTU    
+                                    ----- PASS -----
+
+ Test of subprogram number  3         CBLAS_ZAXPY    
+                                    ----- PASS -----
+
+ Test of subprogram number  4         CBLAS_ZCOPY    
+                                    ----- PASS -----
+
+ Test of subprogram number  5         CBLAS_ZSWAP    
+                                    ----- PASS -----
+
+ Test of subprogram number  6         CBLAS_DZNRM2   
+                                    ----- PASS -----
+
+ Test of subprogram number  7         CBLAS_DZASUM   
+                                    ----- PASS -----
+
+ Test of subprogram number  8         CBLAS_ZSCAL    
+                                    ----- PASS -----
+
+ Test of subprogram number  9         CBLAS_ZDSCAL   
+                                    ----- PASS -----
+
+ Test of subprogram number 10         CBLAS_IZAMAX   
+                                    ----- PASS -----
+ cblas_sgemv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_sgbmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_ssymv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_ssbmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_sspmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_strmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_stbmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_stpmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_strsv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_stbsv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_stpsv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_sger   PASSED THE TESTS OF ERROR-EXITS
+ cblas_ssyr   PASSED THE TESTS OF ERROR-EXITS
+ cblas_sspr   PASSED THE TESTS OF ERROR-EXITS
+ cblas_ssyr2  PASSED THE TESTS OF ERROR-EXITS
+ cblas_sspr2  PASSED THE TESTS OF ERROR-EXITS
+ TESTS OF THE REAL             LEVEL 2 BLAS
+
+ THE FOLLOWING PARAMETER VALUES WILL BE USED:
+   FOR N                   0     1     2     3     5     9    63
+   FOR K                   0     1     2     4
+   FOR INCX AND INCY       1     2    -1    -2
+   FOR ALPHA             0.0   1.0   0.7
+   FOR BETA              0.0   1.0   0.9
+
+ ROUTINES PASS COMPUTATIONAL TESTS IF TEST RATIO IS LESS THAN   16.00
+
+ COLUMN-MAJOR AND ROW-MAJOR DATA LAYOUTS ARE TESTED
+
+ RELATIVE MACHINE PRECISION IS TAKEN TO BE  1.2E-07
+
+
+ cblas_sgemv  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  4324 CALLS)
+ cblas_sgemv  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  4324 CALLS)
+
+
+ cblas_sgbmv  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS ( 17284 CALLS)
+ cblas_sgbmv  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS ( 17284 CALLS)
+
+
+ cblas_ssymv  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1729 CALLS)
+ cblas_ssymv  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1729 CALLS)
+
+
+ cblas_ssbmv  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  6913 CALLS)
+ cblas_ssbmv  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  6913 CALLS)
+
+
+ cblas_sspmv  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1729 CALLS)
+ cblas_sspmv  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1729 CALLS)
+
+
+ cblas_strmv  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (   289 CALLS)
+ cblas_strmv  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (   289 CALLS)
+
+
+ cblas_stbmv  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1153 CALLS)
+ cblas_stbmv  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1153 CALLS)
+
+
+ cblas_stpmv  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (   289 CALLS)
+ cblas_stpmv  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (   289 CALLS)
+
+
+ cblas_strsv  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (   289 CALLS)
+ cblas_strsv  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (   289 CALLS)
+
+
+ cblas_stbsv  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1153 CALLS)
+ cblas_stbsv  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1153 CALLS)
+
+
+ cblas_stpsv  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (   289 CALLS)
+ cblas_stpsv  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (   289 CALLS)
+
+
+ cblas_sger   PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (   484 CALLS)
+ cblas_sger   PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (   484 CALLS)
+
+
+ cblas_ssyr   PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (   145 CALLS)
+ cblas_ssyr   PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (   145 CALLS)
+
+
+ cblas_sspr   PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (   145 CALLS)
+ cblas_sspr   PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (   145 CALLS)
+
+
+ cblas_ssyr2  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (   577 CALLS)
+ cblas_ssyr2  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (   577 CALLS)
+
+
+ cblas_sspr2  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (   577 CALLS)
+ cblas_sspr2  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (   577 CALLS)
+
+ END OF TESTS
+ cblas_dgemv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_dgbmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_dsymv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_dsbmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_dspmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_dtrmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_dtbmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_dtpmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_dtrsv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_dtbsv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_dtpsv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_dger   PASSED THE TESTS OF ERROR-EXITS
+ cblas_dsyr   PASSED THE TESTS OF ERROR-EXITS
+ cblas_dspr   PASSED THE TESTS OF ERROR-EXITS
+ cblas_dsyr2  PASSED THE TESTS OF ERROR-EXITS
+ cblas_dspr2  PASSED THE TESTS OF ERROR-EXITS
+ TESTS OF THE DOUBLE PRECISION LEVEL 2 BLAS
+
+ THE FOLLOWING PARAMETER VALUES WILL BE USED:
+   FOR N                   0     1     2     3     5     9    63
+   FOR K                   0     1     2     4
+   FOR INCX AND INCY       1     2    -1    -2
+   FOR ALPHA             0.0   1.0   0.7
+   FOR BETA              0.0   1.0   0.9
+
+ ROUTINES PASS COMPUTATIONAL TESTS IF TEST RATIO IS LESS THAN   16.00
+
+ COLUMN-MAJOR AND ROW-MAJOR DATA LAYOUTS ARE TESTED
+
+ RELATIVE MACHINE PRECISION IS TAKEN TO BE  2.2D-16
+
+
+ cblas_dgemv  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  4324 CALLS)
+ cblas_dgemv  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  4324 CALLS)
+
+
+ cblas_dgbmv  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS ( 17284 CALLS)
+ cblas_dgbmv  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS ( 17284 CALLS)
+
+
+ cblas_dsymv  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1729 CALLS)
+ cblas_dsymv  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1729 CALLS)
+
+
+ cblas_dsbmv  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  6913 CALLS)
+ cblas_dsbmv  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  6913 CALLS)
+
+
+ cblas_dspmv  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1729 CALLS)
+ cblas_dspmv  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1729 CALLS)
+
+
+ cblas_dtrmv  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (   289 CALLS)
+ cblas_dtrmv  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (   289 CALLS)
+
+
+ cblas_dtbmv  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1153 CALLS)
+ cblas_dtbmv  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1153 CALLS)
+
+
+ cblas_dtpmv  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (   289 CALLS)
+ cblas_dtpmv  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (   289 CALLS)
+
+
+ cblas_dtrsv  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (   289 CALLS)
+ cblas_dtrsv  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (   289 CALLS)
+
+
+ cblas_dtbsv  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1153 CALLS)
+ cblas_dtbsv  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1153 CALLS)
+
+
+ cblas_dtpsv  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (   289 CALLS)
+ cblas_dtpsv  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (   289 CALLS)
+
+
+ cblas_dger   PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (   484 CALLS)
+ cblas_dger   PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (   484 CALLS)
+
+
+ cblas_dsyr   PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (   145 CALLS)
+ cblas_dsyr   PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (   145 CALLS)
+
+
+ cblas_dspr   PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (   145 CALLS)
+ cblas_dspr   PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (   145 CALLS)
+
+
+ cblas_dsyr2  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (   577 CALLS)
+ cblas_dsyr2  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (   577 CALLS)
+
+
+ cblas_dspr2  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (   577 CALLS)
+ cblas_dspr2  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (   577 CALLS)
+
+ END OF TESTS
+ cblas_cgemv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_sgemm  PASSED THE TESTS OF ERROR-EXITS
+ cblas_ssymm  PASSED THE TESTS OF ERROR-EXITS
+ cblas_strmm  PASSED THE TESTS OF ERROR-EXITS
+ cblas_strsm  PASSED THE TESTS OF ERROR-EXITS
+ cblas_cgbmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_ssyrk  PASSED THE TESTS OF ERROR-EXITS
+ cblas_ssyr2k PASSED THE TESTS OF ERROR-EXITS
+ TESTS OF THE REAL             LEVEL 3 BLAS
+
+ THE FOLLOWING PARAMETER VALUES WILL BE USED:
+   FOR N                   0     1     2     3     5     9
+   FOR ALPHA             0.0   1.0   0.7
+   FOR BETA              0.0   1.0   1.3
+
+ ROUTINES PASS COMPUTATIONAL TESTS IF TEST RATIO IS LESS THAN   16.00
+
+ COLUMN-MAJOR AND ROW-MAJOR DATA LAYOUTS ARE TESTED
+
+ RELATIVE MACHINE PRECISION IS TAKEN TO BE  1.2E-07
+
+
+ cblas_sgemm  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS ( 17496 CALLS)
+ cblas_sgemm  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS ( 17496 CALLS)
+
+
+ cblas_ssymm  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1296 CALLS)
+ cblas_ssymm  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1296 CALLS)
+
+
+ cblas_strmm  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  2592 CALLS)
+ cblas_strmm  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  2592 CALLS)
+
+
+ cblas_strsm  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  2592 CALLS)
+ cblas_strsm  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  2592 CALLS)
+
+
+ cblas_ssyrk  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1944 CALLS)
+ cblas_ssyrk  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1944 CALLS)
+
+
+ cblas_ssyr2k PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1944 CALLS)
+ cblas_ssyr2k PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1944 CALLS)
+
+ END OF TESTS
+ cblas_dgemm  PASSED THE TESTS OF ERROR-EXITS
+ cblas_dsymm  PASSED THE TESTS OF ERROR-EXITS
+ cblas_dtrmm  PASSED THE TESTS OF ERROR-EXITS
+ cblas_dtrsm  PASSED THE TESTS OF ERROR-EXITS
+ cblas_dsyrk  PASSED THE TESTS OF ERROR-EXITS
+ cblas_dsyr2k PASSED THE TESTS OF ERROR-EXITS
+ TESTS OF THE DOUBLE PRECISION LEVEL 3 BLAS
+
+ THE FOLLOWING PARAMETER VALUES WILL BE USED:
+   FOR N                   1     2     3     5     7     9
+   FOR ALPHA             0.0   1.0   0.7
+   FOR BETA              0.0   1.0   1.3
+
+ ROUTINES PASS COMPUTATIONAL TESTS IF TEST RATIO IS LESS THAN   16.00
+
+ COLUMN-MAJOR AND ROW-MAJOR DATA LAYOUTS ARE TESTED
+
+ RELATIVE MACHINE PRECISION IS TAKEN TO BE  2.2D-16
+
+
+ cblas_dgemm  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS ( 17496 CALLS)
+ cblas_dgemm  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS ( 17496 CALLS)
+
+
+ cblas_dsymm  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1296 CALLS)
+ cblas_dsymm  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1296 CALLS)
+
+
+ cblas_dtrmm  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  2592 CALLS)
+ cblas_dtrmm  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  2592 CALLS)
+
+
+ cblas_dtrsm  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  2592 CALLS)
+ cblas_dtrsm  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  2592 CALLS)
+
+
+ cblas_dsyrk  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1944 CALLS)
+ cblas_dsyrk  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1944 CALLS)
+
+
+ cblas_dsyr2k PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1944 CALLS)
+ cblas_dsyr2k PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1944 CALLS)
+
+ END OF TESTS
+ cblas_cgemm  PASSED THE TESTS OF ERROR-EXITS
+ cblas_chemm  PASSED THE TESTS OF ERROR-EXITS
+ cblas_csymm  PASSED THE TESTS OF ERROR-EXITS
+ cblas_ctrmm  PASSED THE TESTS OF ERROR-EXITS
+ cblas_chemv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_ctrsm  PASSED THE TESTS OF ERROR-EXITS
+ cblas_cherk  PASSED THE TESTS OF ERROR-EXITS
+ cblas_csyrk  PASSED THE TESTS OF ERROR-EXITS
+ cblas_cher2k PASSED THE TESTS OF ERROR-EXITS
+ cblas_chbmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_csyr2k PASSED THE TESTS OF ERROR-EXITS
+ TESTS OF THE COMPLEX          LEVEL 3 BLAS
+
+ THE FOLLOWING PARAMETER VALUES WILL BE USED:
+   FOR N                   0     1     2     3     5     9
+   FOR ALPHA          ( 0.0, 0.0)  ( 1.0, 0.0)  ( 0.7,-0.9)  
+   FOR BETA           ( 0.0, 0.0)  ( 1.0, 0.0)  ( 1.3,-1.1)  
+
+ ROUTINES PASS COMPUTATIONAL TESTS IF TEST RATIO IS LESS THAN   16.00
+
+ COLUMN-MAJOR AND ROW-MAJOR DATA LAYOUTS ARE TESTED
+
+ RELATIVE MACHINE PRECISION IS TAKEN TO BE  1.2E-07
+
+
+ cblas_cgemm  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS ( 17496 CALLS)
+ cblas_cgemm  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS ( 17496 CALLS)
+
+
+ cblas_chemm  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1296 CALLS)
+ cblas_chemm  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1296 CALLS)
+
+
+ cblas_csymm  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1296 CALLS)
+ cblas_csymm  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1296 CALLS)
+
+
+ cblas_ctrmm  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  2592 CALLS)
+ cblas_ctrmm  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  2592 CALLS)
+
+
+ cblas_ctrsm  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  2592 CALLS)
+ cblas_ctrsm  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  2592 CALLS)
+
+
+ cblas_cherk  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1296 CALLS)
+ cblas_cherk  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1296 CALLS)
+
+
+ cblas_csyrk  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1296 CALLS)
+ cblas_csyrk  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1296 CALLS)
+
+
+ cblas_cher2k PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1296 CALLS)
+ cblas_cher2k PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1296 CALLS)
+
+
+ cblas_csyr2k PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1296 CALLS)
+ cblas_csyr2k PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1296 CALLS)
+
+ END OF TESTS
+ cblas_zgemm  PASSED THE TESTS OF ERROR-EXITS
+ cblas_chpmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_ctrmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_ctbmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_ctpmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_ctrsv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_ctbsv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_ctpsv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_cgeru  PASSED THE TESTS OF ERROR-EXITS
+ cblas_cgeru  PASSED THE TESTS OF ERROR-EXITS
+ cblas_cher   PASSED THE TESTS OF ERROR-EXITS
+ cblas_chpr   PASSED THE TESTS OF ERROR-EXITS
+ cblas_cher2  PASSED THE TESTS OF ERROR-EXITS
+ cblas_chpr2  PASSED THE TESTS OF ERROR-EXITS
+ TESTS OF THE COMPLEX          LEVEL 2 BLAS
+
+ THE FOLLOWING PARAMETER VALUES WILL BE USED:
+   FOR N                   0     1     2     3     5     9    63
+   FOR K                   0     1     2     4
+   FOR INCX AND INCY       1     2    -1    -2
+   FOR ALPHA          ( 0.0, 0.0)  ( 1.0, 0.0)  ( 0.7,-0.9)  
+   FOR BETA           ( 0.0, 0.0)  ( 1.0, 0.0)  ( 1.3,-1.1)  
+
+ ROUTINES PASS COMPUTATIONAL TESTS IF TEST RATIO IS LESS THAN   16.00
+
+ COLUMN-MAJOR AND ROW-MAJOR DATA LAYOUTS ARE TESTED
+
+ RELATIVE MACHINE PRECISION IS TAKEN TO BE  1.2E-07
+
+
+ cblas_cgemv  PASSED THE COMPUTATIONAL TESTS (  4324 CALLS)
+ cblas_cgemv  PASSED THE COMPUTATIONAL TESTS (  4324 CALLS)
+
+
+ cblas_cgbmv  PASSED THE COMPUTATIONAL TESTS ( 17284 CALLS)
+ cblas_cgbmv  PASSED THE COMPUTATIONAL TESTS ( 17284 CALLS)
+
+
+ cblas_chemv  PASSED THE COMPUTATIONAL TESTS (  1729 CALLS)
+ cblas_chemv  PASSED THE COMPUTATIONAL TESTS (  1729 CALLS)
+
+
+ cblas_chbmv  PASSED THE COMPUTATIONAL TESTS (  6913 CALLS)
+ cblas_chbmv  PASSED THE COMPUTATIONAL TESTS (  6913 CALLS)
+
+
+ cblas_chpmv  PASSED THE COMPUTATIONAL TESTS (  1729 CALLS)
+ cblas_chpmv  PASSED THE COMPUTATIONAL TESTS (  1729 CALLS)
+
+
+ cblas_ctrmv  PASSED THE COMPUTATIONAL TESTS (   289 CALLS)
+ cblas_ctrmv  PASSED THE COMPUTATIONAL TESTS (   289 CALLS)
+
+
+ cblas_ctbmv  PASSED THE COMPUTATIONAL TESTS (  1153 CALLS)
+ cblas_ctbmv  PASSED THE COMPUTATIONAL TESTS (  1153 CALLS)
+
+
+ cblas_ctpmv  PASSED THE COMPUTATIONAL TESTS (   289 CALLS)
+ cblas_ctpmv  PASSED THE COMPUTATIONAL TESTS (   289 CALLS)
+
+
+ cblas_ctrsv  PASSED THE COMPUTATIONAL TESTS (   289 CALLS)
+ cblas_ctrsv  PASSED THE COMPUTATIONAL TESTS (   289 CALLS)
+
+
+ cblas_ctbsv  PASSED THE COMPUTATIONAL TESTS (  1153 CALLS)
+ cblas_ctbsv  PASSED THE COMPUTATIONAL TESTS (  1153 CALLS)
+
+
+ cblas_ctpsv  PASSED THE COMPUTATIONAL TESTS (   289 CALLS)
+ cblas_ctpsv  PASSED THE COMPUTATIONAL TESTS (   289 CALLS)
+
+
+ cblas_cgerc  PASSED THE COMPUTATIONAL TESTS (   484 CALLS)
+ cblas_cgerc  PASSED THE COMPUTATIONAL TESTS (   484 CALLS)
+
+
+ cblas_cgeru  PASSED THE COMPUTATIONAL TESTS (   484 CALLS)
+ cblas_cgeru  PASSED THE COMPUTATIONAL TESTS (   484 CALLS)
+
+
+ cblas_cher   PASSED THE COMPUTATIONAL TESTS (   145 CALLS)
+ cblas_cher   PASSED THE COMPUTATIONAL TESTS (   145 CALLS)
+
+
+ cblas_chpr   PASSED THE COMPUTATIONAL TESTS (   145 CALLS)
+ cblas_chpr   PASSED THE COMPUTATIONAL TESTS (   145 CALLS)
+
+
+ cblas_cher2  PASSED THE COMPUTATIONAL TESTS (   577 CALLS)
+ cblas_cher2  PASSED THE COMPUTATIONAL TESTS (   577 CALLS)
+
+
+ cblas_chpr2  PASSED THE COMPUTATIONAL TESTS (   577 CALLS)
+ cblas_chpr2  PASSED THE COMPUTATIONAL TESTS (   577 CALLS)
+
+ END OF TESTS
+ cblas_zgemv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_zhemm  PASSED THE TESTS OF ERROR-EXITS
+ cblas_zgbmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_zsymm  PASSED THE TESTS OF ERROR-EXITS
+ cblas_ztrmm  PASSED THE TESTS OF ERROR-EXITS
+ cblas_ztrsm  PASSED THE TESTS OF ERROR-EXITS
+ cblas_zhemv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_zhbmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_zherk  PASSED THE TESTS OF ERROR-EXITS
+ cblas_zhpmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_zsyrk  PASSED THE TESTS OF ERROR-EXITS
+ cblas_ztrmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_ztbmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_zher2k PASSED THE TESTS OF ERROR-EXITS
+ cblas_ztpmv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_ztrsv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_ztbsv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_ztpsv  PASSED THE TESTS OF ERROR-EXITS
+ cblas_zgeru  PASSED THE TESTS OF ERROR-EXITS
+ cblas_zsyr2k PASSED THE TESTS OF ERROR-EXITS
+ cblas_zgeru  PASSED THE TESTS OF ERROR-EXITS
+ cblas_zher   PASSED THE TESTS OF ERROR-EXITS
+TESTS OF THE COMPLEX*16        LEVEL 3 BLAS
+
+ THE FOLLOWING PARAMETER VALUES WILL BE USED:
+   FOR N                   0     1     2     3     5     9    35
+   FOR ALPHA          ( 0.0, 0.0)  ( 1.0, 0.0)  ( 0.7,-0.9)  
+   FOR BETA           ( 0.0, 0.0)  ( 1.0, 0.0)  ( 1.3,-1.1)  
+
+ ROUTINES PASS COMPUTATIONAL TESTS IF TEST RATIO IS LESS THAN   16.00
+
+ COLUMN-MAJOR AND ROW-MAJOR DATA LAYOUTS ARE TESTED
+
+ RELATIVE MACHINE PRECISION IS TAKEN TO BE  2.2E-16
+
+
+ cblas_zgemm  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS ( 27783 CALLS)
+ cblas_zgemm  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS ( 27783 CALLS)
+
+
+ cblas_zhemm  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1764 CALLS)
+ cblas_zhemm  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1764 CALLS)
+
+
+ cblas_zsymm  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1764 CALLS)
+ cblas_zsymm  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1764 CALLS)
+
+
+ cblas_ztrmm  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  3528 CALLS)
+ cblas_ztrmm  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  3528 CALLS)
+
+
+ cblas_ztrsm  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  3528 CALLS)
+ cblas_ztrsm  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  3528 CALLS)
+
+
+ cblas_zherk  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1764 CALLS)
+ cblas_zherk  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1764 CALLS)
+
+
+ cblas_zsyrk  PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1764 CALLS)
+ cblas_zsyrk  PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1764 CALLS)
+
+
+ cblas_zher2k PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1764 CALLS)
+ cblas_zher2k PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1764 CALLS)
+
+
+ cblas_zsyr2k PASSED THE COLUMN-MAJOR COMPUTATIONAL TESTS (  1764 CALLS)
+ cblas_zsyr2k PASSED THE ROW-MAJOR    COMPUTATIONAL TESTS (  1764 CALLS)
+
+ END OF TESTS
+ cblas_zhpr   PASSED THE TESTS OF ERROR-EXITS
+ cblas_zher2  PASSED THE TESTS OF ERROR-EXITS
+ cblas_zhpr2  PASSED THE TESTS OF ERROR-EXITS
+ TESTS OF THE COMPLEX*16      LEVEL 2 BLAS
+
+ THE FOLLOWING PARAMETER VALUES WILL BE USED:
+   FOR N                   0     1     2     3     5     9    63
+   FOR K                   0     1     2     4
+   FOR INCX AND INCY       1     2    -1    -2
+   FOR ALPHA          ( 0.0, 0.0)  ( 1.0, 0.0)  ( 0.7,-0.9)  
+   FOR BETA           ( 0.0, 0.0)  ( 1.0, 0.0)  ( 1.3,-1.1)  
+
+ ROUTINES PASS COMPUTATIONAL TESTS IF TEST RATIO IS LESS THAN   16.00
+
+ COLUMN-MAJOR AND ROW-MAJOR DATA LAYOUTS ARE TESTED
+
+ RELATIVE MACHINE PRECISION IS TAKEN TO BE  2.2E-16
+
+
+ cblas_zgemv  PASSED THE COMPUTATIONAL TESTS (  4324 CALLS)
+ cblas_zgemv  PASSED THE COMPUTATIONAL TESTS (  4324 CALLS)
+
+
+ cblas_zgbmv  PASSED THE COMPUTATIONAL TESTS ( 17284 CALLS)
+ cblas_zgbmv  PASSED THE COMPUTATIONAL TESTS ( 17284 CALLS)
+
+
+ cblas_zhemv  PASSED THE COMPUTATIONAL TESTS (  1729 CALLS)
+ cblas_zhemv  PASSED THE COMPUTATIONAL TESTS (  1729 CALLS)
+
+
+ cblas_zhbmv  PASSED THE COMPUTATIONAL TESTS (  6913 CALLS)
+ cblas_zhbmv  PASSED THE COMPUTATIONAL TESTS (  6913 CALLS)
+
+
+ cblas_zhpmv  PASSED THE COMPUTATIONAL TESTS (  1729 CALLS)
+ cblas_zhpmv  PASSED THE COMPUTATIONAL TESTS (  1729 CALLS)
+
+
+ cblas_ztrmv  PASSED THE COMPUTATIONAL TESTS (   289 CALLS)
+ cblas_ztrmv  PASSED THE COMPUTATIONAL TESTS (   289 CALLS)
+
+
+ cblas_ztbmv  PASSED THE COMPUTATIONAL TESTS (  1153 CALLS)
+ cblas_ztbmv  PASSED THE COMPUTATIONAL TESTS (  1153 CALLS)
+
+
+ cblas_ztpmv  PASSED THE COMPUTATIONAL TESTS (   289 CALLS)
+ cblas_ztpmv  PASSED THE COMPUTATIONAL TESTS (   289 CALLS)
+
+
+ cblas_ztrsv  PASSED THE COMPUTATIONAL TESTS (   289 CALLS)
+ cblas_ztrsv  PASSED THE COMPUTATIONAL TESTS (   289 CALLS)
+
+
+ cblas_ztbsv  PASSED THE COMPUTATIONAL TESTS (  1153 CALLS)
+ cblas_ztbsv  PASSED THE COMPUTATIONAL TESTS (  1153 CALLS)
+
+
+ cblas_ztpsv  PASSED THE COMPUTATIONAL TESTS (   289 CALLS)
+ cblas_ztpsv  PASSED THE COMPUTATIONAL TESTS (   289 CALLS)
+
+
+ cblas_zgerc  PASSED THE COMPUTATIONAL TESTS (   484 CALLS)
+ cblas_zgerc  PASSED THE COMPUTATIONAL TESTS (   484 CALLS)
+
+
+ cblas_zgeru  PASSED THE COMPUTATIONAL TESTS (   484 CALLS)
+ cblas_zgeru  PASSED THE COMPUTATIONAL TESTS (   484 CALLS)
+
+
+ cblas_zher   PASSED THE COMPUTATIONAL TESTS (   145 CALLS)
+ cblas_zher   PASSED THE COMPUTATIONAL TESTS (   145 CALLS)
+
+
+ cblas_zhpr   PASSED THE COMPUTATIONAL TESTS (   145 CALLS)
+ cblas_zhpr   PASSED THE COMPUTATIONAL TESTS (   145 CALLS)
+
+
+ cblas_zher2  PASSED THE COMPUTATIONAL TESTS (   577 CALLS)
+ cblas_zher2  PASSED THE COMPUTATIONAL TESTS (   577 CALLS)
+
+
+ cblas_zhpr2  PASSED THE COMPUTATIONAL TESTS (   577 CALLS)
+ cblas_zhpr2  PASSED THE COMPUTATIONAL TESTS (   577 CALLS)
+
+ END OF TESTS
+OK.
+
+ OpenBLAS build complete. (BLAS CBLAS LAPACK LAPACKE)
+
+  OS               ... Linux             
+  Architecture     ... x86_64               
+  BINARY           ... 64bit                 
+  Use 64 bits int    (equivalent to "-i8" in Fortran)      
+  C compiler       ... GCC  (command line : gcc -m64)
+  Fortran compiler ... GFORTRAN  (command line : gfortran -m64)
+  Library Name     ... libopenblas64_p-r0.3.1.a (Multi threaded; Max num-threads is 16)
+
+To install the library, you can run "make PREFIX=/path/to/your/installation install".
+
