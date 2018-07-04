@@ -1,0 +1,19 @@
+WARNING: Base.median is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/trials.jl:121
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/trials.jl:122
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/groups.jl:79
+WARNING: Base.median is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/.julia/packages/BenchmarkTools/1cAj/src/groups.jl:80
+WARNING: importing deprecated binding Base.mean into ArrayBenchmarks.
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/array/ArrayBenchmarks.jl:28
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/array/ArrayBenchmarks.jl:28
