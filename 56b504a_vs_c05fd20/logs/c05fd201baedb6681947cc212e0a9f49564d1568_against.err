@@ -1,0 +1,13 @@
+┌ Warning: __precompile__() is now the default
+│   caller = __precompile__() at loading.jl:777
+└ @ Base ./loading.jl:777
+┌ Warning: __precompile__() is now the default
+│   caller = __precompile__() at loading.jl:777
+└ @ Base ./loading.jl:777
+WARNING: importing deprecated binding Base.mean into ArrayBenchmarks.
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/array/ArrayBenchmarks.jl:28
+WARNING: Base.mean is deprecated: it has been moved to the standard library package `Statistics`.
+Add `using Statistics` to your imports.
+  likely near /home/nanosoldier/.julia/dev/BaseBenchmarks/src/array/ArrayBenchmarks.jl:28
