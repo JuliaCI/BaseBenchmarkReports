@@ -1,0 +1,10 @@
+ERROR: LoadError: LoadError: UndefVarError: @tagged not defined
+Stacktrace:
+ [1] top-level scope
+ [2] include at ./boot.jl:317 [inlined]
+ [3] include_relative(::Module, ::String) at ./loading.jl:1041
+ [4] include(::Module, ::String) at ./sysimg.jl:29
+ [5] exec_options(::Base.JLOptions) at ./client.jl:229
+ [6] _start() at ./client.jl:421
+in expression starting at /home/nanosoldier/workdir/tmppyhEdF/benchscript.jl:26
+in expression starting at /home/nanosoldier/workdir/tmppyhEdF/benchscript.jl:11
