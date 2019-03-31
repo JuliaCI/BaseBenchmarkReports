@@ -1,0 +1,257 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0/home/nanosoldier/workdir/tmp1Bz8dR/deps/llvm.mk:525: warning: overriding commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/LLVM.v6.0.1.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/llvm.mk:525: warning: ignoring old commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/LLVM.v6.0.1.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/libuv.mk:69: warning: overriding commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/LibUV.v1.24.0.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/libuv.mk:69: warning: ignoring old commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/LibUV.v1.24.0.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/pcre.mk:61: warning: overriding commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/PCRE2.v10.31.0.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/pcre.mk:61: warning: ignoring old commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/PCRE2.v10.31.0.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/openlibm.mk:37: warning: overriding commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/OpenLibm.v0.6.0.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/openlibm.mk:37: warning: ignoring old commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/OpenLibm.v0.6.0.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/blas.mk:210: warning: overriding commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/OpenBLAS.v0.3.5.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/blas.mk:210: warning: ignoring old commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/OpenBLAS.v0.3.5.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/suitesparse.mk:144: warning: overriding commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/SuiteSparse.v5.4.0.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/suitesparse.mk:144: warning: ignoring old commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/SuiteSparse.v5.4.0.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/unwind.mk:110: warning: overriding commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/LibUnwind.v1.3.1.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/unwind.mk:110: warning: ignoring old commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/LibUnwind.v1.3.1.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/unwind.mk:115: warning: overriding commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/LibOSXUnwind.v0.0.5.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/unwind.mk:115: warning: ignoring old commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/LibOSXUnwind.v0.0.5.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/gmp.mk:78: warning: overriding commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/GMP.v6.1.2.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/gmp.mk:78: warning: ignoring old commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/GMP.v6.1.2.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/mpfr.mk:81: warning: overriding commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/MPFR.v4.0.2.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/mpfr.mk:81: warning: ignoring old commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/MPFR.v4.0.2.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/mbedtls.mk:96: warning: overriding commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/MbedTLS.v2.16.0.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/mbedtls.mk:96: warning: ignoring old commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/MbedTLS.v2.16.0.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/libssh2.mk:80: warning: overriding commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/LibSSH2.v1.8.0.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/libssh2.mk:80: warning: ignoring old commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/LibSSH2.v1.8.0.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/curl.mk:76: warning: overriding commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/LibCURL.v7.61.0.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/curl.mk:76: warning: ignoring old commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/LibCURL.v7.61.0.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/libgit2.mk:114: warning: overriding commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/LibGit2.v0.27.7.tgz'
+/home/nanosoldier/workdir/tmp1Bz8dR/deps/libgit2.mk:114: warning: ignoring old commands for target `/home/nanosoldier/workdir/tmp1Bz8dR/usr-staging/LibGit2.v0.27.7.tgz'
+  % Total    % Received % Xferd  Average Spe  % Totae    Time     Time  Current
+  ge                             Dload  Upload   Total   S                   Dloa  0     0    0     0    0     0      0      0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   497  100   497    0     0   1481      0 --:--:-- --:--:-- --:--:--  1479100   497  100   497    0     0   1480      0 --:--:-- --:--:-- --:--:--  1479
+  0     0    0     0    0     0      0      0 --:--:-- --:--  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   491  100   491    0     0   1366      0 --:--:-- --:--:-- --:--:--  1363
+100   505  100   505    0     0   1393      0 --:--:-- --:--:-- --:--:--  1391
+100  540k  100  540k    0     0   871k      0 --:--:-- --:--:-- --:--:--  871k
+100 1767k  100 1767k    0     0  2667k      0 --:--:-- --:--:-- --:--:-- 2667k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   497  100   497    0     0   1985      0 --:--:-- --:--:-- --:--:--  1988
+100  387k  100  387k    0     0   910k      0 --:--:-- --:--:-- --:--:--  910k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   455  100   455    0     0   1083      0 --:--:-- --:--:-- --:--:--  1083
+100  187k  100  187k    0     0   325k      0 --:--:-- --:--:-- --:--:--  325k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 55 18.2M   55 10.1M    0     0  8049k      0  0:00:02  0:00:01  0:00:01 8049k100   505  100   505    0     0   2184      0 --:--:-- --:--:-- --:--:--  2176100   505  100   505    0     0   2183      0 --:--:-- --:--:-- --:--:--  2176
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  277k  100  277k    0     0   640k      0 --:--:-- --:--:-- --:--:--  640k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   497  100   497    0     0   2356      0 --:--:-- --:--:-- --:--:--  2366
+100 18.2M  100 18.2M    0     0  9941k      0  0:00:01  0:00:01 --:--:-- 13.7M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   493  100   493    0     0   2144      0 --:--:-- --:--:-- --:--:--  2152
+  3 1188k    3 43852    0     0   104k      0  0:00:11 --:--:--  0:00:11  104k 10  179M   10 18.0M    0     0  22.7M      0  0:00:07 --:--:--  0:00:07 22.7M100 1188k  100 1188k    0     0  2549k      0 --:--:-- --:--:-- --:--:-- 19.9M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100   485  100   485    0     0   1878      0 --:--:-- --:--:-- --:--:--  1879
+100   461  100   461    0     0    307      0  0:00:01  0:00:01 --:--:--   307
+100  475k  100  475k    0     0  1057k      0 --:--:-- --:--:-- --:--:-- 1057k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  284k  100  284k    0     0   170k      0  0:00:01  0:00:01 --:--:--  170k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   495  100   495    0     0   2540      0 --:--:-- --:--:-- --:--:--  2551
+100   493  100   493    0     0   2335      0 --:--:-- --:--:-- --:--:--  2336
+100 1020k  100 1020k    0     0  2688k      0 --:--:-- --:--:-- --:--:-- 2688k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 44  179M   44 80.3M    0     0  44.9M      0  0:00:04  0:00:01  0:00:03 62.7M 16  207k   16 34259    0     0  95250      0  0:00:02 --:--:--  0:00:02 95250100  207k  100  207k    0     0   554k      0 --:--:-- --:--:-- --:--:-- 12.1M
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   495  100   495    0     0   2343      0 --:--:-- --:--:-- --:--:--  2334
+100   495  100   495    0     0   1505      0 --:--:-- --:--:-- --:--:--  1509
+100  919k  100  919k    0     0  2078k      0 --:--:-- --:--:-- --:--:-- 2078k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   459  100   459    0     0   4704      0 --:--:-- --:--:-- --:--:--  4731
+100  728k  100  728k    0     0  1393k      0 --:--:-- --:--:-- --:--:-- 1393k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  214k  100  214k    0     0   820k      0 --:--:-- --:--:-- --:--:--  820k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   487  100   487    0     0   2303      0 --:--:-- --:--:-- --:--:--  2308
+100   497  100   497    0     0   2310      0 --:--:-- --:--:-- --:--:--  2311
+100  399k  100  399k    0     0  1010k      0 --:--:-- --:--:-- --:--:-- 1010k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 79  179M   79  142M    0     0  51.0M      0  0:00:03  0:00:02  0:00:01 62.2M  0  152k    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  152k  100  152k    0     0   381k      0 --:--:-- --:--:-- --:--:-- 4018k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   497  100   497    0     0   2916      0 --:--:-- --:--:-- --:--:--  2906
+100  4183  100  4183    0     0  14954      0 --:--:-- --:--:-- --:--:-- 14954
+rm: cannot remove ‘scratch/dsfmt-2.2.3/’: No such file or directory
+100   511  100   511    0     0   1648      0 --:--:-- --:--:-- --:--:--  1653
+100 3330k  100 3330k    0     0  5632k      0 --:--:-- --:--:-- --:--:-- 5632k
+100  179M  100  179M    0     0  49.8M      0  0:00:03  0:00:03 --:--:-- 57.5M
+ar: creating libutf8proc.a
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+not an ELF executable
+not an ELF executable
+not an ELF executable
+not an ELF executable
+not an ELF executable
+not an ELF executable
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp: In function ‘jl_cgval_t emit_varinfo(jl_codectx_t&, jl_varinfo_t&, jl_sym_t*, jl_value_t*)’:
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:3534:24: warning: ‘box_isnull’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 isnull = ctx.builder.CreateSelect(load_unbox, isnull, box_isnull);
+                 ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:3523:16: note: ‘box_isnull’ was declared here
+         Value *box_isnull;
+                ^~~~~~~~~~
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp: In function ‘llvm::Function* gen_invoke_wrapper(jl_method_instance_t*, jl_value_t*, const jl_returninfo_t&, llvm::StringRef, llvm::Module*)’:
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:625:49: warning: ‘result’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     jl_cgval_t tagval(v, NULL, false, typ, tindex);
+                                                 ^
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:5171:17: note: ‘result’ was declared here
+     AllocaInst *result;
+                 ^~~~~~
+In file included from /home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:57:0:
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/include/llvm/IR/IRBuilder.h: In function ‘llvm::Value* emit_array_nd_index(jl_codectx_t&, const jl_cgval_t&, jl_value_t*, ssize_t, const jl_cgval_t*, size_t, jl_value_t*)’:
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/include/llvm/IR/IRBuilder.h:1563:57: warning: ‘ii’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     return CreateICmp(ICmpInst::ICMP_ULT, LHS, RHS, Name);
+                                                         ^
+In file included from /home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:782:0:
+/home/nanosoldier/workdir/tmp1Bz8dR/src/cgutils.cpp:1857:12: note: ‘ii’ was declared here
+     Value *ii;
+            ^~
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp: In function ‘jl_cgval_t emit_expr(jl_codectx_t&, jl_value_t*, ssize_t)’:
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:3424:24: warning: ‘isnull’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+                 isnull = ctx.builder.CreateSelect(load_unbox, isnull, box_isnull);
+                 ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:3404:12: note: ‘isnull’ was declared here
+     Value *isnull;
+            ^~~~~~
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp: In function ‘std::unique_ptr<llvm::Module> emit_function(jl_method_instance_t*, jl_code_info_t*, jl_value_t*, size_t, jl_llvm_functions_t*, const jl_cgparams_t*)’:
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:6340:34: warning: ‘retval’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             ctx.builder.CreateRet(retval);
+             ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:6261:20: note: ‘retval’ was declared here
+             Value *retval;
+                    ^~~~~~
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp: In function ‘llvm::Function* gen_cfun_wrapper(llvm::Module*, const function_sig_t&, jl_value_t*, jl_typemap_entry_t*, jl_value_t*, jl_tupletype_t*, jl_unionall_t*, jl_svec_t*, jl_array_t**)’:
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:625:49: warning: ‘result’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     jl_cgval_t tagval(v, NULL, false, typ, tindex);
+                                                 ^
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:4721:16: note: ‘result’ was declared here
+         Value *result;
+                ^~~~~~
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:4707:32: warning: ‘ret_jlcall’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             retphi->addIncoming(ret_jlcall, b_jlcall);
+             ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:4687:16: note: ‘ret_jlcall’ was declared here
+         Value *ret_jlcall;
+                ^~~~~~~~~~
+In file included from /home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:57:0:
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/include/llvm/IR/IRBuilder.h:129:8: warning: ‘b_after’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     BB = TheBB;
+     ~~~^~~~~~~
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:4686:44: note: ‘b_after’ was declared here
+         BasicBlock *b_generic, *b_jlcall, *b_after;
+                                            ^~~~~~~
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:4707:32: warning: ‘b_jlcall’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             retphi->addIncoming(ret_jlcall, b_jlcall);
+             ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:4686:33: note: ‘b_jlcall’ was declared here
+         BasicBlock *b_generic, *b_jlcall, *b_after;
+                                 ^~~~~~~~
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:4708:32: warning: ‘b_generic’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+             retphi->addIncoming(ret, b_generic);
+             ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:4686:21: note: ‘b_generic’ was declared here
+         BasicBlock *b_generic, *b_jlcall, *b_after;
+                     ^~~~~~~~~
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/llvm-config: relocation error: /home/nanosoldier/workdir/tmp1Bz8dR/usr/tools/../lib/libLLVM-6.0.so: symbol _ZNKSt3_V214error_category10_M_messageB5cxx11Ei, version GLIBCXX_3.4.21 not defined in file libstdc++.so.6 with link time reference
+./codegen.o: In function `jl_init_llvm':
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:7605: undefined reference to `llvm::sys::getProcessTriple()'
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:7615: undefined reference to `llvm::TargetRegistry::lookupTarget(std::string const&, llvm::Triple&, std::string&)'
+/home/nanosoldier/workdir/tmp1Bz8dR/src/codegen.cpp:7628: undefined reference to `llvm::EngineBuilder::selectTarget(llvm::Triple const&, llvm::StringRef, llvm::StringRef, llvm::SmallVectorImpl<std::string> const&)'
+./jitlayers.o: In function `JuliaOJIT::CompilerT::operator()(llvm::Module&)':
+/home/nanosoldier/workdir/tmp1Bz8dR/src/jitlayers.cpp:354: undefined reference to `llvm::report_fatal_error(std::string const&, bool)'
+./jitlayers.o: In function `operator()':
+/home/nanosoldier/workdir/tmp1Bz8dR/src/jitlayers.cpp:451: undefined reference to `llvm::RTDyldMemoryManager::getSymbolAddressInProcess(std::string const&)'
+./jitlayers.o: In function `JuliaOJIT::addModule(std::unique_ptr<llvm::Module, std::default_delete<llvm::Module> >)':
+/home/nanosoldier/workdir/tmp1Bz8dR/src/jitlayers.cpp:427: undefined reference to `llvm::RTDyldMemoryManager::getSymbolAddressInProcess(std::string const&)'
+./jitlayers.o: In function `llvm::sys::DynamicLibrary::LoadLibraryPermanently(char const*, std::string*)':
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/include/llvm/Support/DynamicLibrary.h:88: undefined reference to `llvm::sys::DynamicLibrary::getPermanentLibrary(char const*, std::string*)'
+./jitlayers.o: In function `JuliaOJIT::JuliaOJIT(llvm::TargetMachine&)':
+/home/nanosoldier/workdir/tmp1Bz8dR/src/jitlayers.cpp:386: undefined reference to `llvm::report_fatal_error(std::string const&, bool)'
+./jitlayers.o: In function `JuliaPipeline<0>::createPrinterPass(llvm::raw_ostream&, std::string const&) const':
+/home/nanosoldier/workdir/tmp1Bz8dR/src/jitlayers.cpp:1102: undefined reference to `llvm::createPrintModulePass(llvm::raw_ostream&, std::string const&, bool)'
+./jitlayers.o: In function `JuliaPipeline<2>::createPrinterPass(llvm::raw_ostream&, std::string const&) const':
+/home/nanosoldier/workdir/tmp1Bz8dR/src/jitlayers.cpp:1102: undefined reference to `llvm::createPrintModulePass(llvm::raw_ostream&, std::string const&, bool)'
+./jitlayers.o: In function `JuliaPipeline<3>::createPrinterPass(llvm::raw_ostream&, std::string const&) const':
+/home/nanosoldier/workdir/tmp1Bz8dR/src/jitlayers.cpp:1102: undefined reference to `llvm::createPrintModulePass(llvm::raw_ostream&, std::string const&, bool)'
+./disasm.o: In function `jl_dump_asm_internal(unsigned long, unsigned long, long, llvm::object::ObjectFile const*, llvm::DIContext*, llvm::raw_ostream&, char const*, char const*)':
+/home/nanosoldier/workdir/tmp1Bz8dR/src/disasm.cpp:750: undefined reference to `llvm::sys::getProcessTriple()'
+/home/nanosoldier/workdir/tmp1Bz8dR/src/disasm.cpp:757: undefined reference to `llvm::TargetRegistry::lookupTarget(std::string const&, std::string&)'
+./debuginfo.o: In function `find_object_file(unsigned long, llvm::StringRef)':
+/home/nanosoldier/workdir/tmp1Bz8dR/src/debuginfo.cpp:926: undefined reference to `llvm::DWARFContext::create(llvm::object::ObjectFile const&, llvm::LoadedObjectInfo const*, llvm::function_ref<llvm::ErrorPolicy (llvm::Error)>, std::string)'
+./debuginfo.o: In function `JuliaJITEventListener::_NotifyObjectEmitted(llvm::object::ObjectFile const&, llvm::object::ObjectFile const&, llvm::RuntimeDyld::LoadedObjectInfo const&, llvm::RTDyldMemoryManager*)':
+/home/nanosoldier/workdir/tmp1Bz8dR/src/debuginfo.cpp:386: undefined reference to `llvm::DWARFContext::create(llvm::object::ObjectFile const&, llvm::LoadedObjectInfo const*, llvm::function_ref<llvm::ErrorPolicy (llvm::Error)>, std::string)'
+./llvm-simdloop.o:(.data.rel.ro._ZTVN4llvm13LowerSIMDLoopE[_ZTVN4llvm13LowerSIMDLoopE]+0x40): undefined reference to `llvm::ModulePass::createPrinterPass(llvm::raw_ostream&, std::string const&) const'
+./llvm-ptls.o:(.data.rel.ro+0x40): undefined reference to `llvm::ModulePass::createPrinterPass(llvm::raw_ostream&, std::string const&) const'
+./llvm-muladd.o:(.data.rel.ro._ZTV13CombineMulAdd[_ZTV13CombineMulAdd]+0x40): undefined reference to `llvm::FunctionPass::createPrinterPass(llvm::raw_ostream&, std::string const&) const'
+./llvm-late-gc-lowering.o:(.data.rel.ro._ZTV16LateLowerGCFrame[_ZTV16LateLowerGCFrame]+0x40): undefined reference to `llvm::FunctionPass::createPrinterPass(llvm::raw_ostream&, std::string const&) const'
+./llvm-lower-handlers.o:(.data.rel.ro._ZTV16LowerExcHandlers[_ZTV16LowerExcHandlers]+0x40): undefined reference to `llvm::FunctionPass::createPrinterPass(llvm::raw_ostream&, std::string const&) const'
+./llvm-propagate-addrspaces.o:(.data.rel.ro._ZTV24PropagateJuliaAddrspaces[_ZTV24PropagateJuliaAddrspaces]+0x40): undefined reference to `llvm::FunctionPass::createPrinterPass(llvm::raw_ostream&, std::string const&) const'
+./llvm-multiversioning.o:(.data.rel.ro+0x40): undefined reference to `llvm::ModulePass::createPrinterPass(llvm::raw_ostream&, std::string const&) const'
+./llvm-alloc-opt.o:(.data.rel.ro+0x40): undefined reference to `llvm::FunctionPass::createPrinterPass(llvm::raw_ostream&, std::string const&) const'
+./cgmemmgr.o: In function `(anonymous namespace)::RTDyldMemoryManagerJL::finalizeMemory(std::string*)':
+/home/nanosoldier/workdir/tmp1Bz8dR/src/cgmemmgr.cpp:877: undefined reference to `llvm::SectionMemoryManager::finalizeMemory(std::string*)'
+./cgmemmgr.o: In function `llvm::RTDyldMemoryManager::getSymbolAddress(std::string const&)':
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/include/llvm/ExecutionEngine/RTDyldMemoryManager.h:84: undefined reference to `llvm::RTDyldMemoryManager::getSymbolAddressInProcess(std::string const&)'
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/include/llvm/ExecutionEngine/RTDyldMemoryManager.h:84: undefined reference to `llvm::RTDyldMemoryManager::getSymbolAddressInProcess(std::string const&)'
+./cgmemmgr.o: In function `non-virtual thunk to llvm::RTDyldMemoryManager::findSymbol(std::string const&)':
+/home/nanosoldier/workdir/tmp1Bz8dR/usr/include/llvm/ExecutionEngine/RTDyldMemoryManager.h:99: undefined reference to `llvm::RTDyldMemoryManager::getSymbolAddressInProcess(std::string const&)'
+./cgmemmgr.o:(.data.rel.ro+0x100): undefined reference to `llvm::RTDyldMemoryManager::getPointerToNamedFunction(std::string const&, bool)'
+./llvm-api.o:(.data.rel.ro._ZTVN4llvm15JuliaModulePassE[_ZTVN4llvm15JuliaModulePassE]+0x40): undefined reference to `llvm::ModulePass::createPrinterPass(llvm::raw_ostream&, std::string const&) const'
+./llvm-api.o:(.data.rel.ro._ZTVN4llvm17JuliaFunctionPassE[_ZTVN4llvm17JuliaFunctionPassE]+0x40): undefined reference to `llvm::FunctionPass::createPrinterPass(llvm::raw_ostream&, std::string const&) const'
+./llvm-api.o:(.data.rel.ro._ZTVN4llvm19JuliaBasicBlockPassE[_ZTVN4llvm19JuliaBasicBlockPassE]+0x40): undefined reference to `llvm::BasicBlockPass::createPrinterPass(llvm::raw_ostream&, std::string const&) const'
+./llvm-gc-invariant-verifier.o:(.data.rel.ro._ZTV19GCInvariantVerifier[_ZTV19GCInvariantVerifier]+0x40): undefined reference to `llvm::FunctionPass::createPrinterPass(llvm::raw_ostream&, std::string const&) const'
+collect2: error: ld returned 1 exit status
+make[1]: *** [/home/nanosoldier/workdir/tmp1Bz8dR/usr/lib/libjulia.so.1.2] Error 1
+make: *** [julia-src-release] Error 2
