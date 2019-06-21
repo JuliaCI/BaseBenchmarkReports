@@ -1,0 +1,49 @@
+cset: moving following pidspec: 14560
+cset: moving 1 userspace tasks to /user/child
+cset: done
+LOADING SUITE...
+loading group "shootout"... done (took 1.305519596 seconds)
+loading group "string"... done (took 0.539711459 seconds)
+loading group "linalg"... done (took 6.797410338 seconds)
+loading group "parallel"... done (took 0.158907516 seconds)
+loading group "find"... done (took 1.105145548 seconds)
+loading group "tuple"... done (took 1.723674052 seconds)
+loading group "dates"... done (took 1.1772333 seconds)
+loading group "micro"... done (took 0.221442636 seconds)
+loading group "io"... done (took 0.991120669 seconds)
+loading group "scalar"... done (took 38.666902272 seconds)
+loading group "sparse"... done (took 13.226080706 seconds)
+loading group "broadcast"... done (took 1.021673577 seconds)
+loading group "union"... done (took 13.322374227 seconds)
+loading group "simd"... done (took 4.692182308 seconds)
+loading group "random"... done (took 9.315309891 seconds)
+loading group "problem"... done (took 1.974209263 seconds)
+loading group "array"... done (took 22.623877523 seconds)
+loading group "misc"... done (took 1.851974027 seconds)
+loading group "sort"... done (took 3.259408255 seconds)
+loading group "collection"... done (took 18.780288903 seconds)
+FILTERING SUITE...
+WARMING UP BENCHMARKS...
+(1/2) benchmarking "problem"...
+  (1/1) benchmarking "json"...
+    (1/1) benchmarking "parse_json"...
+    done (took 0.700973517 seconds)
+  done (took 1.555856103 seconds)
+done (took 2.387382108 seconds)
+(2/2) benchmarking "shootout"...
+  (1/1) benchmarking "regex_dna"...
+  done (took 0.095678743 seconds)
+done (took 0.917439377 seconds)
+RUNNING BENCHMARKS...
+(1/2) benchmarking "problem"...
+  (1/1) benchmarking "json"...
+    (1/1) benchmarking "parse_json"...
+    done (took 5.850742015 seconds)
+  done (took 6.665138131 seconds)
+done (took 7.484128806 seconds)
+(2/2) benchmarking "shootout"...
+  (1/1) benchmarking "regex_dna"...
+  done (took 5.862179448 seconds)
+done (took 6.67602033 seconds)
+SAVING RESULT...
+DONE!

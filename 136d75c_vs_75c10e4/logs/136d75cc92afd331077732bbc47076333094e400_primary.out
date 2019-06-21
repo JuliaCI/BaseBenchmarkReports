@@ -1,0 +1,49 @@
+cset: moving following pidspec: 25843
+cset: moving 1 userspace tasks to /user/child
+cset: done
+LOADING SUITE...
+loading group "shootout"... done (took 1.274029238 seconds)
+loading group "string"... done (took 0.576634182 seconds)
+loading group "linalg"... done (took 6.639823927 seconds)
+loading group "parallel"... done (took 0.155636835 seconds)
+loading group "find"... done (took 1.082929793 seconds)
+loading group "tuple"... done (took 1.678273665 seconds)
+loading group "dates"... done (took 1.156906052 seconds)
+loading group "micro"... done (took 0.217527596 seconds)
+loading group "io"... done (took 0.984701814 seconds)
+loading group "scalar"... done (took 36.625232114 seconds)
+loading group "sparse"... done (took 12.327281311 seconds)
+loading group "broadcast"... done (took 1.208102333 seconds)
+loading group "union"... done (took 12.353188603 seconds)
+loading group "simd"... done (took 4.273756361 seconds)
+loading group "random"... done (took 8.553739757 seconds)
+loading group "problem"... done (took 1.993682118 seconds)
+loading group "array"... done (took 20.468608801 seconds)
+loading group "misc"... done (took 1.781734617 seconds)
+loading group "sort"... done (took 3.236623313 seconds)
+loading group "collection"... done (took 17.028822826 seconds)
+FILTERING SUITE...
+WARMING UP BENCHMARKS...
+(1/2) benchmarking "problem"...
+  (1/1) benchmarking "json"...
+    (1/1) benchmarking "parse_json"...
+    done (took 0.667222846 seconds)
+  done (took 1.512180384 seconds)
+done (took 2.340828068 seconds)
+(2/2) benchmarking "shootout"...
+  (1/1) benchmarking "regex_dna"...
+  done (took 0.096192793 seconds)
+done (took 0.916245858 seconds)
+RUNNING BENCHMARKS...
+(1/2) benchmarking "problem"...
+  (1/1) benchmarking "json"...
+    (1/1) benchmarking "parse_json"...
+    done (took 5.849069569 seconds)
+  done (took 6.65609867 seconds)
+done (took 7.466293772 seconds)
+(2/2) benchmarking "shootout"...
+  (1/1) benchmarking "regex_dna"...
+  done (took 5.860445393 seconds)
+done (took 6.666036832 seconds)
+SAVING RESULT...
+DONE!
