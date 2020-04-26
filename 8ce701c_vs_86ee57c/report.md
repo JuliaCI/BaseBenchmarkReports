@@ -4,7 +4,7 @@
 
 *Commit(s):* [JuliaLang/julia@8ce701c88026831e2cc265d23815332bf296e822](https://github.com/JuliaLang/julia/commit/8ce701c88026831e2cc265d23815332bf296e822) vs [JuliaLang/julia@86ee57cdd77d402ea63108c16df7117d0ce83dc7](https://github.com/JuliaLang/julia/commit/86ee57cdd77d402ea63108c16df7117d0ce83dc7)
 
-*Triggered By:* [link](https://github.com/JuliaLang/julia/pull/35535#issuecomment-619447821)
+*Triggered By:* [link](https://github.com/JuliaLang/julia/pull/35535#issuecomment-619550463)
 
 *Tag Predicate:* `ALL`
 
@@ -29,227 +29,161 @@ benchmark results remained invariant between builds).
 
 | ID | time ratio | memory ratio |
 |----|------------|--------------|
-| `["array", "accumulate", "(\"cumsum!\", \"Float64\", \"dim2\")"]` | 0.95 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["array", "any/all", "(\"all\", \"Array{Float32,1} generator\")"]` | 1.58 (5%) :x: | 1.00 (1%)  |
-| `["array", "cat", "(\"catnd\", 5)"]` | 1.13 (5%) :x: | 1.00 (1%)  |
-| `["array", "cat", "(\"hvcat\", 5)"]` | 1.07 (5%) :x: | 1.00 (1%)  |
-| `["array", "equality", "(\"isequal\", \"Array{Int64,1} isequal Array{Int64,1}\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
-| `["array", "growth", "(\"push_single!\", 2048)"]` | 0.95 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["array", "index", "3d"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["array", "accumulate", "(\"accumulate\", \"Int\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["array", "cat", "(\"catnd\", 5)"]` | 0.85 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["array", "cat", "(\"hcat\", 5)"]` | 1.13 (5%) :x: | 1.00 (1%)  |
+| `["array", "cat", "(\"hvcat\", 5)"]` | 1.20 (5%) :x: | 1.00 (1%)  |
+| `["array", "cat", "(\"hvcat_setind\", 5)"]` | 1.08 (5%) :x: | 1.00 (1%)  |
+| `["array", "comprehension", "(\"collect\", \"Array{Float64,1}\")"]` | 0.53 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["array", "comprehension", "(\"collect\", \"StepRangeLen{Float64,Base.TwicePrecision{Float64},Base.TwicePrecision{Float64}}\")"]` | 0.75 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["array", "comprehension", "(\"comprehension_collect\", \"Array{Float64,1}\")"]` | 0.57 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["array", "comprehension", "(\"comprehension_collect\", \"StepRangeLen{Float64,Base.TwicePrecision{Float64},Base.TwicePrecision{Float64}}\")"]` | 0.75 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["array", "comprehension", "(\"comprehension_iteration\", \"Array{Float64,1}\")"]` | 0.85 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["array", "comprehension", "(\"comprehension_iteration\", \"StepRangeLen{Float64,Base.TwicePrecision{Float64},Base.TwicePrecision{Float64}}\")"]` | 0.90 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["array", "convert", "(\"Complex{Float64}\", \"Int\")"]` | 1.05 (5%) :x: | 1.00 (1%)  |
+| `["array", "equality", "(\"==\", \"Array{Int64,1}\")"]` | 0.91 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["array", "growth", "(\"append!\", 8)"]` | 0.93 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["array", "growth", "(\"prerend!\", 8)"]` | 0.92 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["array", "growth", "(\"push_multiple!\", 8)"]` | 0.89 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["array", "reductions", "(\"perf_reduce\", \"Int64\")"]` | 1.13 (5%) :x: | 1.00 (1%)  |
 | `["array", "subarray", "(\"gramschmidt!\", 100)"]` | 1.14 (5%) :x: | 1.00 (1%)  |
 | `["array", "subarray", "(\"gramschmidt!\", 1000)"]` | 1.05 (5%) :x: | 1.00 (1%)  |
 | `["array", "subarray", "(\"gramschmidt!\", 250)"]` | 1.20 (5%) :x: | 1.00 (1%)  |
-| `["array", "subarray", "(\"gramschmidt!\", 500)"]` | 1.40 (5%) :x: | 1.00 (1%)  |
-| `["broadcast", "mix_scalar_tuple", "(10, \"scal_tup_x3\")"]` | 1.33 (5%) :x: | 1.00 (1%)  |
-| `["broadcast", "mix_scalar_tuple", "(10, \"tup_tup\")"]` | 1.40 (5%) :x: | 1.00 (1%)  |
-| `["broadcast", "mix_scalar_tuple", "(5, \"scal_tup_x3\")"]` | 1.14 (5%) :x: | 1.00 (1%)  |
-| `["broadcast", "typeargs", "(\"array\", 5)"]` | 1.06 (5%) :x: | 1.00 (1%)  |
-| `["collection", "queries & updates", "(\"Dict\", \"Int\", \"pop!\", \"unspecified\")"]` | 0.74 (25%) :white_check_mark: | 1.00 (1%)  |
-| `["dates", "string", "Date"]` | 1.05 (5%) :x: | 1.00 (1%)  |
-| `["find", "findnext", "(\"ispos\", \"Array{Bool,1}\")"]` | 1.06 (5%) :x: | 1.00 (1%)  |
-| `["find", "findnext", "(\"ispos\", \"Array{Int64,1}\")"]` | 0.95 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["find", "findprev", "(\"Array{Bool,1}\", \"50-50\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
-| `["find", "findprev", "(\"ispos\", \"Array{Int64,1}\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["io", "array_limit", "(\"display\", \"Array{Float64,1}(100000000,)\")"]` | 1.05 (5%) :x: | 1.00 (1%)  |
-| `["io", "skipchars"]` | 1.09 (5%) :x: | 1.00 (1%)  |
-| `["linalg", "arithmetic", "(\"+\", \"Matrix\", \"Matrix\", 256)"]` | 0.42 (45%) :white_check_mark: | 1.00 (1%)  |
-| `["linalg", "arithmetic", "(\"-\", \"LowerTriangular\", \"LowerTriangular\", 256)"]` | 2.49 (45%) :x: | 1.00 (1%)  |
-| `["linalg", "small exp #29116"]` | 1.06 (5%) :x: | 1.00 (1%)  |
+| `["array", "subarray", "(\"gramschmidt!\", 500)"]` | 1.39 (5%) :x: | 1.00 (1%)  |
+| `["broadcast", "26942"]` | 0.91 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["broadcast", "dotop", "(\"Float64\", (1000000,), 1)"]` | 1.06 (5%) :x: | 1.00 (1%)  |
+| `["broadcast", "mix_scalar_tuple", "(3, \"scal_tup_x3\")"]` | 1.13 (5%) :x: | 1.00 (1%)  |
+| `["broadcast", "sparse", "((1000, 1000), 2)"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["collection", "queries & updates", "(\"Dict\", \"Int\", \"first\")"]` | 1.35 (25%) :x: | 1.00 (1%)  |
+| `["collection", "queries & updates", "(\"IdDict\", \"Int\", \"first\")"]` | 1.26 (25%) :x: | 1.00 (1%)  |
+| `["collection", "queries & updates", "(\"Set\", \"Any\", \"in\", \"true\")"]` | 1.30 (25%) :x: | 1.00 (1%)  |
+| `["collection", "queries & updates", "(\"Set\", \"Int\", \"pop!\", \"unspecified\")"]` | 1.83 (25%) :x: | 1.00 (1%)  |
+| `["collection", "queries & updates", "(\"Set\", \"String\", \"in\", \"true\")"]` | 0.71 (25%) :white_check_mark: | 1.00 (1%)  |
+| `["collection", "queries & updates", "(\"Vector\", \"Int\", \"setindex!\")"]` | 0.44 (25%) :white_check_mark: | 1.00 (1%)  |
+| `["dates", "parse", "Date"]` | 0.93 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["find", "findall", "(\"Array{Bool,1}\", \"10-90\")"]` | 0.91 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["find", "findall", "(\"Array{Bool,1}\", \"50-50\")"]` | 0.92 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["find", "findall", "(\"Array{Bool,1}\", \"90-10\")"]` | 0.86 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["find", "findall", "(\"BitArray{1}\", \"10-90\")"]` | 1.08 (5%) :x: | 1.00 (1%)  |
+| `["find", "findnext", "(\"Array{Bool,1}\", \"50-50\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["find", "findprev", "(\"Array{Bool,1}\", \"50-50\")"]` | 1.06 (5%) :x: | 1.00 (1%)  |
+| `["io", "array_limit", "(\"display\", \"Array{Float64,2}(10000, 10000)\")"]` | 0.99 (5%)  | 1.04 (1%) :x: |
+| `["linalg", "arithmetic", "(\"-\", \"Matrix\", \"Matrix\", 256)"]` | 2.29 (45%) :x: | 1.00 (1%)  |
+| `["linalg", "factorization", "(\"eigen\", \"Diagonal\", 256)"]` | 2.15 (45%) :x: | 1.00 (1%)  |
 | `["micro", "fib"]` | 0.87 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["micro", "printfd"]` | 1.14 (5%) :x: | 1.00 (1%)  |
-| `["misc", "afoldl", "Complex{Float64}"]` | 0.80 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["misc", "allocation elision view", "no conditional"]` | 1.16 (5%) :x: | 1.00 (1%)  |
-| `["misc", "bitshift", "(\"UInt32\", \"UInt32\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
+| `["misc", "20517"]` | 0.92 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["misc", "afoldl", "Int"]` | 0.86 (5%) :white_check_mark: | 1.00 (1%)  |
 | `["misc", "bitshift", "(\"UInt\", \"UInt\")"]` | 0.93 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["misc", "fastmath many args"]` | 1.44 (5%) :x: | 1.00 (1%)  |
+| `["misc", "iterators", "zip(1:1, 1:1, 1:1)"]` | 1.06 (5%) :x: | 1.00 (1%)  |
+| `["misc", "iterators", "zip(1:1, 1:1, 1:1, 1:1)"]` | 1.10 (5%) :x: | 1.00 (1%)  |
+| `["misc", "iterators", "zip(1:1000)"]` | 1.12 (5%) :x: | 1.00 (1%)  |
 | `["misc", "repeat", "(200, 1, 24)"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["parallel", "remotecall", "(\"identity\", 4096)"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["problem", "monte carlo", "euro_option_devec"]` | 1.10 (5%) :x: | 1.00 (1%)  |
+| `["parallel", "remotecall", "(\"identity\", 2)"]` | 0.93 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["problem", "go", "go_game"]` | 1.06 (5%) :x: | 1.00 (1%)  |
+| `["problem", "laplacian", "laplace_iter_devec"]` | 0.92 (5%) :white_check_mark: | 1.00 (1%)  |
 | `["problem", "seismic", "(\"seismic\", \"Float64\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["random", "types", "(\"rand\", \"MersenneTwister\", \"Int128\")"]` | 1.31 (25%) :x: | 1.00 (1%)  |
-| `["random", "types", "(\"rand\", \"MersenneTwister\", \"UInt128\")"]` | 1.31 (25%) :x: | 1.00 (1%)  |
-| `["scalar", "acos", "(\"abs(x) < 0.5\", \"negative argument\", \"Float32\")"]` | 1.10 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "acos", "(\"abs(x) < 0.5\", \"negative argument\", \"Float64\")"]` | 1.06 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "acos", "(\"abs(x) < 0.5\", \"positive argument\", \"Float64\")"]` | 1.06 (5%) :x: | 1.00 (1%)  |
+| `["random", "types", "(\"randn\", \"MersenneTwister\", \"Complex{Float32}\")"]` | 1.71 (25%) :x: | 1.00 (1%)  |
+| `["scalar", "acos", "(\"abs(x) < 0.5\", \"negative argument\", \"Float32\")"]` | 0.91 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "acos", "(\"abs(x) < 0.5\", \"positive argument\", \"Float32\")"]` | 1.10 (5%) :x: | 1.00 (1%)  |
 | `["scalar", "acos", "(\"small\", \"negative argument\", \"Float32\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "acos", "(\"small\", \"positive argument\", \"Float32\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "asin", "(\"abs(x) < 0.5\", \"negative argument\", \"Float32\")"]` | 1.05 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "asin", "(\"small\", \"negative argument\", \"Float32\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "asin", "(\"small\", \"positive argument\", \"Float32\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "asinh", "(\"very large\", \"positive argument\", \"Float64\")"]` | 1.08 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "asinh", "(\"zero\", \"Float64\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "atan", "(\"0 <= abs(x) < 7/16\", \"negative argument\", \"Float32\")"]` | 0.95 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "atan", "(\"0 <= abs(x) < 7/16\", \"negative argument\", \"Float64\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "atan", "(\"0 <= abs(x) < 7/16\", \"positive argument\", \"Float32\")"]` | 0.90 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "atan", "(\"11/16 <= abs(x) < 19/16\", \"negative argument\", \"Float64\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "atan", "(\"11/16 <= abs(x) < 19/16\", \"positive argument\", \"Float64\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "atan", "(\"19/16 <= abs(x) < 39/16\", \"negative argument\", \"Float64\")"]` | 0.82 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "atan", "(\"19/16 <= abs(x) < 39/16\", \"positive argument\", \"Float64\")"]` | 0.80 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "atan", "(\"39/16 <= abs(x) < 2^66\", \"negative argument\", \"Float32\")"]` | 0.93 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "atan", "(\"39/16 <= abs(x) < 2^66\", \"positive argument\", \"Float32\")"]` | 0.93 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "atan", "(\"7/16 <= abs(x) < 11/16\", \"negative argument\", \"Float32\")"]` | 0.93 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "atan", "(\"7/16 <= abs(x) < 11/16\", \"positive argument\", \"Float64\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "atan2", "(\"abs(y/x) safe (large)\", \"y negative\", \"x positive\", \"Float64\")"]` | 1.12 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "atan2", "(\"abs(y/x) safe (small)\", \"y positive\", \"x negative\", \"Float32\")"]` | 0.82 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "atan2", "(\"x one\", \"Float32\")"]` | 0.69 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "atan2", "(\"x one\", \"Float64\")"]` | 0.87 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "atanh", "(\"0.5 <= abs(x) < 1\", \"negative argument\", \"Float32\")"]` | 0.80 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "atanh", "(\"0.5 <= abs(x) < 1\", \"negative argument\", \"Float64\")"]` | 1.29 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "atanh", "(\"0.5 <= abs(x) < 1\", \"positive argument\", \"Float64\")"]` | 0.79 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "cos", "(\"argument reduction (easy) abs(x) < 2.0^20π/4\", \"negative argument\", \"Float64\", \"cos_kernel\")"]` | 1.08 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "cos", "(\"argument reduction (hard) abs(x) < 2π/4\", \"negative argument\", \"Float32\", \"sin_kernel\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "cos", "(\"argument reduction (hard) abs(x) < 2π/4\", \"positive argument\", \"Float32\", \"sin_kernel\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "cos", "(\"argument reduction (paynehanek) abs(x) > 2.0^20*π/2\", \"negative argument\", \"Float32\", \"sin_kernel\")"]` | 1.08 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "cos", "(\"argument reduction (paynehanek) abs(x) > 2.0^20*π/2\", \"negative argument\", \"Float64\", \"cos_kernel\")"]` | 1.10 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "cos", "(\"argument reduction (paynehanek) abs(x) > 2.0^20*π/2\", \"negative argument\", \"Float64\", \"sin_kernel\")"]` | 1.06 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "cos", "(\"argument reduction (paynehanek) abs(x) > 2.0^20*π/2\", \"positive argument\", \"Float32\", \"cos_kernel\")"]` | 1.06 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "cos", "(\"argument reduction (paynehanek) abs(x) > 2.0^20*π/2\", \"positive argument\", \"Float32\", \"sin_kernel\")"]` | 1.08 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "cos", "(\"argument reduction (paynehanek) abs(x) > 2.0^20*π/2\", \"positive argument\", \"Float64\", \"cos_kernel\")"]` | 1.06 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "cos", "(\"argument reduction (paynehanek) abs(x) > 2.0^20*π/2\", \"positive argument\", \"Float64\", \"sin_kernel\")"]` | 1.10 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "cos", "(\"no reduction\", \"negative argument\", \"Float32\", \"cos_kernel\")"]` | 0.87 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "cos", "(\"no reduction\", \"negative argument\", \"Float64\", \"cos_kernel\")"]` | 1.05 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "cos", "(\"no reduction\", \"positive argument\", \"Float64\", \"cos_kernel\")"]` | 1.05 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "cosh", "(\"0 <= abs(x) < 2.7755602085408512e-17\", \"negative argument\", \"Float64\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "cosh", "(\"0 <= abs(x) < 2.7755602085408512e-17\", \"positive argument\", \"Float64\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "cosh", "(\"0.00024414062f0 <= abs(x) < 9f0\", \"positive argument\", \"Float32\")"]` | 0.78 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "cosh", "(\"9f0 <= abs(x) < 88.72283f0\", \"negative argument\", \"Float32\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "cosh", "(\"9f0 <= abs(x) < 88.72283f0\", \"positive argument\", \"Float32\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "cosh", "(\"very large\", \"negative argument\", \"Float64\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "cosh", "(\"very small\", \"negative argument\", \"Float64\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "acos", "(\"small\", \"negative argument\", \"Float64\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "acosh", "(\"2 <= abs(x) < 2^28\", \"positive argument\", \"Float32\")"]` | 0.80 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "arithmetic", "(\"add\", \"Complex{BigInt}\", \"BigInt\")"]` | 1.70 (50%) :x: | 1.00 (1%)  |
+| `["scalar", "arithmetic", "(\"rem type\", \"Bool\", \"BigInt\")"]` | 0.50 (40%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "arithmetic", "(\"rem type\", \"Char\", \"BigInt\")"]` | 0.59 (40%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "asin", "(\"0.5 <= abs(x) < 0.975\", \"positive argument\", \"Float32\")"]` | 1.08 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "asin", "(\"abs(x) < 0.5\", \"negative argument\", \"Float32\")"]` | 0.90 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "asin", "(\"abs(x) < 0.5\", \"positive argument\", \"Float32\")"]` | 1.05 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "asin", "(\"zero\", \"Float64\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "asinh", "(\"0 <= abs(x) < 2^-28\", \"positive argument\", \"Float32\")"]` | 0.91 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "asinh", "(\"zero\", \"Float32\")"]` | 1.25 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "atan", "(\"0 <= abs(x) < 7/16\", \"positive argument\", \"Float32\")"]` | 1.06 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "atan", "(\"0 <= abs(x) < 7/16\", \"positive argument\", \"Float64\")"]` | 1.10 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "atan", "(\"11/16 <= abs(x) < 19/16\", \"negative argument\", \"Float32\")"]` | 1.08 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "atan", "(\"11/16 <= abs(x) < 19/16\", \"positive argument\", \"Float32\")"]` | 1.08 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "atan", "(\"19/16 <= abs(x) < 39/16\", \"positive argument\", \"Float32\")"]` | 1.11 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "atan", "(\"7/16 <= abs(x) < 11/16\", \"positive argument\", \"Float32\")"]` | 1.08 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "atan2", "(\"abs(y/x) safe (small)\", \"y positive\", \"x negative\", \"Float32\")"]` | 1.22 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "atan2", "(\"abs(y/x) small\", \"y positive\", \"x positive\", \"Float32\")"]` | 1.24 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "atan2", "(\"x one\", \"Float32\")"]` | 1.47 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "atan2", "(\"x one\", \"Float64\")"]` | 1.21 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "atanh", "(\"very small\", \"negative argument\", \"Float32\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "atanh", "(\"zero\", \"Float32\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "cos", "(\"argument reduction (hard) abs(x) < 2π/4\", \"negative argument\", \"Float32\", \"sin_kernel\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "cos", "(\"argument reduction (hard) abs(x) < 2π/4\", \"negative argument\", \"Float64\", \"sin_kernel\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "cos", "(\"argument reduction (hard) abs(x) < 4π/4\", \"positive argument\", \"Float32\", \"cos_kernel\")"]` | 1.30 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "cos", "(\"argument reduction (hard) abs(x) < 8π/4\", \"positive argument\", \"Float32\", \"cos_kernel\")"]` | 0.91 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "cos", "(\"argument reduction (paynehanek) abs(x) > 2.0^20*π/2\", \"negative argument\", \"Float32\", \"cos_kernel\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "cos", "(\"argument reduction (paynehanek) abs(x) > 2.0^20*π/2\", \"positive argument\", \"Float32\", \"cos_kernel\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "cos", "(\"no reduction\", \"negative argument\", \"Float64\", \"cos_kernel\")"]` | 0.90 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "cosh", "(\"very small\", \"negative argument\", \"Float64\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
 | `["scalar", "cosh", "(\"very small\", \"positive argument\", \"Float64\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "exp2", "(\"2pow3\", \"positive argument\", \"Float64\")"]` | 1.12 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "exp2", "(\"one\", \"Float32\")"]` | 1.10 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "exp2", "(\"one\", \"Float64\")"]` | 1.16 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "exp2", "(\"small\", \"positive argument\", \"Float64\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "expm1", "(\"arg reduction II\", \"negative argument\", \"Float32\")"]` | 1.34 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "expm1", "(\"arg reduction II\", \"positive argument\", \"Float32\")"]` | 1.34 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "expm1", "(\"arg reduction I\", \"negative argument\", \"Float32\")"]` | 1.34 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "expm1", "(\"arg reduction I\", \"positive argument\", \"Float32\")"]` | 1.34 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "expm1", "(\"one\", \"Float32\")"]` | 1.34 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "expm1", "(\"small\", \"positive argument\", \"Float32\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "fastmath", "(\"mul\", \"BigInt\")"]` | 1.53 (40%) :x: | 1.00 (1%)  |
-| `["scalar", "mod2pi", "(\"argument reduction (easy) abs(x) > 2.0^20*π/2\", \"positive argument\", \"Float64\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "rem_pio2", "(\"argument reduction (paynehanek) abs(x) > 2.0^20*π/2\", \"positive argument\", \"Float64\")"]` | 1.10 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sin", "(\"argument reduction (paynehanek) abs(x) > 2.0^20*π/2\", \"negative argument\", \"Float32\", \"sin_kernel\")"]` | 1.06 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sin", "(\"argument reduction (paynehanek) abs(x) > 2.0^20*π/2\", \"negative argument\", \"Float64\", \"cos_kernel\")"]` | 1.08 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sin", "(\"argument reduction (paynehanek) abs(x) > 2.0^20*π/2\", \"positive argument\", \"Float32\", \"sin_kernel\")"]` | 1.09 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sin", "(\"argument reduction (paynehanek) abs(x) > 2.0^20*π/2\", \"positive argument\", \"Float64\", \"cos_kernel\")"]` | 1.06 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sin", "(\"argument reduction (paynehanek) abs(x) > 2.0^20*π/2\", \"positive argument\", \"Float64\", \"sin_kernel\")"]` | 1.06 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sin", "(\"no reduction\", \"negative argument\", \"Float32\", \"sin_kernel\")"]` | 0.82 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "sin", "(\"no reduction\", \"negative argument\", \"Float64\", \"sin_kernel\")"]` | 1.11 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 2.0^20π/4\", \"negative argument\", \"Float64\")"]` | 1.34 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 2.0^20π/4\", \"positive argument\", \"Float64\")"]` | 1.38 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 2π/4\", \"negative argument\", \"Float32\")"]` | 1.38 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 2π/4\", \"negative argument\", \"Float64\")"]` | 1.38 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 2π/4\", \"positive argument\", \"Float32\")"]` | 1.38 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 2π/4\", \"positive argument\", \"Float64\")"]` | 1.10 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 3π/4\", \"negative argument\", \"Float32\")"]` | 1.38 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 3π/4\", \"negative argument\", \"Float64\")"]` | 1.38 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 3π/4\", \"positive argument\", \"Float32\")"]` | 1.38 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 3π/4\", \"positive argument\", \"Float64\")"]` | 1.38 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 4π/4\", \"negative argument\", \"Float32\")"]` | 1.23 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 4π/4\", \"negative argument\", \"Float64\")"]` | 1.23 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 4π/4\", \"positive argument\", \"Float64\")"]` | 1.19 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 5π/4\", \"negative argument\", \"Float32\")"]` | 1.19 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 5π/4\", \"negative argument\", \"Float64\")"]` | 1.23 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 5π/4\", \"positive argument\", \"Float32\")"]` | 1.19 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 5π/4\", \"positive argument\", \"Float64\")"]` | 1.23 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 6π/4\", \"negative argument\", \"Float32\")"]` | 1.33 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 6π/4\", \"negative argument\", \"Float64\")"]` | 1.33 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 6π/4\", \"positive argument\", \"Float32\")"]` | 1.38 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 6π/4\", \"positive argument\", \"Float64\")"]` | 1.33 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 7π/4\", \"negative argument\", \"Float32\")"]` | 1.33 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 7π/4\", \"negative argument\", \"Float64\")"]` | 1.33 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 7π/4\", \"positive argument\", \"Float32\")"]` | 1.38 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 7π/4\", \"positive argument\", \"Float64\")"]` | 1.38 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 8π/4\", \"negative argument\", \"Float32\")"]` | 1.38 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 8π/4\", \"negative argument\", \"Float64\")"]` | 1.33 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 8π/4\", \"positive argument\", \"Float32\")"]` | 1.33 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 8π/4\", \"positive argument\", \"Float64\")"]` | 1.38 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 9π/4\", \"negative argument\", \"Float32\")"]` | 1.38 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 9π/4\", \"negative argument\", \"Float64\")"]` | 1.33 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 9π/4\", \"positive argument\", \"Float32\")"]` | 1.38 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 9π/4\", \"positive argument\", \"Float64\")"]` | 1.33 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (hard) abs(x) < 2π/4\", \"negative argument\", \"Float32\")"]` | 1.12 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (hard) abs(x) < 2π/4\", \"negative argument\", \"Float64\")"]` | 1.12 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (hard) abs(x) < 2π/4\", \"positive argument\", \"Float32\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (hard) abs(x) < 2π/4\", \"positive argument\", \"Float64\")"]` | 1.12 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (hard) abs(x) < 4π/4\", \"negative argument\", \"Float64\")"]` | 1.41 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (hard) abs(x) < 4π/4\", \"positive argument\", \"Float64\")"]` | 1.41 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (hard) abs(x) < 6π/4\", \"negative argument\", \"Float32\")"]` | 1.12 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (hard) abs(x) < 6π/4\", \"negative argument\", \"Float64\")"]` | 1.12 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (hard) abs(x) < 6π/4\", \"positive argument\", \"Float32\")"]` | 1.15 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (hard) abs(x) < 6π/4\", \"positive argument\", \"Float64\")"]` | 1.15 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (hard) abs(x) < 8π/4\", \"negative argument\", \"Float32\")"]` | 1.15 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (hard) abs(x) < 8π/4\", \"negative argument\", \"Float64\")"]` | 1.12 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (hard) abs(x) < 8π/4\", \"positive argument\", \"Float32\")"]` | 1.12 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (hard) abs(x) < 8π/4\", \"positive argument\", \"Float64\")"]` | 1.12 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (paynehanek) abs(x) > 2.0^20*π/2\", \"negative argument\", \"Float32\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (paynehanek) abs(x) > 2.0^20*π/2\", \"negative argument\", \"Float64\")"]` | 1.15 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (paynehanek) abs(x) > 2.0^20*π/2\", \"positive argument\", \"Float32\")"]` | 1.13 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"argument reduction (paynehanek) abs(x) > 2.0^20*π/2\", \"positive argument\", \"Float64\")"]` | 1.13 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"no reduction\", \"negative argument\", \"Float32\")"]` | 1.20 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"no reduction\", \"negative argument\", \"Float64\")"]` | 1.20 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"no reduction\", \"positive argument\", \"Float32\")"]` | 1.20 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"no reduction\", \"positive argument\", \"Float64\")"]` | 1.25 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sincos", "(\"no reduction\", \"zero\", \"Float64\")"]` | 1.08 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "sinh", "(\"0 <= abs(x) < 2.0^-28\", \"positive argument\", \"Float64\")"]` | 0.89 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "sinh", "(\"2.0^-28 <= abs(x) < 22.0\", \"positive argument\", \"Float64\")"]` | 0.85 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "tan", "(\"large\", \"positive argument\", \"Float32\")"]` | 0.78 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "tan", "(\"large\", \"positive argument\", \"Float64\")"]` | 1.36 (5%) :x: | 1.00 (1%)  |
-| `["scalar", "tan", "(\"very small\", \"negative argument\", \"Float64\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["scalar", "tan", "(\"very small\", \"positive argument\", \"Float32\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
-| `["shootout", "binary_trees"]` | 0.95 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["shootout", "fannkuch"]` | 1.05 (5%) :x: | 1.00 (1%)  |
-| `["shootout", "fasta"]` | 1.05 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "exp2", "(\"2pow3\", \"negative argument\", \"Float32\")"]` | 1.10 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "exp2", "(\"small\", \"positive argument\", \"Float32\")"]` | 1.10 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "expm1", "(\"huge\", \"positive argument\", \"Float3\")"]` | 0.88 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "expm1", "(\"large\", \"positive argument\", \"Float64\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "sin", "(\"argument reduction (hard) abs(x) < 2π/4\", \"negative argument\", \"Float64\", \"cos_kernel\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "sin", "(\"argument reduction (hard) abs(x) < 2π/4\", \"positive argument\", \"Float32\", \"cos_kernel\")"]` | 0.91 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "sin", "(\"argument reduction (hard) abs(x) < 4π/4\", \"negative argument\", \"Float64\", \"sin_kernel\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "sin", "(\"argument reduction (hard) abs(x) < 4π/4\", \"positive argument\", \"Float64\", \"sin_kernel\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "sin", "(\"argument reduction (paynehanek) abs(x) > 2.0^20*π/2\", \"positive argument\", \"Float32\", \"sin_kernel\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "sin", "(\"no reduction\", \"negative argument\", \"Float64\", \"sin_kernel\")"]` | 0.91 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 2.0^20π/4\", \"negative argument\", \"Float64\")"]` | 1.25 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "sincos", "(\"argument reduction (easy) abs(x) < 5π/4\", \"positive argument\", \"Float32\")"]` | 1.15 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "sincos", "(\"argument reduction (hard) abs(x) < 4π/4\", \"positive argument\", \"Float64\")"]` | 1.25 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "sincos", "(\"argument reduction (paynehanek) abs(x) > 2.0^20*π/2\", \"negative argument\", \"Float64\")"]` | 0.95 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "sincos", "(\"argument reduction (paynehanek) abs(x) > 2.0^20*π/2\", \"positive argument\", \"Float32\")"]` | 0.95 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "tan", "(\"small\", \"negative argument\", \"Float64\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "tan", "(\"small\", \"positive argument\", \"Float64\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "tan", "(\"very small\", \"negative argument\", \"Float32\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["scalar", "tan", "(\"very small\", \"negative argument\", \"Float64\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "tan", "(\"very small\", \"positive argument\", \"Float64\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
+| `["scalar", "tanh", "(\"zero\", \"Float64\")"]` | 1.07 (5%) :x: | 1.00 (1%)  |
 | `["shootout", "nbody"]` | 1.00 (5%)  | 1.11 (1%) :x: |
-| `["sparse", "constructors", "(\"Diagonal\", 100)"]` | 1.06 (5%) :x: | 1.00 (1%)  |
-| `["sparse", "constructors", "(\"IJV\", 1000)"]` | 0.93 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["sparse", "constructors", "(\"Tridiagonal\", 1000)"]` | 1.09 (5%) :x: | 1.00 (1%)  |
-| `["sparse", "index", "(\"spmat\", \"row\", \"array\", 1000)"]` | 1.32 (30%) :x: | 1.00 (1%)  |
-| `["string", "readuntil", "target length 1"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["string", "repeat", "repeat char 2"]` | 0.58 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["tuple", "linear algebra", "(\"matmat\", (16, 16), (16, 16))"]` | 0.90 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["tuple", "reduction", "(\"sum\", (16, 16))"]` | 1.17 (5%) :x: | 1.00 (1%)  |
-| `["tuple", "reduction", "(\"sum\", (4, 4))"]` | 1.20 (5%) :x: | 1.00 (1%)  |
-| `["tuple", "reduction", "(\"sumabs\", (16,))"]` | 0.92 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["tuple", "reduction", "(\"sumabs\", (2, 2))"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["tuple", "reduction", "(\"sumabs\", (4, 4))"]` | 1.09 (5%) :x: | 1.00 (1%)  |
-| `["tuple", "reduction", "(\"sumabs\", (4,))"]` | 0.88 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["tuple", "reduction", "(\"sumabs\", (8,))"]` | 0.86 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["union", "array", "(\"broadcast\", *, Complex{Float64}, (true, true))"]` | 0.89 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["union", "array", "(\"broadcast\", *, Int64, (false, true))"]` | 0.82 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["union", "array", "(\"broadcast\", *, Int64, (true, true))"]` | 0.83 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["union", "array", "(\"broadcast\", abs, Int64, true)"]` | 1.35 (5%) :x: | 1.00 (1%)  |
-| `["union", "array", "(\"broadcast\", abs, Int8, true)"]` | 1.06 (5%) :x: | 1.00 (1%)  |
-| `["union", "array", "(\"broadcast\", identity, BigFloat, true)"]` | 1.14 (5%) :x: | 1.00 (1%)  |
-| `["union", "array", "(\"broadcast\", identity, BigInt, true)"]` | 1.13 (5%) :x: | 1.00 (1%)  |
-| `["union", "array", "(\"broadcast\", identity, Float64, true)"]` | 1.38 (5%) :x: | 1.00 (1%)  |
-| `["union", "array", "(\"map\", *, Complex{Float64}, (false, true))"]` | 1.12 (5%) :x: | 1.00 (1%)  |
-| `["union", "array", "(\"map\", *, Float32, (false, true))"]` | 0.93 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["union", "array", "(\"map\", *, Float32, (true, true))"]` | 0.92 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["union", "array", "(\"map\", *, Float64, (false, true))"]` | 0.93 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["union", "array", "(\"map\", *, Float64, (true, true))"]` | 0.93 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["union", "array", "(\"map\", *, Int64, (false, true))"]` | 1.13 (5%) :x: | 1.00 (1%)  |
-| `["union", "array", "(\"map\", *, Int8, (false, true))"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["union", "array", "(\"map\", abs, Bool, false)"]` | 0.95 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["union", "array", "(\"map\", abs, Bool, true)"]` | 1.05 (5%) :x: | 1.00 (1%)  |
-| `["union", "array", "(\"map\", identity, BigFloat, false)"]` | 1.13 (5%) :x: | 1.00 (1%)  |
-| `["union", "array", "(\"map\", identity, BigFloat, true)"]` | 0.87 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["union", "array", "(\"map\", identity, BigInt, false)"]` | 1.12 (5%) :x: | 1.00 (1%)  |
-| `["union", "array", "(\"map\", identity, BigInt, true)"]` | 1.16 (5%) :x: | 1.00 (1%)  |
-| `["union", "array", "(\"map\", identity, Bool, true)"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["union", "array", "(\"perf_binaryop\", *, Complex{Float64}, (false, false))"]` | 0.87 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["union", "array", "(\"perf_binaryop\", *, Complex{Float64}, (true, true))"]` | 1.16 (5%) :x: | 1.00 (1%)  |
-| `["union", "array", "(\"perf_countequals\", \"Float32\")"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["union", "array", "(\"perf_simplecopy\", BigFloat, false)"]` | 1.05 (5%) :x: | 1.00 (1%)  |
-| `["union", "array", "(\"perf_simplecopy\", Complex{Float64}, true)"]` | 0.75 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["sparse", "constructors", "(\"Bidiagonal\", 100)"]` | 1.10 (5%) :x: | 1.00 (1%)  |
+| `["sparse", "constructors", "(\"IJV\", 100)"]` | 1.07 (5%) :x: | 1.00 (1%)  |
+| `["sparse", "constructors", "(\"Tridiagonal\", 10)"]` | 1.06 (5%) :x: | 1.00 (1%)  |
+| `["sparse", "constructors", "(\"Tridiagonal\", 1000)"]` | 1.10 (5%) :x: | 1.00 (1%)  |
+| `["string", "findfirst", "Char"]` | 0.85 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["string", "repeat", "repeat char 2"]` | 0.59 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["tuple", "reduction", "(\"sum\", (16, 16))"]` | 0.85 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["tuple", "reduction", "(\"sum\", (16,))"]` | 1.14 (5%) :x: | 1.00 (1%)  |
+| `["tuple", "reduction", "(\"sum\", (8, 8))"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["tuple", "reduction", "(\"sumabs\", (2, 2))"]` | 1.07 (5%) :x: | 1.00 (1%)  |
+| `["tuple", "reduction", "(\"sumabs\", (8,))"]` | 1.24 (5%) :x: | 1.00 (1%)  |
+| `["union", "array", "(\"broadcast\", *, Float64, (false, true))"]` | 0.95 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["union", "array", "(\"broadcast\", abs, Bool, true)"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["union", "array", "(\"broadcast\", identity, BigFloat, true)"]` | 1.12 (5%) :x: | 1.00 (1%)  |
+| `["union", "array", "(\"broadcast\", identity, BigInt, true)"]` | 1.09 (5%) :x: | 1.00 (1%)  |
+| `["union", "array", "(\"broadcast\", identity, Complex{Float64}, true)"]` | 1.17 (5%) :x: | 1.00 (1%)  |
+| `["union", "array", "(\"map\", *, Float32, (false, true))"]` | 1.08 (5%) :x: | 1.00 (1%)  |
+| `["union", "array", "(\"map\", *, Float32, (true, true))"]` | 1.08 (5%) :x: | 1.00 (1%)  |
+| `["union", "array", "(\"map\", abs, Float64, true)"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["union", "array", "(\"map\", identity, BigFloat, false)"]` | 1.12 (5%) :x: | 1.00 (1%)  |
+| `["union", "array", "(\"map\", identity, BigFloat, true)"]` | 1.11 (5%) :x: | 1.00 (1%)  |
+| `["union", "array", "(\"map\", identity, BigInt, false)"]` | 1.13 (5%) :x: | 1.00 (1%)  |
+| `["union", "array", "(\"map\", identity, BigInt, true)"]` | 1.11 (5%) :x: | 1.00 (1%)  |
+| `["union", "array", "(\"map\", identity, Complex{Float64}, false)"]` | 1.05 (5%) :x: | 1.00 (1%)  |
+| `["union", "array", "(\"map\", identity, Float64, true)"]` | 0.77 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["union", "array", "(\"map\", identity, Int8, false)"]` | 1.06 (5%) :x: | 1.00 (1%)  |
+| `["union", "array", "(\"perf_binaryop\", *, Complex{Float64}, (true, true))"]` | 1.12 (5%) :x: | 1.00 (1%)  |
+| `["union", "array", "(\"perf_countequals\", \"BigInt\")"]` | 0.92 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["union", "array", "(\"perf_simplecopy\", Complex{Float64}, true)"]` | 1.31 (5%) :x: | 1.00 (1%)  |
+| `["union", "array", "(\"perf_simplecopy\", Float64, false)"]` | 0.92 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["union", "array", "(\"perf_sum2\", Bool, false)"]` | 1.06 (5%) :x: | 1.00 (1%)  |
 | `["union", "array", "(\"perf_sum2\", Bool, true)"]` | 1.37 (5%) :x: | 1.00 (1%)  |
-| `["union", "array", "(\"perf_sum2\", Float32, true)"]` | 1.47 (5%) :x: | 1.00 (1%)  |
-| `["union", "array", "(\"perf_sum3\", Float64, true)"]` | 1.12 (5%) :x: | 1.00 (1%)  |
-| `["union", "array", "(\"perf_sum\", Bool, true)"]` | 1.37 (5%) :x: | 1.00 (1%)  |
-| `["union", "array", "(\"perf_sum\", Float64, true)"]` | 1.42 (5%) :x: | 1.00 (1%)  |
-| `["union", "array", "(\"skipmissing\", collect, Union{Missing, BigFloat}, true)"]` | 0.95 (5%) :white_check_mark: | 1.00 (1%)  |
-| `["union", "array", "(\"skipmissing\", sum, Union{Missing, Float64}, true)"]` | 1.34 (5%) :x: | 1.00 (1%)  |
+| `["union", "array", "(\"perf_sum2\", Int8, false)"]` | 1.09 (5%) :x: | 1.00 (1%)  |
+| `["union", "array", "(\"perf_sum2\", Int8, true)"]` | 1.10 (5%) :x: | 1.00 (1%)  |
+| `["union", "array", "(\"perf_sum3\", Float32, true)"]` | 0.92 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["union", "array", "(\"perf_sum4\", BigInt, true)"]` | 1.06 (5%) :x: | 1.00 (1%)  |
+| `["union", "array", "(\"perf_sum\", Bool, true)"]` | 0.73 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["union", "array", "(\"perf_sum\", Float32, true)"]` | 1.42 (5%) :x: | 1.00 (1%)  |
+| `["union", "array", "(\"perf_sum\", Float64, true)"]` | 0.71 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["union", "array", "(\"skipmissing\", collect, BigFloat, false)"]` | 0.93 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["union", "array", "(\"skipmissing\", collect, BigInt, false)"]` | 0.94 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["union", "array", "(\"skipmissing\", sum, Union{Missing, Bool}, true)"]` | 0.77 (5%) :white_check_mark: | 1.00 (1%)  |
+| `["union", "array", "(\"skipmissing\", sum, Union{Missing, Float32}, true)"]` | 0.74 (5%) :white_check_mark: | 1.00 (1%)  |
 
 ## Benchmark Group List
 
@@ -391,14 +325,14 @@ Platform Info:
   uname: Linux 3.13.0-85-generic #129-Ubuntu SMP Thu Mar 17 20:50:15 UTC 2016 x86_64 x86_64
   CPU: Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz: 
               speed         user         nice          sys         idle          irq
-       #1  3501 MHz   56110516 s       2449 s   19986051 s  6472159626 s         19 s
-       #2  3501 MHz  351796631 s         62 s    7359755 s  6206808114 s         26 s
-       #3  3501 MHz   47293032 s       3228 s    5576436 s  6511433935 s         40 s
-       #4  3501 MHz   45512749 s         19 s    4388082 s  6518143797 s         36 s
+       #1  3501 MHz  135391404 s       5056 s   15495968 s  6409688000 s         35 s
+       #2  3501 MHz  1018581907 s        217 s   19957708 s  5532062047 s         26 s
+       #3  3501 MHz  120140687 s       3296 s    9183004 s  6440484605 s         38 s
+       #4  3501 MHz  112816936 s         43 s   13217028 s  6442084077 s         27 s
        
-  Memory: 31.383651733398438 GB (19232.41015625 MB free)
-  Uptime: 6.569873e7 sec
-  Load Avg:  1.0029296875  1.0146484375  1.04541015625
+  Memory: 31.383651733398438 GB (18946.19921875 MB free)
+  Uptime: 6.5754071e7 sec
+  Load Avg:  1.00634765625  1.01611328125  1.04541015625
   WORD_SIZE: 64
   LIBM: libopenlibm
   LLVM: libLLVM-9.0.1 (ORCJIT, haswell)
@@ -416,13 +350,13 @@ Platform Info:
   uname: Linux 3.13.0-85-generic #129-Ubuntu SMP Thu Mar 17 20:50:15 UTC 2016 x86_64 x86_64
   CPU: Intel(R) Xeon(R) CPU E3-1241 v3 @ 3.50GHz: 
               speed         user         nice          sys         idle          irq
-       #1  3501 MHz   56278576 s       2449 s   19996318 s  6473372859 s         19 s
-       #2  3501 MHz  353078274 s         62 s    7386636 s  6206895667 s         26 s
-       #3  3501 MHz   47438746 s       3228 s    5582536 s  6512676651 s         40 s
-       #4  3501 MHz   45659623 s         19 s    4393996 s  6519387123 s         36 s
+       #1  3501 MHz  135539670 s       5056 s   15505806 s  6410914341 s         35 s
+       #2  3501 MHz  1019857006 s        217 s   19984756 s  5532148680 s         26 s
+       #3  3501 MHz  120288480 s       3296 s    9189277 s  6441717772 s         38 s
+       #4  3501 MHz  112978905 s         43 s   13223118 s  6443304797 s         27 s
        
-  Memory: 31.383651733398438 GB (19988.87890625 MB free)
-  Uptime: 6.5712696e7 sec
+  Memory: 31.383651733398438 GB (18914.140625 MB free)
+  Uptime: 6.5767963e7 sec
   Load Avg:  1.0029296875  1.0146484375  1.04541015625
   WORD_SIZE: 64
   LIBM: libopenlibm
