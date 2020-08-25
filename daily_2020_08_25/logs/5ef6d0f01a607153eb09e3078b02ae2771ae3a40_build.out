@@ -1,0 +1,107 @@
+/home/nanosoldier/workdir/tmpLgWzD2/contrib/install.sh 755 /home/nanosoldier/workdir/tmpLgWzD2/contrib/julia-config.jl /home/nanosoldier/workdir/tmpLgWzD2/usr/share/julia/
+Creating usr/etc/julia/startup.jl
+Copying in usr/share/man/man1/julia.1
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for style of include used by make... GNU
+checking for gcc... ccache gcc -m64
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether ccache gcc -m64 accepts -g... yes
+checking for ccache gcc -m64 option to accept ISO C89... none needed
+checking whether ccache gcc -m64 understands -c and -o together... yes
+checking dependency style of ccache gcc -m64... gcc3
+checking whether we are using the GNU C++ compiler... yes
+checking whether ccache g++ -m64 accepts -g... yes
+checking dependency style of ccache g++ -m64... gcc3
+Setting page size to 4096
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating patchelf.spec
+config.status: executing depfiles commands
+Making all in src
+Making all in tests
+Making install in src
+ /bin/mkdir -p '/home/nanosoldier/workdir/tmpLgWzD2/usr-staging/patchelf-0.9/home/nanosoldier/workdir/tmpLgWzD2/usr/tools'
+  /usr/bin/install -c patchelf '/home/nanosoldier/workdir/tmpLgWzD2/usr-staging/patchelf-0.9/home/nanosoldier/workdir/tmpLgWzD2/usr/tools'
+Making install in tests
+ /bin/mkdir -p '/home/nanosoldier/workdir/tmpLgWzD2/usr-staging/patchelf-0.9/home/nanosoldier/workdir/tmpLgWzD2/usr/share/doc/patchelf'
+ /bin/mkdir -p '/home/nanosoldier/workdir/tmpLgWzD2/usr-staging/patchelf-0.9/home/nanosoldier/workdir/tmpLgWzD2/usr/share/man/man1'
+ /usr/bin/install -c -m 644 /home/nanosoldier/workdir/tmpLgWzD2/deps/srccache/patchelf-0.9/README '/home/nanosoldier/workdir/tmpLgWzD2/usr-staging/patchelf-0.9/home/nanosoldier/workdir/tmpLgWzD2/usr/share/doc/patchelf'
+ /usr/bin/install -c -m 644 /home/nanosoldier/workdir/tmpLgWzD2/deps/srccache/patchelf-0.9/patchelf.1 '/home/nanosoldier/workdir/tmpLgWzD2/usr-staging/patchelf-0.9/home/nanosoldier/workdir/tmpLgWzD2/usr/share/man/man1'
+patching file lib/MC/MCObjectFileInfo.cpp
+Hunk #1 succeeded at 309 (offset 18 lines).
+patching file test/ExecutionEngine/RuntimeDyld/AArch64/ELF_ARM64_large-relocations.s
+patching file lib/Analysis/IVDescriptors.cpp
+Hunk #1 succeeded at 575 (offset 4 lines).
+patching file test/Transforms/LoopVectorize/float-reduction.ll
+patching file tools/llvm-cfi-verify/CMakeLists.txt
+patching file cmake/modules/HandleLLVMOptions.cmake
+Hunk #1 succeeded at 628 with fuzz 1 (offset 56 lines).
+patching file include/llvm/Config/abi-breaking.h.cmake
+patching file lib/Transforms/Utils/VNCoercion.cpp
+patching file test/Transforms/GVN/non-integral-pointers.ll
+patching file tools/llvm-exegesis/CMakeLists.txt
+patching file unittests/Passes/CMakeLists.txt
+patching file lib/MC/WinCOFFObjectWriter.cpp
+Hunk #1 succeeded at 680 (offset -10 lines).
+patching file test/MC/COFF/diff.s
+Hunk #1 succeeded at 1 with fuzz 2.
+patching file lib/CodeGen/CodeGenPrepare.cpp
+Hunk #1 succeeded at 7208 (offset 279 lines).
+patching file test/CodeGen/X86/codegen-prepare-collapse.ll
+patching file lib/CodeGen/SelectionDAG/SelectionDAGBuilder.cpp
+Hunk #1 succeeded at 3114 (offset 281 lines).
+patching file test/CodeGen/X86/fmf-reduction.ll
+patching file include/llvm/Analysis/ScalarEvolution.h
+patching file include/llvm/Analysis/ScalarEvolutionExpressions.h
+patching file lib/Analysis/ScalarEvolution.cpp
+patching file test/Transforms/LoopStrengthReduce/nonintegral.ll
+patching file lib/CodeGen/SelectionDAG/DAGCombiner.cpp
+Hunk #1 succeeded at 115 (offset -5 lines).
+Hunk #2 succeeded at 157 (offset -5 lines).
+Hunk #3 succeeded at 249 (offset -5 lines).
+Hunk #4 succeeded at 15439 (offset 2 lines).
+Hunk #5 succeeded at 15480 (offset 2 lines).
+Hunk #6 succeeded at 15491 (offset 2 lines).
+Hunk #7 succeeded at 15550 (offset 2 lines).
+patching file lib/Target/PowerPC/MCTargetDesc/PPCMCTargetDesc.cpp
+patching file test/MC/PowerPC/ppc64-localentry-symbols.s
+patching file lib/Target/PowerPC/MCTargetDesc/PPCMCTargetDesc.cpp
+Hunk #1 succeeded at 198 (offset -12 lines).
+patching file lib/Transforms/Instrumentation/ThreadSanitizer.cpp
+Hunk #1 succeeded at 326 (offset 30 lines).
+patching file lib/Target/X86/X86ISelDAGToDAG.cpp
+patching file lib/Target/X86/X86ISelLowering.cpp
+patching file lib/Target/X86/X86InstrAVX512.td
+patching file test/CodeGen/X86/avx512-select.ll
+patching file test/CodeGen/X86/combine-bitselect.ll
+patching file test/CodeGen/X86/vec_ssubo.ll
+patching file test/CodeGen/X86/vec_usubo.ll
+patching file lib/CodeGen/StackColoring.cpp
+Hunk #1 succeeded at 912 (offset -1 lines).
+patching file lib/CodeGen/CodeGenPrepare.cpp
+Hunk #1 succeeded at 498 (offset -42 lines).
+patching file tools/llvm-shlib/simple_version_script.map.in
+-- The C compiler identification is unknown
+-- The CXX compiler identification is unknown
+-- The ASM compiler identification is unknown
+-- Found assembler: /usr/bin/ccache
+-- Check for working C compiler: /usr/bin/ccache
+-- Check for working C compiler: /usr/bin/ccache -- broken
+-- Configuring incomplete, errors occurred!
+See also "/home/nanosoldier/workdir/tmpLgWzD2/deps/scratch/llvm-9.0.1/build_Release/CMakeFiles/CMakeOutput.log".
+See also "/home/nanosoldier/workdir/tmpLgWzD2/deps/scratch/llvm-9.0.1/build_Release/CMakeFiles/CMakeError.log".
+*** To install a newer version of cmake, run contrib/download_cmake.sh ***
